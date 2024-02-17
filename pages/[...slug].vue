@@ -1,0 +1,62 @@
+<template>
+  <div class="site">
+    <header>
+      <a>Marcal</a>
+    </header>
+    <main>
+      <div>
+        <ContentDoc class="post-section"/>
+      </div>
+
+    </main>
+  </div>
+
+</template>
+<style>
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: clamp(4.8rem, 4rem + 2.5vw, 8rem) clamp(24px, 1.7032rem + 1.9355vw, 48px) 8rem;
+}
+
+main div {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.post-section {
+  margin-top: 80px;
+
+  line-height: 1.7;
+  position: relative;
+
+  font-size: 20px;
+  letter-spacing: 0;
+  word-break: break-word;
+
+  display: grid;
+  grid-template-columns: repeat(12,minmax(0,1fr));
+}
+
+.post-section > :is(p, ul, ol) {
+  font-weight: 480;
+}
+
+.post-section > * {
+  grid-column: 4/span 6;
+}
+
+.post-section > * + * {
+  margin-bottom: 0;
+  margin-top: calc(1.6em*1.5);
+}
+
+</style>
+<script setup lang="ts">
+</script>
