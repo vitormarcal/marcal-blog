@@ -6,7 +6,8 @@ export default defineNuxtConfig({
         highlight: {
             theme: 'dracula',
             langs: [
-                'java'
+                'java',
+                'shell',
             ]
 
         },
