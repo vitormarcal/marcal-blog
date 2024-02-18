@@ -78,4 +78,10 @@ hr {
   width: 100%;
 }
 
+blockquote {
+  border-left: 4px solid #8DB500;
+  padding-left: 1rem;
+  margin-top: calc(2.4em*1.5);
+}
+
 </style>
