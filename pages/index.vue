@@ -1,0 +1,26 @@
+<script setup lang="ts">
+const posts = await queryContent()
+    .where({is_post: true})
+    .sort({ created_at: -1})
+    .without(['body'])
+    .find()
+</script>
+
+<template>
+  <div class="site">
+    <header>
+      <a href="/"> Marçal </a>
+    </header>
+    <main-content path="/">
+      <h3>Últimas publicações</h3>
+      <template v-for="post in posts" :key="post['_id']">
+        <post-item :post="post"/>
+      </template>
+    </main-content>
+
+  </div>
+</template>
+
+<style scoped>
+
+</style>

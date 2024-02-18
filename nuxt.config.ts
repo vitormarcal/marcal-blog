@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true
   },
-  modules: ['@nuxt/content']
+  modules: [
+      '@nuxt/content'
+  ],
+
 })

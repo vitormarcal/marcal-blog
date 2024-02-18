@@ -1,9 +1,5 @@
-# Nuxt Content
+# Olá, eu sou o Vítor Marçal. 😉
 
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/sobre). These 2 pages are rendered by the `pages/[...slug].vue` component.
+Escrevo para eu mesmo como uma forma de documentar e ter um Segundo Cerébro 🧠 !
 
 ---
-
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.

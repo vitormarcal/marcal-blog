@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtPage />
+    <NuxtPage/>
   </div>
 </template>
 <style>
@@ -17,13 +17,15 @@ body {
   min-height: 100vh;
   text-rendering: optimizespeed;
   margin: 0;
-  font-family: Manrope,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;;
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;;
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #fff;;
   letter-spacing: -.02em;
   line-height: 1.15;
 }
+
 h1 {
   font-size: 4.6rem;
 }
@@ -36,7 +38,7 @@ h3 {
   font-size: 1.8em;
 }
 
-h4,h5,h6 {
+h4, h5, h6 {
   font-size: 1.5em;
 }
 
@@ -68,6 +70,12 @@ img {
   width: 100%;
   display: block;
   max-width: 100%;
+}
+
+hr {
+  color: hsla(0, 0%, 100%, .2);
+  height: 1px;
+  width: 100%;
 }
 
 </style>
