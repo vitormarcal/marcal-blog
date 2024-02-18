@@ -1,11 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  content: {
-    documentDriven: true
-  },
-  modules: [
-      '@nuxt/content'
-  ],
+    devtools: {enabled: true},
+    content: {
+        documentDriven: true,
+        highlight: {
+            theme: 'dracula',
+            langs: [
+                'java'
+            ]
+
+        },
+    },
+    modules: [
+        '@nuxt/content'
+    ],
 
 })

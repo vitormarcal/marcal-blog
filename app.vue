@@ -84,4 +84,16 @@ blockquote {
   margin-top: calc(2.4em*1.5);
 }
 
+code {
+  font-size: 15px;
+  font-family: JetBrains Mono,Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
+}
+
+:not(pre) > code {
+  background-color: rgba(0,0,0,.1);;
+  border-radius: 3px;
+  color: #8DB500;
+  padding: .4rem;
+}
+
 </style>
