@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 h3 {
@@ -61,6 +61,13 @@ a:hover {
 
 span.obfuscated_email b {
   display: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 </style>
