@@ -24,6 +24,21 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.02em;
   line-height: 1.15;
 }
+h1 {
+  font-size: 4.6rem;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4,h5,h6 {
+  font-size: 1.5em;
+}
 
 blockquote, body, dd, dl, figure, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
@@ -37,6 +52,11 @@ a {
 
 a:hover {
   opacity: .8;
+}
+
+:is(h1,h2, h3, h4,h5,h6) a {
+  text-decoration: none;
+  color: #fff;
 }
 
 </style>

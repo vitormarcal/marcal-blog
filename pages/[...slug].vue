@@ -48,6 +48,14 @@ main div {
   font-weight: 480;
 }
 
+.post-section > p:first-of-type {
+  margin-top: 2rem;
+  color: hsla(0,0%,100%,.64);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.45;
+  max-width: 840px;
+}
 .post-section > * {
   grid-column: 4/span 6;
 }
@@ -59,4 +67,5 @@ main div {
 
 </style>
 <script setup lang="ts">
+const { page } = useContent()
 </script>
