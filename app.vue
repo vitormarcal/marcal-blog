@@ -59,4 +59,8 @@ a:hover {
   color: #fff;
 }
 
+span.obfuscated_email b {
+  display: none;
+}
+
 </style>

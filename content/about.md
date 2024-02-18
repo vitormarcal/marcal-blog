@@ -15,5 +15,5 @@ Este é um lugar para ser minha forma de expressão, refletir como sou, ou regis
 
 ### Contato
 
-Caso queira entrar em contato, mande-me uma mensagem para blog@marcal**.nottodayrobot**.dev
-[Back home](/)
+Caso queira entrar em contato, mande-me uma mensagem para
+<a><span class="obfuscated_email">blog@marcal<b>.nottodayrobot</b>.dev</span></a>
