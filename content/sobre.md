@@ -1,5 +1,6 @@
 ---
 title: Sobre
+author: Vítor Marçal
 ---
 # Sou o Vítor, tudo bem?
 
