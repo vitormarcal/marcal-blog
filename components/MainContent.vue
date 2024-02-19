@@ -58,6 +58,12 @@ main div {
   grid-column: 4/span 6;
 }
 
+@media (max-width: 767px) {
+  .post-section > * {
+    grid-column: 1/span 12;
+  }
+}
+
 .post-section > * + * {
   margin-bottom: 0;
   margin-top: calc(1.6em * 1.5);
