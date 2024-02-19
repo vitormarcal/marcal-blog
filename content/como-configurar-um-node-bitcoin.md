@@ -3,7 +3,7 @@ title: Como configurar um node bitcoin
 description: Aqui estão documentados os procedimentos ao instalar e executar meu próprio nó Bitcoin.
 author: Vítor Marçal
 created_at: 2024-02-15
-updated_at: 2024-02-18
+updated_at: 2024-02-19
 is_post: true
 tags:
   - bitcoin
@@ -14,12 +14,12 @@ Aqui estão documentados os procedimentos ao instalar e executar meu próprio n�
 ![Como configurar um node bitcoin](https://www.marcal.dev/content/images/size/w1200/2024/02/bitcoin-node.jpg)
 
 Existem diversos motivos para executar um nó Bitcoin, como a independência, já que você não depende de outros serviços para verificar informações na blockchain. Além disso, há a questão da privacidade, uma vez que ao usar serviços de terceiros, você pode ser rastreado, pois eles podem armazenar seu endereço IP e as transações que você consultou, podendo até mesmo compartilhar esses dados com governos ou outros terceiros. Outro motivo importante é contribuir para a rede Bitcoin, já que seu nó auxiliará na verificação de blocos.
-Se preferir, achei [esse vídeo prático em inglês](https://youtu.be/fx_mLXISrfM?si=AE-1M1H8ssRXcKDt). Você pode obter informações "do zero" sobre o Bitcoin a partir do [Guia Bitcoin](https://www.marcal.dev/guia-bitcoin/), o qual foi criado com base nas minhas anotações também. Não confie cegamente; verifique! ⚠️
-Inicialmente, é necessário baixar e instalar o Bitcoin Core e, em seguida, baixar toda a blockchain desde o início. Os passos necessários estão documentados no próprio [site oficial](https://bitcoin.org/en/full-node).
+Se preferir, achei [esse vídeo prático em inglês](https://youtu.be/fx_mLXISrfM?si=AE-1M1H8ssRXcKDt)[^1]. Você pode obter informações "do zero" sobre o Bitcoin a partir do [Guia Bitcoin](https://www.marcal.dev/guia-bitcoin/)[^2], o qual foi criado com base nas minhas anotações também. Não confie cegamente; verifique! ⚠️
+Inicialmente, é necessário baixar e instalar o Bitcoin Core e, em seguida, baixar toda a blockchain desde o início. Os passos necessários estão documentados no próprio [site oficial](https://bitcoin.org/en/full-node)[^3].
 
 Você pode instalá-lo em seu computador, desde que tenha armazenamento e recursos suficientes. Para executar um nó completo, com toda a blockchain, em 15 de fevereiro de 2024, são necessários aproximadamente 600GB. Caso não queira rodar um nó completo, ainda será preciso baixar toda a blockchain, mas depois é possível podar, reduzindo o armazenamento para cerca de 8GB.
 
-Para conferir o hardware que escolhi para rodar o nó, você pode visitar este [link, onde detalho as configurações do meu servidor](https://www.marcal.dev/meu-segundo-homelab-montado/). Após baixar e instalar o Bitcoin Core, você terá acesso aos programas bitcoind, bitcoin-qt e bitcoin-cli. Para obter mais informações, você pode visitar a [página do desenvolvedor do Bitcoin](https://developer.bitcoin.org/examples/intro.html). Para iniciar o Bitcoin Core, utilize o comando:
+Para conferir o hardware que escolhi para rodar o nó, você pode visitar este [link, onde detalho as configurações do meu servidor](https://www.marcal.dev/meu-segundo-homelab-montado/)[^4]. Após baixar e instalar o Bitcoin Core, você terá acesso aos programas bitcoind, bitcoin-qt e bitcoin-cli. Para obter mais informações, você pode visitar a [página do desenvolvedor do Bitcoin](https://developer.bitcoin.org/examples/intro.html)[^5]. Para iniciar o Bitcoin Core, utilize o comando:
 
 ```shell
 bitcoin -daemon
@@ -67,7 +67,7 @@ bitcoind -daemon -datadir=/outro/diretorio/qualquer/.bitcoin
 ```
 
 
-O problema é que, dessa forma, é preciso sempre lembrar de fornecer o diretório nos comandos. E caso o arquivo _[bitcoin.conf](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md)_ não esteja no diretório padrão (a pasta home), é necessário especificar a localização dele em outros comandos também. Portanto, resolvi criar um link simbólico do arquivo bitcoin.conf existente no diretório _/outro/diretorio/qualquer/general/.bitcoin_ dentro do diretório padrão do Bitcoin.
+O problema é que, dessa forma, é preciso sempre lembrar de fornecer o diretório nos comandos. E caso o arquivo _[bitcoin.conf](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md)_[^6] não esteja no diretório padrão (a pasta home), é necessário especificar a localização dele em outros comandos também. Portanto, resolvi criar um link simbólico do arquivo bitcoin.conf existente no diretório _/outro/diretorio/qualquer/general/.bitcoin_ dentro do diretório padrão do Bitcoin.
 
 ```shell
 ln -s /outro/diretorio/qualquer/.bitcoin/bitcoin.conf .bitcoin/bitcoin.conf
@@ -95,7 +95,7 @@ bitcoin -daemon
 
 **⚠️ Tenha cuidado! ⚠️ Não deve ser um problema deletar esses arquivos se você acabou de realizar uma instalação limpa. No entanto, se já baixou a blockchain, criou carteiras, tome cuidado e faça sempre backup!⚠️**
 
-É recomendável colocar uma senha para evitar execuções remotas não autorizadas. Para isso, baixei o rpcauth.py do código-fonte do [Bitcoin](https://github.com/bitcoin/bitcoin):
+É recomendável colocar uma senha para evitar execuções remotas não autorizadas. Para isso, baixei o rpcauth.py do código-fonte do [Bitcoin](https://github.com/bitcoin/bitcoin)[^7]:
 
 ```shell
 wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py
@@ -213,7 +213,7 @@ sudo systemctl status bitcoind
 
 
 Dessa forma, sempre que realizar um novo boot, o bitcoind iniciará automaticamente.
-Mais Informações sobre configurações de serviço para bitcoind [aqui](https://github.com/bitcoin/bitcoin/blob/master/doc/init.md).
+Mais Informações sobre configurações de serviço para bitcoind [aqui](https://github.com/bitcoin/bitcoin/blob/master/doc/init.md)[^8].
 
 ### ⚠️Tor⚠️
 
@@ -273,26 +273,24 @@ onlynet=onion
 
 Após reiniciar o computador, para confirmar que está utilizando a rede Tor, execute o comando `bitcoin-cli getnetworkinfo` e verifique se em `networks`, tanto _IPv4_ quanto _IPv6_, estão com o valor `"reachable": false,` e que em `localaddresses` há um _onion address_.
 
-Para fazer o upgrade de versão do bitcoind, pode seguir os mesmos passos da instalação inicial. O binário pode estar mais atualizado, com alguma versão experimental, disponível no [site do Bitcoin Core](https://bitcoincore.org/en/download/).
-
-### Referências
+Para fazer o upgrade de versão do bitcoind, pode seguir os mesmos passos da instalação inicial. O binário pode estar mais atualizado, com alguma versão experimental, disponível no [site do Bitcoin Core](https://bitcoincore.org/en/download/)[^9].
 
 ---
 
-1. Vídeo mão na massa instalando e rodando um node: [https://youtu.be/fx\_mLXISrfM?si=AE-1M1H8ssRXcKDt](https://youtu.be/fx_mLXISrfM?si=AE-1M1H8ssRXcKDt)
+[^1]: Vídeo mão na massa instalando e rodando um node: [https://youtu.be/fx\_mLXISrfM?si=AE-1M1H8ssRXcKDt](https://youtu.be/fx_mLXISrfM?si=AE-1M1H8ssRXcKDt)
 
-2.  Guia Bitcoin: [https://www.marcal.dev/guia-bitcoin/](https://www.marcal.dev/guia-bitcoin/) [↩︎](#fnref2)
+[^2]:  Guia Bitcoin: [https://www.marcal.dev/guia-bitcoin/](https://www.marcal.dev/guia-bitcoin/)
 
-3.  Sobre full nodes: [https://bitcoin.org/en/full-node](https://bitcoin.org/en/full-node) [↩︎](#fnref3)
+[^3]:  Sobre full nodes: [https://bitcoin.org/en/full-node](https://bitcoin.org/en/full-node)
 
-4.  O hardware onde roda meu node: [https://www.marcal.dev/meu-segundo-homelab-montado/](https://www.marcal.dev/meu-segundo-homelab-montado/) [↩︎](#fnref4)
+[^4]: O hardware onde roda meu node: [https://www.marcal.dev/meu-segundo-homelab-montado/](https://www.marcal.dev/meu-segundo-homelab-montado/)
 
-5.  Documentação para pessoas técnicas: [https://developer.bitcoin.org/examples/intro.html](https://developer.bitcoin.org/examples/intro.html) [↩︎](#fnref5)
+[^5]:  Documentação para pessoas técnicas: [https://developer.bitcoin.org/examples/intro.html](https://developer.bitcoin.org/examples/intro.html)
 
-6.  Sobre o arquivo bitcoin.conf [https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md) [↩︎](#fnref6)
+[^6]:  Sobre o arquivo bitcoin.conf [https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md)
 
-7.  Repósitorio oficial do Bitcoin no Github: [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) [↩︎](#fnref7)
+[^7]:Repósitorio oficial do Bitcoin no Github: [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)
 
-8.  Informações sobre configurações de serviço para bitcoind [https://github.com/bitcoin/bitcoin/blob/master/doc/init.md](https://github.com/bitcoin/bitcoin/blob/master/doc/init.md) [↩︎](#fnref8)
+[^8]:  Informações sobre configurações de serviço para bitcoind [https://github.com/bitcoin/bitcoin/blob/master/doc/init.md](https://github.com/bitcoin/bitcoin/blob/master/doc/init.md)
 
-9.  Bitcoin Core: [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/) [↩︎](#fnref9)
+[^9]:  Bitcoin Core: [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/)

@@ -3,6 +3,11 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     content: {
         documentDriven: true,
+        markdown: {
+          remarkPlugins: [
+              'remark-gfm',
+          ]
+        },
         highlight: {
             theme: 'dracula',
             langs: [
