@@ -84,6 +84,13 @@ blockquote {
   margin-top: calc(2.4em*1.5);
 }
 
+pre {
+  background: #2d2d2d;
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+}
+
 code {
   font-size: 15px;
   font-family: JetBrains Mono,Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
