@@ -44,7 +44,15 @@ h4, h5, h6 {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6em;
   }
 }
 
