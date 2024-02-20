@@ -3,7 +3,7 @@ title: Como configurar um node bitcoin
 description: Aqui estão documentados os procedimentos ao instalar e executar meu próprio nó Bitcoin.
 author: Vítor Marçal
 created_at: 2024-02-15
-updated_at: 2024-02-19
+updated_at: 2024-02-20
 is_post: true
 tags:
   - bitcoin
@@ -13,13 +13,24 @@ Aqui estão documentados os procedimentos ao instalar e executar meu próprio n�
 
 ![Como configurar um node bitcoin](https://www.marcal.dev/content/images/size/w1200/2024/02/bitcoin-node.jpg)
 
+## Sumário
+
+## Por que rodar um nó?
+
 Existem diversos motivos para executar um nó Bitcoin, como a independência, já que você não depende de outros serviços para verificar informações na blockchain. Além disso, há a questão da privacidade, uma vez que ao usar serviços de terceiros, você pode ser rastreado, pois eles podem armazenar seu endereço IP e as transações que você consultou, podendo até mesmo compartilhar esses dados com governos ou outros terceiros. Outro motivo importante é contribuir para a rede Bitcoin, já que seu nó auxiliará na verificação de blocos.
 Se preferir, achei [esse vídeo prático em inglês](https://youtu.be/fx_mLXISrfM?si=AE-1M1H8ssRXcKDt)[^1]. Você pode obter informações "do zero" sobre o Bitcoin a partir do [Guia Bitcoin](https://www.marcal.dev/guia-bitcoin/)[^2], o qual foi criado com base nas minhas anotações também. Não confie cegamente; verifique! ⚠️
 Inicialmente, é necessário baixar e instalar o Bitcoin Core e, em seguida, baixar toda a blockchain desde o início. Os passos necessários estão documentados no próprio [site oficial](https://bitcoin.org/en/full-node)[^3].
 
+
+## Instalação e configuração
+
 Você pode instalá-lo em seu computador, desde que tenha armazenamento e recursos suficientes. Para executar um nó completo, com toda a blockchain, em 15 de fevereiro de 2024, são necessários aproximadamente 600GB. Caso não queira rodar um nó completo, ainda será preciso baixar toda a blockchain, mas depois é possível podar, reduzindo o armazenamento para cerca de 8GB.
 
-Para conferir o hardware que escolhi para rodar o nó, você pode visitar este [link, onde detalho as configurações do meu servidor](https://www.marcal.dev/meu-segundo-homelab-montado/)[^4]. Após baixar e instalar o Bitcoin Core, você terá acesso aos programas bitcoind, bitcoin-qt e bitcoin-cli. Para obter mais informações, você pode visitar a [página do desenvolvedor do Bitcoin](https://developer.bitcoin.org/examples/intro.html)[^5]. Para iniciar o Bitcoin Core, utilize o comando:
+Para conferir o hardware que escolhi para rodar o nó, você pode visitar este [link, onde detalho as configurações do meu servidor](https://www.marcal.dev/meu-segundo-homelab-montado/)[^4].
+
+### Comandos básicos
+
+Após baixar e instalar o Bitcoin Core, você terá acesso aos programas bitcoind, bitcoin-qt e bitcoin-cli. Para obter mais informações, você pode visitar a [página do desenvolvedor do Bitcoin](https://developer.bitcoin.org/examples/intro.html)[^5]. Para iniciar o Bitcoin Core, utilize o comando:
 
 ```shell
 bitcoin -daemon
@@ -58,6 +69,7 @@ bitcoin-cli stop
 
 ```
 
+### Definindo o diretório de configurações do nó
 
 Normalmente, o diretório `.bitcoin` é inicializado na pasta home do usuário que está executando o comando. Optei por definir outro local para a pasta do Bitcoin:
 
@@ -94,6 +106,8 @@ bitcoin -daemon
 É possível definir caminhos diferentes para sua carteira, blocos, etc. Optei por concentrar tudo nesse diretório, então deletei todos os arquivos dentro da pasta .bitcoin na home, exceto o link simbólico bitcoin.conf.
 
 **⚠️ Tenha cuidado! ⚠️ Não deve ser um problema deletar esses arquivos se você acabou de realizar uma instalação limpa. No entanto, se já baixou a blockchain, criou carteiras, tome cuidado e faça sempre backup!⚠️**
+
+### Evitando execuções remotas não autorizadas
 
 É recomendável colocar uma senha para evitar execuções remotas não autorizadas. Para isso, baixei o rpcauth.py do código-fonte do [Bitcoin](https://github.com/bitcoin/bitcoin)[^7]:
 
@@ -141,6 +155,7 @@ rpcauth=um_usuario_qualquer:88d3ab05478ebca31b4aa61775949cd8$3035beb6aba42014ec7
 
 ```
 
+#### Análise das configurações
 
 Aqui está uma análise das configurações:
 
@@ -272,6 +287,8 @@ onlynet=onion
 
 
 Após reiniciar o computador, para confirmar que está utilizando a rede Tor, execute o comando `bitcoin-cli getnetworkinfo` e verifique se em `networks`, tanto _IPv4_ quanto _IPv6_, estão com o valor `"reachable": false,` e que em `localaddresses` há um _onion address_.
+
+## Atualizando o node
 
 Para fazer o upgrade de versão do bitcoind, pode seguir os mesmos passos da instalação inicial. O binário pode estar mais atualizado, com alguma versão experimental, disponível no [site do Bitcoin Core](https://bitcoincore.org/en/download/)[^9].
 

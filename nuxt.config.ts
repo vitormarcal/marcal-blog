@@ -4,9 +4,13 @@ export default defineNuxtConfig({
     content: {
         documentDriven: true,
         markdown: {
-          remarkPlugins: [
-              'remark-gfm',
-          ]
+            remarkPlugins: {
+                'remark-toc': {
+                    heading: '(table[ -]of[ -])?conteúdo|sumário|contents?|toc'
+                },
+                'remark-gfm': {},
+            }
+
         },
         highlight: {
             theme: 'dracula',

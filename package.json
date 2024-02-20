@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.12.0",
-    "nuxt": "^3.10.1"
+    "nuxt": "^3.10.1",
+    "remark-toc": "^9.0.0"
   }
 }
