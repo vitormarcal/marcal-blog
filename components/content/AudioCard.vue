@@ -214,7 +214,7 @@ function formatarSegundos(segundos: number): string {
   padding: 8px 12px;
   border: 0;
   font-family: inherit;
-  font-size: 1.15em;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.15em;
   background: 0 0;
@@ -344,6 +344,16 @@ function formatarSegundos(segundos: number): string {
 }
 
 @media (max-width: 640px) {
+  .audio-seek-slider {
+    width: 25px;
+  }
+}
+
+@media (max-width: 440px) {
+  .audio-volume-slider {
+    width: 25px;
+    display: none;
+  }
   .audio-seek-slider {
     display: none;
   }

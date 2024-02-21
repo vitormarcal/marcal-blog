@@ -19,7 +19,7 @@ const {page} = useContent()
 <style>
 main {
   flex-grow: 1;
-  padding: clamp(4.8rem, 4rem + 2.5vw, 8rem) clamp(24px, 1.7032rem + 1.9355vw, 48px) 8rem;
+  padding: clamp(4.8rem, 4rem + 2.5vw, 8rem) clamp(24px, 1.032rem + 1.9355vw, 48px) 8rem;
 }
 
 main div {
