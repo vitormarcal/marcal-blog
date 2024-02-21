@@ -117,4 +117,20 @@ code {
   padding: .4rem;
 }
 
+
+.audio-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 96px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1px rgba(124,139,154,.25);
+  padding: 1rem;
+}
+
+.audio-card audio {
+  background-color: #12283d;
+  color: #8DB500;
+}
+
 </style>
