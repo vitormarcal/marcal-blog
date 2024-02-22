@@ -8,9 +8,6 @@ const posts = await queryContent()
 
 <template>
   <div class="site">
-    <header>
-      <a href="/"> Marçal </a>
-    </header>
     <main-content path="/">
       <h3>Últimas publicações</h3>
       <template v-for="post in posts" :key="post['_id']">

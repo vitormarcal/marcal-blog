@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage/>
-  </div>
+  </NuxtLayout>
 </template>
 <style>
 *, ::after, ::before {
@@ -131,6 +131,12 @@ code {
 .audio-card audio {
   background-color: #12283d;
   color: #8DB500;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 </style>
