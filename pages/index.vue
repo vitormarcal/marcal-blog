@@ -7,7 +7,7 @@ const posts = await queryContent()
 </script>
 
 <template>
-  <div class="site">
+  <div>
     <main-content path="/">
       <h3>Últimas publicações</h3>
       <template v-for="post in posts" :key="post['_id']">

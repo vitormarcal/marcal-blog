@@ -1,5 +1,9 @@
 <script setup lang="ts">
+const emits = defineEmits(['is-head-open'])
 
+function toggleHead() {
+  emits('is-head-open')
+}
 </script>
 
 <template>
@@ -9,6 +13,9 @@
         <div class="head-brand-wrapper">
           <a href="/" class="head-logo"> Marçal </a>
         </div>
+        <button class="head-burger" @click="toggleHead">
+
+        </button>
       </div>
       <nav class="head-menu">
         <ul class="nav">
@@ -44,8 +51,8 @@ header {
   position: relative;
   background-color: transparent;
   font-size: 1.6rem;
-  padding-left: clamp(24px, 1.032rem + 1.9355vw, 48px) ;
-  padding-right: clamp(24px, 1.032rem + 1.9355vw, 48px) ;
+  padding-left: clamp(24px, 1.032rem + 1.9355vw, 48px);
+  padding-right: clamp(24px, 1.032rem + 1.9355vw, 48px);
 }
 
 .header-inner {
@@ -83,8 +90,50 @@ header {
   white-space: nowrap;
 }
 
+.head-burger {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+  height: 30px;
+  margin-right: -3px;
+  padding: 0;
+  position: relative;
+  width: 30px;
+}
+
+.head-burger::after,
+.head-burger::before {
+  background-color: #fff;
+  content: "";
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  transition: all .2s cubic-bezier(.04, .04, .12, .96) .1008s;
+  width: 24px;
+}
+
+.head-burger::after {
+  bottom: 11px;
+}
+
+.head-burger::before {
+  top: 11px;
+}
+
+.is-head-open .head-burger::after {
+  bottom: 14px;
+  transform: rotate(-45deg);
+}
+
+.is-head-open .head-burger::before {
+  top: 15px;
+  transform: rotate(45deg);
+}
+
 .head-menu::after, .head-menu::before {
-  background-color: hsla(0,0%, 100%,0.2);
+  background-color: hsla(0, 0%, 100%, 0.2);
 }
 
 .head-menu {
@@ -105,7 +154,6 @@ header {
   gap: 32px;
   font-size: 1.3rem;
 }
-
 
 @media (min-width: 992px) {
   .head-brand {
@@ -141,6 +189,14 @@ header {
     height: 64px;
   }
 
+  header.is-head-open {
+    height: 100%;
+    inset: 0;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 3999999;
+  }
+
   .header-inner {
     gap: 48px;
     grid-template-columns: 1fr;
@@ -154,6 +210,10 @@ header {
     grid-template-columns: 1fr auto auto;
     height: 64px;
     min-height: unset;
+  }
+
+  .head-burger {
+    display: block;
   }
 
   .head-menu {
