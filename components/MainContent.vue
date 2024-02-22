@@ -19,7 +19,7 @@ const {page} = useContent()
 <style>
 main {
   flex-grow: 1;
-  padding: clamp(4.8rem, 4rem + 2.5vw, 8rem) clamp(24px, 1.032rem + 1.9355vw, 48px) 8rem;
+  padding: clamp(2.8rem, 2.8rem + 1.5vw, 4rem) clamp(24px, 1.032rem + 1.9355vw, 48px) 8rem
 }
 
 main div {
@@ -28,7 +28,7 @@ main div {
 }
 
 .post-section {
-  margin-top: 80px;
+  margin-top: 10px;
 
   line-height: 1.7;
   position: relative;
