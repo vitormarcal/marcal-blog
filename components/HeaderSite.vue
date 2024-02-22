@@ -7,7 +7,7 @@ function toggleHead() {
 </script>
 
 <template>
-  <header>
+  <header id="head">
     <div class="header-inner">
       <div class="head-brand">
         <div class="head-brand-wrapper">
@@ -19,10 +19,10 @@ function toggleHead() {
       </div>
       <nav class="head-menu">
         <ul class="nav">
-          <li><a href="/"><a href="/"> Home </a> </a></li>
-          <li><a href="/"><a href="/"> Sobre </a></a></li>
-          <li><a href="/"> <a href="/"> Agora </a> </a></li>
-          <li><a href="/"> <a href="/"> Leituras de 2024 </a> </a></li>
+          <li style="transition-delay: 0.03s;"><a href="/"><a href="/"> Home </a> </a></li>
+          <li style="transition-delay: 0.06s;"><a href="/"><a href="/"> Sobre </a></a></li>
+          <li style="transition-delay: 0.09s;"><a href="/"> <a href="/"> Agora </a> </a></li>
+          <li style="transition-delay: 0.15s;"><a href="/"> <a href="/"> Leituras de 2024 </a> </a></li>
         </ul>
       </nav>
     </div>
@@ -189,7 +189,7 @@ header {
     height: 64px;
   }
 
-  header.is-head-open {
+  .is-head-open #head {
     height: 100%;
     inset: 0;
     overflow-y: scroll;
@@ -225,19 +225,37 @@ header {
     visibility: hidden;
   }
 
+  .is-head-open header .head-menu {
+    opacity: 1;
+    position: static;
+    visibility: visible;
+  }
+
   .nav {
     align-items: center;
     gap: 20px;
     line-height: 1.4;
   }
 
+  .is-head-open .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+
   .nav li {
     opacity: 0;
     transform: translateY(-4px);
   }
 
+  .is-head-open .nav li {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform .2s, opacity .2s;
+    transition-delay: 0s, 0s;
+  }
+
   .nav a {
-    font-size: 2.6rem;
     font-weight: 600;
     text-transform: none
   }
