@@ -80,6 +80,10 @@ figcaption {
   font-size: 1.3rem;
 }
 
+figcaption p {
+  white-space: pre-wrap;
+}
+
 a {
   text-decoration: underline;
   color: #8DB500;
