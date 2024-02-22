@@ -8,6 +8,18 @@
   box-sizing: border-box;
 }
 
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  border: 0;
+  display: block;
+  overflow: hidden;
+}
+
 body {
   background-color: #12283d;
   color: #fff;
@@ -58,6 +70,14 @@ h4, h5, h6 {
 
 blockquote, body, dd, dl, figure, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+}
+
+figcaption {
+  color: hsla(0,0%,100%,.64);;
+  line-height: 1.4;
+  margin-top: 1.6rem;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 a {
