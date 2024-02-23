@@ -29,7 +29,8 @@ White Wine In The Sun (2021) by Tim Minchin: BACK
 
 Segue a letra da versão original em Inglês e a traduzida em Português.
 
-#### White Wine In The Sun - Versão original
+
+::toggle-card{title="White Wine In The Sun - Versão original"}
 
 I really like Christmas  
 It's sentimental I know  
@@ -127,8 +128,9 @@ Waiting
 
 I really like Christmas  
 It's sentimental I know
+::
 
-#### Vinho Branco Ao Sol - Tradução
+::toggle-card{title="Vinho Branco Ao Sol - Tradução"}
 
 Eu realmente gosto do Natal  
 É sentimental, eu sei  
@@ -226,3 +228,5 @@ Esperando
 
 Eu gosto mesmo do Natal  
 É sentimental, eu sei
+
+::
