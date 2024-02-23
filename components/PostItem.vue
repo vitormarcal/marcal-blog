@@ -1,12 +1,10 @@
 <script setup lang="ts">
+import {formatDate} from "~/utils/date-utils";
+
 const props = defineProps(['post'])
 
 const formattedDate = computed(() => {
-  return new Date(props.post.created_at).toLocaleDateString('pt-BR', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  })
+  return formatDate(props.post.created_at)
 })
 </script>
 
