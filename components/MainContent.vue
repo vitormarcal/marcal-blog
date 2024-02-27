@@ -7,9 +7,26 @@ const {page} = useContent()
 <template>
   <main>
     <div>
-      <ContentDoc class="post-section" :path="path"/>
+
+
+      <ContentDoc class="post-section" :path="path" v-slot="{ doc }">
+
+        <article class="post-section" v-if="page.is_post">
+          <h1>
+            {{ doc.title }}
+          </h1>
+          <p>
+            {{ doc.description }}
+
+          </p>
+          <post-times :created-at="page.created_at" :updated-at="page.updated_at"/>
+          <post-tags :tags="page.tags"/>
+        </article>
+
+        <ContentRenderer :value="doc" class="post-section"/>
+      </ContentDoc>
       <div class="post-section">
-        <slot />
+        <slot/>
       </div>
 
     </div>

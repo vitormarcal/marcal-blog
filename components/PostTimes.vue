@@ -30,6 +30,7 @@ const updatedAt = computed(() => {
 .post-times {
   font-size: 15px;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .updated-at,
