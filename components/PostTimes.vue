@@ -1,5 +1,16 @@
 <script setup lang="ts">
-defineProps(['createdAt', 'updatedAt'])
+import {formatDate} from "~/utils/date-utils";
+
+const props = defineProps(['createdAt', 'updatedAt'])
+
+const createdAt = computed(() => {
+  return formatDate(props.createdAt)
+})
+
+const updatedAt = computed(() => {
+  return formatDate(props.updatedAt)
+})
+
 </script>
 
 <template>
