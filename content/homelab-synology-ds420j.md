@@ -9,9 +9,6 @@ tags:
   - homelab
 ---
 
-# Home lab - Synology DS420j
-Descrevo as especificações do meu primeiro servidor, o NAS de entrada Synology DS420j e impressões gerais sobre ele
-
 ![Home lab - Synology DS420j](https://www.marcal.dev/content/images/size/w1200/2023/12/20231208_173734.heic_compressed.JPEG)
 
 Synology DS420J by Acervo Pessoal

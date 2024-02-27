@@ -7,8 +7,6 @@ is_post: true
 tags:
   - liberdades
 ---
-# Em defesa da menor minoria
-O que são direitos e privilégios, e por que devemos defender o direito às liberdades individuais?
 
 ![Em defesa da menor minoria](https://www.marcal.dev/content/images/size/w1200/2023/11/photo-1591189824978-f02efb41ae13.jpg)
 

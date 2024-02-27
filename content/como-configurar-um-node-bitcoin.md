@@ -8,8 +8,6 @@ is_post: true
 tags:
   - bitcoin
 ---
-# Como configurar um node bitcoin
-Aqui estão documentados os procedimentos ao instalar e executar meu próprio nó Bitcoin.
 
 ![Como configurar um node bitcoin](https://www.marcal.dev/content/images/size/w1200/2024/02/bitcoin-node.jpg)
 

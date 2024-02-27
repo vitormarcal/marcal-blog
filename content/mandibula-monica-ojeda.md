@@ -8,9 +8,6 @@ tags:
   - livro
 ---
 
-# Mandíbula - Mónica Ojeda
-Uma leitura desconcertante, mas muito boa, que faz jus ao gênero do Horror. Aqui, o Horror Branco lembra muito o Horror Cósmico de Lovecraft.
-
 ![Mandíbula - Mónica Ojeda](https://www.marcal.dev/content/images/size/w1200/2023/12/capa-do-livro-mandibula.jpg)
 
 Photo by Editora Autêntica Contemporânea

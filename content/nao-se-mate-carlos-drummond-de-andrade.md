@@ -8,9 +8,6 @@ tags:
   - poesis
 ---
 
-# Não se mate, de Carlos Drummond de Andrade
-
-Carlos, sossegue, o amor é isso que você está vendo; hoje beija, amanhã não beija, depois de amanhã é domingo e
 segunda-feira ninguém sabe o que será.
 
 ![Não se mate, de Carlos Drummond de Andrade](https://www.marcal.dev/content/images/size/w1200/2023/11/photo-1525120334885-38cc03a6ec77.jpg)

@@ -7,8 +7,6 @@ is_post: true
 tags:
   - programação
 ---
-# Como mockar requisições do retrofit
-Uma simples maneira de mockar requisições ultilizando Retrofit, OkHttp e continuar com seus testes unitários.
 
 ![Como mockar requisições do retrofit](https://www.marcal.dev/content/images/size/w1200/2023/12/Kawarimi_-Kakashi_-_Mang--.webp)
 
