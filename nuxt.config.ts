@@ -22,7 +22,8 @@ export default defineNuxtConfig({
         },
     },
     modules: [
-        '@nuxt/content'
+        '@nuxt/content',
+        'nuxt-feedme'
     ],
 
 })
