@@ -8,12 +8,6 @@ useHead({
   htmlAttrs: {
     lang: 'pt-BR'
   },
-  link: [
-    {
-      rel: 'canonical',
-      href: 'www.marcal.dev'
-    }
-  ]
 })
 </script>
 <style>

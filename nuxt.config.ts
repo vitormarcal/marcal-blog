@@ -23,12 +23,11 @@ export default defineNuxtConfig({
         },
     },
     modules: [
-        '@nuxt/content',
-        'nuxt-feedme'
+        '@nuxt/content'
     ],
     nitro: {
         prerender: {
-            routes: ['/sitemap.xml']
+            routes: ['/atom','/feed.xml','/sitemap.xml']
         }
     }
 

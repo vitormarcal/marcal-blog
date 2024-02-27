@@ -13,7 +13,7 @@
     "sitemap": "^7.1.1"
   },
   "devDependencies": {
-    "nuxt": "^3.10.2",
-    "nuxt-feedme": "^1.0.0"
+    "feed": "^4.2.2",
+    "nuxt": "^3.10.2"
   }
 }
