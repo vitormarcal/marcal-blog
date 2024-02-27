@@ -26,5 +26,10 @@ export default defineNuxtConfig({
         '@nuxt/content',
         'nuxt-feedme'
     ],
+    nitro: {
+        prerender: {
+            routes: ['/sitemap.xml']
+        }
+    }
 
 })
