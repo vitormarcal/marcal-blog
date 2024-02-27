@@ -3,6 +3,19 @@
     <NuxtPage/>
   </NuxtLayout>
 </template>
+<script setup lang="ts">
+useHead({
+  htmlAttrs: {
+    lang: 'pt-BR'
+  },
+  link: [
+    {
+      rel: 'canonical',
+      href: 'www.marcal.dev'
+    }
+  ]
+})
+</script>
 <style>
 *, ::after, ::before {
   box-sizing: border-box;

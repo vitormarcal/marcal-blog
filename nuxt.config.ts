@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     devtools: {enabled: true},
     content: {
+        defaultLocale: 'pt-BR',
         documentDriven: true,
         markdown: {
             remarkPlugins: {
