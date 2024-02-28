@@ -11,10 +11,14 @@ const updatedAt = computed(() => {
   return formatDate(props.updatedAt)
 })
 
+const hasDates = computed(() => {
+  return !!props.createdAt || !!props.updatedAt
+})
+
 </script>
 
 <template>
-  <p class="post-times">
+  <p class="post-times" v-if="hasDates">
               <span>
               > <time class="created-at">{{ createdAt }}</time>
             </span>

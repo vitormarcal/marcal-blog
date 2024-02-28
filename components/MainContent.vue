@@ -11,7 +11,7 @@ const {page} = useContent()
 
       <ContentDoc class="post-section" :path="path" v-slot="{ doc }">
 
-        <article class="post-section" v-if="page.is_post">
+        <article class="post-section">
           <h1>
             {{ doc.title }}
           </h1>
@@ -23,7 +23,7 @@ const {page} = useContent()
           <post-tags :tags="page.tags"/>
         </article>
 
-        <ContentRenderer :value="doc" class="post-section"/>
+        <ContentRenderer :value="doc" class="post-section content-section"/>
       </ContentDoc>
       <div class="post-section">
         <slot/>
@@ -62,7 +62,7 @@ main div {
   font-weight: 480;
 }
 
-.post-section > p:first-of-type {
+.post-section:not(.content-section)  > p:first-of-type {
   margin-top: 2rem;
   color: hsla(0, 0%, 100%, .64);
   font-size: 24px;

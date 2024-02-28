@@ -19,10 +19,10 @@ function toggleHead() {
       </div>
       <nav class="head-menu">
         <ul class="nav">
-          <li style="transition-delay: 0.03s;"><a href="/"><a href="/"> Home </a> </a></li>
-          <li style="transition-delay: 0.06s;"><a href="/"><a href="/"> Sobre </a></a></li>
-          <li style="transition-delay: 0.09s;"><a href="/"> <a href="/"> Agora </a> </a></li>
-          <li style="transition-delay: 0.15s;"><a href="/"> <a href="/"> Leituras de 2024 </a> </a></li>
+          <li style="transition-delay: 0.03s;"><a href="/"> Home </a></li>
+          <li style="transition-delay: 0.06s;"><a href="/sobre"> Sobre </a></li>
+          <li style="transition-delay: 0.09s;"><a href="/agora"> Agora </a></li>
+          <li style="transition-delay: 0.15s;"><a href="/"> Leituras de 2024 </a></li>
         </ul>
       </nav>
     </div>
