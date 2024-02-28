@@ -5,6 +5,19 @@ const headerClass = computed(() => {
     'is-head-open': headOpen.value
   }
 })
+const route = useRoute()
+useHead({
+  htmlAttrs: {
+    lang: 'pt-BR'
+  },
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://wwww.marcal.dev' + route.path
+    }
+  ]
+})
+
 </script>
 
 <template>

@@ -36,7 +36,6 @@ export const generateFeed = (articles: ParsedContent[]) => {
     }
 
     articles.forEach((article) => {
-        console.log(article)
         feed.addItem({
             title: article.title ? article.title : "Missing Title",
             id: article._path,
