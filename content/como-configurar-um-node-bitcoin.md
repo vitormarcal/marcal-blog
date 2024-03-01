@@ -2,7 +2,7 @@
 title: Como configurar um node bitcoin
 description: Aqui estão documentados os procedimentos ao instalar e executar meu próprio nó Bitcoin.
 author: Vítor Marçal
-created_at: 2024-02-15
+created_at: 2024-02-15T14:53:13.000Z
 updated_at: 2024-02-20
 is_post: true
 tags:

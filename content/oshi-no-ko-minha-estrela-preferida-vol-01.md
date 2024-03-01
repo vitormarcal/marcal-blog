@@ -2,8 +2,7 @@
 title: Oshi no Ko - Minha Estrela Preferida Vol. 01
 description: Você pode sonhar com o mundo do entretenimento... mas é melhor não ficar alimentando ilusões sobre ele. Este não é um lugar de arte. Mas , sim, de negócios.
 author: Vítor Marçal
-created_at: 2024-02-15
-updated_at: 2024-02-15
+created_at: 2024-02-15T16:44:47.000Z
 is_post: true
 ---
 
