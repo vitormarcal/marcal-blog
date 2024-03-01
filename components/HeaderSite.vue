@@ -22,7 +22,7 @@ function toggleHead() {
           <li style="transition-delay: 0.03s;"><a href="/"> Home </a></li>
           <li style="transition-delay: 0.06s;"><a href="/sobre"> Sobre </a></li>
           <li style="transition-delay: 0.09s;"><a href="/agora"> Agora </a></li>
-          <li style="transition-delay: 0.15s;"><a href="/"> Leituras de 2024 </a></li>
+          <li style="transition-delay: 0.15s;"><a href="/leituras-de-2024"> Leituras de 2024 </a></li>
         </ul>
       </nav>
     </div>
