@@ -8,7 +8,7 @@ tags:
   - natal
 ---
 
-![Feliz Natal](https://www.marcal.dev/content/images/size/w1200/2023/12/photo-1498429152472-9a433d9ddf3b.jpg)
+![Feliz Natal](img/feliz-natal.jpg)
 
 Photo by [Matthieu Joannon](https://unsplash.com/@matt_j?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 

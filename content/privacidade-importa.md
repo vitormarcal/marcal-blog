@@ -8,7 +8,7 @@ tags:
   - privacidade
 ---
 
-![Privacidade importa](https://www.marcal.dev/content/images/size/w1200/2023/12/photo-1590856029826-c7a73142bbf1.jpg)
+![Privacidade importa](img/privacidade-importa.jpg)
 
 Photo by [Tobias Tullius](https://unsplash.com/@tobiastu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 

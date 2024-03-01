@@ -10,7 +10,7 @@ tags:
 
 segunda-feira ninguém sabe o que será.
 
-![Não se mate, de Carlos Drummond de Andrade](https://www.marcal.dev/content/images/size/w1200/2023/11/photo-1525120334885-38cc03a6ec77.jpg)
+![Não se mate, de Carlos Drummond de Andrade](img/nao-se-mate-carlos.jpg)
 
 Photo
 by [Kristina Tripkovic](https://unsplash.com/@tinamosquito?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

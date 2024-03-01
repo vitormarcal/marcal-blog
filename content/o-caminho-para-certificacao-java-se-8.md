@@ -9,7 +9,7 @@ tags:
   - java
 ---
 
-![O caminho para certificação Java 8](https://www.marcal.dev/content/images/size/w1200/2023/11/certification.png)
+![O caminho para certificação Java 8](img/certification.png)
 
 ## Sumário
 

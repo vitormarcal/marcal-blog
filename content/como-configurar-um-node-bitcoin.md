@@ -9,7 +9,7 @@ tags:
   - bitcoin
 ---
 
-![Como configurar um node bitcoin](https://www.marcal.dev/content/images/size/w1200/2024/02/bitcoin-node.jpg)
+![Como configurar um node bitcoin](img/bitcoin-node.jpg)
 
 ## Sumário
 

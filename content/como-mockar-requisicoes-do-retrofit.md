@@ -8,7 +8,7 @@ tags:
   - programação
 ---
 
-![Como mockar requisições do retrofit](https://www.marcal.dev/content/images/size/w1200/2023/12/Kawarimi_-Kakashi_-_Mang--.webp)
+![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)
 
 __Kawarimi no Jutsu__ - Técnica de substituição / Photo by Naruto
 

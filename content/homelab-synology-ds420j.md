@@ -9,7 +9,7 @@ tags:
   - homelab
 ---
 
-![Home lab - Synology DS420j](https://www.marcal.dev/content/images/size/w1200/2023/12/20231208_173734.heic_compressed.JPEG)
+![Home lab - Synology DS420j](img/home-lab-synology.jpeg)
 
 Synology DS420J by Acervo Pessoal
 

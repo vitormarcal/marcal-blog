@@ -8,7 +8,7 @@ tags:
   - livro
 ---
 
-![Mandíbula - Mónica Ojeda](https://www.marcal.dev/content/images/size/w1200/2023/12/capa-do-livro-mandibula.jpg)
+![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)
 
 Photo by Editora Autêntica Contemporânea
 

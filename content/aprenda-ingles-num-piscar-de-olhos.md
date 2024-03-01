@@ -9,7 +9,7 @@ tags:
   - livro
 ---
 
-![Aprenda Inglês num piscar de olhos](https://www.marcal.dev/content/images/size/w1200/2024/02/aprenda-ingles-num-piscar-de-olhos.jpg)
+![Aprenda Inglês num piscar de olhos](img//aprenda-ingles-num-piscar-de-olhos.jpg)
 
 Outro dia, enquanto passeava na livraria, esse livro chamou minha atenção. Sem saber nada sobre ele, decidi comprá-lo
 por 15 reais, acreditando que seria um bom investimento. Surpreendentemente, o livro estava mais barato na livraria do

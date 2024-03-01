@@ -8,7 +8,7 @@ tags:
   - livro
 ---
 
-![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](https://www.marcal.dev/content/images/size/w1200/2024/02/dez-argumentos-para-deletar.jpg)
+![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](img/dez-argumentos-para-deletar.jpg)
 
 A leitura deste livro trouxe algumas boas impressões sobre como o vício nas telas e nas redes sociais pode nos causar problemas tanto como indivíduos quanto para a sociedade em geral. Não que eu pretenda excluir todas as minhas redes sociais, que não são tantas assim, entretanto, o uso consciente das tecnologias se faz realmente necessário.
 
