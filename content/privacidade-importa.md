@@ -7,6 +7,8 @@ is_post: true
 tags:
   - privacidade
   - liberdade
+related:
+  - "[[dez-argumentos-para-voce-deletar-agora-suas-redes-sociais]]"
 ---
 
 ![Privacidade importa](img/privacidade-importa.jpg)

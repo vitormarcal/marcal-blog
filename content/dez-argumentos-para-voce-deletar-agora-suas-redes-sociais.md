@@ -7,6 +7,9 @@ is_post: true
 tags:
   - livros
   - privacidade
+related:
+  - "[[leituras-de-2024]]"
+  - "[[privacidade-importa]]"
 ---
 
 ![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](img/dez-argumentos-para-deletar.jpg)

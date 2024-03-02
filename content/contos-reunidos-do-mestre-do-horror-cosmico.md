@@ -8,6 +8,8 @@ is_post: true
 tags:
   - livros
   - horror
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 # Contos Reunidos do Mestre do Horror Cósmico

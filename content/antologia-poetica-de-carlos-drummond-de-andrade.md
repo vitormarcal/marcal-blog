@@ -7,6 +7,9 @@ is_post: true
 tags:
   - livros
   - poesia
+related:
+  - "[[leituras-de-2024]]"
+  - "[[nao-se-mate-carlos-drummond-de-andrade]]"
 ---
 
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

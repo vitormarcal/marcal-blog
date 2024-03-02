@@ -7,6 +7,8 @@ is_post: true
 tags:
   - livros
   - horror
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)

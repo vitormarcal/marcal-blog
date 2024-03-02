@@ -8,6 +8,8 @@ tags:
   - livros
   - liberdade
 updated_at: 2024-03-02
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)

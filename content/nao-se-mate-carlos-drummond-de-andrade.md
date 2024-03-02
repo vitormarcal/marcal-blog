@@ -7,6 +7,8 @@ is_post: true
 tags:
   - poesia
   - amor
+related:
+  - "[[antologia-poetica-de-carlos-drummond-de-andrade]]"
 ---
 
 segunda-feira ninguém sabe o que será.

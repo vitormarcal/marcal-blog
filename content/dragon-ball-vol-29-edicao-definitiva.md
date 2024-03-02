@@ -8,6 +8,8 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-vol-29-edicao-definitiva.jpg)

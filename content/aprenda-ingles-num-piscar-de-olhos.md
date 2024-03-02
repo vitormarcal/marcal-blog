@@ -7,6 +7,8 @@ updated_at: 2024-02-21
 is_post: true
 tags:
   - livros
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)

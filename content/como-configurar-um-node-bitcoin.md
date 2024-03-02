@@ -7,6 +7,7 @@ updated_at: 2024-02-20
 is_post: true
 tags:
   - bitcoin
+related:
 ---
 
 ![Como configurar um node bitcoin](img/bitcoin-node.jpg)

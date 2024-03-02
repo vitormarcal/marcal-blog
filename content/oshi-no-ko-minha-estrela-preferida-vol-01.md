@@ -7,6 +7,8 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)

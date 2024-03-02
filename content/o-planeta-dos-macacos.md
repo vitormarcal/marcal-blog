@@ -8,6 +8,8 @@ is_post: true
 tags:
   - livros
   - sci-fi
+related:
+  - "[[leituras-de-2024]]"
 ---
 
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)
