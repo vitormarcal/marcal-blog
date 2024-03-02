@@ -7,7 +7,7 @@ const posts = await queryContent()
     .without(['body'])
     .find()
 
-const teste = await queryContent()
+const tags = await queryContent()
     .where({tags: {$exists: true}})
     .sort({created_at: -1})
     .only(['tags'])
@@ -20,7 +20,7 @@ const isMdc = computed(() => {
 const grouped = computed(() => {
 
   const result: { [key: string]: number } = {};
-  teste.forEach((item) => {
+  tags.forEach((item) => {
     item.tags.forEach((tag: string) => {
       result[tag] = (result[tag] || 0) + 1;
     });
@@ -34,7 +34,7 @@ const grouped = computed(() => {
   <div>
     <main-content>
       <div v-if="isMdc">
-        <post-tags  :grouped-tags="grouped" />
+        <post-tags :grouped-tags="grouped"/>
       </div>
 
 
