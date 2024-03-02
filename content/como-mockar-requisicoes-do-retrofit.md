@@ -6,7 +6,7 @@ created_at: 2019-08-27
 is_post: true
 tags:
   - tecnologia
-  - programação
+  - programacao
 ---
 
 ![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)
