@@ -18,7 +18,7 @@ function toggleHead() {
         </button>
       </div>
       <nav class="head-menu">
-        <ul class="nav">
+        <ul class="nav" @click="toggleHead">
           <li style="transition-delay: 0.03s;"><NuxtLink to="/"> Home </NuxtLink></li>
           <li style="transition-delay: 0.06s;"><NuxtLink to="/sobre"> Sobre </NuxtLink></li>
           <li style="transition-delay: 0.09s;"><NuxtLink to="/agora"> Agora </NuxtLink></li>
