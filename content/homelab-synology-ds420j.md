@@ -7,6 +7,7 @@ updated_at: 2023-02-21
 is_post: true
 tags:
   - homelab
+  - tecnologia
 ---
 
 ![Home lab - Synology DS420j](img/home-lab-synology.jpeg)

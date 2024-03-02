@@ -5,7 +5,7 @@ author: Vítor Marçal
 created_at: 2019-06-05
 is_post: true
 tags:
-  - liberdades
+  - liberdade
 ---
 
 ![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)

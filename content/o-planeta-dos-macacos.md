@@ -5,6 +5,9 @@ author: Vítor Marçal
 created_at: 2024-02-26
 updated_at: 2024-02-26
 is_post: true
+tags:
+  - livros
+  - ficção-científica
 ---
 
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

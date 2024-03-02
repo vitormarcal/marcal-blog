@@ -5,7 +5,8 @@ author: Vítor Marçal
 created_at: 2020-02-03
 is_post: true
 tags:
-  - poesis
+  - poesia
+  - amor
 ---
 
 segunda-feira ninguém sabe o que será.

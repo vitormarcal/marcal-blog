@@ -1,10 +1,21 @@
 <script setup lang="ts">
-defineProps(['tags'])
+defineProps(['tags', 'groupedTags'])
 </script>
 
 <template>
   <ul class="post-tags">
-    <li v-for="tag in tags">#{{ tag }}</li>
+    <li v-for="tag in tags">
+      <NuxtLink :to="'/tags/' + tag">
+        #{{ tag }}
+      </NuxtLink>
+    </li>
+
+
+    <li v-for="(count, tag) in groupedTags">
+      <NuxtLink :to="'/tags/' + tag">
+        #{{ tag }} ({{ count }})
+      </NuxtLink>
+    </li>
   </ul>
 
 </template>
@@ -13,6 +24,7 @@ defineProps(['tags'])
 
 .post-tags {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin-top: 0;
   padding: 0;
@@ -34,6 +46,10 @@ defineProps(['tags'])
 .post-tags li:hover {
   opacity: .8;
   color: #8DB500;
+}
+
+a {
+  text-decoration: none;
 }
 
 </style>

@@ -6,7 +6,8 @@ created_at: 2024-02-07
 updated_at: 2024-02-07
 is_post: true
 tags:
-  - livro
+  - livros
+  - quadrinhos
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

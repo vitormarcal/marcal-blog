@@ -6,7 +6,8 @@ created_at: 2019-03-19
 updated_at: 2024-02-20
 is_post: true
 tags:
-  - java
+  - tecnologia
+  - programação
 ---
 
 ![O caminho para certificação Java 8](img/certification.png)

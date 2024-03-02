@@ -6,7 +6,7 @@ created_at: 2024-01-25
 updated_at: 2024-01-25
 is_post: true
 tags:
-  - livro
+  - livros
 ---
 
 ![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](img/a-navalha-de-ockham.jpg)

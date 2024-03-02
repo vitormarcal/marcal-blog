@@ -5,7 +5,8 @@ author: Vítor Marçal
 created_at: 2023-12-01
 is_post: true
 tags:
-  - livro
+  - livros
+  - horror
 ---
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)

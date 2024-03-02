@@ -5,6 +5,7 @@ author: Vítor Marçal
 created_at: 2019-08-27
 is_post: true
 tags:
+  - tecnologia
   - programação
 ---
 

@@ -4,6 +4,9 @@ description: Você pode sonhar com o mundo do entretenimento... mas é melhor n�
 author: Vítor Marçal
 created_at: 2024-02-15T16:44:47.000Z
 is_post: true
+tags:
+  - livros
+  - quadrinhos
 ---
 
 ![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)

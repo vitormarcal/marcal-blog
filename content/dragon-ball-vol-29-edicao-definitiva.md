@@ -6,10 +6,11 @@ created_at: 2024-01-04
 updated_at: 2024-01-04
 is_post: true
 tags:
-  - livro
+  - livros
+  - quadrinhos
 ---
 
-![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-vol-29-edicao-definitiva)
+![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-vol-29-edicao-definitiva.jpg)
 
 Dragon Ball Vol 29 - Edição DefinitivaDragon Ball Vol 29 - Edição Definitiva / Photo by Acervo Pessoal
 

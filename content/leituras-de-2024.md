@@ -5,6 +5,8 @@ author: Vítor Marçal
 created_at: 2024-01-16
 updated_at: 2024-02-27
 is_post: true
+tags:
+  - livros
 ---
 
 
@@ -32,7 +34,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 
 ### Lendo
 
-1.  [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horro-cosmico) de H. P. Lovecraft, desde 2024-01-25
+1.  [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft, desde 2024-01-25
 
 ### Quero Ler
 

@@ -6,7 +6,8 @@ created_at: 2024-01-28
 updated_at: 2024-02-02
 is_post: true
 tags:
-  - livro
+  - livros
+  - horror
 ---
 
 # Contos Reunidos do Mestre do Horror Cósmico

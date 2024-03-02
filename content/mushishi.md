@@ -5,7 +5,8 @@ author: Vítor Marçal
 created_at: 2024-01-15
 is_post: true
 tags:
-  - livro
+  - livros
+  - quadrinhos
 ---
 
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

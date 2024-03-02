@@ -5,7 +5,8 @@ author: Vítor Marçal
 created_at: 2024-01-11
 is_post: true
 tags:
-  - livro
+  - livros
+  - poesia
 ---
 
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

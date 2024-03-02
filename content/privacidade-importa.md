@@ -6,6 +6,7 @@ created_at: 2023-12-12
 is_post: true
 tags:
   - privacidade
+  - liberdade
 ---
 
 ![Privacidade importa](img/privacidade-importa.jpg)

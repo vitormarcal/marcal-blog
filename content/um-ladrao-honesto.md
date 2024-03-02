@@ -5,7 +5,9 @@ author: Vítor Marçal
 created_at: 2023-12-18
 is_post: true
 tags:
-  - livro
+  - livros
+  - liberdade
+updated_at: 2024-03-02
 ---
 
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)
@@ -16,7 +18,7 @@ No decorrer da leitura, destaquei uma citação muito verdadeira que não pode s
 
 > Ao meu ver, não há um verme pior no mundo do que um ladrão. Outros podem levar algo de graça, mas um ladrão rouba o trabalho das suas mãos, o suor da sua testa, o seu tempo...
 
-Seja o ladrão moderno de galinhas (um ladrão de celular), um funcionário público corrupto, um político desviando verbas, um comunista ou um fascista, todos, de uma maneira ou de outra, são ladrões que usurpam o fruto do nosso trabalho, o esforço dedicado e nosso bem mais valioso: o tempo. Cada bem conquistado representa horas de trabalho, distante da família, do descanso, com sacrifícios significativos.
+Seja o ladrão moderno de galinhas (um ladrão de celular), um funcionário público corrupto, um político desviando verbas, um comunista ou um fascista, todos, de uma maneira ou de outra, são ladrões que usurpam o fruto do nosso trabalho, o esforço dedicado e nosso bem mais valioso: o tempo. Cada bem conquistado representa horas de trabalho, distante da família, do descanso, com sacrifícios significativos. Aquele que rouba horas de trabalho, rouba tempo de vida, de modo que aquele que rouba alguém rouba sua liberdade!
 
 Registro isso ao notar que o brasileiro médio trabalha quase 5 meses para pagar impostos e que, no [site impostometro](https://impostometro.com.br/), na data de hoje, registra 2.93 trilhões de impostos retirados da população. Por muito menos, houve a inconfidência mineira e toda a história envolvendo Tiradentes.
 

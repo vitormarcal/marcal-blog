@@ -5,7 +5,8 @@ author: Vítor Marçal
 created_at: 2023-12-18
 is_post: true
 tags:
-  - livro
+  - livros
+  - privacidade
 ---
 
 ![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](img/dez-argumentos-para-deletar.jpg)

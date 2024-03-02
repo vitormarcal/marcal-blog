@@ -5,7 +5,7 @@ author: Vítor Marçal
 created_at: 2023-12-24
 is_post: true
 tags:
-  - natal
+  - amor
 ---
 
 ![Feliz Natal](img/feliz-natal.jpg)

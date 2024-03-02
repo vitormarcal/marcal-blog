@@ -19,10 +19,11 @@ function toggleHead() {
       </div>
       <nav class="head-menu">
         <ul class="nav">
-          <li style="transition-delay: 0.03s;"><a href="/"> Home </a></li>
-          <li style="transition-delay: 0.06s;"><a href="/sobre"> Sobre </a></li>
-          <li style="transition-delay: 0.09s;"><a href="/agora"> Agora </a></li>
-          <li style="transition-delay: 0.15s;"><a href="/leituras-de-2024"> Leituras de 2024 </a></li>
+          <li style="transition-delay: 0.03s;"><NuxtLink to="/"> Home </NuxtLink></li>
+          <li style="transition-delay: 0.06s;"><NuxtLink to="/sobre"> Sobre </NuxtLink></li>
+          <li style="transition-delay: 0.09s;"><NuxtLink to="/agora"> Agora </NuxtLink></li>
+          <li style="transition-delay: 0.09s;"><NuxtLink to="/tags/mdc"> Tags </NuxtLink></li>
+          <li style="transition-delay: 0.15s;"><NuxtLink to="/leituras-de-2024"> Leituras de 2024 </NuxtLink></li>
         </ul>
       </nav>
     </div>

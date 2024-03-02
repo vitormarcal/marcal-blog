@@ -6,7 +6,8 @@ created_at: 2024-02-05
 updated_at: 2024-02-05
 is_post: true
 tags:
-  - livro
+  - livros
+  - quadrinhos
 ---
 
 ![Dragon Ball Vol 30  - Edição Definitiva](img/dragon-ball-vol-30-edicao-definitiva.jpg)
