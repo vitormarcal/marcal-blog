@@ -32,7 +32,7 @@ const grouped = computed(() => {
 
 <template>
   <div>
-    <main-content>
+    <main-content :path="route.path">
       <div v-if="isMdc">
         <post-tags :grouped-tags="grouped"/>
       </div>
