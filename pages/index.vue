@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const posts = await queryContent()
-    .where({is_post: true})
+    .where({is_post: true, _partial: false})
     .sort({ created_at: -1})
     .without(['body'])
     .find()

@@ -8,6 +8,8 @@ is_post: true
 tags:
   - homelab
   - tecnologia
+related:
+  - "[[meu-segundo-homelab-montado]]"
 ---
 
 ![Home lab - Synology DS420j](img/home-lab-synology.jpeg)

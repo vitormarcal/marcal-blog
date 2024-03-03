@@ -2,12 +2,12 @@
 title: Um Ladrão Honesto - Fiodor Dostoievski
 description: Um breve conto e uma boa introdução à Fiodor Dostoievski antes de enfrentar os calhamaços clássicos do autor.
 author: Vítor Marçal
-created_at: 2023-12-18
+created_at: 2023-12-19T16:09:00
 is_post: true
 tags:
   - livros
   - liberdade
-updated_at: 2024-03-02
+updated_at: 2024-03-02T16:00:00
 related:
   - "[[leituras-de-2024]]"
 ---

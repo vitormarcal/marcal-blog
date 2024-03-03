@@ -39,6 +39,8 @@ export default defineNuxtConfig({
             langs: [
                 'java',
                 'shell',
+                'xml',
+                'html',
             ]
 
         },

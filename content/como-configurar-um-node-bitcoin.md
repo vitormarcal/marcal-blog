@@ -6,9 +6,14 @@ created_at: 2024-02-15T14:53:13.000Z
 updated_at: 2024-02-20
 is_post: true
 tags:
+  - tecnologia
   - bitcoin
 related:
+  - "[[guia-bitcoin]]"
+  - "[[meu-segundo-homelab-montado]]"
 ---
+---
+
 
 ![Como configurar um node bitcoin](img/bitcoin-node.jpg)
 

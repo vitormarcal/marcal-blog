@@ -7,6 +7,8 @@ is_post: true
 tags:
   - tecnologia
   - programacao
+related:
+  - "[[tags/programacao]]"
 ---
 
 ![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)

@@ -2,8 +2,8 @@
 title: Dragon Ball Vol 30 - Edição Definitiva
 description: Personagens enigmáticos são nos apresentados e o clima parece ficar sério.
 author: Vítor Marçal
-created_at: 2024-02-05
-updated_at: 2024-02-05
+created_at: 2024-02-05T23:25:00
+updated_at: 2024-02-05T23:28:00
 is_post: true
 tags:
   - livros

@@ -2,7 +2,7 @@
 title: Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier
 description: Para se libertar, ser mais autêntico, menos viciado, menos manipulado, menos paranoico... por todos esses motivos maravilhosos, delete suas contas nas redes sociais. - trecho do livro.
 author: Vítor Marçal
-created_at: 2023-12-18
+created_at: 2023-12-18T18:07:00
 is_post: true
 tags:
   - livros
@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[privacidade-importa]]"
+updated_at: 2024-02-15T20:39:00
 ---
 
 ![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](img/dez-argumentos-para-deletar.jpg)
