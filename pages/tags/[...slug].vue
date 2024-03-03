@@ -2,13 +2,13 @@
 const route = useRoute()
 const tag = route.params.slug[0] || 'mdc'
 const posts = await queryContent()
-    .where({tags: {$contains: tag}})
+    .where({tags: {$contains: tag}, _partial: false})
     .sort({created_at: -1})
     .without(['body'])
     .find()
 
 const tags = await queryContent()
-    .where({tags: {$exists: true}})
+    .where({tags: {$exists: true}, _partial: false})
     .sort({created_at: -1})
     .only(['tags'])
     .find()
