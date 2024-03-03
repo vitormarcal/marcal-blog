@@ -59,7 +59,7 @@ A chave pública, ou chave pública mestra (**Master Public Key**), atua como o 
 
 Para solucionar potenciais problemas de segurança e privacidade, é comum hoje em dia gerar um endereço público (outra chave pública) derivado matematicamente da chave pública mestre. Dessa forma, ao enviar uma moeda, é recomendável que o destinatário crie um endereço público derivado da sua chave pública mestre. Em seguida, ele compartilhará esse endereço público com o remetente, que o utilizará para enviar as moedas. Isso resulta em sua chave pública e privada tornando-se informações pessoais, e o que você compartilhará é o endereço público derivado da sua chave pública mestre.
 
-![Relações entre as chaves BTC](img/relacoees-entre-as-chaves-BTC.svg)
+![Relações entre as chaves BTC](img/relacoees-entre-as-chaves-BTC.png)
 
 Observe que ao informar sua chave pública mestra, todas as suas transações nos endereços públicos relacionados a ela serão conhecidas. Isso é prejudicial para a privacidade, por isso, utilize chaves públicas geradas a partir da chave pública mestra. Por fim, nunca divulgue sua chave privada, pois uma vez informada, sua conta estará comprometida e outra pessoa poderá sacar suas moedas.
 
