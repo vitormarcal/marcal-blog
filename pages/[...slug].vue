@@ -1,10 +1,7 @@
 <template>
   <div>
     <main-content>
-      <section class="article-comments gh-comments gh-canvas">
-        <section v-if="isPost" id="isso-thread"></section>
-      </section>
-
+      <comment-area v-if="isPost"/>
     </main-content>
   </div>
 
@@ -32,9 +29,9 @@ span.marcal_email b {
 }
 </style>
 <script setup lang="ts">
-const {page} = useContent()
+const { page } = useContent()
 
 const isPost = computed(() => {
-  return !!page?.is_post
+  return page.value.is_post
 })
 </script>
