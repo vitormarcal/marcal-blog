@@ -29,7 +29,7 @@ a {
 }
 
 article {
-  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 time {
