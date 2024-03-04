@@ -27,4 +27,4 @@ Adaptei um pouco do tema anterior utilizado no Ghost, criei um sistema de tags c
 
 Ainda há muito o que fazer, mas estou hoje muito mais livre com o meu blog, sem estar preso a formatos e mecanismos proprietários. Quando me cansar do meu blog, só o que preciso fazer é aproveitar os posts em markdown e recomeçar novamente. Está tudo mais simples, não preciso de imagens docker, backends e nem banco de dados.
 
-[^1]: Para migrar as páginas, utilizei [essa ferramenta online](https://urltomarkdown.com/), oonde bastava colocar a URL da minha página, e ela gerava o markdown, e eu editava poucas coisas necessárias. Realmente útil.
+[^1]: Para migrar as páginas, utilizei [essa ferramenta online](https://urltomarkdown.com/), onde bastava colocar a URL da minha página, e ela gerava o markdown, e eu editava poucas coisas necessárias. Realmente útil.
