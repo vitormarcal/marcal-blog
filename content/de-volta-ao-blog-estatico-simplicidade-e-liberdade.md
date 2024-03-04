@@ -2,8 +2,8 @@
 title: "De Volta ao Blog Estático: Simplicidade e Liberdade"
 description: Mudei novamente a forma como distribuo conteúdo neste site.
 author: Vítor Marçal
-created_at: 2024-02-04T20:25:00
-updated_at: 
+created_at: 2024-03-04T20:25:00
+updated_at: 2024-03-04T20:25:00
 is_post: true
 tags:
   - tecnologia
