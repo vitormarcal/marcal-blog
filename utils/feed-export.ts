@@ -1,6 +1,5 @@
 import {Feed} from 'feed';
 import type {ParsedContent} from "@nuxt/content/types";
-import {ar} from "~/.output/public/_nuxt/entry.BSSshxk6";
 
 const BASE_URL = "https://marcal-blog.vercel.app"
 const AUTHOR_NAME = "Vítor Marçal"
