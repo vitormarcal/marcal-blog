@@ -1,18 +1,18 @@
 import {Feed} from 'feed';
 import type {ParsedContent} from "@nuxt/content/types";
+import type {AppConfig} from "@nuxt/schema";
 
-const BASE_URL = "https://marcal-blog.vercel.app"
-const AUTHOR_NAME = "Vítor Marçal"
-export const generateFeed = (articles: ParsedContent[]) => {
+export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) => {
+    const BASE_URL = appConfig.site.baseUrl
     const feed = new Feed({
-        title: "Marçal",
-        description: "Escrevo para eu mesmo como uma forma de documentar e ter um Segundo Cerébro 🧠",
+        title: appConfig.site.title,
+        description: appConfig.site.description,
         id: BASE_URL,
         link: BASE_URL,
         language: "pt-BR",
         image: `${BASE_URL}/images/placeholder.png`,
         favicon: `${BASE_URL}/favicon.ico`,
-        copyright: `All rights reserved ${new Date().getFullYear()}, ${AUTHOR_NAME}`,
+        copyright: `All rights reserved ${new Date().getFullYear()}, ${appConfig.author.name}`,
         updated: new Date(),
         generator: "Nuxt static site generation + Feed for Node.js",
         feedLinks: {
@@ -20,7 +20,8 @@ export const generateFeed = (articles: ParsedContent[]) => {
             rss: `${BASE_URL}/rss.xml`
         },
         author: {
-            name: AUTHOR_NAME,
+            name: appConfig.author.name,
+            email: appConfig.author.email
         }
     });
 
@@ -42,7 +43,8 @@ export const generateFeed = (articles: ParsedContent[]) => {
             description: article.description,
             author: [
                 {
-                    name: AUTHOR_NAME,
+                    name: article.author ? article.author : appConfig.author.name,
+                    email: article.email ? article.email : appConfig.author.email
                 },
             ],
             date: newDate(article),

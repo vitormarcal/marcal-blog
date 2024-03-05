@@ -1,5 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    appConfig: {
+        site: {
+            baseUrl: 'https://www.marcal.dev',
+            title: 'Marçal',
+            description: "Escrevo para eu mesmo como uma forma de documentar e ter um Segundo Cerébro 🧠"
+        },
+        author: {
+            name: 'Vítor Marçal',
+            email: 'oi@marcal.dev'
+        },
+    },
     hooks: {
         close: () => {
             // @see https://github.com/nuxt/cli/issues/169#issuecomment-1729300497
