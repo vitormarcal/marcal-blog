@@ -22,8 +22,9 @@ function toggleHead() {
           <li style="transition-delay: 0.03s;"><NuxtLink to="/"> Home </NuxtLink></li>
           <li style="transition-delay: 0.06s;"><NuxtLink to="/sobre"> Sobre </NuxtLink></li>
           <li style="transition-delay: 0.09s;"><NuxtLink to="/agora"> Agora </NuxtLink></li>
-          <li style="transition-delay: 0.15s;"><NuxtLink to="/tags/mdc"> Tags </NuxtLink></li>
-          <li style="transition-delay: 0.20s;"><NuxtLink to="/leituras-de-2024"> Leituras de 2024 </NuxtLink></li>
+          <li style="transition-delay: 0.15s;"><NuxtLink to="/posts"> Posts </NuxtLink></li>
+          <li style="transition-delay: 0.20s;"><NuxtLink to="/tags/mdc"> Tags </NuxtLink></li>
+          <li style="transition-delay: 0.25s;"><NuxtLink to="/leituras-de-2024"> Leituras de 2024 </NuxtLink></li>
         </ul>
       </nav>
     </div>
