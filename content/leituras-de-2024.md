@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-02-27
+updated_at: 2024-03-05T14:43:00
 is_post: true
 tags:
   - livros
@@ -36,7 +36,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 
 ### Lendo
 
-1.  [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft, desde 2024-01-25
+1. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft, desde 2024-01-25
+2. Cypherpunks: Liberdade e o Futuro da Internet, de Julian Assange, desde 2024-03-05
 
 ### Quero Ler
 
@@ -49,3 +50,4 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 7.  O Homem que Calculava, de Malba Tahan
 8.  Buda: Volume 5, de Osamu Tezuka
 9.  Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara
+10. A vida intelectual – Seu espírito, suas condições, seus métodos, de Padre Sertillanges
