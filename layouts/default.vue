@@ -6,6 +6,7 @@ const headerClass = computed(() => {
   }
 })
 const route = useRoute()
+const config = useAppConfig()
 useHead({
   htmlAttrs: {
     lang: 'pt-BR'
@@ -13,7 +14,19 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://wwww.marcal.dev' + route.path
+      href: config.site.baseUrl + route.path
+    },
+    {
+      rel: 'alternate',
+      type: 'application/rss+xml',
+      title: 'Feed RSS',
+      href: config.site.baseUrl + '/rss.xml'
+    },
+    {
+      rel: 'alternate',
+      type: 'application/atom+xml',
+      title: 'Feed Atom',
+      href: config.site.baseUrl + '/atom.xml'
     }
   ]
 })

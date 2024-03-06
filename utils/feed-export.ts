@@ -16,7 +16,7 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
         updated: new Date(),
         generator: "Nuxt static site generation + Feed for Node.js",
         feedLinks: {
-            atom: `${BASE_URL}/atom`,
+            atom: `${BASE_URL}/atom.xml`,
             rss: `${BASE_URL}/rss.xml`
         },
         author: {
