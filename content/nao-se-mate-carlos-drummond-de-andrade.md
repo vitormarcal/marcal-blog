@@ -9,6 +9,9 @@ tags:
   - amor
 related:
   - "[[antologia-poetica-de-carlos-drummond-de-andrade]]"
+  - "[[tags/poesia]]"
+  - "[[tags/notas-pessoais]]"
+  - "[[tags/amor]]"
 ---
 
 segunda-feira ninguém sabe o que será.
