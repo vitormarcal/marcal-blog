@@ -2,11 +2,20 @@ import {serverQueryContent} from '#content/server';
 import {generateFeed} from "~/utils/feed-export";
 
 export default defineEventHandler(async (event) => {
-    const articles = await serverQueryContent(event).find();
+    const articles = await serverQueryContent(event)
+        .where({is_post: true, _partial: false})
+        .sort({ created_at: -1})
+        .find();
 
     const appConfig = useAppConfig()
 
-    return generateFeed(articles, appConfig).rss2()
+
+    const feedString = generateFeed(articles, appConfig).rss2()
+
+    event.node.res
+    event.node.res.setHeader('content-type', 'text/xml');
+    event.node.res.end(feedString);
+
 });
 
 
