@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-05T14:43:00
+updated_at: 2024-03-07T14:35:00
 is_post: true
 tags:
   - livros
@@ -33,11 +33,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 9.  [Oshi no Ko - Minha Estrela Preferida Vol. 01](oshi-no-ko-minha-estrela-preferida-vol-01), de Aka Akasaka - 2024-02-15
 10.  [Aprenda Inglês num piscar de olhos](aprenda-ingles-num-piscar-de-olhos), de Fabiana Lara - 2024-02-21
 11.  [O Planeta dos Macacos](o-planeta-dos-macacos), de Pierre Boulle - 2024-02-26
+12. [Cypherpunks: Liberdade e o Futuro da Internet](cypherpunks-liberdade-e-o-futuro-da-internet)c, de Julian Assange -  2024-03-07
 
 ### Lendo
 
 1. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft, desde 2024-01-25
-2. Cypherpunks: Liberdade e o Futuro da Internet, de Julian Assange, desde 2024-03-05
 
 ### Quero Ler
 
