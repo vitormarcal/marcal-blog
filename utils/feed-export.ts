@@ -1,6 +1,7 @@
 import {Feed} from 'feed';
 import type {ParsedContent} from "@nuxt/content/types";
 import type {AppConfig} from "@nuxt/schema";
+import {toHtml} from "hast-util-to-html";
 
 export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) => {
     const BASE_URL = appConfig.site.baseUrl
@@ -36,11 +37,16 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
     }
 
     articles.forEach((article) => {
+
+        const content = getContent(article)
+
+
         feed.addItem({
             title: article.title ? article.title : "Missing Title",
             id: article._path,
             link: `${BASE_URL}${article._path}`,
             description: article.description,
+            content: content,
             author: [
                 {
                     name: article.author ? article.author : appConfig.author.name,
@@ -54,3 +60,28 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
 
     return feed
 };
+
+function getContent(doc: ParsedContent): string | null {
+    const recursivelyPatchChildren = (node: any) => {
+        if (node.type === 'text') {
+            return node;
+        } else if (node.tag === 'code' && node.props.language) {
+            node.props.lang = node.props.language;
+            node.children = [{type: 'text', value: node.props.code}];
+            delete node.props.language;
+            delete node.props.code;
+        }
+        node.tagName = node.tag;
+        node.properties = node.props;
+        node.children = node.children.map(recursivelyPatchChildren);
+        return node;
+    };
+    if (doc.body) {
+        doc.body.children = doc.body.children.map(recursivelyPatchChildren);
+        // @ts-ignore
+        return toHtml(doc.body)
+    }
+    return null
+
+
+}
