@@ -61,7 +61,7 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
     return feed
 };
 
-function getContent(doc: ParsedContent): string | null {
+function getContent(doc: ParsedContent): string | undefined {
     const recursivelyPatchChildren = (node: any) => {
         if (node.type === 'text') {
             return node;
@@ -81,7 +81,7 @@ function getContent(doc: ParsedContent): string | null {
         // @ts-ignore
         return toHtml(doc.body)
     }
-    return null
+    return undefined
 
 
 }
