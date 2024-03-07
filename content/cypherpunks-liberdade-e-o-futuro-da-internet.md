@@ -7,10 +7,8 @@ updated_at:
 is_post: true
 tags:
   - livros
-  - liberdade
 related:
-  - "[[tags/liberdade]]"
-  - "[[tags/livros]]"
+  - "[[leituras-de-2024]]"
 ---
 ----
 
