@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-07T14:35:00
+updated_at: 2024-03-07T23:26:00
 is_post: true
 tags:
   - livros
@@ -34,6 +34,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 10.  [Aprenda Inglês num piscar de olhos](aprenda-ingles-num-piscar-de-olhos), de Fabiana Lara - 2024-02-21
 11.  [O Planeta dos Macacos](o-planeta-dos-macacos), de Pierre Boulle - 2024-02-26
 12. [Cypherpunks: Liberdade e o Futuro da Internet](cypherpunks-liberdade-e-o-futuro-da-internet)c, de Julian Assange -  2024-03-07
+13. Necron - Volume 1: A Fabricante de Monstros, de Magnus - 2024-03-07
 
 ### Lendo
 
