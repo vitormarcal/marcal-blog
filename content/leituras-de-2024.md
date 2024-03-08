@@ -34,7 +34,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 10.  [Aprenda Inglês num piscar de olhos](aprenda-ingles-num-piscar-de-olhos), de Fabiana Lara - 2024-02-21
 11.  [O Planeta dos Macacos](o-planeta-dos-macacos), de Pierre Boulle - 2024-02-26
 12. [Cypherpunks: Liberdade e o Futuro da Internet](cypherpunks-liberdade-e-o-futuro-da-internet)c, de Julian Assange -  2024-03-07
-13. Necron - Volume 1: A Fabricante de Monstros, de Magnus - 2024-03-07
+13. [Necron - Volume 1: A Fabricante de Monstros](necron-volume-1-a-fabricante-de-monstros), de Magnus - 2024-03-07
+14. [Necron - Volume 2: O Navio dos Leprosos](necron-volume-2-o-navio-dos-leprosos), de Magnus - 2024-03-08
 
 ### Lendo
 
