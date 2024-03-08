@@ -7,6 +7,7 @@ updated_at:
 is_post: true
 tags:
   - livros
+  - quadrinhos
 related:
   - "[[leituras-de-2024]]"
 ---
