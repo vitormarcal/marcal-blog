@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-07T23:26:00
+updated_at: 2024-03-08T15:43:00
 is_post: true
 tags:
   - livros
@@ -53,3 +53,4 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 8.  Buda: Volume 5, de Osamu Tezuka
 9.  Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara
 10. A vida intelectual – Seu espírito, suas condições, seus métodos, de Padre Sertillanges
+11. Suspiria: Do Reino das Trevas, de Luca Laca Montagliani
