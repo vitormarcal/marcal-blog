@@ -5,7 +5,7 @@ author: Vítor Marçal
 created_at: 2023-11-27T01:12:35.000Z
 updated_at: 2024-02-28
 ---
-
+---
 *   Ainda morando em Ceilândia - Distrito Federal mas pensando em me mudar para algum lugar mais tranquilo.
 *   Trabalhando de casa no Banco BTG Pactual, como Engenheiro de Software, da equipe de cartões e Consumer banking de lá.  
     Atualmente, estou no time de Pricing e Billing e ajudo a desenvolver soluções de cobranças e recorrências como a mensalidade de cartão de crédito, seguros e cobranças de memberships.

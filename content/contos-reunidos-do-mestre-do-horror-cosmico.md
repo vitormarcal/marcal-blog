@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 ---
-
+---
 ![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)
 
 Quase três meses se passaram,e essa foi uma longa e lenta leitura!

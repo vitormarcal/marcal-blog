@@ -9,7 +9,7 @@ tags:
   - tecnologia
   - programacao
 ---
-
+---
 ![O caminho para certificação Java 8](img/certification.png)
 
 ## Sumário

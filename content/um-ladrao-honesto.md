@@ -11,7 +11,7 @@ updated_at: 2024-03-02T16:00:00
 related:
   - "[[leituras-de-2024]]"
 ---
-
+---
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)
 
 Já vem um tempo que quero consumir mais Fiodor Dostoievski e saber se realmente é isso tudo que dizem por aí. Minha primeira leitura, o livro Noites Brancas, me marcou bastante e dizem que é um livro com um estilo atípico do que se tem do mesmo autor. É até mesmo uma história breve. Normalmente, seus livros são calhamaços, portanto assim como o romance Noites Brancas, a leitura de contos costuma ser uma boa introdução a o autor. Dessa vez escolhi o conto Um Ladrão Honesto.

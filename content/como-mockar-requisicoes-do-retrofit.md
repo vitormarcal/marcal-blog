@@ -10,7 +10,7 @@ tags:
 related:
   - "[[tags/programacao]]"
 ---
-
+---
 ![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)
 
 __Kawarimi no Jutsu__ - Técnica de substituição / Photo by Naruto

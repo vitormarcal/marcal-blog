@@ -10,7 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 ---
-
+---
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)
 
 Acompanhamos Ginko, um Mushishi, um especialista em mushis, organismos que estão no limiar entre os seres vivos e os seres espirituais. Esse foi o primeiro de cinco volumes que ainda serão lançados pela editora NewPop.

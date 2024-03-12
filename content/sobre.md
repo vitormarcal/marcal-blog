@@ -3,7 +3,7 @@ title: Sou o Vítor, tudo bem?
 description: Meu nome é Vítor Marçal, capixaba, nasci em Vitória, Espirito Santo, vivi em Minas e já tem uns bons longos anos que vivo no Distrito Federal.
 author: Vítor Marçal
 ---
-
+---
 Percebi que escrever um blog é uma boa forma de documentar os desafios que passei e também registrar como me sentia em determinada época da minha vida. Como não é possível confiar na mente para guardar esse tipo de informação a longo prazo, publicar em um blog é uma forma de ter um "**segundo cérebro**" disponível a qualquer momento do dia.
 
 Muitos textos podem parecer incompletos, pois a ideia aqui é postar sempre que eu achar que faça sentido, mesmo que eu só tenha algumas notas avulsas sobre algo a escrever. A ideia é justamente que o ato de postar não seja um evento, com um texto super elaborado que demore horas ou dias para ser preparado. A ideia é que, mais do que um blog, esse espaço seja como um [jardim digital](https://maggieappleton.com/garden-history): um lugar em constante construção, onde você poda ali, poda aqui, move um vaso do lugar, testa uma técnica nova.

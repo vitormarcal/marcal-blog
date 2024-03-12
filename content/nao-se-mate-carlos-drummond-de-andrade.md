@@ -14,7 +14,7 @@ related:
   - "[[tags/amor]]"
 ---
 
-segunda-feira ninguém sabe o que será.
+---
 
 ![Não se mate, de Carlos Drummond de Andrade](img/nao-se-mate-carlos.jpg)
 

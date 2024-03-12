@@ -7,7 +7,7 @@ is_post: true
 tags:
   - liberdade
 ---
-
+---
 ![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)
 
 Photo by [Clay Banks](https://unsplash.com/@claybanks?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

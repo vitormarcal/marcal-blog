@@ -10,7 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 ---
-
+---
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)
 
 Photo by Editora Autêntica Contemporânea
