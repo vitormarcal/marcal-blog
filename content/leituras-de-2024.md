@@ -37,10 +37,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 13. [Necron - Volume 1: A Fabricante de Monstros](necron-volume-1-a-fabricante-de-monstros), de Magnus - 2024-03-07
 14. [Necron - Volume 2: O Navio dos Leprosos](necron-volume-2-o-navio-dos-leprosos), de Magnus - 2024-03-08
 15. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft - 2024-03-12
+16. [A vida intelectual – Seu espírito, suas condições, seus métodos](a-vida-intelectual), de Sertillanges - 2024-03-12
 
 ### Lendo
 
-1. A vida intelectual – Seu espírito, suas condições, seus métodos, de Padre Sertillanges, desde 2024-03-12
+1. 
 ### Quero Ler
 
 1.  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
