@@ -41,7 +41,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 
 ### Lendo
 
-1. 
+1. Ministério, de Francisco Solano López, desde 2024-03-12
 ### Quero Ler
 
 1.  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
