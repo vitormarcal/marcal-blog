@@ -3,7 +3,7 @@ title: Contos Reunidos do Mestre do Horror Cósmico
 description: Anotações sobre a leitura do livro "Contos Reunidos do Mestre do Horror Cósmico" de Lovecraft
 author: Vítor Marçal
 created_at: 2024-01-28
-updated_at: 2024-02-02
+updated_at: 2024-03-12T08:46:00
 is_post: true
 tags:
   - livros
@@ -15,7 +15,9 @@ related:
 # Contos Reunidos do Mestre do Horror Cósmico
 ![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)
 
-⚠️ Este texto está incompleto, pois ainda estou lendo, aos poucos, o livro de Lovecraft. Será atualizado à medida que tenho progresso na leitura. Atualizado em 02 de Fevereiro de 2024.
+Quase três meses se passaram,e essa foi uma longa e lenta leitura!
+
+Não li de forma estritamente diária, mas sim quando estava mentalmente predisposto.  Os melhores contos, a meu ver, são os mais famosos sem dúvida, como os destacados abaixo. 
 
 > O gênero que Lovecraft revolucionou em sua breve carreira foi o que ele próprio denominava weird fiction (ficção insólita). Lovecraft expressou em uma carta: "O cerne de uma narrativa insólita é algo que não poderia de forma alguma acontecer".
 
@@ -63,3 +65,9 @@ Neste contexto, R'lyeh, a cidade morada de Cthulhu, submersa, acaba por emergir 
 Esse conto foi adaptado em “O Modelo de Pickman”, episódio 5 de **_O Gabinete de Curiosidades de Guillermo Del Toro_**. Ainda não o assisti.
 
 Ótimo conto com algumas referências aos artistas Angarola, Goya, Doré, Fuseli e outros, que revelam o gosto estético do autor em pintura. O personagem Pickman, segundo as notas do editor, é citado na 'História do Necronomicon' e em 'A busca onírica por Kadath', onde aparece transformado em ghoul. A descrição dos quadros feitos por Pickman me proporcionou um verdadeiro cenário de horror. Recomendo!
+
+### Finalizando
+
+Existem outros contos inacabados, póstumos, e aqueles escritos por Lovecraft em sua juventude... tornando esta, possivelmente, a compilação mais abrangente de contos curtos de Lovecraft em língua portuguesa!
+
+Sem dúvidas, bastante recomendável!
