@@ -6,6 +6,9 @@ created_at: 2023-12-24
 is_post: true
 tags:
   - amor
+related:
+  - "[[tags/amor]]"
+  - "[[tags/video]]"
 ---
 ---
 ![Feliz Natal](img/feliz-natal.jpg)
@@ -22,7 +25,6 @@ Obrigado por nos lembrar disso com essa música, Tim.
 #description
 White Wine In The Sun (2021) by Tim Minchin: BACK
 ::
-
 
 Segue a letra da versão original em Inglês e a traduzida em Português.
 

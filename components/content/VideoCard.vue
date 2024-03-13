@@ -10,6 +10,10 @@ defineProps(["iframe", "src"])
                 width="200" height="113"
                 :src="src">
         </iframe>
+        <video v-else controls>
+          <source :src="src" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
     <figcaption>
