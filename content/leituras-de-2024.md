@@ -38,10 +38,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 14. [Necron - Volume 2: O Navio dos Leprosos](necron-volume-2-o-navio-dos-leprosos), de Magnus - 2024-03-08
 15. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft - 2024-03-12
 16. [A vida intelectual – Seu espírito, suas condições, seus métodos](a-vida-intelectual), de Sertillanges - 2024-03-12
+17. [Ministério](ministerio), de Francisco Solano López - 2024-03-13
 
 ### Lendo
 
-1. Ministério, de Francisco Solano López, desde 2024-03-12
+1. Suspiria: Do Reino das Trevas, de Luca Laca Montagliani - 2024-03-13
 ### Quero Ler
 
 1.  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
@@ -53,4 +54,3 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 7.  O Homem que Calculava, de Malba Tahan
 8.  Buda: Volume 5, de Osamu Tezuka
 9.  Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara
-11. Suspiria: Do Reino das Trevas, de Luca Laca Montagliani
