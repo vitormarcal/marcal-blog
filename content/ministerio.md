@@ -3,7 +3,7 @@ title: Ministério
 description: Uma história rápida sobre uma sociedade fascista distópica
 author: Vítor Marçal
 created_at: 2024-03-13T09:30:00
-updated_at: 
+updated_at: 2024-03-13T09:51:00
 is_post: true
 tags:
   - livros
@@ -18,7 +18,7 @@ related:
 > Criado pelo renomado artista argentino Francisco Solano López (O Eternauta, Evaristo) em colaboração com seu compatriota Ricardo Barreiro (Cidade, Parque Chas), Ministério destaca-se como um dos mais brilhantes exemplos de distopia sociopolítica em quadrinhos. Esta edição reúne todos os capítulos da série, originalmente publicados entre 1986 e 1987 nas páginas da revista Fierro.
 > A edição tem acabamento de luxo, com formato grande, capa dura, 96 páginas em preto e branco, impressas em papel offset de alta gramatura.
 
-Esse presente foi uma escolha muito acertada, abrangendo diversos temas como ficção científica, distopia, fascismo e regimes autoritários.
+Esse eu ganhei de presente e foi uma escolha muito acertada, abrangendo diversos temas como ficção científica, distopia, fascismo e regimes autoritários.
 
 Situada em uma sociedade fascista distópica após uma grande guerra mundial, esta é uma leitura breve, com eventos ocorrendo de maneira bastante acelerada, mas isso em nada diminui o valor desta Graphic Novel.
 
