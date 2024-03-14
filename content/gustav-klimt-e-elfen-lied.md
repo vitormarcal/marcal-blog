@@ -39,7 +39,7 @@ Vídeo Original em https://www.youtube.com/watch?v=ddvXXtfKltg
 
 ![Golden Tears (or Freya's Tears)](img/gustav-klimt-e-elfen-lied/golden-tears.jpg)
 
-Pesquisando por aí, vi que muita gente confunde a obra Golden Tears (or Freya's Tears), atribuindo erroneamente a autoria dela à Gustav Klimt. Na verdade, é de Anne Marie Zilberman e, infelizmente, não consegui achar mais informações sobre ela.
+Pesquisando por aí, vi que muita gente confunde a obra Golden Tears (ou Freya's Tears), atribuindo erroneamente a autoria dela à Gustav Klimt. Na verdade, é de Anne Marie Zilberman e, infelizmente, não consegui achar mais informações sobre ela.
 
 Dizem que o primeiro quadro da abertura faz referência a Golden Tears, mas a verdade é que não se sabe se a pintura foi feita antes ou depois da produção e exibição de Elfen Lied. Provavelemente não tem nenhuma relação entre os trabalhos. 
 
