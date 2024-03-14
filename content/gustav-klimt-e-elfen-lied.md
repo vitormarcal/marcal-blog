@@ -1,6 +1,6 @@
 ---
 title: Gustav Klimt e Elfen Lied
-description: Como eu amo a abertura desse anime!
+description: Como eu amo a abertura desse anime! 😍
 author: Vítor Marçal
 created_at: 2024-03-13T18:37:00
 updated_at: 2024-03-13T21:27:00
@@ -20,6 +20,8 @@ image: img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg
 Seu som assustador, letras bíblicas em latim, além de destacar a nudez de Lucy de uma maneira linda, fazendo referencia as pinturas de Gustav Klimt, é nada menos do que arte!
 
 Esse animação obviamente tem seus altos e baixos mas certamente nunca deve ser esquecida.
+
+Ao longo desse texto, vou mostrar algumas pinturas de Klimt que foram homenageadas na abertura de Elfen Lied. Vamos lá!  ![🎨](https://static.xx.fbcdn.net/images/emoji.php/v9/t82/1/16/1f3a8.png) 🎬
 
 ## Sumário
 
