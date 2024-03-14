@@ -3,7 +3,7 @@ title: Gustav Klimt e Elfen Lied
 description: Como eu amo a abertura desse anime!
 author: Vítor Marçal
 created_at: 2024-03-13T18:37:00
-updated_at: 
+updated_at: 2024-03-13T21:27:00
 is_post: true
 tags:
   - arte
@@ -24,7 +24,7 @@ Esse animação obviamente tem seus altos e baixos mas certamente nunca deve ser
 
 
 ## A abertura
-Confira sua a abertura: 
+Confira a abertura da animação: 
 
 ::video-card{src="/video/elfen-lied-opening-hd-720p-creditless-lilium.mp4" iframe="false"}
 #description
@@ -139,7 +139,7 @@ O anime homenageou esse quadro ao referenciá-lo também:
 
 ![Retrato de Ria Munk III](img/gustav-klimt-e-elfen-lied/bildnis-der-ria-munk-III-klimt.jpg)
 
-Klimt foi contratado para pintar o o retrato póstumo de Maria ("Ria") Munk, que cometera suícidio, depois que o escritor Hanns Heinz Ewers cancelou seu noivado.
+Klimt foi contratado para pintar o retrato póstumo de Maria ("Ria") Munk, que cometera suícidio, depois que o escritor Hanns Heinz Ewers cancelou seu noivado.
 
 O próximo frame mostrado da abertura, possivelmente conversa com essa pintura:
 
