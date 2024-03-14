@@ -10,6 +10,7 @@ tags:
   - sci-fi
 related:
   - "[[leituras-de-2024]]"
+image: img/planeta_dos_macacos.jpg
 ---
 ---
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

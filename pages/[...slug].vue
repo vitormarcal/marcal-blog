@@ -32,6 +32,6 @@ span.marcal_email b {
 const { page } = useContent()
 
 const isPost = computed(() => {
-  return page.value.is_post
+  return !!(page?.value?.is_post)
 })
 </script>

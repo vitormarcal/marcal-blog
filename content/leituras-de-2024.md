@@ -9,6 +9,7 @@ tags:
   - livros
 related:
   - "[[tags/livros]]"
+image: img/leituras-do-ano.jpg
 ---
 ---
 

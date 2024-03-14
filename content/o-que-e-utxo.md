@@ -10,6 +10,7 @@ tags:
   - bitcoin
 related:
   - "[[guia-bitcoin]]"
+image: img/o-que-e-utxo.png
 ---
 ---
 ![o-que-e-utxo](img/o-que-e-utxo.png)

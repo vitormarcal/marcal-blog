@@ -4,6 +4,7 @@ description: Uma lista do que estou fazendo agora, quando eu lembro de atualizar
 author: Vítor Marçal
 created_at: 2023-11-27T01:12:35.000Z
 updated_at: 2024-02-28
+is_post: false
 ---
 ---
 *   Ainda morando em Ceilândia - Distrito Federal mas pensando em me mudar para algum lugar mais tranquilo.

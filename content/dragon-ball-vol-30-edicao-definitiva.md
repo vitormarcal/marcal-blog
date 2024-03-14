@@ -10,6 +10,7 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
+image: img/dragon-ball-vol-30-edicao-definitiva.jpg
 ---
 ---
 ![Dragon Ball Vol 30  - Edição Definitiva](img/dragon-ball-vol-30-edicao-definitiva.jpg)

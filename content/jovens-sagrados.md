@@ -10,6 +10,7 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
+image: img/sant-young-man-1-a-3-1.jpg
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

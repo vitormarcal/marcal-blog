@@ -9,6 +9,7 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
+image: img/NewPOP_Mushishi01-3.jpg
 ---
 ---
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

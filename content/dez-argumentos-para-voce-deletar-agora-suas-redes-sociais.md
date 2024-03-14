@@ -11,6 +11,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[privacidade-importa]]"
 updated_at: 2024-02-15T20:39:00
+image: img/dez-argumentos-para-deletar.jpg
 ---
 
 ![Dez argumentos para você deletar agora suas redes sociais - Jaron Lanier](img/dez-argumentos-para-deletar.jpg)

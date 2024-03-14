@@ -10,6 +10,7 @@ tags:
   - bitcoin
 related:
   - "[[tags/bitcoin]]"
+image: img/guia-bitcoin.jpg
 ---
 ---
 ![guia-bitcoin](img/guia-bitcoin.jpg)

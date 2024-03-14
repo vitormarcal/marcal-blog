@@ -10,6 +10,7 @@ tags:
 updated_at: 2024-03-02T16:00:00
 related:
   - "[[leituras-de-2024]]"
+image: img/um_ladrao_honesto.jpg
 ---
 ---
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)

@@ -9,6 +9,7 @@ tags:
   - livros
 related:
   - "[[leituras-de-2024]]"
+image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 ---
 ----
 
