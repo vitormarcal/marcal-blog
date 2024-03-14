@@ -10,6 +10,7 @@ tags:
   - homelab
 related:
   - "[[homelab-synology-ds420j]]"
+image: img/meu-segundo-homelab-montado.jpg
 ---
 ---
 ![meu-segundo-homelab-montado](img/meu-segundo-homelab-montado.jpg)

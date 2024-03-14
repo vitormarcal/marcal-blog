@@ -11,6 +11,7 @@ tags:
 related:
   - "[[guia-bitcoin]]"
   - "[[meu-segundo-homelab-montado]]"
+image: img/bitcoin-node.jpg
 ---
 ---
 

@@ -8,6 +8,7 @@ is_post: true
 tags:
   - tecnologia
   - programacao
+image: img/certification.png
 ---
 ---
 ![O caminho para certificação Java 8](img/certification.png)

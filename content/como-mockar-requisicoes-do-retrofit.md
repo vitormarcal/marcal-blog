@@ -9,6 +9,7 @@ tags:
   - programacao
 related:
   - "[[tags/programacao]]"
+image: img/kawarimi_no_jutsu.png
 ---
 ---
 ![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)

@@ -1,12 +1,24 @@
 <script setup lang="ts">
+const route = useRoute()
+const config = useAppConfig()
+const {page} = useContent()
+
 const headOpen = ref(false)
 const headerClass = computed(() => {
   return {
     'is-head-open': headOpen.value
   }
 })
-const route = useRoute()
-const config = useAppConfig()
+const pageUrl = computed(() => {
+  return config.site.baseUrl + route.path
+})
+
+useContentHead(page)
+
+useSeoMeta({
+  ogUrl: pageUrl
+})
+
 useHead({
   htmlAttrs: {
     lang: 'pt-BR'
@@ -14,7 +26,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: config.site.baseUrl + route.path
+      href: pageUrl
     },
     {
       rel: 'alternate',
@@ -27,6 +39,11 @@ useHead({
       type: 'application/atom+xml',
       title: 'Feed Atom',
       href: config.site.baseUrl + '/atom.xml'
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png'
     }
   ]
 })

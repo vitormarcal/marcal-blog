@@ -10,6 +10,7 @@ tags:
   - horror
 related:
   - "[[leituras-de-2024]]"
+image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
 ---
 ---
 ![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)

@@ -12,6 +12,7 @@ related:
   - "[[tags/poesia]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/amor]]"
+image: img/nao-se-mate-carlos.jpg
 ---
 
 ---

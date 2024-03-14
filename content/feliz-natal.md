@@ -9,6 +9,7 @@ tags:
 related:
   - "[[tags/amor]]"
   - "[[tags/video]]"
+image: img/feliz-natal.jpg
 ---
 ---
 ![Feliz Natal](img/feliz-natal.jpg)
