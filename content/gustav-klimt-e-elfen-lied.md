@@ -105,7 +105,7 @@ No anime vemos esse lindo quadro:
 
 ![Judith I](img/gustav-klimt-e-elfen-lied/judith-i-gustav-klimt.jpg)
 
-_**Judite e a Cabeça de Holofernes**_ (também conhecida como _**Judith I**_)  é uma pintura a óleo  pintada em 1901. Ele retrata a figura bíblica que Judith segurando a cabeça de Holofernes depois de decapitá-lo. Klimt pintaria uma segunda obra retratando o assunto em 1909.
+_**Judite e a Cabeça de Holofernes**_ (também conhecida como _**Judith I**_)  é uma pintura a óleo  pintada em 1901. Ele retrata a figura bíblica de Judith segurando a cabeça de Holofernes depois de decapitá-lo. Klimt pintaria uma segunda obra retratando o assunto em 1909.
 
 Não parece ter nenhuma relação mais óbvia com a abertura além do tema dourado, mas coloquei aqui por que gostei mesmo!
 
@@ -113,7 +113,7 @@ Não parece ter nenhuma relação mais óbvia com a abertura além do tema doura
 
 ![Adam and Eve](img/gustav-klimt-e-elfen-lied/adam-and-eve-klimt.jpg)
 
-**Adão e Eva** (1917) foi a primeira pintura bíblica de Klimt. A pintura parece representar a humanidade em um estado de graça, antes da queda. Como uma heroína casta, eva é uma heroína bem diferente de Judith.
+**Adão e Eva** (1917) foi a primeira pintura bíblica de Klimt. A pintura parece representar a humanidade em um estado de graça, antes da queda. Como uma heroína casta, Eva é uma heroína bem diferente de Judith.
 
 Não sei se propositalmente, mas esse frame da abertura conversa com essa pintura:
 
@@ -132,7 +132,7 @@ Na abertura temos a referência a essa pintura ao passar o quadro:
 
 ![adele-bloch-bauer-gustav-klimt.jpg](img/gustav-klimt-e-elfen-lied/adele-bloch-bauer-gustav-klimt.jpg)
 
-A pintura _**Golden Adele**_ (1907) mede 138 por 138 cm, é composta por tinta a óleo e prata e folha de ouro em tela. O retrato mostra Adele Bloch-Bauer sentado em um trono ou cadeira dourada, na frente de um fundo estrelado dourado.
+A pintura _**Golden Adele**_ (1907) mede 138 por 138 cm, é composta por tinta a óleo e prata e folha de ouro em tela. O retrato mostra Adele Bloch-Bauer sentada em um trono ou cadeira dourada, na frente de um fundo estrelado dourado.
 
 O anime homenageou esse quadro ao referenciá-lo também:
 
