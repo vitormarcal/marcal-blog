@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-12T08:48:00
+updated_at: 2024-03-15T14:54:00
 is_post: true
 tags:
   - livros
@@ -40,10 +40,10 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 15. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft - 2024-03-12
 16. [A vida intelectual – Seu espírito, suas condições, seus métodos](a-vida-intelectual), de Sertillanges - 2024-03-12
 17. [Ministério](ministerio), de Francisco Solano López - 2024-03-13
+18. [Suspiria: Do Reino das Trevas](suspiria-do-reino-das-trevas), de Luca Laca Montagliani - 2024-03-15
 
 ### Lendo
-
-1. Suspiria: Do Reino das Trevas, de Luca Laca Montagliani - 2024-03-13
+(atualmente nada)
 ### Quero Ler
 
 1.  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura

@@ -7,7 +7,7 @@ updated_at: 2024-03-12T08:46:00
 is_post: true
 tags:
   - livros
-  - horror
+  - medo
 related:
   - "[[leituras-de-2024]]"
 image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
