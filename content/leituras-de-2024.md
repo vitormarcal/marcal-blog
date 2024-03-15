@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-15T14:54:00
+updated_at: 2024-03-15T15:54:00
 is_post: true
 tags:
   - livros
@@ -43,15 +43,19 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 18. [Suspiria: Do Reino das Trevas](suspiria-do-reino-das-trevas), de Luca Laca Montagliani - 2024-03-15
 
 ### Lendo
-(atualmente nada)
+1. O Homem que Calculava, de Malba Tahan - 2024-03-15
+2. Hokuto no Ken: Volume 1, de Buronson e Tetsuo Hara - 2024-03-15
 ### Quero Ler
 
-1.  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
-2.  Neon Genesis Evangelion Collector's Edition Vol. 04, de Yoshiyuki Sadamoto
-3.  Como Ler Livros - O guia clássico para a leitura inteligente, de Mortimer Jerome Adler
-4.  O método Bullet Journal: Registre o passado, organize o presente, planeje o futuro, de Ryder Carroll
-5.  Como as democracias morrem, de Steven Levitsky
-6.  Ignorância: Uma história global, de Peter Burke
-7.  O Homem que Calculava, de Malba Tahan
-8.  Buda: Volume 5, de Osamu Tezuka
-9.  Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara
+1. Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
+3. Neon Genesis Evangelion Collector's Edition Vol. 04, de Yoshiyuki Sadamoto
+4. Como Ler Livros - O guia clássico para a leitura inteligente, de Mortimer Jerome Adler
+5. O método Bullet Journal: Registre o passado, organize o presente, planeje o futuro, de Ryder Carroll
+6. Como as democracias morrem, de Steven Levitsky
+7. Ignorância: Uma história global, de Peter Burke
+8. Buda: Volume 5, de Osamu Tezuka
+9. Hokuto no Ken: Volume 2, de Buronson e Tetsuo Hara
+10.  Hokuto no Ken: Volume 3, de Buronson e Tetsuo Hara
+11.  Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara
+12.  Hokuto no Ken: Volume 5, de Buronson e Tetsuo Hara
+13.  Hokuto no Ken: Volume 6, de Buronson e Tetsuo Hara
