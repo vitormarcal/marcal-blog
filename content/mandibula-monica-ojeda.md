@@ -6,7 +6,7 @@ created_at: 2023-12-01
 is_post: true
 tags:
   - livros
-  - horror
+  - medo
 related:
   - "[[leituras-de-2024]]"
 image: img/capa-do-livro-mandibula.jpg
