@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-27T11:29:00
+updated_at: 2024-03-27T18:29:00
 is_post: true
 tags:
   - livros
@@ -44,10 +44,12 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 19. [Hokuto no Ken: Volume 1](hokuto-no-ken-volume-1), de Buronson e Tetsuo Hara - 2024-03-23
 20. [Hokuto no Ken: Volume 2](hokuto-no-ken-volume-2), de Buronson e Tetsuo Hara - 2024-03-24
 21. [Hokuto no Ken: Volume 3](hokuto-no-ken-volume-3), de Buronson e Tetsuo Hara - 2024-03-26
+22. [Hokuto no Ken: Volume 4](hokuto-no-ken-volume-4), de Buronson e Tetsuo Hara - 2024-03-27
 
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
-2. Hokuto no Ken: Volume 4, de Buronson e Tetsuo Hara - 2024-03-27
+2. Hokuto no Ken: Volume 5, de Buronson e Tetsuo Hara - 2024-03-27
+
 ### Quero Ler
 
 *  Berserk Vol. 36: Edição, de Luxo de Kentaro Miura
@@ -57,6 +59,5 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Como as democracias morrem, de Steven Levitsky
 * Ignorância: Uma história global, de Peter Burke
 * Buda: Volume 5, de Osamu Tezuka
-* Hokuto no Ken: Volume 5, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 6, de Buronson e Tetsuo Hara
 * O Homem que Calculava, de Malba Tahan - 2024-03-15
