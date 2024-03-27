@@ -8,7 +8,7 @@ is_post: true
 tags:
   - notas-pessoais
 related:
-  - "[[notas-pessoais]]"
+  - "[[tags/notas-pessoais]]"
 ---
 ----
 
