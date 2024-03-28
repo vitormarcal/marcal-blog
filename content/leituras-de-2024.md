@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-28T15:40:00
+updated_at: 2024-03-28T20:14:00
 is_post: true
 tags:
   - livros
@@ -47,11 +47,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 22. [Hokuto no Ken: Volume 4](hokuto-no-ken-volume-4), de Buronson e Tetsuo Hara - 2024-03-27
 23. [Hokuto no Ken: Volume 5](hokuto-no-ken-volume-5), de Buronson e Tetsuo Hara - 2024-03-28
 24. [Hokuto no Ken: Volume 6](hokuto-no-ken-volume-6), de Buronson e Tetsuo Hara - 2024-03-28
-
+25. [Hokuto no Ken: Volume 7](hokuto-no-ken-volume-7), de Buronson e Tetsuo Hara - 2024-03-28
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. Suspiria: Coração em Chamas - 2024-03-28
-3. Hokuto no Ken: Volume 7, de Buronson e Tetsuo Hara - 2024-03-28
+3. Hokuto no Ken: Volume 8, de Buronson e Tetsuo Hara - 2024-03-28
 
 ### Quero Ler
 
@@ -62,7 +62,6 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Como as democracias morrem, de Steven Levitsky
 * Ignorância: Uma história global, de Peter Burke
 * Buda: Volume 5, de Osamu Tezuka
-* Hokuto no Ken: Volume 8, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 9 de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 10, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 11, de Buronson e Tetsuo Hara
