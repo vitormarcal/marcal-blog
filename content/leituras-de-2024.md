@@ -49,6 +49,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 24. [Hokuto no Ken: Volume 6](hokuto-no-ken-volume-6), de Buronson e Tetsuo Hara - 2024-03-28
 25. [Hokuto no Ken: Volume 7](hokuto-no-ken-volume-7), de Buronson e Tetsuo Hara - 2024-03-28
 26. [Hokuto no Ken: Volume 8](hokuto-no-ken-volume-8), de Buronson e Tetsuo Hara - 2024-03-31
+27. [Necron - Volume 3: Monstros Mecânicos](necron-volume-3-monstros-mecanicos), de Magnus - 2024-04-06
+28. [Dragon Ball Vol. 31 - Edição Definitiva](dragon-ball-vol-31-edicao-definitiva), de Akira Toriyama - 2024-04-06
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. Suspiria: Coração em Chamas - 2024-03-28
