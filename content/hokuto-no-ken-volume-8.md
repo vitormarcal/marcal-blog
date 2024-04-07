@@ -14,7 +14,7 @@ image: img/hokuto-no-ken/hokuto-no-ken-volume-8.jpg
 ---
 ----
 
-![hokuto-no-ken-volume-1](img/hokuto-no-ken/hokuto-no-ken-volume-8.jpg)
+![hokuto-no-ken-volume-8](img/hokuto-no-ken/hokuto-no-ken-volume-8.jpg)
 
 > Chegou a hora de Kenshiro enfrentar a derradeira batalha contra Souther. Mas para vencer um oponente tão poderoso, Ken terá de descobrir o segredo do corpo imortal dele. Já os irmãos Raoh e Toki terão de encarar o cruel destino que lhes foi predestinado: lutar até a morte para descobrir quem será o sucessor do Hokuto Shin-Ken.
 
