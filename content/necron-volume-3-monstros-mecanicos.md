@@ -14,7 +14,7 @@ image: img/necron-volume-3-monstros-mecanicos.jpg
 ---
 ----
 
-![necron-volume-2-o-navio-dos-leprosos](img/necron-volume-3-monstros-mecanicos.jpg)
+![necron-volume-3-monstros-mecanicos](img/necron-volume-3-monstros-mecanicos.jpg)
 
 > Após deixar o navio, a doutora Frieda Boher e Necron chegam à uma pequena ilha. Eles então descobrem que essa ilha não é tão isolada quanto pensavam e terão que enfrentar a ameaça dos "Monstros Mecânicos".
 

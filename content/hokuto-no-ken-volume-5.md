@@ -14,7 +14,7 @@ image: img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg
 ---
 ----
 
-![hokuto-no-ken-volume-1](img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg)
+![hokuto-no-ken-volume-5](img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg)
 
 > Kenshiro se dirige até a prisão lendária Cassandra para salvar seu irmão Toki. Diante de Kenshiro, ergue-se Uighur, o impiedoso dono da prisão lendária.
 
