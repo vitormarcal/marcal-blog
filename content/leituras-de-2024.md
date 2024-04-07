@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-03-31T18:07:00
+updated_at: 2024-04-07T15:06:00
 is_post: true
 tags:
   - livros
@@ -51,6 +51,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 26. [Hokuto no Ken: Volume 8](hokuto-no-ken-volume-8), de Buronson e Tetsuo Hara - 2024-03-31
 27. [Necron - Volume 3: Monstros Mecânicos](necron-volume-3-monstros-mecanicos), de Magnus - 2024-04-06
 28. [Dragon Ball Vol. 31 - Edição Definitiva](dragon-ball-vol-31-edicao-definitiva), de Akira Toriyama - 2024-04-06
+29. [Necron - Volume 4: As Mulheres Aranhas](necron-volume-4-as-mulheres-aranhas), de Magnus - 2024-04-07
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. Suspiria: Coração em Chamas - 2024-03-28
