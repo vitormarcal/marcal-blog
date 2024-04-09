@@ -52,6 +52,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 27. [Necron - Volume 3: Monstros Mecânicos](necron-volume-3-monstros-mecanicos), de Magnus - 2024-04-06
 28. [Dragon Ball Vol. 31 - Edição Definitiva](dragon-ball-vol-31-edicao-definitiva), de Akira Toriyama - 2024-04-06
 29. [Necron - Volume 4: As Mulheres Aranhas](necron-volume-4-as-mulheres-aranhas), de Magnus - 2024-04-07
+30. [Hokuto no Ken: Volume 9](hokuto-no-ken-volume-9), de Buronson e Tetsuo Hara - 2024-04-08
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. Suspiria: Coração em Chamas - 2024-03-28
@@ -65,7 +66,6 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Como as democracias morrem, de Steven Levitsky
 * Ignorância: Uma história global, de Peter Burke
 * Buda: Volume 5, de Osamu Tezuka
-* Hokuto no Ken: Volume 9 de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 10, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 11, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 12, de Buronson e Tetsuo Hara
