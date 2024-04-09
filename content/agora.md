@@ -2,8 +2,8 @@
 title: Agora!
 description: Uma lista do que estou fazendo agora, quando eu lembro de atualizar.
 author: Vítor Marçal
-created_at: 2023-11-27T01:12:35.000Z
-updated_at: 2024-04-09T20:02:00
+created_at: 2024-04-09T20:06:00
+updated_at: ""
 is_post: false
 ---
 ---
