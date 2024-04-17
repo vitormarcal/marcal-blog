@@ -56,6 +56,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. Suspiria: Coração em Chamas - 2024-03-28
+3. O mito de Sísifo, de Albert Camus - 2024-04-17
 
 ### Quero Ler
 
