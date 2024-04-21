@@ -5,9 +5,9 @@ author: Vítor Marçal
 created_at: 
 updated_at: 
 is_post: true
-tags:
+tags: 
 related: 
-image:
+image: img/{{title}}.jpg
 ---
 ----
 

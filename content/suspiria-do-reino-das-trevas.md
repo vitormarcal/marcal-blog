@@ -11,6 +11,7 @@ tags:
   - medo
 related:
   - "[[leituras-de-2024]]"
+  - "[[suspiria-coracao-em-chamas]]"
 image: img/suspiria-do-reino-das-trevas.jpg
 ---
 ----
