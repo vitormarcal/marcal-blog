@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-04-07T15:06:00
+updated_at: 2024-04-21T16:52:00
 is_post: true
 tags:
   - livros
@@ -19,8 +19,7 @@ Photo by [Syd Wachs](https://unsplash.com/@videmusart?utm_source=ghost&utm_mediu
 
 Já há alguns anos, eu registro minhas atividades de leitura no Goodreads. Lá, consigo me planejar, marcar leituras desejadas e concluídas. Acontece que o Goodreads tem uma usabilidade péssima e uma funcionalidade limitada para exportar nossos dados.
 
-Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas desta vez, também registrarei o que li ou quero ler aqui. No futuro, quem sabe, não desenvolvo algo mais prático, algo que seja auto-hospedado e de código aberto.
-
+Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas desta vez, também registrarei o que li ou quero ler aqui.
 ### Lidos
 
 1.  [Dragon Ball Vol. 29 - Edição Definitiva](dragon-ball-vol-29-edicao-definitiva), de Akira Toriyama - 2024-01-04
@@ -53,9 +52,10 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 28. [Dragon Ball Vol. 31 - Edição Definitiva](dragon-ball-vol-31-edicao-definitiva), de Akira Toriyama - 2024-04-06
 29. [Necron - Volume 4: As Mulheres Aranhas](necron-volume-4-as-mulheres-aranhas), de Magnus - 2024-04-07
 30. [Hokuto no Ken: Volume 9](hokuto-no-ken-volume-9), de Buronson e Tetsuo Hara - 2024-04-08
+31. [Suspiria: Coração em Chamas](suspiria-do-reino-das-trevas), de Luca Laca Montagliani - 2024-03-21
+32. [Pré-cálculo: Gráfico, Numérico e Algébrico](pre-calculo-grafico-numerico-e-algebrico), de Franklin D. Demana - 2024-03-21
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
-2. Suspiria: Coração em Chamas - 2024-03-28
 3. O mito de Sísifo, de Albert Camus - 2024-04-17
 
 ### Quero Ler
