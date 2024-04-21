@@ -52,8 +52,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 28. [Dragon Ball Vol. 31 - Edição Definitiva](dragon-ball-vol-31-edicao-definitiva), de Akira Toriyama - 2024-04-06
 29. [Necron - Volume 4: As Mulheres Aranhas](necron-volume-4-as-mulheres-aranhas), de Magnus - 2024-04-07
 30. [Hokuto no Ken: Volume 9](hokuto-no-ken-volume-9), de Buronson e Tetsuo Hara - 2024-04-08
-31. [Suspiria: Coração em Chamas](suspiria-coracao-em-chamas), de Luca Laca Montagliani - 2024-03-21
-32. [Pré-cálculo: Gráfico, Numérico e Algébrico](pre-calculo-grafico-numerico-e-algebrico), de Franklin D. Demana - 2024-03-21
+31. [Suspiria: Coração em Chamas](suspiria-coracao-em-chamas), de Luca Laca Montagliani - 2024-04-21
+32. [Pré-cálculo: Gráfico, Numérico e Algébrico](pre-calculo-grafico-numerico-e-algebrico), de Franklin D. Demana - 2024-04-21
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 3. O mito de Sísifo, de Albert Camus - 2024-04-17
