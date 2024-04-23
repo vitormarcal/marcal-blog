@@ -6,6 +6,7 @@ created_at: 2023-12-24
 is_post: true
 tags:
   - amor
+  - video
 related:
   - "[[tags/amor]]"
   - "[[tags/video]]"
