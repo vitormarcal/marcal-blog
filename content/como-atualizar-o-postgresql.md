@@ -13,9 +13,9 @@ related:
 
 Esse guia mostra os passos para atualizar a versão 15 para 16 no Ubuntu (ou Debian e derivados) mas eventualmente, deverá funcionar ao fazer a atualização do 16 para 17 (quando essa sair).
 
-Esse guia foi baseado na versão em Inglês [deste outro guia](https://www.kostolansky.sk/posts/upgrading-to-postgresql-15/) que ensina o upgrade da versão 14 para a 15. Caso a página esteja indisponivel, veja pelo [snapshot do guia no Internet Archive](https://web.archive.org/web/20231128145207/https://www.kostolansky.sk/posts/upgrading-to-postgresql-15/)
+Esse guia foi baseado na versão em Inglês [deste outro guia](https://www.kostolansky.sk/posts/upgrading-to-postgresql-15/) que ensina o upgrade da versão 14 para a 15. Caso a página esteja indisponivel, veja pelo [snapshot do guia no Internet Archive](https://web.archive.org/web/20231128145207/https://www.kostolansky.sk/posts/upgrading-to-postgresql-15/).
 
-Instale a nova versão, no exemplo a versão 16 do PostgreSQL:
+Instale a nova versão, no exemplo é a versão 16 do PostgreSQL:
 
 ```shell
 sudo apt-get update
