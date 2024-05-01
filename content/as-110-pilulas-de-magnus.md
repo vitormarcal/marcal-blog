@@ -1,5 +1,5 @@
 ---
-title: As 110 Pílulas
+title: As 110 Pílulas, de Magnus
 description: Não é pra todo mundo, muito menos por aqueles puristas
 author: Vítor Marçal
 created_at: 2024-05-01T14:08:00
