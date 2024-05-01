@@ -2,7 +2,7 @@
 title: 10.ª  Olimpíadas de Ceilândia na modalidade Xadrez Rápido
 description: Foi legal quebrar esse jejum depois de tanto tempo longe das práticas de xadrez.
 author: Vítor Marçal
-created_at: 
+created_at: 2024-04-28T10:00:00
 updated_at: 
 is_post: true
 tags:

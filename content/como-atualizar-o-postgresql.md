@@ -2,7 +2,7 @@
 title: Como atualizar o PostgreSQL
 description: Atualize o PostgreSQL em Debian, Ubuntu e derivados
 author: Vítor Marçal
-created_at: 
+created_at: 2024-04-24T22:00:00
 updated_at: 
 is_post: true
 tags:
