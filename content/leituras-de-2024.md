@@ -57,6 +57,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 33. [Hokuto No Ken: Volume 10](hokuto-no-ken-volume-10), de Buronson e Tetsuo Hara - 2024-04-22
 34. [O mito de Sísifo](o-mito-de-sisifo-de-albert-camus), de Albert Camus - 2024-05-01
 35.  [Neon Genesis Evangelion Collector's Edition Vol. 04](neon-genesis-evangelion-collectors-edition-vol-04), de Yoshiyuki Sadamoto - 2024-05-01
+36. [As 110 Pilulas](as-110-pilulas-de-magnus), de Magnus - 2024-01-05
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 
