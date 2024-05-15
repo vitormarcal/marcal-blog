@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-05-01T12:34:00
+updated_at: 2024-05-14T21:02:00
 is_post: true
 tags:
   - livros
@@ -60,6 +60,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 36. [As 110 Pilulas](as-110-pilulas-de-magnus), de Magnus - 2024-01-05
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
+2. O Astronaura, de Jaroslav Kalfar - 2024-05-14
 
 ### Quero Ler
 
@@ -78,7 +79,6 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Hokuto no Ken: Volume 17, de Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 18, de Buronson e Tetsuo Hara
 * O Homem que Calculava, de Malba Tahan
-* O Astronaura, de Jaroslav Kalfar
 * Quack: O Caminho do Vento, de Kaji Pato
 * Héros Américains, de  Amilcar Pinna
 * Condado Maldito Vol.1: Bruxas & Assombrações, de Cullen Bunn
