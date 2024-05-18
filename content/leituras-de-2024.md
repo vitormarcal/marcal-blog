@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-05-14T21:02:00
+updated_at: 2024-05-18T15:56:00
 is_post: true
 tags:
   - livros
@@ -58,6 +58,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 34. [O mito de Sísifo](o-mito-de-sisifo-de-albert-camus), de Albert Camus - 2024-05-01
 35.  [Neon Genesis Evangelion Collector's Edition Vol. 04](neon-genesis-evangelion-collectors-edition-vol-04), de Yoshiyuki Sadamoto - 2024-05-01
 36. [As 110 Pilulas](as-110-pilulas-de-magnus), de Magnus - 2024-01-05
+37. [Condado Maldito: Volume 1 - Bruxas & Assombrações](condado-maldito-volume-1-bruxas-e-assombracoes), de Cullen Bunn
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. O Astronaura, de Jaroslav Kalfar - 2024-05-14
@@ -81,5 +82,4 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * O Homem que Calculava, de Malba Tahan
 * Quack: O Caminho do Vento, de Kaji Pato
 * Héros Américains, de  Amilcar Pinna
-* Condado Maldito Vol.1: Bruxas & Assombrações, de Cullen Bunn
-* Condado Maldito Vol. 2: Maus Presságios, de Cullen Bunn
+* Condado Maldito: Volume 2 -  Maus Presságios, de Cullen Bunn
