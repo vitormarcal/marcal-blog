@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-05-18T22:03:00
+updated_at: 2024-05-23T14:08:00
 is_post: true
 tags:
   - livros
@@ -60,9 +60,9 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 36. [As 110 Pilulas](as-110-pilulas-de-magnus), de Magnus - 2024-05-01
 37. [Condado Maldito: Volume 1 - Bruxas & Assombrações](condado-maldito-volume-1-bruxas-e-assombracoes), de Cullen Bunn - 2024-05-18
 38. [The Darkness: Origins - volume 1](the-darkness-volume-1), de Garth Ennis - 2024-05-18
+39. [O Astronaura](o-astronauta-de-jaroslav-kalfar), de Jaroslav Kalfar - 2024-05-22
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
-2. O Astronaura, de Jaroslav Kalfar - 2024-05-14
 
 ### Quero Ler
 
