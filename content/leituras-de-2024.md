@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-05-23T14:08:00
+updated_at: 2024-05-23T21:39:00
 is_post: true
 tags:
   - livros
@@ -63,6 +63,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 39. [O Astronaura](o-astronauta-de-jaroslav-kalfar), de Jaroslav Kalfar - 2024-05-22
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
+2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
 
 ### Quero Ler
 
