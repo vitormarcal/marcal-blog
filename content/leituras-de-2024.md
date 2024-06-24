@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-06-21T14:22:00
+updated_at: 2024-06-23T21:38:00
 is_post: true
 tags:
   - livros
@@ -56,7 +56,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 32. [Pré-cálculo: Gráfico, Numérico e Algébrico](pre-calculo-grafico-numerico-e-algebrico), de Franklin D. Demana - 2024-04-21
 33. [Hokuto No Ken: Volume 10](hokuto-no-ken-volume-10), de Buronson e Tetsuo Hara - 2024-04-22
 34. [O mito de Sísifo](o-mito-de-sisifo-de-albert-camus), de Albert Camus - 2024-05-01
-35.  [Neon Genesis Evangelion Collector's Edition Vol. 04](neon-genesis-evangelion-collectors-edition-vol-04), de Yoshiyuki Sadamoto - 2024-05-01
+35. [Neon Genesis Evangelion Collector's Edition Vol. 04](neon-genesis-evangelion-collectors-edition-vol-04), de Yoshiyuki Sadamoto - 2024-05-01
 36. [As 110 Pilulas](as-110-pilulas-de-magnus), de Magnus - 2024-05-01
 37. [Condado Maldito: Volume 1 - Bruxas & Assombrações](condado-maldito-volume-1-bruxas-e-assombracoes), de Cullen Bunn - 2024-05-18
 38. [The Darkness: Origins - volume 1](the-darkness-volume-1), de Garth Ennis - 2024-05-18
@@ -67,6 +67,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
 3. Sal, gordura, ácido, calor: Os elementos da boa cozinha, de Samin Nosrat - 2024-05-26
+4. Suspiria: Herege, de Luca Laca Montagliani - 2024-06-23
+5. Cálculo: Volume 1, de James Stewart - 2024-06-23
 
 ### Quero Ler
 
@@ -86,5 +88,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Hokuto no Ken: Volume 18, de Buronson e Tetsuo Hara
 * O Homem que Calculava, de Malba Tahan
 * Quack: O Caminho do Vento, de Kaji Pato
-* Héros Américains, de  Amilcar Pinna
 * Condado Maldito: Volume 2 -  Maus Presságios, de Cullen Bunn
+* Necron - Volume 5: A Nobreza Depravada, de Magnus
+* Necron - Volume 6: Massacre no Trem Noturno, de Magnus
+* Necron - Volume 7: A Baleia de Aço, de Magnus
+* Necron - Volume 8: O Homem Peixe, de Magnus
+* Necron - Volume 9: O Rei dos Canibais, de Magnus
+* Necron - Volume 10: Os Mortos-Vivos, de Magnus
+* Passo a passo - inglês, de Charles Berlitz
