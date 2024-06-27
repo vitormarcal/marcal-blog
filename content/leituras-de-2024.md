@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-06-23T21:38:00
+updated_at: 2024-06-26T21:13:00
 is_post: true
 tags:
   - livros
@@ -63,12 +63,12 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 39. [O Astronaura](o-astronauta-de-jaroslav-kalfar), de Jaroslav Kalfar - 2024-05-22
 40. [Cantinho XXX](cantinho-xxx), de Caio Oliveira - 2024-06-20
 41. [HQ Héros Américains](hq-heros-americains), de Almicar Pinna - 2024-06-21
+42. [Suspiria: Herege](suspiria-herege), de Luca Laca Montagliani - 2024-06-23
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
 3. Sal, gordura, ácido, calor: Os elementos da boa cozinha, de Samin Nosrat - 2024-05-26
-4. Suspiria: Herege, de Luca Laca Montagliani - 2024-06-23
-5. Cálculo: Volume 1, de James Stewart - 2024-06-23
+4. Cálculo: Volume 1, de James Stewart - 2024-06-23
 
 ### Quero Ler
 
