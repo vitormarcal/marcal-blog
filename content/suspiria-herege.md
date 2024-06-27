@@ -2,7 +2,7 @@
 title: "Suspiria: Herege"
 description: 
 author: Vítor Marçal
-created_at: 2024-03-15T14:30:00
+created_at: 2024-06-26T21:11:00
 updated_at: 2024-06-26T21:11:00
 is_post: true
 tags:
