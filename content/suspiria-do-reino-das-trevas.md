@@ -12,6 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[suspiria-coracao-em-chamas]]"
+  - "[[suspiria-herege]]"
 image: img/suspiria-do-reino-das-trevas.jpg
 ---
 ----
