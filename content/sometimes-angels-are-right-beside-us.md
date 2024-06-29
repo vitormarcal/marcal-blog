@@ -14,7 +14,6 @@ related:
 image: img/Untitled.jpg
 ---
 ----
-*Memories from Rampa do Urubu, Viana - ES, July 2024*
 
 ![Sometimes, Angels Are Right Beside Us](img/sometimes-angels-are-right-beside-us.jpg)
 
@@ -27,4 +26,7 @@ And ask them to watch over you
 To each burn a candle for you  
 To make bright and clear your path  
 And to walk,like Christ, in grace and love ...
+
+*Memories from Rampa do Urubu, Viana - ES, July 2024*
+
 
