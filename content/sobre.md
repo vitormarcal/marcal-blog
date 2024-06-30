@@ -1,5 +1,5 @@
 ---
-title: Sou o Vítor, tudo bem?
+title: Sobre
 description: Meu nome é Vítor Marçal, capixaba, nasci em Vitória, Espirito Santo, vivi em Minas e já tem uns bons longos anos que vivo no Distrito Federal.
 author: Vítor Marçal
 ---
@@ -11,8 +11,3 @@ Muitos textos podem parecer incompletos, pois a ideia aqui é postar sempre que 
 Por isso, aqui escrevo para mim mesmo, sem pretensão nenhuma de alcançar ou formar um público. Tecnologia, programação, leituras, quadrinhos... vou escrever sobre tudo que eventualmente eu achar interessante. Espero trazer de volta o [aspecto de comunidade original da Internet](https://www.theverge.com/23513418/bring-back-personal-blogging). Em um espaço como o do Facebook, eu sou o produto e a forma como me comunico é limitada de acordo com os interesses da plataforma. Com isso, espero ser dono do meu próprio espaço, do meu conteúdo e não ficar preso em um formulário de postagem proprietário, como no Twitter, Instagram e Facebook.
 
 Este é um lugar para ser minha forma de expressão, refletir como sou, ou registrar como estou mudando. Acredito que eu serei e me conhecerei melhor assim. E você, por que não [faz a p\*\*\*a de um blog](https://crieaporradeum.blog/)?
-
-### Contato
-
-Caso queira entrar em contato, mande-me uma mensagem para
-<a><span class="obfuscated_email">oi@marcal<b>.nottodayrobot</b>.dev</span></a>
