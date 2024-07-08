@@ -6,7 +6,7 @@ const thisYear = computed(() => new Date().getFullYear())
 <template>
   <footer>
     <hr/>
-    <span>@ {{thisYear}} <nuxt-link to="/">Vítor Marçal</nuxt-link> </span>
+    <span>© 2019-{{thisYear}} Feito com muito ❤️ usando Vue e Markdown no Distrito Federal, Brasil  </span>
     <hr/>
   </footer>
 
