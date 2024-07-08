@@ -14,6 +14,7 @@ const posts = await queryContent()
       <template v-for="post in posts" :key="post['_id']">
         <post-item :post="post"/>
       </template>
+      <NuxtLink to="/posts"> Publicações anteriores →</NuxtLink>
     </main-content>
 
   </div>
