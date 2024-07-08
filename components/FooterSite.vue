@@ -7,7 +7,6 @@ const thisYear = computed(() => new Date().getFullYear())
   <footer>
     <hr/>
     <span>© 2019-{{thisYear}} Feito com muito ❤️ usando Vue e Markdown no Distrito Federal, Brasil  </span>
-    <hr/>
   </footer>
 
 </template>
