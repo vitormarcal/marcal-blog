@@ -18,4 +18,7 @@ footer {
   color: hsla(0, 0%, 100%, .64);
   font-size: 16px;
 }
+hr  {
+  height: 1px;
+}
 </style>
