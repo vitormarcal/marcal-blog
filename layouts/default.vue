@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import FooterSite from "~/components/FooterSite.vue";
+
 const route = useRoute()
 const config = useAppConfig()
 const {page} = useContent()
@@ -54,6 +56,7 @@ useHead({
   <div class="site" :class="headerClass">
     <HeaderSite @is-head-open="() => headOpen = !headOpen"/>
     <slot/>
+    <FooterSite />
   </div>
 </template>
 
