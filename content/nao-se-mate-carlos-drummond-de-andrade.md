@@ -31,7 +31,7 @@ a fazer o mesmo.
 
 Abaixo, o poema, humildemente narrado por mim 😜
 
-::audio-card{src="https://www.marcal.dev/content/media/2023/11/nao-se-mate-drumm.mp3"}
+::audio-card{src="/audio/nao-se-mate-drumm.mp3"}
 #caption
 Não se mate, de Carlos Drummond de Andrade
 ::
