@@ -44,6 +44,9 @@ export default defineNuxtConfig({
         'nuxt-content-assets', // make sure to add before content!
         '@nuxt/content'
     ],
+
+    css: ['~/assets/css/main.scss'],
+
     nitro: {
         prerender: {
             crawlLinks: true,
