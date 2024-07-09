@@ -12,7 +12,7 @@ $text-letter-spacing: -.02em;
 $text-line-height: 1.6;
 
 .font-family {
-  font-family: Manrope, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 
 h1 {
@@ -40,6 +40,7 @@ h4, h5, h6 {
 }
 
 .texto {
+  @extend .font-family;
   font-weight: 400;
   line-height: $text-line-height;
   letter-spacing: $text-letter-spacing;
