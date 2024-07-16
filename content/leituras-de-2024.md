@@ -3,7 +3,7 @@ title: Leituras de 2024
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-07-07T20:43:00
+updated_at: 2024-07-16T18:09:00
 is_post: true
 tags:
   - livros
@@ -66,6 +66,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 42. [Suspiria: Herege](suspiria-herege), de Luca Laca Montagliani - 2024-06-23
 43. [Monstro do Pântano por Alan Moore Vol. 1: Edição Absoluta](monstro-do-pantano-vol-1-edicao-absoluta), de Alan Moore - 2024-07-03
 44. [Dragon Ball Vol. 32 - Edição Definitiva](dragon-ball-vol-32-edicao-definitiva), de Akira Toriyama - 2024-07-07
+45. [Hokuto No Ken: Volume 11](hokuto-no-ken-volume-11), de Buronson e Tetsuo Hara - 2024-07-16
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
