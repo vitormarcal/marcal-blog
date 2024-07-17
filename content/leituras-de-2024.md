@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-07-17T11:27:00
+updated_at: 2024-07-17T14:09:00
 is_post: true
 tags:
   - livros
@@ -65,11 +65,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 43. [Monstro do Pântano por Alan Moore Vol. 1: Edição Absoluta](monstro-do-pantano-vol-1-edicao-absoluta), de Alan Moore - 2024-07-03
 44. [Dragon Ball Vol. 32 - Edição Definitiva](dragon-ball-vol-32-edicao-definitiva), de Akira Toriyama - 2024-07-07
 45. [Hokuto No Ken: Volume 11](hokuto-no-ken-volume-11), de Buronson e Tetsuo Hara - 2024-07-16
+46. [Sal, gordura, ácido, calor: Os elementos da boa cozinha](sal-gordura-acido-calor-os-elementos-da-boa-cozinha), de Samin Nosrat - 2024-07-17
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
-3. Sal, gordura, ácido, calor: Os elementos da boa cozinha, de Samin Nosrat - 2024-05-26
-4. Cálculo: Volume 1, de James Stewart - 2024-06-23
+3. Cálculo: Volume 1, de James Stewart - 2024-06-23
 
 ### Quero Ler
 
