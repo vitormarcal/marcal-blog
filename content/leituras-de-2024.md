@@ -9,11 +9,11 @@ tags:
   - livros
 related:
   - "[[tags/livros]]"
-image: img/leituras-do-ano.jpg
+image: img/leituras-do-ano.png
 ---
 ---
 
-![Leituras de 2024](img/leituras-do-ano.jpg)
+![Leituras de 2024](img/leituras-do-ano.png)
 
 Photo by [Syd Wachs](https://unsplash.com/@videmusart?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
