@@ -1,9 +1,9 @@
 ---
-title: Leituras de 2024
+title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-07-16T18:09:00
+updated_at: 2024-07-17T11:27:00
 is_post: true
 tags:
   - livros
@@ -14,8 +14,6 @@ image: img/leituras-do-ano.png
 ---
 
 ![Leituras de 2024](img/leituras-do-ano.png)
-
-Photo by [Syd Wachs](https://unsplash.com/@videmusart?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
 Já há alguns anos, eu registro minhas atividades de leitura no Goodreads. Lá, consigo me planejar, marcar leituras desejadas e concluídas. Acontece que o Goodreads tem uma usabilidade péssima e uma funcionalidade limitada para exportar nossos dados.
 
