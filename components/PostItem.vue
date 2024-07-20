@@ -10,14 +10,14 @@ const formattedDate = computed(() => {
 
 <template>
   <article>
-    <a :href="`${post['_path']}`">
+    <NuxtLink :to="`${post['_path']}`">
 
       <h4>{{ post.title }}</h4>
       <time>{{ formattedDate }}</time>
       <p>
         {{ post.description }}
       </p>
-    </a>
+    </NuxtLink>
   </article>
 </template>
 
