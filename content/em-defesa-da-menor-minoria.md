@@ -7,6 +7,8 @@ is_post: true
 tags:
   - liberdade
 image: img/em-defesa-da-menor-minoria.jpg
+related:
+  - "[[tags/liberdade]]"
 ---
 ---
 ![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)

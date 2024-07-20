@@ -9,6 +9,9 @@ tags:
   - tecnologia
   - programacao
 image: img/certification.png
+related:
+  - "[[tags/tecnologia]]"
+  - "[[tags/programacao]]"
 ---
 ---
 ![O caminho para certificação Java 8](img/certification.png)

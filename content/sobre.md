@@ -2,6 +2,8 @@
 title: Sobre
 description: Meu nome é Vítor Marçal, capixaba, nasci em Vitória, Espirito Santo, vivi em Minas e já tem uns bons longos anos que vivo no Distrito Federal.
 author: Vítor Marçal
+related:
+  - "[[paginas-fixas]]"
 ---
 ---
 Percebi que escrever um blog é uma boa forma de documentar os desafios que passei e também registrar como me sentia em determinada época da minha vida. Como não é possível confiar na mente para guardar esse tipo de informação a longo prazo, publicar em um blog é uma forma de ter um "**segundo cérebro**" disponível a qualquer momento do dia.
