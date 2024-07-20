@@ -5,6 +5,8 @@ author: Vítor Marçal
 created_at: 2024-04-09T20:06:00
 updated_at: ""
 is_post: false
+related:
+  - "[[paginas-fixas]]"
 ---
 ---
 *   Ainda morando em Ceilândia - Distrito Federal mas pensando em me mudar para algum lugar mais tranquilo.

@@ -6,6 +6,7 @@ tags:
   - mdc
 related:
   - "[[tags/livros]]"
+  - "[[tags]]"
 ---
 
 -----

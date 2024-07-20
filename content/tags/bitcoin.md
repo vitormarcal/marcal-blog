@@ -7,6 +7,7 @@ tags:
 related:
   - "[[tags/tecnologia]]"
   - "[[tags/liberdade]]"
+  - "[[tags]]"
 ---
 
 -----

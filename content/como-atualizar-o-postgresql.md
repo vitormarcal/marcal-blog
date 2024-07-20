@@ -8,6 +8,7 @@ is_post: true
 tags:
   - tecnologia
 related:
+  - "[[tags/tecnologia]]"
 ---
 ----
 
