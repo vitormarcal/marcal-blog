@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-07-17T14:09:00
+updated_at: 2024-07-17T15:29:00
 is_post: true
 tags:
   - livros
@@ -70,6 +70,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
 3. Cálculo: Volume 1, de James Stewart - 2024-06-23
+4. Battle Royale Omnibus: Volume 1, de Koushun Takami - 2024-07-21
 
 ### Quero Ler
 
@@ -98,3 +99,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Necron - Volume 10: Os Mortos-Vivos, de Magnus
 * Passo a passo - inglês, de Charles Berlitz
 * Monstro do Pântano por Alan Moore Vol. 2: Edição Absoluta, de Alan Moore
+* Battle Royale Omnibus: Volume 2, de Koushun Takami
+* Battle Royale Omnibus: Volume 3, de Koushun Takami
+* Battle Royale Omnibus: Volume 4, de Koushun Takami
+* Battle Royale Omnibus: Volume 5, de Koushun Takami
