@@ -1,8 +1,8 @@
 ---
-title: "Um poema: Lied de Heine"
+title: "Um poema: Lied de Heine 🌊"
 description: 
 author: Vítor Marçal
-created_at: 2024-07-23T20:53:00
+created_at: 2024-07-23T21:45:00
 updated_at: 
 is_post: true
 tags:
