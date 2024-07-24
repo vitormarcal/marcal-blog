@@ -66,11 +66,12 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 44. [Dragon Ball Vol. 32 - Edição Definitiva](dragon-ball-vol-32-edicao-definitiva), de Akira Toriyama - 2024-07-07
 45. [Hokuto No Ken: Volume 11](hokuto-no-ken-volume-11), de Buronson e Tetsuo Hara - 2024-07-16
 46. [Sal, gordura, ácido, calor: Os elementos da boa cozinha](sal-gordura-acido-calor-os-elementos-da-boa-cozinha), de Samin Nosrat - 2024-07-17
+47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), de Koushun Takami - 2024-07-23
 ### Lendo
 1. O processo, de Franz Kafka - 2024-03-24
 2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
 3. Cálculo: Volume 1, de James Stewart - 2024-06-23
-4. Battle Royale Omnibus: Volume 1, de Koushun Takami - 2024-07-21
+4. Amar, verbo intransitivo, de Mário de Andrade - 2024-07-17
 
 ### Quero Ler
 
