@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-07-17T15:29:00
+updated_at: 2024-07-28T21:42:00
 is_post: true
 tags:
   - livros
@@ -67,11 +67,12 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 45. [Hokuto No Ken: Volume 11](hokuto-no-ken-volume-11), de Buronson e Tetsuo Hara - 2024-07-16
 46. [Sal, gordura, ácido, calor: Os elementos da boa cozinha](sal-gordura-acido-calor-os-elementos-da-boa-cozinha), de Samin Nosrat - 2024-07-17
 47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), de Koushun Takami - 2024-07-23
+48. [O poder do infinito: Como o cálculo revela os segredos do universo](o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo), de Steven Strogatz - 2024-07-28
+49. [O processo](o-processo-de-franz-kafka), de Franz Kafka - 2024-07-28
 ### Lendo
-1. O processo, de Franz Kafka - 2024-03-24
-2. O poder do infinito: Como o cálculo revela os segredos do universo, de Steven Strogatz - 2024-05-23
-3. Cálculo: Volume 1, de James Stewart - 2024-06-23
-4. Amar, verbo intransitivo, de Mário de Andrade - 2024-07-17
+1. Cálculo: Volume 1, de James Stewart - 2024-06-23
+2. Amar, verbo intransitivo, de Mário de Andrade - 2024-07-17
+3. A grande história da evolução, de Richard Dawkins - 2024-07-28
 
 ### Quero Ler
 
