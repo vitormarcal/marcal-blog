@@ -10,7 +10,7 @@ related:
 ---
 ---
 * Ainda morando em Ceilândia - Distrito Federal mas pensando em me mudar para algum lugar mais tranquilo.
-* Aprendendo duas línguas ao mesmo tempo: Inglês e Francês! 🗣️💬
+* Aprendendo duas línguas: Inglês e Francês! 🗣️💬
 * Parte do Dev. Team de Anti-Fraudes do Ifood 🏍️📦🍛 
 * Pensando em deixar de lado um side project: o [ChatVault](https://github.com/vitormarcal/chatvault) - uma forma de armazenar seu histórico de conversas do Whatsapp de forma independente. Já me atende e estou com preguiça de incluir novas funcionalidades. Feito com muito amor com Vue e Kotlin ❤️
 * Caso tenha curiosidade, [clique aqui para saber o que estou lendo em 2024](https://www.marcal.dev/leituras-de-2024/)!
