@@ -15,6 +15,7 @@ const posts = await queryContent()
         <post-item :post="post"/>
       </template>
       <NuxtLink to="/posts"> Publicações anteriores →</NuxtLink>
+      <iam-not-a-robot/>
     </main-content>
 
   </div>
