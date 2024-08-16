@@ -2,8 +2,9 @@
   <div>
     <main-content>
       <template v-if="showCommentArea">
-        <hr/>
-        <email-me-a-comment :email-address="'oi@marcal.dev'" :page-title="page.title" />
+        <hr style="margin-top: 5rem"/>
+        <email-me-a-comment :email-address="'oi@marcal.dev'" :page-title="page.title"  />
+        <hr style="margin-top: 5rem"/>
         <iam-not-a-robot/>
       </template>
       <hr/>
