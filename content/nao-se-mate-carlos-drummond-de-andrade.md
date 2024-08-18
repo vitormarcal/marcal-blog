@@ -19,9 +19,6 @@ image: img/nao-se-mate-carlos.jpg
 
 ![Não se mate, de Carlos Drummond de Andrade](img/nao-se-mate-carlos.jpg)
 
-Photo
-by [Kristina Tripkovic](https://unsplash.com/@tinamosquito?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
-
 Às vezes acontece de ler algo e a interpretação que você tira é totalmente diferente de quando você o reler algum tempo
 depois. Isso é o esperado, visto que nossa vivência está sempre nos moldando, nossa história são calos que marcam e
 moldam nossa alma, constantemente. Redescobri, esses dias, Drummond. Li _Não se mate_ na adolescência e dessa vez foi de
