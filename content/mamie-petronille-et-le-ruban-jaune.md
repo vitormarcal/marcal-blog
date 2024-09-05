@@ -15,9 +15,8 @@ is_post: true
 
 ![mamie-petronille-et-le-ruban-jaune](img/mamie-petronille-et-le-ruban-jaune.jpg)
 ----
-Comecei a estudar o idioma Francês e esse foi o primeiro livrinho que li! 
 
-Abaixo o texto, para quando eu quiser revisar de forma fácil:
+Comecei a estudar o idioma francês e este foi o primeiro livrinho que li! Abaixo está o texto, para que eu possa revisá-lo de forma fácil quando precisar:
 ## Audio 2
 
 Voilà Aurélie. Elle court pour aller à l'école. Oh non! Son sac à dos est ouvert! Ses cahiers, son stylo et sa règle tombent par terre. Aurélie perd toujours ses affaires!
