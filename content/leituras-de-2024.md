@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-09-06T09:03:00
+updated_at: 2024-09-07T16:49:00
 is_post: true
 tags:
   - livros
@@ -71,27 +71,28 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 49. [O processo](o-processo-de-franz-kafka), por Franz Kafka - 2024-07-28
 50. [Mamie Pétronille et le ruban jaune](mamie-petronille-et-le-ruban-jaune), por Jane Cadwaller - 2024-08-30
 51. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
+52. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
 ### Lendo
 1. Cálculo: Volume 1, por James Stewart - 2024-06-23
 2. A grande história da evolução, por Richard Dawkins - 2024-07-28
-3. Borboleta Assassina: Volume 1, por Yuka Nagate - 2024-09-06
+3. Dragon Ball Vol. 33 - Edição Definitiva, por Akira Toriyama - 2024-09-07
+4. Hokuto no Ken: Volume 12, por Buronson e Tetsuo Hara - 2024-09-07
 
 ### Quero Ler
 
-*  Berserk Vol. 36: Edição, por Luxo de Kentaro Miura
-* Como Ler Livros - O guia clássico para a leitura inteligente, por Mortimer Jerome Adler
-* O método Bullet Journal: Registre o passado, organize o presente, planeje o futuro, por Ryder Carroll
-* Como as democracias morrem, por Steven Levitsky
-* Ignorância: Uma história global, por Peter Burke
-* Buda: Volume 5, por Osamu Tezuka
-* Hokuto no Ken: Volume 11, por Buronson e Tetsuo Hara
-* Hokuto no Ken: Volume 12, por Buronson e Tetsuo Hara
+* Borboleta Assassina: Volume 2, por Yuka Nagate
+* Borboleta Assassina: Volume 3, por Yuka Nagate
+* Macunaíma, por Mário de Andrade
+* Berserk Vol. 36: Edição, por Luxo de Kentaro Miura
 * Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 14, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 15, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 16, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 17, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 18, por Buronson e Tetsuo Hara
+* Como as democracias morrem, por Steven Levitsky
+* Ignorância: Uma história global, por Peter Burke
+* Buda: Volume 5, por Osamu Tezuka
 * O Homem que Calculava, por Malba Tahan
 * Quack: O Caminho do Vento, por Kaji Pato
 * Condado Maldito: Volume 2 -  Maus Presságios, por Cullen Bunn
@@ -107,5 +108,3 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Battle Royale Omnibus: Volume 3, por Koushun Takami
 * Battle Royale Omnibus: Volume 4, por Koushun Takami
 * Battle Royale Omnibus: Volume 5, por Koushun Takami
-* Borboleta Assassina: Volume 2, por Yuka Nagate
-* Borboleta Assassina: Volume 3, por Yuka Nagate
