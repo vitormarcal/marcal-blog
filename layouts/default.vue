@@ -62,10 +62,4 @@ useHead({
 
 <style scoped>
 
-@media (max-width: 991px) {
-  .is-head-open #head {
-    background-color: #12283d;
-  }
-}
-
 </style>

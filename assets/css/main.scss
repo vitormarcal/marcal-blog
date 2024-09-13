@@ -85,3 +85,9 @@ pre {
   flex-direction: column;
   min-height: 100vh;
 }
+
+@media (max-width: 991px) {
+  .is-head-open #head {
+    background-color: $bg-color;
+  }
+}
