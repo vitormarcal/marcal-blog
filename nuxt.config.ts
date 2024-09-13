@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const baseUrl = 'https://www.marcal.dev'
 export default defineNuxtConfig({
     appConfig: {
         site: {
-            baseUrl: 'https://www.marcal.dev',
+            baseUrl: baseUrl,
             title: 'Marçal',
             description: "Escrevo para eu mesmo como uma forma de documentar e ter um Segundo Cerébro 🧠"
         },
@@ -40,12 +41,25 @@ export default defineNuxtConfig({
 
         },
     },
+    i18n: {
+
+    },
     modules: [
-        'nuxt-content-assets', // make sure to add before content!
+        'nuxt-content-assets',
+        '@nuxtjs/i18n',
         '@nuxt/content'
     ],
 
     css: ['~/assets/css/main.scss'],
+    vite: {
+        css: {
+            preprocessorOptions: {
+                scss: {
+                    additionalData: '@use "~/assets/css/_variables.scss" as *;'
+                }
+            }
+        }
+    },
 
     nitro: {
         prerender: {

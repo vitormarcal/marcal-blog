@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 const emits = defineEmits(['is-head-open'])
 
 function toggleHead() {
@@ -13,18 +14,32 @@ function toggleHead() {
         <div class="head-brand-wrapper">
           <a href="/" class="head-logo"> Marçal </a>
         </div>
+        <localization-menu />
         <button class="head-burger" @click="toggleHead">
 
         </button>
       </div>
       <nav class="head-menu">
         <ul class="nav" @click="toggleHead">
-          <li style="transition-delay: 0.03s;"><NuxtLink to="/"> Home </NuxtLink></li>
-          <li style="transition-delay: 0.06s;"><NuxtLink to="/sobre"> Sobre </NuxtLink></li>
-          <li style="transition-delay: 0.09s;"><NuxtLink to="/agora"> Agora </NuxtLink></li>
-          <li style="transition-delay: 0.15s;"><NuxtLink to="/posts"> Publicações </NuxtLink></li>
-          <li style="transition-delay: 0.20s;"><NuxtLink to="/tags/mdc"> Marcações </NuxtLink></li>
-          <li style="transition-delay: 0.25s;"><NuxtLink to="/leituras-de-2024"> Leituras de 2024 </NuxtLink></li>
+
+          <li style="transition-delay: 0.03s;">
+            <NuxtLink to="/"> {{ $t('header.home') }}</NuxtLink>
+          </li>
+          <li style="transition-delay: 0.06s;">
+            <NuxtLink to="/sobre"> {{ $t('header.about') }}</NuxtLink>
+          </li>
+          <li style="transition-delay: 0.09s;">
+            <NuxtLink to="/agora"> {{ $t('header.now') }}</NuxtLink>
+          </li>
+          <li style="transition-delay: 0.15s;">
+            <NuxtLink to="/posts"> {{ $t('header.posts') }}</NuxtLink>
+          </li>
+          <li style="transition-delay: 0.20s;">
+            <NuxtLink to="/tags/mdc"> {{ $t('header.tags') }}</NuxtLink>
+          </li>
+          <li style="transition-delay: 0.25s;">
+            <NuxtLink to="/leituras-de-2024"> {{ $t('header.readings') }}</NuxtLink>
+          </li>
         </ul>
       </nav>
     </div>
@@ -32,8 +47,7 @@ function toggleHead() {
   </header>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
 a {
   text-decoration: none;
   color: #ffffff;
@@ -62,7 +76,6 @@ header {
   display: grid;
   grid-auto-flow: row dense;
   height: 100%;
-  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   column-gap: 32px;
   margin: 0 auto;
@@ -158,6 +171,10 @@ header {
 }
 
 @media (min-width: 992px) {
+  .header-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .head-brand {
     align-items: center;
     display: flex;
@@ -222,6 +239,7 @@ header {
     transform: translateY(0);
     transition: none;
     justify-content: center;
+    flex-direction: column;
     opacity: 0;
     position: fixed;
     visibility: hidden;
