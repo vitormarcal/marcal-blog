@@ -10,11 +10,11 @@ const posts = await queryContent()
 <template>
   <div>
     <main-content path="/">
-      <h3>Últimas publicações</h3>
+      <h3>{{ $t('latest_posts') }}</h3>
       <template v-for="post in posts" :key="post['_id']">
         <post-item :post="post"/>
       </template>
-      <NuxtLink to="/posts"> Publicações anteriores →</NuxtLink>
+      <NuxtLink to="/posts"> {{ $t('previous_publications') }} →</NuxtLink>
       <hr style="margin-top: 5rem"/>
       <iam-not-a-robot/>
       <hr/>

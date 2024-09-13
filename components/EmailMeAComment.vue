@@ -9,8 +9,8 @@ const emailLink = computed(() => {
 
 <template>
   <div class="email-me-a-comment">
-    <p>Blogues são conversas</p>
-    <a :href="emailLink">Entre na conversa via e-mail</a>
+    <p>{{ $t('email_me_a_comment.title') }}</p>
+    <a :href="emailLink">{{ $t('email_me_a_comment.call_to_action') }}</a>
   </div>
 </template>
 
