@@ -6,7 +6,7 @@ tags:
   - livros
 related:
   - "[[leituras-de-2024]]"
-image: i/mg/mamie-petronille-et-le-ruban-jaune.jpg
+image: img/mamie-petronille-et-le-ruban-jaune.jpg
 created_at: 2024-08-30T10:00:00
 updated_at: 
 is_post: true
