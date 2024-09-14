@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/o-astronauta-de-jaroslav-kalfar.jpg
+language: pt
 ---
 ----
 

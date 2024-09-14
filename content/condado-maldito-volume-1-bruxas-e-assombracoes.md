@@ -12,6 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg
+language: pt
 ---
 ----
 

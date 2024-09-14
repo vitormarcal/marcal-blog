@@ -9,6 +9,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg
+language: pt
 ---
 ---
 ![Sal, gordura, ácido, calor: Os elementos da boa cozinha](img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg)

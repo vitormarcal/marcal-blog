@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/hokuto-no-ken/hokuto-no-ken-volume-2.jpg
+language: pt
 ---
 ----
 

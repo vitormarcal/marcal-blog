@@ -12,6 +12,7 @@ image: img/certification.png
 related:
   - "[[tags/tecnologia]]"
   - "[[tags/programacao]]"
+language: pt
 ---
 ---
 ![O caminho para certificação Java 8](img/certification.png)

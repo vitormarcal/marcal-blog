@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
 image: img/protegendo-plantinhas-de-feses-de-animais.jpg
+language: pt
 ---
 ----
 

@@ -11,6 +11,7 @@ related:
   - "[[tags/notas-pessoais]]"
   - "[[desafio-correr-10-km-dia-1]]"
 image: img/desafio-correr-10-km/desafio-correr-10-km.jpg
+language: pt
 ---
 ----
 

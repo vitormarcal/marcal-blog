@@ -12,6 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/monstro-do-pantano-vol-1-edicao-absoluta.jpg
+language: pt
 ---
 ----
 

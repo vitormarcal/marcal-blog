@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/necron-volume-2-o-navio-dos-leprosos.jpg
+language: pt
 ---
 ----
 

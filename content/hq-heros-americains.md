@@ -10,6 +10,7 @@ tags:
   - quadrinhos
 related: 
 image: img/hq-heros-americains.jpg
+language: pt
 ---
 ----
 

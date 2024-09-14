@@ -4,6 +4,7 @@ description: Essa é a minha página pessoal, onde eu escrevo principalmente par
 author: Vítor Marçal
 related:
   - "[[paginas-fixas]]"
+language: pt
 ---
 
 ---

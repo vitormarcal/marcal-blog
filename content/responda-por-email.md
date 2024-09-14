@@ -9,7 +9,8 @@ tags:
   - notas-pessoais
 related:
   - "[[tags/notas-pessoais]]"
-image:
+image: 
+language: pt
 ---
 ----
 

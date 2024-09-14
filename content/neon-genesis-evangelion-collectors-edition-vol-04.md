@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/neon-genesis-evangelion-collectors-edition-vol-04.jpg
+language: pt
 ---
 ----
 

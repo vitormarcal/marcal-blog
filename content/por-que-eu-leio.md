@@ -10,6 +10,7 @@ tags:
   - livros
 related:
   - "[[tags/notas-pessoais]]"
+language: pt
 ---
 ----
 

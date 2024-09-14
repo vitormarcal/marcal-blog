@@ -6,14 +6,15 @@ tags:
   - livros
 related:
   - "[[leituras-de-2024]]"
-image: img/mamie-petronille-et-le-ruban-jaune.jpg
+image: i/mg/mamie-petronille-et-le-ruban-jaune.jpg
 created_at: 2024-08-30T10:00:00
 updated_at: 
 is_post: true
+language: fr
 ---
 ----
 
-![mamie-petronille-et-le-ruban-jaune](img/mamie-petronille-et-le-ruban-jaune.jpg)
+![mamie-petronille-et-le-ruban-jaune](/img/mamie-petronille-et-le-ruban-jaune.jpg)
 ----
 
 Comecei a estudar o idioma francês e este foi o primeiro livrinho que li! Abaixo está o texto, para que eu possa revisá-lo de forma fácil quando precisar:

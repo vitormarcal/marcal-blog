@@ -11,6 +11,7 @@ tags:
 related:
   - "[[tags/bitcoin]]"
 image: img/guia-bitcoin.jpg
+language: pt
 ---
 ---
 ![guia-bitcoin](img/guia-bitcoin.jpg)

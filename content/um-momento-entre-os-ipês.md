@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
 image: img/um-momento-entre-os-ipes.jpg
+language: pt
 ---
 ----
 

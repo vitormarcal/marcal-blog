@@ -11,6 +11,7 @@ tags:
 related:
   - "[[meu-segundo-homelab-montado]]"
 image: img/home-lab-synology.jpeg
+language: pt
 ---
 ---
 ![Home lab - Synology DS420j](img/home-lab-synology.jpeg)

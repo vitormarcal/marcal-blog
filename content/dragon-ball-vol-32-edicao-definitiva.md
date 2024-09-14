@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg
+language: pt
 ---
 ----
 

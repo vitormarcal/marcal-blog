@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
+language: pt
 ---
 ----
 

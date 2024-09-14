@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/video]]"
 image: img/boku-no-kokoro-no-yabai-yatsu-s02/boku-no-kokoro-no-yabai-yatsu-s02.jpg
+language: pt
 ---
 ----
 

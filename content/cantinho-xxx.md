@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/cantinho-xxx.jpg
+language: pt
 ---
 ----
 

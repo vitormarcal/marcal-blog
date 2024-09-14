@@ -12,6 +12,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[tags/amor]]"
 image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
+language: pt
 ---
 ----
 

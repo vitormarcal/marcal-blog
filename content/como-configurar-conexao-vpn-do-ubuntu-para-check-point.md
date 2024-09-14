@@ -9,6 +9,7 @@ tags:
   - tecnologia
 related:
   - "[[tags/tecnologia]]"
+language: pt
 ---
 ----
 

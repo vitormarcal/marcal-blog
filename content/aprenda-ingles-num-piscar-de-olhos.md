@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/aprenda-ingles-num-piscar-de-olhos.jpg
+language: pt
 ---
 ---
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)

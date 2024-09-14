@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/as-110-pilulas-de-magnus.jpg
+language: pt
 ---
 ----
 

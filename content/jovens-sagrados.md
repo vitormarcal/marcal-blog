@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/sant-young-man-1-a-3-1.jpg
+language: pt
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

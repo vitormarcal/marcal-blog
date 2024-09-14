@@ -10,7 +10,7 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg
+image: /img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg
 language: fr
 localized_post_paths:
   - "[[en/dragon-ball-vol-33-definitive-edition]]"

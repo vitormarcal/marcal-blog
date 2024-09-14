@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/necron-volume-4-as-mulheres-aranhas.jpg
+language: pt
 ---
 ----
 
