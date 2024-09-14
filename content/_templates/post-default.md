@@ -8,6 +8,7 @@ is_post: true
 tags: 
 related: 
 image: img/{{title}}.jpg
+language: pt
 ---
 ----
 
