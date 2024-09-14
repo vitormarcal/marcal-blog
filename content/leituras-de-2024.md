@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-09-07T16:49:00
+updated_at: 2024-09-14T12:29:00
 is_post: true
 tags:
   - livros
@@ -72,11 +72,11 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 50. [Mamie Pétronille et le ruban jaune](mamie-petronille-et-le-ruban-jaune), por Jane Cadwaller - 2024-08-30
 51. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
 52. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
+53. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
 ### Lendo
 1. Cálculo: Volume 1, por James Stewart - 2024-06-23
 2. A grande história da evolução, por Richard Dawkins - 2024-07-28
-3. Dragon Ball Vol. 33 - Edição Definitiva, por Akira Toriyama - 2024-09-07
-4. Hokuto no Ken: Volume 12, por Buronson e Tetsuo Hara - 2024-09-07
+3. Hokuto no Ken: Volume 12, por Buronson e Tetsuo Hara - 2024-09-14
 
 ### Quero Ler
 

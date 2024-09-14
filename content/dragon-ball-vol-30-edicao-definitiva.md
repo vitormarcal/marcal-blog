@@ -10,10 +10,10 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
-image: img/dragon-ball-vol-30-edicao-definitiva.jpg
+image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-30-edicao-definitiva.jpg
 ---
 ---
-![Dragon Ball Vol 30  - Edição Definitiva](img/dragon-ball-vol-30-edicao-definitiva.jpg)
+![Dragon Ball Vol 30  - Edição Definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-30-edicao-definitiva.jpg)
 
 > As lutas da categoria adulta do Torneio de Artes Marciais finalmente começam! Na mesma arena onde se reúnem os 16 guerreiros que passaram nas eliminatórias, surgem dois indivíduos com uma aura sombria. Quem serão eles…?! Videl enfrenta os brutais ataques de seu oponente, Spopovich, enquanto Gohan acaba tendo sua energia drenada. Qual será o objetivo deles?! Com a aparição de novos e poderosos inimigos, o Torneio de Artes Marciais segue para uma direção totalmente inesperada! E assim, os guerreiros são mais uma vez conduzidos para o campo de batalha!
 

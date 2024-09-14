@@ -10,11 +10,11 @@ tags:
   - quadrinhos
 related:
   - "[[leituras-de-2024]]"
-image: img/dragon-ball-vol-31-edicao-definitiva.jpg
+image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg
 ---
 ----
 
-![dragon-ball-vol-31-edicao-definitiva](img/dragon-ball-vol-31-edicao-definitiva.jpg)
+![dragon-ball-vol-31-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg)
 
 Que volume de tirar o fôlego!
 
