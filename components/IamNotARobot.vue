@@ -9,22 +9,16 @@ import humanContent from "assets/img/HumanContent.svg";
 <template>
   <div style="text-align: center">
     <div class="image-wrapper">
-      <img :src="iAmNotARobot" alt="I am not a Robot"/>
-      <img :src="madeByHuman" alt="Made by human"/>
+      <img :src="iAmNotARobot" :alt="$t('i_am_not_a_robot.i_am_not_a_robot_alt')"/>
+      <img :src="madeByHuman" :alt="$t('i_am_not_a_robot.made_by_human_alt')"/>
     </div>
-    <p style="font-size: 16px">
-      <b>Este texto é orgânico</b>,<br/>
-      criado de forma natural por um humano.<br/>
-      Pode ter passado por correções gramaticais,<br/>
-      com ou sem o auxílio de IA, <br/>
-      mas <b>a essência original permanece intacta</b>.
-    </p>
+    <p style="font-size: 16px" v-html="$t('i_am_not_a_robot.text')" />
 <p style="margin-bottom: 2rem">
 </p>
 
     <div class="image-wrapper">
-      <img :src="writtenByHuman" alt="Written by Human"/>
-      <img :src="humanContent" alt="Human content"/>
+      <img :src="writtenByHuman" :alt="$t('i_am_not_a_robot.written_by_human_alt')"/>
+      <img :src="humanContent" :alt="$t('i_am_not_a_robot.human_content_alt')"/>
     </div>
   </div>
 

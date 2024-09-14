@@ -1,5 +1,6 @@
 export default defineI18nConfig(() => ({
     legacy: false,
+    warnHtmlMessage: false,
     locale: 'pt',
     messages: {
         "pt": {
@@ -19,6 +20,17 @@ export default defineI18nConfig(() => ({
             email_me_a_comment: {
                 title: "Blogues são conversas",
                 call_to_action: "Entre na conversa via e-mail"
+            },
+            i_am_not_a_robot: {
+                i_am_not_a_robot_alt: "Eu não sou um robô 😁",
+                made_by_human_alt: "Feito por um humano 😉",
+                written_by_human_alt: "Escrito por um humano 🙂",
+                human_content_alt: "Conteúdo humano 😄",
+                text: "<b>Este texto é orgânico</b>,<br/>\n" +
+                    "      criado de forma natural por um humano.<br/>\n" +
+                    "      Pode ter passado por correções gramaticais,<br/>\n" +
+                    "      com ou sem o auxílio de IA, <br/>\n" +
+                    "      mas <b>a essência original permanece intacta</b>."
             }
         },
         "en": {
@@ -38,6 +50,17 @@ export default defineI18nConfig(() => ({
             email_me_a_comment: {
                 title: "Blogs are conversations.",
                 call_to_action: "Join the conversation via email"
+            },
+            i_am_not_a_robot: {
+                i_am_not_a_robot_alt: "I am not a robot 😁",
+                made_by_human_alt: "Made by human 😉",
+                written_by_human_alt: "Written by Human 🙂",
+                human_content_alt: "Human content 😄",
+                text: "<b>This text is organic</b>,<br/>\n" +
+                    "      created naturally by a human.<br/>\n" +
+                    "      It may have gone through grammatical corrections,<br/>\n" +
+                    "      with or without AI assistance, <br/>\n" +
+                    "      but <b>the original essence remains intact</b>."
             }
         },
         "fr": {
@@ -57,6 +80,17 @@ export default defineI18nConfig(() => ({
             email_me_a_comment: {
                 title: "Les blogs sont des conversations.",
                 call_to_action: "Rejoignez la conversation par e-mail"
+            },
+            i_am_not_a_robot: {
+                i_am_not_a_robot_alt: "Je ne suis pas un robot 😁",
+                made_by_human_alt: "Fait par un humain 😉",
+                written_by_human_alt: "Écrit par un humain 🙂",
+                human_content_alt: "Contenu humain 😄",
+                text: "<b>Ce texte est organique</b>,<br/>\n" +
+                    "      créé de manière naturelle par un humain.<br/>\n" +
+                    "      Il a peut-être fait l'objet de corrections grammaticales,<br/>\n" +
+                    "      avec ou sans l'aide de l'IA, <br/>\n" +
+                    "      mais <b>l'essence originale reste intacte</b>."
             }
         }
     }
