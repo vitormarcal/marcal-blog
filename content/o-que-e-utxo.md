@@ -8,8 +8,10 @@ is_post: true
 tags:
   - tecnologia
   - bitcoin
+  - portugues
 related:
   - "[[guia-bitcoin]]"
+  - "[[tags/portugues]]"
 image: img/o-que-e-utxo.png
 language: pt
 ---

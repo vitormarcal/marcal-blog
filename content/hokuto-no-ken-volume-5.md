@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg
 language: pt
 ---

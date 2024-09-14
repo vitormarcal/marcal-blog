@@ -8,9 +8,11 @@ is_post: true
 tags:
   - tecnologia
   - bitcoin
+  - portugues
 related:
   - "[[guia-bitcoin]]"
   - "[[meu-segundo-homelab-montado]]"
+  - "[[tags/portugues]]"
 image: img/bitcoin-node.jpg
 language: pt
 ---

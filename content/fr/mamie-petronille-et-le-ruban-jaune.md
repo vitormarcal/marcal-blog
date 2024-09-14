@@ -4,8 +4,10 @@ description: Je suis un beau ruban jaune 🎶 J'aime beaucoup aider les personne
 author: Vítor Marçal
 tags:
   - livros
+  - francais
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/francais]]"
 image: img/mamie-petronille-et-le-ruban-jaune.jpg
 created_at: 2024-08-30T10:00:00
 updated_at: 
@@ -17,7 +19,7 @@ language: fr
 ![mamie-petronille-et-le-ruban-jaune](/img/mamie-petronille-et-le-ruban-jaune.jpg)
 ----
 
-Comecei a estudar o idioma francês e este foi o primeiro livrinho que li! Abaixo está o texto, para que eu possa revisá-lo de forma fácil quando precisar:
+J'ai commencé à étudier la langue française et c'est le premier petit livre que j'ai lu ! Ci-dessous se trouve le texte, afin que je puisse le réviser facilement quand j'en aurai besoin.
 ## Audio 2
 
 Voilà Aurélie. Elle court pour aller à l'école. Oh non! Son sac à dos est ouvert! Ses cahiers, son stylo et sa règle tombent par terre. Aurélie perd toujours ses affaires!

@@ -9,8 +9,10 @@ tags:
   - livros
   - quadrinhos
   - medo
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/monstro-do-pantano-vol-1-edicao-absoluta.jpg
 language: pt
 ---

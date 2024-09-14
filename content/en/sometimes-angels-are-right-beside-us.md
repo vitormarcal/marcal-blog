@@ -8,9 +8,11 @@ is_post: true
 tags:
   - amor
   - notas-pessoais
+  - english
 related:
   - "[[tags/amor]]"
   - "[[tags/notas-pessoais]]"
+  - "[[tags/english]]"
 image: /img/sometimes-angels-are-right-beside-us.jpg
 language: en
 ---

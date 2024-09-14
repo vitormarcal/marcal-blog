@@ -7,8 +7,10 @@ is_post: true
 tags:
   - livros
   - medo
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/capa-do-livro-mandibula.jpg
 language: pt
 ---

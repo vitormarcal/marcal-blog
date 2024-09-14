@@ -8,8 +8,10 @@ is_post: true
 tags:
   - tecnologia
   - programacao
+  - portugues
 related:
   - "[[tags/programacao]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ------

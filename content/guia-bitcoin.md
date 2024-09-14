@@ -8,8 +8,10 @@ is_post: true
 tags:
   - tecnologia
   - bitcoin
+  - portugues
 related:
   - "[[tags/bitcoin]]"
+  - "[[tags/portugues]]"
 image: img/guia-bitcoin.jpg
 language: pt
 ---

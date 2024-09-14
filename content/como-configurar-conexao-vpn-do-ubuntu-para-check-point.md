@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - tecnologia
+  - portugues
 related:
   - "[[tags/tecnologia]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ----

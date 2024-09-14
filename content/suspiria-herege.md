@@ -9,10 +9,12 @@ tags:
   - livros
   - quadrinhos
   - medo
+  - portugues
 related:
   - "[[leituras-de-2024]]"
   - "[[suspiria-coracao-em-chamas]]"
   - "[[suspiria-do-reino-das-trevas]]"
+  - "[[tags/portugues]]"
 image: img/ssuspiria-herege.jpg
 language: pt
 ---

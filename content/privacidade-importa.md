@@ -7,8 +7,10 @@ is_post: true
 tags:
   - privacidade
   - liberdade
+  - portugues
 related:
   - "[[dez-argumentos-para-voce-deletar-agora-suas-redes-sociais]]"
+  - "[[tags/portugues]]"
 image: img/privacidade-importa.jpg
 language: pt
 ---

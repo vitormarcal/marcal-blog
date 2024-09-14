@@ -8,8 +8,10 @@ is_post: true
 tags:
   - homelab
   - tecnologia
+  - portugues
 related:
   - "[[meu-segundo-homelab-montado]]"
+  - "[[tags/portugues]]"
 image: img/home-lab-synology.jpeg
 language: pt
 ---

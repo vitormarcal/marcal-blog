@@ -9,8 +9,10 @@ tags:
   - livros
   - medo
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg
 language: pt
 ---

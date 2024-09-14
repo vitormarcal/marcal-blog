@@ -8,9 +8,11 @@ is_post: true
 tags:
   - arte
   - video
+  - portugues
 related:
   - "[[tags/video]]"
   - "[[tags/arte]]"
+  - "[[tags/portugues]]"
 image: img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg
 language: pt
 ---

@@ -7,8 +7,10 @@ updated_at: 2024-02-21
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/aprenda-ingles-num-piscar-de-olhos.jpg
 language: pt
 ---

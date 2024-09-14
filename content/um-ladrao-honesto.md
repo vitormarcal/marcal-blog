@@ -7,9 +7,11 @@ is_post: true
 tags:
   - livros
   - liberdade
+  - portugues
 updated_at: 2024-03-02T16:00:00
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/um_ladrao_honesto.jpg
 language: pt
 ---

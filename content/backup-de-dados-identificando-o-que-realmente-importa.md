@@ -9,10 +9,12 @@ tags:
   - homelab
   - notas-pessoais
   - tecnologia
+  - portugues
 related:
   - "[[tags/homelab]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/tecnologia]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ----
