@@ -12,7 +12,10 @@ related:
   - "[[leituras-de-2024]]"
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg
 language: en
-other_languages: pt
+localized_post_paths:
+  - "[[dragon-ball-vol-33-edicao-definitiva]]"
+  - "[[fr/dragon-ball-vol-33-edition-definitive]]"
+has_localized_posts: true
 ---
 ----
 

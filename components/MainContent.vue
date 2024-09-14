@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import LocalizedPostPaths from "~/components/LocalizedPostPaths.vue";
+
 defineProps(['path'])
 const {page} = useContent()
 
@@ -21,6 +23,10 @@ const {page} = useContent()
           </p>
           <post-times :created-at="page.created_at" :updated-at="page.updated_at"/>
           <post-tags :tags="page.tags"/>
+          <template v-if="page.has_localized_posts">
+            <br/>
+            <localized-post-paths   :paths="page.localized_post_paths"/>
+          </template>
         </article>
 
         <ContentRenderer :value="doc" class="post-section content-section"/>
