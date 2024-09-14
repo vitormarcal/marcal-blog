@@ -7,9 +7,11 @@ is_post: true
 tags:
   - livros
   - poesia
+  - portugues
 related:
   - "[[leituras-de-2024]]"
   - "[[nao-se-mate-carlos-drummond-de-andrade]]"
+  - "[[tags/portugues]]"
 image: img/antologia-poetica.jpg
 language: pt
 ---

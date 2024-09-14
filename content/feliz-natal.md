@@ -7,9 +7,11 @@ is_post: true
 tags:
   - amor
   - video
+  - portugues
 related:
   - "[[tags/amor]]"
   - "[[tags/video]]"
+  - "[[tags/portugues]]"
 image: img/feliz-natal.jpg
 language: pt
 ---

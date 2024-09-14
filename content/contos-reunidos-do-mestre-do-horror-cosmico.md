@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - medo
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
 language: pt
 ---

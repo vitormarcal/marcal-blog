@@ -6,9 +6,11 @@ created_at: 2019-06-05
 is_post: true
 tags:
   - liberdade
+  - portugues
 image: img/em-defesa-da-menor-minoria.jpg
 related:
   - "[[tags/liberdade]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ---

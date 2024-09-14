@@ -6,8 +6,10 @@ created_at: 2024-07-17T13:48:00
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg
 language: pt
 ---

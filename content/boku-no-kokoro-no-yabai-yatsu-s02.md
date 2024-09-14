@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - video
+  - portugues
 related:
   - "[[tags/video]]"
+  - "[[tags/portugues]]"
 image: img/boku-no-kokoro-no-yabai-yatsu-s02/boku-no-kokoro-no-yabai-yatsu-s02.jpg
 language: pt
 ---

@@ -8,9 +8,11 @@ is_post: true
 tags:
   - amor
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/amor]]"
+  - "[[tags/portugues]]"
 image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
 language: pt
 ---

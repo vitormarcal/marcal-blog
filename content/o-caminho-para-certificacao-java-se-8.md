@@ -8,10 +8,12 @@ is_post: true
 tags:
   - tecnologia
   - programacao
+  - portugues
 image: img/certification.png
 related:
   - "[[tags/tecnologia]]"
   - "[[tags/programacao]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ---

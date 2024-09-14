@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 language: pt
 ---

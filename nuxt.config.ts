@@ -46,7 +46,12 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-
+      locales: [
+          { code: 'en', name: 'English'},
+          { code: 'fr', name: 'Français'},
+          { code: 'pt', name: 'Português'}
+      ],
+      defaultLocale: 'pt'
   },
   modules: ['nuxt-content-assets', '@nuxtjs/i18n', '@nuxt/content',
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt

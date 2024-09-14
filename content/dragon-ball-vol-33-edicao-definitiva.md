@@ -8,11 +8,12 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg
-language:
-  - pt
+language: pt
 localized_post_paths:
   - "[[fr/dragon-ball-vol-33-edition-definitive]]"
   - "[[en/dragon-ball-vol-33-definitive-edition]]"

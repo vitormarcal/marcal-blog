@@ -7,8 +7,10 @@ is_post: true
 tags:
   - tecnologia
   - programacao
+  - portugues
 related:
   - "[[tags/programacao]]"
+  - "[[tags/portugues]]"
 image: img/kawarimi_no_jutsu.png
 language: pt
 ---

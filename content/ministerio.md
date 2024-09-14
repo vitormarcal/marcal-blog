@@ -7,8 +7,10 @@ updated_at: 2024-03-13T09:51:00
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/ministerio.jpg
 language: pt
 ---

@@ -8,8 +8,10 @@ is_post: true
 tags:
   - tecnologia
   - homelab
+  - portugues
 related:
   - "[[homelab-synology-ds420j]]"
+  - "[[tags/portugues]]"
 image: img/meu-segundo-homelab-montado.jpg
 language: pt
 ---

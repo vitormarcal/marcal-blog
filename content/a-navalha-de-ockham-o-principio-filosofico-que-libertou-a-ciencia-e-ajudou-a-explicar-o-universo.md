@@ -7,8 +7,10 @@ updated_at: 2024-01-25
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/a-navalha-de-ockham.jpg
 language: pt
 ---

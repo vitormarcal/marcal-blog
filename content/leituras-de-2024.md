@@ -7,8 +7,10 @@ updated_at: 2024-09-14T12:29:00
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[tags/livros]]"
+  - "[[tags/portugues]]"
 image: img/leituras-do-ano.png
 language: pt
 ---

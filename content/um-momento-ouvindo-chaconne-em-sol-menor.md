@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - musica
+  - portugues
 related:
   - "[[tags/musica]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ----

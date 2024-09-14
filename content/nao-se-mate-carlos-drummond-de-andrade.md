@@ -7,11 +7,13 @@ is_post: true
 tags:
   - poesia
   - amor
+  - portugues
 related:
   - "[[antologia-poetica-de-carlos-drummond-de-andrade]]"
   - "[[tags/poesia]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/amor]]"
+  - "[[tags/portugues]]"
 image: img/nao-se-mate-carlos.jpg
 language: pt
 ---

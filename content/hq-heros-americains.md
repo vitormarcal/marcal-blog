@@ -8,7 +8,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
-related: 
+  - portugues
+related:
+  - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/hq-heros-americains.jpg
 language: pt
 ---

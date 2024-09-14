@@ -7,9 +7,11 @@ is_post: true
 tags:
   - livros
   - privacidade
+  - portugues
 related:
   - "[[leituras-de-2024]]"
   - "[[privacidade-importa]]"
+  - "[[tags/portugues]]"
 updated_at: 2024-02-15T20:39:00
 image: img/dez-argumentos-para-deletar.jpg
 language: pt

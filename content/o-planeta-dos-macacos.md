@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - sci-fi
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/planeta_dos_macacos.jpg
 language: pt
 ---

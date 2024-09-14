@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - poesia
+  - portugues
 related:
   - "[[tags/poesia]]"
+  - "[[tags/portugues]]"
 image: img/um-poema-lied-de-heine.jpg
 language: pt
 ---

@@ -8,8 +8,10 @@ is_post: true
 tags:
   - quadrinhos
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
 language: pt
 ---

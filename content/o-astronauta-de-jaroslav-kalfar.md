@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - sci-fi
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/o-astronauta-de-jaroslav-kalfar.jpg
 language: pt
 ---

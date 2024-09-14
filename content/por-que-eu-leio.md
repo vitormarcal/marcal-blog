@@ -8,8 +8,10 @@ is_post: true
 tags:
   - notas-pessoais
   - livros
+  - portugues
 related:
   - "[[tags/notas-pessoais]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ----

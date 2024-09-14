@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - notas-pessoais
+  - portugues
 related:
   - "[[tags/notas-pessoais]]"
+  - "[[tags/portugues]]"
 image: img/um-momento-entre-os-ipes.jpg
 language: pt
 ---

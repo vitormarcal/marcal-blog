@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/the-darkness-volume-1.jpg
 language: pt
 ---

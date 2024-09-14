@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/necron-volume-4-as-mulheres-aranhas.jpg
 language: pt
 ---

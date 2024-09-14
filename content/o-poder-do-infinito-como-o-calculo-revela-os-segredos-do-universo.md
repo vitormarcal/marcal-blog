@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - livros
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo.jpg
 language: pt
 ---

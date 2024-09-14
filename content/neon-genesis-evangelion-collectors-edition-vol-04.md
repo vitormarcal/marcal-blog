@@ -8,8 +8,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/neon-genesis-evangelion-collectors-edition-vol-04.jpg
 language: pt
 ---

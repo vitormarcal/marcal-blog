@@ -7,9 +7,11 @@ updated_at:
 is_post: true
 tags:
   - notas-pessoais
+  - portugues
 related:
   - "[[tags/notas-pessoais]]"
   - "[[desafio-correr-10-km-dia-1]]"
+  - "[[tags/portugues]]"
 image: img/desafio-correr-10-km/desafio-correr-10-km.jpg
 language: pt
 ---

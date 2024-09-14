@@ -7,8 +7,10 @@ updated_at: 2024-03-06T08:46:00
 is_post: true
 tags:
   - notas-pessoais
+  - portugues
 related:
   - "[[tags/notas-pessoais]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
 ----

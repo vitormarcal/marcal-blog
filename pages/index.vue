@@ -1,10 +1,20 @@
 <script setup lang="ts">
-const posts = await queryContent()
-    .where({is_post: true, _partial: false})
+import {useI18n} from "vue-i18n";
+
+const { locale } = useI18n()
+
+const { data: posts } = await useAsyncData(`home`, () => queryContent()
+    .where({is_post: true, _partial: false, language: { $eq: locale.value }})
     .sort({ created_at: -1})
     .limit(3)
     .without(['body'])
-    .find()
+    .find(),
+    {
+      watch: [locale]
+    }
+)
+
+
 </script>
 
 <template>

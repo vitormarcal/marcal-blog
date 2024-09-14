@@ -7,8 +7,10 @@ is_post: true
 tags:
   - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
+  - "[[tags/portugues]]"
 image: img/oshi-no-ko-1-1.jpg
 language: pt
 ---
