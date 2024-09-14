@@ -7,6 +7,7 @@ updated_at: ""
 is_post: false
 related:
   - "[[paginas-fixas]]"
+language: pt
 ---
 ---
 * Ainda morando em Ceilândia - Distrito Federal mas pensando em me mudar para algum lugar mais tranquilo.

@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/necron-volume-1-a-fabricante-de-monstros.jpg
+language: pt
 ---
 ----
 

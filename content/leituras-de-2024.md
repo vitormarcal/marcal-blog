@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/livros]]"
 image: img/leituras-do-ano.png
+language: pt
 ---
 ---
 
@@ -69,7 +70,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), por Koushun Takami - 2024-07-23
 48. [O poder do infinito: Como o cálculo revela os segredos do universo](o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo), por Steven Strogatz - 2024-07-28
 49. [O processo](o-processo-de-franz-kafka), por Franz Kafka - 2024-07-28
-50. [Mamie Pétronille et le ruban jaune](mamie-petronille-et-le-ruban-jaune), por Jane Cadwaller - 2024-08-30
+50. [Mamie Pétronille et le ruban jaune](mamie-petronille-et-le-ruban-jaune.md), por Jane Cadwaller - 2024-08-30
 51. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
 52. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
 53. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14

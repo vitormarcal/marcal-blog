@@ -11,6 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/planeta_dos_macacos.jpg
+language: pt
 ---
 ---
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

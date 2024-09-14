@@ -10,6 +10,7 @@ tags:
 related:
   - "[[dez-argumentos-para-voce-deletar-agora-suas-redes-sociais]]"
 image: img/privacidade-importa.jpg
+language: pt
 ---
 ---
 ![Privacidade importa](img/privacidade-importa.jpg)

@@ -11,6 +11,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[nao-se-mate-carlos-drummond-de-andrade]]"
 image: img/antologia-poetica.jpg
+language: pt
 ---
 ---
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

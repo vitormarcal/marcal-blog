@@ -14,6 +14,7 @@ related:
   - "[[suspiria-coracao-em-chamas]]"
   - "[[suspiria-do-reino-das-trevas]]"
 image: img/ssuspiria-herege.jpg
+language: pt
 ---
 ----
 

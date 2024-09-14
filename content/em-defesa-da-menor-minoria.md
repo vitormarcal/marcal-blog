@@ -9,6 +9,7 @@ tags:
 image: img/em-defesa-da-menor-minoria.jpg
 related:
   - "[[tags/liberdade]]"
+language: pt
 ---
 ---
 ![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)

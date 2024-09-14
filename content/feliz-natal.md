@@ -11,6 +11,7 @@ related:
   - "[[tags/amor]]"
   - "[[tags/video]]"
 image: img/feliz-natal.jpg
+language: pt
 ---
 ---
 ![Feliz Natal](img/feliz-natal.jpg)

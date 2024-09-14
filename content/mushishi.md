@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/NewPOP_Mushishi01-3.jpg
+language: pt
 ---
 ---
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
 image: img/a-vida-e-como-lavar-loucas.jpg
+language: pt
 ---
 ----
 

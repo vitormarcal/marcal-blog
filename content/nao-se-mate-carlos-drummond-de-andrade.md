@@ -13,6 +13,7 @@ related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/amor]]"
 image: img/nao-se-mate-carlos.jpg
+language: pt
 ---
 
 ---

@@ -11,6 +11,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[a-navalha-de-ockham-o-principio-filosofico-que-libertou-a-ciencia-e-ajudou-a-explicar-o-universo]]"
 image: img/a-vida-intelectual.jpg
+language: pt
 ---
 ----
 

@@ -11,11 +11,12 @@ tags:
 related:
   - "[[tags/amor]]"
   - "[[tags/notas-pessoais]]"
-image: img/Untitled.jpg
+image: /img/sometimes-angels-are-right-beside-us.jpg
+language: en
 ---
 ----
 
-![Sometimes, Angels Are Right Beside Us](img/sometimes-angels-are-right-beside-us.jpg)
+![Sometimes, Angels Are Right Beside Us](/img/sometimes-angels-are-right-beside-us.jpg)
 
 `Into My Arms - Nick Cave:`
 

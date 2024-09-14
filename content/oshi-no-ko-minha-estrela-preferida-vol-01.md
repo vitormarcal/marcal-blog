@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/oshi-no-ko-1-1.jpg
+language: pt
 ---
 ---
 ![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)

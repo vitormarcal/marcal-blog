@@ -10,6 +10,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
 image: img/10-olimpiada-de-xadrez-de-ceilandia.jpg
+language: pt
 ---
 ----
 

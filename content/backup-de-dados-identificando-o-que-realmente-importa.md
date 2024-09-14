@@ -13,6 +13,7 @@ related:
   - "[[tags/homelab]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/tecnologia]]"
+language: pt
 ---
 ----
 

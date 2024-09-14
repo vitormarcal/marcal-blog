@@ -10,6 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
 image: img/o-processo-de-franz-kafka.jpg
+language: pt
 ---
 ----
 
