@@ -31,6 +31,10 @@ export default defineI18nConfig(() => ({
                     "      Pode ter passado por correções gramaticais,<br/>\n" +
                     "      com ou sem o auxílio de IA, <br/>\n" +
                     "      mas <b>a essência original permanece intacta</b>."
+            },
+            home: {
+                title: 'Olá, eu sou o Vítor Marçal. 😉',
+                description: 'Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo 🧠!'
             }
         },
         "en": {
@@ -61,6 +65,10 @@ export default defineI18nConfig(() => ({
                     "      It may have gone through grammatical corrections,<br/>\n" +
                     "      with or without AI assistance, <br/>\n" +
                     "      but <b>the original essence remains intact</b>."
+            },
+            home: {
+                title: 'Hello, I am Vítor Marçal. 😉',
+                description: 'This is my personal page, where I mostly write for myself 🧠!'
             }
         },
         "fr": {
@@ -91,6 +99,10 @@ export default defineI18nConfig(() => ({
                     "      Il a peut-être fait l'objet de corrections grammaticales,<br/>\n" +
                     "      avec ou sans l'aide de l'IA, <br/>\n" +
                     "      mais <b>l'essence originale reste intacte</b>."
+            },
+            home: {
+                title: 'Salut, je suis Vítor Marçal. 😉',
+                description: 'Ceci est ma page personnelle, où j\'écris principalement pour moi-même 🧠 !'
             }
         }
     }

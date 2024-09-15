@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import {useI18n} from "vue-i18n";
 const localePath = useLocalePath()
-const { page } = useContent()
 
 const { locale } = useI18n()
 
@@ -16,12 +15,11 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
     }
 )
 
-
 </script>
 
 <template>
   <div>
-    <main-content :path="page.path">
+    <page-renderer :title="$t('home.title')" :description="$t('home.description')">
       <h3>{{ $t('latest_posts') }}</h3>
       <template v-for="post in posts" :key="post['_id']">
         <post-item :post="post"/>
@@ -30,8 +28,7 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
       <hr style="margin-top: 5rem"/>
       <iam-not-a-robot/>
       <hr/>
-    </main-content>
-
+    </page-renderer>
   </div>
 </template>
 
