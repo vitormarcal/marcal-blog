@@ -7,7 +7,7 @@ export default defineI18nConfig(() => ({
             "latest_posts": "Últimas publicações",
             "previous_publications": "Publicações anteriores",
             header: {
-                "home": "Bem vindo",
+                "home": "Bem-vindo",
                 "about": "Sobre",
                 "now": "Agora",
                 "posts": "Publicações",
