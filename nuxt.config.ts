@@ -46,6 +46,14 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+      customRoutes: 'config',
+      pages: {
+          posts: {
+              en: '/posts',
+              fr: '/publications',
+              pt: '/publicacoes'
+          },
+      },
       locales: [
           { code: 'en', name: 'English'},
           { code: 'fr', name: 'Français'},

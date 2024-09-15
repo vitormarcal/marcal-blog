@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+const localePath = useLocalePath()
 const emits = defineEmits(['is-head-open'])
 
 function toggleHead() {
@@ -23,7 +24,7 @@ function toggleHead() {
         <ul class="nav" @click="toggleHead">
 
           <li style="transition-delay: 0.03s;">
-            <NuxtLink to="/"> {{ $t('header.home') }}</NuxtLink>
+            <NuxtLink :to="localePath('index')"> {{ $t('header.home') }}</NuxtLink>
           </li>
           <li style="transition-delay: 0.06s;">
             <NuxtLink to="/sobre"> {{ $t('header.about') }}</NuxtLink>
@@ -32,7 +33,7 @@ function toggleHead() {
             <NuxtLink to="/agora"> {{ $t('header.now') }}</NuxtLink>
           </li>
           <li style="transition-delay: 0.15s;">
-            <NuxtLink to="/posts"> {{ $t('header.posts') }}</NuxtLink>
+            <NuxtLink :to="localePath('posts')"> {{ $t('header.posts') }}</NuxtLink>
           </li>
           <li style="transition-delay: 0.20s;">
             <NuxtLink to="/tags/mdc"> {{ $t('header.tags') }}</NuxtLink>
