@@ -13,7 +13,7 @@ function toggleHead() {
     <div class="header-inner">
       <div class="head-brand">
         <div class="head-brand-wrapper">
-          <a href="/" class="head-logo"> Marçal </a>
+          <NuxtLink :to="localePath('index')" class="head-logo"> Marçal </NuxtLink>
         </div>
         <localization-menu />
         <button class="head-burger" @click="toggleHead">
