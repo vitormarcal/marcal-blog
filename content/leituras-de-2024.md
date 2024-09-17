@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-09-16T22:30:00
+updated_at: 2024-09-17T09:45:00
 is_post: true
 tags:
   - livros
@@ -78,8 +78,8 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 53. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
 54. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
 ### Lendo
-1. Cálculo: Volume 1, por James Stewart - 2024-06-23
-2. A grande história da evolução, por Richard Dawkins - 2024-07-28
+1. A grande história da evolução, por Richard Dawkins - 2024-07-28
+2. Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara - 2024-09-17
 
 ### Quero Ler
 
@@ -87,7 +87,6 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Borboleta Assassina: Volume 3, por Yuka Nagate
 * Macunaíma, por Mário de Andrade
 * Berserk Vol. 36: Edição, por Luxo de Kentaro Miura
-* Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 14, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 15, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 16, por Buronson e Tetsuo Hara
@@ -111,3 +110,5 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Battle Royale Omnibus: Volume 3, por Koushun Takami
 * Battle Royale Omnibus: Volume 4, por Koushun Takami
 * Battle Royale Omnibus: Volume 5, por Koushun Takami
+* Cálculo: Volume 1, por James Stewart
+* False Alarm: How Climate Change Panic Costs Us Trillions, Hurts the Poor, and Fails to Fix the Planet, por Bjorn Lomborg
