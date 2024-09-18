@@ -3,9 +3,9 @@ import { useI18n } from 'vue-i18n'
 const props = defineProps(['pageTitle'])
 const { t } = useI18n()
 
+
 const emailLink = computed(() => {
-  //const value = t('email_me_a_comment.email')
-  return `mailto:oi@marcal.dev?subject=${encodeURIComponent(props.pageTitle)}`;
+  return `mailto:${t('email_me_a_comment.address')}?subject=${encodeURIComponent(props.pageTitle)}`;
 
 });
 </script>
