@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       },
       author: {
           name: 'Vítor Marçal',
-          email: 'oi@marcal.dev'
+          email: 'feed@marcal.dev'
       },
   },
 
