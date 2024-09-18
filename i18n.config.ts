@@ -19,7 +19,8 @@ export default defineI18nConfig(() => ({
             },
             email_me_a_comment: {
                 title: "Blogues são conversas",
-                call_to_action: "Entre na conversa via e-mail"
+                call_to_action: "Entre na conversa via e-mail",
+                email: "eu@marcal.dev"
             },
             i_am_not_a_robot: {
                 i_am_not_a_robot_alt: "Eu não sou um robô 😁",
@@ -53,7 +54,8 @@ export default defineI18nConfig(() => ({
             },
             email_me_a_comment: {
                 title: "Blogs are conversations.",
-                call_to_action: "Join the conversation via email"
+                call_to_action: "Join the conversation via email",
+                email: "hi@marcal.dev"
             },
             i_am_not_a_robot: {
                 i_am_not_a_robot_alt: "I am not a robot 😁",
@@ -87,7 +89,8 @@ export default defineI18nConfig(() => ({
             },
             email_me_a_comment: {
                 title: "Les blogs sont des conversations.",
-                call_to_action: "Rejoignez la conversation par e-mail"
+                call_to_action: "Rejoignez la conversation par e-mail",
+                email: "moi@marcal.dev"
             },
             i_am_not_a_robot: {
                 i_am_not_a_robot_alt: "Je ne suis pas un robot 😁",
