@@ -12,7 +12,8 @@ export default defineI18nConfig(() => ({
                 "now": "Agora",
                 "posts": "Publicações",
                 "tags": "Categorias",
-                "readings": "Leituras de 2024"
+                "readings": "Leituras de 2024",
+                "likes": "Gostos"
             },
             footer: {
                 made_with: "Feito com muito ❤️ usando Vue e Markdown no Distrito Federal, Brasil"
@@ -47,7 +48,8 @@ export default defineI18nConfig(() => ({
                 "now": "Now",
                 "posts": "Posts",
                 "tags": "Categories",
-                "readings": "2024 readings"
+                "readings": "2024 readings",
+                "likes": "Likes"
             },
             footer: {
               made_with: "Made with lots of ❤️ using Vue and Markdown in Distrito Federal, Brazil"
@@ -82,7 +84,8 @@ export default defineI18nConfig(() => ({
                 "now": "Maintenant",
                 "posts": "Publications",
                 "tags": "Catégories",
-                "readings": "Lectures de 2024"
+                "readings": "Lectures de 2024",
+                "likes": "Goûts"
             },
             footer: {
                 made_with: "Réalisé avec beaucoup de ❤️ en utilisant Vue et Markdown dans le Distrito Federal, Brésil"
