@@ -37,7 +37,7 @@
   --noise: url('/images/noise.png');
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 360px) {
   :root {
     --frame-max-width: 373px;
     --frame-height: calc(100vh - 80px);
@@ -64,7 +64,7 @@ body {
   min-height: -webkit-fill-available;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:360px) {
   body {
     padding-top: var(--space-1);
     padding-left: var(--space-1);
