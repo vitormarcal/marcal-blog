@@ -53,6 +53,11 @@ export default defineNuxtConfig({
               fr: '/publications',
               pt: '/publicacoes'
           },
+          likes: {
+              en: '/likes',
+              fr: '/gouts',
+              pt: '/gostos',
+          }
       },
       locales: [
           { code: 'en', name: 'English'},
