@@ -44,7 +44,7 @@ const frames = ref([
   {
     img: '/img/gostos-e-desgostos/img-bruit.jpg',
     strong: "Je n'aime pas",
-    text: "Je n'aime pas le bruit, les voitures et les gens bruyants. 🔊 🙉️",
+    text: "le bruit, les voitures et les gens bruyants. 🔊 🙉️",
   },
   {
     img: '/img/gostos-e-desgostos/img-region-boisee.jpg',
