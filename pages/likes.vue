@@ -131,7 +131,7 @@ onBeforeUnmount(() => {
   scrollbar-width: none;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 360px) {
   .container {
     max-width: var(--frame-max-width);
     margin: 0 auto;
@@ -188,20 +188,6 @@ onBeforeUnmount(() => {
   backdrop-filter: var(--frame-blur);
 }
 
-.frame-text-welcome {
-  display: grid;
-  place-items: center;
-  z-index: 3;
-  position: relative;
-  margin-top: 50%;
-  margin-bottom: auto;
-  width: 100%;
-  text-align: center;
-  padding: 0px 25px;
-  font-weight: 600;
-  font-size: 80%;
-  text-transform: uppercase;
-}
 
 
 .frame-text-welcome svg {
@@ -217,35 +203,6 @@ onBeforeUnmount(() => {
   margin: 0;
 }
 
-blockquote {
-  margin: 0;
-}
-
-blockquote p {
-  hyphens: auto;
-}
-
-blockquote:after,
-blockquote:before {
-  opacity: 0.2;
-  line-height: 0;
-  display: block;
-  font-size: 2.4em;
-  color: var(--color-text);
-  position: absolute;
-}
-
-blockquote:before {
-  content: "❝";
-  top: 25px;
-  left: 15px;
-}
-
-blockquote:after {
-  content: "❞";
-  bottom: 32px;
-  right: 20px;
-}
 
 .center {
   text-align: unset;
