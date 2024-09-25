@@ -41,6 +41,9 @@ function toggleHead() {
           <li style="transition-delay: 0.25s;">
             <NuxtLink to="/leituras-de-2024"> {{ $t('header.readings') }}</NuxtLink>
           </li>
+          <li style="transition-delay: 0.25s;">
+            <NuxtLink :to="localePath('likes')">  {{ $t('header.likes') }}</NuxtLink>
+          </li>
         </ul>
       </nav>
     </div>

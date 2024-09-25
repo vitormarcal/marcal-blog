@@ -3,12 +3,12 @@
 </script>
 
 <template>
-  <div class="custom">
+  <main class="slide">
     <slot/>
-  </div>
+  </main>
 </template>
 
-<style >
+<style  scoped>
 
 
 *, *:before, *:after { box-sizing: border-box; }
@@ -19,7 +19,7 @@
   font-stretch: 0% 100%;
 }
 
-:root {
+main.slide {
   --font-family: "Hex Franklin", ui-sans-serif;
   --body-bg: #eee;
   --frame-border: 5px solid black;
@@ -38,19 +38,13 @@
 }
 
 @media screen and (min-width: 360px) {
-  :root {
+  main.slide {
     --frame-max-width: 373px;
     --frame-height: calc(100vh - 80px);
   }
 }
 
-html, body { margin: 0; padding: 0; overflow: hidden;}
-
-html {
-  height: -webkit-fill-available;
-}
-
-body {
+main.slide {
   background: var(--body-bg);
   background: linear-gradient(-139deg, #111 -6%, #999 100% );
   font: var(--font);
@@ -65,7 +59,7 @@ body {
 }
 
 @media screen and (min-width:360px) {
-  body {
+  main.slide {
     padding-top: var(--space-1);
     padding-left: var(--space-1);
     padding-right: var(--space-1);
