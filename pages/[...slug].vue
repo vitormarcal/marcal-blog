@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main-content>
+    <main-content v-if="page">
       <template v-if="showCommentArea">
         <hr style="margin-top: 5rem"/>
         <email-me-a-comment :page-title="page.title"  />
