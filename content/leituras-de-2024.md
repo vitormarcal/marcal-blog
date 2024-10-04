@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-10-01T08:01:00
+updated_at: 2024-10-04T09:36:00
 is_post: true
 tags:
   - livros
@@ -78,7 +78,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 53. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
 54. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
 55. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
-56. A Grande História da Evolução, por Richard Dawkins - 2024-10-01
+56. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
 ### Lendo
 1. Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara - 2024-10-01
 2. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
