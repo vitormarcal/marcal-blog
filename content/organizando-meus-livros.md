@@ -30,7 +30,7 @@ Catalogar tudo me fez perceber que certos títulos já não fazem tanto sentido 
 
 Na planilha, além das colunas "Título" e "Autor(es)", coloquei duas novas: "Lido?" e "Desfazer?". A coluna "Lido?" pode receber um ✔️ ou um 🔲, enquanto "Desfazer?" pode ter um 👍 ou 👎.
 
-Percebi que posso despachar bons livros, como _A Lei_, de Frédéric Bastiat, e _A Última Tentação_, de Nikos Kazantzakis. São ótimos, mas posso reler no Kindle sem prejuízo. Já livros que recebi 👎, como _Blade - A Lâmina do Imortal_ e _Cálculo_, têm valor emocional ou oferecem uma experiência física que a tecnologia não consegue reproduzir.
+Percebi que posso despachar bons livros, como _A Lei_, de Frédéric Bastiat, e _A Última Tentação_, de Nikos Kazantzakis. São ótimos, mas posso reler no Kindle sem prejuízo. Já livros que coloquei 👎, como _Blade - A Lâmina do Imortal_ e _Cálculo_, têm valor emocional ou oferecem uma experiência física que a tecnologia não consegue reproduzir.
 
 Ainda restam dezenas de livros sem resposta definitiva, mas agora, com tudo organizado em uma planilha, fica mais fácil gerenciar a situação.
 
