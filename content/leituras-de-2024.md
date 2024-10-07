@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-10-04T09:36:00
+updated_at: 2024-10-06T21:05:00
 is_post: true
 tags:
   - livros
@@ -79,8 +79,10 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 54. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
 55. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
 56. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
+57. Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara - 2024-10-06
+58. Hokuto no Ken: Volume 14, por Buronson e Tetsuo Hara - 2024-10-06
 ### Lendo
-1. Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara - 2024-10-01
+1. Hokuto no Ken: Volume 15, por Buronson e Tetsuo Hara - 2024-10-06
 2. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
 
 ### Quero Ler
@@ -89,8 +91,6 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 * Borboleta Assassina: Volume 3, por Yuka Nagate
 * Macunaíma, por Mário de Andrade
 * Berserk Vol. 36: Edição, por Luxo de Kentaro Miura
-* Hokuto no Ken: Volume 14, por Buronson e Tetsuo Hara
-* Hokuto no Ken: Volume 15, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 16, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 17, por Buronson e Tetsuo Hara
 * Hokuto no Ken: Volume 18, por Buronson e Tetsuo Hara

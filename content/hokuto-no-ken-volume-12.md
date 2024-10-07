@@ -23,4 +23,4 @@ language: pt
 
 Como sempre, a história se torna repetitiva, pois em todo arco surge um vilão tão poderoso quanto o anterior. Ainda assim, a construção de cada antagonista é interessante. Li este volume dois meses após o anterior e confesso que me deixou um pouco cansado. 
 
-Estou ansioso pelo final da série. Que venha o volume 14!
+Estou ansioso pelo final da série. Que venha o volume 13!
