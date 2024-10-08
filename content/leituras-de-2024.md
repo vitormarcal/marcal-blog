@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-10-07T15:36:00
+updated_at: 2024-10-07T21:43:00
 is_post: true
 tags:
   - livros
@@ -79,11 +79,12 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 54. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
 55. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
 56. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
-57. Hokuto no Ken: Volume 13, por Buronson e Tetsuo Hara - 2024-10-06
-58. Hokuto no Ken: Volume 14, por Buronson e Tetsuo Hara - 2024-10-06
-59. Hokuto no Ken: Volume 15, por Buronson e Tetsuo Hara - 2024-10-07
+57. [Hokuto no Ken: Volume 13](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
+58. [Hokuto no Ken: Volume 14](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
+59. [Hokuto no Ken: Volume 15](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
+60. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 ### Lendo
-1. Hokuto no Ken: Volume 16, por Buronson e Tetsuo Hara - 2024-10-06
+1. Hokuto no Ken: Volume 17, por Buronson e Tetsuo Hara - 2024-10-07
 2. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
 
 ### Quero Ler
