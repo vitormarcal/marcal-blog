@@ -18,10 +18,10 @@ const languages = computed(() => {
 </script>
 
 <template>
-  <ul class="localized-post-paths" v-for="lang in languages">
-    <li>
+  <ul class="localized-post-paths">
+    <li v-for="lang in languages" :key="lang.link">
       {{ lang.text }}
-      <NuxtLink :to="lang.link">{{ lang.textLink }}</NuxtLink>
+      <NuxtLink :aria-label="`${lang.text} ${lang.textLink}`" :to="lang.link">{{ lang.textLink }}</NuxtLink>
     </li>
   </ul>
 </template>
@@ -31,5 +31,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  li {
+    margin-bottom: 0.5rem;
+  }
 }
 </style>

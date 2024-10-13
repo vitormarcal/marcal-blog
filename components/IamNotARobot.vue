@@ -7,14 +7,13 @@ import humanContent from "assets/img/HumanContent.svg";
 </script>
 
 <template>
-  <div style="text-align: center">
+  <div class="text-center">
     <div class="image-wrapper">
       <img :src="iAmNotARobot" :alt="$t('i_am_not_a_robot.i_am_not_a_robot_alt')"/>
       <img :src="madeByHuman" :alt="$t('i_am_not_a_robot.made_by_human_alt')"/>
     </div>
-    <p style="font-size: 16px" v-html="$t('i_am_not_a_robot.text')" />
-<p style="margin-bottom: 2rem">
-</p>
+
+    <p class="description" v-html="$t('i_am_not_a_robot.text')"></p>
 
     <div class="image-wrapper">
       <img :src="writtenByHuman" :alt="$t('i_am_not_a_robot.written_by_human_alt')"/>
@@ -25,6 +24,15 @@ import humanContent from "assets/img/HumanContent.svg";
 </template>
 
 <style scoped>
+
+.text-center {
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
 
 .image-wrapper {
   display: grid;
@@ -37,6 +45,8 @@ import humanContent from "assets/img/HumanContent.svg";
   margin-right: 1rem;
   margin-bottom: 1rem;
   width: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 </style>
