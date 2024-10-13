@@ -21,17 +21,25 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
   <div>
     <page-renderer :title="$t('home.title')" :description="$t('home.description')">
       <h3>{{ $t('latest_posts') }}</h3>
-      <template v-for="post in posts" :key="post['_id']">
-        <post-item :post="post"/>
-      </template>
+      <ul class="latest-posts">
+        <li v-for="post in posts" :key="post['_id']">
+          <post-item :post="post"/>
+        </li>
+      </ul>
       <NuxtLink :to="localePath('posts')"> {{ $t('previous_publications') }} →</NuxtLink>
-      <hr style="margin-top: 5rem"/>
+      <hr style="margin-top: 5rem"  aria-hidden="true"/>
       <iam-not-a-robot/>
-      <hr/>
+      <hr  aria-hidden="true"/>
     </page-renderer>
   </div>
 </template>
 
 <style scoped>
-
+.latest-posts {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+  }
+}
 </style>

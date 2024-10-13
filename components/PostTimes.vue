@@ -24,7 +24,7 @@ const hasDates = computed(() => {
             </span>
 
     <span v-if="updatedAt && createdAt != updatedAt">
-              <i>(Editado em <time class="updated-at">{{ updatedAt }}</time>)</i>
+              <em>(Editado em <time class="updated-at">{{ updatedAt }}</time>)</em>
             </span>
   </p>
 </template>

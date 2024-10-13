@@ -7,8 +7,8 @@ const { availableLocales, locale} = useI18n()
 
 <template>
   <div class="head-set-locale-wrapper">
-    <select  v-model="locale">
-      <option v-for="item in availableLocales" :value="item">
+    <select v-model="locale" aria-label="Select site language">
+      <option v-for="item in availableLocales" :key="item" :value="item">
         {{ item.toUpperCase() }}
       </option>
     </select>

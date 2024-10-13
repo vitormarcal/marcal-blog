@@ -23,7 +23,7 @@ defineProps<PostHead>();
 
     </p>
     <post-times :created-at="created_at" :updated-at="updated_at"/>
-    <post-tags :tags="tags"/>
+    <post-tags v-if="tags" :tags="tags"/>
     <template v-if="has_localized_posts">
       <br/>
       <localized-post-paths   :paths="localized_post_paths"/>

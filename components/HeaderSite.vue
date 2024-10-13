@@ -16,11 +16,11 @@ function toggleHead() {
           <NuxtLink :to="localePath('index')" class="head-logo"> Marçal </NuxtLink>
         </div>
         <localization-menu />
-        <button class="head-burger" @click="toggleHead">
+        <button class="head-burger" @click="toggleHead" aria-label="Toggle menu">
 
         </button>
       </div>
-      <nav class="head-menu">
+      <nav class="head-menu" aria-label="Main menu">
         <ul class="nav" @click="toggleHead">
 
           <li style="transition-delay: 0.03s;">
