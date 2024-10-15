@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-10-07T21:43:00
+updated_at: 2024-10-15T21:00:00
 is_post: true
 tags:
   - livros
@@ -83,14 +83,17 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 58. [Hokuto no Ken: Volume 14](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
 59. [Hokuto no Ken: Volume 15](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 60. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
+61. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
+62. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-07
 ### Lendo
-1. Hokuto no Ken: Volume 17, por Buronson e Tetsuo Hara - 2024-10-07
-2. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
+1. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
 
 ### Quero Ler
 
 * Borboleta Assassina: Volume 2, por Yuka Nagate
 * Borboleta Assassina: Volume 3, por Yuka Nagate
+* Neon Genesis Evangelion Collector's Edition Vol. 06
+* Neon Genesis Evangelion Collector's Edition Vol. 07
 * Macunaíma, por Mário de Andrade
 * Berserk Vol. 36: Edição, por Luxo de Kentaro Miura
 * Hokuto no Ken: Volume 17, por Buronson e Tetsuo Hara
