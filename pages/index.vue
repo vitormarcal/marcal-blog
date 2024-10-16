@@ -29,7 +29,6 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
       <NuxtLink :to="localePath('posts')"> {{ $t('previous_publications') }} →</NuxtLink>
       <hr style="margin-top: 5rem"  aria-hidden="true"/>
       <iam-not-a-robot/>
-      <hr  aria-hidden="true"/>
     </page-renderer>
   </div>
 </template>

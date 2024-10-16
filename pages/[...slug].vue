@@ -7,7 +7,6 @@
         <hr style="margin-top: 5rem"/>
         <iam-not-a-robot/>
       </template>
-      <hr/>
     </main-content>
   </div>
 
