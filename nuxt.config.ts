@@ -48,6 +48,11 @@ export default defineNuxtConfig({
   i18n: {
       customRoutes: 'config',
       pages: {
+          now: {
+              en: '/now',
+              fr: '/maintenant',
+              pt: '/agora'
+          },
           posts: {
               en: '/posts',
               fr: '/publications',

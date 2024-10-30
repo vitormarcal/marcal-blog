@@ -30,7 +30,7 @@ function toggleHead() {
             <NuxtLink to="/sobre"> {{ $t('header.about') }}</NuxtLink>
           </li>
           <li style="transition-delay: 0.09s;">
-            <NuxtLink to="/agora"> {{ $t('header.now') }}</NuxtLink>
+            <NuxtLink :to="localePath('now')"> {{ $t('header.now') }}</NuxtLink>
           </li>
           <li style="transition-delay: 0.15s;">
             <NuxtLink :to="localePath('posts')"> {{ $t('header.posts') }}</NuxtLink>
