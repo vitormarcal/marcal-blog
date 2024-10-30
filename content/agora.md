@@ -1,22 +1,24 @@
 ---
 title: Agora!
-description: Uma lista do que estou fazendo agora, quando eu lembro de atualizar.
+description: Coisas que estou fazendo agora, atualizadas conforme eu me lembro delas.
 author: Vítor Marçal
-created_at: 2024-10-29T10:29:00
+created_at: 2024-10-30T09:08:00
 updated_at: ""
 is_post: false
 related:
   - "[[paginas-fixas]]"
 language: pt
+has_localized_posts: true
+localized_post_paths:
+  - en/now
+  - fr/maintenant
 ---
 ---
-* Ainda morando em Ceilândia - Distrito Federal mas desejando loucamente me mudar para algum lugar mais tranquilo.
-* Foco nos idiomas:
-	 * Melhorando meu Inglês diariamente!  🗣️💬
-	 * Aprendendo Francês - pelo menos um _Je suis Vítor_, eu já sei! 🗣️💬
- * Parte do Dev. Team de Anti-Fraudes do Ifood 🏍️📦🍛 
- * Depois de  nove meses, voltei a codificar no [ChatVault](https://github.com/vitormarcal/chatvault) - uma forma de armazenar seu histórico de conversas do Whatsapp de forma independente.
- * Me desafiando a correr 10km. 🏃
- * Jogando [The Legend of Zelda: A Link to the Past](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past), quando sobra um tempinho. 🎮
-* Assistindo a minissérie [Hilda Furacão](https://pt.wikipedia.org/wiki/Hilda_Furac%C3%A3o_(miniss%C3%A9rie)). 🌪️
- * Caso tenha curiosidade, [clique aqui para saber o que estou lendo em 2024](https://www.marcal.dev/leituras-de-2024/)! 📚
+- Ainda morando em Ceilândia - Distrito Federal, mas desejando ansiosamente me mudar para algum lugar mais tranquilo.
+- Foco nos idiomas:
+    - Inglês! 🗣️💬
+    - Francês! 🗣️💬
+- Estou me desafiando a correr 10 km. 🏃
+- Estou jogando [The Legend of Zelda: A Link to the Past](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past) no meu tempo livre. 🎮
+- Estou assistindo à minissérie [Hilda Furacão](https://pt.wikipedia.org/wiki/Hilda_Furac%C3%A3o_(miniss%C3%A9rie)). 🌪️
+- [Clique aqui para saber o que estou lendo em 2024](https://www.marcal.dev/leituras-de-2024/)! 📚
