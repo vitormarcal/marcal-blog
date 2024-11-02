@@ -12,6 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
 language: pt
+image: img/oswaldo-montenegro-50-anos-1.jpg
 ---
 ----
 
