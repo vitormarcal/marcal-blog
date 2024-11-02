@@ -2,7 +2,7 @@
 title: Agora!
 description: Coisas que estou fazendo agora, atualizadas conforme eu me lembro delas.
 author: Vítor Marçal
-created_at: 2024-10-30T09:08:00
+created_at: 2024-11-02T09:08:00
 updated_at: ""
 is_post: false
 related:
@@ -20,5 +20,4 @@ localized_post_paths:
     - Francês! 🗣️💬
 - Estou me desafiando a correr 10 km. 🏃
 - Estou jogando [The Legend of Zelda: A Link to the Past](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past) no meu tempo livre. 🎮
-- Estou assistindo à minissérie [Hilda Furacão](https://pt.wikipedia.org/wiki/Hilda_Furac%C3%A3o_(miniss%C3%A9rie)). 🌪️
 - [Clique aqui para saber o que estou lendo em 2024](https://www.marcal.dev/leituras-de-2024/)! 📚
