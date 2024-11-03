@@ -3,7 +3,7 @@ title: Leituras de 2024 📚
 description: Minha lista de leitura para o ano de 2024 abrange o que já foi lido, está sendo lido e o que desejo ler.
 author: Vítor Marçal
 created_at: 2024-01-16
-updated_at: 2024-10-15T21:00:00
+updated_at: 2024-11-03T17:22:00
 is_post: true
 tags:
   - livros
@@ -71,23 +71,25 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 46. [Sal, gordura, ácido, calor: Os elementos da boa cozinha](sal-gordura-acido-calor-os-elementos-da-boa-cozinha), por Samin Nosrat - 2024-07-17
 47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), por Koushun Takami - 2024-07-23
 48. [O poder do infinito: Como o cálculo revela os segredos do universo](o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo), por Steven Strogatz - 2024-07-28
-49. [O processo](o-processo-de-franz-kafka), por Franz Kafka - 2024-07-28
-50. [Mamie Pétronille et le ruban jaune](fr/mamie-petronille-et-le-ruban-jaune.md), por Jane Cadwaller - 2024-08-30
-51. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
-52. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
-53. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
-54. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
-55. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
-56. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
-57. [Hokuto no Ken: Volume 13](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
-58. [Hokuto no Ken: Volume 14](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
-59. [Hokuto no Ken: Volume 15](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
-60. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
-61. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
-62. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
+49. [Mamie Pétronille et le ruban jaune](fr/mamie-petronille-et-le-ruban-jaune.md), por Jane Cadwaller - 2024-08-30
+50. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
+51. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
+52. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
+53. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
+54. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
+55. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
+56. [Hokuto no Ken: Volume 13](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
+57. [Hokuto no Ken: Volume 14](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
+58. [Hokuto no Ken: Volume 15](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
+59. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
+60. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
+61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
 ### Lendo
-1. Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb - 2024-10-01
-2. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
+1. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
+
+## Abandonados
+1. [O processo](o-processo-de-franz-kafka), por Franz Kafka - 2024-07-28
+2. [Antifrágil: Coisas que se beneficiam com o caos](antifragil-coisas-que-se-beneficiam-com-o-caos), por Nassim Nicholas Taleb - 2024-11-03
 
 ### Quero Ler
 
