@@ -36,12 +36,9 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
         }
     }
 
-    articles.forEach((article) => {
-
+    articles.map((article) => {
         const content = getContent(article)
-
-
-        feed.addItem({
+        return {
             title: article.title ? article.title : "Missing Title",
             id: article._path,
             link: `${BASE_URL}${article._path}`,
@@ -55,8 +52,11 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
             ],
             date: newDate(article),
             image: article.cover_image ? `${BASE_URL}/${article.cover_image}` : undefined,
-        });
-    });
+        }
+    }).sort((a, b) => b.date - a.date)
+        .forEach((item => {
+            feed.addItem(item);
+        }));
 
     return feed
 };
