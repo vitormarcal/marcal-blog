@@ -26,6 +26,14 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
         }
     });
 
+    function itemId(article: any): string {
+        if (!!article.updated_at) {
+            return article._path + '#updated_at#' + article.updated_at
+        } else {
+            return article._path
+        }
+    }
+
     function newDate(article: any) {
         if (!!article.updated_at) {
             return new Date(article.updated_at)
@@ -40,7 +48,7 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
         const content = getContent(article)
         return {
             title: article.title ? article.title : "Missing Title",
-            id: article._path,
+            id: itemId(article),
             link: `${BASE_URL}${article._path}`,
             description: article.description,
             content: content,
