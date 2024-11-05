@@ -23,7 +23,7 @@ Já há alguns anos, eu registro minhas atividades de leitura no Goodreads. Lá,
 Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas desta vez, também registrarei o que li ou quero ler aqui.
 
 ## Sumário
-## Lidos ✅
+## Lidos
 
 1.  [Dragon Ball Vol. 29 - Edição Definitiva](dragon-ball-vol-29-edicao-definitiva), por Akira Toriyama - 2024-01-04
 2.  [Antologia Poética](antologia-poetica-de-carlos-drummond-de-andrade), por Carlos Drummond de Andrade - 2024-01-11
@@ -86,16 +86,16 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 59. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 60. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
 61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
-## Lendo 📖
+## Lendo
 1. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
 
-## Abandonados ❌
+## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 1. [O processo](o-processo-de-franz-kafka), por Franz Kafka - 2024-07-28
 2. [Antifrágil: Coisas que se beneficiam com o caos](antifragil-coisas-que-se-beneficiam-com-o-caos), por Nassim Nicholas Taleb - 2024-11-03
-## Quero Ler 📖
+## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
-### Literatura e Ficção 📜
+### Literatura e Ficção
 Nesta seção, reúno romances, ficção literária e obras clássicas que abrangem diferentes estilos e temas, focando sempre na narrativa e na prosa. Agrupar esses livros é útil quando quero explorar histórias — sejam psicológicas, históricas ou de aventura — que prometem envolver o leitor em uma experiência literária profunda e impactante.
 
 - A Morte de Ivan Ilitch, por Leon Tolstói
@@ -110,7 +110,7 @@ Nesta seção, reúno romances, ficção literária e obras clássicas que abran
 - Memórias póstumas de Brás Cubas, de Machado de Assis
 - Tropas estelares, de Robert A. Heinlein
 - Voladoras, de Mónica Ojeda
-### Cultura Pop e HQs 🎨
+### Cultura Pop e HQs
 Nesta seção, encontro mangás, graphic novels e obras populares da cultura geek e pop. São leituras que exploram temas visuais, histórias seriadas e adaptações de anime. Essa categoria é perfeita para momentos em que busco uma experiência de leitura mais leve e visualmente envolvente.
 
 - 30 Dias de Noite: Edição Comemorativa, de Steve Niles
@@ -160,7 +160,7 @@ Nesta seção, encontro mangás, graphic novels e obras populares da cultura gee
     - Ping Pong Vol. 1, por Tayo Matsumoto
     - Ping Pong Vol. 2, por Tayo Matsumoto
 - Quack: O Caminho do Vento, por Kaji Pato
-### Ciências e Conhecimento Geral 🔬
+### Ciências e Conhecimento Geral
 Aqui estão os livros de ciências, filosofia, política e outras áreas que focam em conhecimento e divulgação científica. Incluí temas amplos e transversais, desde história da matemática e ecologia até antropologia e política. São temas que contribuem para um entendimento mais amplo do mundo, da sociedade e do pensamento humano.
 
 - A fascinante história da matemática, por Mickaël Launay
@@ -176,7 +176,7 @@ Aqui estão os livros de ciências, filosofia, política e outras áreas que foc
 - O Homem que Calculava, por Malba Tahan
 - O mundo assombrado pelos demônios, por Carl Sagan
 - O novo Iluminismo: Em defesa da razão, da ciência e do humanismo, por Steven Pinker
-### Educação e Estudos Técnicos 🧑‍🏫
+### Educação e Estudos Técnicos
 Aqui entram livros que têm um caráter mais instrutivo e técnico.
 
 - Cálculo: Volume 1 por James Stewart
