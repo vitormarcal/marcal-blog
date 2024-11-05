@@ -179,7 +179,13 @@ Aqui estão os livros de ciências, filosofia, política e outras áreas que foc
 ### Educação e Estudos Técnicos 🧑‍🏫
 Aqui entram livros que têm um caráter mais instrutivo e técnico.
 
-- Cálculo: Volume 1, por James Stewart
-- Calculus: Early Transcendentals, por William Briggs
-- Redes de Computadores, por Nick Feamster
-- Passo a passo - inglês, por Charles Berlitz
+- Cálculo: Volume 1 por James Stewart
+- Calculus: Early Transcendentals por William Briggs
+- Crucial Confrontations: Tools for Resolving Broken Promises, Violated Expectations, and Bad Behavior por Joseph Grenny e outros
+- Implementing Domain-Driven Design por Vaughn Vernon
+- Inspired: How to Create Tech Products Customers Love por Marty Cagan
+- Passo a passo - inglês por Charles Berlitz
+- Redes de Computadores por Nick Feamster
+- Release It!: Design and Deploy Production-Ready Software por Michael T. Nygard
+- The Mythical Man-Month: Essays on Software Engineering por Frederick P. Brooks Jr. e outros
+- The Oz Principle: Getting Results Through Individual and Organizational Accountability por Craig Hickman e outros
