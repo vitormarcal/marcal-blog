@@ -88,6 +88,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
 ## Lendo
 1. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
+2. Matemática Curso Moderno para cursos ginasiais Volume 1, por Osvaldo Sangiorgi - 2024-11-09
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
