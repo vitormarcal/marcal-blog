@@ -86,9 +86,9 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 59. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 60. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
 61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
+62. [Matemática Curso Moderno para cursos ginasiais Volume 1](matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi), por Osvaldo Sangiorgi - 2024-11-09
 ## Lendo
 1. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
-2. Matemática Curso Moderno para cursos ginasiais Volume 1, por Osvaldo Sangiorgi - 2024-11-09
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
