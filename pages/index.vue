@@ -5,7 +5,7 @@ const localePath = useLocalePath()
 const { locale } = useI18n()
 
 const { data: posts } = await useAsyncData(`home`, () => queryContent()
-    .where({is_post: true, _partial: false, language: { $eq: locale.value }})
+    .where({is_post: true, _partial: false})
     .sort({ created_at: -1})
     .limit(3)
     .without(['body'])
