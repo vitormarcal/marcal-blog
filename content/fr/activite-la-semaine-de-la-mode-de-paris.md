@@ -32,7 +32,7 @@ J'aime beaucoup lire et j'adore toutes sortes de bandes dessinées aussi.
 
 J'aime regarder des animations, principalement les animations japonaises.
 
-Concernant la France, j'adore les livres d'Alexandre Dumas, en particulier _Le Comte de Monte-Cristo_, mon préféré. J'aime regarder des films avec Eva Green
+Concernant la France, j'adore les livres d'Alexandre Dumas, en particulier _Le Comte de Monte-Cristo_, mon préféré. J'aime regarder des films avec Eva Green.
 
 Je serai très heureux si je peux participer et aider à l'organisation de la Semaine de la Mode.
 
