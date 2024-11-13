@@ -88,8 +88,10 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
 62. [Matemática Curso Moderno para cursos ginasiais Volume 1](matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi), por Osvaldo Sangiorgi - 2024-11-09
 63. [Luz Vermelha -  minissérie em 4 cápitulos](luz-vermelha-mini-em-4-cap-sarah-h-cho), por Sarah H. Cho - 2024-11-10
+64. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-11-12
 ## Lendo
-1. Dylan Dog Omnibus Vol. 1: O despertar dos mortos, por Tiziano Sclavi - 2024-10-16
+1. Um Convite à Matemática: com técnicas de demonstração e notas históricas, por Daniel Cordeiro de Morais Filho - 2024-11-11
+2. Abecedário de personagens do folclore brasileiro, por Januária Cristina Alves - 2024-11-12
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
