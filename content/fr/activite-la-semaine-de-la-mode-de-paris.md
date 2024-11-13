@@ -38,4 +38,5 @@ Concernant la France, j'adore les livres d'Alexandre Dumas, en particulier _Le C
 Je serai très heureux si je peux participer et aider à l'organisation de la Semaine de la Mode.
 
 Je vous remercie d'avance,
+
 Vítor Marçal
