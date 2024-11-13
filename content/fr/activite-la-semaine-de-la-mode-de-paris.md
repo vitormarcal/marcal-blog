@@ -16,7 +16,8 @@ Voici une petite activité pour pratiquer mon français. Désolé pour les erreu
 
 > **L'office de tourisme de Paris cherche des volontaires pour aider à l'organisation de la Semaine de la Mode.**
 > Vous décidez d'écrire un message pour vous présenter et dire que vous êtes intéressé(e).
-   Écrivez votre nom, prénom, nationalité, goûts, votre domicile et d'autres informations que vous jugez importantes.
+  Écrivez votre nom, prénom, nationalité, goûts, votre domicile et d'autres informations que vous jugez 
+  importantes.
 
 **Bonjour, Madame, Monsieur !**
 
@@ -26,14 +27,15 @@ Je m'appelle Vítor Marçal, j'ai trente-deux (32) ans et je suis brésilien.
 
 Mon pays de résidence est le Brésil et j'habite à la ville de Ceilândia, à Brasília.
 
-Ma profession est ingénieur logiciel et je suis également étudiant. Je parle portugais, anglais et un peu de français.
+Je suis ingénieur logiciel et je suis également étudiant. Je parle portugais, anglais et un peu de français.
 
 J'aime beaucoup lire et j'adore toutes sortes de bandes dessinées aussi.
 
 J'aime regarder des animations, principalement les animations japonaises.
 
-Concernant la France, j'adore les livres d'Alexandre Dumas, en particulier _Le Comte de Monte-Cristo_, mon préféré. J'aime regarder des films avec Eva Green.
+Concernant la France, j'adore les livres d'Alexandre Dumas, en particulier _Le Comte de Monte-Cristo_, mon préféré. J'aime regarder des films joués par Eva Green.
 
 Je serai très heureux si je peux participer et aider à l'organisation de la Semaine de la Mode.
 
-Merci!
+Je vous remercie d'avance,
+Vítor Marçal
