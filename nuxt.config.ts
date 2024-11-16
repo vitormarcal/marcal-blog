@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       markdown: {
           remarkPlugins: {
               'remark-toc': {
-                  heading: '(table[ -]of[ -])?conteúdo|sumário|contents?|toc'
+                  heading: '(table[ -]of[ -])?conteúdo|contenu|sumário|contents?|toc'
               },
               'remark-gfm': {},
           }
