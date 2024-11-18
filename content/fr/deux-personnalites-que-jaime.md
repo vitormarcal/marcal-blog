@@ -7,6 +7,7 @@ updated_at:
 is_post: true
 tags:
   - francais
+  - notas-pessoais
 related:
   - "[[tags/francais]]"
 language: fr
