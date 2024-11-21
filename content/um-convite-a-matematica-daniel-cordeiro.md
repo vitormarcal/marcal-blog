@@ -1,6 +1,6 @@
 ---
 title: Um Convite à Matemática
-description: Um bom material de revisão
+description: 
 author: Vítor Marçal
 created_at: 2024-11-20T21:37:00
 updated_at: 
