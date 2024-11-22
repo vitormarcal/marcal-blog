@@ -178,8 +178,8 @@ Aqui estão os livros de ciências, filosofia, política e outras áreas que foc
 - História da Matemática, por Carl B. Boyer
 - Ignorância: Uma história global, por Peter Burke
 - Infinitesimal: A teoria matemática que revolucionou o mundo, por Amir Alexander
-- O Homem que Calculava, por Malba Tahan
-- O mundo assombrado pelos demônios, por Carl Sagan
+- O Homem que Calculava, por Malba Tahan (releitura)
+- O mundo assombrado pelos demônios, por Carl Sagan (releitura)
 - O novo Iluminismo: Em defesa da razão, da ciência e do humanismo, por Steven Pinker
 ### Educação e Estudos Técnicos
 Aqui entram livros que têm um caráter mais instrutivo e técnico.
@@ -187,10 +187,10 @@ Aqui entram livros que têm um caráter mais instrutivo e técnico.
 - Cálculo: Volume 1 por James Stewart
 - Calculus: Early Transcendentals por William Briggs
 - Crucial Confrontations: Tools for Resolving Broken Promises, Violated Expectations, and Bad Behavior por Joseph Grenny e outros
-- Implementing Domain-Driven Design por Vaughn Vernon
+- Implementing Domain-Driven Design por Vaughn Vernon (releitura)
 - Inspired: How to Create Tech Products Customers Love por Marty Cagan
 - Passo a passo - inglês por Charles Berlitz
 - Redes de Computadores por Nick Feamster
 - Release It!: Design and Deploy Production-Ready Software por Michael T. Nygard
-- The Mythical Man-Month: Essays on Software Engineering por Frederick P. Brooks Jr. e outros
+- The Mythical Man-Month: Essays on Software Engineering por Frederick P. Brooks Jr. e outros (releitura)
 - The Oz Principle: Getting Results Through Individual and Organizational Accountability por Craig Hickman e outros
