@@ -92,8 +92,9 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 65. [Um Convite à Matemática: com técnicas de demonstração e notas históricas](um-convite-a-matematica-daniel-cordeiro), por Daniel Cordeiro de Morais Filho - 2024-11-20
 66. [O diabo dos números](o-diabo-dos-numeros), por Hans Magnus Enzensberger e Rotraut Susanne Berner - 2024-11-21
 67. [Abecedário de personagens do folclore brasileiro](abecedario-de-personagens-do-folclore-brasileiro), por Januária Cristina Alves - 2024-11-23
+68. Dragon Ball Vol. 34 - Edição Definitiva, por Akira Toriyama - 2024-11-23
 ## Lendo
-1. Dragon Ball Vol. 34 - Edição Definitiva, por Akira Toriyama - 2024-11-23
+1. O nome da rosa, por Umberto Eco - 2024-11-23
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
