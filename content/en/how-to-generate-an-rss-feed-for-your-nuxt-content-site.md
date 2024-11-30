@@ -3,7 +3,7 @@ title: How to Generate an RSS Feed for Your Nuxt Content Site
 description: This guide provides step-by-step instructions to create a server route that generates an RSS feed for your site.
 author: Vítor Marçal
 created_at: 2024-11-30T18:52:00
-updated_at: 
+updated_at: 2024-11-30T19:03:00
 is_post: true
 tags:
   - english

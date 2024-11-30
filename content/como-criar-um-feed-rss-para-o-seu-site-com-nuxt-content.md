@@ -3,7 +3,7 @@ title: Como Criar um Feed RSS para o Seu Site com Nuxt Content
 description: Esta guia fornece instruções passo a passo para criar uma rota no servidor que gera um feed RSS para o seu site.
 author: Vítor Marçal
 created_at: 2024-11-30T18:52:00
-updated_at: 
+updated_at: 2024-11-30T19:03:00
 is_post: true
 tags:
   - programacao
