@@ -36,10 +36,7 @@ export default defineNuxtConfig({
       highlight: {
           theme: 'dracula',
           langs: [
-              'java',
-              'shell',
-              'xml',
-              'html',
+              'java', 'shell', 'xml', 'html', 'json', 'js', 'ts', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml'
           ]
 
       },
