@@ -21,11 +21,14 @@ const formattedDate = computed(() => {
   </article>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 a {
-  color: #fff;
   text-decoration: none;
+
+  p {
+    color: $font-color;
+  }
 }
 
 article {
