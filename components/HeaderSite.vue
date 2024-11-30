@@ -54,12 +54,7 @@ function toggleHead() {
 <style scoped lang="scss">
 a {
   text-decoration: none;
-  color: #ffffff;
   text-align: center;
-}
-
-a:hover {
-  opacity: .8;
 }
 
 ul {
