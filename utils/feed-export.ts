@@ -51,17 +51,18 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
             email: article.email ? article.email : appConfig.author.email
         }
 
+        const title = article.title ? article.title : "Missing Title"
+
         const content = `
             ${getContent(article)}
             <br/>
+            <hr/>
             <p>Obrigado por manter o RSS vivo!❤️<p/>
-            <p><a href="mailto:${author.email}"Entre na conversa via email</p>
-            <p>Blogues são conversas</p>
-            <p><a aria-label="Entre na conversa via e-mail" href="mailto:${author.email}?subject=${article.link}">Entre na conversa via e-mail</a></p>
+            <p>Blogues são conversas :: <a aria-label="Entre na conversa via e-mail" href="mailto:${author.email}?subject=${title}">Entre na conversa via e-mail</a></p>
         `
 
         return {
-            title: article.title ? article.title : "Missing Title",
+            title: title,
             id: itemId(article),
             link: `${BASE_URL}${article._path}`,
             description: article.description,
