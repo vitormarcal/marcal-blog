@@ -46,6 +46,10 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
 
     articles.map((article) => {
         const content = getContent(article)
+
+        const tags = article.tags.map(it => {
+            return { name: it }
+        })
         return {
             title: article.title ? article.title : "Missing Title",
             id: itemId(article),
@@ -58,8 +62,9 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
                     email: article.email ? article.email : appConfig.author.email
                 },
             ],
+            category: tags,
             date: newDate(article),
-            image: article.cover_image ? `${BASE_URL}/${article.cover_image}` : undefined,
+            image: article.image ? `${BASE_URL}/${article.image}` : undefined,
         }
     }).sort((a, b) => b.date - a.date)
         .forEach((item => {
