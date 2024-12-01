@@ -58,7 +58,7 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
             <br/>
             <hr/>
             <p>Obrigado por manter o RSS vivo!❤️<p/>
-            <p>Blogues são conversas :: <a aria-label="Entre na conversa via e-mail" href="mailto:${author.email}?subject=${title}">Entre na conversa via e-mail</a></p>
+            <p>Blogues são conversas ● <a aria-label="Entre na conversa via e-mail" href="mailto:${author.email}?subject=${title}">Entre na conversa via e-mail</a></p>
         `
 
         return {
