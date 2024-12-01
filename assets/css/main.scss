@@ -60,6 +60,11 @@ img {
   width: 100%;
   display: block;
   max-width: 100%;
+
+  &[src^="/img/profile-image.svg"] {
+    width: 75%;
+    margin: auto;
+  }
 }
 
 hr {
