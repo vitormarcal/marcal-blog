@@ -1,6 +1,6 @@
 ---
 title: Sobre
-description: Oi! Eu sou o Vítor Marçal e este é meu cantinho na internet!
+description: "Ou: quem esse cara pensa que é, afinal?"
 author: Vítor Marçal
 is_post: false
 related:
@@ -9,7 +9,7 @@ language: pt
 ---
 ----
 
-![profile-image](img/profile-image.svg)
+![Imagem na escala cinza da minha pessoa](img/profile-image.svg)
 
 **Oi! Eu sou o Vítor Marçal.** Este é meu cantinho na internet, onde compartilho um pouco sobre quem sou, o que gosto de fazer e como funciono. Sinta-se à vontade para explorar!
 ## Conteúdo
