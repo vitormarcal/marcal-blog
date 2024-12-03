@@ -3,7 +3,7 @@ import LocalizedPostPaths from "~/components/LocalizedPostPaths.vue";
 
 interface PostHead {
   title: string;
-  description: string;
+  description?: string;
   created_at?: string;
   updated_at?: string;
   tags?: string[];
