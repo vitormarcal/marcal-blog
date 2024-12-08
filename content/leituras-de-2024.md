@@ -93,6 +93,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 66. [O diabo dos números](o-diabo-dos-numeros), por Hans Magnus Enzensberger e Rotraut Susanne Berner - 2024-11-21
 67. [Abecedário de personagens do folclore brasileiro](abecedario-de-personagens-do-folclore-brasileiro), por Januária Cristina Alves - 2024-11-23
 68. [Dragon Ball Vol. 34 - Edição Definitiva](dragon-ball-vol-34-edicao-definitiva), por Akira Toriyama - 2024-11-23
+69. [Hokuto no Ken: Volume 18](hokuto-no-ken-volume-18), por Buronson e Tetsuo Hara - 2024-12-08
 ## Lendo
 1. O nome da rosa, por Umberto Eco - 2024-11-23
 2. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
@@ -150,7 +151,6 @@ Nesta seção, encontro mangás, graphic novels e obras populares da cultura gee
     - DRCL midnight children, Vol. 2 (English Edition), por Shin’ichi Sakamoto
     - DRCL midnight children, Vol. 3 (English Edition), por Shin’ichi Sakamoto
     - DRCL midnight children, Vol. 4 (English Edition), por Shin’ichi Sakamoto
-- Hokuto no Ken: Volume 18, por Buronson e Tetsuo Hara
 - LEVIATHAN - Vol. 01, por Shiro Kuroi
 - Monstro do Pântano: Edição Absoluta, por Alan Moore
     - Monstro do Pântano Vol. 2: Edição Absoluta, por Alan Moore
