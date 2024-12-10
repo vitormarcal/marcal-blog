@@ -2,7 +2,6 @@
 title: Copypastables
 description: 
 author: Vítor Marçal
-created_at: 2024-12-10T01:01:00
 is_post: false
 related:
   - "[[paginas-fixas]]"
