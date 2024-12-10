@@ -29,9 +29,10 @@ has_localized_posts: false
 Sempre gostei de músicas e clipes com sons produzidos por sintetizadores, melodias nostálgicas, neons — algo que remetesse aos anos 80. Quando ouvia, sempre me vinha à mente aquele som típico da época. Esses dias, me indicaram a música **[Euphories, da dupla (ou banda?) VIDEOCLUB](https://www.youtube.com/watch?v=ejOjC-mTfA0)**, que é incrível! Ela está cheia de referências aos anos 80, como jogos e filmes retrô.
 
 
+
 <figure class="youtube">  
   <div class="inner-figure">  
-    <div>      <iframe width="200" height="113" src="https://www.youtube.com/embed/ejOjC-mTfA0?si=2yLAJkJj7l5cy2qJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+    <div>      <iframe width="560" height="315" src="https://www.youtube.com/embed/ejOjC-mTfA0?si=2yLAJkJj7l5cy2qJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
     </div>  </div>  <figcaption>    Euphories, da dupla (ou banda?) VIDEOCLUB  
   </figcaption>  
 </figure>
@@ -52,7 +53,7 @@ Um exemplo é **[Algorithm, do Muse](https://youtu.be/wJcVLxRtDms?si=DVS1NQXejz2
 
 <figure class="youtube">  
   <div class="inner-figure">  
-    <div>      <iframe width="200" height="113" src="https://www.youtube.com/embed/wJcVLxRtDms?si=flDMHmC2z-nRsQ1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>  
+    <div>      <iframe width="560" height="315" src="https://www.youtube.com/embed/wJcVLxRtDms?si=flDMHmC2z-nRsQ1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>  
       </iframe>    </div>  </div>  <figcaption>    Algorithm, do Muse  
   </figcaption>  
 </figure>
@@ -67,7 +68,7 @@ Outros exemplos no mesmo estilo são:
 
 <figure class="youtube">  
   <div class="inner-figure">  
-    <div>      <iframe width="200" height="113" src="https://www.youtube.com/embed/MV_3Dpw-BRY?si=k_1pEtoXvpbzEWEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+    <div>      <iframe width="560" height="315" src="https://www.youtube.com/embed/MV_3Dpw-BRY?si=k_1pEtoXvpbzEWEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
     </div>  </div>  <figcaption>    Kavinsky - Nightcall  
   </figcaption>  
 </figure>
@@ -78,7 +79,7 @@ Outros exemplos no mesmo estilo são:
 
 <figure class="youtube">  
   <div class="inner-figure">  
-    <div>      <iframe width="200" height="113" src="https://www.youtube.com/embed/dlW1w6gCWr8?si=4NOJbWwlV99MO9zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+    <div>      <iframe width="560" height="315" src="https://www.youtube.com/embed/dlW1w6gCWr8?si=4NOJbWwlV99MO9zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
     </div>  </div>  <figcaption>    The Midnight - Sunset  
   </figcaption>  
 </figure>

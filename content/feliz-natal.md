@@ -26,10 +26,12 @@ A visão de Tim Minchin do Natal como sendo uma questão de família é linda. A
 
 Obrigado por nos lembrar disso com essa música, Tim.
 
-::video-card{src="https://www.youtube.com/embed/x1rw1fx170s?feature=oembed" iframe="true"}
-#description
-White Wine In The Sun (2021) by Tim Minchin: BACK
-::
+<figure class="youtube">  
+  <div class="inner-figure">  
+    <div>      <iframe width="560" height="315" src="https://www.youtube.com/embed/x1rw1fx170s?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+    </div>  </div>  <figcaption>    White Wine In The Sun (2021) by Tim Minchin: BACK  
+  </figcaption>  
+</figure>
 
 Segue a letra da versão original em Inglês e a traduzida em Português.
 
