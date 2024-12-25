@@ -32,11 +32,14 @@ Ao longo desse texto, vou mostrar algumas pinturas de Klimt que foram homenagead
 ## A abertura
 Confira a abertura da animação: 
 
-::video-card{src="/video/elfen-lied-opening-hd-720p-creditless-lilium.mp4" iframe="false"}
-#description
-Elfen Lied Opening HD 720p Creditless Lilium
-Vídeo Original em https://www.youtube.com/watch?v=ddvXXtfKltg
-::
+<figure class="youtube">  
+  <div class="inner-figure">  
+    <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ddvXXtfKltg?si=SY6R7l_F82OZa52r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <figcaption>Elfen Lied Opening HD 720p Creditless Lilium</figcaption>  
+</figure>
 
 ## Anne Marie Zilberman
 
@@ -163,78 +166,94 @@ A captura que fiz talvez não retrate bem mas pelo vídeo fica nítido que essa 
 
 ## A letra da Abertura
 
-::toggle-card{title="Lilium - Versão original"}
+<details>
+	<summary>Lilium - Versão original</summary>
+	<p>
+    Os iusti <br/>  
+    Meditabitur sapientiam <br/>  
+    Et lingua eius <br/>  
+    Loquetur indicium <br/>  
+    </p>
+    <p>
+    Beatus vir qui <br/>  
+    Suffert tentationem <br/>  
+    Quoniquom cum <br/>  
+    Probates fuerit accipient coronam vitae <br/>  
+    </p>
+    <p>
+    Kyrie, fons bonitatis <br/>   
+    Kyrie, ignis divine, eleison <br/>   
+    </p>
+    <p>
+    O quam sancta <br/>   
+    Quam serena <br/>   
+    Quam benigna <br/>   
+    Quam amoena <br/>   
+    O castitas lilium <br/>   
+    Esse virgo creditur <br/>   
+    </p>
+    <p>
+    O quam sancta <br/>   
+    Quam serena <br/>   
+    Quam benigna <br/>   
+    Quam amoena <br/>   
+    O castitas lilium <br/>   
+    </p>
+    <p>
+    Kyrie, fons bonitatis <br/>   
+    Kyrie, ignis divine, eleison <br/>   
+    </p>
+    <p>
+    O quam sancta <br/>   
+    Quam serena <br/>   
+    Quam benigna <br/>   
+    Quam amoena <br/>   
+    O castitatis lilium <br/> 
+    </p>
+</details>
 
-Os iusti  
-Meditabitur sapientiam  
-Et lingua eius  
-Loquetur indicium  
-
-Beatus vir qui  
-Suffert tentationem  
-Quoniquom cum  
-Probates fuerit accipient coronam vitae  
-
-Kyrie, fons bonitatis  
-Kyrie, ignis divine, eleison  
-
-O quam sancta  
-Quam serena  
-Quam benigna  
-Quam amoena  
-O castitas lilium  
-Esse virgo creditur  
-
-O quam sancta  
-Quam serena  
-Quam benigna  
-Quam amoena  
-O castitas lilium  
-
-Kyrie, fons bonitatis  
-Kyrie, ignis divine, eleison  
-
-O quam sancta  
-Quam serena  
-Quam benigna  
-Quam amoena  
-O castitatis lilium
-::
-
-::toggle-card{title="Lírio - Versão traduzida"}
-
-A boca do justo  
-Mediará a sabedoria  
-E a sua língua  
-Proferirá o julgamento  
-
-Bem-aventurado o homem que  
-Resiste à tentação  
-Porque, depois de provado  
-Ele receberá a coroa da vida  
-
-Senhor, fonte da bondade  
-Senhor, fogo divino, tende piedade  
-
-Ó, quão santa  
-Quão serena  
-Quão gentil  
-Quão agradável  
-Ó lírio de castidade  
-Acredita-se ser pura  
-
-Ó quão santa  
-Quão serena  
-Quão gentil  
-Quão agradável  
-Ó lírio de castidade  
-
-Senhor, fonte da bondade  
-Senhor, fogo divino, tende piedade  
-
-Ó quão santa  
-Quão serena  
-Quão gentil  
-Quão agradável  
-Ó lírio de castidade  
-::
+<details>
+	<summary>Lírio - Versão traduzida</summary>
+	<p>
+    A boca do justo <br/>   
+    Mediará a sabedoria <br/>   
+    E a sua língua <br/>   
+    Proferirá o julgamento <br/>   
+    </p>
+    <p>
+    Bem-aventurado o homem que <br/>   
+    Resiste à tentação <br/>   
+    Porque, depois de provado <br/>   
+    Ele receberá a coroa da vida <br/>   
+    </p>
+    <p>
+    Senhor, fonte da bondade <br/>   
+    Senhor, fogo divino, tende piedade <br/>   
+    </p>
+    <p>
+    Ó, quão santa <br/>   
+    Quão serena <br/>   
+    Quão gentil <br/>   
+    Quão agradável <br/>   
+    Ó lírio de castidade <br/>   
+    Acredita-se ser pura <br/>   
+    </p>
+    <p>
+    Ó quão santa <br/>   
+    Quão serena <br/>   
+    Quão gentil <br/>   
+    Quão agradável <br/>   
+    Ó lírio de castidade <br/>   
+    </p>
+    <p>
+    Senhor, fonte da bondade <br/>   
+    Senhor, fogo divino, tende piedade <br/>   
+    </p>
+    <p>
+    Ó quão santa <br/>   
+    Quão serena <br/>   
+    Quão gentil <br/>   
+    Quão agradável <br/>   
+    Ó lírio de castidade <br/>   
+    </p>
+</details>
