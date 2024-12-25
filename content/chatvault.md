@@ -17,8 +17,9 @@ related:
   - "[[tags/programacao]]"
 image: img/chatvault/chatvault-blur-enabled.png
 language: pt
-localized_post_paths: 
-has_localized_posts: false
+localized_post_paths:
+  - "[[en/chatvault]]"
+has_localized_posts: true
 ---
 ----
 
