@@ -3,21 +3,16 @@
 const localePath = useLocalePath()
 const emits = defineEmits(['is-head-open'])
 
-const groupedNavigationLinks = {
-  main: [
-    { label: 'header.home', path: localePath('index'), delay: 0.03 },
-    { label: 'header.about', path: '/sobre', delay: 0.06 },
-    { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
-    { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
-    { label: 'header.readings', path: '/leituras-de-2024', delay: 0.25 },
-  ],
-  others: [
-    { label: 'header.now', path: localePath('now'), delay: 0.09 },
-
-    { label: 'header.likes', path: localePath('likes'), delay: 0.3 },
-    { label: 'header.copypastables', path: '/copypastables', delay: 0.35 },
-  ],
-};
+const navigationLinks = [
+  { label: 'header.home', path: localePath('index'), delay: 0.03 },
+  { label: 'header.about', path: '/sobre', delay: 0.06 },
+  { label: 'header.now', path: localePath('now'), delay: 0.09 },
+  { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
+  { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
+  { label: 'header.readings', path: '/leituras-de-2024', delay: 0.25 },
+  { label: 'header.likes', path: localePath('likes'), delay: 0.3 },
+  { label: 'header.copypastables', path: '/copypastables', delay: 0.35 },
+];
 
 function toggleHead() {
   emits('is-head-open')
@@ -37,19 +32,10 @@ function toggleHead() {
         </button>
       </div>
       <nav class="head-menu" aria-label="Main menu">
-        <ul class="nav">
-          <li v-for="(link, index) in groupedNavigationLinks.main" :key="'main-' + index" :style="{ transitionDelay: `${link.delay}s` }">
+        <ul class="nav" @click="toggleHead">
+
+          <li v-for="(link, index) in navigationLinks" :key="index" :style="{ transitionDelay: `${link.delay}s` }">
             <NuxtLink :to="link.path"> {{ $t(link.label) }} </NuxtLink>
-          </li>
-          <li class="dropdown">
-            <button>
-              Outros
-            </button>
-            <ul>
-              <li v-for="(link, index) in groupedNavigationLinks.others" :key="'others-' + index" :style="{ transitionDelay: `${link.delay}s` }">
-                <NuxtLink :to="link.path"> {{ $t(link.label) }} </NuxtLink>
-              </li>
-            </ul>
           </li>
         </ul>
       </nav>
@@ -88,11 +74,13 @@ header {
   max-width: 1440px;
 }
 
+
 .head-brand {
   display: flex;
   grid-column-start: 2;
   grid-row-start: 1;
   min-height: 80px;
+
   line-height: 1;
 }
 
@@ -173,72 +161,6 @@ header {
   gap: 32px;
   font-size: 1.3rem;
 }
-
-.dropdown {
-  color: $link_color_visited;
-  position: relative;
-  display: inline-block;
-
-  button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: inherit;
-    text-align: center;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s;
-
-    &:hover,
-    &:focus {
-      background-color: rgba(0, 0, 0, 0.1);
-      outline: none;
-    }
-  }
-
-  ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: black;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 0;
-    margin: 0;
-    list-style: none;
-    z-index: 1000;
-
-    li {
-      margin: 0;
-      padding: 0;
-
-      a {
-        display: block;
-        padding: 0.5rem 1rem;
-        color: inherit;
-        text-decoration: none;
-        transition: background-color 0.3s;
-
-        &:hover,
-        &:focus {
-          background-color: rgba(0, 0, 0, 0.05);
-        }
-      }
-    }
-  }
-
-  &:hover ul {
-    display: block;
-  }
-
-  ul:hover {
-    display: block;
-  }
-}
-
 
 @media (min-width: 992px) {
   .header-inner {
@@ -332,6 +254,7 @@ header {
     flex-direction: column;
   }
 
+
   .nav li {
     opacity: 0;
     transform: translateY(-4px);
@@ -348,22 +271,7 @@ header {
     font-weight: 600;
     text-transform: none
   }
-
-  .dropdown {
-    ul {
-      display: block;
-    }
-
-    &:hover ul,
-    ul:hover {
-      display: block;
-    }
-
-    &:hover,
-    &:focus {
-      background-color: rgba(0, 0, 0, 0.05);
-    }
-
-  }
 }
+
+
 </style>
