@@ -3,6 +3,17 @@
 const localePath = useLocalePath()
 const emits = defineEmits(['is-head-open'])
 
+const navigationLinks = [
+  { label: 'header.home', path: localePath('index'), delay: 0.03 },
+  { label: 'header.about', path: '/sobre', delay: 0.06 },
+  { label: 'header.now', path: localePath('now'), delay: 0.09 },
+  { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
+  { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
+  { label: 'header.readings', path: '/leituras-de-2024', delay: 0.25 },
+  { label: 'header.likes', path: localePath('likes'), delay: 0.3 },
+  { label: 'header.copypastables', path: '/copypastables', delay: 0.35 },
+];
+
 function toggleHead() {
   emits('is-head-open')
 }
@@ -23,26 +34,8 @@ function toggleHead() {
       <nav class="head-menu" aria-label="Main menu">
         <ul class="nav" @click="toggleHead">
 
-          <li style="transition-delay: 0.03s;">
-            <NuxtLink :to="localePath('index')"> {{ $t('header.home') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.06s;">
-            <NuxtLink to="/sobre"> {{ $t('header.about') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.09s;">
-            <NuxtLink :to="localePath('now')"> {{ $t('header.now') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.15s;">
-            <NuxtLink :to="localePath('posts')"> {{ $t('header.posts') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.20s;">
-            <NuxtLink to="/tags/mdc"> {{ $t('header.tags') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.25s;">
-            <NuxtLink to="/leituras-de-2024"> {{ $t('header.readings') }}</NuxtLink>
-          </li>
-          <li style="transition-delay: 0.25s;">
-            <NuxtLink :to="localePath('likes')">  {{ $t('header.likes') }}</NuxtLink>
+          <li v-for="(link, index) in navigationLinks" :key="index" :style="{ transitionDelay: `${link.delay}s` }">
+            <NuxtLink :to="link.path"> {{ $t(link.label) }} </NuxtLink>
           </li>
         </ul>
       </nav>
