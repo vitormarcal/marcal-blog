@@ -9,12 +9,10 @@ export default defineI18nConfig(() => ({
             header: {
                 "home": "Bem-vindo",
                 "about": "Sobre",
-                "now": "Agora",
                 "posts": "Publicações",
                 "tags": "Categorias",
                 "readings": "Leituras de 2024",
-                "likes": "Gostos",
-                "copypastables": "Copypastables"
+                "slashes": "Slashes"
             },
             footer: {
                 made_with: "Feito com muito ❤️ usando Vue e Markdown no Distrito Federal, Brasil"
@@ -46,12 +44,10 @@ export default defineI18nConfig(() => ({
             header: {
                 "home": "Welcome",
                 "about": "About",
-                "now": "Now",
                 "posts": "Posts",
                 "tags": "Categories",
                 "readings": "2024 readings",
-                "likes": "Likes",
-                "copypastables": "Copypastables"
+                "slashes": "Slashes"
             },
             footer: {
               made_with: "Made with lots of ❤️ using Vue and Markdown in Distrito Federal, Brazil"
@@ -83,12 +79,10 @@ export default defineI18nConfig(() => ({
             header: {
                 "home": "Accueil",
                 "about": "À propos",
-                "now": "Maintenant",
                 "posts": "Publications",
                 "tags": "Catégories",
                 "readings": "Lectures de 2024",
-                "likes": "Goûts",
-                "copypastables": "Copypastables"
+                "slashes": "Slashes"
             },
             footer: {
                 made_with: "Réalisé avec beaucoup de ❤️ en utilisant Vue et Markdown dans le Distrito Federal, Brésil"

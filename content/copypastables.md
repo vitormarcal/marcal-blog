@@ -4,7 +4,7 @@ description:
 author: Vítor Marçal
 is_post: false
 related:
-  - "[[paginas-fixas]]"
+  - "[[tags/paginas-fixas]]"
 language: pt
 ---
 ----

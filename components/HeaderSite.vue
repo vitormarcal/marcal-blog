@@ -6,12 +6,10 @@ const emits = defineEmits(['is-head-open'])
 const navigationLinks = [
   { label: 'header.home', path: localePath('index'), delay: 0.03 },
   { label: 'header.about', path: '/sobre', delay: 0.06 },
-  { label: 'header.now', path: localePath('now'), delay: 0.09 },
   { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
   { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
   { label: 'header.readings', path: '/leituras-de-2024', delay: 0.25 },
-  { label: 'header.likes', path: localePath('likes'), delay: 0.3 },
-  { label: 'header.copypastables', path: '/copypastables', delay: 0.35 },
+  { label: 'header.slashes', path: '/slashes', delay: 0.35 },
 ];
 
 function toggleHead() {
