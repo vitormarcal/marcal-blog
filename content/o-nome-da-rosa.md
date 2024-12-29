@@ -8,9 +8,11 @@ is_post: true
 tags:
   - livros
   - portugues
+  - bookmarks
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/tecnologia]]"
+  - "[[tags/bookmarks]]"
 image: img/o-nome-da-rosa.jpg
 language: pt
 ---

@@ -9,6 +9,9 @@ tags:
   - notas-pessoais
   - francais
 language: fr
+related:
+  - "[[tags/notas-pessoais]]"
+  - "[[tags/francais]]"
 ---
 ----
 

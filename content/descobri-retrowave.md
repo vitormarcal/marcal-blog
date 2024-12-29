@@ -9,10 +9,12 @@ tags:
   - notas-pessoais
   - musica
   - video
+  - bookmarks
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/musica]]"
   - "[[tags/video]]"
+  - "[[tags/bookmarks]]"
 image: img/retrowave.webp
 language: pt
 localized_post_paths: 
