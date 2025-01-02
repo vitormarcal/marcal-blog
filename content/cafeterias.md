@@ -24,7 +24,7 @@ Frequentemente, quero ir a alguma cafeteria, mas é um saco ter que parar para p
 * [ ] Castália Artesanal  ∙  na Asa Sul e na Asa Norte ∙ [@castaliartesanal](https://www.instagram.com/castaliartesanal/)
 * [ ] Constantina Café e Quitutes  ∙  [na Asa Sul](https://maps.app.goo.gl/E1D6Jzk7AwnJS38E7)  ∙  [@constantinacafe](https://www.instagram.com/constantinacafe/)
 * [ ] Dylan Cafe & Bakery  ∙  [na Asa Sul](https://maps.app.goo.gl/FAfBM4dNCiAoAdHe6)  ∙  [dylancafebakery](https://www.instagram.com/dylancafebakery/)
-* [ ] Jacket Cafeteria, Cafés Especiais e Torrefação  ∙  [na Asa Sul](https://maps.app.goo.gl/oi2mMyXctpUsN5vU9)   ∙  [@jacketcafe](https://www.instagram.com/jacketcafe/)
+* [ ] Jacket Cafeteria ∙  [na Asa Sul](https://maps.app.goo.gl/oi2mMyXctpUsN5vU9)   ∙  [@jacketcafe](https://www.instagram.com/jacketcafe/)
 * [ ] Mercado do Café de Brasília  ∙  [na Asa Sul](https://maps.app.goo.gl/P2HcAVJ5KMxSdB1Z8)  ∙  [@mercadodocafe.bsb](https://www.instagram.com/mercadodocafe.bsb/)
 * [ ] Minimalize Café  ∙  [na Asa Sul](https://maps.app.goo.gl/jd2iiNyokocuwuRL6)  ∙  [@minimalizecafe](https://www.instagram.com/minimalizecafe/)
 * [ ] Nube Cafe e Confeitaria  ∙  [na Asa Sul](https://maps.app.goo.gl/MubuhX6h4cDhVJ4s6)  ∙  [@nubecafe](https://www.instagram.com/nubecafe/)
