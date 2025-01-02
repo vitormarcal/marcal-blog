@@ -24,6 +24,7 @@ Esta página, em especial, é uma página slash que lista todas as minhas págin
 
 * [/agora](agora)
 * [/bookmarks](bookmarks)
+* [/cafeterias-bsb](cafeterias-bsb)
 * [/copypastables](copypastables)
 * [/checklist](checklist)
 * [/gostos](gostos)
