@@ -138,3 +138,7 @@ Frequentemente, quero ir a alguma cafeteria, mas é um saco ter que parar para p
 - [ ] **Rapport Café e Bistrô**  
   [Localização: Asa Norte](https://maps.app.goo.gl/VwSXTTjP2fbkh53L8)  
   [Instagram: @rapport.bistro.cafe](https://www.instagram.com/rapport.bistro.cafe/)
+
+- [ ] **Café Daniel Briand**  
+  [Localização: Asa Norte](https://maps.app.goo.gl/3xjcpioGLS6KRreEA)  
+  [Instagram: @cafedanielbriand](https://www.instagram.com/cafedanielbriand)
