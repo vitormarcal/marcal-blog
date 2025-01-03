@@ -5,8 +5,8 @@ const {page} = useContent()
 </script>
 
 <template>
-  <main>
-    <div>
+  <section class="main-section">
+    <main>
 
 
       <ContentDoc class="post-section" :path="path" v-slot="{ doc }">
@@ -27,8 +27,8 @@ const {page} = useContent()
         <slot/>
       </div>
 
-    </div>
-  </main>
+    </main>
+  </section>
 </template>
 
 <style>

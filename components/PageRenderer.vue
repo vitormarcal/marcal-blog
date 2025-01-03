@@ -15,8 +15,8 @@ defineProps<PostProps>();
 </script>
 
 <template>
-  <main>
-    <div>
+  <section class="main-section">
+    <main>
       <post-head
           :title="title"
           :description="description"
@@ -33,8 +33,8 @@ defineProps<PostProps>();
       <div class="post-section">
         <slot/>
       </div>
-    </div>
-  </main>
+    </main>
+  </section>
 </template>
 
 <style scoped>

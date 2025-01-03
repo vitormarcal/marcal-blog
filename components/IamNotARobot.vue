@@ -35,10 +35,9 @@ import humanContent from "assets/img/HumanContent.svg";
 }
 
 .image-wrapper {
-  display: grid;
-  grid-auto-flow: row dense;
+  display: flex;
+  justify-content: center;
   padding-left: 2rem;
-  grid-template-columns: 2fr  2fr;
 }
 
 .image-wrapper img {

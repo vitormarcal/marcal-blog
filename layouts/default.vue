@@ -78,5 +78,15 @@ body.default {
     min-height: 100vh;
   }
 
+  .main-section {
+    flex-grow: 1;
+    padding: clamp(2.8rem, 2.8rem + 1.5vw, 4rem) clamp(24px, 1.032rem + 1.9355vw, 48px) 0rem;
+
+    main {
+      margin: 0 auto;
+      max-width: 1440px;
+    }
+  }
+
 }
 </style>
