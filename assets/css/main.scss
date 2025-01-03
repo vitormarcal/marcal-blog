@@ -222,3 +222,17 @@ figure.youtube {
     font-size: 0.8rem;
   }
 }
+
+.cafeteria {
+  li {
+    list-style-type: none;
+    padding-left: 0;
+    &::before {
+      content: "☕";
+      margin-right: 8px;
+      color: brown;
+      font-size: 1.2em;
+    }
+  }
+
+}

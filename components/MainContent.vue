@@ -21,7 +21,7 @@ const {page} = useContent()
             :has_localized_posts="page.has_localized_posts"
         />
 
-        <ContentRenderer :value="doc" class="post-section content-section"/>
+        <ContentRenderer :value="doc" class="post-section content-section" :class="page.cssclasses"/>
       </ContentDoc>
       <div class="post-section">
         <slot/>
