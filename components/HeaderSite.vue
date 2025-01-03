@@ -43,15 +43,6 @@ function toggleHead() {
 </template>
 
 <style scoped lang="scss">
-a {
-  text-decoration: none;
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-}
-
 header {
   height: auto;
   position: relative;
@@ -59,6 +50,16 @@ header {
   font-size: 1.6rem;
   padding-left: clamp(24px, 1.032rem + 1.9355vw, 48px);
   padding-right: clamp(24px, 1.032rem + 1.9355vw, 48px);
+
+  a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+  }
+
 }
 
 .header-inner {
