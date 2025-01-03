@@ -24,26 +24,6 @@ details[open] {
   }
 }
 
-body {
-  background-color: $bg-color;
-  color: $font-color;
-  min-height: 100vh;
-  text-rendering: optimizespeed;
-  margin: 0;
-}
-
-figcaption {
-  color: hsla(0,0%,100%,.64);;
-  line-height: 1.4;
-  margin-top: 1.6rem;
-  text-align: center;
-  font-size: 1.3rem;
-
-  p {
-    white-space: pre-wrap;
-  }
-}
-
 a {
   text-decoration: underline;
   color: $link_color;
@@ -115,32 +95,6 @@ pre {
   padding: .4rem;
 }
 
-.audio-card {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 96px;
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 1px rgba(124,139,154,.25);
-  padding: 1rem;
-
-  audio {
-    background-color: $bg-color;
-    color: $green;
-  }
-}
-
-.site {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-@media (max-width: 991px) {
-  .is-head-open #head {
-    background-color: $bg-color;
-  }
-}
 
 
 main {

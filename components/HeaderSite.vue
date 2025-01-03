@@ -161,6 +161,12 @@ header {
   font-size: 1.3rem;
 }
 
+@media (max-width: 991px) {
+  .is-head-open #head {
+    background-color: $bg-color;
+  }
+}
+
 @media (min-width: 992px) {
   .header-inner {
     grid-template-columns: 1fr 1fr;

@@ -63,6 +63,20 @@ useHead({
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
 
+body.default {
+  background-color: $bg-color;
+  color: $font-color;
+  min-height: 100vh;
+  text-rendering: optimizespeed;
+  margin: 0;
+
+  .site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+}
 </style>
