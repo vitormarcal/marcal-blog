@@ -21,7 +21,7 @@ Frequentemente, quero ir a alguma cafeteria, mas é um saco ter que parar para p
 ---
 
 ## Voltarei
-- **Ernesto Cafés Especiais**
+- **Ernesto Cafés Especiais**  
   [Localização: Asa Sul](https://maps.app.goo.gl/BFXTTx7eJfboc7k66)  
   [Instagram: @ernestocafesespeciais](https://www.instagram.com/ernestocafesespeciais/)
 
