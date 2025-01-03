@@ -1,5 +1,5 @@
 ---
-title: Hokuto No Ken - Fist of the North Star - Volumes 18
+title: Hokuto No Ken - Fist of the North Star - Volume 18
 description: " Omae wa mou shindeiru! - Você Já está morto!"
 author: Vítor Marçal
 created_at: 2024-12-08T13:07:00
@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken/hokuto-no-ken-volume-18.jpg
+image: img/hokuto-no-ken/hokuto-no-ken-volume-18.jpg
 language: pt
 ---
 ----

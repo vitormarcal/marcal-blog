@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken/hokuto-no-ken-volume-12.jpg
+image: img/hokuto-no-ken/hokuto-no-ken-volume-12.jpg
 language: pt
 ---
 ----
