@@ -25,6 +25,9 @@ useHead({
   htmlAttrs: {
     lang: 'pt-BR'
   },
+  bodyAttrs: {
+    class: 'default'
+  },
   link: [
     {
       rel: 'canonical',
