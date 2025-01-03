@@ -35,19 +35,22 @@ const hasDates = computed(() => {
   font-size: 15px;
   font-weight: bold;
   margin-top: 1rem;
+
+  .updated-at,
+  .created-at {
+    margin-top: 2rem;
+    color: hsla(0, 0%, 100%, .64);
+
+    line-height: 1.45;
+    max-width: 840px;
+    font-weight: bold;
+  }
+
+  span {
+    margin-right: 5px;
+    font-weight: bold;
+  }
 }
 
-.updated-at,
-.created-at {
-  margin-top: 2rem;
-  color: hsla(0, 0%, 100%, .64);
-
-  line-height: 1.45;
-  max-width: 840px;
-}
-
-span {
-  margin-right: 5px;
-}
 
 </style>

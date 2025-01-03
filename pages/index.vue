@@ -18,7 +18,7 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
 </script>
 
 <template>
-  <div>
+  <div class="index">
     <page-renderer :title="$t('home.title')" :description="$t('home.description')">
       <h3>{{ $t('latest_posts') }}</h3>
       <ul class="latest-posts">
@@ -34,11 +34,15 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
 </template>
 
 <style scoped>
-.latest-posts {
-  padding: 0;
-  margin: 0;
-  li {
-    list-style-type: none;
+
+.index {
+  .latest-posts {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style-type: none;
+    }
   }
 }
+
 </style>
