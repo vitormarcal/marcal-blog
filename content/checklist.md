@@ -31,4 +31,5 @@ Uma lista de ideias para incluir neste blog. Algumas coisas eu realmente quero f
 - [ ] Criar uma página que liste meus jogos favoritos.
 - [ ] Criar uma página que liste minhas músicas favoritas.
 - [ ] Criar uma página que liste citações favoritas e memoráveis (de jogos, livros, filmes etc.).
+- [ ] Abandonar o pré-processador *Sass** e utilizar o *css vanila*.
    
