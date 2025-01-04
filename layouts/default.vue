@@ -23,7 +23,8 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: {
-    lang: 'pt-BR'
+    lang: 'pt-BR',
+    class: 'default'
   },
   bodyAttrs: {
     class: 'default'
@@ -64,6 +65,8 @@ useHead({
 </template>
 
 <style lang="scss">
+
+@import "~/assets/css/main.scss";
 
 body.default {
   background-color: $bg-color;
