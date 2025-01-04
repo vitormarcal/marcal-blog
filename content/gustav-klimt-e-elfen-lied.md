@@ -16,7 +16,6 @@ related:
 image: img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg
 language: pt
 ---
-----
 
 ![gustav-klimt-e-elfen-lied](img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg)
 

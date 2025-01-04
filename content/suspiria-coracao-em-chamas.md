@@ -18,7 +18,6 @@ related:
 image: img/suspiria-coracao-em-chamas.jpg
 language: pt
 ---
-----
 
 ![suspiria-coracao-em-chamas](img/suspiria-coracao-em-chamas.jpg)
 

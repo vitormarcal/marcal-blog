@@ -14,7 +14,6 @@ related:
 image: img/hilda-furacao-a-minisserie.jpg
 language: pt
 ---
-----
 
 ![  Hilda Furacão, a woman in a checkered outfit stands outdoors next to a man, Malthus, in a dark shirt, who is looking down. ](img/hilda-furacao-a-minisserie.jpg)
 

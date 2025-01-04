@@ -15,7 +15,6 @@ tags:
 localized_post_paths: 
 has_localized_posts: false
 ---
----
 
 Mas por que escrever em um blog? Percebi que é uma ótima forma de documentar os desafios que enfrentei e registrar como me sentia em diferentes momentos da vida. Como não dá para confiar na mente para armazenar esse tipo de informação a longo prazo, publicar em um blog funciona como um "**segundo cérebro**" sempre acessível.
 

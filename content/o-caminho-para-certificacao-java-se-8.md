@@ -16,7 +16,7 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
----
+
 ![O caminho para certificação Java 8](img/certification.png)
 
 ## Sumário

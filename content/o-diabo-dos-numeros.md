@@ -16,7 +16,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
 
 ![o-diabo-dos-numeros](img/o-diabo-dos-numeros.jpg)
 

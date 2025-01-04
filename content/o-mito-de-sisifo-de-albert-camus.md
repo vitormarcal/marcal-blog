@@ -14,7 +14,6 @@ related:
 image: img/o-mito-de-sisifo-de-albert-camus.jpg
 language: pt
 ---
-----
 
 ![o-mito-de-sisifo-de-albert-camus](img/o-mito-de-sisifo-de-albert-camus.jpg)
 

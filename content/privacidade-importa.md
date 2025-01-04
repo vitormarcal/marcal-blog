@@ -14,7 +14,7 @@ related:
 image: img/privacidade-importa.jpg
 language: pt
 ---
----
+
 ![Privacidade importa](img/privacidade-importa.jpg)
 
 Photo by [Tobias Tullius](https://unsplash.com/@tobiastu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

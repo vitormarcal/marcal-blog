@@ -15,7 +15,6 @@ related:
 image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
 language: pt
 ---
-----
 
 ![battle-royale-omnibus-volume-1](img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg)
 

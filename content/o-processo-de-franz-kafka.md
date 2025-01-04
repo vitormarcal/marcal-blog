@@ -14,7 +14,6 @@ related:
 image: img/o-processo-de-franz-kafka.jpg
 language: pt
 ---
-----
 
 ![o-processo-de-franz-kafka](img/o-processo-de-franz-kafka.jpg)
 

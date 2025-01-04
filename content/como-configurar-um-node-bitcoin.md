@@ -16,8 +16,6 @@ related:
 image: img/bitcoin-node.jpg
 language: pt
 ---
----
-
 
 ![Como configurar um node bitcoin](img/bitcoin-node.jpg)
 

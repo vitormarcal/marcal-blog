@@ -14,7 +14,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
 
 Alguns links interessantes que estavam nos meus favoritos:
 

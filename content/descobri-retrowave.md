@@ -20,7 +20,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
 
 ![Aqui está uma imagem que captura a essência do estilo Synthwave, com uma cidade futurista cheia de luzes neon, um carro esportivo estiloso e uma atmosfera vibrante inspirada nos anos 80. 🚗✨](img/retrowave.webp)
 

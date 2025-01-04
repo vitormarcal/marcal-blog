@@ -14,7 +14,6 @@ related:
 image: img/o-processo-de-franz-kafka.jpg
 language: pt
 ---
-----
 
 ![antifragil-coisas-que-se-beneficiam-com-o-caos](img/antifragil-coisas-que-se-beneficiam-com-o-caos.jpg)
 

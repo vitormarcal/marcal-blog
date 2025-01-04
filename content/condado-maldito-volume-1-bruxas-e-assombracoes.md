@@ -16,7 +16,6 @@ related:
 image: img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg
 language: pt
 ---
-----
 
 ![condado-maldito-volume-1-bruxas-e-assombracoes](img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg)
 

@@ -15,7 +15,6 @@ related:
 image: img/a-vida-intelectual.jpg
 language: pt
 ---
-----
 
 ![a-vida-intelectual](img/a-vida-intelectual.jpg)
 

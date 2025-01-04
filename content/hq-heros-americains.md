@@ -15,7 +15,6 @@ related:
 image: img/hq-heros-americains.jpg
 language: pt
 ---
-----
 
 ![hq-heros-americains](img/hq-heros-americains.jpg)
 

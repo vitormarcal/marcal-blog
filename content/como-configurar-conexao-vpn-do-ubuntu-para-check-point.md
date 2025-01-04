@@ -13,7 +13,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
 
 Para configurar siga esses passos:
 

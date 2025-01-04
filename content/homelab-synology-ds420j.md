@@ -15,7 +15,7 @@ related:
 image: img/home-lab-synology.jpeg
 language: pt
 ---
----
+
 ![Home lab - Synology DS420j](img/home-lab-synology.jpeg)
 
 Synology DS420J by Acervo Pessoal

@@ -14,9 +14,6 @@ related:
 image: 
 language: pt
 ---
-----
-
-
 Então, depois de 3 anos no BTG Pactual, dois deles como funcionário interno e outro através de uma consultoria (Programmers IT), um ciclo se fecha e estou saindo. Esse período foi bastante interessante e produtivo.
 
 Participei do time de Membership, que lançou o Plano Premium e o Plano Família. Contribuí com os fluxos de upgrade e downgrade de planos, gestão da jornada de adicionais do plano, entre outros.

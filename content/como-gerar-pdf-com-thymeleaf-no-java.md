@@ -14,8 +14,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-------
-
 Criar relatórios PDF no Java é bastante comum. Sem dúvidas, a ferramenta mais utilizada e bastante poderosa é o iReport. Entretanto, para alguns projetos ou situações usar iReport é como usar um canhão para matar uma formiga.
 
 iReport dá uma camada a mais de complexidade à solução, tendo que manter aquelas centenas de xmls gerados, a necessidade de baixar uma IDE para criar e editá-los.

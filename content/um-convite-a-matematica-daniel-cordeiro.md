@@ -16,7 +16,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
 
 ![um-convite-a-matematica-daniel-cordeiro](img/um-convite-a-matematica-daniel-cordeiro.jpg)
 

@@ -14,7 +14,6 @@ related:
 image: img/a-vida-e-como-lavar-loucas.jpg
 language: pt
 ---
-----
 
 ![a-vida-e-como-lavar-loucas](img/a-vida-e-como-lavar-loucas.jpg)
 

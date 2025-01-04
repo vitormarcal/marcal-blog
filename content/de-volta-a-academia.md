@@ -13,8 +13,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
-
 Hoje, retornei à academia após meses sem frequentar. Que cansaço! É desafiador, mas ao mesmo tempo gratificante. Acredito que, em qualquer situação, o início é complicado, especialmente quando se trata de exercícios físicos.
 
 Ninguém inicia uma rotina de exercícios pensando em desistir, mas algumas pessoas, inclusive eu, acabam interrompendo o processo.

@@ -14,7 +14,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
 
 Hoje, separei um momento para catalogar todos os livros e quadrinhos físicos que tenho guardados em casa. Fiz isso principalmente porque a lista do que possuía estava, em grande parte, apenas na minha cabeça, dificultando o controle do que já comprei, do que já li e do que ainda preciso ler. Para resolver isso, eu usava o Goodreads, mas acabei abandonando. Agora, utilizo uma simples [lista do que li este ano e do que quero ler](leituras-de-2024), que resolve o problema até certo ponto.
 

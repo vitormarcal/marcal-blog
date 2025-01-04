@@ -16,7 +16,7 @@ related:
 image: img/o-nome-da-rosa.jpg
 language: pt
 ---
-----
+
 
 ![o-nome-da-rosa](img/o-nome-da-rosa.jpg)
 

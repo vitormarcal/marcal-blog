@@ -15,7 +15,7 @@ related:
 image: img/antologia-poetica.jpg
 language: pt
 ---
----
+
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)
 
 Carlos Drummond dispensa apresentações, então vamos direto ao ponto. 'Antologia Poética' é dividida em alguns tópicos que conferem coesão e unidade aos poemas: 1) O indivíduo; 2) A terra natal; 3) A família; 4) Amigos; 5) O choque social; 6) O conhecimento amoroso; 7) A própria poesia; 8) Exercícios lúdicos; 9) Uma visão, ou tentativa de, da existência.

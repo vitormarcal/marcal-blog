@@ -15,7 +15,6 @@ related:
 image: img/borboleta-assassina-vol-1.jpeg
 language: pt
 ---
-----
 
 ![borboleta-assassina-vol-1](img/borboleta-assassina-vol-1.jpeg)
 

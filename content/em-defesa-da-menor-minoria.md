@@ -13,10 +13,8 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
----
-![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)
 
-Photo by [Clay Banks](https://unsplash.com/@claybanks?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+![Em defesa da menor minoria](img/em-defesa-da-menor-minoria.jpg)
 
 Muito se fala atualmente sobre a aplicação de direitos. Direitos à saúde, moradia, alimentação, lazer, educação. Existem, também, atualmente muitos grupos de interesse que lutam pelo reconhecimento de um direito. O direito de casais homoafetivos de casarem, formarem uma família, adotar crianças. O direito da comunidade negra a uma restituição social através de programas de cotas para a entrada em universidades ou serviço público, por exemplo. O direito das mulheres em terem um salário equivalente aos homens que exercem a mesma função. Ou o direito das mulheres de terem x vagas reservadas em órgãos públicos, ou o direito de licença maternidade para um ou outro gênero. A lista de direitos de minorias é extensa e constantemente cresce em função da reivindicação de um grupo. Sou da opinião de que o estado ao assumir a tarefa de distribuir e regular direitos, possui um poder imenso sobre o individuo e amplia assim suas amarras coercitivas.
 

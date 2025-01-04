@@ -14,7 +14,7 @@ related:
 image: img/as-110-pilulas-de-magnus.jpg
 language: pt
 ---
-----
+
 
 ![as-110-pilulas-de-magnus](img/as-110-pilulas-de-magnus.jpg)
 

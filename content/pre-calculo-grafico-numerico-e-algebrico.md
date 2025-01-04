@@ -14,7 +14,6 @@ related:
 image: img/pre-calculo-grafico-numerico-e-algebrico.jpg
 language: pt
 ---
-----
 
 ![pre-calculo-grafico-numerico-e-algebrico](img/pre-calculo-grafico-numerico-e-algebrico.jpg)
 

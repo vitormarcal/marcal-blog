@@ -15,7 +15,6 @@ related:
 image: img/hokuto-no-ken/hokuto-no-ken-volume-17.jpg
 language: pt
 ---
-----
 
 ![hokuto-no-ken-volume-17](img/hokuto-no-ken/hokuto-no-ken-volume-17.jpg)
 

@@ -17,8 +17,6 @@ localized_post_paths:
   - "[[en/how-to-generate-an-rss-feed-for-your-nuxt-content-site]]"
 has_localized_posts: true
 ---
-----
-
 Se você possui um blog que utiliza Nuxt 3 e Nuxt Content v2, adicionar um feed RSS é uma ótima maneira de permitir que seus leitores acompanhem suas atualizações. Neste guia, mostrarei como criar uma rota no servidor para gerar um feed RSS para o seu site.
 
 > **Nota**: Este guia é baseado em um post originalmente publicado no blog de Maciej Pędzich, que não está mais disponível online. No entanto, você pode acessá-lo através do [Web Archive](https://web.archive.org/web/20220802163409/https://journal.maciejpedzi.ch/generating-rss-feeds-for-a-nuxt-content-site).

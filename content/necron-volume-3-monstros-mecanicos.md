@@ -15,7 +15,6 @@ related:
 image: img/necron-volume-3-monstros-mecanicos.jpg
 language: pt
 ---
-----
 
 ![necron-volume-3-monstros-mecanicos](img/necron-volume-3-monstros-mecanicos.jpg)
 

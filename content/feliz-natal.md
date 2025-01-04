@@ -17,7 +17,7 @@ language: pt
 updated_at: 2024-12-24T15:28:00
 ---
 
----
+
 ![Feliz Natal](img/feliz-natal.jpg)
 
 Todo ano eu volto nesse vídeo e toda vez ele me pega bem. Pessoalmente, é o melhor vídeo sobre o que é o natal de todos!

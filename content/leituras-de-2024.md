@@ -14,7 +14,6 @@ related:
 image: img/leituras-do-ano.png
 language: pt
 ---
----
 
 ![Leituras de 2024](img/leituras-do-ano.png)
 

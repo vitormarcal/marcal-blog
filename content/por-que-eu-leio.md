@@ -14,9 +14,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
-
-
 A leitura sempre esteve muito presente na minha vida. Quando pequeno, comecei com livros curtos como "O Patinho Feio" e "A Bela Adormecida"; depois, conheci os quadrinhos com "A Turma da Mônica", "Zé Carioca" e "Menino Maluquinho". Lembro do saudoso Prof. Ademir, que incentivava muito a leitura. Nessa época, tive meu primeiro contato com "O Saci", de Monteiro Lobato, o que me fez conhecer e ler bastante de seus outros livros infantis.
 
 Na adolescência, era bastante comum eu frequentar a biblioteca da escola. Acredito que a grande virada foi quando entrei na quinta série do ensino fundamental na Escola Classe 60 da Ceilândia. Passei a frequentar quase que diariamente a biblioteca da escola; lembro que até participei de uma pequena competição de incentivo à leitura: quem pegasse mais livros emprestados em um período de tempo ganharia alguns prêmios. Lembro com saudades da professora bibliotecária, cujo nome, infelizmente, não recordo. Teve uma ocasião engraçada durante essa competição; como eu ia lá quase que diariamente e, se não me falha a memória, até mais de uma vez por dia (eu morava em frente à escola, a uns 50 a 100 metros), buscando novos livros, ela me disse que eu poderia levar mais livros do que o permitido para eu não ficar dando trabalho a ela! Acredito que aquele foi o incentivo que ela pôde dar a uma mente ávida por descobrir mais nos livros. Ganhei essa pequena competição, e o prêmio foram vários livros dos mais variados temas: ficção, poesia, teatro, e pela primeira vez na vida, eu tinha um bom estoque de livros a serem lidos, que eram meus de verdade! Até hoje me lembro com carinho da primeira biografia que li na vida, por volta dos 11 anos de idade: [Minhas Memórias de Lobato](https://www.amazon.com.br/Minhas-mem%C3%B3rias-Lobato-Luciana-Sandroni/dp/8585466812). Já não tenho mais esse livro, mas espero relê-lo novamente.

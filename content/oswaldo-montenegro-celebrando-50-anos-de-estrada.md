@@ -14,7 +14,6 @@ related:
 language: pt
 image: img/oswaldo-montenegro-50-anos-1.jpg
 ---
-----
 
 ![Oswaldo Montenegro plays an acoustic guitar on stage, wearing a red and gray sweater and jeans, with a microphone nearby.](img/oswaldo-montenegro-50-anos-1.jpg)
 

@@ -15,8 +15,6 @@ related:
 image: 
 language: pt
 ---
-----
-
 Como podem notar, neste espaço, a única forma de comentário é me mandando um e-mail. Eu [expliquei aqui](responda-por-email) por que não mantenho um sistema de comentários acoplado ao site. Já faz um pouco mais de dois meses que mantenho meu endereço aqui, público, em texto plano. No começo, testei algumas formas de ofuscação de e-mail para que robôs varrendo a internet não colocassem meu e-mail em alguma lista de spam.
 
 Cheguei a usar algo como `meu arroba dominio ponto com`, para que o leitor entendesse que meu e-mail era `meu@dominio.com`.

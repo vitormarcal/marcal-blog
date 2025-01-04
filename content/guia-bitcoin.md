@@ -15,7 +15,7 @@ related:
 image: img/guia-bitcoin.jpg
 language: pt
 ---
----
+
 ![guia-bitcoin](img/guia-bitcoin.jpg)
 
 Esse é um guia de conceitos básicos sobre o bitcoin. Estou adicionando mais informações à medida que vou aprendendo mais. Por mais que as informações aqui possam ser úteis e que eu tenha tentado transmiti-las da forma mais correta possível, essas informações foram reunidas na medida em que eu mesmo fui pesquisando e aprendendo um pouco mais sobre o assunto. Portanto, ainda assim podem ter algumas informações não muito precisas. Caso ocorra, agradeço a gentileza de me informar que corrijo o mais breve possível! Não confie, verifique! ⚠️ **Atualizado em 15 de Fevereiro de 2024**.

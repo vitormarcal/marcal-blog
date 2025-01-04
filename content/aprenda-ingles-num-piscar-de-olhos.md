@@ -14,7 +14,7 @@ related:
 image: img/aprenda-ingles-num-piscar-de-olhos.jpg
 language: pt
 ---
----
+
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)
 
 Outro dia, enquanto passeava na livraria, esse livro chamou minha atenção. Sem saber nada sobre ele, decidi comprá-lo

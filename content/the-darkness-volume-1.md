@@ -15,7 +15,6 @@ related:
 image: img/the-darkness-volume-1.jpg
 language: pt
 ---
-----
 
 ![the-darkness-volume-1](img/the-darkness-volume-1.jpg)
 

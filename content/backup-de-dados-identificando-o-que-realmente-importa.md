@@ -17,7 +17,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
 
 Existem muitas possibilidades quando se trata de backup de dados. Eu pesquisei bastante, ou pelo menos, pesquisei até perder o interesse. Há algum tempo, desenvolvi uma forma de criar processos de backup para os meus dados mais importantes. Esta publicação mostra como eu defini e identifiquei o que realmente é importante para mim a ponto de precisar ser armazenado.
 

@@ -14,7 +14,6 @@ related:
 image: 
 language: pt
 ---
-----
 
 Tirei um tempo para digitalizar boa parte das fotos de família, o que levou cerca de 5 horas! Não foram muitas, apenas 230, e acredito que ainda faltem umas 100.
 

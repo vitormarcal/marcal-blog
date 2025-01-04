@@ -14,8 +14,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
-
 Precisei fazer uma apresentação bem simples sobre meus gostos para minhas aulas de francês. Achei que essa seria uma boa oportunidade para brincar um pouco com código e implementei aqui mesmo no meu blog.
 
 Do jeito que está, parece um "Story" – como os do Facebook, Instagram e WhatsApp – mas bem primitivo, sem funcionalidades de áudio, vídeo, fechar "story", etc. Eu achei que ficou bom, pela simplicidade da coisa. Ainda vou adicionar mais usabilidade a ele em algum momento e, quem sabe, criar outros "stories".

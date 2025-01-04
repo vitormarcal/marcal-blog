@@ -15,7 +15,6 @@ related:
 image: img/necron-volume-2-o-navio-dos-leprosos.jpg
 language: pt
 ---
-----
 
 ![necron-volume-2-o-navio-dos-leprosos](img/necron-volume-2-o-navio-dos-leprosos.jpg)
 

@@ -21,7 +21,6 @@ localized_post_paths:
   - "[[en/chatvault]]"
 has_localized_posts: true
 ---
-----
 
 ![Print de tela da Interface do chatvault exibe um efeito de desfoque (blur) aplicado sobre o texto das mensagens. À esquerda, há uma área com a lista de chats, onde cada chat é acompanhado pela imagem de perfil correspondente. No centro, o chat aberto exibe o conteúdo das mensagens de forma visível. À direita, é possível ver a galeria de imagens do chat, mostrando as miniaturas das imagens disponíveis na galeria.](img/chatvault/chatvault-blur-enabled.png)
 

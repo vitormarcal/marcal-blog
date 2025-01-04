@@ -14,7 +14,7 @@ related:
 image: img/10-olimpiada-de-xadrez-de-ceilandia.jpg
 language: pt
 ---
-----
+
 
 ![10-olimpiada-de-xadrez-de-ceilandia](img/10-olimpiada-de-xadrez-de-ceilandia.jpg)
 

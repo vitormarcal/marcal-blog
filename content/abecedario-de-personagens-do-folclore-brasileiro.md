@@ -15,7 +15,6 @@ related:
 image: img/abecedario-de-personagens-do-folclore-brasileiro.jpg
 language: pt
 ---
-----
 
 ![abecedario-de-personagens-do-folclore-brasileiro](img/abecedario-de-personagens-do-folclore-brasileiro.jpg)
 

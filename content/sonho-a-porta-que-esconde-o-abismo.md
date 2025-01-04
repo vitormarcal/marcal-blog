@@ -18,7 +18,6 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
 
 ![Uma cena escura e atmosférica retratando um armazém estreito e lotado, cheio de pessoas. O ar está tenso, e uma porta misteriosa e assustadora se destaca no fundo à esquerda, mal notada pelos poucos ao redor. Através desta porta, um ambiente exuberante e exótico, semelhante a uma estufa, com várias plantas incomuns, cerca uma figura. Uma estranha criatura parecida com um pássaro, parecendo uma fita, voa perto da figura, enquanto criaturas sombrias, sem olhos e sem corpo, com apenas olhos, observam de cima. A atmosfera parece pesada e semelhante a uma sauna, com um som baixo, contínuo e ameaçador ao fundo. O ar é espesso, e uma sensação de destruição iminente é palpável. A porta parece ser um portal entre dois mundos. Um mundo é caótico e cheio de pessoas brigando, enquanto o outro é surreal e inquietante, com criaturas surreais e uma intensa conexão emocional entre a figura e outra presença na estufa. A figura é atraída para a porta como se fosse a única maneira de escapar, com um senso de responsabilidade pelas consequências de abri-la.](img/sonhos/sonho-a-porta-que-esconde-o-abismo.webp)
 

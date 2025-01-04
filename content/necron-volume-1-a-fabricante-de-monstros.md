@@ -15,7 +15,6 @@ related:
 image: img/necron-volume-1-a-fabricante-de-monstros.jpg
 language: pt
 ---
-----
 
 ![necron-volume-1-a-fabricante-de-monstros](img/necron-volume-1-a-fabricante-de-monstros.jpg)
 

@@ -15,7 +15,6 @@ related:
 image: img/necron-volume-4-as-mulheres-aranhas.jpg
 language: pt
 ---
-----
 
 ![necron-volume-4-as-mulheres-aranhas](img/necron-volume-4-as-mulheres-aranhas.jpg)
 

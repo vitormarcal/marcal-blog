@@ -13,7 +13,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
 
 Esse guia mostra os passos para atualizar a versão 15 para 16 no Ubuntu (ou Debian e derivados) mas eventualmente, deverá funcionar ao fazer a atualização do 16 para 17 (quando essa sair).
 

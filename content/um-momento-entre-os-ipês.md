@@ -14,7 +14,6 @@ related:
 image: img/um-momento-entre-os-ipes.jpg
 language: pt
 ---
-----
 
 ![Vista da floração de  Ipês em Brasília](img/um-momento-entre-os-ipes.jpg)
 Fotografia tirada próximo aos prédios do INSS, AGU e Caixa, em Brasília.

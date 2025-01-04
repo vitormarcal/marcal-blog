@@ -15,7 +15,6 @@ related:
 image: img/o-astronauta-de-jaroslav-kalfar.jpg
 language: pt
 ---
-----
 
 ![o-astronauta-de-jaroslav-kalfar](img/o-astronauta-de-jaroslav-kalfar.jpg)
 

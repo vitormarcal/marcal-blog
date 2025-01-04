@@ -13,8 +13,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
-
 Há momentos em que tudo o que precisamos é parar e ouvir [Chacona em sol menor, Vitalli - na interpretação de Jascha Heifetz](https://youtu.be/K0iB84__atU?si=CMJ7lIiOdj8bC0V9) .
 
 <figure class="youtube">  

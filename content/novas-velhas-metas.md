@@ -16,7 +16,7 @@ language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
-----
+
 ## Conteúdo
 
 ## Novas velhas metas

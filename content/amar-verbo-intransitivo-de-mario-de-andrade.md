@@ -16,7 +16,7 @@ related:
 image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
 language: pt
 ---
-----
+
 
 ![Imagem mostrando parte do livro Amar, Verbo Intransitivo aberto.  A maior parte da imagem mostra uma página à esquerda e com destaque de uma frase marcada a lápis: "É coisa que se ensine o amor?".](img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg)
 

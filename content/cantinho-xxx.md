@@ -15,7 +15,6 @@ related:
 image: img/cantinho-xxx.jpg
 language: pt
 ---
-----
 
 ![cantinho-xxx](img/cantinho-xxx.jpg)
 >Era início dos anos 2000 e Caio Oliveira já tinha contas para pagar. Além disso, ele queria entrar para o mercado editorial de quadrinhos no Brasil, de qualquer maneira.

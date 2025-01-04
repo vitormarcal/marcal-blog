@@ -18,7 +18,6 @@ related:
 image: img/suspiria-do-reino-das-trevas.jpg
 language: pt
 ---
-----
 
 ![suspiria-do-reino-das-trevas](img/suspiria-do-reino-das-trevas.jpg)
 

@@ -14,7 +14,6 @@ related:
 image: img/desafio-correr-10-km/desafio-correr-10-km.jpg
 language: pt
 ---
-----
 
 ![Desafio: Correr 10 km](img/desafio-correr-10-km/desafio-correr-10-km.jpg)
 

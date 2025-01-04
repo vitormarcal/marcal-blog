@@ -14,8 +14,6 @@ related:
 image: 
 language: pt
 ---
-----
-
 Blogs são conversas. Para participar de uma, é necessário que algum visitante consiga entrar nessa conversa. Eu já havia implementado uma forma de comentários em meu blog, mas decidi alterá-la mais uma vez para algo mais simples e menos invasivo: respostas por email.
 
 Da primeira vez que implementei um sistema de comentários, utilizei o [Disqus](https://disqus.com/). Não posso dizer que ele não funciona. É facilmente configurável, com várias opções de moderação, e sua adoção é quase universal. Existem dois problemas principais ao utilizar o Disqus, a meu ver:

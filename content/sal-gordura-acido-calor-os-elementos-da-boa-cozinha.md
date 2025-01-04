@@ -13,7 +13,7 @@ related:
 image: img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg
 language: pt
 ---
----
+
 ![Sal, gordura, ácido, calor: Os elementos da boa cozinha](img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg)
 
 > A chef Samin Nosrat já ensinou muita gente a cozinhar, até mesmo o autor best-seller Michael Pollan. Isso porque ela segue uma filosofia simples, mas revolucionária: domine o uso de apenas quatro elementos e todo prato que você preparar ficará uma delícia!  

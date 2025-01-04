@@ -15,7 +15,6 @@ related:
 image: img/neon-genesis-evangelion-collectors-edition-vol-04.jpg
 language: pt
 ---
-----
 
 ![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-04.jpg)
 

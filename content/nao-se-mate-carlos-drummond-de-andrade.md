@@ -18,8 +18,6 @@ image: img/nao-se-mate-carlos.jpg
 language: pt
 ---
 
----
-
 ![Não se mate, de Carlos Drummond de Andrade](img/nao-se-mate-carlos.jpg)
 
 Às vezes acontece de ler algo e a interpretação que você tira é totalmente diferente de quando você o reler algum tempo

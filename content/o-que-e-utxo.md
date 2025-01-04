@@ -15,7 +15,7 @@ related:
 image: img/o-que-e-utxo.png
 language: pt
 ---
----
+
 ![o-que-e-utxo](img/o-que-e-utxo.png)
 
 UTXO, que significa Unspent Transaction Output (Saída de Transação Não Gasta) em inglês, é uma unidade de moeda não gasta no Bitcoin. Essa unidade está associada a transações anteriores e é utilizada para autorizar e rastrear transações na rede, representando o saldo disponível em um endereço.

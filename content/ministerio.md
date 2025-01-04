@@ -14,8 +14,6 @@ related:
 image: img/ministerio.jpg
 language: pt
 ---
-----
-
 ![ministerio](img/ministerio.jpg)
 
 > Em um arranha-céus de cinco mil andares, a Hierarquia reina soberana sobre os funcionários que vivem, trabalham e morrem nos níveis inferiores do Ministério que administra o mundo. Assediados diariamente, sequestrados em massa para satisfazer os caprichos de uma casta intocável e utilizados como cobaias em experimentos genéticos, esses indivíduos nutrem secretamente a chama da revolta. Um deles, o jovem Carlos Pibe, resolve confrontar o sistema e embarca numa jornada em busca de sua amada, rumo aos andares superiores e inacessíveis do edifício, vigiados por um impiedoso Serviço de Segurança, cuja missão é defender os terríveis segredos que o Ministério esconde.

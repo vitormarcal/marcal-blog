@@ -15,7 +15,7 @@ related:
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg
 language: pt
 ---
-----
+
 
 ![dragon-ball-vol-31-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg)
 

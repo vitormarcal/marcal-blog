@@ -14,7 +14,7 @@ related:
 image: img/capa-do-livro-mandibula.jpg
 language: pt
 ---
----
+
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)
 
 Photo by Editora Autêntica Contemporânea

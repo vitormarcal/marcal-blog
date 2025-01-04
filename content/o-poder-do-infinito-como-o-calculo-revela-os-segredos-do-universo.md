@@ -14,7 +14,6 @@ related:
 image: img/o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo.jpg
 language: pt
 ---
-----
 
 ![o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo](img/o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo.jpg)
 

@@ -14,7 +14,6 @@ related:
 image: img/um-poema-lied-de-heine.jpg
 language: pt
 ---
-----
 
 ![ A fotografia foi tirada por mim em frente a praia da macumba e a Pedra do Pontal. Vê-se em primeiro plano galhos secos de uma ávore com pouquíssimas folhas, no canto oposto, parte da Pedra do Pontal, ao fundo um céu azul e vermelho característico de quando o sol se põe, que toca o mar. ](img/um-poema-lied-de-heine.jpg)
 

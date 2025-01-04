@@ -14,7 +14,6 @@ related:
 image: img/a-navalha-de-ockham.jpg
 language: pt
 ---
-----
 
 ![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](img/a-navalha-de-ockham.jpg)
 

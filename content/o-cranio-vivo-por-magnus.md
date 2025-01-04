@@ -15,7 +15,6 @@ related:
 image: img/o-cranio-vivo-de-magnus.png
 language: pt
 ---
-----
 
 ![o-cranio-vivo-de-magnus](img/o-cranio-vivo-de-magnus.png)
 

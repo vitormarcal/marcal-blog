@@ -14,7 +14,6 @@ related:
 image: img/protegendo-plantinhas-de-feses-de-animais.jpg
 language: pt
 ---
-----
 
 ![Protegendo plantinhas de fezes de animais com espetinhos de churrasco](img/protegendo-plantinhas-de-fezes-de-animais.jpg)
 

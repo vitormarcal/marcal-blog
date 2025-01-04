@@ -15,7 +15,7 @@ related:
 image: img/planeta_dos_macacos.jpg
 language: pt
 ---
----
+
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)
 
 Esse eu já havia lido em minha adolescência e mesmo agora, depois de adulto, posso dizer: um clássico da ficção científica!

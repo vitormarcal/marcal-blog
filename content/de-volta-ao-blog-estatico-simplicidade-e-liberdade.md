@@ -14,8 +14,6 @@ related:
   - "[[tags/portugues]]"
 language: pt
 ---
-----
-
 Até então, estava utilizando o [Ghost](https://github.com/TryGhost/Ghost), hospedado na internet por mim mesmo, em meu servidor em casa.
 
 Não me leve a mal, eu não tenho críticas ao Ghost. Basicamente, você executa uma imagem Docker, configura uma conexão Mysql e pronto. Pode começar a criar conteúdo, de forma muito profissional, eu diria. Se você é uma pessoa não técnica, ou que não quer lidar com HTML, CSS e Javascript, com certeza, o Ghost é uma boa escolha.

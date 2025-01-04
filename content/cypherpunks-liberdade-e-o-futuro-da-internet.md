@@ -14,7 +14,6 @@ related:
 image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 language: pt
 ---
-----
 
 ![cypherpunks-liberdade-e-o-futuro-da](img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg)
 
