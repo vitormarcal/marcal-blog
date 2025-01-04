@@ -34,7 +34,7 @@ const {page} = useContent()
 <style>
 .content-section {
   h1, h2, h3, h4, h5, h6 {
-    margin-top: calc(1.6em * 1.5) !important;
+    margin-top: 3rem !important;
   }
 }
 
