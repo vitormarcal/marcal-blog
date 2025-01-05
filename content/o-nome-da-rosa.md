@@ -20,10 +20,6 @@ language: pt
 
 ![o-nome-da-rosa](img/o-nome-da-rosa.jpg)
 
-## Conteúdo
-
-## O nome da Rosa
-
 > Neste mosteiro, paira a suspeita de heresia, e para a investigação é enviado o frei Guilherme de Baskerville. Porém, a delicada missão é interrompida por sete excêntricos assassinatos. A morte, em circunstâncias insólitas, de sete monges em sete dias e sete noites conduz uma narrativa violenta, que encanta pelo humor e pela crueldade, pela malícia e pela sedição erótica.
 
 Ao começar _O Nome da Rosa_, deparei-me com um romance que combina mistério, história e filosofia em uma narrativa rica e instigante. Antes de tudo, trata-se de um romance policial, à moda de Agatha Christie ou Arthur Conan Doyle, com seu Sherlock Holmes. A dupla de protagonistas, Guilherme de Baskerville e o jovem Adso de Melk, parece até uma homenagem a esses clássicos: Guilherme, com sua sagacidade impressionante, remete a Sherlock, enquanto Adso, cujo nome soa similar a "Watson", assume o papel de narrador aprendiz.
@@ -39,13 +35,3 @@ Além do mistério, a obra aborda temas que permanecem relevantes até hoje: o c
 Contudo, é uma leitura que exige atenção e paciência. Há muitas passagens em latim – algumas sem tradução – que, embora aumentem a imersão na ambientação, tornam o ritmo mais pausado. O estilo de Eco é denso, e sua narrativa está repleta de camadas que recompensam tanto leitores menos experientes quanto aqueles familiarizados com o período histórico. Mesmo para alguém com pouca bagagem sobre a Idade Média, como eu, a experiência foi profundamente imersiva.
 
 Ao final, _O Nome da Rosa_ não é apenas um romance policial ou histórico: é uma obra que nos desafia a refletir sobre poder, conhecimento, fé e a busca pela verdade. É uma leitura exigente, mas profundamente recompensadora, que merece ser revisitada com o tempo. Sem dúvida, este é um livro que guardarei com carinho e um dos melhores que li este ano.
-
----
-
-## Ei, olha isso!
-Achei bem legal colocar uma sessão de links legais e isso deve aparecer de vez quando - quando eu tiver links interessantes de alguma forma. Se quiser pode conferir os [links da última edição](descobri-retrowave#ei-olha-isso).
-
-1. **[Forums Are Still Alive, Active, And A Treasure Trove Of Information](https://aftermath.site/best-active-forums-internet-today)** uma rica coletânea de foruns que ainda estão disponiveis por aí.
-2. **[Writing Examples](https://writingexamples.com/)** é uma plataforma gratuita dedicada a celebrar e analisar grandes obras da literatura. O objetivo é fornecer exemplos práticos que ajudem escritores e entusiastas a aprimorar suas habilidades, inspirando-se nos mestres da literatura.
-3. **[Personal Website Ideas](https://jamesg.blog/2024/02/19/personal-website-ideas/)** de James G. tem algumas ideias legais para o que se fazer em um site pessoal.
-4. **[Ideas for Your Personal Website](https://32bit.cafe/websiteideas/)** Mesma ideia do link anterior: você acabou de fazer um site, e agora o que fazer?

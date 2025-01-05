@@ -36,7 +36,7 @@ Então é isso, um ano novo, novas velhas metas. Para este próximo ano, vou ten
 Com isso, me despeço. Desejo a todos um Feliz Ano Novo e até o ano que vem!
 
 ## Ei, olha isso!
-Mais alguns links interessantes. Muitos não foram publicados recentemente, mas estavam nos meus favoritos esperando serem lidos. Se quiser, pode conferir os [links da última edição](o-nome-da-rosa#ei-olha-isso).
+Mais alguns links interessantes. Muitos não foram publicados recentemente, mas estavam nos meus favoritos esperando serem lidos. Se quiser, pode conferir os [links da última edição](chatvault#ei-olha-isso).
 
 1. **[Obsidian Web Clipper do blogue Curadoria da Internet](https://curadoria.bearblog.dev/obsidian-web-clipper/)** comenta sobre uma forma de salvar uma página web para preservar ou ler depois. Costumo utilizar o [Linkding](https://github.com/sissbruecker/linkding/) , mas é sempre bom saber de alternativas.
 2. **[(VÍDEO)Usando a HISTÓRIA DA LITERATURA pra aproveitar mais seus livros!](https://youtu.be/wnmVKJn_Fdg?si=scm1SvEBXbSrihP0)** do pequeno canal do professor Rodrigo Leão, com informações riquíssimas que nos empolgam a ler cada vez mais.

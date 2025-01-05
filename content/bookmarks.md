@@ -27,7 +27,7 @@ Apareceu primeiro em [Novas Velhas Metas](novas-velhas-metas)
 5. **[(VÍDEO) Kindle has a big problem, so I'm leaving it behind.](https://www.youtube.com/watch?v=xwU5xkXj7Kw)** Resumidamente, entre outros problemas, a Amazon pode remover do seu Kindle um e-book que você tenha comprado na loja dela.
 
 ---
-Apareceu primeiro em [O Nome da Rosa, por Umberto Eco](o-nome-da-rosa)
+Apareceu primeiro em [Chatvault](chatvault)
 1. **[Forums Are Still Alive, Active, And A Treasure Trove Of Information](https://aftermath.site/best-active-forums-internet-today)** uma rica coletânea de foruns que ainda estão disponiveis por aí.
 2. **[Writing Examples](https://writingexamples.com/)** é uma plataforma gratuita dedicada a celebrar e analisar grandes obras da literatura. O objetivo é fornecer exemplos práticos que ajudem escritores e entusiastas a aprimorar suas habilidades, inspirando-se nos mestres da literatura.
 3. **[Personal Website Ideas](https://jamesg.blog/2024/02/19/personal-website-ideas/)** de James G. tem algumas ideias legais para o que se fazer em um site pessoal.

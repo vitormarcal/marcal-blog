@@ -21,6 +21,9 @@ localized_post_paths:
   - "[[en/chatvault]]"
 has_localized_posts: true
 ---
+## Conteúdo
+
+## Chatvault
 
 ![Print de tela da Interface do chatvault exibe um efeito de desfoque (blur) aplicado sobre o texto das mensagens. À esquerda, há uma área com a lista de chats, onde cada chat é acompanhado pela imagem de perfil correspondente. No centro, o chat aberto exibe o conteúdo das mensagens de forma visível. À direita, é possível ver a galeria de imagens do chat, mostrando as miniaturas das imagens disponíveis na galeria.](img/chatvault/chatvault-blur-enabled.png)
 
@@ -68,3 +71,13 @@ Manter um projeto por tanto tempo pode ser cansativo, mas também é gratificant
 Com este post, espero apresentar e registrar esse projeto que consumiu tanto do meu tempo, foi divertido de criar e continua sendo útil. É provável que eu reduza meu envolvimento aos poucos, mas ele já alcançou seu objetivo principal.
 
 Se ficou curioso, dá uma olhada no [repositório do ChatVault no GitHub](https://github.com/vitormarcal/chatvault). 😉
+
+---
+
+## Ei, olha isso!
+Achei bem legal colocar uma sessão de links legais e isso deve aparecer de vez quando - quando eu tiver links interessantes de alguma forma. Se quiser pode conferir os [links da última edição](descobri-retrowave#ei-olha-isso).
+
+1. **[Forums Are Still Alive, Active, And A Treasure Trove Of Information](https://aftermath.site/best-active-forums-internet-today)** uma rica coletânea de foruns que ainda estão disponiveis por aí.
+2. **[Writing Examples](https://writingexamples.com/)** é uma plataforma gratuita dedicada a celebrar e analisar grandes obras da literatura. O objetivo é fornecer exemplos práticos que ajudem escritores e entusiastas a aprimorar suas habilidades, inspirando-se nos mestres da literatura.
+3. **[Personal Website Ideas](https://jamesg.blog/2024/02/19/personal-website-ideas/)** de James G. tem algumas ideias legais para o que se fazer em um site pessoal.
+4. **[Ideas for Your Personal Website](https://32bit.cafe/websiteideas/)** Mesma ideia do link anterior: você acabou de fazer um site, e agora o que fazer?
