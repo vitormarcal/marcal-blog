@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/neon-genesis-evangelion-collectors-edition-vol-04.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-04.jpg)

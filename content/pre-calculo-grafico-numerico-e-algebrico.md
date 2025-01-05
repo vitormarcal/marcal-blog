@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/pre-calculo-grafico-numerico-e-algebrico.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![pre-calculo-grafico-numerico-e-algebrico](img/pre-calculo-grafico-numerico-e-algebrico.jpg)

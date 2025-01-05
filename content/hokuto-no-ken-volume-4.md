@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/hokuto-no-ken/hokuto-no-ken-volume-4.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![hokuto-no-ken-volume-4](img/hokuto-no-ken/hokuto-no-ken-volume-4.jpg)

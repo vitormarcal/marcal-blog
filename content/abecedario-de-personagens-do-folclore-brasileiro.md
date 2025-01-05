@@ -14,6 +14,8 @@ related:
   - "[[leituras-de-2024]]"
 image: img/abecedario-de-personagens-do-folclore-brasileiro.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![abecedario-de-personagens-do-folclore-brasileiro](img/abecedario-de-personagens-do-folclore-brasileiro.jpg)

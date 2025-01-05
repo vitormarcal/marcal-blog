@@ -6,11 +6,11 @@ created_at: 2024-01-16
 updated_at: 2024-11-03T18:45:00
 is_post: true
 tags:
-  - livros
   - portugues
+  - notas-pessoais
 related:
-  - "[[tags/livros]]"
   - "[[tags/portugues]]"
+  - "[[tags/notas-pessoais]]"
 image: img/leituras-do-ano.png
 language: pt
 ---

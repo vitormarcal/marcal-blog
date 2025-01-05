@@ -15,6 +15,8 @@ related:
   - "[[tags/bookmarks]]"
 image: img/o-nome-da-rosa.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 

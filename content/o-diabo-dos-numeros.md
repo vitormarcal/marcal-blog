@@ -15,6 +15,8 @@ image: img/o-diabo-dos-numeros.jpg
 language: pt
 localized_post_paths: 
 has_localized_posts: false
+feedback:
+  - gostei
 ---
 
 ![o-diabo-dos-numeros](img/o-diabo-dos-numeros.jpg)

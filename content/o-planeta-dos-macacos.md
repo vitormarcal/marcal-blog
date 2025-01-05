@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/planeta_dos_macacos.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

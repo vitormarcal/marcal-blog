@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/hokuto-no-ken/hokuto-no-ken-volume-13-a-16.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 

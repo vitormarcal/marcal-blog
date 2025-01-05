@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/o-processo-de-franz-kafka.jpg
 language: pt
+feedback:
+  - não gostei
 ---
 
 ![o-processo-de-franz-kafka](img/o-processo-de-franz-kafka.jpg)

@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/the-darkness-volume-1.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![the-darkness-volume-1](img/the-darkness-volume-1.jpg)

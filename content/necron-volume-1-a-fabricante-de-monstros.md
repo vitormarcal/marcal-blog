@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/necron-volume-1-a-fabricante-de-monstros.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![necron-volume-1-a-fabricante-de-monstros](img/necron-volume-1-a-fabricante-de-monstros.jpg)

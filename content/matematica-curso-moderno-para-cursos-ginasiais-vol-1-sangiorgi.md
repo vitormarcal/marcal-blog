@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Matemática Curso Moderno para cursos ginasiais Volume 1, de Osvaldo Sangiorgi](img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png)

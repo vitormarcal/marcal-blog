@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/as-110-pilulas-de-magnus.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 

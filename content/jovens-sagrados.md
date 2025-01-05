@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/sant-young-man-1-a-3-1.jpg
 language: pt
+feedback:
+  - neutro
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

@@ -12,6 +12,8 @@ related:
   - "[[tags/portugues]]"
 image: img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Sal, gordura, ácido, calor: Os elementos da boa cozinha](img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg)

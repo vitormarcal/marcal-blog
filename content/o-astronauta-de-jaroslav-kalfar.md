@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/o-astronauta-de-jaroslav-kalfar.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![o-astronauta-de-jaroslav-kalfar](img/o-astronauta-de-jaroslav-kalfar.jpg)

@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/antologia-poetica.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

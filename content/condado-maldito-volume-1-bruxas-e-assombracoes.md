@@ -15,6 +15,8 @@ related:
   - "[[tags/portugues]]"
 image: img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![condado-maldito-volume-1-bruxas-e-assombracoes](img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg)

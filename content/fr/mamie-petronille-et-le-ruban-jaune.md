@@ -13,6 +13,8 @@ created_at: 2024-08-30T10:00:00
 updated_at: 
 is_post: true
 language: fr
+feedback:
+  - gostei
 ---
 ----
 

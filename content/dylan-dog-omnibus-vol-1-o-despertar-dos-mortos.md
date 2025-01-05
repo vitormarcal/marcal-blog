@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/dylan-dog-omnibus-vol-1-o-despertar-dos-mortos.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Dylan Dog Omnibus Vol. 1: O despertar dos mortos](img/dylan-dog-omnibus-vol-1-o-despertar-dos-mortos.jpg)

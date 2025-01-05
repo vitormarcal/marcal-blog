@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/NewPOP_Mushishi01-3.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

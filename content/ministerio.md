@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/ministerio.jpg
 language: pt
+feedback:
+  - gostei
 ---
 ![ministerio](img/ministerio.jpg)
 

@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-29-edicao-definitiva.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-29-edicao-definitiva.jpg)

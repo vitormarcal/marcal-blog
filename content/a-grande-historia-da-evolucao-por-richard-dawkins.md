@@ -12,6 +12,8 @@ related:
   - "[[tags/portugues]]"
 image: img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![A Grande História da Evolução, por Richard Dawkins](img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg)

@@ -15,6 +15,8 @@ related:
   - "[[tags/portugues]]"
 image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
 language: pt
+feedback:
+  - gostei
 ---
 
 

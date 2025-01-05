@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/o-cranio-vivo-de-magnus.png
 language: pt
+feedback:
+  - gostei
 ---
 
 ![o-cranio-vivo-de-magnus](img/o-cranio-vivo-de-magnus.png)

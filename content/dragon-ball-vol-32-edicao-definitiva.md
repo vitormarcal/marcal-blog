@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![dragon-ball-vol-32-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg)

@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/cantinho-xxx.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![cantinho-xxx](img/cantinho-xxx.jpg)

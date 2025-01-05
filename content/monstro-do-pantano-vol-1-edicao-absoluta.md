@@ -15,6 +15,8 @@ related:
   - "[[tags/portugues]]"
 image: img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![monstro-do-pantano-vol-1-edicao-absoluta](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg)

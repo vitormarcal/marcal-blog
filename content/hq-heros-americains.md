@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/hq-heros-americains.jpg
 language: pt
+feedback:
+  - neutro
 ---
 
 ![hq-heros-americains](img/hq-heros-americains.jpg)

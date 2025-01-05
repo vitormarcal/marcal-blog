@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/o-processo-de-franz-kafka.jpg
 language: pt
+feedback:
+  - não gostei
 ---
 
 ![antifragil-coisas-que-se-beneficiam-com-o-caos](img/antifragil-coisas-que-se-beneficiam-com-o-caos.jpg)

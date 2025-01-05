@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![battle-royale-omnibus-volume-1](img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg)

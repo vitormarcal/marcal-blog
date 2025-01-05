@@ -17,6 +17,8 @@ related:
   - "[[tags/portugues]]"
 image: img/suspiria-do-reino-das-trevas.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-do-reino-das-trevas.jpg)

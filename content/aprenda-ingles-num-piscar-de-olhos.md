@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/aprenda-ingles-num-piscar-de-olhos.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)

@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/oshi-no-ko-1-1.jpg
 language: pt
+feedback:
+  - neutro
 ---
 
 ![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)

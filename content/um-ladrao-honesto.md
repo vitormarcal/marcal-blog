@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/um_ladrao_honesto.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)

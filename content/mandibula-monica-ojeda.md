@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/capa-do-livro-mandibula.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)

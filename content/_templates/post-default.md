@@ -11,6 +11,10 @@ image: img/{{title}}.jpg
 language: pt
 localized_post_paths: 
 has_localized_posts: false
+feedback:
+  - gostei
+  - neutro
+  - não gostei
 ---
 ----
 

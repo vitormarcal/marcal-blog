@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/o-mito-de-sisifo-de-albert-camus.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![o-mito-de-sisifo-de-albert-camus](img/o-mito-de-sisifo-de-albert-camus.jpg)

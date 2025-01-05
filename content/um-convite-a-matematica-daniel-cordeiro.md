@@ -15,6 +15,8 @@ image: img/um-convite-a-matematica-daniel-cordeiro.jpg
 language: pt
 localized_post_paths: 
 has_localized_posts: false
+feedback:
+  - gostei
 ---
 
 ![um-convite-a-matematica-daniel-cordeiro](img/um-convite-a-matematica-daniel-cordeiro.jpg)

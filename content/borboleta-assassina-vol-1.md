@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/borboleta-assassina-vol-1.jpeg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![borboleta-assassina-vol-1](img/borboleta-assassina-vol-1.jpeg)

@@ -13,6 +13,8 @@ related:
   - "[[tags/portugues]]"
 image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 language: pt
+feedback:
+  - neutro
 ---
 
 ![cypherpunks-liberdade-e-o-futuro-da](img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg)

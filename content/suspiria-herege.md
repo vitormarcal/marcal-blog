@@ -17,6 +17,8 @@ related:
   - "[[tags/portugues]]"
 image: img/suspiria-herege.jpg
 language: pt
+feedback:
+  - gostei
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-herege.jpg)

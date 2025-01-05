@@ -14,6 +14,8 @@ related:
   - "[[tags/portugues]]"
 image: img/a-vida-intelectual.jpg
 language: pt
+feedback:
+  - não gostei
 ---
 
 ![a-vida-intelectual](img/a-vida-intelectual.jpg)
