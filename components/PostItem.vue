@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 
   p {
-    color: $font-color;
+    color: var(--font-color);
   }
 }
 

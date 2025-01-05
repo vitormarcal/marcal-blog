@@ -163,7 +163,7 @@ header {
 
 @media (max-width: 991px) {
   .is-head-open #head {
-    background-color: $bg-color;
+    background-color:var(--bg-color);
   }
 }
 

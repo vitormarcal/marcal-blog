@@ -72,20 +72,6 @@ export default defineNuxtConfig({
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt
   ],
 
-  css: [
-
-  ],
-
-  vite: {
-      css: {
-          preprocessorOptions: {
-              scss: {
-                  additionalData: '@use "~/assets/css/_variables.scss" as *;'
-              }
-          }
-      }
-  },
-
   nitro: {
       prerender: {
           crawlLinks: true,
