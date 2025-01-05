@@ -1,5 +1,5 @@
 ---
-title: Mandíbula - Mónica Ojeda
+title: Mandíbula
 description: Uma leitura desconcertante, mas muito boa, que faz jus ao gênero do Horror. Aqui, o Horror Branco lembra muito o Horror Cósmico de Lovecraft.
 author: Vítor Marçal
 created_at: 2023-12-01
@@ -15,6 +15,8 @@ image: img/capa-do-livro-mandibula.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Mónica Ojeda
 ---
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)

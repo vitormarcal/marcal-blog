@@ -16,6 +16,7 @@ image: img/abecedario-de-personagens-do-folclore-brasileiro.jpg
 language: pt
 feedback:
   - gostei
+book_author: Januária Cristina Alves
 ---
 
 ![abecedario-de-personagens-do-folclore-brasileiro](img/abecedario-de-personagens-do-folclore-brasileiro.jpg)

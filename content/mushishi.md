@@ -15,6 +15,8 @@ image: img/NewPOP_Mushishi01-3.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  -  Yuki Urushibara
 ---
 
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

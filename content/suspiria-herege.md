@@ -19,6 +19,10 @@ image: img/suspiria-herege.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Luca Laca Montagliani
+  - Andrea Jula
+  - Andrea Bulgarelli
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-herege.jpg)

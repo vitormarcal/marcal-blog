@@ -1,5 +1,5 @@
 ---
-title: O Nome da Rosa, por Umberto Eco
+title: O Nome da Rosa
 description: 
 author: Vítor Marçal
 created_at: 2024-12-24T15:23:00
@@ -17,6 +17,8 @@ image: img/o-nome-da-rosa.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Umberto Eco
 ---
 
 

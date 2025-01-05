@@ -1,5 +1,5 @@
 ---
-title: Amar, Verbo Intransitivo de Mário de Andrade ❤️
+title: Amar, Verbo Intransitivo ❤️
 description: É coisa que se ensine o amor?
 author: Vítor Marçal
 created_at: 2024-09-05T19:25:00
@@ -17,6 +17,7 @@ image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
 language: pt
 feedback:
   - gostei
+book_author: Mário de Andrade
 ---
 
 

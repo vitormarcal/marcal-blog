@@ -16,6 +16,7 @@ image: img/borboleta-assassina-vol-1.jpeg
 language: pt
 feedback:
   - gostei
+book_author: Yuka Nagate
 ---
 
 ![borboleta-assassina-vol-1](img/borboleta-assassina-vol-1.jpeg)

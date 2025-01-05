@@ -16,6 +16,8 @@ image: img/necron-volume-3-monstros-mecanicos.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Magnus
 ---
 
 ![necron-volume-3-monstros-mecanicos](img/necron-volume-3-monstros-mecanicos.jpg)

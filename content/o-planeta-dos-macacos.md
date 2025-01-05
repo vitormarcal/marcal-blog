@@ -16,6 +16,8 @@ image: img/planeta_dos_macacos.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Pierre Boulle
 ---
 
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

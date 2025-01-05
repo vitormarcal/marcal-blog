@@ -19,6 +19,9 @@ image: img/suspiria-coracao-em-chamas.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Luca Laca Montagliani
+  -  Andrea Jula
 ---
 
 ![suspiria-coracao-em-chamas](img/suspiria-coracao-em-chamas.jpg)

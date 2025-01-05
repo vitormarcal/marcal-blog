@@ -25,7 +25,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 ## Lidos
 
 1.  [Dragon Ball Vol. 29 - Edição Definitiva](dragon-ball-vol-29-edicao-definitiva), por Akira Toriyama - 2024-01-04
-2.  [Antologia Poética](antologia-poetica-de-carlos-drummond-de-andrade), por Carlos Drummond de Andrade - 2024-01-11
+2.  [Antologia Poética](antologia-poetica-de-carlos-drummond-de-andrade.md), por Carlos Drummond de Andrade - 2024-01-11
 3.  [Mushishi: Volume 1](mushishi), por Yuki Urushibara - 2024-01-15
 4.  [A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](a-navalha-de-ockham-o-principio-filosofico-que-libertou-a-ciencia-e-ajudou-a-explicar-o-universo), por Johnjoe McFadden - 2024-01-24
 5.  [Jovens Sagrados: Volume 1](jovens-sagrados), por Hikaru Nakamura - 2024-02-02
@@ -57,9 +57,9 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 31. [Suspiria: Coração em Chamas](suspiria-coracao-em-chamas), por Luca Laca Montagliani - 2024-04-21
 32. [Pré-cálculo: Gráfico, Numérico e Algébrico](pre-calculo-grafico-numerico-e-algebrico), por Franklin D. Demana - 2024-04-21
 33. [Hokuto No Ken: Volume 10](hokuto-no-ken-volume-10), por Buronson e Tetsuo Hara - 2024-04-22
-34. [O mito de Sísifo](o-mito-de-sisifo-de-albert-camus), por Albert Camus - 2024-05-01
+34. [O mito de Sísifo](o-mito-de-sisifo-de-albert-camus.md), por Albert Camus - 2024-05-01
 35. [Neon Genesis Evangelion Collector's Edition Vol. 04](neon-genesis-evangelion-collectors-edition-vol-04), por Yoshiyuki Sadamoto - 2024-05-01
-36. [As 110 Pilulas](as-110-pilulas-de-magnus), por Magnus - 2024-05-01
+36. [As 110 Pilulas](as-110-pilulas-de-magnus.md), por Magnus - 2024-05-01
 37. [Condado Maldito: Volume 1 - Bruxas & Assombrações](condado-maldito-volume-1-bruxas-e-assombracoes), por Cullen Bunn - 2024-05-18
 38. [The Darkness: Origins - volume 1](the-darkness-volume-1), por Garth Ennis - 2024-05-18
 39. [O Astronaura](o-astronauta-de-jaroslav-kalfar), por Jaroslav Kalfar - 2024-05-22
@@ -73,19 +73,19 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), por Koushun Takami - 2024-07-23
 48. [O poder do infinito: Como o cálculo revela os segredos do universo](o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo), por Steven Strogatz - 2024-07-28
 49. [Mamie Pétronille et le ruban jaune](fr/mamie-petronille-et-le-ruban-jaune.md), por Jane Cadwaller - 2024-08-30
-50. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade), por Mário de Andrade - 2024-09-05
+50. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade.md), por Mário de Andrade - 2024-09-05
 51. [Borboleta Assassina: Volume 1](borboleta-assassina-vol-1.md), por Yuka Nagate - 2024-09-06
 52. [Dragon Ball Vol. 33 - Edição Definitiva](dragon-ball-vol-33-edicao-definitiva), por Akira Toriyama - 2024-09-14
 53. [Hokuto no Ken: Volume 12](hokuto-no-ken-volume-12), por Buronson e Tetsuo Hara - 2024-09-16
-54. [O Crânio Vivo](o-cranio-vivo-por-magnus), por Magnus - 2024-09-29
-55. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins), por Richard Dawkins - 2024-10-01
+54. [O Crânio Vivo](o-cranio-vivo-por-magnus.md), por Magnus - 2024-09-29
+55. [A Grande História da Evolução](a-grande-historia-da-evolucao-por-richard-dawkins.md), por Richard Dawkins - 2024-10-01
 56. [Hokuto no Ken: Volume 13](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
 57. [Hokuto no Ken: Volume 14](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-06
 58. [Hokuto no Ken: Volume 15](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 59. [Hokuto no Ken: Volume 16](hokuto-no-ken-volume-13-a-16), por Buronson e Tetsuo Hara - 2024-10-07
 60. [Neon Genesis Evangelion Collector's Edition Vol. 05](neon-genesis-evangelion-collectors-edition-vol-05), por Yoshiyuki Sadamoto - 2024-10-15
 61. [Hokuto no Ken: Volume 17](hokuto-no-ken-volume-17), por Buronson e Tetsuo Hara - 2024-10-15
-62. [Matemática Curso Moderno para cursos ginasiais Volume 1](matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi), por Osvaldo Sangiorgi - 2024-11-09
+62. [Matemática Curso Moderno para cursos ginasiais Volume 1](matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.md), por Osvaldo Sangiorgi - 2024-11-09
 63. [Luz Vermelha -  minissérie em 4 cápitulos](luz-vermelha-mini-em-4-cap-sarah-h-cho), por Sarah H. Cho - 2024-11-10
 64. [Dylan Dog Omnibus Vol. 1: O despertar dos mortos](dylan-dog-omnibus-vol-1-o-despertar-dos-mortos), por Tiziano Sclavi - 2024-11-12
 65. [Um Convite à Matemática: com técnicas de demonstração e notas históricas](um-convite-a-matematica-daniel-cordeiro), por Daniel Cordeiro de Morais Filho - 2024-11-20

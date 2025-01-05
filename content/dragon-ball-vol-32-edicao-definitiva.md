@@ -16,6 +16,8 @@ image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jp
 language: pt
 feedback:
   - gostei
+book_author:
+  - Akira Toriyama
 ---
 
 ![dragon-ball-vol-32-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg)

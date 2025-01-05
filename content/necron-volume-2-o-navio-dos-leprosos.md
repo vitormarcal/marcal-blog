@@ -16,6 +16,8 @@ image: img/necron-volume-2-o-navio-dos-leprosos.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Magnus
 ---
 
 ![necron-volume-2-o-navio-dos-leprosos](img/necron-volume-2-o-navio-dos-leprosos.jpg)

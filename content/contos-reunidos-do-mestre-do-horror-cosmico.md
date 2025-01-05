@@ -16,6 +16,7 @@ image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
 language: pt
 feedback:
   - gostei
+book_author: H. P. Lovecraft
 ---
 
 ![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)

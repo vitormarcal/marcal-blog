@@ -16,6 +16,9 @@ image: img/hq-heros-americains.jpg
 language: pt
 feedback:
   - neutro
+book_author:
+  - Yuri Moraes
+  - Amilcar Pinna
 ---
 
 ![hq-heros-americains](img/hq-heros-americains.jpg)

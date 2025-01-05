@@ -15,6 +15,9 @@ image: img/ministerio.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Francisco Solano López
+  - Ricardo Barreiro
 ---
 ![ministerio](img/ministerio.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: A Grande História da Evolução, por Richard Dawkins 🧬
+title: A Grande História da Evolução 🧬
 description: Saltar abismos não é o que a evolução faz.
 author: Vítor Marçal
 created_at: 2024-10-04T09:35:00
@@ -14,6 +14,7 @@ image: img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg
 language: pt
 feedback:
   - gostei
+book_author: Richard Dawkins
 ---
 
 ![A Grande História da Evolução, por Richard Dawkins](img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg)

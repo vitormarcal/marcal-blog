@@ -16,6 +16,8 @@ image: img/necron-volume-4-as-mulheres-aranhas.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Magnus
 ---
 
 ![necron-volume-4-as-mulheres-aranhas](img/necron-volume-4-as-mulheres-aranhas.jpg)

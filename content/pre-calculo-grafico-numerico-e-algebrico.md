@@ -15,6 +15,11 @@ image: img/pre-calculo-grafico-numerico-e-algebrico.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Franklin D. Demana
+  - Bert K. Waits
+  -  Gregory D. Foley
+  -  Daniel Kennedy
 ---
 
 ![pre-calculo-grafico-numerico-e-algebrico](img/pre-calculo-grafico-numerico-e-algebrico.jpg)

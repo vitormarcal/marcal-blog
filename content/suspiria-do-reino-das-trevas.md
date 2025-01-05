@@ -19,6 +19,11 @@ image: img/suspiria-do-reino-das-trevas.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  -  Luca Laca Montagliani
+  - Andrea Jula
+  -  Franco Saudelli
+  -  Andrea Bulgarelli
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-do-reino-das-trevas.jpg)

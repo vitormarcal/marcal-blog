@@ -1,5 +1,5 @@
 ---
-title: O mito de Sísifo, de Albert Camus
+title: O mito de Sísifo
 description: É preciso imaginar Sísifo feliz
 author: Vítor Marçal
 created_at: 2024-05-01T09:52:00
@@ -15,6 +15,8 @@ image: img/o-mito-de-sisifo-de-albert-camus.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Albert Camus
 ---
 
 ![o-mito-de-sisifo-de-albert-camus](img/o-mito-de-sisifo-de-albert-camus.jpg)

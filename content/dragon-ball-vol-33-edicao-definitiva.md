@@ -16,6 +16,8 @@ image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jp
 language: pt
 feedback:
   - gostei
+book_author:
+  - Akira Toriyama
 ---
 
 ![dragon-ball-vol-33-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg)

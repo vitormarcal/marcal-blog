@@ -16,6 +16,12 @@ image: img/dylan-dog-omnibus-vol-1-o-despertar-dos-mortos.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  -  Tiziano Sclavi
+  -  Angelo Stano
+  -  Gustavo Trigo 
+  -  Corrado Roi
+  -  Luca Dell’Uomo
 ---
 
 ![Dylan Dog Omnibus Vol. 1: O despertar dos mortos](img/dylan-dog-omnibus-vol-1-o-despertar-dos-mortos.jpg)

@@ -16,6 +16,7 @@ image: img/a-vida-intelectual.jpg
 language: pt
 feedback:
   - não gostei
+book_author: Antonin-Dalmace Sertillanges
 ---
 
 ![a-vida-intelectual](img/a-vida-intelectual.jpg)

@@ -14,6 +14,9 @@ image: img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Samin Nosrat
+  -  Wendy MacNaughton
 ---
 
 ![Sal, gordura, ácido, calor: Os elementos da boa cozinha](img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg)

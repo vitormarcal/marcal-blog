@@ -16,6 +16,8 @@ image: img/sant-young-man-1-a-3-1.jpg
 language: pt
 feedback:
   - neutro
+book_author:
+  - Hikaru Nakamura
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

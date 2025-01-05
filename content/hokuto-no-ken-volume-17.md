@@ -16,6 +16,9 @@ image: img/hokuto-no-ken/hokuto-no-ken-volume-17.jpg
 language: pt
 feedback:
   - neutro
+book_author:
+  - Tetsuo Hara
+  - Buronson
 ---
 
 ![hokuto-no-ken-volume-17](img/hokuto-no-ken/hokuto-no-ken-volume-17.jpg)

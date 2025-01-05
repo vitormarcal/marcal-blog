@@ -15,6 +15,11 @@ image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 language: pt
 feedback:
   - neutro
+book_author:
+  -  Julian Assange
+  -  Andy Müller-Maguhn
+  -  Jacob Appelbaum
+  -  Jérémie Zimmermann
 ---
 
 ![cypherpunks-liberdade-e-o-futuro-da](img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg)

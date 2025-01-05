@@ -17,6 +17,8 @@ localized_post_paths:
 has_localized_posts: false
 feedback:
   - gostei
+book_author:
+  - Daniel Cordeiro de Morais Filho
 ---
 
 ![um-convite-a-matematica-daniel-cordeiro](img/um-convite-a-matematica-daniel-cordeiro.jpg)

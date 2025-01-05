@@ -1,5 +1,5 @@
 ---
-title: "Antifrágil: Coisas que se beneficiam com o caos, por Nassim Nicholas Taleb"
+title: "Antifrágil: Coisas que se beneficiam com o caos"
 description: Abandonei 🫣
 author: Vítor Marçal
 created_at: 2024-11-03T17:18:00
@@ -11,10 +11,11 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/o-processo-de-franz-kafka.jpg
+image: img/antifragil-coisas-que-se-beneficiam-com-o-caos.jpg
 language: pt
 feedback:
   - não gostei
+book_author: Nassim Nicholas Taleb
 ---
 
 ![antifragil-coisas-que-se-beneficiam-com-o-caos](img/antifragil-coisas-que-se-beneficiam-com-o-caos.jpg)

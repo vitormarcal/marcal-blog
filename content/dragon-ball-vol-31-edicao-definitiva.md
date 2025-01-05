@@ -16,6 +16,8 @@ image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jp
 language: pt
 feedback:
   - gostei
+book_author:
+  - Akira Toriyama
 ---
 
 

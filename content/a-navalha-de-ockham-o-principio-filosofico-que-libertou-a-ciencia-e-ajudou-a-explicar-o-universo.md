@@ -15,6 +15,7 @@ image: img/a-navalha-de-ockham.jpg
 language: pt
 feedback:
   - gostei
+book_author: Johnjoe McFadden
 ---
 
 ![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](img/a-navalha-de-ockham.jpg)

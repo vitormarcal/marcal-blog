@@ -7,7 +7,6 @@ updated_at:
 is_post: true
 tags:
   - notas-pessoais
-  - livros
   - portugues
 related:
   - "[[tags/notas-pessoais]]"

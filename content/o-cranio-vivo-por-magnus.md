@@ -1,5 +1,5 @@
 ---
-title: O Crânio Vivo, por Magnus 💀
+title: O Crânio Vivo 💀
 description: 
 author: Vítor Marçal
 created_at: 2024-09-29T16:51:00
@@ -16,6 +16,8 @@ image: img/o-cranio-vivo-de-magnus.png
 language: pt
 feedback:
   - gostei
+book_author:
+  - Magnus
 ---
 
 ![o-cranio-vivo-de-magnus](img/o-cranio-vivo-de-magnus.png)

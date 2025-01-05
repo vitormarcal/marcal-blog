@@ -17,6 +17,8 @@ image: img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-ab
 language: pt
 feedback:
   - gostei
+book_author:
+  - Alan Moore
 ---
 
 ![monstro-do-pantano-vol-1-edicao-absoluta](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg)

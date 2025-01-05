@@ -15,6 +15,7 @@ image: img/aprenda-ingles-num-piscar-de-olhos.jpg
 language: pt
 feedback:
   - gostei
+book_author: Fabiana Lara
 ---
 
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)

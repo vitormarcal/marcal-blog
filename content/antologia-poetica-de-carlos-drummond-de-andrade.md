@@ -1,5 +1,5 @@
 ---
-title: Antologia Poética, de Carlos Drummond de Andrade
+title: Antologia Poética, de
 description: Anotações sobre a leitura do livro "Antologia Poética", de Carlos Drummond de Andrade
 author: Vítor Marçal
 created_at: 2024-01-11
@@ -16,6 +16,7 @@ image: img/antologia-poetica.jpg
 language: pt
 feedback:
   - gostei
+book_author: Carlos Drummond de Andrade
 ---
 
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

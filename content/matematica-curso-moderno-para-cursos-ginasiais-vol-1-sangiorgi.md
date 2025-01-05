@@ -1,5 +1,5 @@
 ---
-title: Matemática Curso Moderno para cursos ginasiais Volume 1, de  Osvaldo Sangiorgi
+title: Matemática Curso Moderno para cursos ginasiais Volume 1
 description: Old but gold
 author: Vítor Marçal
 created_at: 2024-11-10T00:03:00
@@ -15,6 +15,8 @@ image: img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png
 language: pt
 feedback:
   - gostei
+book_author:
+  - Osvaldo Sangiorgi
 ---
 
 ![Matemática Curso Moderno para cursos ginasiais Volume 1, de Osvaldo Sangiorgi](img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png)

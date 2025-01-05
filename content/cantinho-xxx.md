@@ -16,6 +16,7 @@ image: img/cantinho-xxx.jpg
 language: pt
 feedback:
   - gostei
+book_author: Caio Oliveira
 ---
 
 ![cantinho-xxx](img/cantinho-xxx.jpg)

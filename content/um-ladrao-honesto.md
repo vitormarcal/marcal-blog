@@ -1,5 +1,5 @@
 ---
-title: Um Ladrão Honesto - Fiodor Dostoievski
+title: Um Ladrão Honesto
 description: Um breve conto e uma boa introdução à Fiodor Dostoievski antes de enfrentar os calhamaços clássicos do autor.
 author: Vítor Marçal
 created_at: 2023-12-19T16:09:00
@@ -16,6 +16,8 @@ image: img/um_ladrao_honesto.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Fiodor Dostoievski
 ---
 
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)

@@ -16,6 +16,9 @@ image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Koushun Takami
+  - Masayuki Taguchi
 ---
 
 ![battle-royale-omnibus-volume-1](img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg)

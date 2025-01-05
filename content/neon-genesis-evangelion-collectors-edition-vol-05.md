@@ -16,6 +16,8 @@ image: img/neon-genesis-evangelion-collectors-edition-vol-05.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Yoshiyuki Sadamoto
 ---
 
 ![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-05.jpg)

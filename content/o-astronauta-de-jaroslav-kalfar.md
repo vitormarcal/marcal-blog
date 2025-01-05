@@ -16,6 +16,8 @@ image: img/o-astronauta-de-jaroslav-kalfar.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Yoshiyuki Sadamoto
 ---
 
 ![o-astronauta-de-jaroslav-kalfar](img/o-astronauta-de-jaroslav-kalfar.jpg)

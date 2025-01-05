@@ -16,6 +16,10 @@ image: img/the-darkness-volume-1.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Garth Ennis
+  - Marc Silvestri
+  -  David Wohl
 ---
 
 ![the-darkness-volume-1](img/the-darkness-volume-1.jpg)

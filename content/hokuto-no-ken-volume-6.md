@@ -16,6 +16,9 @@ image: img/hokuto-no-ken/hokuto-no-ken-volume-6.jpg
 language: pt
 feedback:
   - gostei
+book_author:
+  - Tetsuo Hara
+  - Buronson
 ---
 
 ![hokuto-no-ken-volume-6](img/hokuto-no-ken/hokuto-no-ken-volume-6.jpg)

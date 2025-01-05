@@ -17,6 +17,8 @@ localized_post_paths:
 has_localized_posts: false
 feedback:
   - gostei
+book_author:
+  - Hans Magnus Enzensberger
 ---
 
 ![o-diabo-dos-numeros](img/o-diabo-dos-numeros.jpg)

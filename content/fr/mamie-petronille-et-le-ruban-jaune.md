@@ -15,6 +15,9 @@ is_post: true
 language: fr
 feedback:
   - gostei
+book_author:
+  - Jane Cadwallader
+  - Gustavo Mazali
 ---
 ----
 

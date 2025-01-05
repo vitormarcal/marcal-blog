@@ -1,5 +1,5 @@
 ---
-title: O Processo, de  Franz Kafka 👨‍⚖️
+title: O Processo 👨‍⚖️
 description: Abandonei 🫣
 author: Vítor Marçal
 created_at: 2024-07-28T21:00:00
@@ -15,6 +15,8 @@ image: img/o-processo-de-franz-kafka.jpg
 language: pt
 feedback:
   - não gostei
+book_author:
+  - Franz Kafka
 ---
 
 ![o-processo-de-franz-kafka](img/o-processo-de-franz-kafka.jpg)

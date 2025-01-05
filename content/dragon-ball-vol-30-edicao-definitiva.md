@@ -16,6 +16,8 @@ image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-30-edicao-definitiva.jp
 language: pt
 feedback:
   - gostei
+book_author:
+  - Akira Toriyama
 ---
 
 ![Dragon Ball Vol 30  - Edição Definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-30-edicao-definitiva.jpg)
