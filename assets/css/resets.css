@@ -1,0 +1,141 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+:root {
+    /*
+      Experimental: property allows to enable animations and transitions
+      (tag details: open, hide)
+      https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size
+     */
+    interpolate-size: allow-keywords;
+    --link_color: initial;
+    --link_color_visited: initial;
+    --blockquote-border-color: initial;
+    --pre-background-color: #2d2d2d;
+}
+
+details[open] {
+    height: auto;
+    overflow: clip;
+
+    p {
+        font-size: .95em;
+        line-height: 1.5em;
+        margin-top: .95em;
+        margin-bottom: 0;
+        margin-left: 1.2rem;
+    }
+}
+
+
+details {
+    height: 1.5rem;
+    transition: height 500ms ease;
+}
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    border: 0;
+    display: block;
+    overflow: hidden;
+}
+
+input,
+button {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+blockquote, body, dd, dl, figure, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: underline;
+    word-break: break-word;
+    color: var(--link_color);
+    h4 {
+        color: inherit;
+    }
+    &:visited {
+        color: var(--link_color_visited);
+    }
+    &:hover {
+        opacity: .8;
+    }
+
+    &[href^="http://"]:not([href*="marcal.dev"]),
+    &[href^="https://"]:not([href*="marcal.dev"]) {
+        &:after {
+            content: "";
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            margin-left: 4px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238DB500' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+img {
+    height: auto;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+
+    &[src^="/img/profile-image.svg"] {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+hr {
+    color: hsla(0, 0%, 100%, .2);
+    height: 1px;
+    width: 100%;
+}
+
+blockquote {
+    border-left: 4px solid var(--blockquote-border-color);
+    padding-left: 1rem;
+    margin-top: calc(2.4em*1.5);
+}
+
+
+code {
+    font-size: 15px;
+    font-family: JetBrains Mono, Menlo, Consolas, Monaco, Liberation Mono,
+    Lucida Console, monospace;
+}
+
+pre {
+    background: var(--pre-background-color);
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+:not(pre) > code {
+    background-color: rgba(0,0,0,.1);;
+    border-radius: 3px;
+    color: var(--inline-code-color);
+    padding: .4rem;
+}

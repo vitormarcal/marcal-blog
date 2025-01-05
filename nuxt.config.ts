@@ -72,6 +72,8 @@ export default defineNuxtConfig({
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt
   ],
 
+  css: ['~/assets/css/resets.css'],
+
   nitro: {
       prerender: {
           crawlLinks: true,
