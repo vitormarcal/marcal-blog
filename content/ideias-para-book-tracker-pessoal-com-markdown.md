@@ -24,7 +24,7 @@ Minha decisão de abandonar o GoodReads foi motivada por alguns fatores. A inter
 No blog, já comentei resumidamente como funciona o processo de publicação [aqui](sobre). O fluxo é simples: crio um arquivo Markdown no Obsidian, utilizo um template de postagem, preencho as informações necessárias, adiciono uma imagem (se for o caso) e escrevo algumas linhas. Depois, envio para o GitHub e pronto: está na internet. Claro, não é tão prático quanto o GoodReads, onde basta acessar a página do livro, marcar que foi lido e adicionar um comentário. Porém, o meu método tem vantagens significativas. Sem distrações sociais, o conteúdo é meu, o formato é meu, e, se um dia eu quiser migrar para outro lugar, será fácil, já que o Markdown é um formato amplamente suportado por editores como Obsidian, Notion e Evernote.
 
 ![Tela do meu editor Obsidian mostrando um arquivo Markdown - a publicação Hokuto no Ken Volume 18, disponível neste blogue. É possível ver todos metadados do arquivo](img/book-tracker/editor-obsidian-1.png)
-Tela do meu Obsidia, repare os metadatas como title, description etc.
+Tela do meu Obsidian, repare os metadatas como title, description etc.
 
 Após um ano registrando cada livro lido, abandonado ou que desejo ler, pensei: e se eu aproveitasse esses arquivos para criar um "book tracker"? Atualmente, o blog já funciona como um tracker simples, com postagens e uma lista de livros lidos, cada item linkado para a respectiva resenha. Mas imaginei algo mais visual. Poderia criar uma página específica, diferente do layout padrão do blog, talvez até gerar estatísticas automaticamente. Achei a ideia interessante!
 
