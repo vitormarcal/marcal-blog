@@ -17,13 +17,23 @@ const post = await queryContent()
     })
     .findOne()
 
+const readingStatus = computed(() => {
+  if (post.reading_status == 'completed') return "Finalizada"
+  if (post.reading_status == 'abandoned') return "Abandonada"
+  return "Lendo"
+})
+
+const dateRead = computed(() => {
+  return post.date_read || post.updated_at || post.created_at
+})
+
 
 const feedbackValue = computed<'gostei' | 'neutro' | 'não gostei' | ''>(() => post.feedback[0] || '');
 const feedback = computed(() => {
   const feedbackMap: Record<'gostei' | 'neutro' | 'não gostei', { feedbackClass: string, text: string }> = {
-    'gostei': { feedbackClass: 'liked', text: "Gostei" },
-    'neutro': { feedbackClass: 'neutral', text: "Neutro" },
-    'não gostei': { feedbackClass: 'not-liked', text: "Não gostei" }
+    'gostei': { feedbackClass: 'liked', text: "Gostei 😊" },
+    'neutro': { feedbackClass: 'neutral', text: "Neutro 🤔" },
+    'não gostei': { feedbackClass: 'not-liked', text: "Não gostei 😞" }
   };
   return feedbackMap[feedbackValue.value as 'gostei' | 'neutro' | 'não gostei'] || { feedbackClass: 'not-evaluated', text: "Não avaliado" };
 });
@@ -38,16 +48,15 @@ const feedback = computed(() => {
       <div class="book-info">
         <h1>{{ post.title }}</h1>
         <p><strong>Autor(es):</strong> {{ post.author }}</p>
-        <p><strong>Data de leitura:</strong> {{ formatDate(post.created_at) }}</p>
-        <p><strong>Indicativo:</strong> <span :class="feedback.feedbackClass">{{ feedback.text }}</span></p>
+        <p><strong>Data de leitura:</strong> {{ formatDate(dateRead) }}</p>
+        <p><strong>Status data leitura:</strong> {{ readingStatus }}</p>
+        <p><strong>Avaliação:</strong> <span :class="feedback.feedbackClass">{{ feedback.text }}</span></p>
         <div class="details-grid">
-          <p><strong>ISBN:</strong> 978-1234567890</p>
-          <p><strong>Número de páginas:</strong> 200</p>
+          <p><strong>ISBN:</strong> {{ post.isbn || '--' }}</p>
+          <p><strong>Número de páginas:</strong> {{ post.page_number || '--' }}</p>
           <div>
             <p><strong>Gêneros:</strong></p>
-            <span class="badge">Ação</span>
-            <span class="badge">Aventura</span>
-            <span class="badge">Clássico</span>
+            <span class="badge" v-for="genre in post.genre">{{ genre }}</span>
           </div>
         </div>
       </div>
@@ -60,11 +69,11 @@ const feedback = computed(() => {
       </ContentDoc>
     </div>
 
-    <div class="author-section" >
+    <div class="author-section" v-if="false">
       <h2>Sobre o Autor</h2>
       <p>Buronson é um renomado escritor de mangás, conhecido por suas histórias cativantes e impactantes. Tetsuo Hara, co-autor, é um dos ilustradores mais icônicos do Japão, famoso por seu traço detalhado e expressivo.</p>
     </div>
-    <div class="related-section">
+    <div class="related-section" v-if="false">
       <h2>Outros Livros Relacionados</h2>
       <div class="related-books">
         <img src="https://via.placeholder.com/120x180" alt="Livro relacionado 1">
