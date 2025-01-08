@@ -17,11 +17,30 @@ language: pt
 feedback:
   - gostei
 book_author:
-  -  Tiziano Sclavi
-  -  Angelo Stano
-  -  Gustavo Trigo 
-  -  Corrado Roi
-  -  Luca Dell’Uomo
+  - Tiziano Sclavi
+  - Angelo Stano
+  - Gustavo Trigo
+  - Corrado Roi
+  - Luca Dell’Uomo
+volume: 
+series: Dylan Dog Omnibus
+favorite: 
+format:
+  - físico
+date_read: 2024-11-15
+is_book: true
+quote: 
+page_number: 604
+publisher:
+  - Mythos
+publication_year: 2024
+isbn: " 978-6559516087"
+reading_status:
+  - completed
+genre:
+  - terror
+  - suspense
+  - graphic novel
 ---
 
 ![Dylan Dog Omnibus Vol. 1: O despertar dos mortos](img/dylan-dog-omnibus-vol-1-o-despertar-dos-mortos.jpg)

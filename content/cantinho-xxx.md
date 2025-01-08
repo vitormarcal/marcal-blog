@@ -16,7 +16,26 @@ image: img/cantinho-xxx.jpg
 language: pt
 feedback:
   - gostei
-book_author: Caio Oliveira
+book_author:
+  - Caio Oliveira
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-06-20
+is_book: true
+quote: Eu era jovem e precisava da grana
+page_number: 
+publisher:
+  - Quinta Capa
+publication_year: 2024
+isbn: 
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - humor
 ---
 
 ![cantinho-xxx](img/cantinho-xxx.jpg)

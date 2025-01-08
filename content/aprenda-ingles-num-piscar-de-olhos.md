@@ -15,9 +15,25 @@ image: img/aprenda-ingles-num-piscar-de-olhos.jpg
 language: pt
 feedback:
   - gostei
-book_author: Fabiana Lara
+book_author:
+  - Fabiana Lara
+favorite: 
+format:
+  - físico
+date_read: 2024-02-21
+is_book: true
+quote: Ao falhar na preparação, estará, na verdade, preparando-se para o fracasso.
+page_number: 288
+publisher:
+  - Alta Books
+publication_year: 2018
+isbn: " 978-8550802657"
+reading_status:
+  - completed
+genre:
+  - educação
+  - autoajuda
 ---
-
 ![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)
 
 Outro dia, enquanto passeava na livraria, esse livro chamou minha atenção. Sem saber nada sobre ele, decidi comprá-lo

@@ -15,7 +15,24 @@ image: img/as-110-pilulas-de-magnus.jpg
 language: pt
 feedback:
   - gostei
-book_author: Magnus
+book_author:
+  - Magnus
+favorite: 
+format:
+  - físico
+date_read: 2024-05-01
+is_book: true
+quote: 
+page_number: 80
+publisher:
+  - Tai Editora
+publication_year: 2024
+isbn: " 978-6587651309"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - erótico
 ---
 
 

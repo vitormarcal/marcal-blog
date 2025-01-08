@@ -21,7 +21,26 @@ feedback:
   - gostei
 book_author:
   - Luca Laca Montagliani
-  -  Andrea Jula
+  - Andrea Jula
+volume: 2 de 3
+series: Suspiria
+favorite: 
+format:
+  - físico
+date_read: 2024-04-21
+is_book: true
+quote: 
+page_number: 176
+publisher:
+  - Tai Editora
+publication_year: 2023
+isbn: " 978-6587651248"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - terror
+  - erótico
 ---
 
 ![suspiria-coracao-em-chamas](img/suspiria-coracao-em-chamas.jpg)

@@ -16,7 +16,25 @@ image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
 language: pt
 feedback:
   - gostei
-book_author: H. P. Lovecraft
+book_author:
+  - H. P. Lovecraft
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-03-12
+is_book: true
+quote: Na sua morada em R'lyeh, o morto Cthulhu aguarda sonhando.
+page_number: 560
+publisher:
+  - Editora Ex Machina
+publication_year: 2021
+isbn: " 978-6599179501"
+reading_status:
+  - completed
+genre:
+  - horror cósmico
 ---
 
 ![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)

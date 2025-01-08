@@ -23,6 +23,25 @@ book_author:
   - Luca Laca Montagliani
   - Andrea Jula
   - Andrea Bulgarelli
+volume: 3 de 3
+series: Suspiria
+favorite: 
+format:
+  - físico
+date_read: 
+is_book: true
+quote: 
+page_number: 160
+publisher:
+  - Tai Editora
+publication_year: 2023
+isbn: 978-6587651323
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - terror
+  - erótico
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-herege.jpg)

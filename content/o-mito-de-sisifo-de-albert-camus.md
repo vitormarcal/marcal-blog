@@ -17,6 +17,23 @@ feedback:
   - gostei
 book_author:
   - Albert Camus
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-05-01
+is_book: true
+quote: 
+page_number: 160
+publisher:
+  - Record
+publication_year: 2018
+isbn: " 978-8501111647"
+reading_status:
+  - completed
+genre:
+  - filosofia
 ---
 
 ![o-mito-de-sisifo-de-albert-camus](img/o-mito-de-sisifo-de-albert-camus.jpg)

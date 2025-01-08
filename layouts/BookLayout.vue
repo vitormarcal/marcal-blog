@@ -23,7 +23,7 @@ useHead({
     <header>
       <h1>marcal's Book Tracker</h1>
       <p class="quote">"Os livros são sonhos que seguramos em nossas mãos."</p>
-      <img src="https://via.placeholder.com/60x60" alt="Ícone de livro" class="floating-book">
+      <img v-if="false" src="https://via.placeholder.com/60x60" alt="Ícone de livro" class="floating-book">
     </header>
     <slot />
   </main>

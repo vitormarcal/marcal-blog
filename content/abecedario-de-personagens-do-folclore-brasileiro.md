@@ -16,7 +16,25 @@ image: img/abecedario-de-personagens-do-folclore-brasileiro.jpg
 language: pt
 feedback:
   - gostei
-book_author: Januária Cristina Alves
+book_author:
+  - Januária Cristina Alves
+favorite: 
+format:
+  - físico
+date_read: 2024-11-23
+is_book: true
+quote: É preciso  lembrar que um dos legados mais importantes de uma nação é sua memória ficcional; nela encontramos suas origens culturais.
+page_number: 416
+publisher:
+  - Edições Sesc
+publication_year: 2017
+isbn: " 978-8594930507"
+reading_status:
+  - completed
+genre:
+  - educação
+  - folclore
+  - mitologia
 ---
 
 ![abecedario-de-personagens-do-folclore-brasileiro](img/abecedario-de-personagens-do-folclore-brasileiro.jpg)

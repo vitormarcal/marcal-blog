@@ -3,7 +3,6 @@ title: O Planeta dos Macacos
 description: Uma viagem incrível de imaginação. Mesmo já sabendo o final, pude ser pego de surpresa em seus diversos ganchos.
 author: Vítor Marçal
 created_at: 2024-02-26
-updated_at: 2024-02-26
 is_post: true
 tags:
   - livros
@@ -18,6 +17,25 @@ feedback:
   - gostei
 book_author:
   - Pierre Boulle
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+  - digital
+date_read: 2024-02-26
+is_book: true
+quote: 
+page_number: 256
+publisher:
+  - Editora Aleph
+publication_year: 2023
+isbn: " 978-8576576105"
+reading_status:
+  - completed
+genre:
+  - ficção-científica
+  - distopia
 ---
 
 ![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)

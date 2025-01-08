@@ -18,6 +18,24 @@ feedback:
 book_author:
   - Jane Cadwallader
   - Gustavo Mazali
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-08-30
+is_book: true
+quote: 
+page_number: 32
+publisher:
+  - European Language Institute
+publication_year: 1999
+isbn: " 978-8853606228"
+reading_status:
+  - completed
+genre:
+  - humor
+  - infantil
 ---
 ----
 

@@ -17,6 +17,22 @@ feedback:
   - não gostei
 book_author:
   - Franz Kafka
+volume: 
+series: 
+favorite: 
+format:
+  - digital
+date_read: 2024-07-28
+is_book: true
+quote: 
+page_number: 
+publisher: 
+publication_year: 
+isbn: 
+reading_status:
+  - abandoned
+genre:
+  - pscológico
 ---
 
 ![o-processo-de-franz-kafka](img/o-processo-de-franz-kafka.jpg)

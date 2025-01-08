@@ -17,6 +17,25 @@ feedback:
   - neutro
 book_author:
   - Aka Akasaka
+updated_at: 
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-02-15
+is_book: true
+quote: 
+page_number: 220
+publisher:
+  - Panini
+publication_year: 2023
+isbn: 978-6525906027
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - pscológico
 ---
 
 ![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)

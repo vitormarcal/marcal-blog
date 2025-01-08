@@ -19,6 +19,25 @@ feedback:
 book_author:
   - Koushun Takami
   - Masayuki Taguchi
+volume: 1 de 5
+series: Battle Royale Omnibus
+favorite: 
+format:
+  - físico
+date_read: 2024-07-23
+is_book: true
+quote: 
+page_number: 620
+publisher:
+  - Pipoca e Nanquim
+publication_year: 2024
+isbn: 978-6554481335
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - distopia
+  - pscológico
 ---
 
 ![battle-royale-omnibus-volume-1](img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg)

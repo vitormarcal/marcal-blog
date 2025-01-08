@@ -15,10 +15,29 @@ related:
 image: img/hokuto-no-ken/hokuto-no-ken-volume-12.jpg
 language: pt
 feedback:
-  - gostei
+  - neutro
 book_author:
   - Tetsuo Hara
   - Buronson
+volume: 12 de 18
+series: Hokuto No Ken
+favorite: 
+format:
+  - físico
+date_read: 2024-09-16
+is_book: true
+quote: " Omae wa mou shindeiru! - Você Já está morto!"
+page_number: 298
+publisher:
+  - Editora JBC
+publication_year: 2021
+isbn: 978-6555942088
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
+  - pós-apocalíptico
 ---
 
 ![hokuto-no-ken-volume-12](img/hokuto-no-ken/hokuto-no-ken-volume-12.jpg)

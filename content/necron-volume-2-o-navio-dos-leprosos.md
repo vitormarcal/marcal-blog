@@ -18,6 +18,25 @@ feedback:
   - gostei
 book_author:
   - Magnus
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-03-08
+is_book: true
+quote: 
+page_number: 120
+publisher:
+  - Tai Editora
+publication_year: 2019
+isbn: " 978-8585435011"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - horror
+  - erótico
 ---
 
 ![necron-volume-2-o-navio-dos-leprosos](img/necron-volume-2-o-navio-dos-leprosos.jpg)

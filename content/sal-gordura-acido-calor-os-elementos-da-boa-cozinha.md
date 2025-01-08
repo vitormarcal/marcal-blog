@@ -16,7 +16,25 @@ feedback:
   - gostei
 book_author:
   - Samin Nosrat
-  -  Wendy MacNaughton
+  - Wendy MacNaughton
+updated_at: 
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-07-17
+is_book: true
+quote: 
+page_number: 480
+publisher:
+  - Companhia de Mesa
+publication_year: 2019
+isbn: 978-8592754143
+reading_status:
+  - completed
+genre:
+  - culinária
 ---
 
 ![Sal, gordura, ácido, calor: Os elementos da boa cozinha](img/sal-gordura-acido-calor-os-elementos-da-boa-cozinha.jpg)

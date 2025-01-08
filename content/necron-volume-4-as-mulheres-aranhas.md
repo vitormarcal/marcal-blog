@@ -18,6 +18,25 @@ feedback:
   - gostei
 book_author:
   - Magnus
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-04-07
+is_book: true
+quote: 
+page_number: 116
+publisher:
+  - Tai Editora
+publication_year: 2021
+isbn: 978-6587651057
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - horror
+  - erótico
 ---
 
 ![necron-volume-4-as-mulheres-aranhas](img/necron-volume-4-as-mulheres-aranhas.jpg)

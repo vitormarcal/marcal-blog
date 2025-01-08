@@ -14,12 +14,30 @@ related:
 image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
 language: pt
 feedback:
-  - neutro
+  - gostei
 book_author:
-  -  Julian Assange
-  -  Andy Müller-Maguhn
-  -  Jacob Appelbaum
-  -  Jérémie Zimmermann
+  - Julian Assange
+  - Andy Müller-Maguhn
+  - Jacob Appelbaum
+  - Jérémie Zimmermann
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-03-07
+is_book: true
+quote: É preciso reconhecer que, com a criptografia, nem toda a violência do mundo poderá resolver uma equação matemática.
+page_number: 200
+publisher:
+  - Boitempo Editorial
+publication_year: 2013
+isbn: " 978-8575593073"
+reading_status:
+  - completed
+genre:
+  - tecnologia e sociedade
+  - política e ativismo
 ---
 
 ![cypherpunks-liberdade-e-o-futuro-da](img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg)

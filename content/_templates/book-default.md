@@ -7,14 +7,12 @@ updated_at:
 is_post: true
 tags: 
 related: 
-image: img/book-default.jpg
+image: img/{{title}}.jpg
 language: pt
-localized_post_paths: 
-has_localized_posts: false
 feedback:
   - gostei
-  - neutro
   - não gostei
+  - neutro
 book_author: 
 volume: 
 series: 
@@ -24,8 +22,14 @@ format:
   - digital
 date_read: 
 is_book: true
-quote:
+quote: 
+page_number: 
+publisher: 
+publication_year: 
+isbn: 
+reading_status:
+  - completed
+  - abandoned
+  - reading
+genre: []
 ---
-Esse é um template, ignore.
-
-![{{title}}](img/{{title}}.jpg)

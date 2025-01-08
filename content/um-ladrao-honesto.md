@@ -18,6 +18,23 @@ feedback:
   - gostei
 book_author:
   - Fiodor Dostoievski
+volume: 
+series: 
+favorite: 
+format:
+  - digital
+date_read: 2023-12-19
+is_book: true
+quote: 
+page_number: 22
+publisher: 
+publication_year: 
+isbn: 
+reading_status:
+  - completed
+genre:
+  - pscológico
+  - ficção russa
 ---
 
 ![Um Ladrão Honesto - Fiodor Dostoievski](img/um_ladrao_honesto.jpg)

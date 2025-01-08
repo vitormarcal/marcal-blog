@@ -14,7 +14,23 @@ image: img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg
 language: pt
 feedback:
   - gostei
-book_author: Richard Dawkins
+book_author:
+  - Richard Dawkins
+favorite: 
+format:
+  - físico
+date_read: 2024-10-04
+is_book: true
+quote: Saltar abismos não é o que a evolução faz.
+page_number: 792
+publisher:
+  - Companhia das Letras
+publication_year: 2009
+isbn: 978-6554481519
+reading_status:
+  - completed
+genre:
+  - ciência
 ---
 
 ![A Grande História da Evolução, por Richard Dawkins](img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg)

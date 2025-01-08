@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Akira Toriyama
+volume: 33 de 34
+series: Dragon Ball - Edição Definitiva
+favorite: 
+format:
+  - físico
+date_read: 2024-09-14
+is_book: true
+quote: 
+page_number: 240
+publisher:
+  - Panini
+publication_year: 2024
+isbn: 978-6525914978
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
 ---
 
 ![dragon-ball-vol-33-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg)

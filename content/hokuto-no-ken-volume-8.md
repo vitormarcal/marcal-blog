@@ -19,6 +19,25 @@ feedback:
 book_author:
   - Tetsuo Hara
   - Buronson
+volume: 8 de 18
+series: Hokuto No Ken
+favorite: 
+format:
+  - físico
+date_read: 2024-03-31
+is_book: true
+quote: " Omae wa mou shindeiru! - Você Já está morto!"
+page_number: 320
+publisher:
+  - Editora JBC
+publication_year: 2020
+isbn: " 978-8545715030"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
+  - pós-apocalíptico
 ---
 
 ![hokuto-no-ken-volume-8](img/hokuto-no-ken/hokuto-no-ken-volume-8.jpg)

@@ -19,6 +19,24 @@ feedback:
   - gostei
 book_author:
   - Umberto Eco
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-12-24
+is_book: true
+quote: 
+page_number: 588
+publisher:
+  - Record
+publication_year: 2022
+isbn: " 978-6555873665"
+reading_status:
+  - completed
+genre:
+  - história medieval
+  - suspense
 ---
 
 

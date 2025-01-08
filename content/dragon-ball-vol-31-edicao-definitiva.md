@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Akira Toriyama
+volume: 31 de 34
+series: Dragon Ball - Edição Definitiva
+favorite: 
+format:
+  - físico
+date_read: 2024-04-06
+is_book: true
+quote: 
+page_number: 232
+publisher:
+  - Panini
+publication_year: 2024
+isbn: " 978-6525921662"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
 ---
 
 

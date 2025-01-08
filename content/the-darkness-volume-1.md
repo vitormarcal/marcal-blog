@@ -19,7 +19,24 @@ feedback:
 book_author:
   - Garth Ennis
   - Marc Silvestri
-  -  David Wohl
+  - David Wohl
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-05-18
+is_book: true
+quote: 
+page_number: 176
+publisher:
+  - IndieVisivel
+publication_year: 2024
+isbn: 978-6584852327
+reading_status:
+  - completed
+genre:
+  - graphic novel
 ---
 
 ![the-darkness-volume-1](img/the-darkness-volume-1.jpg)

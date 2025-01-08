@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Yoshiyuki Sadamoto
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-05-23
+is_book: true
+quote: 
+page_number: 336
+publisher:
+  - Editora Aleph
+publication_year: 2022
+isbn: " 978-8576575214"
+reading_status:
+  - completed
+genre:
+  - pscológico
+  - ficção-científica
 ---
 
 ![o-astronauta-de-jaroslav-kalfar](img/o-astronauta-de-jaroslav-kalfar.jpg)

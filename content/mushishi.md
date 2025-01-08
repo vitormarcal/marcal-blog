@@ -16,7 +16,26 @@ language: pt
 feedback:
   - gostei
 book_author:
-  -  Yuki Urushibara
+  - Yuki Urushibara
+updated_at: 
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-01-15
+is_book: true
+quote: 
+page_number: 450
+publisher:
+  - NewPOP
+publication_year: 2023
+isbn: " 978-8583623540"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - sobrenatural
 ---
 
 ![Mushishi](img/NewPOP_Mushishi01-3.jpg)

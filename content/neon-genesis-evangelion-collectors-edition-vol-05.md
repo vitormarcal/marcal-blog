@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Yoshiyuki Sadamoto
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-10-15
+is_book: true
+quote: 
+page_number: 352
+publisher:
+  - Editora JBC
+publication_year: 2024
+isbn: 978-6555946994
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - pscológico
 ---
 
 ![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-05.jpg)

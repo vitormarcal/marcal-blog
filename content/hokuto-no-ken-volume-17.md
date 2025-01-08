@@ -19,6 +19,25 @@ feedback:
 book_author:
   - Tetsuo Hara
   - Buronson
+volume: 17 de 18
+series: Hokuto No Ken
+favorite: 
+format:
+  - físico
+date_read: 2024-10-15
+is_book: true
+quote: " Omae wa mou shindeiru! - Você Já está morto!"
+page_number: 288
+publisher:
+  - Editora JBC
+publication_year: 2022
+isbn: 978-6555943740
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
+  - pós-apocalíptico
 ---
 
 ![hokuto-no-ken-volume-17](img/hokuto-no-ken/hokuto-no-ken-volume-17.jpg)

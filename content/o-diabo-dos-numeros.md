@@ -19,6 +19,24 @@ feedback:
   - gostei
 book_author:
   - Hans Magnus Enzensberger
+volume: 
+series: 
+favorite: 
+format:
+  - digital
+date_read: 2024-11-21
+is_book: true
+quote: 
+page_number: 272
+publisher:
+  - Seguintef
+publication_year: 1997
+isbn: 978-8571647183
+reading_status:
+  - completed
+genre:
+  - aventura
+  - ficção-matemática
 ---
 
 ![o-diabo-dos-numeros](img/o-diabo-dos-numeros.jpg)

@@ -1,5 +1,5 @@
 ---
-title: Um Convite à Matemática
+title: "Um Convite à Matemática: com técnicas de demonstração e notas históricas"
 description: 
 author: Vítor Marçal
 created_at: 2024-11-20T21:37:00
@@ -19,6 +19,24 @@ feedback:
   - gostei
 book_author:
   - Daniel Cordeiro de Morais Filho
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-11-20
+is_book: true
+quote: 
+page_number: 377
+publisher:
+  - SBM - Sociedade Brasileira de Matemática
+publication_year: 2024
+isbn: 978-8583372240
+reading_status:
+  - completed
+genre:
+  - matemática
+  - educação
 ---
 
 ![um-convite-a-matematica-daniel-cordeiro](img/um-convite-a-matematica-daniel-cordeiro.jpg)
