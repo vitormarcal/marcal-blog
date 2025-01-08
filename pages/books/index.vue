@@ -14,8 +14,10 @@ const posts = await queryContent()
 <template>
 
   <div class="book-tracker-container">
-    <h2>Últimos Livros Lidos</h2>
+    <h2>Livros Lidos</h2>
     <ul class="book-list">
+      <p class="">Esse book tracker está em desenvolvimento ativo</p>
+      <p class="">algumas coisas podem estar quebradas 😂</p>
       <li v-for="post in posts">
         <img :src="post.image" alt="Capa do livro">
         <div class="book-info">
