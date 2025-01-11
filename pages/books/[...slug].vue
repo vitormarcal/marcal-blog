@@ -8,55 +8,59 @@ definePageMeta({
 const route = useRoute()
 const postName = route.params.slug[0]
 
-const post = await queryContent()
+const { data } = await useAsyncData('/' + postName, () => queryContent()
     .where({
-      _stem: {$eq: postName},
-      tags: {$contains: 'livros'},
-      is_post: {$eq: true},
-      _partial: false
+      _path: '/' + postName,
     })
-    .findOne()
+    .findOne())
 
 const readingStatus = computed(() => {
-  if (post.reading_status == 'completed') return "Finalizada"
-  if (post.reading_status == 'abandoned') return "Abandonada"
-  return "Lendo"
+  if (data.value) {
+    if (data.value.reading_status == 'completed') return "Finalizada"
+    if (data.value.reading_status == 'abandoned') return "Abandonada"
+    return "Lendo"
+  }
 })
 
 const dateRead = computed(() => {
-  return post.date_read || post.updated_at || post.created_at
+  if (data.value) {
+    return data.value.date_read || data.value.updated_at || data.value.created_at
+  }
 })
 
 
-const feedbackValue = computed<'gostei' | 'neutro' | 'não gostei' | ''>(() => post.feedback[0] || '');
+const feedbackValue = computed<'gostei' | 'neutro' | 'não gostei' | ''>(() => data.value?.feedback[0] || '');
 const feedback = computed(() => {
   const feedbackMap: Record<'gostei' | 'neutro' | 'não gostei', { feedbackClass: string, text: string }> = {
-    'gostei': { feedbackClass: 'liked', text: "Gostei 😊" },
-    'neutro': { feedbackClass: 'neutral', text: "Neutro 🤔" },
-    'não gostei': { feedbackClass: 'not-liked', text: "Não gostei 😞" }
+    'gostei': {feedbackClass: 'liked', text: "Gostei 😊"},
+    'neutro': {feedbackClass: 'neutral', text: "Neutro 🤔"},
+    'não gostei': {feedbackClass: 'not-liked', text: "Não gostei 😞"}
   };
-  return feedbackMap[feedbackValue.value as 'gostei' | 'neutro' | 'não gostei'] || { feedbackClass: 'not-evaluated', text: "Não avaliado" };
+  return feedbackMap[feedbackValue.value as 'gostei' | 'neutro' | 'não gostei'] || {
+    feedbackClass: 'not-evaluated',
+    text: "Não avaliado"
+  };
 });
 
 </script>
 
 <template>
-  <div class="book-tracker-container">
+  <div v-if="data" class="book-tracker-container">
 
     <div class="book-header">
-      <img :src="post.image" alt="Capa do livro">
+      <img :src="data.image" alt="Capa do livro">
       <div class="book-info">
-        <h1>{{ post.title }}</h1>
-        <p><strong>Autor(es):</strong> {{ post.author }}</p>
+        <h1>{{ data.title }}</h1>
+        <p><strong>Autor(es):</strong> {{ data.author }}</p>
         <p><strong>Data de leitura:</strong> {{ formatDate(dateRead) }}</p>
         <p><strong>Status data leitura:</strong> {{ readingStatus }}</p>
         <p><strong>Avaliação:</strong> <span :class="feedback.feedbackClass">{{ feedback.text }}</span></p>
         <div class="details-grid">
-          <p><strong>ISBN:</strong> {{ post.isbn || '--' }}</p>
-          <p><strong>Número de páginas:</strong> {{ post.page_number || '--' }}</p>
+          <p><strong>ISBN:</strong> {{ data.isbn || '--' }}</p>
+          <p><strong>Número de páginas:</strong> {{ data.page_number || '--' }}</p>
           <div>
             <p><strong>Gêneros:</strong></p>
-            <span class="badge" v-for="genre in post.genre">{{ genre }}</span>
+            <span class="badge" v-for="genre in data.genre">{{ genre }}</span>
           </div>
         </div>
       </div>
@@ -64,14 +68,13 @@ const feedback = computed(() => {
 
     <div class="review-section">
       <h2>Minha Review</h2>
-      <ContentDoc :path="post._path" v-slot="{ doc }">
-        <ContentRenderer :value="doc" />
-      </ContentDoc>
+      <ContentRenderer :value="data"/>
     </div>
 
     <div class="author-section" v-if="false">
       <h2>Sobre o Autor</h2>
-      <p>Buronson é um renomado escritor de mangás, conhecido por suas histórias cativantes e impactantes. Tetsuo Hara, co-autor, é um dos ilustradores mais icônicos do Japão, famoso por seu traço detalhado e expressivo.</p>
+      <p>Buronson é um renomado escritor de mangás, conhecido por suas histórias cativantes e impactantes. Tetsuo Hara,
+        co-autor, é um dos ilustradores mais icônicos do Japão, famoso por seu traço detalhado e expressivo.</p>
     </div>
     <div class="related-section" v-if="false">
       <h2>Outros Livros Relacionados</h2>
@@ -94,35 +97,42 @@ const feedback = computed(() => {
     gap: 20px;
     align-items: flex-start;
   }
+
   .book-header img {
     width: 180px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
   .book-info {
     flex: 1;
   }
+
   .book-info h1 {
     margin: 0 0 10px;
     font-size: 1.8rem;
     color: #6c4a4a;
   }
+
   .book-info p {
     margin: 5px 0;
     font-size: 1rem;
     line-height: 1.6;
   }
+
   .details-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin: 20px 0;
   }
+
   .details-grid p {
     margin: 0;
     font-size: 1rem;
   }
+
   .badge {
     display: inline-block;
     padding: 5px 10px;
@@ -132,13 +142,16 @@ const feedback = computed(() => {
     background-color: #f0e6d2;
     color: #6c4a4a;
   }
+
   .review-section {
     margin-top: 30px;
   }
+
   .review-section h2 {
     color: #6c4a4a;
     margin-bottom: 10px;
   }
+
   .review-section:deep() p {
     font-size: 1rem;
     line-height: 1.6;
@@ -152,28 +165,34 @@ const feedback = computed(() => {
   .related-section, .author-section {
     margin-top: 30px;
   }
+
   .related-section h2, .author-section h2 {
     margin-bottom: 10px;
     color: #6c4a4a;
   }
+
   .related-books {
     display: flex;
     gap: 20px;
     overflow-x: auto;
   }
+
   .related-books img {
     width: 120px;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
   }
+
   .related-books img:hover {
     transform: scale(1.1);
   }
+
   .author-section p {
     font-size: 1rem;
     line-height: 1.6;
   }
+
   .back-link {
     display: inline-block;
     margin-top: 20px;
@@ -182,6 +201,7 @@ const feedback = computed(() => {
     font-weight: bold;
     font-size: 1rem;
   }
+
   .back-link:hover {
     text-decoration: underline;
   }
@@ -189,7 +209,7 @@ const feedback = computed(() => {
 
 /* to hide feature image from markdown files (when img is the first content) */
 .review-section:deep() div p:first-of-type:has(img) {
-  display: none ;
+  display: none;
 }
 
 </style>

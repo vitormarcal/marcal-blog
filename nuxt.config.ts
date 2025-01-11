@@ -68,7 +68,7 @@ export default defineNuxtConfig({
       ],
       defaultLocale: 'pt'
   },
-  modules: ['nuxt-content-assets', '@nuxtjs/i18n', '@nuxt/content',
+  modules: [ 'nuxt-content-assets', '@nuxtjs/i18n', '@nuxt/content',
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt
   ],
 
@@ -77,7 +77,12 @@ export default defineNuxtConfig({
   nitro: {
       prerender: {
           crawlLinks: true,
-          routes: ['/atom.xml','/rss.xml','/sitemap.xml']
+          routes: ['/atom.xml','/rss.xml','/sitemap.xml'],
+          ignore: [
+              '/books',
+              '/fr/books',
+              '/en/books',
+          ]
       }
   },
 
