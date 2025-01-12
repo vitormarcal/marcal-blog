@@ -41,8 +41,6 @@ genre:
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)
 
-Photo by Editora Autêntica Contemporânea
-
 Foi certamente uma leitura que me causou estranheza em diversos momentos, muito pela forma como Mónica constrói sua narrativa. Ela não segue um padrão entre os capítulos, mudando a forma de diálogo, sua intensidade e até mesmo o tempo-espaço. Muitas vezes, as mudanças não se limitam à transição dos capítulos, mas ocorrem também entre as linhas e parágrafos do mesmo capítulo.
 
 Causa estranheza, mas provou ser uma forma bastante acertada de prender a atenção do leitor e também transmitir, como um fluxo psicológico, o horror que permeia todo o livro. A história é quase uma homenagem às creepypastas (histórias de terror publicadas na internet, muitas vezes apresentadas como verídicas) e ao Horror Cósmico de Lovecraft.

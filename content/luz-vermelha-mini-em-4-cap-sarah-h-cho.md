@@ -1,17 +1,43 @@
 ---
-title: Luz Vermelha -  minissérie em 4 cápitulos, por Sarah H. Cho
+title: Luz Vermelha -  minissérie em 4 cápitulos
 description: 
 author: Vítor Marçal
 created_at: 2024-11-10T18:34:00
 is_post: true
 tags:
-  - portugues
+  - livros
   - quadrinhos
+  - portugues
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
 image: img/luz-vermelha-mini-em-4-cap-sarah-h-cho.png
 language: pt
+updated_at: 
+feedback:
+  - gostei
+book_author:
+  - Sarah H. Cho
+  - Priscilla Petraites
+  - C.P. Smith
+volume: 
+series: Luz Vermelha
+favorite: 
+format:
+  - digital
+date_read: 2024-11-10
+is_book: true
+quote: 
+page_number: 
+publisher:
+  - Awa Studios
+publication_year: 2024
+isbn: 
+reading_status:
+  - completed
+genre:
+  - distopia
+  - graphic novel
 ---
 
 ![Luz Vermelha - minissérie em 4 cápitulos, por Sarah H. Cho](img/luz-vermelha-mini-em-4-cap-sarah-h-cho.png)

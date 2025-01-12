@@ -35,7 +35,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 9.  [Oshi no Ko - Minha Estrela Preferida Vol. 01](oshi-no-ko-minha-estrela-preferida-vol-01), por Aka Akasaka - 2024-02-15
 10.  [Aprenda Inglês num piscar de olhos](aprenda-ingles-num-piscar-de-olhos), por Fabiana Lara - 2024-02-21
 11.  [O Planeta dos Macacos](o-planeta-dos-macacos), por Pierre Boulle - 2024-02-26
-12. [Cypherpunks: Liberdade e o Futuro da Internet](cypherpunks-liberdade-e-o-futuro-da-internet)c, por Julian Assange -  2024-03-07
+12. [Cypherpunks: Liberdade e o Futuro da Internet](cypherpunks-liberdade-e-o-futuro-da-internet), por Julian Assange -  2024-03-07
 13. [Necron - Volume 1: A Fabricante de Monstros](necron-volume-1-a-fabricante-de-monstros), por Magnus - 2024-03-07
 14. [Necron - Volume 2: O Navio dos Leprosos](necron-volume-2-o-navio-dos-leprosos), por Magnus - 2024-03-08
 15. [Contos Reunidos do Mestre do Horror Cósmico,](contos-reunidos-do-mestre-do-horror-cosmico.md) de H. P. Lovecraft - 2024-03-12
@@ -62,7 +62,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 36. [As 110 Pilulas](as-110-pilulas-de-magnus.md), por Magnus - 2024-05-01
 37. [Condado Maldito: Volume 1 - Bruxas & Assombrações](condado-maldito-volume-1-bruxas-e-assombracoes), por Cullen Bunn - 2024-05-18
 38. [The Darkness: Origins - volume 1](the-darkness-volume-1), por Garth Ennis - 2024-05-18
-39. [O Astronaura](o-astronauta-de-jaroslav-kalfar), por Jaroslav Kalfar - 2024-05-22
+39. [O Astronauta](o-astronauta-de-jaroslav-kalfar), por Jaroslav Kalfar - 2024-05-22
 40. [Cantinho XXX](cantinho-xxx), por Caio Oliveira - 2024-06-20
 41. [HQ Héros Américains](hq-heros-americains), por Almicar Pinna - 2024-06-21
 42. [Suspiria: Herege](suspiria-herege), por Luca Laca Montagliani - 2024-06-23
