@@ -50,7 +50,7 @@ useHead({
     --frame-width: 100%;
     --frame-max-width: 100%;
     --frame-height: calc(100vh);
-    --noise: url('/images/noise.png');
+    --noise: url('/img/gostos-e-desgostos/noise.png');
   }
 
   @media screen and (min-width: 360px) {

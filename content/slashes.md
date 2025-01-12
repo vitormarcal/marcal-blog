@@ -23,7 +23,6 @@ Essa é uma página _slash_ (em português, _barra_), não é sobre o músico `S
 Esta página, em especial, é uma página slash que lista todas as minhas páginas slash neste site!
 
 * [/agora](agora)
-* [/books](books)
 * [/bookmarks](bookmarks)
 * [/cafeterias](cafeterias)
 * [/copypastables](copypastables)
