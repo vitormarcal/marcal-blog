@@ -68,6 +68,7 @@ export default defineNuxtConfig({
       ],
       defaultLocale: 'pt'
   },
+
   modules: [ 'nuxt-content-assets', '@nuxtjs/i18n', '@nuxt/content',
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt
   ],
@@ -78,19 +79,14 @@ export default defineNuxtConfig({
       prerender: {
           crawlLinks: true,
           routes: ['/atom.xml','/rss.xml','/sitemap.xml'],
-          ignore: [
-              '/books',
-              '/fr/books',
-              '/en/books',
-          ]
       }
   },
 
-    public: {
-        mdc: {
-            useNuxtImage: false,
-        },
-    },
+  public: {
+      mdc: {
+          useNuxtImage: false,
+      },
+  },
 
-  compatibilityDate: '2024-09-13'
+  compatibilityDate: '2025-01-12',
 })
