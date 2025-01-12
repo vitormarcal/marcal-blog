@@ -17,7 +17,27 @@ image: img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg
 language: pt
 feedback:
   - gostei
-book_author: Cullen Bunn
+book_author:
+  - Cullen Bunn
+volume: 1 de 8
+series: Condado Maldito
+favorite: 
+format:
+  - físico
+date_read: 2024-05-18
+is_book: true
+quote: 
+page_number: 160
+publisher:
+  - Darkside
+publication_year: 2020
+isbn: 978-6555980158
+reading_status:
+  - completed
+genre:
+  - terror
+  - suspense
+  - graphic novel
 ---
 
 ![condado-maldito-volume-1-bruxas-e-assombracoes](img/condado-maldito/condado-maldito-volume-1-bruxas-e-assombracoes.jpg)

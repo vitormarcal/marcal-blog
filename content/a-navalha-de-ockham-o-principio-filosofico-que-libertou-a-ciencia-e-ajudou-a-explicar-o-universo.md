@@ -15,7 +15,24 @@ image: img/a-navalha-de-ockham.jpg
 language: pt
 feedback:
   - gostei
-book_author: Johnjoe McFadden
+book_author:
+  - Johnjoe McFadden
+favorite: 
+format:
+  - físico
+date_read: 2024-01-25
+is_book: true
+quote: É inútil fazer com mais aquilo que pode ser feito com menos.
+page_number: 368
+publisher:
+  - Editora Sextante
+publication_year: 2022
+isbn: 978-6555644265
+reading_status:
+  - completed
+genre:
+  - filosofia
+  - ciência
 ---
 
 ![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](img/a-navalha-de-ockham.jpg)

@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Yoshiyuki Sadamoto
+volume: 1 de 7
+series: Neon Genesis Evangelion Collector's Edition
+favorite: 
+format:
+  - físico
+date_read: 2024-05-01
+is_book: true
+quote: 
+page_number: 368
+publisher:
+  - Editora JBC
+publication_year: 2024
+isbn: " 978-6555946086"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - pscológico
 ---
 
 ![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-04.jpg)

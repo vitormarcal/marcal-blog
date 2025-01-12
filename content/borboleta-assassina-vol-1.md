@@ -16,7 +16,25 @@ image: img/borboleta-assassina-vol-1.jpeg
 language: pt
 feedback:
   - gostei
-book_author: Yuka Nagate
+book_author:
+  - Yuka Nagate
+volume: 1 de 3
+series: Borboleta Assassina
+favorite: 
+format:
+  - físico
+date_read: 2024-09-07
+is_book: true
+quote: 
+page_number: 388
+publisher:
+  - Pipoca e Nanquim
+publication_year: 2024
+isbn: " 978-6589912996"
+reading_status:
+  - completed
+genre:
+  - graphic novel
 ---
 
 ![borboleta-assassina-vol-1](img/borboleta-assassina-vol-1.jpeg)

@@ -18,6 +18,25 @@ feedback:
   - gostei
 book_author:
   - Magnus
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-04-06
+is_book: true
+quote: 
+page_number: 120
+publisher:
+  - Tai Editora
+publication_year: 2019
+isbn: " 978-8585435028"
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - horror
+  - erótico
 ---
 
 ![necron-volume-3-monstros-mecanicos](img/necron-volume-3-monstros-mecanicos.jpg)

@@ -19,6 +19,25 @@ feedback:
   - gostei
 book_author:
   - Alan Moore
+volume: 1 de 3
+series: "Monstro do Pântano por Alan Moore: Edição Absoluta"
+favorite: 
+format:
+  - físico
+date_read: 2024-07-03
+is_book: true
+quote: 
+page_number: 448
+publisher:
+  - Panini
+publication_year: 2023
+isbn: 978-6555128390
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - horror
+  - pscológico
 ---
 
 ![monstro-do-pantano-vol-1-edicao-absoluta](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg)

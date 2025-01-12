@@ -19,6 +19,23 @@ feedback:
 book_author:
   - Yuri Moraes
   - Amilcar Pinna
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-06-21
+is_book: true
+quote: 
+page_number: 64
+publisher:
+  - Editora JBC
+publication_year: 2022
+isbn: " 978-6555942439"
+reading_status:
+  - completed
+genre:
+  - graphic novel
 ---
 
 ![hq-heros-americains](img/hq-heros-americains.jpg)

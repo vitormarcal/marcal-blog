@@ -1,5 +1,5 @@
 ---
-title: Antologia Poética, de
+title: Antologia Poética
 description: Anotações sobre a leitura do livro "Antologia Poética", de Carlos Drummond de Andrade
 author: Vítor Marçal
 created_at: 2024-01-11
@@ -16,7 +16,26 @@ image: img/antologia-poetica.jpg
 language: pt
 feedback:
   - gostei
-book_author: Carlos Drummond de Andrade
+book_author:
+  - Carlos Drummond de Andrade
+updated_at: 
+favorite: true
+format:
+  - físico
+  - digital
+date_read: 2024-01-11
+is_book: true
+quote: Essa ferida, meu bem,às vezes não sara nunca, às vezes sara amanhã.
+page_number: 368
+publisher:
+  - Record
+publication_year: 2022
+isbn: " 978-6555874624"
+reading_status:
+  - completed
+genre:
+  - literatura brasileira
+  - poesia
 ---
 
 ![Antologia Poética, de Carlos Drummond de Andrade](img/antologia-poetica.jpg)

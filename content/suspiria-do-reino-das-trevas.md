@@ -20,10 +20,29 @@ language: pt
 feedback:
   - gostei
 book_author:
-  -  Luca Laca Montagliani
+  - Luca Laca Montagliani
   - Andrea Jula
-  -  Franco Saudelli
-  -  Andrea Bulgarelli
+  - Franco Saudelli
+  - Andrea Bulgarelli
+volume: 1 de 3
+series: Suspiria
+favorite: 
+format:
+  - físico
+date_read: 2024-03-15
+is_book: true
+quote: 
+page_number: 192
+publisher:
+  - Tai Editora
+publication_year: 2022
+isbn: 978-6587651101
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - terror
+  - erótico
 ---
 
 ![suspiria-do-reino-das-trevas](img/suspiria-do-reino-das-trevas.jpg)

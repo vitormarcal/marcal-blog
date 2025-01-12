@@ -1,5 +1,5 @@
 ---
-title: Jovens Sagrados
+title: Jovens Sagrados 1 a 3
 description: Um slice of life focado nas férias de Buda e Jesus como colegas de quarto.
 author: Vítor Marçal
 created_at: 2024-02-07
@@ -18,6 +18,24 @@ feedback:
   - neutro
 book_author:
   - Hikaru Nakamura
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 
+is_book: true
+quote: 
+page_number: 
+publisher:
+  - NewPOP
+publication_year: 2026
+isbn: 
+reading_status:
+  - completed
+genre:
+  - humor
+  - graphic novel
 ---
 
 ![Jovens Sagrados](img/sant-young-man-1-a-3-1.jpg)

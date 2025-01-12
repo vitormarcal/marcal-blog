@@ -18,8 +18,26 @@ feedback:
 book_author:
   - Franklin D. Demana
   - Bert K. Waits
-  -  Gregory D. Foley
-  -  Daniel Kennedy
+  - Gregory D. Foley
+  - Daniel Kennedy
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-04-21
+is_book: true
+quote: 
+page_number: 472
+publisher:
+  - Pearson Universidades
+publication_year: 2013
+isbn: 978-8581430966
+reading_status:
+  - completed
+genre:
+  - matemática
+  - educação
 ---
 
 ![pre-calculo-grafico-numerico-e-algebrico](img/pre-calculo-grafico-numerico-e-algebrico.jpg)

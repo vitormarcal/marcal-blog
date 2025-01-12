@@ -17,6 +17,26 @@ feedback:
   - gostei
 book_author:
   - Mónica Ojeda
+updated_at: 
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2023-12-01
+is_book: true
+quote: 
+page_number: 304
+publisher:
+  - Autêntica Contemporânea
+publication_year: 2022
+isbn: " 978-6559281497"
+reading_status:
+  - completed
+genre:
+  - horror
+  - suspense
+  - pscológico
 ---
 
 ![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)

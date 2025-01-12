@@ -16,6 +16,26 @@ image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-34-edicao-definitiva.jp
 language: pt
 feedback:
   - gostei
+book_author:
+  - Akira Toriyama
+volume: 34 de 34
+series: Dragon Ball - Edição Definitiva
+favorite: 
+format:
+  - físico
+date_read: 2024-11-24
+is_book: true
+quote: 
+page_number: 256
+publisher:
+  - Panini
+publication_year: 2024
+isbn: 978-6525932903
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
 ---
 
 ![dragon-ball-vol-34-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-34-edicao-definitiva.jpg)

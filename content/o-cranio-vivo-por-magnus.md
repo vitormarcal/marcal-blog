@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Magnus
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-09-29
+is_book: true
+quote: 
+page_number: 
+publisher:
+  - Tai Editora
+publication_year: 2024
+isbn: 
+reading_status:
+  - completed
+genre:
+  - horror
+  - suspense
 ---
 
 ![o-cranio-vivo-de-magnus](img/o-cranio-vivo-de-magnus.png)

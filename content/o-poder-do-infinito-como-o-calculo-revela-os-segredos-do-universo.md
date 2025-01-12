@@ -17,6 +17,25 @@ feedback:
   - gostei
 book_author:
   - Steven Strogatz
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-07-28
+is_book: true
+quote: 
+page_number: 352
+publisher:
+  - Editora Sextante
+publication_year: 2022
+isbn: " 978-6555643015"
+reading_status:
+  - completed
+genre:
+  - matemática
+  - filosofia
+  - história
 ---
 
 ![o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo](img/o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo.jpg)

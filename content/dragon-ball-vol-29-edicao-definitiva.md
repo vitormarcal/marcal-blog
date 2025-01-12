@@ -18,6 +18,24 @@ feedback:
   - gostei
 book_author:
   - Akira Toriyama
+volume: 29 de 34
+series: Dragon Ball - Edição Definitiva
+favorite: 
+format:
+  - físico
+date_read: 2024-01-04
+is_book: true
+quote: 
+page_number: 248
+publisher:
+  - Panini
+publication_year: 2023
+isbn: 978-6525924472
+reading_status:
+  - completed
+genre:
+  - graphic novel
+  - shonen
 ---
 
 ![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-29-edicao-definitiva.jpg)

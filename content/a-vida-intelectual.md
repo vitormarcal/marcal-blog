@@ -16,7 +16,24 @@ image: img/a-vida-intelectual.jpg
 language: pt
 feedback:
   - não gostei
-book_author: Antonin-Dalmace Sertillanges
+book_author:
+  - Antonin-Dalmace Sertillanges
+favorite: 
+format:
+  - físico
+date_read: 2024-03-12
+is_book: true
+quote: Os gênios não saem para jantar (??)
+page_number: 224
+publisher:
+  - Edipro
+isbn: 978-6556601236
+reading_status:
+  - completed
+genre:
+  - filosofia
+  - educação
+publication_year: 2023
 ---
 
 ![a-vida-intelectual](img/a-vida-intelectual.jpg)

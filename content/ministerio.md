@@ -18,6 +18,25 @@ feedback:
 book_author:
   - Francisco Solano López
   - Ricardo Barreiro
+volume: 
+series: 
+favorite: 
+format:
+  - físico
+date_read: 2024-03-13
+is_book: true
+quote: 
+page_number: 96
+publisher:
+  - Comix Zone
+publication_year: 2023
+isbn: " 978-6500850925"
+reading_status:
+  - completed
+genre:
+  - distopia
+  - graphic novel
+  - suspense
 ---
 ![ministerio](img/ministerio.jpg)
 
