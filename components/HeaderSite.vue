@@ -8,7 +8,7 @@ const navigationLinks = [
   { label: 'header.about', path: '/sobre', delay: 0.06 },
   { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
   { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
-  { label: 'header.readings', path: '/leituras-de-2024', delay: 0.25 },
+  { label: 'header.readings', path: '/leituras-de-2025', delay: 0.25 },
   { label: 'header.slashes', path: '/slashes', delay: 0.35 },
 ];
 

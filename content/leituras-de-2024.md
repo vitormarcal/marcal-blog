@@ -11,11 +11,11 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
-image: img/leituras-do-ano.png
+image: img/leituras-do-ano/biblioteca-pessoal-escritório-aconchegante.png
 language: pt
 ---
 
-![Leituras de 2024](img/leituras-do-ano.png)
+![Uma biblioteca pessoal bem aconchegante](img/leituras-do-ano/biblioteca-pessoal-escritório-aconchegante.png)
 
 Já há alguns anos, eu registro minhas atividades de leitura no Goodreads. Lá, consigo me planejar, marcar leituras desejadas e concluídas. Acontece que o Goodreads tem uma usabilidade péssima e uma funcionalidade limitada para exportar nossos dados.
 

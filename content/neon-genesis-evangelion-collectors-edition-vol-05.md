@@ -10,7 +10,7 @@ tags:
   - quadrinhos
   - portugues
 related:
-  - "[[leituras-de-2024]]"
+  - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
 image: img/neon-genesis-evangelion-collectors-edition-vol-05.jpg
 language: pt
@@ -18,8 +18,8 @@ feedback:
   - gostei
 book_author:
   - Yoshiyuki Sadamoto
-volume: 
-series: 
+volume: 5 de 7
+series: Neon Genesis Evangelion Collector's Edition
 favorite: 
 format:
   - físico
@@ -38,7 +38,7 @@ genre:
   - pscológico
 ---
 
-![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-05.jpg)
+![neon-genesis-evangelion-collectors-edition-vol-05](img/neon-genesis-evangelion-collectors-edition-vol-05.jpg)
 
 > Shinji ainda sofre com a perda de um amigo próximo e se recusa a voltar para a escola. Com isso, Asuka decide tomar a frente e mostrar à NERV que pode ser tão boa piloto quanto o garoto, porém, acaba sendo afetada pelas habilidades de um anjo, comprometendo sua missão. Além de Shinji, Asuka e Rei, mais uma criança entra no cenário dos pilotos de EVA, porém, o novo garoto parece um tanto diferente do normal... especialmente quando o segredo de Rei finalmente vem à tona.
 

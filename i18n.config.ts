@@ -11,7 +11,7 @@ export default defineI18nConfig(() => ({
                 "about": "Sobre",
                 "posts": "Publicações",
                 "tags": "Categorias",
-                "readings": "Leituras de 2024",
+                "readings": "Leituras de 2025",
                 "slashes": "Slashes"
             },
             footer: {
@@ -46,7 +46,7 @@ export default defineI18nConfig(() => ({
                 "about": "About",
                 "posts": "Posts",
                 "tags": "Categories",
-                "readings": "2024 readings",
+                "readings": "2025 readings",
                 "slashes": "Slashes"
             },
             footer: {
@@ -81,7 +81,7 @@ export default defineI18nConfig(() => ({
                 "about": "À propos",
                 "posts": "Publications",
                 "tags": "Catégories",
-                "readings": "Lectures de 2024",
+                "readings": "Lectures de 2025",
                 "slashes": "Slashes"
             },
             footer: {
