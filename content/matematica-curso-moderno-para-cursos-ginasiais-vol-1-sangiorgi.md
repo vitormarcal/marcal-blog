@@ -17,6 +17,24 @@ feedback:
   - gostei
 book_author:
   - Osvaldo Sangiorgi
+volume: "1"
+series: Matemática Curso Moderno para cursos ginasiais
+favorite: 
+format:
+  - digital
+date_read: 2024-11-10T00:03:00
+is_book: true
+quote: 
+page_number: 327
+publisher:
+  - Companhia Editora Nacional
+publication_year: 1965
+isbn: 
+reading_status:
+  - completed
+genre:
+  - matemática
+  - educação
 ---
 
 ![Matemática Curso Moderno para cursos ginasiais Volume 1, de Osvaldo Sangiorgi](img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png)
