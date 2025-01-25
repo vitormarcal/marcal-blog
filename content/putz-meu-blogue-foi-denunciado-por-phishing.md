@@ -7,8 +7,10 @@ updated_at:
 is_post: true
 tags:
   - notas-pessoais
+  - portugues
 related:
   - "[[tags/notas-pessoais]]"
+  - "[[tags/portugues]]"
 image: img/putz-meu-blogue-foi-denunciado-por-phishing.png
 language: pt
 localized_post_paths: 
