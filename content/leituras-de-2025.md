@@ -36,11 +36,10 @@ Caso tenha curiosidade:
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2024-01-15
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. A Obscena Senhora D e outras histórias, por Hilda Hist - 2025-01-06
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
-🫥  Vazio por aqui
+1. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
