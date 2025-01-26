@@ -33,7 +33,8 @@ Caso tenha curiosidade:
 ## Sumário
 ## Lidos
 
-1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2024-01-15
+1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
+2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 
