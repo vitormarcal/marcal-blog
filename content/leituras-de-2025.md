@@ -37,6 +37,7 @@ Caso tenha curiosidade:
 2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+2. Memórias póstumas de Brás Cubas, por Machado de Assis = 2025-01-27
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
