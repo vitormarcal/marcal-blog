@@ -35,9 +35,9 @@ Caso tenha curiosidade:
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
 2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
+3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis = 2025-01-31
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. Memórias póstumas de Brás Cubas, por Machado de Assis = 2025-01-27
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
@@ -58,6 +58,9 @@ Nesta seção, reúno romances, ficção literária e obras clássicas que abran
 - Memórias póstumas de Brás Cubas, de Machado de Assis
 - Tropas estelares, de Robert A. Heinlein
 - Voladoras, de Mónica Ojeda
+- Quincas Borba, por Machado de Assis
+- Dom Casmurro, por Marchado de Assis
+- Esaú e Jacó, por Machado de Assis
 ### Cultura Pop e HQs
 Nesta seção, encontro mangás, graphic novels e obras populares da cultura geek e pop. São leituras que exploram temas visuais, histórias seriadas e adaptações de anime. Essa categoria é perfeita para momentos em que busco uma experiência de leitura mais leve e visualmente envolvente.
 
