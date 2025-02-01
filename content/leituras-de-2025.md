@@ -38,6 +38,8 @@ Caso tenha curiosidade:
 3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis = 2025-01-31
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+2. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
+3. O Ninho do Terror, por Gregory A. Douglas - 2025-02-01
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
