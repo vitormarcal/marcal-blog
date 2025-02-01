@@ -8,7 +8,10 @@ is_post: true
 tags:
   - livros
   - portugues
-related: 
+related:
+  - "[[tags/portugues]]"
+  - "[[tags/livros]]"
+  - "[[leituras-de-2025]]"
 image: img/memorias-postumas-de-bras-cubas.png
 language: pt
 feedback:
