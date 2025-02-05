@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /api/_content
+
+Sitemap: https://www.seusite.com/sitemap.xml
