@@ -79,10 +79,7 @@ export default defineNuxtConfig({
       prerender: {
           crawlLinks: true,
           routes: ['/atom.xml','/rss.xml','/sitemap.xml'],
-      },
-      routeRules: {
-          "/blog/**": { redirect: "/" },
-      },
+      }
   },
 
   public: {
