@@ -36,14 +36,14 @@ Caso tenha curiosidade:
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
 2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
 3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis = 2025-01-31
+4. [O Ninho do Terror](o-ninho-do-terror), por Gregory A. Douglas - 2025-02-06
 ## Lendo
-1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
-3. O Ninho do Terror, por Gregory A. Douglas - 2025-02-01
+5. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+6. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
-1. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
+7. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
