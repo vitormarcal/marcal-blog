@@ -12,14 +12,14 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/necron-volume-2-o-navio-dos-leprosos.jpg
+image: img/necron/necron-volume-2-o-navio-dos-leprosos.jpg
 language: pt
 feedback:
   - gostei
 book_author:
   - Magnus
-volume: 
-series: 
+volume: "2"
+series: Necron
 favorite: 
 format:
   - físico
@@ -39,7 +39,7 @@ genre:
   - erótico
 ---
 
-![necron-volume-2-o-navio-dos-leprosos](img/necron-volume-2-o-navio-dos-leprosos.jpg)
+![necron-volume-2-o-navio-dos-leprosos](img/necron/necron-volume-2-o-navio-dos-leprosos.jpg)
 
 > Após o incidente em seu laboratório, a Dra. Frieda Boher é salva por sua criação, Necron. Os dois então resolvem deixar o país e embarcam numa jornada cheia de sangue, cadáveres e depravações.
 

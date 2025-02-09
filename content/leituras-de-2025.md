@@ -37,13 +37,15 @@ Caso tenha curiosidade:
 2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
 3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis = 2025-01-31
 4. [O Ninho do Terror](o-ninho-do-terror), por Gregory A. Douglas - 2025-02-06
+5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
+6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
 ## Lendo
-5. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-6. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
+7. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+8. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
-7. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
+9. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
@@ -101,8 +103,6 @@ Nesta seção, encontro mangás, graphic novels e obras populares da cultura gee
 - Neon Genesis Evangelion Collector's Edition
     - Neon Genesis Evangelion Collector's Edition Vol. 07
 - Necron, por Magnus
-    - Necron - Volume 5: A Nobreza Depravada, por Magnus
-    - Necron - Volume 6: Massacre no Trem Noturno, por Magnus
     - Necron - Volume 7: A Baleia de Aço, por Magnus
     - Necron - Volume 8: O Homem Peixe, por Magnus
     - Necron - Volume 9: O Rei dos Canibais, por Magnus
