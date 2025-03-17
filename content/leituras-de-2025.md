@@ -40,9 +40,10 @@ Caso tenha curiosidade:
 5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
 6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
 ## Lendo
-7. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-8. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
-9. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
+1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+2. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
+3. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
+4. Battle Royale Omnibus: Volume 2, por Koushun Takami, Masayuki Taguchi - 2025-02-22
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
