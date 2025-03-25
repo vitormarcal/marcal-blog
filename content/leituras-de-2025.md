@@ -35,15 +35,15 @@ Caso tenha curiosidade:
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
 2. [O cotidiano da burocracia : o amadorismo no dia-a-dia do Serviço Público Federal](o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal), por Nelson do Vale Oliveira - 2025-01-26
-3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis = 2025-01-31
+3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis, 2025-01-31
 4. [O Ninho do Terror](o-ninho-do-terror), por Gregory A. Douglas - 2025-02-06
 5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
 6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
+7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-01-01
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. Manual de psicologia cognitiva, por Michael W. Eysenck - 2025-01-01
-3. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
-4. Battle Royale Omnibus: Volume 2, por Koushun Takami, Masayuki Taguchi - 2025-02-22
+2. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
+3. Battle Royale Omnibus: Volume 2, por Koushun Takami, Masayuki Taguchi - 2025-02-22
 
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
