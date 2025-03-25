@@ -39,7 +39,7 @@ Caso tenha curiosidade:
 4. [O Ninho do Terror](o-ninho-do-terror), por Gregory A. Douglas - 2025-02-06
 5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
 6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
-7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-01-01
+7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-03-24
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
