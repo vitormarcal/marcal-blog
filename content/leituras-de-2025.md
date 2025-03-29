@@ -31,6 +31,10 @@ Caso tenha curiosidade:
 ---
 
 ## Sumário
+
+## Lendo
+1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
+2. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -41,13 +45,10 @@ Caso tenha curiosidade:
 6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
 7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-03-24
 8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2024-03-29
-## Lendo
-1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
-
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
-10. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
+
+1. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
