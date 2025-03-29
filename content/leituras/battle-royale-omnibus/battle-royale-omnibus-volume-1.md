@@ -1,6 +1,6 @@
 ---
 title: "Battle Royale Omnibus: Volume 1 ⚔️"
-description: Volume 1 de 5 da Editora ‎ Pipoca e Nanquim
+description: Volume 1 de 5 da Editora Pipoca e Nanquim
 author: Vítor Marçal
 created_at: 2024-07-23T21:42:00
 updated_at: 
@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg
+image: /leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-1.jpg
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pscológico
 ---
 
-![battle-royale-omnibus-volume-1](img/battle-royale-omnibus/battle-royale-omnibus-volume-1.jpg)
+![battle-royale-omnibus-volume-1](/leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-1.jpg)
 
 Clássico. Comparado a ele, `Jogos Vorazes` é história para adolescente. Na verdade, esse best-seller praticamente deu origem ao gênero `battle royale` nos filmes, jogos, mangás e animes.
 

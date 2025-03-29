@@ -70,7 +70,7 @@ Este ano, farei um pouco diferente. Ainda registrarei lá no Goodreads, mas dest
 44. [Dragon Ball Vol. 32 - Edição Definitiva](dragon-ball-vol-32-edicao-definitiva), por Akira Toriyama - 2024-07-07
 45. [Hokuto No Ken: Volume 11](hokuto-no-ken-volume-11), por Buronson e Tetsuo Hara - 2024-07-16
 46. [Sal, gordura, ácido, calor: Os elementos da boa cozinha](sal-gordura-acido-calor-os-elementos-da-boa-cozinha), por Samin Nosrat - 2024-07-17
-47. [Battle Royale Omnibus: Volume 1](battle-royale-omnibus-volume-1), por Koushun Takami - 2024-07-23
+47. [Battle Royale Omnibus: Volume 1](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-1), por Koushun Takami - 2024-07-23
 48. [O poder do infinito: Como o cálculo revela os segredos do universo](o-poder-do-infinito-como-o-calculo-revela-os-segredos-do-universo), por Steven Strogatz - 2024-07-28
 49. [Mamie Pétronille et le ruban jaune](fr/mamie-petronille-et-le-ruban-jaune.md), por Jane Cadwaller - 2024-08-30
 50. [Amar, verbo intransitivo](amar-verbo-intransitivo-de-mario-de-andrade.md), por Mário de Andrade - 2024-09-05
