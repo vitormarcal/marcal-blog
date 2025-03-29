@@ -44,7 +44,7 @@ Caso tenha curiosidade:
 5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
 6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
 7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-03-24
-8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2024-03-29
+8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2025-03-29
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
