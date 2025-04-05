@@ -35,6 +35,7 @@ Caso tenha curiosidade:
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui, por Liev Tolstói - 2025-02-09
+3. Rápido e devagar: Duas formas de pensar, por Daniel Kahneman - 2025-04-04
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -42,7 +43,7 @@ Caso tenha curiosidade:
 3. [Memórias póstumas de Brás Cubas](memorias-postumas-de-bras-cubas), por Machado de Assis, 2025-01-31
 4. [O Ninho do Terror](o-ninho-do-terror), por Gregory A. Douglas - 2025-02-06
 5. [Necron - Volume 5: A Nobreza Depravada](necron-volume-5-a-nobreza-depravada), por Magnus - 2025-02-09
-6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus
+6. [Necron - Volume 6: Massacre no Trem Noturno](necron-volume-6-massacre-no-trem-noturno), por Magnus - 2025-02-09
 7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-03-24
 8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2025-03-29
 ## Abandonados
