@@ -46,6 +46,7 @@ Caso tenha curiosidade:
 7. [Manual de psicologia cognitiva](manual-de-psicologia-cognitiva), por Michael W. Eysenck - 2025-03-24
 8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2025-03-29
 9. [Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui](leituras/novelas-completas-tolstoi-editora-todavia), por Liev Tolstói - 2025-04-15
+10. [Neon Genesis Evangelion Collector's Edition Vol. 07](neon-genesis-evangelion-collectors-edition-vol-07), por Yoshiyuki Sadamoto - 2025-05-04
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
