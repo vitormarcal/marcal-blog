@@ -47,6 +47,7 @@ Caso tenha curiosidade:
 8. [Battle Royale Omnibus: Volume 2](leituras/battle-royale-omnibus/battle-royale-omnibus-volume-2), por Koushun Takami - 2025-03-29
 9. [Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui](leituras/novelas-completas-tolstoi-editora-todavia), por Liev Tolstói - 2025-04-15
 10. [Neon Genesis Evangelion Collector's Edition Vol. 07](neon-genesis-evangelion-collectors-edition-vol-07), por Yoshiyuki Sadamoto - 2025-05-04
+11. [Craftsmanship Limpo - Disciplinas, Padrões e Ética](leituras/craftsmanship-limpo), por Robert C. Martin - 2025-05-26
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
