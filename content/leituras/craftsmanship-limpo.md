@@ -29,7 +29,6 @@ quote: Você não reserva tempo para refatoração. Você não perde permissão 
 page_number: 416
 publisher:
   - Alta Books
-  - Artmed
 publication_year: 2023
 isbn: 978-6555209549
 reading_status:
