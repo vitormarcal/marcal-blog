@@ -48,6 +48,7 @@ Caso tenha curiosidade:
 9. [Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui](leituras/novelas-completas-tolstoi-editora-todavia), por Liev Tolstói - 2025-04-15
 10. [Neon Genesis Evangelion Collector's Edition Vol. 07](neon-genesis-evangelion-collectors-edition-vol-07), por Yoshiyuki Sadamoto - 2025-05-04
 11. [Craftsmanship Limpo - Disciplinas, Padrões e Ética](leituras/craftsmanship-limpo), por Robert C. Martin - 2025-05-26
+12. [Domain-Driven Design Destilado](leituras/ddd-destilado), por Vaughn Vernon - 2025-05-26
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
@@ -130,8 +131,8 @@ Aqui estão os livros de ciências, filosofia, política e outras áreas que foc
 - História da Matemática, por Carl B. Boyer
 - Ignorância: Uma história global, por Peter Burke
 - Infinitesimal: A teoria matemática que revolucionou o mundo, por Amir Alexander
-- O Homem que Calculava, por Malba Tahan (releitura)
-- O mundo assombrado pelos demônios, por Carl Sagan (releitura)
+- O Homem que Calculava, por Malba Tahan <span style="color: red">(releitura)</span>
+- O mundo assombrado pelos demônios, por Carl Sagan <span style="color: red">(releitura)</span>
 - O novo Iluminismo: Em defesa da razão, da ciência e do humanismo, por Steven Pinker
 ### Educação e Estudos Técnicos
 Aqui entram livros que têm um caráter mais instrutivo e técnico.
@@ -139,10 +140,10 @@ Aqui entram livros que têm um caráter mais instrutivo e técnico.
 - Cálculo: Volume 1 por James Stewart
 - Calculus: Early Transcendentals por William Briggs
 - Crucial Confrontations: Tools for Resolving Broken Promises, Violated Expectations, and Bad Behavior por Joseph Grenny e outros
-- Implementing Domain-Driven Design por Vaughn Vernon (releitura)
+- Implementing Domain-Driven Design por Vaughn Vernon <span style="color: red">(releitura)</span>
 - Inspired: How to Create Tech Products Customers Love por Marty Cagan
 - Passo a passo - inglês por Charles Berlitz
 - Redes de Computadores por Nick Feamster
 - Release It!: Design and Deploy Production-Ready Software por Michael T. Nygard
-- The Mythical Man-Month: Essays on Software Engineering por Frederick P. Brooks Jr. e outros (releitura)
+- The Mythical Man-Month: Essays on Software Engineering por Frederick P. Brooks Jr. e outros <span style="color: red">(releitura)</span>
 - The Oz Principle: Getting Results Through Individual and Organizational Accountability por Craig Hickman e outros
