@@ -35,7 +35,7 @@ Caso tenha curiosidade:
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Os miseráveis, por Victor Hugo - 2025-04-21
-3. Novas comédias da vida privada, por Luis Fernando Verissimo - 2025-05-31
+3. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
