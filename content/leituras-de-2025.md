@@ -50,6 +50,7 @@ Caso tenha curiosidade:
 10. [Neon Genesis Evangelion Collector's Edition Vol. 07](neon-genesis-evangelion-collectors-edition-vol-07), por Yoshiyuki Sadamoto - 2025-05-04
 11. [Craftsmanship Limpo - Disciplinas, Padrões e Ética](leituras/craftsmanship-limpo), por Robert C. Martin - 2025-05-26
 12. [Domain-Driven Design Destilado](leituras/ddd-destilado), por Vaughn Vernon - 2025-05-26
+13. [Deadworld: Volume 1](leituras/deadworld/deadworld-volume-1), por Stuart Kerr - 2025-06-15
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
