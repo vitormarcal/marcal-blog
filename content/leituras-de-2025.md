@@ -52,6 +52,7 @@ Caso tenha curiosidade:
 12. [Domain-Driven Design Destilado](leituras/ddd-destilado), por Vaughn Vernon - 2025-05-26
 13. [Deadworld: Volume 1](leituras/deadworld/deadworld-volume-1), por Stuart Kerr - 2025-06-15
 14. [The Boys](leituras/the-boys/the-boys), por Garth Ennis - 2025-06-19
+15. [Kick-Ass: A Era de Dave Lizewski - Volume 1](leituras/kick-ass/kick-ass-volume-1), por Mark Millas - 2025-06-19
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
