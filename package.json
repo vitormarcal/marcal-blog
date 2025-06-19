@@ -7,6 +7,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
+  "engines": {
+    "node": ">=20.16.0"
+  },
   "dependencies": {
     "@nuxt/content": "^2.13.4",
     "hast-util-to-html": "^9.0.5",
