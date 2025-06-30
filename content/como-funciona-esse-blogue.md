@@ -1,41 +1,25 @@
 ---
-title: Sobre
-description: "Ou: quem esse cara pensa que é, afinal?"
+title: Como funciona esse blog
+description: 
 author: Vítor Marçal
-is_post: false
+created_at: 2025-06-30T12:56:00
+updated_at: 
+is_post: true
+tags:
+  - notas-pessoais
+  - portugues
 related:
-  - "[[paginas-fixas]]"
+  - "[[tags/notas-pessoais]]"
+  - "[[tags/portugues]]"
 language: pt
 ---
-----
+> Essa publicação foi colocada há algum tempo na página [Sobre](sobre) do meu site. Como ela pode mudar, decidi copiá-la para uma página própria e assim manter um histórico.
 
-![Imagem na escala cinza da minha pessoa](img/profile-image.svg)
-
-**Oi! Eu sou o Vítor Marçal.** Este é meu cantinho na internet, onde compartilho um pouco sobre quem sou, o que gosto de fazer e como funciono. Sinta-se à vontade para explorar!
 ## Conteúdo
 
----
-## Um pouco sobre mim
-Sou capixaba, nascido em Vitória, Espírito Santo. Já morei em Minas Gerais, e há muitos anos vivo no Distrito Federal.
-
-Atualmente, sou Software Engineer no iFood, integrando os times de Anti-fraude e Identidade.
-
-Tenho uma esposa, uma filha e duas gatas. Embora sonhe em ter um cachorro, isso vai esperar até que eu more em um espaço maior.
-
-Sou mais produtivo pela manhã, quando resolvo problemas e tomo decisões com mais clareza. Curiosamente, tenho apreciado cada vez mais o anoitecer, um horário tranquilo para refletir enquanto a cidade dorme.
-
-----
-### Meus interesses
-
-- ✍️ **Escrever no blog:** compartilhar pensamentos e memórias.
-- 🖥️ **Tecnologia:** criar, explorar e testar soluções open source.
-- 📚 **Leitura:** de quadrinhos a livros científicos.
-- 🎥 **Filmes e séries:** especialmente animações japonesas.
-- 🎶 **Música:** indie, rock anos 80/90, lofi e clássica para relaxar.
-
----
 ## Como funciona esse blogue
 Escolhi um site estático pela sua simplicidade, rapidez e controle total sobre o conteúdo. Detalhei essa decisão em [De Volta ao Blog Estático: Simplicidade e Liberdade](de-volta-ao-blog-estatico-simplicidade-e-liberdade).
+
 
 O código do blog é open source e está disponível no [repositório no GitHub](https://github.com/vitormarcal/marcal-blog).
 
@@ -63,4 +47,3 @@ O RSS é uma maneira prática e independente de acompanhar o conteúdo, sem depe
 
 - [RSS](https://www.marcal.dev/rss.xml)
 - [Atom](https://www.marcal.dev/atom.xml)
-
