@@ -36,7 +36,8 @@ Caso tenha curiosidade:
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Os miseráveis, por Victor Hugo - 2025-04-21
 3. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
-4. O Espetacular Homem-Aranha: Volume 1 - Edição Definitiva, por Jack Kirby, Stan Lee, Steve Ditko - 2025-06-25
+4. O Espetacular Homem-Aranha: Volume 2 - Edição Definitiva, por Jack Kirby, Stan Lee, Steve Ditko - 2025-07-09
+5. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -54,6 +55,8 @@ Caso tenha curiosidade:
 13. [Deadworld: Volume 1](leituras/deadworld/deadworld-volume-1), por Stuart Kerr - 2025-06-15
 14. [The Boys](leituras/the-boys/the-boys), por Garth Ennis - 2025-06-19
 15. [Kick-Ass: A Era de Dave Lizewski - Volume 1](leituras/kick-ass/kick-ass-volume-1), por Mark Millas - 2025-06-19
+16. [Kick-Ass: A Era de Dave Lizewski - Volume 2](leituras/kick-ass/kick-ass-volume-2), por Mark Millas - 2025-07-09
+17. [O Espetacular Homem-Aranha - Edição Definitiva : Volume 1](leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1), por Stan Lee, Steve Ditko - 2025-07-09
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
