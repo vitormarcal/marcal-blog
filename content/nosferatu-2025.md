@@ -7,7 +7,8 @@ updated_at:
 is_post: true
 tags:
   - video
-related: 
+related:
+  - "[[tags/video]]"
 image: img/movies/2025/nosferatu-2025.png
 language: pt
 localized_post_paths: 
