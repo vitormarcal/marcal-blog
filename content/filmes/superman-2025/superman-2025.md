@@ -9,7 +9,7 @@ tags:
   - video
 related:
   - "[[tags/video]]"
-image: filmes/superman-2025/superman-2025-1-png
+image: /filmes/superman-2025/superman-2025-1-png
 language: pt
 localized_post_paths: 
 has_localized_posts: false
@@ -32,7 +32,7 @@ video_quality:
 ---
 Acredito que heróis não devem confundir, não devem estar na zona cinzenta da moralidade, eles representam tudo o que poderíamos ser, mesmo sem seus poderes.
 
-![superman-2025](filmes/superman-2025/superman-2025-1.png)
+![superman-2025](/filmes/superman-2025/superman-2025-1.png)
 
 Esse Superman tem uma preocupação genuína não só com as pessoas, mas mesmo um esquilo, que pode acabar sendo esmagado, até o inimigo que está batalhando contra.
 
@@ -40,4 +40,4 @@ Uma volta à origem era o que precisávamos e foi o que conseguimos com esse nov
 
 A meu ver ele agora se torna o melhor Superman adaptado nos cinemas.
 
-![superman-2025](filmes/superman-2025/superman-2025-2.png)
+![superman-2025](/filmes/superman-2025/superman-2025-2.png)
