@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /img/os-miseraveis-por-victor-hugo.png
+image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
 language: pt
 book_author:
   - Victor Hugo
@@ -23,16 +23,21 @@ publisher:
 publication_year: 2020
 isbn: 978-8544000007
 reading_status:
-  - reading
+  - completed
 genre:
   - ficção europeia
 dominant_color: "#301f16"
 localized_post_paths: 
 has_localized_posts: false
 ---
-![os-miseraveis-por-victor-hugo-livro-1](/img/os-miseraveis-por-victor-hugo.png)
+![os-miseraveis-por-victor-hugo-livro-1](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png)
 
 Terminei o primeiro livro, que, em resumo, é a biografia do Bispo Myriel, ou como é chamado, Monsenhor Bienvenu. Já dá para notar, desde os primeiros capítulos, que Hugo não vai economizar palavras. Ele descreve o ambiente, os personagens, e vai dispor do tempo que for necessário para comunicar o que deseja. Portanto, o primeiro volume se ocupa em descrever todo um contexto ao redor do Bispo, que provavelmente terá importância ao longo do romance.
+
+> Essa leitura rendeu três publicações, eu planejava escrever mais mas me conheço, ia ser quase impossível:
+> * [Os miseráveis, por Victor Hugo - Livro 1](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-livro-1) - Você está aqui
+> * [Os miseráveis, por Victor Hugo - Livro 2](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-livro-2)
+> * [Os Miseráveis: Finalmente terminei - e foi um bocado de tempo!](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-finalmente-terminei)
 
 Monsenhor Bienvenu, ao contrário do que o senso comum poderia imaginar ao pensar num homem nessa posição, um bispo da Igreja Católica, não vive com riqueza ou qualquer tipo de luxo. Dos, se não me engano, 15 mil francos de seu provento como bispo, ele separa apenas 500 para sua subsistência; o restante ele destina a diversas causas sociais, ajuda aos pobres, etc. Ele não impõe regras, ele age. Doa seu salário, visita os doentes, anda a pé, escuta os esquecidos. Ao longo do livro, o bispo é retratado como um homem que vive o Evangelho: alguém que ama e ajuda o próximo, mesmo que esse outro seja malvisto, um bandido, um assassino.
 

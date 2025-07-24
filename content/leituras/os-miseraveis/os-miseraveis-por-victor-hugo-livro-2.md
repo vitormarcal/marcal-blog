@@ -12,8 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-  - "[[leituras/os-miseraveis-por-victor-hugo-livro-1]]"
-image: /img/os-miseraveis-por-victor-hugo.png
+image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
 language: pt
 book_author:
   - Victor Hugo
@@ -24,16 +23,21 @@ publisher:
 publication_year: 2020
 isbn: 978-8544000007
 reading_status:
-  - reading
+  - completed
 genre:
   - ficção europeia
 dominant_color: "#301f16"
 localized_post_paths: 
 has_localized_posts: false
 ---
-![os-miseraveis-por-victor-hugo-livro-2](/img/os-miseraveis-por-victor-hugo.png)
+![os-miseraveis-por-victor-hugo-livro-2](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png)
 
-Estou lendo Os Miseráveis, é um livro longo, organizado em vários livros: uma verdadeira Bíblia! Não espero escrever algo para cada livro ma somente quando eu achar que faça sentido. Se interessar, leia minhas impressões sobre o [primeiro livro](/leituras/os-miseraveis-por-victor-hugo-livro-1).
+Estou lendo Os Miseráveis, é um livro longo, organizado em vários livros: uma verdadeira Bíblia! Não espero escrever algo para cada livro ma somente quando eu achar que faça sentido. 
+
+> Essa leitura rendeu três publicações, eu planejava escrever mais mas me conheço, ia ser quase impossível:
+> * [Os miseráveis, por Victor Hugo - Livro 1](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-livro-1) 
+> * [Os miseráveis, por Victor Hugo - Livro 2](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-livro-2) - Você está aqui
+> * [Os Miseráveis: Finalmente terminei - e foi um bocado de tempo!](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-finalmente-terminei)
 
 Aqui, nos é contada a trágica história de Jean Valjean. Uma pessoa pobre, a quem a vida foi dura desde pequeno. Seus pais morreram quando ele ainda era criança, e passou a ser cuidado por sua irmã mais velha. Mais tarde, foi ele quem passou a cuidar da irmã e dos filhos dela: sete crianças para alimentar.
 
