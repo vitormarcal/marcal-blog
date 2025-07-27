@@ -75,7 +75,6 @@ Nesta seção, reúno romances, ficção literária e obras clássicas que abran
 - Herdeiros do Tempo, de Adrian Tchaikovsky
 - Macunaíma, por Mário de Andrade
 - Matéria Escura, de Blake Crouch e Alexandre Raposo
-- Memórias póstumas de Brás Cubas, de Machado de Assis
 - Tropas estelares, de Robert A. Heinlein
 - Voladoras, de Mónica Ojeda
 - Quincas Borba, por Machado de Assis
