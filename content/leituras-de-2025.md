@@ -38,6 +38,7 @@ Caso tenha curiosidade:
 3. O Espetacular Homem-Aranha: Volume 2 - Edição Definitiva, por Jack Kirby, Stan Lee, Steve Ditko - 2025-07-09
 4. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
 5. Criando Microsserviços, por Sam Newman - 2025-07-24
+6. Contos completos, por Liev Tolstói - 2025-08-03
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
