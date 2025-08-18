@@ -30,5 +30,6 @@ Esta página, em especial, é uma página slash que lista todas as minhas págin
 * [/gostos](gostos)
 * [/publicacoes](publicacoes)
 * [/sobre](sobre)
+* [/musicas](musicas)
 
 Por enquanto, é isso. Mas há várias páginas que ainda quero criar!
