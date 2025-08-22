@@ -35,10 +35,9 @@ Caso tenha curiosidade:
 ## Lendo
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
-3. O Espetacular Homem-Aranha: Volume 2 - Edição Definitiva, por Jack Kirby, Stan Lee, Steve Ditko - 2025-07-09
-4. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
-5. Criando Microsserviços, por Sam Newman - 2025-07-24
-6. Contos completos, por Liev Tolstói - 2025-08-03
+3. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
+4. Criando Microsserviços, por Sam Newman - 2025-07-24
+5. Contos completos, por Liev Tolstói - 2025-08-03
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -59,6 +58,9 @@ Caso tenha curiosidade:
 16. [Kick-Ass: A Era de Dave Lizewski - Volume 2](leituras/kick-ass/kick-ass-volume-2), por Mark Millas - 2025-07-09
 17. [O Espetacular Homem-Aranha - Edição Definitiva : Volume 1](leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1), por Stan Lee, Steve Ditko - 2025-07-09
 18. [Os Miseráveis, por Victor Hugo](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo-livro-1) - 2025-07-23
+19. [O Espetacular Homem-Aranha - Edição Definitiva : Volume 2](leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-2), por Stan Lee - 2025-08-01
+20. [O Espetacular Homem-Aranha - Edição Definitiva : Volume 3](leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-3), por Stan Lee - 2025-08-22
+21. [Les Profs](leituras/les-profs/les-profs-tome-1-interro-surprise), por Erroc, Pica, Jacqueline Guénard - 2025-08-22
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
