@@ -37,7 +37,6 @@ Caso tenha curiosidade:
 2. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
 3. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
 4. Criando Microsserviços, por Sam Newman - 2025-07-24
-5. Contos completos, por Liev Tolstói - 2025-08-03
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
