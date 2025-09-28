@@ -61,7 +61,7 @@ Caso tenha curiosidade:
 21. [Les Profs](leituras/les-profs/les-profs-tome-1-interro-surprise), por Erroc, Pica, Jacqueline Guénard - 2025-08-22
 22. [Le plat du loup plat](leituras/pastel/le-plat-du-loup-plat), por Michel Van Zeveren - 2025-08-22
 23. [Astérix vol 1 : Asterix le Gaulois](/leituras/asterix/asterix-le-gaulois-v1), por Rene Goscinny - 2025-09-12
-24. [Criando Microsserviços](criando-microsservicos-por-sam-newman), por Sam Newman - 2025-09-22
+24. [Criando Microsserviços](/leituras/criando-microsservicos-por-sam-newman), por Sam Newman - 2025-09-22
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
