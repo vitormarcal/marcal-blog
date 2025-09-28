@@ -36,7 +36,6 @@ Caso tenha curiosidade:
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
 3. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
-4. Criando Microsserviços, por Sam Newman - 2025-07-24
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -61,6 +60,8 @@ Caso tenha curiosidade:
 20. [O Espetacular Homem-Aranha - Edição Definitiva : Volume 3](leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-3), por Stan Lee - 2025-08-22
 21. [Les Profs](leituras/les-profs/les-profs-tome-1-interro-surprise), por Erroc, Pica, Jacqueline Guénard - 2025-08-22
 22. [Le plat du loup plat](leituras/pastel/le-plat-du-loup-plat), por Michel Van Zeveren - 2025-08-22
+23. [Astérix vol 1 : Asterix le Gaulois](/leituras/asterix/asterix-le-gaulois-v1), por Rene Goscinny - 2025-09-12
+24. [Criando Microsserviços](criando-microsservicos-por-sam-newman), por Sam Newman - 2025-09-22
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
