@@ -37,6 +37,8 @@ Caso tenha curiosidade:
 2. Novas Comédias da Vida Privada: 123 Crônicas  Escolhidas, por Luis Fernando Verissimo - 2025-05-31
 3. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
 4.  Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-09-12
+5. O alienista, por Machado de Assis - 2025-10-07
+6. Engenharia de Plataforma: Um guia para líderes técnicos, de produtos e de pessoas, por Camille Fournier - 2025-10-07
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
