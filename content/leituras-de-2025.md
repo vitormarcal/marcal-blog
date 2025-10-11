@@ -38,6 +38,7 @@ Caso tenha curiosidade:
 3. Kick-Ass: A Era de Dave Lizewski - Volume 3, por Mark Millas - 2025-07-09
 4.  Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-09-12
 5. Engenharia de Plataforma: Um guia para líderes técnicos, de produtos e de pessoas, por Camille Fournier - 2025-10-07
+6. Dom Casmurro, por Machado de Assis - 2025-10-10
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -65,7 +66,7 @@ Caso tenha curiosidade:
 23. [Astérix vol 1 : Asterix le Gaulois](/leituras/asterix/asterix-le-gaulois-v1), por Rene Goscinny - 2025-09-12
 24. [Criando Microsserviços](/leituras/criando-microsservicos-por-sam-newman), por Sam Newman - 2025-09-22
 25. [Fundação](leituras/fundacao/fundacao), por Isaac Asimov - 2025-09-30
-26. [O alienista](/leituras/o-alienista/o-alienista), por Machado de Assis - 2025-10-11
+26. [O alienista](/leituras/o-alienista/o-alienista), por Machado de Assis - 2025-10-10
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
@@ -86,7 +87,6 @@ Nesta seção, reúno romances, ficção literária e obras clássicas que abran
 - Tropas estelares, de Robert A. Heinlein
 - Voladoras, de Mónica Ojeda
 - Quincas Borba, por Machado de Assis
-- Dom Casmurro, por Marchado de Assis
 - Esaú e Jacó, por Machado de Assis
 ### Cultura Pop e HQs
 Nesta seção, encontro mangás, graphic novels e obras populares da cultura geek e pop. São leituras que exploram temas visuais, histórias seriadas e adaptações de anime. Essa categoria é perfeita para momentos em que busco uma experiência de leitura mais leve e visualmente envolvente.
