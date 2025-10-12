@@ -37,6 +37,7 @@ Caso tenha curiosidade:
 2.  Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-09-12
 3. Engenharia de Plataforma: Um guia para líderes técnicos, de produtos e de pessoas, por Camille Fournier - 2025-10-07
 4. Dom Casmurro, por Machado de Assis - 2025-10-10
+5. Kick-Ass: A Era de Dave Lizewski - Volume 4, por Mark Millas - 2025-11-12
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
