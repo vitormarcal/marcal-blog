@@ -36,6 +36,7 @@ Caso tenha curiosidade:
 1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
 2.  Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-09-12
 3. Engenharia de Plataforma: Um guia para líderes técnicos, de produtos e de pessoas, por Camille Fournier - 2025-10-07
+4. Blade: A Lâmina do Imortal - Volume 3, por Hiroaki Samura
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -68,6 +69,8 @@ Caso tenha curiosidade:
 28. [Kick-Ass: A Era de Dave Lizewski - Volume 3](/leituras/kick-ass/kick-ass-volume-3), por Mark Millas - 2025-11-10
 29. [Kick-Ass: A Era de Dave Lizewski - Volume 4](/leituras/kick-ass/kick-ass-volume-4), por Mark Millas - 2025-10-14
 30. [Dom Casmurro](/leituras/dom-casmurro/dom-casmurro), por Machado de Assis - 2025-10-15
+31. [Blade: A Lâmina do Imortal - Volume 1](/leituras/blade-a-lamina-do-imortal/blade-vol-1), por Hiroaki Samura - 2025-10-20
+32. [Blade: A Lâmina do Imortal - Volume 2](/leituras/blade-a-lamina-do-imortal/blade-vol-2), por Hiroaki Samura - 2025-10-21
 ## Abandonados
 A vida é curta demais, e há muito mais sendo publicado por aí para nos forçarmos em uma leitura.
 
