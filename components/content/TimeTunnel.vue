@@ -91,6 +91,7 @@
 import { ref, watch } from 'vue'
 
 const API = 'https://media-pulse.marcal.dev/api/music'
+const COVERS_API = 'https://media-pulse.marcal.dev'
 
 const period = ref('week')
 const periods = [
@@ -193,7 +194,7 @@ function timeAgo(timestamp) {
 
 function coverStyle(url) {
   if (!url) return {}
-  return { backgroundImage: `url(${url})` }
+  return { backgroundImage: `url(${COVERS_API + url})` }
 }
 </script>
 
