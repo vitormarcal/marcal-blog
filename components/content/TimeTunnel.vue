@@ -92,6 +92,28 @@
         <p class="section-subtitle">
           Até o momento, esses álbuns têm 0 reproduções registradas.
         </p>
+
+        <div class="shuffle-row">
+          <button class="shuffle-btn" @click="shuffleAlbum">
+            <span class="icon-dice" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="7" cy="7" r="2" />
+                <circle cx="17" cy="7" r="2" />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+                <rect x="3" y="3" width="18" height="18" rx="4" ry="4"
+                      fill="none" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </span>
+            Me recomenda um agora
+          </button>
+          <div v-if="highlightedAlbum" class="shuffle-current">
+            Ouça agora:
+            <strong>{{ highlightedAlbum.albumTitle }}</strong>
+            <span class="by"> — {{ highlightedAlbum.artistName }}</span>
+          </div>
+        </div>
+
         <div class="album-grid">
           <div v-for="a in neverPlayedAlbums" :key="a.albumId" class="album-card">
             <div class="cover placeholder-cover">
@@ -178,8 +200,20 @@ const neverPlayedAlbums = ref([])
 const artistCoverage = ref([])
 const albumCoverage = ref([])
 
+const highlightedAlbum = ref(null)
+
 const loading = ref(false)
 const error = ref('')
+
+function shuffleAlbum() {
+  const pool = neverPlayedAlbums.value
+  if (!pool || pool.length === 0) {
+    highlightedAlbum.value = null
+    return
+  }
+  const idx = Math.floor(Math.random() * pool.length)
+  highlightedAlbum.value = pool[idx]
+}
 
 function computeRange(key) {
   const now = new Date()
@@ -262,6 +296,14 @@ async function load() {
     neverPlayedAlbums.value = neverPlayedRes
     albumCoverage.value = albumCoverageRes
     artistCoverage.value = artistCoverageRes
+
+    if (neverPlayedRes.length > 0) {
+      const idx = Math.floor(Math.random() * neverPlayedRes.length)
+      highlightedAlbum.value = neverPlayedRes[idx]
+    } else {
+      highlightedAlbum.value = null
+    }
+
   } catch (e) {
     error.value = `Falha ao carregar: ${e.message}`
   } finally {
@@ -547,10 +589,80 @@ h1 {
   white-space: nowrap;
 }
 
-/* pequena melhora visual para cobertura */
 .list-row-coverage .by {
   font-size: 0.85rem;
 }
+
+.shuffle-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.shuffle-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.shuffle-btn:hover {
+  background: var(--accent);
+  color: #000;
+}
+
+.shuffle-current {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.shuffle-current strong {
+  color: #fff;
+}
+
+.shuffle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.shuffle-btn:hover {
+  background: var(--accent);
+  color: #000;
+}
+
+.icon-dice {
+  width: 18px;
+  height: 18px;
+  display: flex;
+}
+
+.icon-dice svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.shuffle-btn:hover .icon-dice {
+  transform: rotate(20deg);
+  transition: transform 0.15s ease-out;
+}
+
+
 
 @media (max-width: 820px) {
   .kpis {
