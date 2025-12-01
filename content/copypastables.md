@@ -32,6 +32,33 @@ Versão copypastable:
   <figcaption>Euphories, da dupla (ou banda?) VIDEOCLUB</figcaption>  
 </figure>
 ```
+
+## Vídeo local
+
+<figure class="video">  
+  <div class="inner-figure">  
+    <video controls preload="metadata" width="100%">
+			  <source src="img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.mp4" type="video/mp4">
+			  Seu navegador não suporta vídeo.
+		</video>
+  </div>
+  <figcaption>O quebra-nozes - O ínicio</figcaption>  
+</figure>
+
+Versão copystable:
+
+```
+<figure class="video">  
+  <div class="inner-figure">  
+    <video controls preload="metadata" width="100%">
+			  <source src="img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.mp4" type="video/mp4">
+			  Seu navegador não suporta vídeo.
+		</video>
+  </div>
+  <figcaption>O quebra-nozes - O ínicio</figcaption>  
+</figure>
+```
+
 ## Expansão e Colapso
 
 <details>
