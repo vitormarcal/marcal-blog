@@ -26,7 +26,7 @@ const languages = computed(() => {
   </ul>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 ul {
   margin: 0;
   padding: 0;

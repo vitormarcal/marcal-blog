@@ -21,7 +21,7 @@ const formattedDate = computed(() => {
   </article>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 
 a {
   text-decoration: none;

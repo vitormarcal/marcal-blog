@@ -15,7 +15,7 @@ const { availableLocales, locale} = useI18n()
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .head-set-locale-wrapper {
   margin-left: auto;
   display: flex;

@@ -42,7 +42,7 @@ function toggleHead() {
   </header>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 header {
   height: auto;
   position: relative;
