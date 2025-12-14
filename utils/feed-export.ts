@@ -22,7 +22,8 @@ export const generateFeed = (articles: ParsedContent[], appConfig: AppConfig) =>
         },
         author: {
             name: appConfig.author.name,
-            email: appConfig.author.email
+            email: appConfig.author.email,
+            link: BASE_URL
         }
     });
 
