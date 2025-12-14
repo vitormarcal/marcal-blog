@@ -1,0 +1,15 @@
+[tools]
+# espelha seu Dockerfile (ARG NODE_VERSION=22)
+node = "22"
+
+[tasks.dev]
+run = "npm run dev"
+
+[tasks.build]
+run = "npm run build"
+
+[tasks.generate]
+run = "npm run generate"
+
+[tasks.preview]
+run = "npm run preview"
