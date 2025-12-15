@@ -87,6 +87,76 @@
         </ol>
       </section>
 
+      <section class="section two-col" v-if="trendingGenres.length || recentGenres.length">
+        <div>
+          <h2>Gêneros em alta</h2>
+          <p class="section-subtitle">
+            Comparando {{ periodLabel(comparePeriod) }} vs {{ periodLabel(period) }}.
+          </p>
+          <ol class="list">
+            <li v-for="(row, i) in trendingGenres" :key="row.genre" class="list-row">
+              <span class="rank">{{ i + 1 }}</span>
+              <span class="name">{{ row.genre }}</span>
+              <span class="plays">{{ signed(row.delta) }}</span>
+              <span class="by">
+          agora {{ row.playCountNow }} | antes {{ row.playCountPrev }}
+        </span>
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <h2>Gêneros recentes</h2>
+          <p class="section-subtitle">Baseado nos últimos plays.</p>
+          <ol class="list">
+            <li v-for="(row, i) in recentGenres" :key="row.genre" class="list-row">
+              <span class="rank">{{ i + 1 }}</span>
+              <span class="name">{{ row.genre }}</span>
+              <span class="plays">{{ row.playCountInWindow }}x</span>
+              <span class="by">{{ timeAgo(row.lastPlayed) }}</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section two-col" v-if="underplayedGenres.length || topGenresBySource.length">
+        <div>
+          <h2>Gêneros pouco tocados</h2>
+          <p class="section-subtitle">
+            No período selecionado, mas com boa presença na biblioteca.
+          </p>
+          <ol class="list">
+            <li v-for="(row, i) in underplayedGenres" :key="row.genre" class="list-row">
+              <span class="rank">{{ i + 1 }}</span>
+              <span class="name">{{ row.genre }}</span>
+              <span class="plays">{{ row.playCount }} plays</span>
+              <span class="by">
+          {{ row.libraryAlbums }} álbuns
+          <span v-if="row.lastPlayed"> • {{ timeAgo(row.lastPlayed) }}</span>
+          <span v-else> • nunca no período</span>
+        </span>
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <h2>Top gêneros por fonte</h2>
+          <p class="section-subtitle">De onde veio o gênero do álbum.</p>
+
+          <div v-for="block in topGenresBySource" :key="block.source" class="source-block">
+            <div class="source-title">{{ formatSource(block.source) }}</div>
+            <ol class="list compact">
+              <li v-for="(g, i) in block.genres" :key="block.source + '-' + g.genre" class="list-row compact-row">
+                <span class="rank">{{ i + 1 }}</span>
+                <span class="name">{{ g.genre }}</span>
+                <span class="plays">{{ g.playCount }} plays</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+
       <section class="section" v-if="neverPlayedAlbums.length">
         <h2>Álbuns que ainda não ouvi</h2>
         <p class="section-subtitle">
@@ -196,6 +266,13 @@ const topArtists = ref([])
 const topAlbums = ref([])
 const topTracks = ref([])
 
+const trendingGenres = ref([])
+const recentGenres = ref([])
+const underplayedGenres = ref([])
+const topGenresBySource = ref([])
+
+const comparePeriod = ref('month') // default bom: compara mês vs período atual
+
 const neverPlayedAlbums = ref([])
 const artistCoverage = ref([])
 const albumCoverage = ref([])
@@ -250,6 +327,8 @@ async function load() {
   error.value = ''
   try {
     const { start, end } = computeRange(period.value)
+    const current = computeRange(period.value)
+    const { start: prevStart, end: prevEnd } = computePreviousRange(current)
     const [
       summaryRes,
       recentRes,
@@ -259,6 +338,10 @@ async function load() {
       neverPlayedRes,
       albumCoverageRes,
       artistCoverageRes,
+      trendingGenresRes,
+      recentGenresRes,
+      underplayedGenresRes,
+      topGenresBySourceRes,
     ] = await Promise.all([
       fetchJSON(
           `${API}/summary?range=custom&start=${encodeURIComponent(start)}&end=${encodeURIComponent(
@@ -285,6 +368,20 @@ async function load() {
       fetchJSON(`${API}/albums/never-played?limit=12`),
       fetchJSON(`${API}/coverage/albums?limit=10`),
       fetchJSON(`${API}/coverage/artists?limit=10`),
+
+      // novos gêneros
+      fetchJSON(
+          `${API}/genres/trending?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}` +
+          `&compareStart=${encodeURIComponent(prevStart)}&compareEnd=${encodeURIComponent(prevEnd)}&limit=10`,
+      ),
+      fetchJSON(`${API}/genres/recent?limit=30`),
+      fetchJSON(
+          `${API}/genres/underplayed?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}` +
+          `&minLibraryAlbums=3&limit=10`,
+      ),
+      fetchJSON(
+          `${API}/genres/top-by-source?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}&limit=7`,
+      ),
     ])
 
     summary.value = summaryRes
@@ -296,6 +393,11 @@ async function load() {
     neverPlayedAlbums.value = neverPlayedRes
     albumCoverage.value = albumCoverageRes
     artistCoverage.value = artistCoverageRes
+
+    trendingGenres.value = trendingGenresRes
+    recentGenres.value = recentGenresRes
+    underplayedGenres.value = underplayedGenresRes
+    topGenresBySource.value = topGenresBySourceRes
 
     if (neverPlayedRes.length > 0) {
       const idx = Math.floor(Math.random() * neverPlayedRes.length)
@@ -362,6 +464,46 @@ function coverageBadge(percent) {
   if (p >= 80) return '🎯'
   return ''
 }
+
+function signed(n) {
+  const v = Number(n ?? 0)
+  if (v > 0) return `+${v}`
+  return `${v}`
+}
+
+function periodLabel(key) {
+  const map = {
+    week: 'Última Semana',
+    month: 'Último Mês',
+    year: 'Ano',
+    decade: 'Década',
+  }
+  return map[key] ?? key
+}
+
+function formatSource(s) {
+  if (!s) return ''
+  if (s === 'PLEX') return 'Plex'
+  if (s === 'MUSICBRAINZ') return 'MusicBrainz'
+  if (s === 'LASTFM') return 'Last.fm'
+  return s
+}
+
+function computePreviousRange({ start, end }) {
+  const s = new Date(start)
+  const e = new Date(end)
+
+  const durationMs = e.getTime() - s.getTime()
+
+  const prevEnd = new Date(s.getTime())
+  const prevStart = new Date(prevEnd.getTime() - durationMs)
+
+  return {
+    start: prevStart.toISOString(),
+    end: prevEnd.toISOString(),
+  }
+}
+
 
 </script>
 
@@ -674,5 +816,31 @@ h1 {
   .album-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
+}
+
+
+.source-block {
+  margin-bottom: 0.75rem;
+}
+
+.source-title {
+  color: #fff;
+  font-weight: 700;
+  margin: 0.25rem 0 0.35rem;
+}
+
+.list.compact .list-row {
+  padding: 0.45rem 0.25rem;
+  grid-template-rows: auto;
+}
+
+.list-row.compact-row .rank {
+  grid-row: 1;
+}
+.list-row.compact-row .name {
+  grid-row: 1;
+}
+.list-row.compact-row .plays {
+  grid-row: 1;
 }
 </style>
