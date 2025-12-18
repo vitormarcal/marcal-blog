@@ -2,6 +2,10 @@
   <div class="container bleed">
     <h1>Isso é o que ando ouvindo</h1>
 
+    <p v-if="headline" class="headline">
+      {{ headline }}
+    </p>
+
     <div class="period-buttons">
       <button
           v-for="p in periods"
@@ -372,15 +376,15 @@ async function load() {
       // novos gêneros
       fetchJSON(
           `${API}/genres/trending?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}` +
-          `&compareStart=${encodeURIComponent(prevStart)}&compareEnd=${encodeURIComponent(prevEnd)}&limit=10`,
+          `&compareStart=${encodeURIComponent(prevStart)}&compareEnd=${encodeURIComponent(prevEnd)}&limit=5`,
       ),
-      fetchJSON(`${API}/genres/recent?limit=30`),
+      fetchJSON(`${API}/genres/recent?limit=5`),
       fetchJSON(
           `${API}/genres/underplayed?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}` +
-          `&minLibraryAlbums=3&limit=10`,
+          `&minLibraryAlbums=3&limit=5`,
       ),
       fetchJSON(
-          `${API}/genres/top-by-source?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}&limit=7`,
+          `${API}/genres/top-by-source?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}&limit=5`,
       ),
     ])
 
