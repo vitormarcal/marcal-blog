@@ -1,15 +1,14 @@
 <script setup lang="ts">
 
-const localePath = useLocalePath()
 const emits = defineEmits(['is-head-open'])
 
 const navigationLinks = [
-  { label: 'header.home', path: localePath('index'), delay: 0.03 },
-  { label: 'header.about', path: '/sobre', delay: 0.06 },
-  { label: 'header.posts', path: localePath('posts'), delay: 0.15 },
-  { label: 'header.tags', path: '/tags/mdc', delay: 0.2 },
-  { label: 'header.readings', path: '/leituras-de-2025', delay: 0.25 },
-  { label: 'header.slashes', path: '/slashes', delay: 0.35 },
+  { label: 'Bem-vindo', path: '/', delay: 0.03 },
+  { label: 'Sobre', path: '/sobre', delay: 0.06 },
+  { label: 'Publicações', path: '/publicacoes', delay: 0.15 },
+  { label: 'Categorias', path: '/tags/mdc', delay: 0.2 },
+  { label: 'Leituras de 2025', path: '/leituras-de-2025', delay: 0.25 },
+  { label: 'Slashes', path: '/slashes', delay: 0.35 },
 ];
 
 function toggleHead() {
@@ -22,10 +21,9 @@ function toggleHead() {
     <div class="header-inner">
       <div class="head-brand">
         <div class="head-brand-wrapper">
-          <NuxtLink :to="localePath('index')" class="head-logo"> Marçal </NuxtLink>
+          <NuxtLink to="/" class="head-logo"> Marçal </NuxtLink>
         </div>
-        <localization-menu />
-        <button class="head-burger" @click="toggleHead" aria-label="Toggle menu">
+        <button class="head-burger" @click="toggleHead" aria-label="Alternar menu">
 
         </button>
       </div>
@@ -33,7 +31,7 @@ function toggleHead() {
         <ul class="nav" @click="toggleHead">
 
           <li v-for="(link, index) in navigationLinks" :key="index" :style="{ transitionDelay: `${link.delay}s` }">
-            <NuxtLink :to="link.path"> {{ $t(link.label) }} </NuxtLink>
+            <NuxtLink :to="link.path"> {{ link.label }} </NuxtLink>
           </li>
         </ul>
       </nav>

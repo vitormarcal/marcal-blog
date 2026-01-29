@@ -4,20 +4,26 @@ import iAmNotARobot from "assets/img/IAmNotARobot.svg";
 import madeByHuman from "assets/img/MadeByAHuman.svg";
 import writtenByHuman from "assets/img/WrittenByAHuman.svg";
 import humanContent from "assets/img/HumanContent.svg";
+
+const textHtml = "<b>Este texto é orgânico</b>,<br/>\n" +
+  "      criado de forma natural por um humano.<br/>\n" +
+  "      Pode ter passado por correções gramaticais,<br/>\n" +
+  "      com ou sem o auxílio de IA, <br/>\n" +
+  "      mas <b>a essência original permanece intacta</b>."
 </script>
 
 <template>
   <div class="text-center">
     <div class="image-wrapper">
-      <img :src="iAmNotARobot" :alt="$t('i_am_not_a_robot.i_am_not_a_robot_alt')"/>
-      <img :src="madeByHuman" :alt="$t('i_am_not_a_robot.made_by_human_alt')"/>
+      <img :src="iAmNotARobot" alt="Eu não sou um robô 😁"/>
+      <img :src="madeByHuman" alt="Feito por um humano 😉"/>
     </div>
 
-    <p class="description" v-html="$t('i_am_not_a_robot.text')"></p>
+    <p class="description" v-html="textHtml"></p>
 
     <div class="image-wrapper">
-      <img :src="writtenByHuman" :alt="$t('i_am_not_a_robot.written_by_human_alt')"/>
-      <img :src="humanContent" :alt="$t('i_am_not_a_robot.human_content_alt')"/>
+      <img :src="writtenByHuman" alt="Escrito por um humano 🙂"/>
+      <img :src="humanContent" alt="Conteúdo humano 😄"/>
     </div>
   </div>
 

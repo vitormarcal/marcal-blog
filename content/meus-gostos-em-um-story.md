@@ -18,4 +18,4 @@ Precisei fazer uma apresentação bem simples sobre meus gostos para minhas aula
 
 Do jeito que está, parece um "Story" – como os do Facebook, Instagram e WhatsApp – mas bem primitivo, sem funcionalidades de áudio, vídeo, fechar "story", etc. Eu achei que ficou bom, pela simplicidade da coisa. Ainda vou adicionar mais usabilidade a ele em algum momento e, quem sabe, criar outros "stories".
 
-Ele não aparecerá no feed RSS por limitações tecnológicas. Além disso, por ser uma página animada, acho que nem compensaria, já que no RSS não consigo executar JavaScript (o que, no geral, é bom). Então, nem vou incluir. Se você quiser conferir, [aqui está](fr/gouts) – está em francês por enquanto, mas pretendo colocá-lo em português e inglês também.
+Ele não aparecerá no feed RSS por limitações tecnológicas. Além disso, por ser uma página animada, acho que nem compensaria, já que no RSS não consigo executar JavaScript (o que, no geral, é bom). Então, nem vou incluir. Se você quiser conferir, [aqui está](/gostos) – está em francês por enquanto, mas pretendo colocá-lo em português e inglês também.

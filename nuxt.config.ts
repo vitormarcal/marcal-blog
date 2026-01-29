@@ -42,29 +42,7 @@ export default defineNuxtConfig({
       },
   },
 
-  i18n: {
-      customRoutes: 'config',
-      pages: {
-          posts: {
-              en: '/posts',
-              fr: '/publications',
-              pt: '/publicacoes'
-          },
-          likes: {
-              en: '/likes',
-              fr: '/gouts',
-              pt: '/gostos',
-          }
-      },
-      locales: [
-          { code: 'en', name: 'English'},
-          { code: 'fr', name: 'Français'},
-          { code: 'pt', name: 'Português'}
-      ],
-      defaultLocale: 'pt'
-  },
-
-  modules: ['@nuxtjs/i18n', '@nuxt/content',
+  modules: ['@nuxt/content',
       //'@nuxt/image' commented to resolve a bug after upgrade nuxt
   ],
 
