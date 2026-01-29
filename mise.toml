@@ -1,6 +1,6 @@
 [tools]
 # espelha seu Dockerfile (ARG NODE_VERSION=22)
-node = "22"
+node = "25"
 
 [tasks.dev]
 run = "npm run dev"

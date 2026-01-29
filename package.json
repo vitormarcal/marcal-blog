@@ -8,7 +8,7 @@
     "preview": "nuxt preview"
   },
   "engines": {
-    "node": ">=20.16.0"
+    "node": ">=24.0.0"
   },
   "dependencies": {
     "@nuxt/content": "^2.13.4",
