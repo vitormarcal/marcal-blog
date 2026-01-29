@@ -1,19 +1,18 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
 const props = defineProps(['pageTitle'])
-const { t } = useI18n()
-
+const emailAddress = 'eu@marcal.dev'
+const emailTitle = 'Blogues são conversas'
+const emailCallToAction = 'Entre na conversa via e-mail'
 
 const emailLink = computed(() => {
-  return `mailto:${t('email_me_a_comment.address')}?subject=${encodeURIComponent(props.pageTitle)}`;
-
-});
+  return `mailto:${emailAddress}?subject=${encodeURIComponent(props.pageTitle)}`
+})
 </script>
 
 <template>
   <div class="email-me-a-comment">
-    <h3>{{ $t('email_me_a_comment.title') }}</h3>
-    <a :aria-label="$t('email_me_a_comment.call_to_action')" :href="emailLink">{{ $t('email_me_a_comment.call_to_action') }}</a>
+    <h3>{{ emailTitle }}</h3>
+    <a :aria-label="emailCallToAction" :href="emailLink">{{ emailCallToAction }}</a>
   </div>
 </template>
 

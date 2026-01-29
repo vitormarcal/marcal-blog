@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  alias: ['/posts']
+})
+
 const { page } = useContent()
 const posts = await queryContent()
     .where({is_post: true, _partial: false})
