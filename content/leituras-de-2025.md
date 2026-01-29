@@ -102,7 +102,6 @@ Nesta seção, encontro mangás, graphic novels e obras populares da cultura gee
 
 - 30 Dias de Noite: Edição Comemorativa, de Steve Niles
 - Battle Royale Omnibus, por Koushun Takami
-    - Battle Royale Omnibus: Volume 2, por Koushun Takami
     - Battle Royale Omnibus: Volume 3, por Koushun Takami
     - Battle Royale Omnibus: Volume 4, por Koushun Takami
     - Battle Royale Omnibus: Volume 5, por Koushun Takami
@@ -132,8 +131,6 @@ Nesta seção, encontro mangás, graphic novels e obras populares da cultura gee
 - LEVIATHAN - Vol. 01, por Shiro Kuroi
 - Monstro do Pântano: Edição Absoluta, por Alan Moore
     - Monstro do Pântano Vol. 2: Edição Absoluta, por Alan Moore
-- Neon Genesis Evangelion Collector's Edition
-    - Neon Genesis Evangelion Collector's Edition Vol. 07
 - Necron, por Magnus
     - Necron - Volume 7: A Baleia de Aço, por Magnus
     - Necron - Volume 8: O Homem Peixe, por Magnus
