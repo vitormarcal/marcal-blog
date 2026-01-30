@@ -77,8 +77,8 @@ A vida é curta demais, e há muito mais sendo publicado por aí para nos força
 
 1. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 2. [Rápido e devagar: Duas formas de pensar](leituras/rapido-e-devagar-duas-formas-de-pensar), por Daniel Kahneman - 2025-04-21
-3. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler
-4. Astérix vol 2 : La serpe d'or, por Rene Goscinny
+3. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2025-12-31
+4. Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-12-31
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
