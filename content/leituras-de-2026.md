@@ -16,7 +16,7 @@ image: img/leituras-do-ano/biblioteca-medieval.webp
 language: pt
 ---
 
-![Leituras de 2026 - Uma biblioteca medieval cheia até a borda com livros antigos. As estantes estão transbordando com tomos velhos e desgastados, alguns empilhados de maneira desorganizada](img/leituras-do-ano/biblioteca-medieval.webp)
+![Leituras de 2026 - Biblioteca oriental minimalista em madeira, com poucas estantes cuidadosamente organizadas, livros selecionados em tons neutros e um ambiente sereno. No centro, uma mesa baixa com alguns volumes abertos, almofadas no chão e iluminação suave. Ao fundo, painéis de papel e uma abertura para um jardim verde, transmitindo silêncio, contemplação, sabedoria profunda e a ideia de que menos livros, quando bem escolhidos, concentram mais conhecimento.](img/leituras-do-ano/biblioteca-oriental.png)
 
 Assim como em [2025](leituras-de-2025), em 2026 também registrarei em uma publicação fixa o andamento das minhas leituras.
 

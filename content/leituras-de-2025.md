@@ -33,11 +33,7 @@ Caso tenha curiosidade:
 ## Sumário
 
 ## Lendo
-1. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler - 2024-11-24
-2. Astérix vol 2 : La serpe d'or, por Rene Goscinny - 2025-09-12
-3. Blade: A Lâmina do Imortal - Volume 5, por Hiroaki Samura - 2025-11-20
-4. Como ler livros: O guia clássico para a leitura inteligente, por Mortimer J. Adler - 2025-11-20
-5. AI Engineering: Building Applications with Foundation Models, por Chip Huyen - 2025-11-20
+
 ## Lidos
 
 1. [Neon Genesis Evangelion Collector's Edition Vol. 06](neon-genesis-evangelion-collectors-edition-vol-06), por Yoshiyuki Sadamoto - 2025-01-15
@@ -81,6 +77,8 @@ A vida é curta demais, e há muito mais sendo publicado por aí para nos força
 
 1. [A Obscena Senhora D e outras histórias](a-obscena-senhora-d-e-outras-historias), por Hilda Hist - 2025-01-25
 2. [Rápido e devagar: Duas formas de pensar](leituras/rapido-e-devagar-duas-formas-de-pensar), por Daniel Kahneman - 2025-04-21
+3. Pré-Cálculo - Uma Preparação para o Cálculo, por Sheldon Axler
+4. Astérix vol 2 : La serpe d'or, por Rene Goscinny
 ## Quero Ler
 Esta lista reúne itens que encontrei e quero manter em mente. É como uma estante de biblioteca contendo apenas livros do meu interesse. Quando quiser ler algo, posso escolher qualquer uma das opções que já chamaram minha atenção. Em cada seção, coloquei uma descrição para me ajudar a agrupar livros de interesse com outros semelhantes.
 ### Literatura e Ficção
