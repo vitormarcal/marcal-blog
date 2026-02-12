@@ -131,7 +131,7 @@ onMounted(async () => {
     <div v-else-if="data">
       <header class="year-reads__summary">
         <div class="summary-head">
-          <p class="summary-kicker">Leituras do ano</p>
+          <p class="summary-kicker">Leituras do ano de {{year}}</p>
           <h2 id="year-reads-title">Sumário</h2>
           <p class="summary-subtitle">Um panorama rápido antes de mergulhar nas listas.</p>
         </div>
@@ -370,6 +370,7 @@ onMounted(async () => {
   display: grid;
   gap: 1.5rem;
   padding: 0.5rem 0;
+  margin-top: 1rem;
 }
 
 .section-head {
@@ -396,7 +397,7 @@ onMounted(async () => {
 }
 
 .section-head h3 {
-  margin: 0;
+  margin: 0 !important;
   font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.6rem);
 }
 
