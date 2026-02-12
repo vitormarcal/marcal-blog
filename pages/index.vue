@@ -4,6 +4,9 @@ const homeDescription = 'Essa é a minha página pessoal, onde eu escrevo princi
 const latestPostsTitle = 'Últimas publicações'
 const previousPublicationsTitle = 'Publicações anteriores'
 
+const { page } = useContent()
+useContentHead(page)
+
 const { data: posts } = await useAsyncData(`home`, () => queryContent()
   .where({is_post: true, _partial: false})
   .sort({ created_at: -1})

@@ -7,7 +7,7 @@ const navigationLinks = [
   { label: 'Sobre', path: '/sobre', delay: 0.06 },
   { label: 'Publicações', path: '/publicacoes', delay: 0.15 },
   { label: 'Categorias', path: '/tags/mdc', delay: 0.2 },
-  { label: 'Leituras de 2026', path: '/leituras-de-2026', delay: 0.25 },
+  { label: 'Leituras de 2026', path: '/leituras/2026', delay: 0.25 },
   { label: 'Slashes', path: '/slashes', delay: 0.35 },
 ];
 

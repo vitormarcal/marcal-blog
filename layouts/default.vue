@@ -3,7 +3,6 @@ import FooterSite from "~/components/FooterSite.vue";
 
 const route = useRoute()
 const config = useAppConfig()
-const {page} = useContent()
 
 const headOpen = ref(false)
 const headerClass = computed(() => {
@@ -14,8 +13,6 @@ const headerClass = computed(() => {
 const pageUrl = computed(() => {
   return config.site.baseUrl + route.path
 })
-
-useContentHead(page)
 
 useSeoMeta({
   ogUrl: pageUrl

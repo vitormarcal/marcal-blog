@@ -1,6 +1,8 @@
 <script setup lang="ts">
 defineProps(['path'])
-const {page} = useContent()
+const { page } = useContent()
+
+useContentHead(page)
 
 </script>
 
