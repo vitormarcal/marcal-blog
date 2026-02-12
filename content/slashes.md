@@ -26,7 +26,7 @@ Esta página, em especial, é uma página slash que lista todas as minhas págin
 * [/cafeterias](cafeterias)
 * [/copypastables](copypastables)
 * [/checklist](checklist)
-* [/gostos](gostos)
+* [/goûts](gouts) 🇫🇷
 * [/publicacoes](publicacoes)
 * [/sobre](sobre)
 * [/musicas](musicas)

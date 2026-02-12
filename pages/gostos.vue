@@ -1,59 +1,70 @@
 <script setup lang="ts">
 
+const title = "Goûts"
+const description = "Les choses que j'aime (et que je n'aime pas)"
+
+useSeoMeta({
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description
+})
+
 definePageMeta({
+  documentDriven: false,
   layout: 'slide-layout',
-  alias: ['/likes']
+  alias: ['/gouts']
 })
 
 const frames = ref([
   {
     img: '/img/gostos-e-desgostos/img-ipe-jaune.jpg',
-    strong: "Olá! Eu sou o Vítor",
-    text: "e aqui estão as coisas de que eu gosto (e as que eu não gosto).",
+    strong: "Salut! Je suis Vitor",
+    text: "et voici les choses que j'aime (et que je n'aime pas).",
   },
-  {img: '/img/gostos-e-desgostos/img-vin.jpg', strong: "Gosto", text: "de vinho 🍷."},
-  {img: '/img/gostos-e-desgostos/img-biere.jpg', strong: "Não gosto", text: "de cerveja. 🍺"},
+  {img: '/img/gostos-e-desgostos/img-vin.jpg', strong: "J'aime", text: "le vin 🍷."},
+  {img: '/img/gostos-e-desgostos/img-biere.jpg', strong: "Je n'aime pas", text: "la bière. 🍺"},
   {
     img: '/img/gostos-e-desgostos/img-lecture.jpg',
-    strong: "Gosto",
-    text: "de leitura, livros e quadrinhos 📚.",
+    strong: "J'aime",
+    text: "la lecture, les livres et les bandes dessinées 📚.",
   },
   {
     img: '/img/gostos-e-desgostos/img-chocolat.jpg',
-    strong: "Gosto",
-    text: "de bolos de chocolate e doces 🍫🎂🤤.",
+    strong: "J'aime",
+    text: "les gâteaux au chocolat et les bonbons 🍫🎂🤤.",
   },
   {
     img: '/img/gostos-e-desgostos/img-cigarettes.jpg',
-    strong: "Não gosto",
-    text: "de cigarros nem do cheiro deles. 🚬 🤢",
+    strong: "Je n'aime pas",
+    text: "les cigarettes ni leur odeur. 🚬 🤢",
   },
   {
     img: '/img/gostos-e-desgostos/img-echecs.jpg',
-    strong: "Gosto",
-    text: "de jogar xadrez. Gosto de praticar xadrez ♟️♔.",
+    strong: "J'aime",
+    text: "le jeu d'échecs. J'aime pratiquer les échecs ♟️♔.",
   },
   {
     img: '/img/gostos-e-desgostos/img-ordinateurs.jpg',
-    strong: "Gosto",
-    text: "de brincar com computadores. 💻",
+    strong: "J'aime",
+    text: "jouer avec des ordinateurs. 💻",
   },
   {
     img: '/img/gostos-e-desgostos/img-bruit.jpg',
-    strong: "Não gosto",
-    text: "de barulho, carros e pessoas barulhentas. 🔊 🙉️",
+    strong: "Je n'aime pas",
+    text: "le bruit, les voitures et les gens bruyants. 🔊 🙉️",
   },
   {
     img: '/img/gostos-e-desgostos/img-region-boisee.jpg',
-    strong: "Gosto",
-    text: "de visitar regiões do interior. Gosto de visitar áreas arborizadas. 🌳",
+    strong: "J'aime",
+    text: "visiter les régions de l'intérieur. J'aime visiter les régions boisées. 🌳",
   },
   {
     img: '/img/gostos-e-desgostos/img-ma-petite-fille.jpg',
-    strong: "Gosto",
-    text: "da minha menina.👧",
+    strong: "J'aime",
+    text: "ma petite fille.👧",
   },
-  {img: '/img/gostos-e-desgostos/img-ipe-jaune.jpg', strong: "É isso,", text: "até breve!"},
+  {img: '/img/gostos-e-desgostos/img-ipe-jaune.jpg', strong: "C'est tout,", text: "à bientôt !"},
 ])
 
 function turnPageForward() {
