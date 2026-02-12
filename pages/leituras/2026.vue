@@ -4,6 +4,16 @@ import YearReadsFromApi from "~/components/YearReadsFromApi.vue";
 definePageMeta({
   documentDriven: false
 })
+
+const title = "Leituras de 2026"
+const description = "Acompanhe as leituras do ano de 2026."
+
+useSeoMeta({
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description
+})
 </script>
 
 <template>
