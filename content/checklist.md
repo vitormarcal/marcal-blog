@@ -18,7 +18,7 @@ Uma lista de ideias para incluir neste blog. Algumas coisas eu realmente quero f
 
 - [ ] Adicionar links de navegação "próximo" e "anterior" em cada publicação.
 - [x] Criar uma página random. Quando o visitante clicar, ele será redirecionado para uma publicação aleatória do blog.
-- [ ] Criar uma seção de feed em cada publicação, convidando o leitor a acompanhar o blog via feeds (assim como faço com a seção de e-mail).
+- [x] Criar uma seção de feed em cada publicação, convidando o leitor a acompanhar o blog via feeds (assim como faço com a seção de e-mail).
 - [ ] Criar uma página 404 menos técnica, convidando o visitante a entrar em contato caso precise de algum conteúdo que não esteja mais disponível.
 - [ ] Criar uma página emulando o estilo da velha web, mais old-school, cheia de GIFs, cores vibrantes e sem preocupação com um design limpo.
 - [ ] Criar uma página que mostre um pouco dos meus projetos, sejam eles de programação ou de outros temas.

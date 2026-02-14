@@ -55,12 +55,3 @@ O tema foi criado por mim no estilo "copia, mas não faz igual." Fui tirando ide
 
 Todas as postagens têm uma seção para interação via e-mail. Falei mais sobre isso em [Responda por email 📩](responda-por-email) e [Responda por email 2 📩](responda-por-email-2).
 
-----
-### Acompanhe o blog!
-
-**Quer receber as atualizações?**  
-O RSS é uma maneira prática e independente de acompanhar o conteúdo, sem depender de algoritmos. Escolha o formato que preferir:
-
-- [RSS](https://www.marcal.dev/rss.xml)
-- [Atom](https://www.marcal.dev/atom.xml)
-
