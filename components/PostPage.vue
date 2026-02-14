@@ -5,6 +5,17 @@ import FollowViaFeed from "~/components/FollowViaFeed.vue";
 import IamNotARobot from "~/components/IamNotARobot.vue";
 
 const { page } = useContent()
+const route = useRoute()
+
+if (!unref(page)) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Página não encontrada',
+    data: {
+      path: route.path
+    }
+  })
+}
 
 const showCommentArea = computed(() => {
   return true
