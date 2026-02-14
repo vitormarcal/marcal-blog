@@ -1,5 +1,5 @@
 <template>
-  <div class="container bleed">
+  <div class="time-tunnel container bleed">
     <h1>Isso é o que ando ouvindo</h1>
 
     <p v-if="headline" class="headline">
@@ -17,7 +17,7 @@
       </button>
     </div>
 
-    <div class="section kpis" v-if="summary">
+    <div class="section kpis" v-if="summary && !loading">
       <div class="kpi">
         <div class="kpi-label">Artistas</div>
         <div class="kpi-value">{{ formatNumber(summary.artistsCount) }}</div>
@@ -32,10 +32,21 @@
       </div>
     </div>
 
-    <div v-if="loading" class="loading">Carregando…</div>
-    <div v-if="error" class="error">{{ error }}</div>
+    <div v-if="loading" class="time-tunnel__skeleton" aria-busy="true">
+      <div class="skeleton-line skeleton-line--title"></div>
+      <div class="skeleton-line"></div>
+      <div class="skeleton-line skeleton-line--short"></div>
+      <div class="skeleton-grid">
+        <div class="skeleton-card" v-for="n in 6" :key="n">
+          <div class="skeleton-line skeleton-line--card-title"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line skeleton-line--short"></div>
+        </div>
+      </div>
+    </div>
+    <div v-else-if="error" class="error">{{ error }}</div>
 
-    <div class="grids" v-if="!loading && !error">
+    <div class="grids" v-else>
       <section class="section">
         <h2>Reproduções recentes</h2>
         <div class="album-grid">
@@ -251,7 +262,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 
 const API = 'https://media-pulse.marcal.dev/api/music'
 const COVERS_API = 'https://media-pulse.marcal.dev'
@@ -285,6 +296,7 @@ const highlightedAlbum = ref(null)
 
 const loading = ref(false)
 const error = ref('')
+const headline = computed(() => '')
 
 function shuffleAlbum() {
   const pool = neverPlayedAlbums.value
@@ -511,8 +523,8 @@ function computePreviousRange({ start, end }) {
 
 </script>
 
-<style>
-:root {
+<style scoped>
+.time-tunnel {
   --bg: #000;
   --panel: #0e0e0e;
   --panel-2: #141414;
@@ -520,9 +532,6 @@ function computePreviousRange({ start, end }) {
   --muted: #aaa;
   --border: #2a2a2a;
   --accent: #1db954;
-}
-
-body {
   background: var(--bg);
   color: var(--text);
 }
@@ -616,6 +625,49 @@ h1 {
   text-align: center;
   padding: 1rem;
   color: #f88;
+}
+
+.time-tunnel__skeleton {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.skeleton-line {
+  height: 14px;
+  background: linear-gradient(90deg, #f2f2f2, #e5e5e5, #f2f2f2);
+  background-size: 200% 100%;
+  animation: skeleton 1.2s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+.skeleton-line--title {
+  height: 18px;
+  width: 45%;
+}
+
+.skeleton-line--short {
+  width: 65%;
+}
+
+.skeleton-grid {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.skeleton-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: var(--panel-2);
+  display: grid;
+  gap: 0.55rem;
+}
+
+.skeleton-line--card-title {
+  height: 16px;
+  width: 75%;
 }
 
 .album-grid {
@@ -820,6 +872,10 @@ h1 {
   .album-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
+
+  .skeleton-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
 }
 
 
@@ -846,5 +902,14 @@ h1 {
 }
 .list-row.compact-row .plays {
   grid-row: 1;
+}
+
+@keyframes skeleton {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 </style>
