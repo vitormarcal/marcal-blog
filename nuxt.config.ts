@@ -21,6 +21,12 @@ export default defineNuxtConfig({
     }
   },
 
+  runtimeConfig: {
+    public: {
+      mediaPulseBaseUrl: 'https://media-pulse.marcal.dev'
+    }
+  },
+
   content: {
       defaultLocale: 'pt-BR',
       documentDriven: true,
