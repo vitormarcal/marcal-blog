@@ -1,90 +1,57 @@
 <script setup lang="ts">
-type AuthorDto = {
-  id: number
-  name: string
-}
-
-type BookCardDto = {
-  bookId: number
-  title: string
-  coverUrl?: string | null
-  authors: AuthorDto[]
-}
-
-type EditionDto = {
-  editionId: number
-  title: string
-  coverUrl?: string | null
-  isbn13?: string | null
-  publisher?: string | null
-  pages?: number | null
-  format?: string | null
-}
-
-type ReadCardDto = {
-  readId: number
-  status: string
-  startedAt?: string | null
-  finishedAt?: string | null
-  progressPct?: number | null
-  progressPages?: number | null
-  book: BookCardDto
-  edition: EditionDto
-}
-
-type YearStatsDto = {
-  finishedCount: number
-  currentlyReadingCount: number
-  wantCount: number
-}
-
-type YearReadsResponse = {
-  year: number
-  currentlyReading: ReadCardDto[]
-  finished: ReadCardDto[]
-  didNotFinish: ReadCardDto[]
-  wantToRead: ReadCardDto[]
-  stats: YearStatsDto
-}
+import type { MediaPulseReadCard, MediaPulseYearReadsResponse } from '~/types/media-pulse-books'
+import { toSlug } from '~/utils/slugify'
 
 const props = defineProps<{
   year: number
 }>()
 
-const data = ref<YearReadsResponse | null>(null)
-const loading = ref(true)
-const errorMessage = ref<string | null>(null)
+const { apiUrl, assetUrl } = useMediaPulseApi()
+
+const {
+  data,
+  pending,
+  error
+} = await useAsyncData(
+  () => `year-reads-${props.year}`,
+  () => $fetch<MediaPulseYearReadsResponse>(apiUrl(`/api/books/year/${props.year}`)),
+  {
+    watch: [() => props.year]
+  }
+)
+
+const errorMessage = computed(() => {
+  if (!error.value) return null
+  return 'Não foi possível carregar os livros deste ano.'
+})
 
 const formatDate = (value?: string | null) => {
-  if (!value) return ""
+  if (!value) return ''
   const date = new Date(value)
-  if (Number.isNaN(date.getTime())) return ""
+  if (Number.isNaN(date.getTime())) return ''
   return date.toISOString().slice(0, 10)
 }
 
 const coverSrc = (coverUrl?: string | null) => {
-  if (!coverUrl) return ""
-  if (coverUrl.startsWith("http://") || coverUrl.startsWith("https://")) {
-    return coverUrl
-  }
-  return `https://media-pulse.marcal.dev${coverUrl}`
+  if (!coverUrl) return ''
+  return assetUrl(coverUrl)
 }
 
-const authorsLabel = (authors: AuthorDto[]) => {
-  if (!authors || authors.length === 0) return ""
-  return authors.map((author) => author.name).join(", ")
+const authorsLabel = (authors: { name: string }[]) => {
+  if (!authors || authors.length === 0) return ''
+  return authors.map((author) => author.name).join(', ')
 }
 
-const dateForItem = (item: ReadCardDto, section: "finished" | "currentlyReading" | "didNotFinish") => {
-  if (section === "finished") return formatDate(item.finishedAt)
-  if (section === "currentlyReading") return formatDate(item.startedAt)
+const dateForItem = (item: MediaPulseReadCard, section: 'finished' | 'currentlyReading' | 'didNotFinish') => {
+  if (section === 'finished') return formatDate(item.finishedAt)
+  if (section === 'currentlyReading') return formatDate(item.startedAt)
   return formatDate(item.finishedAt ?? item.startedAt)
 }
 
-const progressLabel = (item: ReadCardDto) => {
-  const pct = typeof item.progressPct === "number" ? item.progressPct : null
-  const pages = typeof item.progressPages === "number" ? item.progressPages : null
-  if (pct === null && pages === null) return ""
+const progressLabel = (item: MediaPulseReadCard) => {
+  const pct = typeof item.progressPct === 'number' ? item.progressPct : null
+  const pages = typeof item.progressPages === 'number' ? item.progressPages : null
+  if (pct === null && pages === null) return ''
   const parts = []
   if (pct !== null) {
     parts.push(`${pct.toFixed(1)}%`)
@@ -92,32 +59,15 @@ const progressLabel = (item: ReadCardDto) => {
   if (pages !== null) {
     parts.push(`${pages} pág.`)
   }
-  return parts.join(" · ")
+  return parts.join(' · ')
 }
 
-onMounted(async () => {
-  loading.value = true
-  errorMessage.value = null
-  try {
-    const baseUrl = "https://media-pulse.marcal.dev"
-    if (!baseUrl) {
-      throw new Error("mediaPulseBaseUrl não definido")
-    }
-    const normalizedBase = baseUrl.replace(/\/$/, "")
-    const url = `${normalizedBase}/api/books/year/${props.year}`
-    data.value = await $fetch<YearReadsResponse>(url)
-  } catch (error) {
-    console.error(error)
-    errorMessage.value = "Não foi possível carregar os livros deste ano."
-  } finally {
-    loading.value = false
-  }
-})
+const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId}-${toSlug(bookTitle)}`
 </script>
 
 <template>
   <section id="year-reads-top" class="year-reads" aria-labelledby="year-reads-title">
-    <div v-if="loading" class="year-reads__skeleton" aria-busy="true">
+    <div v-if="pending" class="year-reads__skeleton" aria-busy="true">
       <div class="skeleton-line skeleton-line--title"></div>
       <div class="skeleton-line"></div>
       <div class="skeleton-line"></div>
@@ -171,8 +121,13 @@ onMounted(async () => {
               loading="lazy"
               class="reads-item__cover"
             />
+            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
+              sem capa
+            </div>
             <div class="reads-item__content">
-              <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+                <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
                 {{ authorsLabel(item.book.authors) }}
               </span>
@@ -180,8 +135,11 @@ onMounted(async () => {
                 {{ progressLabel(item) }}
               </span>
               <time v-if="dateForItem(item, 'currentlyReading')" class="reads-item__date">
-                {{ dateForItem(item, "currentlyReading") }}
+                {{ dateForItem(item, 'currentlyReading') }}
               </time>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+                Ver detalhes
+              </NuxtLink>
             </div>
           </li>
         </ul>
@@ -203,14 +161,22 @@ onMounted(async () => {
               loading="lazy"
               class="reads-item__cover"
             />
+            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
+              sem capa
+            </div>
             <div class="reads-item__content">
-              <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+                <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
                 {{ authorsLabel(item.book.authors) }}
               </span>
               <time v-if="dateForItem(item, 'finished')" class="reads-item__date">
-                {{ dateForItem(item, "finished") }}
+                {{ dateForItem(item, 'finished') }}
               </time>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+                Ver detalhes
+              </NuxtLink>
             </div>
           </li>
         </ul>
@@ -232,14 +198,22 @@ onMounted(async () => {
               loading="lazy"
               class="reads-item__cover"
             />
+            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
+              sem capa
+            </div>
             <div class="reads-item__content">
-              <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+                <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
                 {{ authorsLabel(item.book.authors) }}
               </span>
               <time v-if="dateForItem(item, 'didNotFinish')" class="reads-item__date">
-                {{ dateForItem(item, "didNotFinish") }}
+                {{ dateForItem(item, 'didNotFinish') }}
               </time>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+                Ver detalhes
+              </NuxtLink>
             </div>
           </li>
         </ul>
@@ -261,11 +235,19 @@ onMounted(async () => {
               loading="lazy"
               class="reads-item__cover"
             />
+            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
+              sem capa
+            </div>
             <div class="reads-item__content">
-              <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+                <strong class="reads-item__title">{{ item.edition.title }}</strong>
+              </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
                 {{ authorsLabel(item.book.authors) }}
               </span>
+              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+                Ver detalhes
+              </NuxtLink>
             </div>
           </li>
         </ul>
@@ -435,6 +417,15 @@ onMounted(async () => {
   background: #efefef;
 }
 
+.reads-item__cover--placeholder {
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+}
+
 .reads-item__content {
   display: flex;
   flex-direction: column;
@@ -443,6 +434,16 @@ onMounted(async () => {
 
 .reads-item__title {
   font-weight: 600;
+}
+
+.reads-item__title-link {
+  width: fit-content;
+  color: inherit;
+  text-decoration: none;
+}
+
+.reads-item__title-link:hover {
+  color: var(--green);
 }
 
 .reads-item__authors,
@@ -454,6 +455,18 @@ onMounted(async () => {
 .reads-item__progress {
   font-size: 0.88rem;
   color: rgba(141, 181, 0, 0.9);
+}
+
+.reads-item__details-link {
+  width: fit-content;
+  margin-top: 0.2rem;
+  font-size: 0.86rem;
+  text-decoration: underline;
+  color: var(--font-color);
+}
+
+.reads-item__details-link:hover {
+  color: var(--green);
 }
 
 .reads-empty {
