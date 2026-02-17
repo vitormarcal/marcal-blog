@@ -19,20 +19,13 @@ if (!Number.isInteger(bookId) || bookId <= 0) {
   })
 }
 
-const { data: book, pending, error } = await useAsyncData(
+const { data: book, pending, error } = useAsyncData(
   `book-details-${bookId}`,
-  () => $fetch<MediaPulseBookDetailsResponse>(apiUrl(`/api/books/${bookId}`))
-)
-
-if (error.value) {
-  const statusCode = Number((error.value as { statusCode?: number; status?: number }).statusCode || (error.value as { status?: number }).status || 500)
-  if (statusCode === 404) {
-    throw createError({
-      statusCode: 404,
-      statusMessage: 'Livro não encontrado'
-    })
+  () => $fetch<MediaPulseBookDetailsResponse>(apiUrl(`/api/books/${bookId}`)),
+  {
+    server: false
   }
-}
+)
 
 const selectedReadEdition = computed(() => {
   const reads = book.value?.reads || []
@@ -57,12 +50,14 @@ const pageName = computed(() => {
 
 const canonicalSlug = computed(() => toSlug(book.value?.title || 'livro'))
 
-if (book.value) {
+watch(book, async (value) => {
+  if (!value) return
+
   const routeSlug = Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug
   if (routeSlug !== canonicalSlug.value) {
-    await navigateTo(`/livros/${bookId}-${canonicalSlug.value}`, { redirectCode: 301 })
+    await navigateTo(`/livros/${bookId}-${canonicalSlug.value}`, { redirectCode: 301, replace: true })
   }
-}
+}, { immediate: true })
 
 const title = computed(() => {
   if (!book.value) return 'Livro'
