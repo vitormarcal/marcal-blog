@@ -32,4 +32,4 @@ Não me falou em amor.
 Essa palavra de luxo.
 ```
 
-Adélia Prado, [Poesia Reunida](livros/2-poesia-reunida).
+Adélia Prado, [Poesia Reunida](livros/2_poesia_reunida).
