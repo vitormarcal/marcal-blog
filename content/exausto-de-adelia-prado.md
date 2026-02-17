@@ -11,6 +11,7 @@ tags:
 related:
   - "[[tags/poesia]]"
   - "[[tags/portugues]]"
+  - "[[livros/28-poesia-reunida]]"
 language: pt
 localized_post_paths:
 has_localized_posts: false
@@ -29,6 +30,6 @@ Semente.
 Muito mais que raízes.
 ```
 
-Adélia Prado, Poesia Reunida
+Adélia Prado, [Poesia Reunida](livros/28-poesia-reunida).
 
 Ás vezes eu só queria estar embaixo de uma pedra. Eu lhe entendo!
