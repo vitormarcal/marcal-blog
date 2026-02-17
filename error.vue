@@ -66,7 +66,7 @@ const quickLinks = [
               :href="l.href"
           >
             <span class="quick-actions__emoji" aria-hidden="true">
-              {{ l.emoji }}
+              {{ l.emoji  }}
             </span>
             <span>{{ l.label }}</span>
           </a>
