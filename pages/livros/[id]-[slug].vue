@@ -115,7 +115,7 @@ const formatDate = (value?: string | null) => {
 
 const statusLabel = (status: string) => {
   const normalized = status.toUpperCase()
-  if (normalized === 'FINISHED') return 'Finalizado'
+  if (normalized === 'READ') return 'Finalizado'
   if (normalized === 'CURRENTLY_READING') return 'Lendo'
   if (normalized === 'DID_NOT_FINISH') return 'Abandonado'
   if (normalized === 'WANT_TO_READ') return 'Quero ler'

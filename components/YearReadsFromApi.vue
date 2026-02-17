@@ -12,10 +12,11 @@ const {
   data,
   pending,
   error
-} = await useAsyncData(
+} = useAsyncData(
   () => `year-reads-${props.year}`,
   () => $fetch<MediaPulseYearReadsResponse>(apiUrl(`/api/books/year/${props.year}`)),
   {
+    server: false,
     watch: [() => props.year]
   }
 )
