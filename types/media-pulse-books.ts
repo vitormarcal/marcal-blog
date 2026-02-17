@@ -5,6 +5,7 @@ export type MediaPulseAuthor = {
 
 export type MediaPulseBookCard = {
   bookId: number
+  slug: string
   title: string
   coverUrl?: string | null
   authors: MediaPulseAuthor[]
@@ -69,6 +70,7 @@ export type MediaPulseRead = {
   source?: string | null
   book?: {
     bookId: number
+    slug: string
     title: string
   } | null
   edition?: {
@@ -80,6 +82,7 @@ export type MediaPulseRead = {
 
 export type MediaPulseBookDetailsResponse = {
   bookId: number
+  slug: string
   title: string
   description?: string | null
   coverUrl?: string | null

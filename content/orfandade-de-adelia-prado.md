@@ -31,4 +31,4 @@ me dá a mão, me cura de ser grande,
 ó meu Deus, meu pai,
 meu pai.
 ```
-Adélia Prado, [Poesia Reunida](livros/113-poesia-reunida).
+Adélia Prado, [Poesia Reunida](livros/2-poesia-reunida).

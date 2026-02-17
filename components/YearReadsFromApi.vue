@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { MediaPulseReadCard, MediaPulseYearReadsResponse } from '~/types/media-pulse-books'
-import { toSlug } from '~/utils/slugify'
 
 const props = defineProps<{
   year: number
@@ -63,7 +62,7 @@ const progressLabel = (item: MediaPulseReadCard) => {
   return parts.join(' · ')
 }
 
-const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId}-${toSlug(bookTitle)}`
+const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
 </script>
 
 <template>
@@ -126,7 +125,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               sem capa
             </div>
             <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
                 <strong class="reads-item__title">{{ item.edition.title }}</strong>
               </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
@@ -138,7 +137,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               <time v-if="dateForItem(item, 'currentlyReading')" class="reads-item__date">
                 {{ dateForItem(item, 'currentlyReading') }}
               </time>
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
                 Ver detalhes
               </NuxtLink>
             </div>
@@ -166,7 +165,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               sem capa
             </div>
             <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
                 <strong class="reads-item__title">{{ item.edition.title }}</strong>
               </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
@@ -175,7 +174,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               <time v-if="dateForItem(item, 'finished')" class="reads-item__date">
                 {{ dateForItem(item, 'finished') }}
               </time>
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
                 Ver detalhes
               </NuxtLink>
             </div>
@@ -203,7 +202,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               sem capa
             </div>
             <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
                 <strong class="reads-item__title">{{ item.edition.title }}</strong>
               </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
@@ -212,7 +211,7 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               <time v-if="dateForItem(item, 'didNotFinish')" class="reads-item__date">
                 {{ dateForItem(item, 'didNotFinish') }}
               </time>
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
                 Ver detalhes
               </NuxtLink>
             </div>
@@ -240,13 +239,13 @@ const bookDetailsLink = (bookId: number, bookTitle: string) => `/livros/${bookId
               sem capa
             </div>
             <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__title-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
                 <strong class="reads-item__title">{{ item.edition.title }}</strong>
               </NuxtLink>
               <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
                 {{ authorsLabel(item.book.authors) }}
               </span>
-              <NuxtLink :to="bookDetailsLink(item.book.bookId, item.book.title)" class="reads-item__details-link">
+              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
                 Ver detalhes
               </NuxtLink>
             </div>

@@ -30,6 +30,6 @@ Semente.
 Muito mais que raízes.
 ```
 
-Adélia Prado, [Poesia Reunida](livros/113-poesia-reunida).
+Adélia Prado, [Poesia Reunida](livros/2-poesia-reunida).
 
 Ás vezes eu só queria estar embaixo de uma pedra. Eu lhe entendo!

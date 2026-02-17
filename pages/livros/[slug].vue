@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { MediaPulseBookDetailsResponse, MediaPulseRead } from '~/types/media-pulse-books'
-import { toSlug } from '~/utils/slugify'
 
 definePageMeta({
   documentDriven: false
@@ -9,10 +8,10 @@ definePageMeta({
 const route = useRoute()
 const { apiUrl, assetUrl } = useMediaPulseApi()
 
-const idParam = Array.isArray(route.params.id) ? route.params.id[0] : route.params.id
-const bookId = Number.parseInt(String(idParam), 10)
+const slugParam = Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug
+const bookSlug = String(slugParam || '').trim()
 
-if (!Number.isInteger(bookId) || bookId <= 0) {
+if (!bookSlug) {
   throw createError({
     statusCode: 404,
     statusMessage: 'Livro não encontrado'
@@ -20,8 +19,8 @@ if (!Number.isInteger(bookId) || bookId <= 0) {
 }
 
 const { data: book, pending, error } = useAsyncData(
-  `book-details-${bookId}`,
-  () => $fetch<MediaPulseBookDetailsResponse>(apiUrl(`/api/books/${bookId}`)),
+  `book-details-${bookSlug}`,
+  () => $fetch<MediaPulseBookDetailsResponse>(apiUrl(`/api/books/slug/${encodeURIComponent(bookSlug)}`)),
   {
     server: false
   }
@@ -48,14 +47,12 @@ const pageName = computed(() => {
   return book.value?.title || 'Livro'
 })
 
-const canonicalSlug = computed(() => toSlug(book.value?.title || 'livro'))
-
 watch(book, async (value) => {
   if (!value) return
 
   const routeSlug = Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug
-  if (routeSlug !== canonicalSlug.value) {
-    await navigateTo(`/livros/${bookId}-${canonicalSlug.value}`, { redirectCode: 301, replace: true })
+  if (routeSlug !== value.slug) {
+    await navigateTo(`/livros/${value.slug}`, { redirectCode: 301, replace: true })
   }
 }, { immediate: true })
 
