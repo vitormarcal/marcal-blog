@@ -26,6 +26,31 @@ const { data: book, pending, error } = useAsyncData(
   }
 )
 
+const extractStatusCode = (value: unknown) => {
+  const raw = value as any
+  const candidates = [
+    raw?.statusCode,
+    raw?.status,
+    raw?.response?.status,
+    raw?.data?.statusCode
+  ]
+  for (const candidate of candidates) {
+    const parsed = Number(candidate)
+    if (Number.isInteger(parsed) && parsed > 0) return parsed
+  }
+  return null
+}
+
+watch(error, (value) => {
+  if (!value) return
+  if (extractStatusCode(value) !== 404) return
+
+  showError(createError({
+    statusCode: 404,
+    statusMessage: 'Livro não encontrado'
+  }))
+}, { immediate: true })
+
 const selectedReadEdition = computed(() => {
   const reads = book.value?.reads || []
   if (!reads.length) return null
