@@ -12,21 +12,48 @@ const props = withDefaults(defineProps<{
   autoPlayMs: 4500
 })
 
+const route = useRoute()
+const router = useRouter()
 const current = ref(0)
 const isPaused = ref(false)
+const progressPct = ref(0)
+const remainingMs = ref(props.autoPlayMs)
 let autoplayTimer: ReturnType<typeof setTimeout> | null = null
+let progressTimer: ReturnType<typeof setInterval> | null = null
+let tickStartedAt: number | null = null
+let touchStartX = 0
+let touchStartY = 0
+let hasTouchStarted = false
 
 const activeSlide = computed(() => props.story.slides[current.value])
 const isLastSlide = computed(() => current.value >= props.story.slides.length - 1)
+const hasSlides = computed(() => props.story.slides.length > 0)
+
+const clampIndex = (idx: number) => {
+  if (!hasSlides.value) return 0
+  return Math.min(Math.max(idx, 0), props.story.slides.length - 1)
+}
+
+const indexFromQuerySlide = (value: unknown) => {
+  const raw = Array.isArray(value) ? value[0] : value
+  const parsed = Number(raw)
+  if (!Number.isInteger(parsed)) return null
+  if (parsed < 1) return 0
+  return clampIndex(parsed - 1)
+}
+
+const setCurrent = (idx: number) => {
+  current.value = clampIndex(idx)
+}
 
 const next = () => {
-  if (!props.story.slides.length) return
-  current.value = Math.min(current.value + 1, props.story.slides.length - 1)
+  if (!hasSlides.value) return
+  setCurrent(current.value + 1)
 }
 
 const previous = () => {
-  if (!props.story.slides.length) return
-  current.value = Math.max(current.value - 1, 0)
+  if (!hasSlides.value) return
+  setCurrent(current.value - 1)
 }
 
 const close = async () => {
@@ -34,23 +61,52 @@ const close = async () => {
 }
 
 const clearAutoplay = () => {
-  if (!autoplayTimer) return
-  clearTimeout(autoplayTimer)
-  autoplayTimer = null
+  if (autoplayTimer) {
+    clearTimeout(autoplayTimer)
+    autoplayTimer = null
+  }
+  if (progressTimer) {
+    clearInterval(progressTimer)
+    progressTimer = null
+  }
+  tickStartedAt = null
+}
+
+const applyElapsed = () => {
+  if (tickStartedAt === null) return
+  const now = Date.now()
+  const elapsed = Math.max(0, now - tickStartedAt)
+  tickStartedAt = now
+  remainingMs.value = Math.max(0, remainingMs.value - elapsed)
+  progressPct.value = Math.min(100, ((props.autoPlayMs - remainingMs.value) / props.autoPlayMs) * 100)
+}
+
+const resetProgress = () => {
+  remainingMs.value = props.autoPlayMs
+  progressPct.value = isLastSlide.value ? 100 : 0
 }
 
 const scheduleAutoplay = () => {
-  clearAutoplay()
   if (!props.autoPlay) return
   if (isPaused.value) return
+  if (!hasSlides.value) return
   if (isLastSlide.value) return
+  if (remainingMs.value <= 0) return
 
+  clearAutoplay()
+  tickStartedAt = Date.now()
   autoplayTimer = setTimeout(() => {
     next()
-  }, props.autoPlayMs)
+  }, remainingMs.value)
+
+  progressTimer = setInterval(() => {
+    applyElapsed()
+  }, 50)
 }
 
 const pauseAutoplay = () => {
+  if (isPaused.value) return
+  applyElapsed()
   isPaused.value = true
   clearAutoplay()
 }
@@ -77,6 +133,70 @@ const onKeydown = (event: KeyboardEvent) => {
   }
 }
 
+const progressWidth = (idx: number) => {
+  if (idx < current.value) return 100
+  if (idx > current.value) return 0
+  return progressPct.value
+}
+
+const syncSlideFromQuery = () => {
+  const idx = indexFromQuerySlide(route.query.slide)
+  if (idx === null) return
+  if (idx === current.value) return
+  setCurrent(idx)
+}
+
+const syncQueryFromSlide = () => {
+  const nextSlide = String(current.value + 1)
+  const currentQuerySlide = Array.isArray(route.query.slide) ? route.query.slide[0] : route.query.slide
+  if (currentQuerySlide === nextSlide) return
+
+  router.replace({
+    query: {
+      ...route.query,
+      slide: nextSlide
+    }
+  })
+}
+
+const onTouchStart = (event: TouchEvent) => {
+  pauseAutoplay()
+  const touch = event.changedTouches?.[0]
+  if (!touch) return
+  hasTouchStarted = true
+  touchStartX = touch.clientX
+  touchStartY = touch.clientY
+}
+
+const onTouchEnd = (event: TouchEvent) => {
+  const touch = event.changedTouches?.[0]
+  if (!touch || !hasTouchStarted) {
+    resumeAutoplay()
+    return
+  }
+
+  const diffX = touch.clientX - touchStartX
+  const diffY = touch.clientY - touchStartY
+  const absX = Math.abs(diffX)
+  const absY = Math.abs(diffY)
+
+  if (absX > 36 && absX > absY) {
+    if (diffX < 0) {
+      next()
+    } else {
+      previous()
+    }
+  }
+
+  hasTouchStarted = false
+  resumeAutoplay()
+}
+
+const onTouchCancel = () => {
+  hasTouchStarted = false
+  resumeAutoplay()
+}
+
 const onVisibilityChange = () => {
   if (document.hidden) {
     pauseAutoplay()
@@ -86,8 +206,10 @@ const onVisibilityChange = () => {
 }
 
 onMounted(() => {
+  syncSlideFromQuery()
   window.addEventListener('keydown', onKeydown)
   document.addEventListener('visibilitychange', onVisibilityChange)
+  resetProgress()
   scheduleAutoplay()
 })
 
@@ -98,11 +220,14 @@ onBeforeUnmount(() => {
 })
 
 watch(current, () => {
+  syncQueryFromSlide()
+  clearAutoplay()
+  resetProgress()
   scheduleAutoplay()
 })
 
-watch(isPaused, () => {
-  scheduleAutoplay()
+watch(() => route.query.slide, () => {
+  syncSlideFromQuery()
 })
 </script>
 
@@ -113,8 +238,10 @@ watch(isPaused, () => {
         <span
           v-for="(_, idx) in story.slides"
           :key="`${story.slug}-${idx}`"
-          :class="{ active: idx <= current }"
-        />
+          class="story-viewer__progress-track"
+        >
+          <span class="story-viewer__progress-fill" :style="{ width: `${progressWidth(idx)}%` }" />
+        </span>
       </div>
       <button type="button" class="story-viewer__close" aria-label="Fechar stories" @click="close">
         Fechar
@@ -128,9 +255,9 @@ watch(isPaused, () => {
       :aria-label="`${story.title}: slide ${current + 1} de ${story.slides.length}`"
       @mouseenter="pauseAutoplay"
       @mouseleave="resumeAutoplay"
-      @touchstart="pauseAutoplay"
-      @touchend="resumeAutoplay"
-      @touchcancel="resumeAutoplay"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
+      @touchcancel="onTouchCancel"
     >
       <button
         type="button"
@@ -178,14 +305,21 @@ watch(isPaused, () => {
   flex: 1;
 }
 
-.story-viewer__progress span {
+.story-viewer__progress-track {
+  position: relative;
   height: 3px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
 }
 
-.story-viewer__progress span.active {
+.story-viewer__progress-fill {
+  display: block;
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
   background: #fff;
+  transition: width 0.08s linear;
 }
 
 .story-viewer__close {
