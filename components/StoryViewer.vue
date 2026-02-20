@@ -4,13 +4,20 @@ import type { StoryItem } from '~/data/stories'
 const props = withDefaults(defineProps<{
   story: StoryItem
   closeTo?: string
+  autoPlay?: boolean
+  autoPlayMs?: number
 }>(), {
-  closeTo: '/'
+  closeTo: '/',
+  autoPlay: true,
+  autoPlayMs: 4500
 })
 
 const current = ref(0)
+const isPaused = ref(false)
+let autoplayTimer: ReturnType<typeof setTimeout> | null = null
 
 const activeSlide = computed(() => props.story.slides[current.value])
+const isLastSlide = computed(() => current.value >= props.story.slides.length - 1)
 
 const next = () => {
   if (!props.story.slides.length) return
@@ -24,6 +31,33 @@ const previous = () => {
 
 const close = async () => {
   await navigateTo(props.closeTo)
+}
+
+const clearAutoplay = () => {
+  if (!autoplayTimer) return
+  clearTimeout(autoplayTimer)
+  autoplayTimer = null
+}
+
+const scheduleAutoplay = () => {
+  clearAutoplay()
+  if (!props.autoPlay) return
+  if (isPaused.value) return
+  if (isLastSlide.value) return
+
+  autoplayTimer = setTimeout(() => {
+    next()
+  }, props.autoPlayMs)
+}
+
+const pauseAutoplay = () => {
+  isPaused.value = true
+  clearAutoplay()
+}
+
+const resumeAutoplay = () => {
+  isPaused.value = false
+  scheduleAutoplay()
 }
 
 const onKeydown = (event: KeyboardEvent) => {
@@ -43,12 +77,32 @@ const onKeydown = (event: KeyboardEvent) => {
   }
 }
 
+const onVisibilityChange = () => {
+  if (document.hidden) {
+    pauseAutoplay()
+    return
+  }
+  resumeAutoplay()
+}
+
 onMounted(() => {
   window.addEventListener('keydown', onKeydown)
+  document.addEventListener('visibilitychange', onVisibilityChange)
+  scheduleAutoplay()
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown)
+  document.removeEventListener('visibilitychange', onVisibilityChange)
+  clearAutoplay()
+})
+
+watch(current, () => {
+  scheduleAutoplay()
+})
+
+watch(isPaused, () => {
+  scheduleAutoplay()
 })
 </script>
 
@@ -72,6 +126,11 @@ onBeforeUnmount(() => {
       class="story-viewer__frame"
       :style="{ backgroundImage: `url(${activeSlide.image})` }"
       :aria-label="`${story.title}: slide ${current + 1} de ${story.slides.length}`"
+      @mouseenter="pauseAutoplay"
+      @mouseleave="resumeAutoplay"
+      @touchstart="pauseAutoplay"
+      @touchend="resumeAutoplay"
+      @touchcancel="resumeAutoplay"
     >
       <button
         type="button"
@@ -184,4 +243,3 @@ onBeforeUnmount(() => {
   font-size: 30px;
 }
 </style>
-
