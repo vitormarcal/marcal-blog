@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { stories } from '~/data/stories'
-
 const homeTitle = 'Olá, eu sou o Vítor Marçal. 😉'
 const homeDescription = 'Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo 🧠!'
 const latestPostsTitle = 'Últimas publicações'
 const previousPublicationsTitle = 'Publicações anteriores'
+const { stories } = useStoriesCatalog()
 
 const { page } = useContent()
 useContentHead(page)

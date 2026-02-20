@@ -1,14 +1,13 @@
 <script setup lang="ts">
-import { getStoryBySlug } from '~/data/stories'
-
 definePageMeta({
   documentDriven: false,
   layout: 'slide-layout'
 })
 
 const route = useRoute()
+const { getBySlug } = useStoriesCatalog()
 const storySlug = Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug
-const story = computed(() => getStoryBySlug(String(storySlug || '').trim()))
+const story = computed(() => getBySlug(String(storySlug || '').trim()))
 
 if (!story.value) {
   throw createError({
@@ -31,4 +30,3 @@ useSeoMeta({
 <template>
   <StoryViewer v-if="story" :story="story" close-to="/" />
 </template>
-

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { StoryItem } from '~/data/stories'
+import type { StoryItem } from '~/types/story'
 
 const props = withDefaults(defineProps<{
   story: StoryItem

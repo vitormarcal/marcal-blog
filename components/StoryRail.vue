@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { StoryItem } from '~/data/stories'
+import type { StoryItem } from '~/types/story'
 
 defineProps<{
   items: StoryItem[]
@@ -72,4 +72,3 @@ defineProps<{
   text-align: center;
 }
 </style>
-
