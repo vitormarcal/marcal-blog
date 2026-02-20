@@ -193,11 +193,15 @@ const readProgress = (read: MediaPulseRead) => {
 
         <template v-else-if="book">
           <section class="book-page__summary">
-            <img
+            <ExpandableImage
               v-if="coverSrc"
               :src="coverSrc"
               :alt="`Capa de ${pageName}`"
-              class="book-cover"
+              :expand-label="`Expandir capa de ${pageName}`"
+              thumb-width="140px"
+              thumb-height="210px"
+              thumb-radius="10px"
+              max-lightbox-width="1100px"
             />
             <div v-else class="book-cover book-cover--placeholder" aria-hidden="true">
               Sem capa
@@ -437,4 +441,5 @@ const readProgress = (read: MediaPulseRead) => {
   color: rgba(255, 255, 255, 0.76);
   font-size: 0.94rem;
 }
+
 </style>

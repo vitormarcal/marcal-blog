@@ -63,6 +63,14 @@ const progressLabel = (item: MediaPulseReadCard) => {
 }
 
 const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
+
+const readCoverProps = {
+  thumbWidth: '68px',
+  thumbHeight: '102px',
+  mobileThumbWidth: '54px',
+  mobileThumbHeight: '82px',
+  thumbRadius: '8px'
+} as const
 </script>
 
 <template>
@@ -114,12 +122,13 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.currentlyReading.length" class="reads-list">
           <li v-for="item in data.currentlyReading" :key="item.readId" class="reads-item">
-            <img
+            <ExpandableImage
               v-if="item.edition.coverUrl"
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
+              :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
+              v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
@@ -154,12 +163,13 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.finished.length" class="reads-list">
           <li v-for="item in data.finished" :key="item.readId" class="reads-item">
-            <img
+            <ExpandableImage
               v-if="item.edition.coverUrl"
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
+              :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
+              v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
@@ -191,12 +201,13 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.didNotFinish.length" class="reads-list">
           <li v-for="item in data.didNotFinish" :key="item.readId" class="reads-item">
-            <img
+            <ExpandableImage
               v-if="item.edition.coverUrl"
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
+              :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
+              v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
@@ -228,12 +239,13 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.wantToRead.length" class="reads-list">
           <li v-for="item in data.wantToRead" :key="item.readId" class="reads-item">
-            <img
+            <ExpandableImage
               v-if="item.edition.coverUrl"
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
+              :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
+              v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
