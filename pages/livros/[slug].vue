@@ -61,7 +61,9 @@ const selectedReadEdition = computed(() => {
     return bDate - aDate
   })
 
-  const latestWithEdition = sortedReads.find((read) => read.edition?.title?.trim())
+  const latestWithEdition = sortedReads.find(
+    (read) => read.edition?.title?.trim() || read.edition?.editionInformation?.trim()
+  )
   return latestWithEdition?.edition || null
 })
 
@@ -70,6 +72,15 @@ const pageName = computed(() => {
   const fromEdition = book.value?.editions?.find((edition) => edition.title?.trim())?.title?.trim()
   if (fromEdition) return fromEdition
   return book.value?.title || 'Livro'
+})
+
+const editionInformationText = computed(() => {
+  const fromSelectedRead = selectedReadEdition.value?.editionInformation?.trim()
+  if (fromSelectedRead) return fromSelectedRead
+
+  const fromEdition = book.value?.editions?.find((edition) => edition.editionInformation?.trim())
+    ?.editionInformation?.trim()
+  return fromEdition || ''
 })
 
 watch(book, async (value) => {
@@ -88,7 +99,7 @@ const title = computed(() => {
 
 const description = computed(() => {
   if (!book.value) return 'Detalhes de leitura.'
-  return book.value.description?.trim() || 'Detalhes de leitura.'
+  return book.value.description?.replace(/\s+/g, ' ').trim() || 'Detalhes de leitura.'
 })
 
 useSeoMeta({
@@ -101,6 +112,17 @@ useSeoMeta({
 const authorsLabel = computed(() => {
   if (!book.value?.authors?.length) return ''
   return book.value.authors.map((author) => author.name).join(', ')
+})
+
+const bookDescriptionText = computed(() => book.value?.description?.trim() || '')
+
+const bookDescriptionParagraphs = computed(() => {
+  if (!bookDescriptionText.value) return []
+
+  return bookDescriptionText.value
+    .split(/\r?\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
 })
 
 const reviewText = computed(() => book.value?.reviewRaw?.trim() || '')
@@ -158,7 +180,7 @@ const readProgress = (read: MediaPulseRead) => {
         <div class="book-page__header">
           <p class="book-page__kicker">Livro</p>
           <h1>{{ pageName }}</h1>
-          <p v-if="book?.description" class="book-page__description">{{ book.description }}</p>
+          <p v-if="editionInformationText" class="book-page__description">{{ editionInformationText }}</p>
         </div>
 
         <div v-if="pending" class="book-page__state" aria-busy="true">
@@ -203,6 +225,19 @@ const readProgress = (read: MediaPulseRead) => {
                 <dd>{{ formatDate(book.reviewedAt) }}</dd>
               </div>
             </dl>
+          </section>
+
+          <section class="book-page__section">
+            <h2>Sinopse</h2>
+            <div v-if="bookDescriptionParagraphs.length" class="book-description">
+              <p
+                v-for="(paragraph, index) in bookDescriptionParagraphs"
+                :key="`${index}-${paragraph.slice(0, 18)}`"
+              >
+                {{ paragraph }}
+              </p>
+            </div>
+            <p v-else class="book-page__empty">Sem sinopse registrada para este livro.</p>
           </section>
 
           <section class="book-page__section">
@@ -283,6 +318,9 @@ const readProgress = (read: MediaPulseRead) => {
 
 .book-page__description {
   color: rgba(255, 255, 255, 0.74);
+  margin: 0;
+  line-height: 1.55;
+  max-width: 70ch;
 }
 
 .book-page__state {
@@ -361,6 +399,21 @@ const readProgress = (read: MediaPulseRead) => {
 
 .book-review p {
   white-space: pre-wrap;
+}
+
+.book-description {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.book-description p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  line-height: 1.65;
 }
 
 .book-list {

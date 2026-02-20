@@ -51,6 +51,7 @@ export type MediaPulseYearReadsResponse = {
 export type MediaPulseEdition = {
   id: number
   title: string
+  editionInformation?: string | null
   isbn10?: string | null
   isbn13?: string | null
   pages?: number | null
@@ -76,6 +77,7 @@ export type MediaPulseRead = {
   edition?: {
     id: number
     title: string
+    editionInformation?: string | null
     coverUrl?: string | null
   } | null
 }
