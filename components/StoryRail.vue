@@ -44,7 +44,11 @@ defineProps<{
 }
 
 .story-rail__item {
-  min-width: 84px;
+  width: 96px;
+  min-width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
   color: inherit;
 }
@@ -70,5 +74,8 @@ defineProps<{
   margin-top: 0.45rem;
   font-size: 0.8rem;
   text-align: center;
+  width: 100%;
+  line-height: 1.2;
+  text-wrap: balance;
 }
 </style>
