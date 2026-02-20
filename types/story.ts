@@ -10,7 +10,17 @@ export interface StoryItem {
   subtitle?: string
   cover: string
   layout?: 'slide-layout' | 'default'
+  sourcePost?: {
+    title: string
+    url: string
+  }
   slides: StorySlide[]
+}
+
+const isSourcePost = (value: unknown) => {
+  if (value == null) return true
+  const item = value as { title?: unknown, url?: unknown }
+  return typeof item.title === 'string' && typeof item.url === 'string'
 }
 
 const isStorySlide = (value: unknown): value is StorySlide => {
@@ -30,6 +40,7 @@ const isStoryItem = (value: unknown): value is StoryItem => {
     typeof item.slug === 'string' &&
     typeof item.title === 'string' &&
     typeof item.cover === 'string' &&
+    isSourcePost(item.sourcePost) &&
     Array.isArray(item.slides) &&
     item.slides.every(isStorySlide)
   )
@@ -38,4 +49,3 @@ const isStoryItem = (value: unknown): value is StoryItem => {
 export const isStoryCatalog = (value: unknown): value is StoryItem[] => {
   return Array.isArray(value) && value.every(isStoryItem)
 }
-

@@ -316,6 +316,14 @@ watch(() => route.query.slide, () => {
           <strong>{{ activeSlide.strong }}</strong>
           {{ activeSlide.text }}
         </p>
+        <NuxtLink
+          v-if="story.sourcePost"
+          class="story-viewer__source-link"
+          :to="story.sourcePost.url"
+          :aria-label="`Abrir post ${story.sourcePost.title}`"
+        >
+          Ver post completo: {{ story.sourcePost.title }}
+        </NuxtLink>
       </div>
     </article>
 
@@ -461,6 +469,15 @@ watch(() => route.query.slide, () => {
 
 .story-viewer__caption strong {
   font-size: 30px;
+}
+
+.story-viewer__source-link {
+  display: inline-flex;
+  margin-top: 0.55rem;
+  font-size: 0.86rem;
+  line-height: 1.2;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .story-viewer__modal {

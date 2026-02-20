@@ -74,6 +74,10 @@
     "subtitle": "Referências visuais entre pinturas e a abertura de Elfen Lied",
     "cover": "/img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg",
     "layout": "slide-layout",
+    "sourcePost": {
+      "title": "Gustav Klimt e Elfen Lied",
+      "url": "/gustav-klimt-e-elfen-lied"
+    },
     "slides": [
       {
         "image": "/img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg",
