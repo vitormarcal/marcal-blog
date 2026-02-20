@@ -51,8 +51,22 @@
         <h2>Reproduções recentes</h2>
         <div class="album-grid">
           <div v-for="a in recentAlbums" :key="a.albumId" class="album-card">
-            <div class="cover" :style="coverStyle(a.coverUrl)">
-              <span v-if="!a.coverUrl" class="placeholder">♪</span>
+            <div class="cover">
+              <ExpandableImage
+                v-if="a.coverUrl"
+                :src="coverSrc(a.coverUrl)"
+                :alt="`Capa do álbum ${a.albumTitle} por ${a.artistName}`"
+                :expand-label="`Expandir capa de ${a.albumTitle}`"
+                gallery="musicas-recent-albums"
+                trigger-width="100%"
+                trigger-height="100%"
+                thumb-width="100%"
+                thumb-height="100%"
+                thumb-fit="cover"
+                thumb-radius="0"
+                max-lightbox-width="1200px"
+              />
+              <span v-else class="placeholder">♪</span>
             </div>
             <div class="album-meta">
               <div class="title">{{ a.albumTitle }}</div>
@@ -467,9 +481,9 @@ function timeAgo(timestamp) {
   return 'agora'
 }
 
-function coverStyle(url) {
-  if (!url) return {}
-  return { backgroundImage: `url(${assetUrl(url)})` }
+function coverSrc(url) {
+  if (!url) return ''
+  return assetUrl(url)
 }
 
 function coverageBadge(percent) {
@@ -686,10 +700,18 @@ h1 {
 }
 .cover {
   width: 100%;
-  padding-top: 100%;
-  background-size: cover;
-  background-position: center;
+  aspect-ratio: 1 / 1;
   position: relative;
+  overflow: hidden;
+  background: #111;
+}
+
+.cover :deep(.expandable-image__trigger) {
+  border-radius: 0;
+}
+
+.cover :deep(.expandable-image__trigger:hover) {
+  transform: none;
 }
 .placeholder {
   position: absolute;

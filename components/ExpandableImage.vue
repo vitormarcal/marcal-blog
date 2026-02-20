@@ -11,6 +11,7 @@ const props = withDefaults(defineProps<{
   thumbRadius?: string
   maxLightboxWidth?: string
   triggerWidth?: string
+  triggerHeight?: string
   thumbFit?: 'cover' | 'contain'
   gallery?: string
   showCounter?: boolean
@@ -22,6 +23,7 @@ const props = withDefaults(defineProps<{
   thumbRadius: '10px',
   maxLightboxWidth: '1100px',
   triggerWidth: 'fit-content',
+  triggerHeight: 'fit-content',
   thumbFit: 'cover',
   gallery: '',
   showCounter: true
@@ -39,7 +41,8 @@ const thumbStyle = computed(() => ({
   '--thumb-height-mobile': props.mobileThumbHeight || props.thumbHeight,
   '--thumb-radius': props.thumbRadius,
   '--thumb-fit': props.thumbFit,
-  '--trigger-width': props.triggerWidth
+  '--trigger-width': props.triggerWidth,
+  '--trigger-height': props.triggerHeight
 }))
 
 const lightboxImageStyle = computed(() => ({
@@ -198,7 +201,7 @@ onBeforeUnmount(() => {
   border: 0;
   background: transparent;
   width: var(--trigger-width, fit-content);
-  height: fit-content;
+  height: var(--trigger-height, fit-content);
   line-height: 0;
   border-radius: calc(var(--thumb-radius, 10px) + 2px);
   cursor: zoom-in;
