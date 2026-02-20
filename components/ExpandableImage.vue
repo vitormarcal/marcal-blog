@@ -10,13 +10,17 @@ const props = withDefaults(defineProps<{
   mobileThumbHeight?: string
   thumbRadius?: string
   maxLightboxWidth?: string
+  triggerWidth?: string
+  thumbFit?: 'cover' | 'contain'
 }>(), {
   expandLabel: 'Expandir imagem',
   loading: 'lazy',
   thumbWidth: '68px',
   thumbHeight: '102px',
   thumbRadius: '10px',
-  maxLightboxWidth: '1100px'
+  maxLightboxWidth: '1100px',
+  triggerWidth: 'fit-content',
+  thumbFit: 'cover'
 })
 
 const isExpanded = ref(false)
@@ -26,7 +30,9 @@ const thumbStyle = computed(() => ({
   '--thumb-height': props.thumbHeight,
   '--thumb-width-mobile': props.mobileThumbWidth || props.thumbWidth,
   '--thumb-height-mobile': props.mobileThumbHeight || props.thumbHeight,
-  '--thumb-radius': props.thumbRadius
+  '--thumb-radius': props.thumbRadius,
+  '--thumb-fit': props.thumbFit,
+  '--trigger-width': props.triggerWidth
 }))
 
 const lightboxImageStyle = computed(() => ({
@@ -116,7 +122,7 @@ onBeforeUnmount(() => {
   padding: 0;
   border: 0;
   background: transparent;
-  width: fit-content;
+  width: var(--trigger-width, fit-content);
   height: fit-content;
   line-height: 0;
   border-radius: calc(var(--thumb-radius, 10px) + 2px);
@@ -136,7 +142,7 @@ onBeforeUnmount(() => {
 .expandable-image__thumb {
   width: var(--thumb-width, 68px);
   height: var(--thumb-height, 102px);
-  object-fit: cover;
+  object-fit: var(--thumb-fit, cover);
   border-radius: var(--thumb-radius, 10px);
   background: #efefef;
 }
