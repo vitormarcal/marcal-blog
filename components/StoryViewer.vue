@@ -251,7 +251,6 @@ watch(() => route.query.slide, () => {
     <article
       v-if="activeSlide"
       class="story-viewer__frame"
-      :style="{ backgroundImage: `url(${activeSlide.image})` }"
       :aria-label="`${story.title}: slide ${current + 1} de ${story.slides.length}`"
       @mouseenter="pauseAutoplay"
       @mouseleave="resumeAutoplay"
@@ -259,6 +258,12 @@ watch(() => route.query.slide, () => {
       @touchend="onTouchEnd"
       @touchcancel="onTouchCancel"
     >
+      <img
+        :src="activeSlide.image"
+        :alt="activeSlide.strong"
+        class="story-viewer__image"
+      />
+
       <button
         type="button"
         class="story-viewer__nav story-viewer__nav--left"
@@ -335,10 +340,18 @@ watch(() => route.query.slide, () => {
 .story-viewer__frame {
   position: relative;
   min-height: var(--frame-height);
-  background-size: cover;
-  background-position: center;
   border: var(--frame-border);
   overflow: hidden;
+  background: #000;
+}
+
+.story-viewer__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .story-viewer__nav {
