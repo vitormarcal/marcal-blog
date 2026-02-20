@@ -171,42 +171,6 @@ const readProgress = (read: MediaPulseRead) => {
   }
   return parts.join(' · ')
 }
-
-const isCoverExpanded = ref(false)
-
-const openCoverExpanded = () => {
-  if (!coverSrc.value) return
-  isCoverExpanded.value = true
-}
-
-const closeCoverExpanded = () => {
-  isCoverExpanded.value = false
-}
-
-const handleCoverKeydown = (event: KeyboardEvent) => {
-  if (event.key === 'Escape') {
-    closeCoverExpanded()
-  }
-}
-
-watch(isCoverExpanded, (value) => {
-  if (!import.meta.client) return
-
-  if (value) {
-    document.body.style.overflow = 'hidden'
-    window.addEventListener('keydown', handleCoverKeydown)
-    return
-  }
-
-  document.body.style.overflow = ''
-  window.removeEventListener('keydown', handleCoverKeydown)
-})
-
-onBeforeUnmount(() => {
-  if (!import.meta.client) return
-  document.body.style.overflow = ''
-  window.removeEventListener('keydown', handleCoverKeydown)
-})
 </script>
 
 <template>
@@ -229,19 +193,16 @@ onBeforeUnmount(() => {
 
         <template v-else-if="book">
           <section class="book-page__summary">
-            <button
+            <ExpandableImage
               v-if="coverSrc"
-              type="button"
-              class="book-cover__button"
-              :aria-label="`Expandir capa de ${pageName}`"
-              @click="openCoverExpanded"
-            >
-              <img
-                :src="coverSrc"
-                :alt="`Capa de ${pageName}`"
-                class="book-cover"
-              />
-            </button>
+              :src="coverSrc"
+              :alt="`Capa de ${pageName}`"
+              :expand-label="`Expandir capa de ${pageName}`"
+              thumb-width="140px"
+              thumb-height="210px"
+              thumb-radius="10px"
+              max-lightbox-width="1100px"
+            />
             <div v-else class="book-cover book-cover--placeholder" aria-hidden="true">
               Sem capa
             </div>
@@ -325,31 +286,6 @@ onBeforeUnmount(() => {
         </template>
       </article>
     </main>
-
-    <Transition name="book-lightbox-fade">
-      <div
-        v-if="isCoverExpanded && coverSrc"
-        class="book-lightbox"
-        role="dialog"
-        aria-modal="true"
-        :aria-label="`Capa ampliada de ${pageName}`"
-        @click.self="closeCoverExpanded"
-      >
-        <button
-          type="button"
-          class="book-lightbox__close"
-          aria-label="Fechar imagem ampliada"
-          @click="closeCoverExpanded"
-        >
-          Fechar
-        </button>
-        <img
-          :src="coverSrc"
-          :alt="`Capa de ${pageName}`"
-          class="book-lightbox__image"
-        />
-      </div>
-    </Transition>
   </section>
 </template>
 
@@ -422,26 +358,6 @@ onBeforeUnmount(() => {
   border-radius: 10px;
   object-fit: cover;
   background: rgba(255, 255, 255, 0.15);
-}
-
-.book-cover__button {
-  padding: 0;
-  border: 0;
-  background: transparent;
-  width: fit-content;
-  line-height: 0;
-  border-radius: 12px;
-  cursor: zoom-in;
-  transition: transform 0.18s ease;
-}
-
-.book-cover__button:hover {
-  transform: translateY(-2px);
-}
-
-.book-cover__button:focus-visible {
-  outline: 2px solid var(--green);
-  outline-offset: 2px;
 }
 
 .book-cover--placeholder {
@@ -526,47 +442,4 @@ onBeforeUnmount(() => {
   font-size: 0.94rem;
 }
 
-.book-lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  display: grid;
-  place-items: center;
-  background: rgba(0, 0, 0, 0.84);
-  backdrop-filter: blur(3px);
-  padding: 1rem;
-}
-
-.book-lightbox__image {
-  max-width: min(1100px, 94vw);
-  max-height: 88vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 14px;
-  box-shadow: 0 26px 50px rgba(0, 0, 0, 0.62);
-}
-
-.book-lightbox__close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 0.5rem 0.95rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.book-lightbox-fade-enter-active,
-.book-lightbox-fade-leave-active {
-  transition: opacity 0.2s ease;
-}
-
-.book-lightbox-fade-enter-from,
-.book-lightbox-fade-leave-to {
-  opacity: 0;
-}
 </style>
