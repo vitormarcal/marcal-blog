@@ -99,6 +99,7 @@ const resetProgress = () => {
 
 const scheduleAutoplay = () => {
   if (!props.autoPlay) return
+  if (isImageExpanded.value) return
   if (isPaused.value) return
   if (!hasSlides.value) return
   if (isLastSlide.value) return
@@ -123,6 +124,7 @@ const pauseAutoplay = () => {
 }
 
 const resumeAutoplay = () => {
+  if (isImageExpanded.value) return
   isPaused.value = false
   scheduleAutoplay()
 }
