@@ -63,6 +63,47 @@ const progressLabel = (item: MediaPulseReadCard) => {
 }
 
 const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
+
+const expandedImage = ref<{ src: string, alt: string } | null>(null)
+
+const openExpandedImage = (coverUrl?: string | null, title?: string) => {
+  const src = coverSrc(coverUrl)
+  if (!src) return
+
+  expandedImage.value = {
+    src,
+    alt: `Capa de ${title || 'livro'}`
+  }
+}
+
+const closeExpandedImage = () => {
+  expandedImage.value = null
+}
+
+const handleExpandedImageKeydown = (event: KeyboardEvent) => {
+  if (event.key === 'Escape') {
+    closeExpandedImage()
+  }
+}
+
+watch(expandedImage, (value) => {
+  if (!import.meta.client) return
+
+  if (value) {
+    document.body.style.overflow = 'hidden'
+    window.addEventListener('keydown', handleExpandedImageKeydown)
+    return
+  }
+
+  document.body.style.overflow = ''
+  window.removeEventListener('keydown', handleExpandedImageKeydown)
+})
+
+onBeforeUnmount(() => {
+  if (!import.meta.client) return
+  document.body.style.overflow = ''
+  window.removeEventListener('keydown', handleExpandedImageKeydown)
+})
 </script>
 
 <template>
@@ -114,13 +155,20 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.currentlyReading.length" class="reads-list">
           <li v-for="item in data.currentlyReading" :key="item.readId" class="reads-item">
-            <img
+            <button
               v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
-            />
+              type="button"
+              class="reads-item__cover-button"
+              :aria-label="`Expandir capa de ${item.edition.title}`"
+              @click="openExpandedImage(item.edition.coverUrl, item.edition.title)"
+            >
+              <img
+                :src="coverSrc(item.edition.coverUrl)"
+                :alt="`Capa de ${item.edition.title}`"
+                loading="lazy"
+                class="reads-item__cover"
+              />
+            </button>
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
             </div>
@@ -154,13 +202,20 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.finished.length" class="reads-list">
           <li v-for="item in data.finished" :key="item.readId" class="reads-item">
-            <img
+            <button
               v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
-            />
+              type="button"
+              class="reads-item__cover-button"
+              :aria-label="`Expandir capa de ${item.edition.title}`"
+              @click="openExpandedImage(item.edition.coverUrl, item.edition.title)"
+            >
+              <img
+                :src="coverSrc(item.edition.coverUrl)"
+                :alt="`Capa de ${item.edition.title}`"
+                loading="lazy"
+                class="reads-item__cover"
+              />
+            </button>
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
             </div>
@@ -191,13 +246,20 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.didNotFinish.length" class="reads-list">
           <li v-for="item in data.didNotFinish" :key="item.readId" class="reads-item">
-            <img
+            <button
               v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
-            />
+              type="button"
+              class="reads-item__cover-button"
+              :aria-label="`Expandir capa de ${item.edition.title}`"
+              @click="openExpandedImage(item.edition.coverUrl, item.edition.title)"
+            >
+              <img
+                :src="coverSrc(item.edition.coverUrl)"
+                :alt="`Capa de ${item.edition.title}`"
+                loading="lazy"
+                class="reads-item__cover"
+              />
+            </button>
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
             </div>
@@ -228,13 +290,20 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         </div>
         <ul v-if="data.wantToRead.length" class="reads-list">
           <li v-for="item in data.wantToRead" :key="item.readId" class="reads-item">
-            <img
+            <button
               v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              loading="lazy"
-              class="reads-item__cover"
-            />
+              type="button"
+              class="reads-item__cover-button"
+              :aria-label="`Expandir capa de ${item.edition.title}`"
+              @click="openExpandedImage(item.edition.coverUrl, item.edition.title)"
+            >
+              <img
+                :src="coverSrc(item.edition.coverUrl)"
+                :alt="`Capa de ${item.edition.title}`"
+                loading="lazy"
+                class="reads-item__cover"
+              />
+            </button>
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
               sem capa
             </div>
@@ -255,6 +324,31 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
         <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
       </div>
     </div>
+
+    <Transition name="reads-lightbox-fade">
+      <div
+        v-if="expandedImage"
+        class="reads-lightbox"
+        role="dialog"
+        aria-modal="true"
+        :aria-label="expandedImage.alt"
+        @click.self="closeExpandedImage"
+      >
+        <button
+          type="button"
+          class="reads-lightbox__close"
+          aria-label="Fechar imagem ampliada"
+          @click="closeExpandedImage"
+        >
+          Fechar
+        </button>
+        <img
+          :src="expandedImage.src"
+          :alt="expandedImage.alt"
+          class="reads-lightbox__image"
+        />
+      </div>
+    </Transition>
   </section>
 </template>
 
@@ -417,6 +511,27 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
   background: #efefef;
 }
 
+.reads-item__cover-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  width: fit-content;
+  height: fit-content;
+  line-height: 0;
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: transform 0.18s ease;
+}
+
+.reads-item__cover-button:hover {
+  transform: translateY(-2px);
+}
+
+.reads-item__cover-button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
 .reads-item__cover--placeholder {
   display: grid;
   place-items: center;
@@ -513,6 +628,50 @@ const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
   padding: 0.75rem 1rem;
   border-radius: 6px;
   border: 1px solid rgba(155, 28, 28, 0.45);
+}
+
+.reads-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(3px);
+  padding: 1rem;
+}
+
+.reads-lightbox__image {
+  max-width: min(1100px, 94vw);
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+}
+
+.reads-lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.5rem 0.95rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.reads-lightbox-fade-enter-active,
+.reads-lightbox-fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.reads-lightbox-fade-enter-from,
+.reads-lightbox-fade-leave-to {
+  opacity: 0;
 }
 
 @keyframes skeleton {
