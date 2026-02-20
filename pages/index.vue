@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { stories } from '~/data/stories'
+
 const homeTitle = 'Olá, eu sou o Vítor Marçal. 😉'
 const homeDescription = 'Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo 🧠!'
 const latestPostsTitle = 'Últimas publicações'
@@ -19,6 +21,7 @@ const { data: posts } = await useAsyncData(`home`, () => queryContent()
 <template>
   <div class="index">
     <page-renderer :title="homeTitle" :description="homeDescription">
+      <StoryRail :items="stories" />
       <h3>{{ latestPostsTitle }}</h3>
       <ul class="latest-posts">
         <li v-for="post in posts" :key="post['_id']">
