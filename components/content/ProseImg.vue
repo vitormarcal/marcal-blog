@@ -12,6 +12,8 @@ const props = withDefaults(defineProps<{
 const imageSrc = computed(() => props.src || '')
 const imageAlt = computed(() => props.alt || props.title || 'Imagem do post')
 const expandLabel = computed(() => `Expandir imagem: ${imageAlt.value}`)
+const route = useRoute()
+const galleryId = computed(() => `post-markdown-images-${route.path}`)
 </script>
 
 <template>
@@ -20,6 +22,7 @@ const expandLabel = computed(() => `Expandir imagem: ${imageAlt.value}`)
       :src="imageSrc"
       :alt="imageAlt"
       :expand-label="expandLabel"
+      :gallery="galleryId"
       thumb-width="100%"
       thumb-height="auto"
       thumb-radius="8px"

@@ -127,6 +127,7 @@ const readCoverProps = {
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
               :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
               v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
@@ -167,6 +168,7 @@ const readCoverProps = {
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
               :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
               v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
@@ -204,6 +206,7 @@ const readCoverProps = {
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
               :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
               v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
@@ -241,6 +244,7 @@ const readCoverProps = {
               :src="coverSrc(item.edition.coverUrl)"
               :alt="`Capa de ${item.edition.title}`"
               :expand-label="`Expandir capa de ${item.edition.title}`"
+              gallery="year-reads-covers"
               v-bind="readCoverProps"
             />
             <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">

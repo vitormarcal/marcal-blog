@@ -12,6 +12,8 @@ const props = withDefaults(defineProps<{
   maxLightboxWidth?: string
   triggerWidth?: string
   thumbFit?: 'cover' | 'contain'
+  gallery?: string
+  showCounter?: boolean
 }>(), {
   expandLabel: 'Expandir imagem',
   loading: 'lazy',
@@ -20,10 +22,15 @@ const props = withDefaults(defineProps<{
   thumbRadius: '10px',
   maxLightboxWidth: '1100px',
   triggerWidth: 'fit-content',
-  thumbFit: 'cover'
+  thumbFit: 'cover',
+  gallery: '',
+  showCounter: true
 })
 
 const isExpanded = ref(false)
+const triggerRef = ref<HTMLButtonElement | null>(null)
+const galleryItems = ref<Array<{ src: string, alt: string }>>([])
+const galleryIndex = ref(0)
 
 const thumbStyle = computed(() => ({
   '--thumb-width': props.thumbWidth,
@@ -39,8 +46,53 @@ const lightboxImageStyle = computed(() => ({
   '--lightbox-max-width': props.maxLightboxWidth
 }))
 
+const hasGallery = computed(() => Boolean(props.gallery))
+const hasGalleryNavigation = computed(() => galleryItems.value.length > 1)
+const currentItem = computed(() => galleryItems.value[galleryIndex.value] || { src: props.src, alt: props.alt })
+
+const syncGallery = () => {
+  if (!import.meta.client || !hasGallery.value) {
+    galleryItems.value = [{ src: props.src, alt: props.alt }]
+    galleryIndex.value = 0
+    return
+  }
+
+  const group = CSS.escape(props.gallery)
+  const elements = Array.from(
+    document.querySelectorAll<HTMLButtonElement>(`button[data-expand-group="${group}"]`)
+  )
+
+  const items = elements
+    .map((element) => ({
+      src: element.dataset.expandSrc || '',
+      alt: element.dataset.expandAlt || 'Imagem'
+    }))
+    .filter((item) => item.src)
+
+  galleryItems.value = items.length ? items : [{ src: props.src, alt: props.alt }]
+
+  const triggerIndex = elements.findIndex((element) => element === triggerRef.value)
+  if (triggerIndex >= 0 && triggerIndex < galleryItems.value.length) {
+    galleryIndex.value = triggerIndex
+    return
+  }
+
+  galleryIndex.value = Math.max(0, galleryItems.value.findIndex((item) => item.src === props.src))
+}
+
+const goNext = () => {
+  if (!hasGalleryNavigation.value) return
+  galleryIndex.value = (galleryIndex.value + 1) % galleryItems.value.length
+}
+
+const goPrevious = () => {
+  if (!hasGalleryNavigation.value) return
+  galleryIndex.value = (galleryIndex.value - 1 + galleryItems.value.length) % galleryItems.value.length
+}
+
 const open = () => {
   if (!props.src) return
+  syncGallery()
   isExpanded.value = true
 }
 
@@ -51,6 +103,18 @@ const close = () => {
 const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
     close()
+    return
+  }
+
+  if (event.key === 'ArrowRight') {
+    event.preventDefault()
+    goNext()
+    return
+  }
+
+  if (event.key === 'ArrowLeft') {
+    event.preventDefault()
+    goPrevious()
   }
 }
 
@@ -76,10 +140,14 @@ onBeforeUnmount(() => {
 
 <template>
   <button
+    ref="triggerRef"
     type="button"
     class="expandable-image__trigger"
     :aria-label="expandLabel"
     :style="thumbStyle"
+    :data-expand-group="gallery || null"
+    :data-expand-src="src"
+    :data-expand-alt="alt"
     @click="open"
   >
     <img
@@ -108,11 +176,18 @@ onBeforeUnmount(() => {
         Fechar
       </button>
       <img
-        :src="src"
-        :alt="alt"
+        :src="currentItem.src"
+        :alt="currentItem.alt"
         :style="lightboxImageStyle"
         class="expandable-image__lightbox-image"
       />
+      <p
+        v-if="showCounter && hasGalleryNavigation"
+        class="expandable-image__counter"
+        aria-live="polite"
+      >
+        {{ galleryIndex + 1 }}/{{ galleryItems.length }}
+      </p>
     </div>
   </Transition>
 </template>
@@ -179,6 +254,19 @@ onBeforeUnmount(() => {
   padding: 0.5rem 0.95rem;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+.expandable-image__counter {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.84rem;
 }
 
 .expandable-image-fade-enter-active,
