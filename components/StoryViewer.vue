@@ -16,6 +16,7 @@ const route = useRoute()
 const router = useRouter()
 const current = ref(0)
 const isPaused = ref(false)
+const isImageExpanded = ref(false)
 const progressPct = ref(0)
 const remainingMs = ref(props.autoPlayMs)
 let autoplayTimer: ReturnType<typeof setTimeout> | null = null
@@ -58,6 +59,16 @@ const previous = () => {
 
 const close = async () => {
   await navigateTo(props.closeTo)
+}
+
+const openExpandedImage = () => {
+  isImageExpanded.value = true
+  pauseAutoplay()
+}
+
+const closeExpandedImage = () => {
+  isImageExpanded.value = false
+  resumeAutoplay()
 }
 
 const clearAutoplay = () => {
@@ -119,6 +130,10 @@ const resumeAutoplay = () => {
 const onKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
     event.preventDefault()
+    if (isImageExpanded.value) {
+      closeExpandedImage()
+      return
+    }
     close()
     return
   }
@@ -205,6 +220,11 @@ const onVisibilityChange = () => {
   resumeAutoplay()
 }
 
+watch(isImageExpanded, (value) => {
+  if (!import.meta.client) return
+  document.body.style.overflow = value ? 'hidden' : ''
+})
+
 onMounted(() => {
   syncSlideFromQuery()
   window.addEventListener('keydown', onKeydown)
@@ -217,6 +237,9 @@ onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown)
   document.removeEventListener('visibilitychange', onVisibilityChange)
   clearAutoplay()
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
 })
 
 watch(current, () => {
@@ -266,6 +289,15 @@ watch(() => route.query.slide, () => {
 
       <button
         type="button"
+        class="story-viewer__expand"
+        aria-label="Expandir imagem do slide"
+        @click.stop="openExpandedImage"
+      >
+        Expandir
+      </button>
+
+      <button
+        type="button"
         class="story-viewer__nav story-viewer__nav--left"
         aria-label="Slide anterior"
         @click="previous"
@@ -284,6 +316,31 @@ watch(() => route.query.slide, () => {
         </p>
       </div>
     </article>
+
+    <Transition name="story-viewer-modal-fade">
+      <div
+        v-if="activeSlide && isImageExpanded"
+        class="story-viewer__modal"
+        role="dialog"
+        aria-modal="true"
+        :aria-label="`Imagem ampliada do slide ${current + 1}`"
+        @click.self="closeExpandedImage"
+      >
+        <button
+          type="button"
+          class="story-viewer__modal-close"
+          aria-label="Fechar imagem ampliada"
+          @click="closeExpandedImage"
+        >
+          Fechar
+        </button>
+        <img
+          :src="activeSlide.image"
+          :alt="activeSlide.strong"
+          class="story-viewer__modal-image"
+        />
+      </div>
+    </Transition>
   </section>
 </template>
 
@@ -350,8 +407,22 @@ watch(() => route.query.slide, () => {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
+}
+
+.story-viewer__expand {
+  position: absolute;
+  top: 3rem;
+  right: 0.75rem;
+  z-index: 3;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .story-viewer__nav {
@@ -388,5 +459,46 @@ watch(() => route.query.slide, () => {
 
 .story-viewer__caption strong {
   font-size: 30px;
+}
+
+.story-viewer__modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.88);
+  padding: 1rem;
+}
+
+.story-viewer__modal-image {
+  max-width: 96vw;
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.story-viewer__modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.84rem;
+}
+
+.story-viewer-modal-fade-enter-active,
+.story-viewer-modal-fade-leave-active {
+  transition: opacity 0.18s ease;
+}
+
+.story-viewer-modal-fade-enter-from,
+.story-viewer-modal-fade-leave-to {
+  opacity: 0;
 }
 </style>
