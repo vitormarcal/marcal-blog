@@ -4,6 +4,7 @@ import type { StoryItem } from '~/types/story'
 const props = withDefaults(defineProps<{
   story: StoryItem
   closeTo?: string
+  nextStoryUrl?: string
   autoPlay?: boolean
   autoPlayMs?: number
 }>(), {
@@ -17,6 +18,7 @@ const router = useRouter()
 const current = ref(0)
 const isPaused = ref(false)
 const isImageExpanded = ref(false)
+const isLeavingStory = ref(false)
 const progressPct = ref(0)
 const remainingMs = ref(props.autoPlayMs)
 let autoplayTimer: ReturnType<typeof setTimeout> | null = null
@@ -29,6 +31,14 @@ let hasTouchStarted = false
 const activeSlide = computed(() => props.story.slides[current.value])
 const isLastSlide = computed(() => current.value >= props.story.slides.length - 1)
 const hasSlides = computed(() => props.story.slides.length > 0)
+const hasNextStory = computed(() => Boolean(props.nextStoryUrl))
+const shouldAutoAdvanceToNextStory = computed(() => isLastSlide.value && hasNextStory.value)
+const viewerStyle = computed(() => ({
+  '--story-caption-bg': props.story.theme?.captionBg || 'var(--frame-bg)',
+  '--story-caption-text': props.story.theme?.captionText || '#fff',
+  '--story-progress-start': props.story.theme?.ringStart || '#fff',
+  '--story-progress-end': props.story.theme?.ringEnd || '#fff'
+}))
 
 const clampIndex = (idx: number) => {
   if (!hasSlides.value) return 0
@@ -47,8 +57,19 @@ const setCurrent = (idx: number) => {
   current.value = clampIndex(idx)
 }
 
+const goToNextStory = async () => {
+  if (!props.nextStoryUrl || isLeavingStory.value) return
+  isLeavingStory.value = true
+  clearAutoplay()
+  await navigateTo(props.nextStoryUrl)
+}
+
 const next = () => {
   if (!hasSlides.value) return
+  if (isLastSlide.value) {
+    void goToNextStory()
+    return
+  }
   setCurrent(current.value + 1)
 }
 
@@ -58,6 +79,8 @@ const previous = () => {
 }
 
 const close = async () => {
+  isLeavingStory.value = true
+  clearAutoplay()
   await navigateTo(props.closeTo)
 }
 
@@ -94,7 +117,7 @@ const applyElapsed = () => {
 
 const resetProgress = () => {
   remainingMs.value = props.autoPlayMs
-  progressPct.value = isLastSlide.value ? 100 : 0
+  progressPct.value = isLastSlide.value && !shouldAutoAdvanceToNextStory.value ? 100 : 0
 }
 
 const scheduleAutoplay = () => {
@@ -102,12 +125,17 @@ const scheduleAutoplay = () => {
   if (isImageExpanded.value) return
   if (isPaused.value) return
   if (!hasSlides.value) return
-  if (isLastSlide.value) return
+  if (isLeavingStory.value) return
+  if (isLastSlide.value && !hasNextStory.value) return
   if (remainingMs.value <= 0) return
 
   clearAutoplay()
   tickStartedAt = Date.now()
   autoplayTimer = setTimeout(() => {
+    if (isLastSlide.value) {
+      void goToNextStory()
+      return
+    }
     next()
   }, remainingMs.value)
 
@@ -245,6 +273,7 @@ onBeforeUnmount(() => {
 })
 
 watch(current, () => {
+  if (isLeavingStory.value) return
   syncQueryFromSlide()
   clearAutoplay()
   resetProgress()
@@ -257,7 +286,7 @@ watch(() => route.query.slide, () => {
 </script>
 
 <template>
-  <section class="story-viewer">
+  <section class="story-viewer" :style="viewerStyle">
     <header class="story-viewer__top">
       <div class="story-viewer__progress" aria-hidden="true">
         <span
@@ -390,7 +419,7 @@ watch(() => route.query.slide, () => {
   height: 100%;
   width: 0%;
   border-radius: inherit;
-  background: #fff;
+  background: linear-gradient(135deg, var(--story-progress-start), var(--story-progress-end));
   transition: width 0.08s linear;
 }
 
@@ -459,7 +488,8 @@ watch(() => route.query.slide, () => {
   right: 0;
   z-index: 2;
   padding: 20px;
-  background: var(--frame-bg);
+  background: var(--story-caption-bg);
+  color: var(--story-caption-text);
   backdrop-filter: var(--frame-blur);
 }
 

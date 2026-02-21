@@ -5,6 +5,12 @@
     "subtitle": "Les choses que j'aime (et que je n'aime pas)",
     "cover": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
     "layout": "slide-layout",
+    "theme": {
+      "ringStart": "#8db500",
+      "ringEnd": "#d1ff57",
+      "captionBg": "rgba(255, 255, 255, 0.94)",
+      "captionText": "#111111"
+    },
     "slides": [
       {
         "image": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
@@ -74,6 +80,12 @@
     "subtitle": "Referências visuais entre pinturas e a abertura de Elfen Lied",
     "cover": "/img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg",
     "layout": "slide-layout",
+    "theme": {
+      "ringStart": "#d9b05f",
+      "ringEnd": "#f7e7a9",
+      "captionBg": "rgba(30, 20, 8, 0.82)",
+      "captionText": "#f7efdd"
+    },
     "sourcePost": {
       "title": "Gustav Klimt e Elfen Lied",
       "url": "/gustav-klimt-e-elfen-lied"

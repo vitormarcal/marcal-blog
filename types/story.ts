@@ -10,11 +10,35 @@ export interface StoryItem {
   subtitle?: string
   cover: string
   layout?: 'slide-layout' | 'default'
+  theme?: {
+    ringStart?: string
+    ringEnd?: string
+    captionBg?: string
+    captionText?: string
+  }
   sourcePost?: {
     title: string
     url: string
   }
   slides: StorySlide[]
+}
+
+const isTheme = (value: unknown) => {
+  if (value == null) return true
+  const item = value as {
+    ringStart?: unknown
+    ringEnd?: unknown
+    captionBg?: unknown
+    captionText?: unknown
+  }
+
+  const isStringOrUndefined = (v: unknown) => typeof v === 'string' || typeof v === 'undefined'
+  return (
+    isStringOrUndefined(item.ringStart) &&
+    isStringOrUndefined(item.ringEnd) &&
+    isStringOrUndefined(item.captionBg) &&
+    isStringOrUndefined(item.captionText)
+  )
 }
 
 const isSourcePost = (value: unknown) => {
@@ -40,6 +64,7 @@ const isStoryItem = (value: unknown): value is StoryItem => {
     typeof item.slug === 'string' &&
     typeof item.title === 'string' &&
     typeof item.cover === 'string' &&
+    isTheme(item.theme) &&
     isSourcePost(item.sourcePost) &&
     Array.isArray(item.slides) &&
     item.slides.every(isStorySlide)

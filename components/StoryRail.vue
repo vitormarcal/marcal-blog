@@ -17,6 +17,10 @@ defineProps<{
         class="story-rail__item"
         role="listitem"
         :aria-label="`Abrir story ${story.title}`"
+        :style="{
+          '--story-ring-start': story.theme?.ringStart || '#8db500',
+          '--story-ring-end': story.theme?.ringEnd || '#d1ff57'
+        }"
       >
         <span class="story-rail__ring">
           <img :src="story.cover" :alt="`Capa do story ${story.title}`" />
@@ -59,7 +63,7 @@ defineProps<{
   height: 74px;
   border-radius: 999px;
   padding: 3px;
-  background: linear-gradient(135deg, #8db500, #d1ff57);
+  background: linear-gradient(135deg, var(--story-ring-start), var(--story-ring-end));
 }
 
 .story-rail__ring img {
