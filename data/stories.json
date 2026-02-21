@@ -1,0 +1,221 @@
+[
+  {
+    "slug": "gostos",
+    "title": "Goûts",
+    "subtitle": "Les choses que j'aime (et que je n'aime pas)",
+    "cover": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+    "layout": "slide-layout",
+    "theme": {
+      "ringStart": "#8db500",
+      "ringEnd": "#d1ff57",
+      "captionBg": "rgba(255, 255, 255, 0.94)",
+      "captionText": "#111111"
+    },
+    "slides": [
+      {
+        "image": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+        "strong": "Salut! Je suis Vitor",
+        "text": "et voici les choses que j'aime (et que je n'aime pas)."
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-vin.jpg",
+        "strong": "J'aime",
+        "text": "le vin 🍷."
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-biere.jpg",
+        "strong": "Je n'aime pas",
+        "text": "la bière. 🍺"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-lecture.jpg",
+        "strong": "J'aime",
+        "text": "la lecture, les livres et les bandes dessinées 📚."
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-chocolat.jpg",
+        "strong": "J'aime",
+        "text": "les gâteaux au chocolat et les bonbons 🍫🎂🤤."
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-cigarettes.jpg",
+        "strong": "Je n'aime pas",
+        "text": "les cigarettes ni leur odeur. 🚬 🤢"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-echecs.jpg",
+        "strong": "J'aime",
+        "text": "le jeu d'échecs. J'aime pratiquer les échecs ♟️♔."
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-ordinateurs.jpg",
+        "strong": "J'aime",
+        "text": "jouer avec des ordinateurs. 💻"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-bruit.jpg",
+        "strong": "Je n'aime pas",
+        "text": "le bruit, les voitures et les gens bruyants. 🔊 🙉️"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-region-boisee.jpg",
+        "strong": "J'aime",
+        "text": "visiter les régions de l'intérieur. J'aime visiter les régions boisées. 🌳"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-ma-petite-fille.jpg",
+        "strong": "J'aime",
+        "text": "ma petite fille.👧"
+      },
+      {
+        "image": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+        "strong": "C'est tout,",
+        "text": "à bientôt !"
+      }
+    ]
+  },
+  {
+    "slug": "klimt-elfen-lied",
+    "title": "Klimt x Elfen Lied",
+    "subtitle": "Referências visuais entre pinturas e a abertura de Elfen Lied",
+    "cover": "/img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg",
+    "layout": "slide-layout",
+    "theme": {
+      "ringStart": "#d9b05f",
+      "ringEnd": "#f7e7a9",
+      "captionBg": "rgba(30, 20, 8, 0.82)",
+      "captionText": "#f7efdd"
+    },
+    "sourcePost": {
+      "title": "Gustav Klimt e Elfen Lied",
+      "url": "/gustav-klimt-e-elfen-lied"
+    },
+    "slides": [
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/gustav-klimt-e-elfen-lied.jpg",
+        "strong": "Klimt x Elfen Lied",
+        "text": "Essa abertura me pega sempre: estranha, bonita e cheia de ouro."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/golden-tears.jpg",
+        "strong": "Golden Tears",
+        "text": "Muita gente acha que é Klimt, mas é Anne Marie Zilberman."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-1.gif",
+        "strong": "Primeiro impacto",
+        "text": "Esse começo lembra Golden Tears, mesmo sem confirmação oficial."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/o-beijo-gustav-klimt.jpg",
+        "strong": "The Kiss",
+        "text": "Aqui começa a fase dourada que eu mais gosto no Klimt."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-7.png",
+        "strong": "Frame em homenagem",
+        "text": "Na abertura, esse quadro piscou e eu já pensei: The Kiss."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-9.png",
+        "strong": "Segunda referência",
+        "text": "Outra referência rápida, mas impossível de não notar."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/danae-gustav-klimt.jpg",
+        "strong": "Danaë",
+        "text": "Danaë entra mais no encerramento do anime do que na abertura."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-10.png",
+        "strong": "Fechamento do anime",
+        "text": "Esse frame conversa com Danaë de um jeito bem direto."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/as-tres-idades-da-mulher-klimt.jpg",
+        "strong": "As Três Idades da Mulher",
+        "text": "Passagem do tempo em uma imagem só: infância, juventude e velhice."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-8.png",
+        "strong": "Frame correspondente",
+        "text": "É rapidinho, mas o eco com a pintura está ali."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-11.png",
+        "strong": "Comparação lado a lado",
+        "text": "Aqui fica mais fácil enxergar a referência."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/friso-stoclet-completo.jpg",
+        "strong": "Friso Stoclet (completo)",
+        "text": "Última fase mural do Klimt e um visual absurdamente rico."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/friso-stoclet-o-cumprimento.jpg",
+        "strong": "O Cumprimento (O Abraço)",
+        "text": "Esse trecho do friso parece ter saído direto para o anime."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-1.png",
+        "strong": "Referência no anime",
+        "text": "Um dos paralelos mais bonitos de toda a abertura."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/judith-i-gustav-klimt.jpg",
+        "strong": "Judith I",
+        "text": "Não é citação literal, mas o clima dourado conversa bastante."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/adam-and-eve-klimt.jpg",
+        "strong": "Adam and Eve",
+        "text": "Possível paralelo visual: talvez viagem minha, talvez não."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-6.png",
+        "strong": "Frame de abertura",
+        "text": "Quando eu vi esse frame, pensei em Adam and Eve na hora."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/retrato-de-mada-klimt.jpg",
+        "strong": "Retrato de Mäda Primavesi",
+        "text": "Expressão forte, presença enorme, mesmo sendo um retrato delicado."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-5.png",
+        "strong": "Referência de Mäda",
+        "text": "Esse frame parece prestar homenagem ao retrato da Mäda."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/adele-bloch-bauer-gustav-klimt.jpg",
+        "strong": "Golden Adele",
+        "text": "Uma das obras mais icônicas do Klimt, puro brilho e detalhe."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-3.png",
+        "strong": "Homenagem no anime",
+        "text": "Aqui a referência fica bem clara, quase uma citação."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/bildnis-der-ria-munk-III-klimt.jpg",
+        "strong": "Retrato de Ria Munk III",
+        "text": "Retrato carregado de drama, com uma história triste por trás."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-4.png",
+        "strong": "Referência de Ria Munk",
+        "text": "Outro frame que lembra muito essa composição."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/water-snakes-ii-gustav-klimt.jpg",
+        "strong": "Water Snakes II",
+        "text": "Formas alongadas, fluidez e ouro: assinatura do Klimt."
+      },
+      {
+        "image": "/img/gustav-klimt-e-elfen-lied/elfen-lied-2.png",
+        "strong": "Fechamento",
+        "text": "No vídeo em movimento, essa referência fica ainda mais evidente."
+      }
+    ]
+  }
+]
