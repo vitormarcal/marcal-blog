@@ -19,13 +19,11 @@ const current = ref(0)
 const isPaused = ref(false)
 const isImageExpanded = ref(false)
 const isLeavingStory = ref(false)
-const prefersReducedMotion = ref(false)
 const progressPct = ref(0)
 const remainingMs = ref(props.autoPlayMs)
 let autoplayTimer: ReturnType<typeof setTimeout> | null = null
 let progressTimer: ReturnType<typeof setInterval> | null = null
 let tickStartedAt: number | null = null
-let reducedMotionMedia: MediaQueryList | null = null
 let touchStartX = 0
 let touchStartY = 0
 let hasTouchStarted = false
@@ -35,11 +33,6 @@ const isLastSlide = computed(() => current.value >= props.story.slides.length - 
 const hasSlides = computed(() => props.story.slides.length > 0)
 const hasNextStory = computed(() => Boolean(props.nextStoryUrl))
 const shouldAutoAdvanceToNextStory = computed(() => isLastSlide.value && hasNextStory.value)
-const canAutoPlay = computed(() => props.autoPlay && !prefersReducedMotion.value)
-const liveAnnouncement = computed(() => {
-  if (!activeSlide.value) return ''
-  return `${props.story.title}, slide ${current.value + 1} de ${props.story.slides.length}: ${activeSlide.value.strong}`
-})
 const viewerStyle = computed(() => ({
   '--story-caption-bg': props.story.theme?.captionBg || 'var(--frame-bg)',
   '--story-caption-text': props.story.theme?.captionText || '#fff',
@@ -128,7 +121,7 @@ const resetProgress = () => {
 }
 
 const scheduleAutoplay = () => {
-  if (!canAutoPlay.value) return
+  if (!props.autoPlay) return
   if (isImageExpanded.value) return
   if (isPaused.value) return
   if (!hasSlides.value) return
@@ -174,7 +167,7 @@ const onKeydown = (event: KeyboardEvent) => {
     close()
     return
   }
-  if (event.key === 'ArrowRight' || event.key === ' ' || event.code === 'Space') {
+  if (event.key === 'ArrowRight' || event.key === ' ') {
     event.preventDefault()
     next()
     return
@@ -250,7 +243,6 @@ const onTouchCancel = () => {
 }
 
 const onVisibilityChange = () => {
-  if (!canAutoPlay.value) return
   if (document.hidden) {
     pauseAutoplay()
     return
@@ -258,34 +250,12 @@ const onVisibilityChange = () => {
   resumeAutoplay()
 }
 
-const onReducedMotionChange = (event: MediaQueryListEvent) => {
-  prefersReducedMotion.value = event.matches
-}
-
 watch(isImageExpanded, (value) => {
   if (!import.meta.client) return
   document.body.style.overflow = value ? 'hidden' : ''
 })
 
-watch(canAutoPlay, (enabled) => {
-  if (enabled) {
-    isPaused.value = false
-    resetProgress()
-    scheduleAutoplay()
-    return
-  }
-
-  clearAutoplay()
-  progressPct.value = 0
-  remainingMs.value = props.autoPlayMs
-})
-
 onMounted(() => {
-  if (import.meta.client) {
-    reducedMotionMedia = window.matchMedia('(prefers-reduced-motion: reduce)')
-    prefersReducedMotion.value = reducedMotionMedia.matches
-    reducedMotionMedia.addEventListener('change', onReducedMotionChange)
-  }
   syncSlideFromQuery()
   window.addEventListener('keydown', onKeydown)
   document.addEventListener('visibilitychange', onVisibilityChange)
@@ -296,7 +266,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown)
   document.removeEventListener('visibilitychange', onVisibilityChange)
-  reducedMotionMedia?.removeEventListener('change', onReducedMotionChange)
   clearAutoplay()
   if (import.meta.client) {
     document.body.style.overflow = ''
@@ -318,10 +287,6 @@ watch(() => route.query.slide, () => {
 
 <template>
   <section class="story-viewer" :style="viewerStyle">
-    <p class="story-viewer__sr-only" aria-live="polite" aria-atomic="true">
-      {{ liveAnnouncement }}
-    </p>
-
     <header class="story-viewer__top">
       <div class="story-viewer__progress" aria-hidden="true">
         <span
@@ -336,10 +301,6 @@ watch(() => route.query.slide, () => {
         Fechar
       </button>
     </header>
-
-    <p class="story-viewer__hint" aria-hidden="true">
-      Atalhos: ←/→ navega, Espaço avança, Esc fecha.
-    </p>
 
     <article
       v-if="activeSlide"
@@ -361,7 +322,6 @@ watch(() => route.query.slide, () => {
         type="button"
         class="story-viewer__expand"
         aria-label="Expandir imagem do slide"
-        aria-keyshortcuts="Enter Space"
         @click.stop="openExpandedImage"
       >
         Expandir
@@ -371,14 +331,12 @@ watch(() => route.query.slide, () => {
         type="button"
         class="story-viewer__nav story-viewer__nav--left"
         aria-label="Slide anterior"
-        aria-keyshortcuts="ArrowLeft"
         @click="previous"
       />
       <button
         type="button"
         class="story-viewer__nav story-viewer__nav--right"
         aria-label="Próximo slide"
-        aria-keyshortcuts="ArrowRight Space"
         @click="next"
       />
 
@@ -398,7 +356,7 @@ watch(() => route.query.slide, () => {
       </div>
     </article>
 
-    <Transition name="story-viewer-modal-fade" :css="!prefersReducedMotion">
+    <Transition name="story-viewer-modal-fade">
       <div
         v-if="activeSlide && isImageExpanded"
         class="story-viewer__modal"
@@ -428,18 +386,6 @@ watch(() => route.query.slide, () => {
 <style scoped>
 .story-viewer {
   width: min(100%, var(--frame-max-width));
-}
-
-.story-viewer__sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .story-viewer__top {
@@ -487,21 +433,6 @@ watch(() => route.query.slide, () => {
   font-size: 0.8rem;
 }
 
-.story-viewer__hint {
-  position: absolute;
-  top: 3rem;
-  left: 0.8rem;
-  z-index: 3;
-  margin: 0;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(0, 0, 0, 0.35);
-  color: #fff;
-  padding: 0.2rem 0.65rem;
-  font-size: 0.72rem;
-  line-height: 1.2;
-}
-
 .story-viewer__frame {
   position: relative;
   min-height: var(--frame-height);
@@ -531,15 +462,6 @@ watch(() => route.query.slide, () => {
   padding: 0.2rem 0.75rem;
   cursor: pointer;
   font-size: 0.8rem;
-}
-
-.story-viewer__close:focus-visible,
-.story-viewer__expand:focus-visible,
-.story-viewer__modal-close:focus-visible,
-.story-viewer__source-link:focus-visible,
-.story-viewer__nav:focus-visible {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
 }
 
 .story-viewer__nav {
@@ -627,11 +549,5 @@ watch(() => route.query.slide, () => {
 .story-viewer-modal-fade-enter-from,
 .story-viewer-modal-fade-leave-to {
   opacity: 0;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .story-viewer__progress-fill {
-    transition: none;
-  }
 }
 </style>
