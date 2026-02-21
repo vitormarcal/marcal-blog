@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <section class="story-rail" aria-labelledby="stories-title">
-    <h3 id="stories-title">Stories</h3>
+    <h3 id="stories-title">Destaques</h3>
     <div class="story-rail__list" role="list">
       <NuxtLink
         v-for="story in items"
