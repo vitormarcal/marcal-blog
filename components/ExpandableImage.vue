@@ -33,6 +33,9 @@ const isExpanded = ref(false)
 const triggerRef = ref<HTMLButtonElement | null>(null)
 const galleryItems = ref<Array<{ src: string, alt: string }>>([])
 const galleryIndex = ref(0)
+let touchStartX = 0
+let touchStartY = 0
+let hasTouchStarted = false
 
 const thumbStyle = computed(() => ({
   '--thumb-width': props.thumbWidth,
@@ -91,6 +94,38 @@ const goNext = () => {
 const goPrevious = () => {
   if (!hasGalleryNavigation.value) return
   galleryIndex.value = (galleryIndex.value - 1 + galleryItems.value.length) % galleryItems.value.length
+}
+
+const onTouchStart = (event: TouchEvent) => {
+  if (!hasGalleryNavigation.value) return
+
+  const touch = event.changedTouches?.[0]
+  if (!touch) return
+
+  touchStartX = touch.clientX
+  touchStartY = touch.clientY
+  hasTouchStarted = true
+}
+
+const onTouchEnd = (event: TouchEvent) => {
+  if (!hasGalleryNavigation.value || !hasTouchStarted) return
+
+  const touch = event.changedTouches?.[0]
+  hasTouchStarted = false
+  if (!touch) return
+
+  const deltaX = touch.clientX - touchStartX
+  const deltaY = touch.clientY - touchStartY
+  const threshold = 32
+
+  if (Math.abs(deltaX) < threshold || Math.abs(deltaX) <= Math.abs(deltaY)) return
+
+  if (deltaX < 0) {
+    goNext()
+    return
+  }
+
+  goPrevious()
 }
 
 const open = () => {
@@ -169,6 +204,9 @@ onBeforeUnmount(() => {
       aria-modal="true"
       :aria-label="alt"
       @click.self="close"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
+      @touchcancel="hasTouchStarted = false"
     >
       <button
         type="button"
@@ -184,6 +222,24 @@ onBeforeUnmount(() => {
         :style="lightboxImageStyle"
         class="expandable-image__lightbox-image"
       />
+      <button
+        v-if="hasGalleryNavigation"
+        type="button"
+        class="expandable-image__nav expandable-image__nav--prev"
+        aria-label="Imagem anterior"
+        @click.stop="goPrevious"
+      >
+        ‹
+      </button>
+      <button
+        v-if="hasGalleryNavigation"
+        type="button"
+        class="expandable-image__nav expandable-image__nav--next"
+        aria-label="Próxima imagem"
+        @click.stop="goNext"
+      >
+        ›
+      </button>
       <p
         v-if="showCounter && hasGalleryNavigation"
         class="expandable-image__counter"
@@ -272,6 +328,36 @@ onBeforeUnmount(() => {
   font-size: 0.84rem;
 }
 
+.expandable-image__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.62);
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.expandable-image__nav--prev {
+  left: 1rem;
+}
+
+.expandable-image__nav--next {
+  right: 1rem;
+}
+
+.expandable-image__nav:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
 .expandable-image-fade-enter-active,
 .expandable-image-fade-leave-active {
   transition: opacity 0.2s ease;
@@ -286,6 +372,12 @@ onBeforeUnmount(() => {
   .expandable-image__thumb {
     width: var(--thumb-width-mobile, var(--thumb-width, 68px));
     height: var(--thumb-height-mobile, var(--thumb-height, 102px));
+  }
+
+  .expandable-image__nav {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.45rem;
   }
 }
 </style>
