@@ -7,10 +7,11 @@ const navigationLinks = [
   { label: 'Publicações', path: '/publicacoes', delay: 0.08 },
   { label: 'Leituras de 2026', path: '/leituras/2026', delay: 0.13 },
   { label: 'Músicas', path: '/musicas', delay: 0.18 },
-  { label: 'Categorias', path: '/tags/mdc', delay: 0.23 },
-  { label: 'Sobre', path: '/sobre', delay: 0.28 },
-  { label: 'Aleatório', path: '/random', delay: 0.33 },
-  { label: 'Slashes', path: '/slashes', delay: 0.38 },
+  { label: 'Filmes', path: '/filmes', delay: 0.23 },
+  { label: 'Categorias', path: '/tags/mdc', delay: 0.28 },
+  { label: 'Sobre', path: '/sobre', delay: 0.33 },
+  { label: 'Aleatório', path: '/random', delay: 0.38 },
+  { label: 'Slashes', path: '/slashes', delay: 0.43 },
 ];
 
 function toggleHead() {
