@@ -84,3 +84,23 @@ export type MediaPulseYearMoviesResponse = {
   watched: MediaPulseYearMovieWatchedCard[]
   unwatched: MediaPulseYearMovieUnwatchedCard[]
 }
+
+export type MediaPulseMoviesTotalStats = {
+  watchesCount: number
+  uniqueMoviesCount: number
+}
+
+export type MediaPulseMoviesYearStats = {
+  year: number
+  watchesCount: number
+  uniqueMoviesCount: number
+  rewatchesCount: number
+}
+
+export type MediaPulseMoviesStatsResponse = {
+  total: MediaPulseMoviesTotalStats
+  unwatchedCount: number
+  years: MediaPulseMoviesYearStats[]
+  latestWatchAt?: string | null
+  firstWatchAt?: string | null
+}
