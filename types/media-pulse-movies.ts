@@ -46,3 +46,41 @@ export type MediaPulseMovieDetailsResponse = {
   watches: MediaPulseMovieWatch[]
   externalIds: MediaPulseMovieExternalId[]
 }
+
+export type MediaPulseYearMovieStats = {
+  watchesCount: number
+  uniqueMoviesCount: number
+  rewatchesCount: number
+}
+
+export type MediaPulseYearMovieWatchedCard = {
+  movieId: number
+  slug?: string | null
+  title: string
+  originalTitle: string
+  year?: number | null
+  coverUrl?: string | null
+  watchCountInYear: number
+  firstWatchedAt: string
+  lastWatchedAt: string
+}
+
+export type MediaPulseYearMovieUnwatchedCard = {
+  movieId: number
+  slug?: string | null
+  title: string
+  originalTitle: string
+  year?: number | null
+  coverUrl?: string | null
+}
+
+export type MediaPulseYearMoviesResponse = {
+  year: number
+  range: {
+    start: string
+    end: string
+  }
+  stats: MediaPulseYearMovieStats
+  watched: MediaPulseYearMovieWatchedCard[]
+  unwatched: MediaPulseYearMovieUnwatchedCard[]
+}

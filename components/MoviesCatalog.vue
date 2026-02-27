@@ -51,7 +51,7 @@ const coverSrc = (coverUrl?: string | null) => {
 
 const detailsLink = (movie: MediaPulseMovieCard) => {
   if (!movie.slug?.trim()) return ''
-  return `/filmes/${movie.slug}`
+  return `/filmes/detalhe/${movie.slug}`
 }
 
 const hasOriginalTitleDiff = (movie: MediaPulseMovieCard) => {
@@ -229,9 +229,6 @@ const sectionTitle = computed(() => {
 
 <style scoped>
 .movies-board {
-  --accent-gold: #f6c976;
-  --accent-wine: #7f1d1d;
-  --ink-soft: rgba(255, 244, 230, 0.8);
   display: grid;
   gap: 2.25rem;
   padding: 1rem 0 4rem;
@@ -253,11 +250,8 @@ const sectionTitle = computed(() => {
   gap: 0.95rem;
   padding: clamp(1.4rem, 1rem + 1.2vw, 2rem);
   border-radius: 22px;
-  border: 1px solid rgba(246, 201, 118, 0.25);
-  background:
-    radial-gradient(circle at 20% 0%, rgba(246, 201, 118, 0.2), transparent 45%),
-    radial-gradient(circle at 100% 100%, rgba(127, 29, 29, 0.26), transparent 42%),
-    linear-gradient(145deg, rgba(25, 12, 10, 0.82), rgba(15, 8, 8, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
 }
 
@@ -266,7 +260,7 @@ const sectionTitle = computed(() => {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.72rem;
-  color: rgba(246, 201, 118, 0.9);
+  color: rgba(255, 255, 255, 0.62);
 }
 
 .movies-hero h1 {
@@ -276,7 +270,7 @@ const sectionTitle = computed(() => {
 
 .movies-hero__subtitle {
   margin: 0;
-  color: var(--ink-soft);
+  color: rgba(255, 255, 255, 0.72);
   max-width: 64ch;
 }
 
@@ -288,9 +282,9 @@ const sectionTitle = computed(() => {
 }
 
 .movies-range__button {
-  border: 1px solid rgba(246, 201, 118, 0.35);
-  background: rgba(44, 21, 18, 0.66);
-  color: rgba(255, 236, 209, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(0, 0, 0, 0.62);
+  color: rgba(255, 255, 255, 0.88);
   border-radius: 999px;
   padding: 0.48rem 0.95rem;
   font-size: 0.92rem;
@@ -303,8 +297,8 @@ const sectionTitle = computed(() => {
 }
 
 .movies-range__button--active {
-  background: rgba(246, 201, 118, 0.2);
-  border-color: rgba(246, 201, 118, 0.75);
+  background: rgba(141, 181, 0, 0.2);
+  border-color: rgba(141, 181, 0, 0.72);
 }
 
 .movies-summary__list {
@@ -331,7 +325,7 @@ const sectionTitle = computed(() => {
 }
 
 .movies-summary__card strong {
-  color: #fff5e4;
+  color: var(--font-color);
   font-size: 1.03rem;
   line-height: 1.35;
 }
@@ -370,10 +364,9 @@ const sectionTitle = computed(() => {
   grid-template-rows: 320px 1fr;
   border-radius: 14px;
   overflow: hidden;
-  border: 1px solid rgba(246, 201, 118, 0.2);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.68);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55);
 }
 
 .movie-card__poster {
@@ -424,9 +417,9 @@ const sectionTitle = computed(() => {
   align-items: center;
   border-radius: 999px;
   padding: 0.25rem 0.62rem;
-  border: 1px solid rgba(246, 201, 118, 0.38);
-  background: rgba(47, 20, 20, 0.55);
-  color: rgba(255, 235, 209, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.92);
   font-size: 0.78rem;
 }
 
@@ -443,15 +436,17 @@ const sectionTitle = computed(() => {
   color: #fff;
   font-weight: 600;
   border-radius: 10px;
-  border: 1px solid rgba(246, 201, 118, 0.35);
-  background: linear-gradient(90deg, rgba(127, 29, 29, 0.7), rgba(85, 22, 22, 0.7));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.06);
   padding: 0.4rem 0.72rem;
   transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .movie-card__cta:hover {
   transform: translateY(-1px);
-  filter: brightness(1.05);
+  color: var(--green);
+  border-color: rgba(141, 181, 0, 0.7);
+  filter: brightness(1.02);
 }
 
 .movie-card__cta--disabled {
@@ -469,8 +464,9 @@ const sectionTitle = computed(() => {
 }
 
 .movies-state--error {
-  border-color: rgba(190, 24, 93, 0.5);
-  background: rgba(127, 29, 29, 0.24);
+  color: #fecaca;
+  border-color: rgba(155, 28, 28, 0.45);
+  background: rgba(155, 28, 28, 0.25);
 }
 
 .movies-state p {

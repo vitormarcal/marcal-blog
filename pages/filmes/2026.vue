@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import MoviesCatalog from '~/components/MoviesCatalog.vue'
+import YearMoviesFromApi from '~/components/YearMoviesFromApi.vue'
 
 definePageMeta({
   documentDriven: false
 })
 
-const title = 'Filmes assistidos'
-const description = 'Veja os filmes que andei assistindo e abra os detalhes de cada um.'
+const title = 'Filmes de 2026'
+const description = 'Acompanhe os filmes assistidos em 2026 e o que ainda falta assistir.'
 
 useSeoMeta({
   title,
@@ -20,8 +20,12 @@ useSeoMeta({
   <section class="main-section">
     <main>
       <div class="post-section content-section">
-        <MoviesCatalog />
+        <YearMoviesFromApi :year="2026" />
       </div>
     </main>
   </section>
 </template>
+
+<style scoped>
+
+</style>

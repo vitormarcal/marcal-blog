@@ -57,7 +57,7 @@ watch(movie, async (value) => {
 
   const routeSlug = Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug
   if (routeSlug !== value.slug) {
-    await navigateTo(`/filmes/${value.slug}`, { redirectCode: 301, replace: true })
+    await navigateTo(`/filmes/detalhe/${value.slug}`, { redirectCode: 301, replace: true })
   }
 }, { immediate: true })
 
@@ -290,11 +290,8 @@ const externalProviderLabel = (provider: string) => {
   gap: 0.7rem;
   padding: clamp(1.1rem, 0.9rem + 0.8vw, 1.7rem);
   border-radius: 18px;
-  border: 1px solid rgba(245, 195, 106, 0.24);
-  background:
-    radial-gradient(circle at 12% 0%, rgba(245, 195, 106, 0.2), transparent 42%),
-    radial-gradient(circle at 100% 100%, rgba(127, 29, 29, 0.25), transparent 50%),
-    linear-gradient(145deg, rgba(22, 11, 10, 0.84), rgba(13, 8, 9, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
 }
 
 .movie-page__kicker {
@@ -302,7 +299,7 @@ const externalProviderLabel = (provider: string) => {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: rgba(245, 195, 106, 0.88);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .movie-page__hero h1 {
@@ -324,8 +321,8 @@ const externalProviderLabel = (provider: string) => {
 
 .movie-page__state--error {
   color: #fecaca;
-  border-color: rgba(190, 24, 93, 0.42);
-  background: rgba(127, 29, 29, 0.22);
+  border-color: rgba(155, 28, 28, 0.45);
+  background: rgba(155, 28, 28, 0.25);
 }
 
 .movie-page__summary {
@@ -421,9 +418,9 @@ const externalProviderLabel = (provider: string) => {
   border-radius: 999px;
   padding: 0.2rem 0.55rem;
   font-size: 0.7rem;
-  color: rgba(255, 241, 217, 0.96);
-  border: 1px solid rgba(245, 195, 106, 0.42);
-  background: rgba(30, 13, 10, 0.68);
+  color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(141, 181, 0, 0.5);
+  background: rgba(0, 0, 0, 0.62);
   pointer-events: none;
 }
 
