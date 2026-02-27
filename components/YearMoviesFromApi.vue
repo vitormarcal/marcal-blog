@@ -25,8 +25,6 @@ const {
   }
 )
 
-const summary = computed(() => data.value?.stats || null)
-
 const watched = computed(() => data.value?.watched || [])
 const unwatched = computed(() => data.value?.unwatched || [])
 
@@ -62,13 +60,6 @@ const formatDate = (value?: string | null) => {
     year: 'numeric'
   })
 }
-
-const rangeLabel = computed(() => {
-  const start = formatDate(data.value?.range?.start)
-  const end = formatDate(data.value?.range?.end)
-  if (!start || !end) return ''
-  return `${start} a ${end}`
-})
 
 const hasOriginalTitleDiff = (movie: MediaPulseYearMovieWatchedCard | MediaPulseYearMovieUnwatchedCard) => {
   const original = movie.originalTitle?.trim()
@@ -119,25 +110,6 @@ const errorMessage = computed(() => {
           <h2 id="year-movies-title">Resumo do ano</h2>
           <p class="summary-subtitle">Tudo que entrou em cena neste ano e o que ainda está na fila.</p>
         </div>
-
-        <ul v-if="summary" class="summary-list" aria-label="Resumo de filmes do ano">
-          <li class="summary-card">
-            <span class="summary-label">Sessões no ano</span>
-            <strong class="summary-value">{{ summary.watchesCount }}</strong>
-          </li>
-          <li class="summary-card">
-            <span class="summary-label">Filmes únicos</span>
-            <strong class="summary-value">{{ summary.uniqueMoviesCount }}</strong>
-          </li>
-          <li class="summary-card">
-            <span class="summary-label">Reassistidos</span>
-            <strong class="summary-value">{{ summary.rewatchesCount }}</strong>
-          </li>
-          <li class="summary-card">
-            <span class="summary-label">Período</span>
-            <strong class="summary-value">{{ rangeLabel || 'Ano completo' }}</strong>
-          </li>
-        </ul>
 
         <nav class="summary-nav" aria-label="Navegação de seções">
           <a href="#section-assistidos">Assistidos ({{ watchedSorted.length }})</a>
@@ -303,34 +275,6 @@ const errorMessage = computed(() => {
   margin: 0;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.95rem;
-}
-
-.summary-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(136px, 1fr));
-  gap: 0.7rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.summary-card {
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
-  padding: 0.75rem 0.88rem;
-  display: grid;
-  gap: 0.3rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.summary-label {
-  font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.65);
-}
-
-.summary-value {
-  font-size: 1.08rem;
-  color: var(--font-color);
 }
 
 .summary-nav {
