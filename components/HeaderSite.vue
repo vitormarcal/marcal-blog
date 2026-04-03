@@ -9,10 +9,11 @@ const navigationLinks = [
   { label: `Leituras de ${currentYear}`, path: `/leituras/${currentYear}`, delay: 0.13 },
   { label: 'Músicas', path: '/musicas', delay: 0.18 },
   { label: 'Filmes', path: `/filmes/${currentYear}`, delay: 0.23 },
-  { label: 'Categorias', path: '/tags/mdc', delay: 0.28 },
-  { label: 'Sobre', path: '/sobre', delay: 0.33 },
-  { label: 'Aleatório', path: '/random', delay: 0.38 },
-  { label: 'Slashes', path: '/slashes', delay: 0.43 },
+  { label: 'Séries', path: '/series', delay: 0.28 },
+  { label: 'Categorias', path: '/tags/mdc', delay: 0.33 },
+  { label: 'Sobre', path: '/sobre', delay: 0.38 },
+  { label: 'Aleatório', path: '/random', delay: 0.43 },
+  { label: 'Slashes', path: '/slashes', delay: 0.48 },
 ];
 
 function toggleHead() {
