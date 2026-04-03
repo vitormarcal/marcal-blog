@@ -28,9 +28,28 @@ export type MediaPulseShowWatch = {
   episodeId: number
   episodeTitle: string
   seasonNumber?: number | null
+  seasonTitle?: string | null
   episodeNumber?: number | null
   watchedAt: string
   source: string
+}
+
+export type MediaPulseShowSeason = {
+  seasonNumber?: number | null
+  seasonTitle?: string | null
+  episodesCount: number
+  watchedEpisodesCount: number
+  completed: boolean
+  lastWatchedAt?: string | null
+}
+
+export type MediaPulseShowProgress = {
+  episodesCount: number
+  watchedEpisodesCount: number
+  seasonsCount: number
+  completedSeasonsCount: number
+  completed: boolean
+  inProgress: boolean
 }
 
 export type MediaPulseShowExternalId = {
@@ -47,6 +66,8 @@ export type MediaPulseShowDetailsResponse = {
   description?: string | null
   coverUrl?: string | null
   images: MediaPulseShowImage[]
+  seasons: MediaPulseShowSeason[]
+  progress?: MediaPulseShowProgress | null
   watches: MediaPulseShowWatch[]
   externalIds: MediaPulseShowExternalId[]
 }

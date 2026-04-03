@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import type { MediaPulseShowDetailsResponse } from '~/types/media-pulse-shows'
+import type {
+  MediaPulseShowDetailsResponse,
+  MediaPulseShowProgress,
+  MediaPulseShowSeason
+} from '~/types/media-pulse-shows'
 
 definePageMeta({
   documentDriven: false
@@ -90,6 +94,14 @@ const titleLabel = computed(() => {
   return show.value.title
 })
 
+const progressStatus = computed(() => {
+  const progress = showProgress.value
+  if (!progress) return null
+  if (progress.completed) return { label: 'Completa', tone: 'complete' } as const
+  if (progress.inProgress) return { label: 'Em andamento', tone: 'progress' } as const
+  return { label: 'Não iniciada', tone: 'idle' } as const
+})
+
 const originalTitleLabel = computed(() => {
   if (!show.value?.originalTitle?.trim()) return ''
   if (show.value.originalTitle.trim().toLowerCase() === show.value.title.trim().toLowerCase()) return ''
@@ -110,6 +122,9 @@ const showImages = computed(() => {
   const images = show.value?.images || []
   return images.filter((image) => image.url?.trim())
 })
+
+const showProgress = computed(() => show.value?.progress || null)
+const showSeasons = computed(() => show.value?.seasons || [])
 
 const sortedWatches = computed(() => {
   const watches = show.value?.watches || []
@@ -145,6 +160,39 @@ const externalProviderLabel = (provider: string) => {
   if (normalized === 'TMDB') return 'TMDB'
   if (normalized === 'TVDB') return 'TVDB'
   return provider
+}
+
+const progressPercent = (progress?: MediaPulseShowProgress | null) => {
+  if (!progress?.episodesCount) return 0
+  return Math.max(0, Math.min(100, (progress.watchedEpisodesCount / progress.episodesCount) * 100))
+}
+
+const progressSummary = (progress?: MediaPulseShowProgress | null) => {
+  if (!progress) return ''
+  const percent = progressPercent(progress)
+  return `${progress.watchedEpisodesCount} de ${progress.episodesCount} episódios vistos (${percent.toFixed(1)}%)`
+}
+
+const seasonLabel = (season: MediaPulseShowSeason) => {
+  if (season.seasonTitle?.trim()) return season.seasonTitle.trim()
+  if (Number.isInteger(season.seasonNumber)) return `Temporada ${season.seasonNumber}`
+  return 'Temporada especial'
+}
+
+const seasonStatus = (season: MediaPulseShowSeason) => {
+  if (season.completed) return { label: 'Completa', tone: 'complete' } as const
+  if (season.watchedEpisodesCount > 0) return { label: 'Em andamento', tone: 'progress' } as const
+  return { label: 'Sem episódios vistos', tone: 'idle' } as const
+}
+
+const seasonProgressSummary = (season: MediaPulseShowSeason) => {
+  if (!season.episodesCount) return 'Sem episódios catalogados'
+  return `${season.watchedEpisodesCount} de ${season.episodesCount} episódios vistos`
+}
+
+const seasonProgressPercent = (season: MediaPulseShowSeason) => {
+  if (!season.episodesCount) return 0
+  return Math.max(0, Math.min(100, (season.watchedEpisodesCount / season.episodesCount) * 100))
 }
 
 const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number]) => {
@@ -205,6 +253,14 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
                 <dt>Título</dt>
                 <dd>{{ show.title }}</dd>
               </div>
+              <div v-if="progressStatus">
+                <dt>Status</dt>
+                <dd>
+                  <span :class="['show-status-pill', `show-status-pill--${progressStatus.tone}`]">
+                    {{ progressStatus.label }}
+                  </span>
+                </dd>
+              </div>
               <div v-if="show.year">
                 <dt>Ano</dt>
                 <dd>{{ show.year }}</dd>
@@ -213,11 +269,82 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
                 <dt>Episódios registrados</dt>
                 <dd>{{ show.watches.length }}</dd>
               </div>
+              <div v-if="showProgress">
+                <dt>Progresso geral</dt>
+                <dd>{{ progressSummary(showProgress) }}</dd>
+              </div>
               <div v-if="sortedWatches[0]?.watchedAt">
                 <dt>Último play</dt>
                 <dd>{{ formatDateTime(sortedWatches[0].watchedAt) }}</dd>
               </div>
             </dl>
+          </section>
+
+          <section v-if="showProgress" class="show-page__section">
+            <h2>Progresso da série</h2>
+            <div class="show-progress-card">
+              <div class="show-progress-card__head">
+                <div>
+                  <strong>{{ progressStatus?.label || 'Sem status' }}</strong>
+                  <p>{{ progressSummary(showProgress) }}</p>
+                </div>
+                <span class="show-progress-card__ratio">{{ progressPercent(showProgress).toFixed(1) }}%</span>
+              </div>
+
+              <div class="show-progress-bar" aria-hidden="true">
+                <span class="show-progress-bar__fill" :style="{ width: `${progressPercent(showProgress)}%` }" />
+              </div>
+
+              <ul class="show-progress-stats">
+                <li>
+                  <span>Episódios</span>
+                  <strong>{{ showProgress.episodesCount }}</strong>
+                </li>
+                <li>
+                  <span>Assistidos</span>
+                  <strong>{{ showProgress.watchedEpisodesCount }}</strong>
+                </li>
+                <li>
+                  <span>Temporadas</span>
+                  <strong>{{ showProgress.seasonsCount }}</strong>
+                </li>
+                <li>
+                  <span>Temporadas completas</span>
+                  <strong>{{ showProgress.completedSeasonsCount }}</strong>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="show-page__section">
+            <h2>Temporadas</h2>
+            <ul v-if="showSeasons.length" class="show-list">
+              <li
+                v-for="season in showSeasons"
+                :key="`${season.seasonNumber ?? 'special'}-${season.seasonTitle || ''}`"
+                class="show-list__item show-list__item--season"
+              >
+                <div class="show-season__head">
+                  <div>
+                    <strong>{{ seasonLabel(season) }}</strong>
+                    <span>{{ seasonProgressSummary(season) }}</span>
+                  </div>
+                  <span :class="['show-status-pill', `show-status-pill--${seasonStatus(season).tone}`]">
+                    {{ seasonStatus(season).label }}
+                  </span>
+                </div>
+
+                <div class="show-progress-bar" aria-hidden="true">
+                  <span class="show-progress-bar__fill" :style="{ width: `${seasonProgressPercent(season)}%` }" />
+                </div>
+
+                <div class="show-season__meta">
+                  <span>{{ seasonProgressPercent(season).toFixed(1) }}%</span>
+                  <span v-if="season.lastWatchedAt">Último play: {{ formatDateTime(season.lastWatchedAt) }}</span>
+                </div>
+              </li>
+            </ul>
+            <p v-else class="show-page__empty">Sem temporadas catalogadas para esta série.</p>
           </section>
 
           <section class="show-page__section">
@@ -383,6 +510,33 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
   margin: 0.2rem 0 0;
 }
 
+.show-status-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.24rem 0.68rem;
+  font-size: 0.78rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.show-status-pill--complete {
+  color: #d9f99d;
+  border-color: rgba(163, 230, 53, 0.5);
+  background: rgba(101, 163, 13, 0.18);
+}
+
+.show-status-pill--progress {
+  color: #fde68a;
+  border-color: rgba(251, 191, 36, 0.42);
+  background: rgba(217, 119, 6, 0.18);
+}
+
+.show-status-pill--idle {
+  color: rgba(255, 255, 255, 0.82);
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+}
+
 .show-page__section {
   display: grid;
   gap: 0.75rem;
@@ -410,6 +564,71 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
   margin: 0;
   color: rgba(255, 255, 255, 0.88);
   line-height: 1.65;
+}
+
+.show-progress-card {
+  display: grid;
+  gap: 0.95rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1rem;
+}
+
+.show-progress-card__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.show-progress-card__head p {
+  margin: 0.35rem 0 0;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.show-progress-card__ratio {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+.show-progress-bar {
+  width: 100%;
+  height: 0.7rem;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.show-progress-bar__fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(141, 181, 0, 0.55), rgba(141, 181, 0, 0.95));
+}
+
+.show-progress-stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.8rem;
+}
+
+.show-progress-stats li {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.show-progress-stats span {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.show-progress-stats strong {
+  font-size: 1.05rem;
 }
 
 .show-gallery {
@@ -461,5 +680,34 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
 
 .show-list__item span {
   color: rgba(255, 255, 255, 0.76);
+}
+
+.show-list__item--season {
+  gap: 0.8rem;
+}
+
+.show-season__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.show-season__head > div {
+  display: grid;
+  gap: 0.22rem;
+}
+
+.show-season__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .show-progress-card__head,
+  .show-season__head {
+    flex-direction: column;
+  }
 }
 </style>
