@@ -52,6 +52,17 @@ export type MediaPulseShowProgress = {
   inProgress: boolean
 }
 
+export type MediaPulseCurrentlyWatchingShowCard = {
+  showId: number
+  slug?: string | null
+  title: string
+  originalTitle: string
+  year?: number | null
+  coverUrl?: string | null
+  lastWatchedAt: string
+  progress?: MediaPulseShowProgress | null
+}
+
 export type MediaPulseShowExternalId = {
   provider: string
   externalId: string

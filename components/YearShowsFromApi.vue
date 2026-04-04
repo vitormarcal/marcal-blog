@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type {
+  MediaPulseCurrentlyWatchingShowCard,
   MediaPulseYearShowUnwatchedCard,
   MediaPulseYearShowWatchedCard,
   MediaPulseYearShowsResponse
@@ -18,15 +19,34 @@ const {
   refresh
 } = useAsyncData(
   () => `year-shows-${props.year}`,
-  () => $fetch<MediaPulseYearShowsResponse>(apiUrl(`/api/shows/year/${props.year}`)),
+  async () => {
+    const [yearShows, currentlyWatching] = await Promise.all([
+      $fetch<MediaPulseYearShowsResponse>(apiUrl(`/api/shows/year/${props.year}`)),
+      $fetch<MediaPulseCurrentlyWatchingShowCard[]>(apiUrl('/api/shows/currently-watching'))
+    ])
+
+    return {
+      yearShows,
+      currentlyWatching
+    }
+  },
   {
     server: false,
     watch: [() => props.year]
   }
 )
 
-const watched = computed(() => data.value?.watched || [])
-const unwatched = computed(() => data.value?.unwatched || [])
+const watched = computed(() => data.value?.yearShows.watched || [])
+const unwatched = computed(() => data.value?.yearShows.unwatched || [])
+const currentlyWatching = computed(() => data.value?.currentlyWatching || [])
+
+const currentlyWatchingSorted = computed(() => {
+  return [...currentlyWatching.value].sort((a, b) => {
+    const aDate = new Date(a.lastWatchedAt || 0).getTime()
+    const bDate = new Date(b.lastWatchedAt || 0).getTime()
+    return bDate - aDate
+  })
+})
 
 const watchedSorted = computed(() => {
   return [...watched.value].sort((a, b) => {
@@ -61,7 +81,9 @@ const formatDate = (value?: string | null) => {
   })
 }
 
-const hasOriginalTitleDiff = (show: MediaPulseYearShowWatchedCard | MediaPulseYearShowUnwatchedCard) => {
+const hasOriginalTitleDiff = (
+  show: MediaPulseCurrentlyWatchingShowCard | MediaPulseYearShowWatchedCard | MediaPulseYearShowUnwatchedCard
+) => {
   const original = show.originalTitle?.trim()
   const title = show.title?.trim()
   if (!original || !title) return false
@@ -75,12 +97,41 @@ const watchedLabel = (item: MediaPulseYearShowWatchedCard) => {
   return `${count} episódios no ano`
 }
 
+const currentlyWatchingLabel = (item: MediaPulseCurrentlyWatchingShowCard) => {
+  const watchedEpisodesCount = Number(item.progress?.watchedEpisodesCount || 0)
+  const episodesCount = Number(item.progress?.episodesCount || 0)
+
+  if (!episodesCount) return ''
+  return `${watchedEpisodesCount}/${episodesCount} episódios`
+}
+
+const currentlyWatchingProgressLabel = (item: MediaPulseCurrentlyWatchingShowCard) => {
+  const progress = item.progress
+  if (!progress) return ''
+
+  const seasonBits: string[] = []
+  if (progress.seasonsCount) {
+    seasonBits.push(`${progress.completedSeasonsCount}/${progress.seasonsCount} temporadas`)
+  }
+  if (progress.inProgress) {
+    seasonBits.push('em andamento')
+  }
+
+  return seasonBits.join(' · ')
+}
+
 const firstLastLabel = (item: MediaPulseYearShowWatchedCard) => {
   const first = formatDate(item.firstWatchedAt)
   const last = formatDate(item.lastWatchedAt)
   if (!first && !last) return ''
   if (first && last && first !== last) return `Primeiro: ${first} · Último: ${last}`
   return `Registro em ${last || first}`
+}
+
+const lastWatchedLabel = (item: MediaPulseCurrentlyWatchingShowCard) => {
+  const last = formatDate(item.lastWatchedAt)
+  if (!last) return ''
+  return `Último episódio em ${last}`
 }
 
 const errorMessage = computed(() => {
@@ -108,14 +159,76 @@ const errorMessage = computed(() => {
         <div class="summary-head">
           <p class="summary-kicker">Séries de {{ props.year }}</p>
           <h2 id="year-shows-title">Resumo do ano</h2>
-          <p class="summary-subtitle">O que teve episódio assistido neste ano e o que ainda está sem play.</p>
+          <p class="summary-subtitle">O que está em andamento agora, o que teve episódio neste ano e o que ainda está sem play.</p>
         </div>
 
         <nav class="summary-nav" aria-label="Navegação de seções">
+          <a href="#section-assistindo">Assistindo ({{ currentlyWatchingSorted.length }})</a>
           <a href="#section-assistidas">Assistidas ({{ watchedSorted.length }})</a>
           <a href="#section-nao-assistidas">Ainda não assistidas ({{ unwatchedSorted.length }})</a>
         </nav>
       </header>
+
+      <section id="section-assistindo" class="year-shows__section" data-accent="watching">
+        <div class="section-head">
+          <h3>Assistindo</h3>
+          <p>
+            <strong>{{ currentlyWatchingSorted.length }}</strong>
+            séries com progresso ativo recentemente.
+          </p>
+        </div>
+
+        <ul v-if="currentlyWatchingSorted.length" class="shows-list">
+          <li v-for="item in currentlyWatchingSorted" :key="`watching-${item.showId}`" class="shows-item">
+            <ExpandableImage
+              v-if="item.coverUrl"
+              :src="coverSrc(item.coverUrl)"
+              :alt="`Capa de ${item.title}`"
+              :expand-label="`Expandir capa de ${item.title}`"
+              gallery="year-shows-covers"
+              thumb-width="72px"
+              thumb-height="106px"
+              mobile-thumb-width="58px"
+              mobile-thumb-height="86px"
+              thumb-radius="8px"
+            />
+            <div v-else class="shows-item__cover shows-item__cover--placeholder" aria-hidden="true">
+              sem capa
+            </div>
+
+            <div class="shows-item__content">
+              <div class="shows-item__head">
+                <div class="shows-item__titles">
+                  <NuxtLink v-if="detailsLink(item.slug)" :to="detailsLink(item.slug)" class="shows-item__title-link">
+                    <strong class="shows-item__title">{{ item.title }}</strong>
+                  </NuxtLink>
+                  <strong v-else class="shows-item__title">{{ item.title }}</strong>
+                  <span v-if="hasOriginalTitleDiff(item)" class="shows-item__original-title">{{ item.originalTitle }}</span>
+                </div>
+
+                <NuxtLink v-if="detailsLink(item.slug)" :to="detailsLink(item.slug)" class="shows-item__details-link">
+                  Ver detalhes
+                </NuxtLink>
+              </div>
+
+              <div class="shows-item__meta-row">
+                <span v-if="item.year" class="shows-item__meta-pill">{{ item.year }}</span>
+                <span v-if="currentlyWatchingLabel(item)" class="shows-item__meta-pill shows-item__meta-pill--highlight">
+                  {{ currentlyWatchingLabel(item) }}
+                </span>
+                <span v-if="currentlyWatchingProgressLabel(item)" class="shows-item__meta-pill">
+                  {{ currentlyWatchingProgressLabel(item) }}
+                </span>
+              </div>
+
+              <span v-if="lastWatchedLabel(item)" class="shows-item__date">{{ lastWatchedLabel(item) }}</span>
+            </div>
+          </li>
+        </ul>
+
+        <p v-else class="shows-empty">Nenhuma série em andamento no momento.</p>
+        <a class="back-to-top" href="#year-shows-top">Voltar ao topo</a>
+      </section>
 
       <section id="section-assistidas" class="year-shows__section" data-accent="watched">
         <div class="section-head">
@@ -311,6 +424,10 @@ const errorMessage = computed(() => {
 
 .year-shows__section[data-accent="watched"] .section-head {
   border-left-color: rgba(141, 181, 0, 0.85);
+}
+
+.year-shows__section[data-accent="watching"] .section-head {
+  border-left-color: rgba(96, 165, 250, 0.85);
 }
 
 .year-shows__section[data-accent="unwatched"] .section-head {
