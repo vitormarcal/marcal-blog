@@ -352,6 +352,12 @@ async function fetchJSON(url) {
   return res.json()
 }
 
+function normalizeRecentAlbumsResponse(payload) {
+  if (Array.isArray(payload)) return payload
+  if (Array.isArray(payload?.items)) return payload.items
+  return []
+}
+
 async function load() {
   loading.value = true
   error.value = ''
@@ -415,7 +421,7 @@ async function load() {
     ])
 
     summary.value = summaryRes
-    recentAlbums.value = recentRes
+    recentAlbums.value = normalizeRecentAlbumsResponse(recentRes)
     topArtists.value = artistsRes
     topAlbums.value = albumsRes
     topTracks.value = tracksRes
