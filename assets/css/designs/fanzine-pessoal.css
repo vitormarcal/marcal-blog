@@ -445,12 +445,17 @@ body.design-fanzine-pessoal .post-section blockquote { color: #b9c2b9; border-co
 body.design-fanzine-pessoal .post-section pre { color: #e8e2d2; background: #20292c; }
 body.design-fanzine-pessoal .post-navigation-link { border-color: #394448; }
 body.design-fanzine-pessoal .publications-list .post-item { margin: 0; padding: 22px 0; border-bottom: 1px solid #303a3c; }
-body.design-fanzine-pessoal .publications-list .post-item__link { display: grid; grid-template-columns: minmax(0,1fr); grid-template-areas: "date" "title" "description"; gap: 8px 24px; text-decoration: none; }
-body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) minmax(150px,30%); grid-template-areas: "date image" "title image" "description image"; }
-body.design-fanzine-pessoal .publications-list .post-item time { grid-area: date; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .publications-list .post-item__link { display: grid; grid-template-columns: minmax(0,1fr); grid-template-areas: "meta" "title" "description" "read"; gap: 8px 24px; text-decoration: none; }
+body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) minmax(150px,32%); grid-template-areas: "meta image" "title image" "description image" "read image"; }
+body.design-fanzine-pessoal .publications-list .post-item__meta { grid-area: meta; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .publications-list .post-item__meta>span { color: #42d8c1; }
+body.design-fanzine-pessoal .publications-list .post-item__meta i { color: #e6f066; font-style: normal; }
+body.design-fanzine-pessoal .publications-list .post-item> a>time { grid-area: meta; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
 body.design-fanzine-pessoal .publications-list .post-item h4 { grid-area: title; margin: 0; color: #f0eadb; font: 700 clamp(22px,2.5vw,32px)/1.12 Georgia,'Times New Roman',serif; letter-spacing: -.025em; }
 body.design-fanzine-pessoal .publications-list .post-item p { grid-area: description; margin: 0; color: #b9c2b9; font: 14px/1.55 Georgia,'Times New Roman',serif; }
 body.design-fanzine-pessoal .publications-list .post-item__image { grid-area: image; align-self: center; width: 100%; aspect-ratio: 1.55; border: 1px solid #394448; background: #20292c; padding: 5px; object-fit: cover; }
+body.design-fanzine-pessoal .publications-list .post-item__read { grid-area: read; justify-self: start; color: #e6f066; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .publications-list .post-item__read span { color: #42d8c1; }
 body.design-fanzine-pessoal .publications-list .post-item__link:hover h4 { color: #e6f066; }
 @media(max-width: 560px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
 body.design-fanzine-pessoal :is(.year-movies__summary,.movies-item,.reads-item,.shows-item,.movies-hero,.movie-card,.movies-state,.shows-hero,.show-card,.reads-card,.movie-page__hero,.show-page__hero,.book-description,.movie-description,.show-description,.show-progress-card,.movies-summary__card,.movies-global-summary__item,.shows-global-summary__item,.year-reads__summary,.year-shows__summary,.year-movies__error) { background: #171e21; color: #e8e2d2; border-color: #394448; box-shadow: none; }
