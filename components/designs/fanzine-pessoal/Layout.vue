@@ -32,19 +32,9 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
       <ArtworkRail />
       <StoryRail v-if="stories.length" :items="stories" placement="sidebar" />
       <MediaPulseRail />
-      <nav class="rail-nav" aria-label="Explorar o arquivo">
-        <span class="rail-label">Passagens</span>
-        <NuxtLink to="/publicacoes"><span>01</span> Caderno</NuxtLink>
-        <NuxtLink :to="`/leituras/${year}`"><span>02</span> Estante</NuxtLink>
-        <NuxtLink :to="`/filmes/${year}`"><span>03</span> Cinema</NuxtLink>
-        <NuxtLink :to="`/series/${year}`"><span>04</span> Séries</NuxtLink>
-        <NuxtLink to="/artes"><span>05</span> Artes</NuxtLink>
-        <NuxtLink to="/musicas"><span>06</span> Escutas</NuxtLink>
-        <NuxtLink to="/gostos"><span>07</span> Pequenos gostos</NuxtLink>
-      </nav>
       <section class="rail-findings">
         <span class="rail-label">Mais coisas</span>
-        <NuxtLink to="/random">Uma página ao acaso <b>↗</b></NuxtLink>
+        <NuxtLink to="/gostos">Pequenos gostos <b>↗</b></NuxtLink>
         <NuxtLink to="/tags/mdc">Índice de assuntos <b>↗</b></NuxtLink>
         <NuxtLink to="/design">Outros layouts <b>↗</b></NuxtLink>
       </section>
