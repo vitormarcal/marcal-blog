@@ -4,7 +4,7 @@ description: Mudei o visual do blogue e aproveitei para repensar como as coisas 
 author: Vítor Marçal
 created_at: 2026-10-24T12:00:00
 updated_at:
-is_post: false
+is_post: true
 tags:
   - notas-pessoais
   - portugues
