@@ -1,34 +1,34 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/date-utils'
 const { data: posts } = await useAsyncData('revista-2026-home', () => queryContent()
-  .where({ is_post: true, _partial: false }).sort({ created_at: -1 }).limit(5).without(['body']).find())
-const featured = computed(() => posts.value?.[0])
-const remaining = computed(() => posts.value?.slice(1) || [])
+  .where({ is_post: true, _partial: false }).sort({ created_at: -1 }).limit(8).without(['body']).find())
+const postImage = (post: any) => {
+  if (!post.image || typeof post.image !== 'string') return undefined
+  if (/^(https?:\/\/|\/)/.test(post.image)) return post.image
+  return '/' + post.image
+}
 const { stories } = useStoriesCatalog()
 useSeoMeta({ title: 'Vítor Marçal', description: 'Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo.' })
-const shelf = [
-  { title: 'Fundação', subtitle: 'Isaac Asimov', image: '/leituras/fundacao/img/fundacao.png', path: '/leituras/fundacao/fundacao' },
-  { title: 'O alienista', subtitle: 'Machado de Assis', image: '/leituras/o-alienista/o-alienista.jpg', path: '/leituras/o-alienista/o-alienista' },
-  { title: 'O gene egoísta', subtitle: 'Richard Dawkins', image: '/leituras/img/o-gene-egoista-por-richard-dawkins.jpg', path: '/leituras/o-gene-egoista-por-richard-dawkins' }
-]
 </script>
 
 <template>
   <main class="editorial-home">
-    <div class="edition-line"><span>Edição 02</span><span>Por Vítor Marçal</span></div>
-    <section class="editorial-intro"><h1>Olá, eu sou o<br /><em>Vítor Marçal.</em></h1><p>Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo 🧠!</p></section>
+    <div class="edition-line"><span>Notas · cultura · curiosidades</span><span>Brasília, Brasil <i aria-hidden="true">✳</i></span></div>
+    <section class="home-intro"><span class="home-kicker"><i aria-hidden="true">●</i> Uma página pessoal</span><h1>Anoto aqui o que eu<br />leio, vejo e <em>ouço.</em></h1><p>Às vezes escrevo sobre essas coisas. Às vezes só deixo uma referência para não esquecer.</p><span class="home-coordinate">15°47′ S · 47°52′ W&nbsp; / &nbsp;desde 2019</span></section>
     <div class="front-page-grid">
-      <section class="lead-story" aria-labelledby="latest-title"><div class="section-rule"><h2 id="latest-title">Últimas publicações</h2></div>
-        <article v-if="featured" class="featured-post"><p class="eyebrow">Mais recente <span>↘</span></p><NuxtLink :to="featured._path"><h3>{{ featured.title }}</h3></NuxtLink><p>{{ featured.description }}</p><div class="post-byline"><time :datetime="featured.created_at">{{ formatDate(featured.created_at) }}</time><NuxtLink :to="featured._path">Ler a publicação ↗</NuxtLink></div></article>
-        <p v-else class="empty-notes">Nenhuma publicação por enquanto.</p>
-        <div class="short-posts"><article v-for="(post, index) in remaining" :key="post._path"><span class="post-number">0{{ index + 2 }}</span><div><time :datetime="post.created_at">{{ formatDate(post.created_at) }}</time><h3><NuxtLink :to="post._path">{{ post.title }}</NuxtLink></h3><p>{{ post.description }}</p></div></article></div>
-        <NuxtLink class="archive-link" to="/publicacoes">Todas as publicações <span>↗</span></NuxtLink>
+      <section class="lead-story" aria-labelledby="latest-title">
+        <div class="section-rule"><h2 id="latest-title">Últimas anotações</h2><span>do caderno</span></div>
+        <article v-for="(post, index) in posts" :key="post._path" class="pulp-post" :class="{ 'pulp-post--lead': index === 0 }">
+          <div class="pulp-post-meta"><span><i aria-hidden="true">✳</i> {{ post.tags?.[0]?.replaceAll('-', ' ') || 'Caderno pessoal' }}</span><time :datetime="post.created_at">{{ formatDate(post.created_at) }}</time></div>
+          <h2><NuxtLink :to="post._path">{{ post.title }}</NuxtLink></h2>
+          <p v-if="post.description" class="pulp-deck">{{ post.description }}</p>
+          <NuxtLink v-if="postImage(post)" :to="post._path" class="pulp-post-image" :aria-label="post.title"><img :src="postImage(post)" :alt="post.title" :loading="index === 0 ? 'eager' : 'lazy'" /></NuxtLink>
+          <NuxtLink class="pulp-read" :to="post._path">Abrir anotação <span aria-hidden="true">↗</span></NuxtLink>
+        </article>
+        <p v-if="!posts?.length" class="empty-notes">Nenhuma publicação por enquanto.</p>
+        <NuxtLink class="archive-link" to="/publicacoes">Percorrer o caderno inteiro <span>↗</span></NuxtLink>
       </section>
-      <aside class="personal-column" aria-label="Leituras e outras páginas"><div class="section-rule"><h2>Livros</h2></div><div class="book-shelf"><NuxtLink v-for="book in shelf" :key="book.path" :to="book.path" class="shelf-book"><div class="book-cover"><img :src="book.image" :alt="'Capa de ' + book.title" width="240" height="360" loading="lazy" /></div><h3>{{ book.title }}</h3><p>{{ book.subtitle }}</p></NuxtLink></div><NuxtLink class="small-link" to="/leituras/2026">Leituras de 2026 ↗</NuxtLink>
-      
-      <div class="culture-index"><h2>Veja também</h2><NuxtLink to="/filmes">Filmes <span>↗</span></NuxtLink><NuxtLink to="/musicas">Músicas <span>↗</span></NuxtLink><NuxtLink to="/series">Séries <span>↗</span></NuxtLink><NuxtLink to="/gostos">Meus gostos <span>↗</span></NuxtLink></div></aside>
     </div>
     <section v-if="stories.length" class="editorial-stories"><div class="section-rule"><h2>Stories</h2></div><StoryRail :items="stories" /></section>
-    <section class="colophon"><span class="colophon-mark" aria-hidden="true">✳</span><div><h2>Versões anteriores</h2><p>Os outros visuais do site estão no histórico.</p></div><NuxtLink to="/arquivo">Ver histórico ↗</NuxtLink></section>
   </main>
 </template>

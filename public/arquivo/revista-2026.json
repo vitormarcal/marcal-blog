@@ -1,7 +1,7 @@
 {
   "id": "revista-2026",
-  "capturedAt": "2026-10-24T14:35:09.058Z",
-  "baseCommit": "2f99a50b16257426a235e4af219f2df4866a1628",
-  "sha256": "5c8eba565529df8ef80046f737aaae745823776c1ec567a27aa36f41e98277ab",
+  "capturedAt": "2026-10-24T18:51:58.275Z",
+  "baseCommit": "56474b2ff187168fac58bcbac52cbf5337b9bb9d",
+  "sha256": "e20ab70a86e118903b566a0fef3f3615251a2cf9e2c0ccc7df625bf37ea33df6",
   "media": "Images and other public media are not duplicated; their existing public URLs are retained."
 }

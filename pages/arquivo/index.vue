@@ -7,13 +7,12 @@ useSeoMeta({ title: 'História do site — Marçal', description: 'As edições 
   <main class="editions-page">
     
     <h1>História do site</h1>
-    <p>Os visuais que o site já teve.</p>
-    <p>As edições mostram o conteúdo atual. Os arquivos para download guardam o código da época, sem duplicar as imagens.</p>
+    <p>Aqui ficam as versões antigas do design deste site.</p>
     <article class="edition-card">
-      <div class="edition-swatch revista" aria-hidden="true">Marçal. ◆</div>
-      <h2>02 — Revista pessoal</h2>
-      <p>Outubro de 2026 · Fundo claro, títulos serifados e capas de livros.</p>
-      <NuxtLink to="/arquivo/revista-2026">Visitar esta edição ↗</NuxtLink>
+      <div class="edition-swatch caderno" aria-hidden="true">Marçal <small>notas pessoais</small></div>
+      <h2>02 — Caderno pessoal</h2>
+      <p>Outubro de 2026 · Caderno escuro, arte e registros do que leio, vejo e ouço.</p>
+      <NuxtLink to="/">Ver edição atual ↗</NuxtLink>
       <a href="/arquivo/revista-2026.tar.gz" download>Baixar o código preservado ↓</a>
     </article>
     <article class="edition-card">
