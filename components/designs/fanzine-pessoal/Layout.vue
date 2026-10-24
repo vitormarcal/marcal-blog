@@ -17,7 +17,7 @@ useHead(() => ({
   link: [
     { rel: 'canonical', href: config.site.baseUrl + route.path },
     { rel: 'alternate', type: 'application/rss+xml', title: 'Feed RSS', href: '/rss.xml' },
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', type: 'image/svg+xml', href: '/favicon-fanzine.svg', sizes: 'any' }
   ]
 }))
 useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
