@@ -33,11 +33,13 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
       <StoryRail v-if="stories.length" :items="stories" placement="sidebar" />
       <MediaPulseRail />
       <section class="rail-findings">
-        <span class="rail-label">Mais coisas</span>
-        <NuxtLink to="/gostos">Pequenos gostos <b>↗</b></NuxtLink>
+        <span class="rail-label">Explorar</span>
         <NuxtLink to="/tags/mdc">Índice de assuntos <b>↗</b></NuxtLink>
-        <NuxtLink to="/design">Outros layouts <b>↗</b></NuxtLink>
       </section>
+      <NuxtLink to="/slashes" class="rail-slashes">
+        <img src="/img/slash.jpg" alt="Slash tocando guitarra" />
+        <span><strong>Slashes</strong><small>Páginas independentes do site&nbsp; ↗</small></span>
+      </NuxtLink>
       <NuxtLink to="/gustav-klimt-e-elfen-lied" class="rail-gif" aria-label="Ler Gustav Klimt e Elfen Lied"><img src="/img/gustav-klimt-e-elfen-lied/elfen-lied-1.gif" alt="Golden Tears, pintura de Anne Marie Zilberman associada à abertura de Elfen Lied" /><span>Golden Tears · Elfen Lied&nbsp; ↗</span></NuxtLink>
       <div class="rail-bottom"><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre</NuxtLink><span>© {{ year }}</span></div>
     </aside>
