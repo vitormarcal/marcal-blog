@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /img/novelas-completas-tolstoi-editora-todavia.jpg
+image: /img/novelas-completas-tolstoi-editora-todavia.png
 language: pt
 feedback:
   - gostei

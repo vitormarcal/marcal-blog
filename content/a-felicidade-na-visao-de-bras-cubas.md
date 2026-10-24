@@ -11,7 +11,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/a-felicidade-na-visao-de-bras-cubas.jpg
+image: img/memorias-postumas-de-bras-cubas.png
 language: pt
 localized_post_paths: 
 has_localized_posts: false

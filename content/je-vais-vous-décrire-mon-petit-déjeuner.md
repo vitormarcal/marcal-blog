@@ -9,7 +9,6 @@ tags:
   - notas-pessoais
   - francais
 related: 
-image: img/Sem título.jpg
 language: fr
 ---
 Je vais vous décrire mon petit-déjeuner.

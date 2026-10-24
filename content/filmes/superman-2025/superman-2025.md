@@ -9,7 +9,7 @@ tags:
   - video
 related:
   - "[[tags/video]]"
-image: /filmes/superman-2025/superman-2025-1-png
+image: /filmes/superman-2025/superman-2025-1.png
 language: pt
 localized_post_paths: 
 has_localized_posts: false

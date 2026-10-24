@@ -9,7 +9,7 @@ tags:
   - video
 related:
   - "[[tags/video]]"
-image: img/movies/2025/nosferatu-2025.png
+image: img/movies/2025/nosferatu-2025-a.png
 language: pt
 localized_post_paths: 
 has_localized_posts: false

@@ -11,7 +11,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/protegendo-plantinhas-de-feses-de-animais.jpg
+image: img/protegendo-plantinhas-de-fezes-de-animais.jpg
 language: pt
 ---
 

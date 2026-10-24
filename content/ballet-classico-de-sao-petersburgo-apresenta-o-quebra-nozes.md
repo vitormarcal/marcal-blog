@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
 language: pt
-image: img/o-quebra-nozes-01.jpeg
+image: img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.jpeg
 ---
 
 ![ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes](img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.jpeg)
