@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import '~/assets/css/editions/edition-02.css'
-import ArtworkRail from '~/components/editions/edition-02/ArtworkRail.vue'
-import MediaPulseRail from '~/components/editions/edition-02/MediaPulseRail.vue'
+import '~/assets/css/designs/fanzine-pessoal.css'
+import ArtworkRail from '~/components/designs/fanzine-pessoal/ArtworkRail.vue'
+import MediaPulseRail from '~/components/designs/fanzine-pessoal/MediaPulseRail.vue'
 const route = useRoute()
 const config = useAppConfig()
 const year = new Date().getFullYear()
@@ -44,14 +44,14 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
         <span class="rail-label">Mais coisas</span>
         <NuxtLink to="/random">Uma página ao acaso <b>↗</b></NuxtLink>
         <NuxtLink to="/tags/mdc">Índice de assuntos <b>↗</b></NuxtLink>
-        <NuxtLink to="/arquivo">Versões anteriores <b>↗</b></NuxtLink>
+        <NuxtLink to="/design">Outros layouts <b>↗</b></NuxtLink>
       </section>
       <NuxtLink to="/gustav-klimt-e-elfen-lied" class="rail-gif" aria-label="Ler Gustav Klimt e Elfen Lied"><img src="/img/gustav-klimt-e-elfen-lied/elfen-lied-1.gif" alt="Golden Tears, pintura de Anne Marie Zilberman associada à abertura de Elfen Lied" /><span>Golden Tears · Elfen Lied&nbsp; ↗</span></NuxtLink>
       <div class="rail-bottom"><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre</NuxtLink><span>© {{ year }}</span></div>
     </aside>
     <div class="magazine-main">
       <header class="magazine-header">
-        <div class="masthead-meta"><span>Página pessoal de Vítor Marçal</span><NuxtLink to="/arquivo">Histórico do site ↗</NuxtLink></div>
+        <div class="masthead-meta"><span>Página pessoal de Vítor Marçal</span><NuxtLink to="/design">Design do site ↗</NuxtLink></div>
         <div class="masthead"><NuxtLink class="magazine-logo" to="/" aria-label="Marçal — página inicial">Marçal<span>notas pessoais</span></NuxtLink><p>Literatura, cinema, música<br />e coisas do cotidiano.</p></div>
         <button class="magazine-menu-toggle" type="button" :aria-expanded="menuOpen" aria-controls="magazine-nav" @click="menuOpen = !menuOpen">{{ menuOpen ? 'Fechar menu −' : 'Abrir navegação +' }}</button>
         <nav id="magazine-nav" class="magazine-nav" :class="{ 'is-open': menuOpen }" aria-label="Navegação principal">
@@ -60,7 +60,7 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
         </nav>
       </header>
       <div id="conteudo" class="magazine-content" tabindex="-1"><slot /></div>
-      <footer class="magazine-footer"><div><NuxtLink class="footer-name" to="/">Marçal.</NuxtLink></div><div class="footer-links"><NuxtLink to="/arquivo">História do site</NuxtLink><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre o autor</NuxtLink><span>Distrito Federal, Brasil · © 2019–{{ year }}</span></div></footer>
+      <footer class="magazine-footer"><div><NuxtLink class="footer-name" to="/">Marçal.</NuxtLink></div><div class="footer-links"><NuxtLink to="/design">Design do site</NuxtLink><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre o autor</NuxtLink><span>Distrito Federal, Brasil · © 2019–{{ year }}</span></div></footer>
     </div>
   </div>
 </template>

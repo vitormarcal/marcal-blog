@@ -48,35 +48,21 @@ This is the source code for [www.marcal.dev](https://www.marcal.dev), my persona
    ```
 7. Serve the generated site from the `/dist` folder.
 
-## Edições visuais e arquivo histórico
+## Designs do site
 
-A edição atual é **02 — Caderno pessoal**. `/arquivo` reúne as edições, com
-entradas permanentes em `/arquivo/original` e `/arquivo/caderno-2026`.
-O parâmetro `?edicao=original` mantém o visual anterior durante a navegação;
-`?edicao=edition-02` seleciona a edição atual. A seleção é parte da URL, sem
-cookie. As edições apresentam o conteúdo atual, não uma cópia histórica das publicações.
+A página `/design` apresenta dois layouts que marcaram o site: **Minimalista escuro**,
+o visual de fundo preto e links verdes, e **Fanzine pessoal**, o design atual.
+Cada um tem uma rota permanente (`/design/minimalista-escuro` e `/design/fanzine-pessoal`).
+Ao navegar entre páginas, a escolha fica registrada em `?design=minimalista-escuro` ou
+`?design=fanzine-pessoal`. As páginas mostram o conteúdo atual do blog.
 
-Os componentes e estilos de cada edição ficam versionados por número em
-`components/editions/edition-NN/` e `assets/css/editions/edition-NN.css`.
-Preserve esses arquivos quando criar uma edição nova. Assim, a atual continua
-sendo `edition-02` e uma edição futura, como a de 2027, pode ser `edition-03`,
-sem atrelar o nome do componente ao ano. Mantenha os componentes compartilhados
-compatíveis ou copie-os para a pasta da edição antes de alterá-los de forma incompatível.
+Os componentes e estilos ficam em `components/designs/<nome>/` e
+`assets/css/designs/<nome>.css`. Para criar um novo design, preserve os atuais,
+crie uma pasta e um estilo próprios e acrescente a escolha em
+`useVisualDesign`/`layouts/default.vue` e no middleware.
 
-Antes de substituir uma edição, registre seu código com:
-
-```sh
-node scripts/preserve-edition.mjs nome-da-edicao
-```
-
-O comando inclui o código do diretório de trabalho e gera um `.tar.gz` com
-manifesto e SHA-256 em `public/arquivo`. Recusa sobrescrever uma edição existente.
-A biblioteca de imagens em `public` não é duplicada: preserve os seus URLs.
-Para uma nova edição, crie componentes e CSS próprios, acrescente a seleção em
-`useVisualEdition`/`layouts/default.vue`, registre a chave no middleware e adicione
-uma rota permanente e um cartão em `/arquivo`. As edições antigas devem continuar
-resolvendo para os seus componentes originais.
-
-O arquivo `original-2026-10-24.tar.gz` foi extraído do commit anterior à mudança;
-`caderno-2026.tar.gz` registra o código da edição 02. Esses arquivos são
-registros de código; a navegação histórica usa o conteúdo atualizado do site.
+O script `scripts/preserve-design.mjs` cria um `.tar.gz` com manifesto e SHA-256
+em `public/arquivo`, sem incluir a biblioteca de imagens. Ele não sobrescreve
+registros existentes. `design-minimalista-escuro-2026-10-24.tar.gz` preserva o layout
+Minimalista escuro; `design-fanzine-pessoal-2026.tar.gz` preserva o Fanzine pessoal.
+A navegação histórica usa o conteúdo atualizado do site.

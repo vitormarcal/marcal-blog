@@ -1,5 +1,3 @@
 <script setup lang="ts">
-import Edition02Home from '~/components/editions/edition-02/Home.vue'
-definePageMeta({ documentDriven: false })
+definePageMeta({ redirect: '/design/fanzine-pessoal' })
 </script>
-<template><Edition02Home /></template>

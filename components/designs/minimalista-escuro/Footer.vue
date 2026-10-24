@@ -6,7 +6,7 @@ const thisYear = computed(() => new Date().getFullYear())
 <template>
   <footer>
     <hr aria-hidden="true"/>
-    <NuxtLink to="/arquivo" style="display: block; margin-bottom: .5rem">História do site · Ver outras edições →</NuxtLink>
+    <NuxtLink to="/design" style="display: block; margin-bottom: .5rem">Design do site · Ver outros layouts →</NuxtLink>
     <span>© 2019-{{thisYear}} Feito com muito ❤️ usando Vue e Markdown no Distrito Federal, Brasil</span>
   </footer>
 

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import OriginalHome from '~/components/editions/original/OriginalHome.vue'
-import Edition02Home from '~/components/editions/edition-02/Home.vue'
-const { isOriginal } = useVisualEdition()
+import MinimalistaEscuroHome from '~/components/designs/minimalista-escuro/Home.vue'
+import FanzinePessoalHome from '~/components/designs/fanzine-pessoal/Home.vue'
+const { isMinimalistaEscuro } = useVisualDesign()
 </script>
 
 <template>
-  <OriginalHome v-if="isOriginal" />
-  <Edition02Home v-else />
+  <MinimalistaEscuroHome v-if="isMinimalistaEscuro" />
+  <FanzinePessoalHome v-else />
 </template>
