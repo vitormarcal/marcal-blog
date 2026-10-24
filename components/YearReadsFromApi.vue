@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import type { MediaPulseReadCard, MediaPulseYearReadsResponse } from '~/types/media-pulse-books'
+import type { MediaPulseYearReadsResponse } from '~/types/media-pulse-books'
 
 const props = defineProps<{
   year: number
 }>()
 
-const { apiUrl, assetUrl } = useMediaPulseApi()
+const { apiUrl } = useMediaPulseApi()
+const { isMinimalistaEscuro } = useVisualDesign()
 
 const {
   data,
@@ -25,52 +26,6 @@ const errorMessage = computed(() => {
   return 'Não foi possível carregar os livros deste ano.'
 })
 
-const formatDate = (value?: string | null) => {
-  if (!value) return ''
-  const date = new Date(value)
-  if (Number.isNaN(date.getTime())) return ''
-  return date.toISOString().slice(0, 10)
-}
-
-const coverSrc = (coverUrl?: string | null) => {
-  if (!coverUrl) return ''
-  return assetUrl(coverUrl)
-}
-
-const authorsLabel = (authors: { name: string }[]) => {
-  if (!authors || authors.length === 0) return ''
-  return authors.map((author) => author.name).join(', ')
-}
-
-const dateForItem = (item: MediaPulseReadCard, section: 'finished' | 'currentlyReading' | 'didNotFinish') => {
-  if (section === 'finished') return formatDate(item.finishedAt)
-  if (section === 'currentlyReading') return formatDate(item.startedAt)
-  return formatDate(item.finishedAt ?? item.startedAt)
-}
-
-const progressLabel = (item: MediaPulseReadCard) => {
-  const pct = typeof item.progressPct === 'number' ? item.progressPct : null
-  const pages = typeof item.progressPages === 'number' ? item.progressPages : null
-  if (pct === null && pages === null) return ''
-  const parts = []
-  if (pct !== null) {
-    parts.push(`${pct.toFixed(1)}%`)
-  }
-  if (pages !== null) {
-    parts.push(`${pages} pág.`)
-  }
-  return parts.join(' · ')
-}
-
-const bookDetailsLink = (bookSlug: string) => `/livros/${bookSlug}`
-
-const readCoverProps = {
-  thumbWidth: '68px',
-  thumbHeight: '102px',
-  mobileThumbWidth: '54px',
-  mobileThumbHeight: '82px',
-  thumbRadius: '8px'
-} as const
 </script>
 
 <template>
@@ -90,10 +45,14 @@ const readCoverProps = {
       <header class="year-reads__summary">
         <div class="summary-head">
           <p class="summary-kicker">Leituras do ano de {{year}}</p>
-          <h2 id="year-reads-title">Sumário</h2>
-          <p class="summary-subtitle">Um panorama rápido antes de mergulhar nas listas.</p>
+          <h2 id="year-reads-title">{{ isMinimalistaEscuro ? 'Sumário' : 'Meu caderno de leitura' }}</h2>
+          <p class="summary-subtitle">{{ isMinimalistaEscuro ? 'Um panorama rápido antes de mergulhar nas listas.' : 'O que terminei, o que está aberto e o que ficou para depois.' }}</p>
         </div>
         <ul class="summary-list" aria-label="Resumo de leituras">
+          <li v-if="!isMinimalistaEscuro && data.stats.pagesFinished" class="summary-card">
+            <span class="summary-label">Páginas</span>
+            <strong class="summary-value">{{ data.stats.pagesFinished.toLocaleString('pt-BR') }}</strong>
+          </li>
           <li class="summary-card">
             <span class="summary-label">Lidos</span>
             <strong class="summary-value">{{ data.stats.finishedCount }}</strong>
@@ -106,11 +65,16 @@ const readCoverProps = {
             <span class="summary-label">Quero ler</span>
             <strong class="summary-value">{{ data.stats.wantCount }}</strong>
           </li>
+          <li v-if="!isMinimalistaEscuro && data.stats.pausedCount" class="summary-card">
+            <span class="summary-label">Pausados</span>
+            <strong class="summary-value">{{ data.stats.pausedCount }}</strong>
+          </li>
         </ul>
         <nav class="summary-nav" aria-label="Navegação de seções">
           <a href="#section-lendo">Lendo</a>
           <a href="#section-lidos">Lidos</a>
           <a href="#section-abandonados">Abandonados</a>
+          <a v-if="!isMinimalistaEscuro && data.paused?.length" href="#section-pausados">Pausados</a>
           <a href="#section-quero-ler">Quero ler</a>
         </nav>
       </header>
@@ -121,38 +85,21 @@ const readCoverProps = {
           <p>Livros em andamento e progresso atual.</p>
         </div>
         <ul v-if="data.currentlyReading.length" class="reads-list">
-          <li v-for="item in data.currentlyReading" :key="item.readId" class="reads-item">
-            <ExpandableImage
-              v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              :expand-label="`Expandir capa de ${item.edition.title}`"
-              gallery="year-reads-covers"
-              v-bind="readCoverProps"
-            />
-            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
-              sem capa
-            </div>
-            <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
-                <strong class="reads-item__title">{{ item.edition.title }}</strong>
-              </NuxtLink>
-              <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
-                {{ authorsLabel(item.book.authors) }}
-              </span>
-              <span v-if="progressLabel(item)" class="reads-item__progress">
-                {{ progressLabel(item) }}
-              </span>
-              <time v-if="dateForItem(item, 'currentlyReading')" class="reads-item__date">
-                {{ dateForItem(item, 'currentlyReading') }}
-              </time>
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
-                Ver detalhes
-              </NuxtLink>
-            </div>
-          </li>
+          <BookReadingCard v-for="item in data.currentlyReading" :key="item.readId" :item="item" status="Lendo" />
         </ul>
         <p v-else class="reads-empty">Sem livros em leitura.</p>
+        <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
+      </div>
+
+      <div v-if="!isMinimalistaEscuro && data.paused?.length" id="section-pausados" class="year-reads__section" data-accent="paused">
+        <div class="section-head"><h3>Pausados</h3><p>Leituras que ficaram em espera.</p></div>
+        <ul class="reads-list"><BookReadingCard v-for="item in data.paused" :key="item.readId" :item="item" status="Pausado" /></ul>
+        <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
+      </div>
+
+      <div v-if="!isMinimalistaEscuro && data.unknown?.length" id="section-sem-status" class="year-reads__section" data-accent="unknown">
+        <div class="section-head"><h3>Sem status</h3><p>Registros sem uma etapa de leitura definida.</p></div>
+        <ul class="reads-list"><BookReadingCard v-for="item in data.unknown" :key="item.readId" :item="item" status="Sem status" /></ul>
         <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
       </div>
 
@@ -162,33 +109,7 @@ const readCoverProps = {
           <p>Finalizados ao longo do ano, com a data de conclusão.</p>
         </div>
         <ul v-if="data.finished.length" class="reads-list">
-          <li v-for="item in data.finished" :key="item.readId" class="reads-item">
-            <ExpandableImage
-              v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              :expand-label="`Expandir capa de ${item.edition.title}`"
-              gallery="year-reads-covers"
-              v-bind="readCoverProps"
-            />
-            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
-              sem capa
-            </div>
-            <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
-                <strong class="reads-item__title">{{ item.edition.title }}</strong>
-              </NuxtLink>
-              <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
-                {{ authorsLabel(item.book.authors) }}
-              </span>
-              <time v-if="dateForItem(item, 'finished')" class="reads-item__date">
-                {{ dateForItem(item, 'finished') }}
-              </time>
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
-                Ver detalhes
-              </NuxtLink>
-            </div>
-          </li>
+          <BookReadingCard v-for="item in data.finished" :key="item.readId" :item="item" status="Lido" />
         </ul>
         <p v-else class="reads-empty">Sem livros finalizados.</p>
         <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
@@ -200,33 +121,7 @@ const readCoverProps = {
           <p>Leituras interrompidas durante o ano.</p>
         </div>
         <ul v-if="data.didNotFinish.length" class="reads-list">
-          <li v-for="item in data.didNotFinish" :key="item.readId" class="reads-item">
-            <ExpandableImage
-              v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              :expand-label="`Expandir capa de ${item.edition.title}`"
-              gallery="year-reads-covers"
-              v-bind="readCoverProps"
-            />
-            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
-              sem capa
-            </div>
-            <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
-                <strong class="reads-item__title">{{ item.edition.title }}</strong>
-              </NuxtLink>
-              <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
-                {{ authorsLabel(item.book.authors) }}
-              </span>
-              <time v-if="dateForItem(item, 'didNotFinish')" class="reads-item__date">
-                {{ dateForItem(item, 'didNotFinish') }}
-              </time>
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
-                Ver detalhes
-              </NuxtLink>
-            </div>
-          </li>
+          <BookReadingCard v-for="item in data.didNotFinish" :key="item.readId" :item="item" status="Interrompido" />
         </ul>
         <p v-else class="reads-empty">Sem livros abandonados.</p>
         <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>
@@ -238,30 +133,7 @@ const readCoverProps = {
           <p>Itens que desejo ler futuramente.</p>
         </div>
         <ul v-if="data.wantToRead.length" class="reads-list">
-          <li v-for="item in data.wantToRead" :key="item.readId" class="reads-item">
-            <ExpandableImage
-              v-if="item.edition.coverUrl"
-              :src="coverSrc(item.edition.coverUrl)"
-              :alt="`Capa de ${item.edition.title}`"
-              :expand-label="`Expandir capa de ${item.edition.title}`"
-              gallery="year-reads-covers"
-              v-bind="readCoverProps"
-            />
-            <div v-else class="reads-item__cover reads-item__cover--placeholder" aria-hidden="true">
-              sem capa
-            </div>
-            <div class="reads-item__content">
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__title-link">
-                <strong class="reads-item__title">{{ item.edition.title }}</strong>
-              </NuxtLink>
-              <span v-if="authorsLabel(item.book.authors)" class="reads-item__authors">
-                {{ authorsLabel(item.book.authors) }}
-              </span>
-              <NuxtLink :to="bookDetailsLink(item.book.slug)" class="reads-item__details-link">
-                Ver detalhes
-              </NuxtLink>
-            </div>
-          </li>
+          <BookReadingCard v-for="item in data.wantToRead" :key="item.readId" :item="item" status="Na lista" />
         </ul>
         <p v-else class="reads-empty">Nenhum livro na fila.</p>
         <a class="back-to-top" href="#year-reads-top">Voltar ao topo</a>

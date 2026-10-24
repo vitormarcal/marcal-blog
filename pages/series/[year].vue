@@ -8,6 +8,7 @@ definePageMeta({
 
 const route = useRoute()
 const { apiUrl } = useMediaPulseApi()
+const { isMinimalistaEscuro } = useVisualDesign()
 const currentYear = new Date().getFullYear()
 
 const yearParam = Array.isArray(route.params.year) ? route.params.year[0] : route.params.year
@@ -70,10 +71,10 @@ useSeoMeta({
     <main>
       <div class="post-section content-section">
         <header class="shows-year-header">
-          <p class="shows-year-header__kicker">Séries</p>
-          <h1>Visão de {{ year }}</h1>
+          <p class="shows-year-header__kicker">{{ isMinimalistaEscuro ? 'Séries' : `Caderno de séries · ${year}` }}</p>
+          <h1>{{ isMinimalistaEscuro ? `Visão de ${year}` : 'Meu ano em séries' }}</h1>
           <p class="shows-year-header__description">
-            Um painel anual com séries vistas, pendentes e acesso rápido ao histórico de episódios.
+            {{ isMinimalistaEscuro ? 'Um painel anual com séries vistas, pendentes e acesso rápido ao histórico de episódios.' : 'Episódios que acompanhei, histórias em curso e as próximas da fila.' }}
           </p>
 
           <div class="shows-global-summary" aria-label="Resumo geral da biblioteca de séries">
@@ -90,7 +91,7 @@ useSeoMeta({
               <strong class="shows-global-summary__value">{{ selectedYearStats?.rewatchesCount ?? '—' }}</strong>
             </div>
             <div class="shows-global-summary__item">
-              <span class="shows-global-summary__label">Pendentes na biblioteca</span>
+              <span class="shows-global-summary__label">{{ isMinimalistaEscuro ? 'Pendentes na biblioteca' : 'Na fila' }}</span>
               <strong class="shows-global-summary__value">{{ globalUnwatchedCount ?? '—' }}</strong>
             </div>
           </div>

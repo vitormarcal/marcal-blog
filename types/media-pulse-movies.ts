@@ -35,6 +35,8 @@ export type MediaPulseMovieExternalId = {
 }
 
 export type MediaPulseMovieDetailsResponse = {
+  favorite?: boolean
+  abandoned?: boolean
   movieId: number
   title: string
   originalTitle: string
@@ -45,6 +47,14 @@ export type MediaPulseMovieDetailsResponse = {
   images: MediaPulseMovieImage[]
   watches: MediaPulseMovieWatch[]
   externalIds: MediaPulseMovieExternalId[]
+  lists?: Array<{ listId: number; name: string; slug: string; description?: string | null }>
+  companies?: Array<{ companyId: number; name: string; slug: string; logoUrl?: string | null; originCountry?: string | null; companyType: string }>
+  people?: Array<{ personId: number; name: string; slug: string; profileUrl?: string | null; creditType: string; department?: string | null; job?: string | null; characterName?: string | null; billingOrder?: number | null }>
+  creditsCurated?: boolean
+  terms?: Array<{ id: number; name: string; slug: string; kind: string; active: boolean }>
+  collection?: { id: number; name: string; posterUrl?: string | null; backdropUrl?: string | null; movies: Array<{ movieId: number; title: string; slug?: string | null; year?: number | null; coverUrl?: string | null; watched: boolean; current: boolean }> } | null
+  rating?: { rating: number; updatedAt: string } | null
+  comments?: Array<{ id: number; body: string; commentedAt: string; edited: boolean }>
 }
 
 export type MediaPulseYearMovieStats = {

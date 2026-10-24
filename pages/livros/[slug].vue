@@ -178,8 +178,9 @@ const readProgress = (read: MediaPulseRead) => {
     <main>
       <article class="post-section book-page">
         <div class="book-page__header">
-          <p class="book-page__kicker">Livro</p>
+          <p class="book-page__kicker">Caderno de leitura</p>
           <h1>{{ pageName }}</h1>
+          <p v-if="authorsLabel" class="book-page__byline">{{ authorsLabel }}</p>
           <p v-if="editionInformationText" class="book-page__description">{{ editionInformationText }}</p>
         </div>
 
@@ -208,26 +209,19 @@ const readProgress = (read: MediaPulseRead) => {
             </div>
 
             <dl class="book-meta">
-              <div>
-                <dt>Título</dt>
-                <dd>{{ book.title }}</dd>
-              </div>
-              <div v-if="authorsLabel">
-                <dt>Autor(es)</dt>
-                <dd>{{ authorsLabel }}</dd>
-              </div>
               <div v-if="book.releaseDate">
-                <dt>Lançamento</dt>
+                <dt>Publicado</dt>
                 <dd>{{ formatDate(book.releaseDate) }}</dd>
               </div>
               <div v-if="typeof book.rating === 'number'">
-                <dt>Nota</dt>
-                <dd>{{ book.rating.toFixed(1) }}</dd>
+                <dt>Minha nota</dt>
+                <dd class="book-page__rating">{{ book.rating.toLocaleString('pt-BR') }} <span>★</span></dd>
               </div>
               <div v-if="book.reviewedAt">
-                <dt>Review atualizada em</dt>
+                <dt>Revisto em</dt>
                 <dd>{{ formatDate(book.reviewedAt) }}</dd>
               </div>
+              <div v-if="selectedReadEdition?.publisher"><dt>Edição</dt><dd>{{ selectedReadEdition.publisher }}<span v-if="selectedReadEdition.pages"> · {{ selectedReadEdition.pages }} páginas</span></dd></div>
             </dl>
           </section>
 
@@ -245,7 +239,7 @@ const readProgress = (read: MediaPulseRead) => {
           </section>
 
           <section class="book-page__section">
-            <h2>Review</h2>
+            <h2>O que achei</h2>
             <div v-if="reviewParagraphs.length" class="book-review">
               <p v-for="(paragraph, index) in reviewParagraphs" :key="`${index}-${paragraph.slice(0, 18)}`">
                 {{ paragraph }}
@@ -263,8 +257,6 @@ const readProgress = (read: MediaPulseRead) => {
                 <span v-if="edition.format">{{ edition.format }}</span>
                 <span v-if="edition.pages">{{ edition.pages }} páginas</span>
                 <span v-if="edition.language">Idioma: {{ edition.language }}</span>
-                <span v-if="edition.isbn13">ISBN-13: {{ edition.isbn13 }}</span>
-                <span v-else-if="edition.isbn10">ISBN-10: {{ edition.isbn10 }}</span>
               </li>
             </ul>
             <p v-else class="book-page__empty">Sem edições registradas.</p>
@@ -278,10 +270,14 @@ const readProgress = (read: MediaPulseRead) => {
                 <span v-if="read.startedAt">Início: {{ formatDate(read.startedAt) }}</span>
                 <span v-if="read.finishedAt">Fim: {{ formatDate(read.finishedAt) }}</span>
                 <span v-if="readProgress(read)">Progresso: {{ readProgress(read) }}</span>
-                <span v-if="read.source">Fonte: {{ read.source }}</span>
               </li>
             </ul>
             <p v-else class="book-page__empty">Sem leituras registradas para este livro.</p>
+          </section>
+
+          <section v-if="book.comments?.length" class="book-page__section book-page__comments">
+            <h2>Anotações</h2>
+            <blockquote v-for="comment in book.comments" :key="comment.id"><p>{{ comment.body }}</p><footer>{{ formatDate(comment.commentedAt) }}</footer></blockquote>
           </section>
         </template>
       </article>

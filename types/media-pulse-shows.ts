@@ -69,6 +69,8 @@ export type MediaPulseShowExternalId = {
 }
 
 export type MediaPulseShowDetailsResponse = {
+  favorite?: boolean
+  abandoned?: boolean
   showId: number
   title: string
   originalTitle: string
@@ -81,6 +83,12 @@ export type MediaPulseShowDetailsResponse = {
   progress?: MediaPulseShowProgress | null
   watches: MediaPulseShowWatch[]
   externalIds: MediaPulseShowExternalId[]
+  people?: Array<{ personId: number; name: string; slug: string; profileUrl?: string | null; creditType: string; department?: string | null; job?: string | null; characterName?: string | null; billingOrder?: number | null }>
+  creditsCurated?: boolean
+  terms?: Array<{ id: number; name: string; slug: string; kind: string; active: boolean }>
+  lists?: Array<{ listId: number; name: string; slug: string; description?: string | null }>
+  rating?: { rating: number; updatedAt: string } | null
+  comments?: Array<{ id: number; body: string; commentedAt: string; edited: boolean }>
 }
 
 export type MediaPulseYearShowStats = {

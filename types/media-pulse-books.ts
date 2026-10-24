@@ -8,17 +8,24 @@ export type MediaPulseBookCard = {
   slug: string
   title: string
   coverUrl?: string | null
+  releaseDate?: string | null
+  rating?: number | null
+  reviewedAt?: string | null
   authors: MediaPulseAuthor[]
 }
 
 export type MediaPulseEditionCard = {
-  editionId: number
-  title: string
+  id?: number
+  editionId?: number
+  title?: string | null
   coverUrl?: string | null
   isbn13?: string | null
+  isbn10?: string | null
   publisher?: string | null
   pages?: number | null
+  language?: string | null
   format?: string | null
+  editionInformation?: string | null
 }
 
 export type MediaPulseReadCard = {
@@ -30,20 +37,26 @@ export type MediaPulseReadCard = {
   progressPages?: number | null
   source?: string | null
   book: MediaPulseBookCard
-  edition: MediaPulseEditionCard
+  edition: MediaPulseEditionCard | null
 }
 
 export type MediaPulseYearStats = {
   finishedCount: number
   currentlyReadingCount: number
   wantCount: number
+  didNotFinishCount?: number
+  pausedCount?: number
+  pagesFinished?: number
 }
 
 export type MediaPulseYearReadsResponse = {
   year: number
+  range?: { start: string; end: string }
   currentlyReading: MediaPulseReadCard[]
   finished: MediaPulseReadCard[]
   didNotFinish: MediaPulseReadCard[]
+  paused?: MediaPulseReadCard[]
+  unknown?: MediaPulseReadCard[]
   wantToRead: MediaPulseReadCard[]
   stats: MediaPulseYearStats
 }
@@ -95,4 +108,5 @@ export type MediaPulseBookDetailsResponse = {
   authors: MediaPulseAuthor[]
   editions: MediaPulseEdition[]
   reads: MediaPulseRead[]
+  comments?: Array<{ id: number; body: string; commentedAt: string; edited: boolean }>
 }
