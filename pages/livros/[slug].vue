@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { MediaPulseBookDetailsResponse, MediaPulseRead } from '~/types/media-pulse-books'
+import type { MediaPulseBookDetailsResponse, MediaPulseBookGroup, MediaPulseBookSeriesDetails, MediaPulseRead } from '~/types/media-pulse-books'
 
 definePageMeta({
   documentDriven: false
@@ -25,6 +25,25 @@ const { data: book, pending, error } = useAsyncData(
     server: false
   }
 )
+
+const bookSeries = ref<MediaPulseBookSeriesDetails[]>([])
+let requestedBookId: number | null = null
+
+watch(() => book.value?.bookId, async (bookId) => {
+  if (!bookId || requestedBookId === bookId) return
+  requestedBookId = bookId
+  bookSeries.value = []
+
+  try {
+    const groups = await $fetch<MediaPulseBookGroup[]>(apiUrl(`/api/books/${bookId}/series`))
+    const details = await Promise.all(groups.map((group) =>
+      $fetch<MediaPulseBookSeriesDetails>(apiUrl(`/api/books/series/${group.id}`))
+    ))
+    if (requestedBookId === bookId) bookSeries.value = details
+  } catch {
+    // A versão da API pode ainda não oferecer agrupamentos; os dados do livro seguem disponíveis.
+  }
+}, { immediate: true })
 
 const extractStatusCode = (value: unknown) => {
   const raw = value as any
@@ -225,6 +244,30 @@ const readProgress = (read: MediaPulseRead) => {
             </dl>
           </section>
 
+          <section v-if="bookSeries.length" class="book-page__section book-page__series">
+            <h2>Séries e universos</h2>
+            <article v-for="series in bookSeries" :key="series.id" class="book-series-card">
+              <div class="book-series-card__head">
+                <div class="book-series-card__covers" aria-hidden="true">
+                  <img v-for="(cover, index) in series.coverUrls?.slice(0, 3)" :key="`${series.id}-${cover}-${index}`" :src="assetUrl(cover)" alt="" loading="lazy" />
+                </div>
+                <div>
+                  <p class="book-page__kicker">Série de livros</p>
+                  <h3>{{ series.name }}</h3>
+                  <p v-if="series.authors?.length" class="book-series-card__authors">{{ series.authors.map((author) => author.name).join(' · ') }}</p>
+                  <p v-if="series.universes?.length" class="book-series-card__universes">Universo: {{ series.universes.map((universe) => universe.name).join(' · ') }}</p>
+                </div>
+              </div>
+              <p v-if="series.description" class="book-series-card__description">{{ series.description }}</p>
+              <div v-if="series.items.length > 1" class="book-series-card__books">
+                <NuxtLink v-for="item in series.items.filter((item) => item.id !== book?.bookId && item.slug)" :key="item.id" :to="`/livros/${item.slug}`">
+                  <img v-if="item.coverUrl" :src="assetUrl(item.coverUrl)" :alt="`Capa de ${item.name}`" loading="lazy" />
+                  <span>{{ item.name }}<small v-if="item.position">{{ item.position }}º da série</small></span>
+                </NuxtLink>
+              </div>
+            </article>
+          </section>
+
           <section class="book-page__section">
             <h2>Sinopse</h2>
             <div v-if="bookDescriptionParagraphs.length" class="book-description">
@@ -386,6 +429,83 @@ const readProgress = (read: MediaPulseRead) => {
 .book-page__section h2 {
   margin: 0 !important;
   font-size: 1.5rem;
+}
+
+.book-series-card {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.book-series-card__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.book-series-card__covers {
+  display: flex;
+  flex: 0 0 auto;
+  padding-left: 10px;
+}
+
+.book-series-card__covers img {
+  width: 46px;
+  height: 68px;
+  margin-left: -10px;
+  border: 2px solid #171e21;
+  object-fit: cover;
+  background: #20292c;
+}
+
+.book-series-card__head h3 {
+  margin: 0.15rem 0 0;
+  font: 500 1.35rem/1.2 Georgia, serif;
+}
+
+.book-series-card__authors,
+.book-series-card__universes,
+.book-series-card__description {
+  margin: 0.35rem 0 0;
+  color: #9da9a1;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.book-series-card__books {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.book-series-card__books a {
+  display: grid;
+  flex: 0 0 190px;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.book-series-card__books img {
+  width: 44px;
+  height: 66px;
+  object-fit: cover;
+  background: #20292c;
+}
+
+.book-series-card__books span,
+.book-series-card__books small {
+  display: block;
+}
+
+.book-series-card__books small {
+  margin-top: 0.3rem;
+  color: #9da9a1;
+  font-size: 0.72rem;
 }
 
 .book-page__empty {

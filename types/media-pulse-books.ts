@@ -3,6 +3,29 @@ export type MediaPulseAuthor = {
   name: string
 }
 
+export type MediaPulseBookGroup = {
+  id: number
+  name: string
+  itemCount: number
+  description?: string | null
+  authors?: MediaPulseAuthor[]
+  coverUrls?: string[]
+  hardcoverId?: number | null
+}
+
+export type MediaPulseBookGroupMember = {
+  id: number
+  name: string
+  position: number
+  slug?: string | null
+  coverUrl?: string | null
+}
+
+export type MediaPulseBookSeriesDetails = MediaPulseBookGroup & {
+  items: MediaPulseBookGroupMember[]
+  universes?: MediaPulseBookGroup[]
+}
+
 export type MediaPulseBookCard = {
   bookId: number
   slug: string
