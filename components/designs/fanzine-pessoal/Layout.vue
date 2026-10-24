@@ -2,6 +2,7 @@
 import '~/assets/css/designs/fanzine-pessoal.css'
 import ArtworkRail from '~/components/designs/fanzine-pessoal/ArtworkRail.vue'
 import MediaPulseRail from '~/components/designs/fanzine-pessoal/MediaPulseRail.vue'
+const { stories } = useStoriesCatalog()
 const route = useRoute()
 const config = useAppConfig()
 const year = new Date().getFullYear()
@@ -29,6 +30,7 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
       <NuxtLink class="rail-home" to="/" aria-label="Voltar à página inicial">M<span>✳</span></NuxtLink>
       <div class="rail-caption"><span>Arquivo pessoal</span><span>·</span><span>Brasília, BR</span></div>
       <ArtworkRail />
+      <StoryRail v-if="stories.length" :items="stories" placement="sidebar" />
       <MediaPulseRail />
       <nav class="rail-nav" aria-label="Explorar o arquivo">
         <span class="rail-label">Passagens</span>

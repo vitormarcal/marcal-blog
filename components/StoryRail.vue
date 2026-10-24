@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import type { StoryItem } from '~/types/story'
 
-defineProps<{
+withDefaults(defineProps<{
   items: StoryItem[]
-}>()
+  placement?: 'inline' | 'sidebar'
+}>(), { placement: 'inline' })
 </script>
 
 <template>
-  <section class="story-rail" aria-labelledby="stories-title">
+  <section class="story-rail" :class="`story-rail--${placement}`" aria-labelledby="stories-title">
     <h3 id="stories-title">Destaques</h3>
     <div class="story-rail__list" role="list">
       <NuxtLink
@@ -81,5 +82,42 @@ defineProps<{
   width: 100%;
   line-height: 1.2;
   text-wrap: balance;
+}
+
+.story-rail--sidebar {
+  grid-column: 1 / -1;
+  margin: 12px 0 13px;
+  padding: 11px 0 8px;
+  border-top: 1px solid #394448;
+  border-bottom: 1px solid #394448;
+}
+
+.story-rail--sidebar h3 {
+  margin: 0 0 9px;
+  color: #e6f066;
+  font: 9px ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.story-rail--sidebar .story-rail__list {
+  gap: 10px;
+  padding: 0 0 3px;
+}
+
+.story-rail--sidebar .story-rail__item {
+  width: 80px;
+  min-width: 80px;
+}
+
+.story-rail--sidebar .story-rail__ring {
+  width: 58px;
+  height: 58px;
+}
+
+.story-rail--sidebar .story-rail__title {
+  margin-top: 5px;
+  color: #b9c2b9;
+  font: 10px/1.2 Arial, sans-serif;
 }
 </style>

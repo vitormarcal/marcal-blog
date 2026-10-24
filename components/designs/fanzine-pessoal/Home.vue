@@ -7,7 +7,6 @@ const postImage = (post: any) => {
   if (/^(https?:\/\/|\/)/.test(post.image)) return post.image
   return '/' + post.image
 }
-const { stories } = useStoriesCatalog()
 useSeoMeta({ title: 'Vítor Marçal', description: 'Essa é a minha página pessoal, onde eu escrevo principalmente para mim mesmo.' })
 </script>
 
@@ -15,7 +14,6 @@ useSeoMeta({ title: 'Vítor Marçal', description: 'Essa é a minha página pess
   <main class="editorial-home">
     <div class="design-line"><span>Notas · cultura · curiosidades</span><span>Brasília, Brasil <i aria-hidden="true">✳</i></span></div>
     <section class="home-intro"><span class="home-kicker"><i aria-hidden="true">●</i> Uma página pessoal</span><h1>Anoto aqui o que eu<br />leio, vejo e <em>ouço.</em></h1><p>Às vezes escrevo sobre essas coisas. Às vezes só deixo uma referência para não esquecer.</p><span class="home-coordinate">15°47′ S · 47°52′ W&nbsp; / &nbsp;desde 2019</span></section>
-    <section v-if="stories.length" class="editorial-stories"><div class="section-rule"><h2>Stories</h2></div><StoryRail :items="stories" /></section>
     <div class="front-page-grid">
       <section class="lead-story" aria-labelledby="latest-title">
         <div class="section-rule"><h2 id="latest-title">Últimas anotações</h2><span>do caderno</span></div>
