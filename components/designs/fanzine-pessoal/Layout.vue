@@ -26,6 +26,18 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
 <template>
   <div class="magazine-site">
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="magazine-main">
+      <header class="magazine-header">
+        <div class="masthead-meta"><span>Página pessoal de Vítor Marçal</span><NuxtLink to="/design">Design do site ↗</NuxtLink></div>
+        <div class="masthead"><NuxtLink class="magazine-logo" to="/" aria-label="Marçal — página inicial">Marçal<span>notas pessoais</span></NuxtLink><p>Literatura, cinema, música<br />e coisas do cotidiano.</p></div>
+        <button class="magazine-menu-toggle" type="button" :aria-expanded="menuOpen" aria-controls="magazine-nav" @click="menuOpen = !menuOpen">{{ menuOpen ? 'Fechar menu −' : 'Abrir navegação +' }}</button>
+        <nav id="magazine-nav" class="magazine-nav" :class="{ 'is-open': menuOpen }" aria-label="Navegação principal">
+          <NuxtLink v-for="[label, path] in navigation" :key="path" :to="path">{{ label }}</NuxtLink>
+          <NuxtLink to="/random" class="surprise-link">Surpreenda-me ↗</NuxtLink>
+        </nav>
+      </header>
+      <div id="conteudo" class="magazine-content" tabindex="-1"><slot /></div>
+    </div>
     <aside class="cabinet-rail" aria-label="Índice e curiosidades">
       <NuxtLink class="rail-home" to="/" aria-label="Voltar à página inicial">M<span>✳</span></NuxtLink>
       <div class="rail-caption"><span>Arquivo pessoal</span><span>·</span><span>Brasília, BR</span></div>
@@ -43,18 +55,6 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
       <NuxtLink to="/gustav-klimt-e-elfen-lied" class="rail-gif" aria-label="Ler Gustav Klimt e Elfen Lied"><img src="/img/gustav-klimt-e-elfen-lied/elfen-lied-1.gif" alt="Golden Tears, pintura de Anne Marie Zilberman associada à abertura de Elfen Lied" /><span>Golden Tears · Elfen Lied&nbsp; ↗</span></NuxtLink>
       <div class="rail-bottom"><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre</NuxtLink><span>© {{ year }}</span></div>
     </aside>
-    <div class="magazine-main">
-      <header class="magazine-header">
-        <div class="masthead-meta"><span>Página pessoal de Vítor Marçal</span><NuxtLink to="/design">Design do site ↗</NuxtLink></div>
-        <div class="masthead"><NuxtLink class="magazine-logo" to="/" aria-label="Marçal — página inicial">Marçal<span>notas pessoais</span></NuxtLink><p>Literatura, cinema, música<br />e coisas do cotidiano.</p></div>
-        <button class="magazine-menu-toggle" type="button" :aria-expanded="menuOpen" aria-controls="magazine-nav" @click="menuOpen = !menuOpen">{{ menuOpen ? 'Fechar menu −' : 'Abrir navegação +' }}</button>
-        <nav id="magazine-nav" class="magazine-nav" :class="{ 'is-open': menuOpen }" aria-label="Navegação principal">
-          <NuxtLink v-for="[label, path] in navigation" :key="path" :to="path">{{ label }}</NuxtLink>
-          <NuxtLink to="/random" class="surprise-link">Surpreenda-me ↗</NuxtLink>
-        </nav>
-      </header>
-      <div id="conteudo" class="magazine-content" tabindex="-1"><slot /></div>
-      <footer class="magazine-footer"><div><NuxtLink class="footer-name" to="/">Marçal.</NuxtLink></div><div class="footer-links"><NuxtLink to="/design">Design do site</NuxtLink><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre o autor</NuxtLink><span>Distrito Federal, Brasil · © 2019–{{ year }}</span></div></footer>
-    </div>
+    <footer class="magazine-footer"><div><NuxtLink class="footer-name" to="/">Marçal.</NuxtLink></div><div class="footer-links"><NuxtLink to="/design">Design do site</NuxtLink><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre o autor</NuxtLink><span>Distrito Federal, Brasil · © 2019–{{ year }}</span></div></footer>
   </div>
 </template>
