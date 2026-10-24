@@ -13,7 +13,6 @@ related:
   - "[[tags/tecnologia]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/sistema-operacional.jpg
 language: pt
 ---
 Minha evolução no uso de sistemas operacionais acompanha minha jornada como usuário e profissional de TI. Comecei com Windows 98 quando criança, passei pelo XP, Vista, 7, até descobrir Linux. Desde então, o Linux deixou de ser um conhecido estranho para se tornar um amigo que me acompanha a maior parte do dia. O Windows uso apenas quando necessário.

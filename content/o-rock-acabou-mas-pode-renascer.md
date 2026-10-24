@@ -13,7 +13,7 @@ related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/musica]]"
   - "[[tags/portugues]]"
-image: img/o-rock-acabou-mas-pode-renascer.jpg
+image: img/www.moptopmusic.com_.png
 language: pt
 localized_post_paths: 
 has_localized_posts: false

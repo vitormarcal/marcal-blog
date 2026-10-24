@@ -11,7 +11,6 @@ tags:
 related:
   - "[[tags/livros]]"
   - "[[tags/notas-pessoais]]"
-image: img/comecei-a-utilizar-o-hardcover.jpg
 language: pt
 localized_post_paths:
 has_localized_posts: false

@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/os-miseraveis/os-miseraveis-conclusao.png
+image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
 language: pt
 feedback:
   - gostei

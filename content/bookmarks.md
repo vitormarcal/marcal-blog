@@ -9,7 +9,6 @@ tags:
   - bookmarks
 related:
   - "[[tags/bookmarks]]"
-image: img/bookmarks.jpg
 language: pt
 localized_post_paths: 
 has_localized_posts: false

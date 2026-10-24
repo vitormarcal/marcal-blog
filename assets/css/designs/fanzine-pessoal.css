@@ -1,0 +1,775 @@
+body.design-fanzine-pessoal {
+  --bg-color: #f3eedf; --font-color: #252720; --green: #4b6243;
+  --link_color: #a53624; --link_color_visited: #804633;
+  --blockquote-border-color: #a53624; --inline-code-color: #7b3426;
+  --pre-background-color: #252720; --text-regular: 1.15rem;
+  --text-letter-spacing: 0; --title-large: 2.8em; --title-medium: 2.1em;
+  background: var(--bg-color); color: var(--font-color);
+  font-family: Georgia, 'Times New Roman', serif; line-height: 1.65;
+  background-image: radial-gradient(#746c5512 .6px, transparent .6px);
+  background-size: 5px 5px;
+}
+body.design-fanzine-pessoal :is(h1,h2,h3,h4,h5,h6) { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: -.035em; color: #252720; }
+body.design-fanzine-pessoal a { text-underline-offset: .2em; }
+body.design-fanzine-pessoal a:focus-visible, body.design-fanzine-pessoal button:focus-visible { outline: 2px solid #a53624; outline-offset: 5px; }
+body.design-fanzine-pessoal hr { border: 0; border-top: 1px solid #b8b09b; }
+body.design-fanzine-pessoal :is(.post-section time,.post-section:not(.content-section)>p:first-of-type) { color: #655f50; }
+body.design-fanzine-pessoal .post-section { font-size: 19px; }
+body.design-fanzine-pessoal .post-section > * { grid-column: 3 / span 8; }
+body.design-fanzine-pessoal .post-section pre { color: #f3eedf; }
+body.design-fanzine-pessoal .post-section blockquote { font-style: italic; }
+body.design-fanzine-pessoal .main-section { padding-top: 3rem; padding-bottom: 3rem; }
+body.design-fanzine-pessoal .main-section main { max-width: 1180px; }
+body.design-fanzine-pessoal a[href^="https://"]::after { filter: sepia(1) saturate(2); }
+.magazine-site { max-width: 1440px; margin: auto; padding: 0 clamp(20px,5vw,76px); }
+.magazine-header { border-bottom: 3px solid #252720; }
+.masthead-meta,.design-line,.eyebrow,.section-rule,.post-byline,.post-number,.short-posts time,.shelf-note,.shelf-book p,.small-link,.culture-index a,.footer-links,.magazine-nav,.magazine-menu-toggle,.archive-link,.magazine-footer p,.colophon>a { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.masthead-meta { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-bottom: 1px solid #b8b09b; font-size: 11px; text-transform: uppercase; letter-spacing: .07em; }
+.masthead-meta a { color: #252720; text-decoration: none; }
+.masthead { display: flex; justify-content: space-between; align-items: center; padding: 24px 0 30px; }
+body.design-fanzine-pessoal .magazine-logo { font-size: clamp(76px,12vw,160px); line-height: .9; font-weight: 900; letter-spacing: -.085em; color: #a53624; text-decoration: none; }
+.magazine-logo span { font-size: .22em; vertical-align: top; margin: .2em 0 0 .6em; display: inline-block; }
+.masthead p { font-size: 23px; line-height: 1.25; font-style: italic; border-left: 1px solid #b8b09b; padding-left: 25px; }
+.magazine-nav { display: flex; align-items: center; gap: 28px; border-top: 1px solid #252720; padding: 13px 0; font-size: 13px; }
+body.design-fanzine-pessoal .magazine-nav a { color: #252720; text-decoration: none; }
+body.design-fanzine-pessoal .magazine-nav a.router-link-active { color: #a53624; }
+.magazine-nav .surprise-link { margin-left: auto; }
+.magazine-menu-toggle { display: none; }
+.magazine-content { min-height: 55vh; }
+.design-line { display: flex; justify-content: space-between; gap: 20px; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; padding: 16px 0; }
+.editorial-intro { padding: 48px 0 60px; position: relative; border-bottom: 1px solid #252720; }
+.eyebrow { color: #a53624; font-size: 11px; text-transform: uppercase; letter-spacing: .13em; }
+body.design-fanzine-pessoal .editorial-intro h1 { font-size: clamp(55px,7.5vw,104px); line-height: .99; max-width: 900px; margin: 20px 0 25px; letter-spacing: -.055em; }
+.editorial-intro h1 em { color: #a53624; font-weight: 400; }
+.editorial-intro > p:last-child { max-width: 490px; font-size: 19px; line-height: 1.6; }
+.front-page-grid { display: grid; grid-template-columns: minmax(0,1.65fr) minmax(0,1fr); gap: 44px; margin: 40px 0 65px; }
+.section-rule { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-top: 3px solid #252720; border-bottom: 1px solid #b8b09b; padding: 10px 0; }
+body.design-fanzine-pessoal .section-rule h2 { font-size: 21px; letter-spacing: -.025em; }
+.section-rule > span { font-size: 9px; text-transform: uppercase; color: #655f50; }
+.featured-post { padding: 30px 0; }
+.featured-post > a { text-decoration: none; }
+body.design-fanzine-pessoal .featured-post h3 { font-size: clamp(30px,3.2vw,45px); line-height: 1.12; margin: 18px 0; }
+.featured-post > p:not(.eyebrow) { font-size: 19px; }
+.post-byline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 11px; margin-top: 26px; }
+.short-posts article { display: flex; gap: 20px; padding: 24px 0; border-top: 1px solid #b8b09b; }
+.post-number { color: #a53624; font-size: 13px; padding-top: 5px; }
+.short-posts time { font-size: 10px; color: #655f50; }
+body.design-fanzine-pessoal .short-posts h3 { font-size: 24px; line-height: 1.2; margin: 6px 0 10px; }
+body.design-fanzine-pessoal .short-posts h3 a { color: #252720; text-decoration: none; }
+.short-posts p { font-size: 16px; line-height: 1.55; }
+.archive-link { display: flex; justify-content: space-between; border-top: 1px solid #252720; padding-top: 16px; font-size: 12px; }
+.personal-column { border-left: 1px solid #b8b09b; padding-left: 32px; }
+.shelf-note { font-size: 11px; margin: 16px 0 22px; color: #655f50; }
+.book-shelf { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 13px; }
+body.design-fanzine-pessoal .shelf-book { text-decoration: none; color: #252720; }
+.book-cover { aspect-ratio: 2 / 3; display: flex; align-items: end; margin-bottom: 12px; }
+.book-cover img { width: 100%; height: 100%; object-fit: contain; object-position: bottom; filter: drop-shadow(3px 4px 2px #25272025); }
+body.design-fanzine-pessoal .shelf-book h3 { font-size: 15px; line-height: 1.2; }
+.shelf-book p { font-size: 9px; margin-top: 6px; }
+.small-link { display: inline-block; font-size: 11px; margin-top: 22px; }
+.field-note { background: #e6dfc9; padding: 25px; margin: 36px 0; border-top: 3px solid #4b6243; transform: rotate(-1deg); }
+.field-note p { font-style: italic; font-size: 23px; line-height: 1.4; margin: 16px 0; }
+.field-note a { font-size: 13px; }
+body.design-fanzine-pessoal .culture-index h2 { font-size: 23px; margin-bottom: 15px; }
+.culture-index a { display: flex; justify-content: space-between; gap: 10px; border-top: 1px solid #b8b09b; padding: 13px 0; font-size: 11px; text-decoration: none; color: #252720; }
+.editorial-stories { margin-bottom: 55px; }
+.colophon { border-top: 1px solid #252720; border-bottom: 1px solid #252720; padding: 30px 0; display: flex; align-items: center; gap: 26px; }
+.colophon-mark { color: #a53624; font-size: 58px; }
+body.design-fanzine-pessoal .colophon h2 { font-size: 24px; }
+.colophon p { font-size: 15px; margin-top: 7px; }
+.colophon>a { margin-left: auto; font-size: 11px; }
+.magazine-footer { display: flex; justify-content: space-between; gap: 24px; padding: 45px 0 30px; }
+body.design-fanzine-pessoal .footer-name { font-size: 45px; line-height: 1; color: #a53624; font-weight: 700; letter-spacing: -.06em; text-decoration: none; }
+.magazine-footer p { font-size: 10px; margin-top: 12px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 18px; align-content: start; justify-content: end; font-size: 11px; max-width: 380px; }
+.footer-links span { flex-basis: 100%; text-align: right; color: #655f50; }
+.skip-link { position: absolute; top: -100px; left: 20px; padding: 12px; background: #f3eedf; z-index: 100; }
+.skip-link:focus { top: 10px; }
+.designs-page { max-width: 880px; margin: 60px auto; }
+.designs-page>p { margin: 20px 0; }
+.design-card { border-top: 2px solid currentColor; padding: 28px 0; margin-top: 30px; }
+.design-card p { margin: 14px 0; }
+.design-card a { margin-right: 24px; display: inline-block; }
+.design-swatch { height: 100px; margin-bottom: 22px; display: flex; align-items: center; padding: 20px; font-size: 38px; font-weight: bold; }
+.design-swatch.minimalista-escuro { color: #8db500; background: #000; font-family: system-ui,sans-serif; }
+
+.design-swatch.fanzine-pessoal { height: 116px; display: block; padding: 28px 20px; color: #e6f066; background: #111619; border: 1px solid #42d8c1; font: 900 42px/.9 Impact,'Arial Narrow',sans-serif; letter-spacing: -.04em; text-shadow: 2px 2px #42d8c1; }
+.design-swatch.fanzine-pessoal small { display: block; margin-top: 10px; color: #9da9a1; font: 9px ui-monospace,monospace; letter-spacing: .2em; text-transform: uppercase; text-shadow: none; }
+@media(min-width: 1100px) { .editorial-intro>p:last-child { position: absolute; bottom: 65px; right: 0; max-width: 270px; border-left: 1px solid #b8b09b; padding-left: 25px; font-size: 17px; } }
+@media(max-width: 900px) { .front-page-grid { gap: 25px; grid-template-columns: minmax(0,1.3fr) minmax(0,1fr); } .personal-column { padding-left: 20px; } .magazine-nav { gap: 18px; } .masthead p { font-size: 19px; } }
+@media(max-width: 680px) {
+  .masthead-meta { font-size: 9px; } .masthead-meta>span { max-width: 170px; }
+  .masthead { padding: 24px 0; } .masthead p { font-size: 14px; padding-left: 14px; }
+  .magazine-menu-toggle { display: block; width: 100%; text-align: left; padding: 12px 0; border-top: 1px solid #252720; color: #252720; font-size: 12px; cursor: pointer; }
+  .magazine-nav { display: none; } .magazine-nav.is-open { display: flex; flex-wrap: wrap; gap: 16px 22px; } .magazine-nav .surprise-link { margin-left: 0; }
+  .design-line { font-size: 9px; } .editorial-intro { padding: 30px 0; } .editorial-intro>p:last-child { font-size: 17px; }
+  .front-page-grid { grid-template-columns: 1fr; margin-top: 28px; gap: 45px; } .personal-column { border: 0; padding: 0; }
+  .book-shelf { gap: 22px; } .book-cover { max-height: 240px; } .colophon { flex-wrap: wrap; gap: 15px; } .colophon-mark { font-size: 40px; } .colophon>div { flex: 1; } .colophon>a { margin-left: 0; }
+  .magazine-footer { flex-direction: column; } .footer-links { justify-content: start; } .footer-links span { text-align: left; }
+  body.design-fanzine-pessoal .post-section>* { grid-column: 1 / span 12; } body.design-fanzine-pessoal .post-section { font-size: 18px; }
+  .designs-page { margin: 35px 20px; }
+}
+@media(prefers-reduced-motion: reduce) { body.design-fanzine-pessoal *,body.design-fanzine-pessoal *::before,body.design-fanzine-pessoal *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+
+/* Light-paper treatment for the shared content and media catalogs. */
+body.design-fanzine-pessoal .year-movies__summary { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .summary-kicker { color: #655f50; }
+body.design-fanzine-pessoal .summary-subtitle { color: #655f50; }
+body.design-fanzine-pessoal .summary-nav a { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .section-head p { color: #655f50; }
+body.design-fanzine-pessoal .movies-item { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-item__cover { border-radius: 2px; }
+body.design-fanzine-pessoal .movies-item__cover--placeholder { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-item__original-title { color: #655f50; }
+body.design-fanzine-pessoal .movies-item__meta-pill { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .movies-item__date { color: #655f50; }
+body.design-fanzine-pessoal .movies-item__details-link { border-radius: 2px; border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .movies-empty { color: #655f50; }
+body.design-fanzine-pessoal .back-to-top { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .skeleton-line { background: #e6dfce; border-radius: 2px; }
+body.design-fanzine-pessoal .year-movies__error { border-radius: 2px; }
+body.design-fanzine-pessoal .year-movies__error button { border: 1px solid #c8bea7; border-radius: 2px; }
+body.design-fanzine-pessoal .year-shows__summary { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .summary-kicker { color: #655f50; }
+body.design-fanzine-pessoal .summary-subtitle { color: #655f50; }
+body.design-fanzine-pessoal .summary-nav a { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .section-head p { color: #655f50; }
+body.design-fanzine-pessoal .shows-item { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .shows-item__cover { border-radius: 2px; }
+body.design-fanzine-pessoal .shows-item__cover--placeholder { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .shows-item__original-title { color: #655f50; }
+body.design-fanzine-pessoal .shows-item__meta-pill { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .shows-item__date { color: #655f50; }
+body.design-fanzine-pessoal .shows-item__details-link { border-radius: 2px; border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .shows-empty { color: #655f50; }
+body.design-fanzine-pessoal .back-to-top { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .skeleton-line { background: #e6dfce; border-radius: 2px; }
+body.design-fanzine-pessoal .year-shows__error { border-radius: 2px; }
+body.design-fanzine-pessoal .year-shows__error button { border: 1px solid #c8bea7; border-radius: 2px; }
+body.design-fanzine-pessoal .year-reads__summary { border-radius: 2px; background: #e6dfce; border: 1px solid #c8bea7; box-shadow: none; }
+body.design-fanzine-pessoal .summary-kicker { color: #655f50; }
+body.design-fanzine-pessoal .summary-subtitle { color: #655f50; }
+body.design-fanzine-pessoal .summary-card { background: #e6dfce; border-radius: 2px; border: 1px solid #c8bea7; box-shadow: none; }
+body.design-fanzine-pessoal .summary-label { color: #655f50; }
+body.design-fanzine-pessoal .summary-nav a { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .section-head p { color: #655f50; }
+body.design-fanzine-pessoal .reads-item { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
+body.design-fanzine-pessoal .reads-item__cover { border-radius: 2px; }
+body.design-fanzine-pessoal .reads-item__cover--placeholder { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .reads-item__authors, body.design-fanzine-pessoal .reads-item__date { color: #655f50; }
+body.design-fanzine-pessoal .reads-empty { color: #655f50; }
+body.design-fanzine-pessoal .back-to-top { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .skeleton-line { border-radius: 2px; }
+body.design-fanzine-pessoal .year-reads__error { border-radius: 2px; }
+body.design-fanzine-pessoal .movies-hero { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
+body.design-fanzine-pessoal .movies-hero__kicker { color: #655f50; }
+body.design-fanzine-pessoal .movies-hero__subtitle { color: #655f50; }
+body.design-fanzine-pessoal .movies-range__button { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; border-radius: 2px; }
+body.design-fanzine-pessoal .movies-summary__card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-summary__card span { color: #655f50; }
+body.design-fanzine-pessoal .movies-grid-section__head p { color: #655f50; }
+body.design-fanzine-pessoal .movie-card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
+body.design-fanzine-pessoal .movie-card__poster { background: #e6dfce; }
+body.design-fanzine-pessoal .movie-card__placeholder { color: #655f50; }
+body.design-fanzine-pessoal .movie-card__original-title { color: #655f50; }
+body.design-fanzine-pessoal .movie-pill { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .movie-pill--muted { border-color: #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-card__cta { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-card__cta--disabled { color: #655f50; border-color: #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-state { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .movies-state__retry { border: 1px solid #c8bea7; border-radius: 2px; }
+body.design-fanzine-pessoal .movies-skeleton__card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-skeleton__poster { border-radius: 2px; background: #e6dfce; }
+body.design-fanzine-pessoal .skeleton-line { border-radius: 2px; background: #e6dfce; }
+body.design-fanzine-pessoal .post-navigation-link { border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .post-navigation-link span { color: #655f50; }
+body.design-fanzine-pessoal .post-navigation-link time { color: #655f50; }
+body.design-fanzine-pessoal .post-tags li { color: #655f50; border-color: #c8bea7; border-radius: 2px; }
+body.design-fanzine-pessoal .post-tags a { color: #4b6243; }
+body.design-fanzine-pessoal .audio-card { background: #252720; color: #f3eedf; }
+body.design-fanzine-pessoal .prose-expandable-image__caption { color: #655f50; }
+
+@media(max-width: 680px) {
+  .colophon { display: grid; grid-template-columns: 32px minmax(0, 1fr); }
+  .colophon > a { grid-column: 2; }
+}
+
+/* Catalog details and year navigation. */
+body.design-fanzine-pessoal .movies-year-header__kicker { color: #655f50; }
+body.design-fanzine-pessoal .movies-year-header__description { color: #655f50; }
+body.design-fanzine-pessoal .movies-global-summary__item { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movies-global-summary__label { color: #655f50; }
+body.design-fanzine-pessoal .movies-years-nav__link { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .movies-years-nav__count { color: #655f50; }
+body.design-fanzine-pessoal .movies-years-nav__link--active .movies-years-nav__count { color: #655f50; }
+body.design-fanzine-pessoal .movies-year-jump__link { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .movies-year-jump__loading { color: #655f50; }
+body.design-fanzine-pessoal .movie-page__hero { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-page__kicker { color: #655f50; }
+body.design-fanzine-pessoal .movie-page__original-title { color: #655f50; }
+body.design-fanzine-pessoal .movie-page__state { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-page__poster-placeholder { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-meta dt { color: #655f50; }
+body.design-fanzine-pessoal .movie-page__empty { color: #655f50; }
+body.design-fanzine-pessoal .movie-description { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-description p { color: #655f50; }
+body.design-fanzine-pessoal .movie-gallery__item { border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .movie-gallery__badge { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-list__item { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .movie-list__item span { color: #655f50; }
+body.design-fanzine-pessoal .shows-year-header__kicker { color: #655f50; }
+body.design-fanzine-pessoal .shows-year-header__description { color: #655f50; }
+body.design-fanzine-pessoal .shows-global-summary__item { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .shows-global-summary__label { color: #655f50; }
+body.design-fanzine-pessoal .shows-years-nav__link { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal .shows-years-nav__count { color: #655f50; }
+body.design-fanzine-pessoal .shows-years-nav__link--active .shows-years-nav__count { color: #655f50; }
+body.design-fanzine-pessoal .shows-year-jump__link { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .show-page__hero { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-page__kicker { color: #655f50; }
+body.design-fanzine-pessoal .show-page__original-title { color: #655f50; }
+body.design-fanzine-pessoal .show-page__state { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-page__poster-placeholder { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .show-meta dt { color: #655f50; }
+body.design-fanzine-pessoal .show-status-pill { border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .show-status-pill--idle { color: #655f50; border-color: #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-page__empty { color: #655f50; }
+body.design-fanzine-pessoal .show-description { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-description p { color: #655f50; }
+body.design-fanzine-pessoal .show-progress-card { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-progress-card__head p { color: #655f50; }
+body.design-fanzine-pessoal .show-progress-bar { background: #e6dfce; }
+body.design-fanzine-pessoal .show-progress-stats span { color: #655f50; }
+body.design-fanzine-pessoal .show-gallery__item { border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal .show-gallery__badge { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal .show-list__item { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .show-list__item span { color: #655f50; }
+body.design-fanzine-pessoal .book-page__kicker { color: #655f50; }
+body.design-fanzine-pessoal .book-page__description { color: #655f50; }
+body.design-fanzine-pessoal .book-page__state { background: #e6dfce; }
+body.design-fanzine-pessoal .book-cover { background: #e6dfce; }
+body.design-fanzine-pessoal .book-cover--placeholder { color: #655f50; }
+body.design-fanzine-pessoal .book-meta dt { color: #655f50; }
+body.design-fanzine-pessoal .book-page__empty { color: #655f50; }
+body.design-fanzine-pessoal .book-description { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .book-description p { color: #655f50; }
+body.design-fanzine-pessoal .book-list__item { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal .book-list__item span { color: #655f50; }
+
+/* Spacing for the book covers and links without introductory copy. */
+.personal-column .book-shelf { margin-top: 24px; }
+.culture-index { margin-top: 36px; }
+
+/* Pulp: a compact, illustrated journal framed in salmon and peach paper. */
+body.design-fanzine-pessoal {
+  --bg-color: #ffe6d5; --font-color: #332d29; --link_color: #923823;
+  --link_color_visited: #774333;
+  background: #ed8877; background-image: none;
+}
+body.design-fanzine-pessoal :is(h1,h2,h3,h4,h5,h6) { color: #332d29; }
+.magazine-site { max-width: 1100px; margin: 24px auto; padding: 0 34px; background: #ffe6d5; border: 5px double #b26935; box-shadow: 0 8px 30px #71342615; }
+.magazine-header { border-bottom: 4px double #b26935; }
+.masthead-meta { font-family: Georgia, serif; color: #6e5145; font-size: 11px; letter-spacing: .02em; padding: 10px 0; border-color: #d6ad8f; }
+.masthead { padding: 26px 0 24px; gap: 24px; }
+body.design-fanzine-pessoal .magazine-logo { display: block; font-family: Impact, 'Arial Narrow', sans-serif; font-size: clamp(76px,10vw,132px); font-weight: 900; text-transform: uppercase; letter-spacing: -.055em; color: #923823; text-shadow: 2px 2px #ffe6d5, 4px 4px #d4a277; transform: rotate(-3deg); }
+.magazine-logo span { display: block; margin: 8px 0 0 8px; font-family: Georgia, serif; font-size: 12px; font-weight: 400; text-transform: uppercase; letter-spacing: .36em; text-shadow: none; }
+.masthead p { border: 0; font-size: 17px; line-height: 1.5; text-align: right; color: #6e5145; }
+.magazine-nav { font-family: Arial, sans-serif; text-transform: uppercase; font-weight: 700; letter-spacing: .07em; font-size: 11px; gap: 25px; border-top: 1px solid #b26935; padding: 13px 0; }
+body.design-fanzine-pessoal .magazine-nav a:hover { color: #923823; text-decoration: underline; }
+.design-line { font-family: Georgia, serif; font-size: 11px; letter-spacing: .025em; padding: 10px 0; color: #795c4d; border-bottom: 1px solid #d6ad8f; }
+.front-page-grid { grid-template-columns: minmax(0, 1fr) 244px; gap: 30px; margin: 25px 0 42px; }
+.section-rule { border-top: 3px double #b26935; border-bottom: 1px solid #d6ad8f; padding: 8px 0; }
+body.design-fanzine-pessoal .section-rule :is(h1,h2) { margin: 0; font-family: Arial, sans-serif; text-transform: uppercase; font-size: 12px; font-weight: 800; letter-spacing: .06em; }
+.section-rule>span { font-family: Georgia, serif; font-style: italic; text-transform: none; letter-spacing: 0; font-size: 11px; }
+.pulp-post { padding: 25px 0 28px; border-bottom: 1px solid #d6ad8f; }
+.pulp-post-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: Arial, sans-serif; font-size: 10px; }
+.pulp-post-meta>span { color: #923823; text-transform: uppercase; font-weight: bold; letter-spacing: .07em; }
+.pulp-post-meta time { color: #795c4d; }
+body.design-fanzine-pessoal .pulp-post h2 { margin: 10px 0 12px; font-family: Impact, 'Arial Narrow', 'Arial Black', sans-serif; font-size: clamp(28px,3.1vw,42px); font-weight: 900; line-height: 1.12; letter-spacing: -.025em; text-transform: uppercase; overflow-wrap: anywhere; }
+body.design-fanzine-pessoal .pulp-post h2 a { color: #38312c; text-decoration: none; }
+body.design-fanzine-pessoal .pulp-post h2 a:hover { color: #923823; }
+.pulp-deck { font-size: 17px; font-style: italic; line-height: 1.55; margin-bottom: 20px; }
+.pulp-post-image { display: block; margin: 18px 0; background: #f2d2b8; text-align: center; }
+.pulp-post-image img { display: block; margin: auto; max-width: 100%; max-height: 560px; width: auto; height: auto; }
+.pulp-read { display: inline-block; font-size: 12px; font-family: Arial, sans-serif; font-weight: 700; text-decoration: none; border-bottom: 1px solid #b26935; }
+.archive-link { font-family: Arial, sans-serif; border: 0; padding-top: 22px; font-weight: 700; }
+.personal-column { border-left: 3px double #b26935; padding-left: 22px; }
+.pulp-about { padding: 18px 17px 22px; margin-bottom: 28px; border: 3px double #b26935; background: #f5d1b5; }
+.sidebar-kicker { font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: .15em; font-size: 9px; }
+body.design-fanzine-pessoal .pulp-about h2 { font-size: 29px; line-height: 1.1; margin: 14px 0; }
+.pulp-about h2 em { color: #923823; }
+.pulp-about p,.pulp-history p,.pulp-rss p { font-size: 14px; line-height: 1.6; margin: 12px 0; }
+.pulp-about a,.pulp-history a,.pulp-rss a { font-family: Arial, sans-serif; font-size: 11px; font-weight: 700; }
+.book-shelf { grid-template-columns: 1fr; gap: 24px; }
+.shelf-book { display: grid; grid-template-columns: 74px 1fr; column-gap: 12px; align-items: start; }
+.shelf-book .book-cover { grid-row: span 2; margin: 0; background: transparent; }
+body.design-fanzine-pessoal .shelf-book h3 { font-size: 17px; margin-top: 6px; }
+.shelf-book p { font-family: Georgia, serif; font-size: 12px; margin-top: 3px; }
+.small-link { font-family: Arial, sans-serif; font-size: 11px; }
+body.design-fanzine-pessoal .culture-index h2 { font-size: 23px; }
+.culture-index a { font-family: Arial, sans-serif; border-color: #d6ad8f; font-size: 12px; }
+.pulp-rss { margin: 30px 0; border: 3px double #b26935; padding: 20px 17px; text-align: center; }
+.pulp-rss>span { font-size: 40px; line-height: 1; color: #923823; }
+body.design-fanzine-pessoal .pulp-rss h2,body.design-fanzine-pessoal .pulp-history h2 { font-size: 23px; line-height: 1.2; margin-top: 10px; }
+.pulp-history { border-top: 3px double #b26935; padding-top: 12px; }
+.magazine-footer { border-top: 4px double #b26935; padding: 25px 0; }
+.footer-links { font-family: Arial, sans-serif; }
+.editorial-stories { margin-bottom: 30px; }
+body.design-fanzine-pessoal .post-section time { color: #795c4d; }
+@media(max-width: 1140px) { .magazine-site { margin: 16px 20px; } }
+@media(max-width: 800px) { .magazine-site { padding: 0 22px; } .front-page-grid { grid-template-columns: minmax(0,1fr) 210px; gap: 22px; } .personal-column { padding-left: 16px; } .magazine-nav { gap: 16px; font-size: 10px; } }
+@media(max-width: 680px) {
+  .magazine-site { margin: 8px; padding: 0 16px; border-width: 4px; }
+  .masthead-meta { font-size: 9px; gap: 8px; } .masthead-meta>span { max-width: none; }
+  .masthead { padding: 25px 0 20px; } .masthead p { font-size: 12px; padding: 0; max-width: 120px; }
+  body.design-fanzine-pessoal .magazine-logo { font-size: 70px; } .magazine-logo span { font-size: 8px; letter-spacing: .22em; }
+  .magazine-menu-toggle { border-color: #b26935; font-family: Arial, sans-serif; font-weight: bold; font-size: 11px; }
+  .magazine-nav.is-open { padding-bottom: 16px; }
+  .design-line { font-size: 10px; } .design-line>span:last-child { display: none; }
+  .front-page-grid { grid-template-columns: minmax(0,1fr); margin-top: 20px; gap: 32px; }
+  .personal-column { padding: 0; border: 0; } .pulp-post { padding: 22px 0; }
+  .section-rule>span { font-size: 10px; } .section-rule { gap: 8px; }
+  .book-shelf { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 15px; }
+  .shelf-book { display: block; } .shelf-book .book-cover { margin-bottom: 10px; }
+  body.design-fanzine-pessoal .shelf-book h3 { font-size: 16px; } .shelf-book p { font-size: 11px; }
+}
+@media(max-width: 680px) {
+  .masthead { gap: 12px; }
+  body.design-fanzine-pessoal .magazine-logo { font-size: clamp(42px,14vw,70px); white-space: nowrap; }
+  .masthead p { max-width: 95px; flex-shrink: 0; font-size: 11px; }
+}
+
+/* Fanzine: gabinete de curiosidades, diário visual de cinema e cultura. */
+body.design-fanzine-pessoal {
+  --bg-color: #111619; --font-color: #e8e2d2; --link_color: #e6f066;
+  --link_color_visited: #c3cb70; --blockquote-border-color: #42d8c1;
+  --inline-code-color: #e6f066; --pre-background-color: #20292c;
+  background: #111619; color: #e8e2d2;
+  background-image: radial-gradient(#d5e5d20b .7px, transparent .7px);
+  background-size: 7px 7px;
+}
+body.design-fanzine-pessoal :is(h1,h2,h3,h4,h5,h6) { color: #f0eadb; }
+body.design-fanzine-pessoal a { color: #e6f066; text-decoration-color: #e6f06665; }
+body.design-fanzine-pessoal a:hover { color: #42d8c1; text-decoration-color: currentColor; }
+body.design-fanzine-pessoal :is(a,button):focus-visible { outline: 2px solid #42d8c1; outline-offset: 4px; }
+.magazine-site { max-width: 1390px; display: grid; grid-template-columns: 255px minmax(0,1fr); gap: 34px; margin: 30px auto; padding: 0 28px; }
+.cabinet-rail { position: sticky; top: 18px; align-self: start; min-width: 0; max-height: calc(100vh - 36px); overflow: auto; scrollbar-width: thin; scrollbar-color: #374247 transparent; padding: 5px 18px 14px 2px; border-right: 1px solid #394448; }
+.rail-home { width: 52px; height: 52px; display: grid; place-items: center; position: relative; border: 1px solid #e6f066; border-radius: 50%; color: #e6f066; font: 900 35px/1 Arial,sans-serif; text-decoration: none; transform: rotate(-9deg); }
+body.design-fanzine-pessoal .rail-home span { position: absolute; right: -5px; top: -3px; font-size: 16px; color: #42d8c1; }
+.rail-caption,.rail-label,.rail-muse-heading,.rail-bottom,.rail-gif span { font-family: ui-monospace,SFMono-Regular,Consolas,monospace; text-transform: uppercase; letter-spacing: .1em; font-size: 9px; }
+.rail-caption { display: flex; gap: 7px; align-items: center; margin: 12px 0 24px; color: #98a5a0; }
+.rail-muse { border-top: 1px solid #394448; padding-top: 12px; }
+.rail-muse-heading { display: flex; justify-content: space-between; color: #b8c2bb; margin-bottom: 10px; }
+.rail-muse-heading span:last-child { color: #e6f066; }
+.muse-frame { position: relative; display: block; overflow: hidden; height: 218px; border: 1px solid #53605e; background: #27271f; }
+.muse-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: #20292c; filter: saturate(.9) contrast(1.04); transition: transform .5s, filter .5s; }
+.muse-frame:hover img { transform: scale(1.025); filter: saturate(1.05) contrast(1.04); }
+.muse-number { position: absolute; bottom: 7px; right: 7px; padding: 4px 6px; color: #111619; background: #e6f066; font: 10px ui-monospace,monospace; }
+body.design-fanzine-pessoal .muse-name { color: #f0eadb; font: 700 17px/1.2 Georgia,serif; margin: 10px 0 2px; }
+.muse-note { color: #9da9a1; font: 11px/1.4 ui-monospace,monospace; }
+.rail-findings { border-top: 1px solid #394448; padding: 12px 0 14px; }
+.rail-label { display: block; color: #98a5a0; margin: 0 0 9px; }
+body.design-fanzine-pessoal .rail-findings a { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0; color: #e8e2d2; text-decoration: none; font: 13px/1.3 Arial,sans-serif; }
+body.design-fanzine-pessoal .rail-findings a:hover { color: #e6f066; }
+.rail-findings a { border-bottom: 1px dotted #344044; font-size: 12px; }
+.rail-findings b { color: #42d8c1; font-weight: 400; }
+.rail-slashes { display: grid; grid-template-columns: 82px minmax(0,1fr); gap: 10px; align-items: center; margin: 0 0 13px; padding: 6px; border: 1px solid #394448; background: #171e21; color: #e8e2d2 !important; text-decoration: none; }
+.rail-slashes img { display: block; width: 82px; height: 88px; object-fit: cover; object-position: center 28%; filter: saturate(.85); }
+.rail-slashes span { display: grid; gap: 6px; }
+.rail-slashes strong { color: #e6f066; font: 700 17px/1 Georgia,serif; }
+.rail-slashes small { color: #9da9a1; font: 10px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace; }
+.rail-slashes:hover img { filter: saturate(1.1); }
+.rail-slashes:hover strong { color: #42d8c1; }
+.rail-gif { display: block; border: 1px solid #394448; padding: 5px; background: #171e21; color: #9da9a1 !important; text-decoration: none; }
+.rail-gif img { display: block; width: 100%; height: 74px; object-fit: cover; }
+.rail-gif span { display: block; padding: 7px 2px 3px; font-size: 8px; }
+.rail-bottom { display: flex; gap: 14px; align-items: center; margin-top: 13px; color: #77847e; font-size: 8px; }
+.rail-bottom a { color: #9da9a1 !important; text-decoration: none; }
+.rail-bottom span { margin-left: auto; }
+.pulse-rail { margin: 4px 0 13px; padding: 11px 0 7px; border-top: 1px solid #394448; border-bottom: 1px solid #394448; }
+.pulse-rail > .rail-label { color: #e6f066; }
+.pulse-record { display: grid; grid-template-columns: 68px minmax(0,1fr); gap: 10px; align-items: center; min-height: 86px; padding: 6px 0; color: #e8e2d2 !important; text-decoration: none; }
+.pulse-record > img,.pulse-record__placeholder { width: 68px; height: 78px; object-fit: cover; border: 1px solid #394448; background: #20292c; }
+.pulse-record__placeholder { display: grid; place-items: center; color: #42d8c1; }
+.pulse-record__text { display: grid; min-width: 0; gap: 2px; }
+.pulse-record__label { color: #42d8c1; font: 8px ui-monospace,monospace; letter-spacing: .08em; text-transform: uppercase; }
+.pulse-record__text strong { overflow: hidden; color: #e8e2d2; font: 11px/1.25 Arial,sans-serif; text-overflow: ellipsis; }
+.pulse-record__text small { overflow: hidden; color: #9da9a1; font: 9px/1.2 Georgia,serif; text-overflow: ellipsis; }
+.pulse-record:hover .pulse-record__text strong { color: #e6f066; }
+.magazine-main { min-width: 0; }
+.magazine-header { border: 0; border-bottom: 1px solid #394448; }
+.masthead-meta { border: 0; padding: 9px 0; color: #98a5a0; font: 10px ui-monospace,monospace; letter-spacing: .06em; }
+body.design-fanzine-pessoal .masthead-meta a { color: #42d8c1; }
+.masthead { align-items: end; padding: 26px 0 23px; }
+body.design-fanzine-pessoal .magazine-logo { display: inline-block; color: #e6f066; font: 900 clamp(55px,7vw,91px)/.82 Impact,'Arial Narrow',sans-serif; letter-spacing: -.055em; text-transform: uppercase; text-shadow: 3px 3px #42d8c1; transform: rotate(-2deg); text-decoration: none; }
+body.design-fanzine-pessoal .magazine-logo span { display: block; margin: 10px 0 0 5px; color: #9da9a1; font: 9px ui-monospace,monospace; letter-spacing: .25em; text-transform: uppercase; text-shadow: none; }
+.masthead p { border: 0; padding: 0 3px 3px 20px; color: #9da9a1; font: italic 16px/1.35 Georgia,serif; text-align: right; }
+.magazine-nav { display: flex; flex-wrap: wrap; gap: 7px; border: 0; padding: 8px 0 13px; font: 10px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .08em; }
+body.design-fanzine-pessoal .magazine-nav a { color: #e8e2d2; padding: 6px 9px; border: 1px solid #394448; text-decoration: none; }
+body.design-fanzine-pessoal .magazine-nav a:hover,body.design-fanzine-pessoal .magazine-nav a.router-link-active { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal .magazine-nav .surprise-link { margin-left: auto; color: #42d8c1; border-color: #42d8c1; }
+.magazine-content { min-height: 60vh; }
+.design-line { color: #9da9a1; border-bottom: 1px dotted #394448; font: 10px ui-monospace,monospace; letter-spacing: .07em; padding: 13px 0; }
+.design-line i { color: #42d8c1; font-style: normal; }
+.home-intro { position: relative; padding: 38px 0 32px; border-bottom: 1px solid #394448; }
+.home-kicker { color: #42d8c1; font: 10px ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.home-kicker i { color: #e6f066; font-size: 8px; }
+body.design-fanzine-pessoal .home-intro h1 { margin: 17px 0 14px; max-width: 800px; font: 500 clamp(37px,5vw,65px)/1.04 Georgia,serif; letter-spacing: -.045em; }
+.home-intro h1 em { color: #e6f066; font-weight: 400; }
+.home-intro>p { max-width: 520px; color: #b9c2b9; font-size: 16px; line-height: 1.6; }
+.home-coordinate { display: block; margin-top: 22px; color: #7b8982; font: 9px ui-monospace,monospace; letter-spacing: .08em; }
+.front-page-grid { display: block; margin: 30px 0 48px; }
+.section-rule { border-top: 1px solid #68726c; border-bottom: 1px dotted #394448; padding: 10px 0; }
+body.design-fanzine-pessoal .section-rule :is(h1,h2) { margin: 0; color: #e6f066; font: 10px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .15em; }
+.section-rule>span { color: #89958e; font: 10px ui-monospace,monospace; }
+.pulp-post { display: grid; grid-template-columns: minmax(0,1fr) minmax(160px,32%); column-gap: 24px; align-items: start; padding: 21px 0; border-bottom: 1px solid #303a3c; }
+.pulp-post-meta { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 10px; color: #8e9b93; font: 9px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .08em; }
+.pulp-post-meta>span { color: #42d8c1; }
+.pulp-post-meta i { color: #e6f066; font-style: normal; }
+body.design-fanzine-pessoal .pulp-post h2 { grid-column: 1; grid-row: 2; margin: 9px 0; color: #f0eadb; font: 700 clamp(22px,2.5vw,32px)/1.12 Georgia,serif; letter-spacing: -.025em; text-transform: none; overflow-wrap: anywhere; }
+body.design-fanzine-pessoal .pulp-post h2 a { color: inherit; text-decoration: none; }
+body.design-fanzine-pessoal .pulp-post h2 a:hover { color: #e6f066; }
+.pulp-deck { grid-column: 1; grid-row: 3; margin: 0 0 12px; color: #b9c2b9; font: 14px/1.55 Georgia,serif; }
+.pulp-post-image { grid-column: 2; grid-row: 2 / span 3; width: 100%; margin: 8px 0 0; background: #22292a; border: 1px solid #394448; padding: 5px; }
+.pulp-post-image img { width: 100%; height: 176px; object-fit: cover; }
+.pulp-read { grid-column: 1; grid-row: 4; justify-self: start; color: #e6f066 !important; font: 10px ui-monospace,monospace; text-decoration: none; }
+.pulp-read span { color: #42d8c1; }
+.pulp-post--lead { padding-top: 25px; padding-bottom: 28px; }
+body.design-fanzine-pessoal .pulp-post--lead h2 { font-size: clamp(30px,3.5vw,45px); }
+.pulp-post--lead .pulp-post-image img { height: 250px; }
+.archive-link { display: flex; justify-content: space-between; margin-top: 15px; padding: 14px 0; border-top: 1px solid #68726c; color: #e6f066; font: 10px ui-monospace,monospace; text-decoration: none; }
+.editorial-stories { margin: 36px 0; }
+.magazine-footer { border-top: 1px solid #394448; padding: 22px 0 30px; }
+body.design-fanzine-pessoal .footer-name { color: #e6f066; font: 700 34px Georgia,serif; }
+.footer-links { color: #89958e; font: 9px ui-monospace,monospace; }
+.footer-links span { color: #89958e; }
+.skip-link { z-index: 100; }
+body.design-fanzine-pessoal .post-section { color: #e8e2d2; }
+body.design-fanzine-pessoal .post-section :is(time,.post-navigation-link span,.post-navigation-link time) { color: #9da9a1; }
+body.design-fanzine-pessoal .post-section hr { border-color: #394448; }
+body.design-fanzine-pessoal .post-section blockquote { color: #b9c2b9; border-color: #42d8c1; }
+body.design-fanzine-pessoal .post-section pre { color: #e8e2d2; background: #20292c; }
+body.design-fanzine-pessoal .post-navigation-link { border-color: #394448; }
+body.design-fanzine-pessoal .publications-list .post-item { margin: 0; padding: 22px 0; border-bottom: 1px solid #303a3c; }
+body.design-fanzine-pessoal .publications-list .post-item__link { display: grid; grid-template-columns: minmax(0,1fr); grid-template-areas: "meta" "title" "description" "read"; gap: 8px 24px; text-decoration: none; }
+body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) minmax(150px,32%); grid-template-areas: "meta image" "title image" "description image" "read image"; }
+body.design-fanzine-pessoal .publications-list .post-item__meta { grid-area: meta; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .publications-list .post-item__meta>span { color: #42d8c1; }
+body.design-fanzine-pessoal .publications-list .post-item__meta i { color: #e6f066; font-style: normal; }
+body.design-fanzine-pessoal .publications-list .post-item> a>time { grid-area: meta; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .publications-list .post-item h4 { grid-area: title; margin: 0; color: #f0eadb; font: 700 clamp(22px,2.5vw,32px)/1.12 Georgia,'Times New Roman',serif; letter-spacing: -.025em; }
+body.design-fanzine-pessoal .publications-list .post-item p { grid-area: description; margin: 0; color: #b9c2b9; font: 14px/1.55 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .publications-list .post-item__image { grid-area: image; align-self: center; width: 100%; aspect-ratio: 1.55; border: 1px solid #394448; background: #20292c; padding: 5px; object-fit: cover; }
+body.design-fanzine-pessoal .publications-list .post-item__read { grid-area: read; justify-self: start; color: #e6f066; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .publications-list .post-item__read span { color: #42d8c1; }
+body.design-fanzine-pessoal .publications-list .post-item__link:hover h4 { color: #e6f066; }
+@media(max-width: 560px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
+body.design-fanzine-pessoal :is(.year-movies__summary,.movies-item,.reads-item,.shows-item,.movies-hero,.movie-card,.movies-state,.shows-hero,.show-card,.reads-card,.movie-page__hero,.show-page__hero,.book-description,.movie-description,.show-description,.show-progress-card,.movies-summary__card,.movies-global-summary__item,.shows-global-summary__item,.year-reads__summary,.year-shows__summary,.year-movies__error) { background: #171e21; color: #e8e2d2; border-color: #394448; box-shadow: none; }
+body.design-fanzine-pessoal :is(.summary-kicker,.summary-subtitle,.summary-label,.section-head p,.movies-grid-section__head p,.movies-item__date,.movies-item__original-title,.shows-item__date,.shows-item__original-title,.reads-item__authors,.reads-item__date,.movie-page__kicker,.movie-meta dt,.show-page__kicker,.show-meta dt,.book-page__kicker,.book-meta dt) { color: #9da9a1; }
+body.design-fanzine-pessoal :is(.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.reads-item__cover--placeholder,.movie-page__state,.show-page__state,.book-page__state,.movies-range__button,.movies-years-nav__link,.shows-years-nav__link) { background: #20292c; color: #e8e2d2; border-color: #394448; }
+body.design-fanzine-pessoal :is(.movies-item__cover,.movie-card__poster,.book-cover) { background-color: #20292c; }
+body.design-fanzine-pessoal .audio-card { background: #20292c; color: #e8e2d2; }
+body.design-fanzine-pessoal .prose-expandable-image__caption { color: #9da9a1; }
+@media(max-width: 1180px) { .magazine-site { grid-template-columns: 230px minmax(0,1fr); gap: 24px; margin: 20px auto; padding: 0 20px; } .cabinet-rail { padding-right: 14px; } }
+@media(max-width: 820px) { .magazine-site { grid-template-columns: 190px minmax(0,1fr); gap: 18px; padding: 0 14px; } .muse-frame { height: 176px; } .masthead p { font-size: 13px; } }
+@media(max-width: 680px) {
+  .magazine-site { display: flex; flex-direction: column; gap: 0; margin: 8px auto; padding: 0 16px; }
+  .cabinet-rail { position: static; max-height: none; overflow: visible; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); column-gap: 14px; padding: 10px 0 14px; border-right: 0; border-bottom: 1px solid #394448; }
+  .rail-home { grid-column: 1 / -1; width: 38px; height: 38px; font-size: 27px; }
+  .rail-caption { grid-column: 1 / -1; margin: 7px 0 10px; }
+  .rail-muse { grid-column: 1; grid-row: 3 / span 2; border-top: 0; padding: 0; }
+  .muse-frame { height: 180px; }
+  .pulse-rail { grid-column: 1 / -1; }
+  .rail-findings { grid-column: 1 / -1; display: grid; grid-template-columns: max-content minmax(0,1fr); align-items: center; gap: 6px 12px; padding: 9px 0; }
+  .rail-findings .rail-label { grid-column: 1; margin: 0; }
+  .rail-findings a { display: block; font-size: 9px; line-height: 1.4; }
+  .rail-findings b { display: none; }
+  .rail-slashes { grid-column: 1 / -1; grid-template-columns: 68px minmax(0,1fr); margin: 0 0 10px; }
+  .rail-slashes img { width: 68px; height: 72px; }
+  .rail-slashes strong { font-size: 15px; }
+  .rail-gif { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; padding: 4px; }
+  .rail-gif img { width: 100px; height: 34px; }
+  .rail-gif span { padding: 0; }
+  .rail-bottom { grid-column: 1 / -1; }
+  .magazine-header { border-bottom: 1px solid #394448; }
+  .masthead { padding: 20px 0 17px; gap: 10px; }
+  body.design-fanzine-pessoal .magazine-logo { font-size: clamp(50px,14vw,70px); white-space: nowrap; }
+  .masthead p { max-width: 100px; font-size: 11px; }
+  .magazine-menu-toggle { display: block; padding: 10px 0; border: 0; border-top: 1px solid #394448; background: transparent; color: #42d8c1; font: 10px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .1em; }
+  .magazine-nav { display: none; }
+  .magazine-nav.is-open { display: flex; gap: 6px; padding: 9px 0 13px; }
+  .magazine-nav .surprise-link { margin-left: 0; }
+  .masthead-meta { font-size: 8px; }
+  .design-line { font-size: 8px; }
+  .home-intro { padding: 28px 0 22px; }
+  body.design-fanzine-pessoal .home-intro h1 { font-size: clamp(33px,9vw,48px); }
+  .front-page-grid { margin: 23px 0 35px; }
+  .pulp-post { grid-template-columns: minmax(0,1fr) 112px; column-gap: 12px; padding: 16px 0; }
+  body.design-fanzine-pessoal .pulp-post h2 { font-size: 21px; }
+  .pulp-post-image img { height: 112px; }
+  .pulp-post--lead .pulp-post-image img { height: 148px; }
+  body.design-fanzine-pessoal .pulp-post--lead h2 { font-size: 27px; }
+  .pulp-deck { font-size: 12px; }
+  .pulp-post-meta { font-size: 8px; }
+  .magazine-footer { flex-direction: row; }
+}
+@media(prefers-reduced-motion: reduce) { body.design-fanzine-pessoal *,body.design-fanzine-pessoal *::before,body.design-fanzine-pessoal *::after { animation: none !important; transition: none !important; } }
+/* The cabinet sits directly on the dark canvas; no paper-card frame. */
+.magazine-site { background: transparent; border: 0; box-shadow: none; }
+.pulp-post:not(:has(.pulp-post-image)) { grid-template-columns: minmax(0,1fr); }
+.pulp-post:not(:has(.pulp-post-image)) .pulp-read { grid-row: 4; }
+@media(max-width: 680px) { body.design-fanzine-pessoal .footer-name { white-space: nowrap; font-size: 26px; } }
+
+/* Artwork collection and reading pages. */
+.artworks-library,.artwork-detail { max-width: 1060px; margin: 28px auto 64px; }
+.artworks-library__intro,.artwork-detail__heading { padding: 20px 0 24px; border-bottom: 1px solid #394448; }
+.artworks-library__kicker { margin: 0 0 8px; color: #42d8c1; font: 10px ui-monospace,monospace; letter-spacing: .12em; text-transform: uppercase; }
+body.design-fanzine-pessoal .artworks-library__intro h1,.artwork-detail__heading h1 { margin: 0; color: #f0eadb; font: 500 clamp(38px,6vw,64px)/1.05 Georgia,serif; letter-spacing: -.035em; }
+.artworks-library__intro>p:last-child { margin-top: 12px; color: #b9c2b9; font: 16px/1.55 Georgia,serif; }
+.artworks-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin: 18px 0 25px; }
+.artworks-tools input,.artworks-tools select { min-height: 40px; border: 1px solid #394448; border-radius: 0; padding: 0 12px; background: #171e21; color: #e8e2d2; font: 12px Arial,sans-serif; }
+.artworks-tools input { flex: 1 1 220px; }
+.artworks-tools button,.artworks-state button,.artworks-pagination button { min-height: 40px; border: 1px solid #42d8c1; border-radius: 0; padding: 0 14px; background: transparent; color: #42d8c1; font: 10px ui-monospace,monospace; cursor: pointer; }
+.artworks-tools button:hover,.artworks-state button:hover,.artworks-pagination button:not(:disabled):hover { background: #42d8c1; color: #111619; }
+.artworks-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px 18px; margin: 0; padding: 0; list-style: none; }
+.artwork-card { min-width: 0; border: 1px solid #394448; background: #171e21; }
+.artwork-card__image { position: relative; display: grid; place-items: center; height: clamp(190px,25vw,300px); overflow: hidden; background: #20292c; }
+.artwork-card__image img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s; }
+.artwork-card__image:hover img { transform: scale(1.025); }
+.artwork-card__empty { color: #9da9a1; font: 10px ui-monospace,monospace; }
+.artwork-card__favorite { position: absolute; top: 9px; right: 9px; color: #e6f066; font-size: 18px; text-shadow: 0 1px 5px #111619; }
+.artwork-card__body { padding: 12px 13px 14px; }
+.artwork-card__type { margin: 0 0 6px; color: #42d8c1; font: 9px ui-monospace,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .artwork-card h2 { margin: 0; font: 700 19px/1.2 Georgia,serif; }
+body.design-fanzine-pessoal .artwork-card h2 a { color: #f0eadb; text-decoration: none; }
+body.design-fanzine-pessoal .artwork-card h2 a:hover { color: #e6f066; }
+.artwork-card__artist { margin: 6px 0 9px; color: #b9c2b9; font: 12px Arial,sans-serif; }
+.artwork-card__meta { display: flex; flex-wrap: wrap; gap: 5px; margin: 0; }
+.artwork-card__meta span { border: 1px solid #394448; padding: 4px 6px; color: #9da9a1; font: 9px ui-monospace,monospace; }
+.artworks-state { margin: 24px 0; border: 1px solid #394448; padding: 22px; color: #b9c2b9; background: #171e21; font: 13px/1.55 Arial,sans-serif; }
+.artworks-state p { margin: 0 0 12px; }
+.artworks-pagination { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 28px 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
+.artworks-pagination button:disabled { border-color: #394448; color: #65716d; cursor: default; }
+.artwork-detail__back { display: inline-block; margin-bottom: 16px; color: #42d8c1 !important; font: 10px ui-monospace,monospace; text-decoration: none; }
+.artwork-detail__heading { margin-bottom: 22px; }
+.artwork-detail__heading .artworks-library__kicker { margin-bottom: 9px; }
+.artwork-detail__artist { margin-top: 9px; color: #b9c2b9; font: 16px Georgia,serif; }
+.artwork-detail__hero { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(210px,.7fr); gap: 28px; align-items: start; }
+.artwork-detail__visual { min-width: 0; }
+.artwork-detail__visual .expandable-image__trigger { display: grid; place-items: center; width: 100%; height: min(65vh,620px); min-height: 300px; max-height: 70vh; overflow: hidden; border: 1px solid #394448; background: #171e21; }
+.artwork-detail__visual .expandable-image__thumb { width: 100%; height: 100%; object-fit: contain; background: #171e21; }
+.artwork-detail__no-image { display: grid; place-items: center; min-height: 300px; border: 1px solid #394448; color: #9da9a1; background: #171e21; }
+.artwork-detail__caption { margin-top: 7px; color: #9da9a1; font: 11px/1.4 Georgia,serif; }
+.artwork-detail__thumbnails { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; }
+.artwork-detail__thumbnails button { flex: 0 0 72px; height: 72px; overflow: hidden; border: 1px solid #394448; padding: 3px; background: #171e21; cursor: pointer; }
+.artwork-detail__thumbnails button.is-selected { border-color: #e6f066; }
+.artwork-detail__thumbnails img { width: 100%; height: 100%; object-fit: cover; }
+.artwork-detail__facts { border-top: 1px solid #394448; }
+.artwork-detail__facts dl { margin: 0; }
+.artwork-detail__facts dl>div { padding: 11px 0; border-bottom: 1px solid #394448; }
+.artwork-detail__facts dt { color: #42d8c1; font: 9px ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.artwork-detail__facts dd { margin: 5px 0 0; color: #e8e2d2; font: 14px/1.45 Georgia,serif; }
+.artwork-detail__artist-link { display: inline-block; margin-top: 15px; font: 10px ui-monospace,monospace; }
+.artwork-detail__section { max-width: 780px; margin: 36px 0; padding-top: 14px; border-top: 1px solid #394448; color: #d4d1c4; font: 16px/1.7 Georgia,serif; }
+body.design-fanzine-pessoal .artwork-detail__section h2 { margin: 0 0 15px; color: #e6f066; font: 11px ui-monospace,monospace; letter-spacing: .12em; text-transform: uppercase; }
+.artwork-detail__section p { margin: 0 0 15px; }
+.artwork-detail__section a { color: #42d8c1; }
+.artwork-experience { padding: 17px 0; border-top: 1px dotted #394448; }
+.artwork-experience__meta { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-bottom: 10px; color: #9da9a1; font: 9px ui-monospace,monospace; text-transform: uppercase; }
+@media(max-width: 760px) {
+  .artworks-library,.artwork-detail { margin: 18px auto 42px; }
+  .artworks-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px 10px; }
+  .artwork-card__image { height: clamp(170px,54vw,260px); }
+  .artwork-card__body { padding: 10px; }
+  body.design-fanzine-pessoal .artwork-card h2 { font-size: 16px; }
+  .artwork-detail__hero { grid-template-columns: 1fr; gap: 20px; }
+  .artwork-detail__visual .expandable-image__trigger { height: min(60vh,480px); min-height: 240px; max-height: 60vh; }
+  .artworks-tools select { flex: 1 1 100%; }
+}
+
+/* Shared reading, film, series and music components use this skin only in the Fanzine. */
+body.design-fanzine-pessoal :is(.year-reads,.year-movies,.year-shows,.movies-year-header) { font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.year-reads__summary,.year-movies__summary,.year-shows__summary,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #394448; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal .summary-card { border-radius: 2px; border: 1px solid #303a3c; background: #20292c; box-shadow: none; }
+body.design-fanzine-pessoal :is(.summary-kicker,.summary-label,.movies-year-header__kicker,.movies-global-summary__label) { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.year-reads__summary h2,.year-movies__summary h2,.year-shows__summary h2,.movies-year-header h1) { color: #f0eadb; font: 700 clamp(26px,3vw,38px)/1.1 Georgia,'Times New Roman',serif; letter-spacing: -.03em; }
+body.design-fanzine-pessoal :is(.summary-subtitle,.movies-year-header__description,.section-head p) { color: #9da9a1; font: 13px/1.55 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-value,.movies-global-summary__value) { color: #e6f066; font: 700 25px/1.1 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-nav a,.movies-years-nav__link,.movies-year-jump__link,.back-to-top) { color: #e6f066; border-color: #394448; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; text-decoration: none; }
+body.design-fanzine-pessoal :is(.summary-nav a:hover,.movies-years-nav__link:hover,.movies-year-jump__link:hover,.back-to-top:hover) { color: #42d8c1; border-color: #42d8c1; }
+body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head { padding: 0 0 10px 13px; border-left: 2px solid #42d8c1; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head h3 { color: #e6f066; font: 11px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .12em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #303a3c; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.reads-item__cover,.movies-item__cover,.shows-item__cover) { border-radius: 1px; background: #20292c; }
+body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { color: #f0eadb; font: 700 18px/1.25 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.reads-item__title-link,.movies-item__title-link,.shows-item__title-link) { color: #f0eadb; text-decoration-color: #42d8c165; }
+body.design-fanzine-pessoal :is(.reads-item__title-link:hover,.movies-item__title-link:hover,.shows-item__title-link:hover) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.reads-item__progress,.movies-item__original-title,.movies-item__date,.shows-item__original-title,.shows-item__date,.movies-year-jump__loading) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.reads-item__progress,.movies-item__meta-pill--highlight) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__details-link,.movies-item__details-link,.shows-item__details-link,.movies-years-nav__link,.movies-year-jump__link) { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; }
+body.design-fanzine-pessoal :is(.reads-item__details-link:hover,.movies-item__details-link:hover,.shows-item__details-link:hover) { border-color: #e6f066; color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__meta-pill,.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.show-pill) { border-radius: 2px; border-color: #394448; background: #20292c; color: #b9c2b9; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .movies-years-nav__link--active { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal .movies-year-header__description { color: #b9c2b9; }
+body.design-fanzine-pessoal .time-tunnel { --bg: #111619; --panel: #171e21; --panel-2: #20292c; --text: #e8e2d2; --muted: #9da9a1; --border: #394448; --accent: #42d8c1; background: transparent; color: #e8e2d2; font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .time-tunnel .bleed { width: auto; margin: 0; }
+body.design-fanzine-pessoal .time-tunnel .container { max-width: none; padding: 0; }
+body.design-fanzine-pessoal .time-tunnel h1 { color: #f0eadb; font: 700 clamp(28px,4vw,42px)/1.1 Georgia,'Times New Roman',serif; text-align: left; }
+body.design-fanzine-pessoal .time-tunnel :is(.section,.album-card,.kpi,.skeleton-card) { border: 1px solid #394448; border-radius: 2px; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal .time-tunnel .kpi { background: #20292c; }
+body.design-fanzine-pessoal .time-tunnel :is(.title,.shuffle-current strong,.source-title) { color: #f0eadb; font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .time-tunnel :is(.subtitle,.micro,.section-subtitle,.by,.plays,.rank,.shuffle-current) { color: #9da9a1; }
+body.design-fanzine-pessoal .time-tunnel .period-buttons button { border-radius: 2px; border-color: #394448; background: #20292c; color: #e8e2d2; font-family: ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .time-tunnel .period-buttons button.active { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal .time-tunnel .shuffle-btn { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; font-family: ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .time-tunnel .shuffle-btn:hover { color: #111619; background: #42d8c1; }
+body.design-fanzine-pessoal .time-tunnel .name { color: #f0eadb; }
+body.design-fanzine-pessoal .time-tunnel .list-row { border-color: #394448; }
+body.design-fanzine-pessoal .time-tunnel .cover { background: #20292c; }
+body.design-fanzine-pessoal .time-tunnel .skeleton-line { background: linear-gradient(90deg,#20292c,#303a3c,#20292c); }
+@media(max-width:600px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
+
+/* Annual reading and viewing logs as illustrated entries instead of compact form rows. */
+body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
+body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) { display: flex; min-width: 0; flex-direction: column; gap: 0; align-items: stretch; overflow: hidden; padding: 0; border: 1px solid #303a3c; border-radius: 2px; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) > .expandable-image__trigger { display: block; width: 100%; height: auto; border-radius: 0; }
+body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) > .expandable-image__trigger .expandable-image__thumb { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 0; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal :is(.reads-item__cover,.movies-item__cover,.shows-item__cover) { display: grid; width: 100%; height: auto; min-height: 0; aspect-ratio: 2 / 3; place-items: center; border: 0; border-radius: 0; background: #20292c; color: #9da9a1; }
+body.design-fanzine-pessoal :is(.reads-item__content,.movies-item__content,.shows-item__content) { display: grid; align-content: start; gap: 7px; padding: 13px; }
+body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { color: #f0eadb; font: 700 clamp(17px,1.7vw,21px)/1.2 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.movies-item__original-title,.movies-item__date,.shows-item__original-title,.shows-item__date) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.reads-item__meta-pill,.movies-item__meta-pill,.shows-item__meta-pill) { justify-self: start; }
+body.design-fanzine-pessoal .reads-item__status { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal .reads-item__edition { color: #b9c2b9; font: 10px/1.4 Georgia,serif; }
+body.design-fanzine-pessoal .reads-item__rating { color: #e6f066; font-size: 13px; letter-spacing: .08em; }
+body.design-fanzine-pessoal .reads-item__rating small { color: #9da9a1; font: 9px ui-monospace,monospace; letter-spacing: 0; }
+body.design-fanzine-pessoal .reads-item__progress-block { display: grid; gap: 5px; color: #b9c2b9; font: 10px ui-monospace,monospace; }
+body.design-fanzine-pessoal .reads-item__progress-block>span { display: flex; justify-content: space-between; gap: 8px; }
+body.design-fanzine-pessoal .reads-item__progress-block small { color: #e6f066; }
+body.design-fanzine-pessoal .reads-item__progress-track { height: 3px; background: #303a3c; }
+body.design-fanzine-pessoal .reads-item__progress-track i { display: block; height: 100%; background: #42d8c1; }
+body.design-fanzine-pessoal :is(.reads-item__details-link,.movies-item__details-link,.shows-item__details-link) { justify-self: start; margin-top: 4px; padding: 5px 0 2px; border: 0; border-bottom: 1px solid #42d8c1; border-radius: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; text-transform: uppercase; text-decoration: none; }
+body.design-fanzine-pessoal :is(.reads-item__details-link:hover,.movies-item__details-link:hover,.shows-item__details-link:hover) { color: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__head,.movies-item__head,.shows-item__head) { display: grid; }
+body.design-fanzine-pessoal :is(.reads-item__meta,.movies-item__meta-row,.shows-item__meta-row) { display: flex; flex-wrap: wrap; gap: 5px; }
+body.design-fanzine-pessoal .music-journal { max-width: 1060px; margin: 28px auto 64px; }
+.music-journal__header { padding: 20px 0 24px; border-bottom: 1px solid #394448; }
+.music-journal__kicker,.music-journal__eyebrow { margin: 0 0 9px; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal .music-journal__header h1 { margin: 0; color: #f0eadb; font: 500 clamp(42px,6vw,68px)/1 Georgia,'Times New Roman',serif; letter-spacing: -.045em; }
+.music-journal__header>p:last-child { margin: 12px 0 0; color: #b9c2b9; font: 16px/1.5 Georgia,serif; }
+.music-journal__state { margin: 24px 0; padding: 20px; border: 1px solid #394448; color: #b9c2b9; background: #171e21; }
+.music-journal__state button { margin-left: 12px; border: 0; border-bottom: 1px solid #42d8c1; color: #42d8c1; background: none; cursor: pointer; }
+.music-journal__lead { display: grid; grid-template-columns: minmax(180px,30%) minmax(0,1fr) auto; gap: 22px; align-items: center; margin: 26px 0 20px; padding-bottom: 22px; border-bottom: 1px solid #394448; }
+.music-journal__lead-cover { overflow: hidden; aspect-ratio: 1; background: #20292c; }
+.music-journal__lead-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.music-journal__lead-cover>span { display: grid; height: 100%; place-items: center; color: #e6f066; font-size: 70px; }
+.music-journal__lead-copy h2 { margin: 0; color: #f0eadb; font: 700 clamp(30px,4.8vw,56px)/1.04 Georgia,serif; letter-spacing: -.04em; }
+.music-journal__artist { margin: 10px 0; color: #b9c2b9; font: 18px Georgia,serif; }
+.music-journal__lead-note { margin: 20px 0 0; color: #9da9a1; font: 10px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .07em; }
+.music-journal__date { align-self: end; color: #7f8b85; font: 9px ui-monospace,monospace; }
+.music-journal__year { margin: 20px 0 42px; padding: 13px 0 16px; border-top: 1px dotted #394448; border-bottom: 1px dotted #394448; }
+.music-journal__metrics { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.music-journal__metrics>div { display: grid; gap: 3px; }
+.music-journal__metrics strong { color: #e6f066; font: 700 23px/1 Georgia,serif; }
+.music-journal__metrics span { color: #9da9a1; font: 9px ui-monospace,monospace; letter-spacing: .06em; text-transform: uppercase; }
+.music-journal__section { margin: 38px 0 46px; }
+.music-journal__section-head { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px dotted #394448; }
+.music-journal__section-head h2 { margin: 0; color: #e6f066; font: 700 clamp(22px,3vw,32px)/1.1 Georgia,serif; }
+.music-journal__section-note { margin: 7px 0 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
+.music-journal__album-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.music-journal__album { min-width: 0; border-bottom: 1px solid #394448; }
+.music-journal__album-cover { overflow: hidden; aspect-ratio: 1; background: #20292c; }
+.music-journal__album-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+.music-journal__album:hover img { transform: scale(1.035); }
+.music-journal__album-cover>span { display: grid; height: 100%; place-items: center; color: #42d8c1; font-size: 32px; }
+.music-journal__album-copy { padding: 10px 1px 13px; }
+.music-journal__album-copy h3,.music-journal__rediscovery h3 { margin: 0; color: #f0eadb; font: 700 16px/1.2 Georgia,serif; }
+.music-journal__album-copy p,.music-journal__rediscovery p { margin: 5px 0; color: #b9c2b9; font: 11px/1.4 Georgia,serif; }
+.music-journal__album-copy small,.music-journal__rediscovery small { color: #9da9a1; font: 9px/1.4 ui-monospace,monospace; }
+.music-journal__columns { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 30px; }
+.music-journal__ranking h3 { margin: 0; padding: 8px 0; border-bottom: 1px solid #394448; color: #b9c2b9; font: 10px ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.music-journal__rank-row { display: grid; grid-template-columns: 28px 46px minmax(0,1fr) auto; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px dotted #303a3c; }
+.music-journal__rank-row>img { width: 46px; height: 46px; object-fit: cover; background: #20292c; }
+.music-journal__rank { color: #42d8c1; font: 10px ui-monospace,monospace; }
+.music-journal__rank-copy { display: grid; gap: 3px; min-width: 0; }
+.music-journal__rank-copy strong { overflow: hidden; color: #f0eadb; font: 700 14px/1.2 Georgia,serif; text-overflow: ellipsis; }
+.music-journal__rank-copy small,.music-journal__plays { overflow: hidden; color: #9da9a1; font: 9px/1.3 ui-monospace,monospace; text-overflow: ellipsis; }
+.music-journal__rank-row--track { grid-template-columns: 28px minmax(0,1fr) auto; }
+.music-journal__rediscovered { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 20px; }
+.music-journal__rediscovery { display: grid; grid-template-columns: 82px minmax(0,1fr); gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px dotted #394448; }
+.music-journal__rediscovery img { width: 82px; aspect-ratio: 1; object-fit: cover; background: #20292c; }
+.music-journal__colophon { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 48px; padding: 12px 0; border-top: 1px solid #394448; color: #7f8b85; font: 9px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .06em; }
+@media(max-width:900px) { body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:680px) { body.design-fanzine-pessoal .music-journal { margin: 18px auto 42px; } .music-journal__lead { grid-template-columns: 112px minmax(0,1fr); gap: 13px; } .music-journal__lead-copy h2 { font-size: clamp(22px,6vw,32px); } .music-journal__artist { font-size: 14px; } .music-journal__lead-note { margin-top: 12px; font-size: 8px; } .music-journal__date { grid-column: 2; align-self: start; } .music-journal__album-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .music-journal__columns { grid-template-columns: 1fr; gap: 24px; } .music-journal__rediscovered { grid-template-columns: 1fr; } .music-journal__metrics { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; } }
+@media(max-width:480px) { body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; } body.design-fanzine-pessoal :is(.reads-item__content,.movies-item__content,.shows-item__content) { padding: 9px; } body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { font-size: 16px; } .music-journal__rank-row { grid-template-columns: 22px 38px minmax(0,1fr) auto; gap: 7px; } .music-journal__rank-row>img { width: 38px; height: 38px; } }
+
+/* Single item records: image, context, and personal history read as a small article. */
+body.design-fanzine-pessoal .post-section.movie-page > *, body.design-fanzine-pessoal .post-section.show-page > *, body.design-fanzine-pessoal .post-section.book-page > * { grid-column: 1 / span 12; }
+body.design-fanzine-pessoal :is(.movie-page,.show-page,.book-page) { row-gap: 0; color: #e8e2d2; }
+body.design-fanzine-pessoal :is(.movie-page__hero,.show-page__hero,.book-page__header) { display: grid; gap: 8px; padding: 20px 0 22px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(.movie-page__kicker,.show-page__kicker,.book-page__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movie-page__hero h1,.show-page__hero h1,.book-page__header h1) { margin: 0 !important; color: #f0eadb; font: 500 clamp(38px,6vw,64px)/1.04 Georgia,'Times New Roman',serif; letter-spacing: -.04em; }
+body.design-fanzine-pessoal :is(.movie-page__original-title,.show-page__original-title,.book-page__byline,.book-page__description) { margin: 0; color: #9da9a1; font: italic 15px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) { display: grid; grid-template-columns: minmax(180px,27%) minmax(0,1fr); gap: 26px; align-items: start; padding: 26px 0; border-bottom: 1px solid #394448; }
+body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) .expandable-image__trigger { display: block; max-width: 100%; border: 1px solid #394448; border-radius: 1px; }
+body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) .expandable-image__thumb { display: block; max-width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 1px; object-fit: cover; background: #171e21; }
+body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; align-content: start; margin: 0; padding-top: 5px; }
+body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) dt { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) dd { margin: 5px 0 0; color: #f0eadb; font: 15px/1.4 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__section,.show-page__section,.book-page__section) { display: grid; gap: 12px; margin: 0; padding: 25px 0; border-bottom: 1px solid #394448; }
+body.design-fanzine-pessoal :is(.movie-page__section h2,.show-page__section h2,.book-page__section h2) { margin: 0 !important; color: #e6f066; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movie-description,.show-description,.book-description) { display: grid; gap: 12px; max-width: 78ch; padding: 0; border: 0; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(.movie-description,.show-description,.book-description) p { margin: 0; color: #d4d1c4; font: 16px/1.75 Georgia,serif; }
+body.design-fanzine-pessoal .book-review { max-width: 78ch; padding-left: 18px; border-left: 2px solid #42d8c1; }
+body.design-fanzine-pessoal .book-review p { margin: 0 0 14px; color: #e8e2d2; font: italic 17px/1.75 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-list,.show-list,.book-list) { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; }
+body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; padding: 10px 0; border: 0; border-bottom: 1px dotted #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) strong { color: #f0eadb; font: 700 14px Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) span { color: #9da9a1; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.movie-gallery,.show-gallery) { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; }
+body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) { position: relative; overflow: hidden; aspect-ratio: 16 / 10; background: #20292c; }
+body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) .expandable-image__trigger { display: block; width: 100%; height: 100%; }
+body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) .expandable-image__thumb { display: block; width: 100%; height: 100%; object-fit: cover; }
+body.design-fanzine-pessoal :is(.movie-gallery__badge,.show-gallery__badge) { position: absolute; top: 6px; left: 6px; padding: 4px 6px; background: #111619dd; color: #e6f066; font: 8px ui-monospace,monospace; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movie-page__marks,.movie-page__terms,.show-page__terms,.show-page__lists) { display: flex; flex-wrap: wrap; gap: 6px; }
+body.design-fanzine-pessoal :is(.movie-page__marks,.movie-page__terms,.show-page__terms,.show-page__lists) span { padding: 5px 7px; border: 1px solid #394448; color: #b9c2b9; font: 9px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(.movie-page__rating,.book-page__rating,.show-page__rating) { color: #e6f066 !important; font: 700 22px Georgia,serif !important; }
+body.design-fanzine-pessoal :is(.movie-page__rating,.book-page__rating) span { color: #e6f066; }
+body.design-fanzine-pessoal .movie-page__collection-head { display: flex; gap: 14px; align-items: center; }
+body.design-fanzine-pessoal .movie-page__collection-head img { width: 74px; height: 74px; object-fit: cover; }
+body.design-fanzine-pessoal .movie-page__collection-head h3 { margin: 0; color: #f0eadb; font: 20px Georgia,serif; }
+body.design-fanzine-pessoal .movie-page__collection-head p:last-child { margin: 5px 0 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
+body.design-fanzine-pessoal .movie-page__related { display: grid; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); gap: 10px; }
+body.design-fanzine-pessoal .movie-page__related a { display: grid; gap: 7px; color: #e8e2d2; font: 11px/1.3 Georgia,serif; text-decoration: none; }
+body.design-fanzine-pessoal .movie-page__related img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal .movie-page__related small { display: block; margin-top: 4px; color: #9da9a1; font: 8px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) { display: grid; grid-template-columns: repeat(auto-fit,minmax(145px,1fr)); gap: 8px; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) article { display: flex; gap: 9px; align-items: center; min-width: 0; padding: 7px 0; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) img { width: 42px; height: 52px; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) span { display: grid; gap: 3px; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) strong { color: #e8e2d2; font: 12px/1.2 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) small { color: #9da9a1; font: 8px ui-monospace,monospace; }
+body.design-fanzine-pessoal .movie-page__credits { color: #d4d1c4; font: 14px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal .movie-page__credits strong { color: #42d8c1; font: 9px ui-monospace,monospace; text-transform: uppercase; }
+body.design-fanzine-pessoal .movie-page__companies { display: flex; flex-wrap: wrap; gap: 14px; }
+body.design-fanzine-pessoal .movie-page__companies span { display: grid; gap: 5px; justify-items: start; color: #b9c2b9; font: 10px Georgia,serif; }
+body.design-fanzine-pessoal .movie-page__companies img { max-width: 100px; max-height: 40px; object-fit: contain; }
+body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote { max-width: 75ch; margin: 0; padding: 12px 0 12px 18px; border: 0; border-left: 2px solid #42d8c1; color: #e8e2d2; background: transparent; }
+body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote p { margin: 0; font: italic 17px/1.7 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote footer { margin-top: 7px; color: #9da9a1; font: 9px ui-monospace,monospace; }
+body.design-fanzine-pessoal .show-progress-card { padding: 14px 0; border: 0; border-top: 1px solid #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal .show-progress-card :is(strong,.show-progress-card__ratio) { color: #e6f066; }
+body.design-fanzine-pessoal .show-page__terms span { border-color: #394448; }
+body.design-fanzine-pessoal :is(.movies-year-header,.shows-year-header) { grid-column: 1 / span 12; display: grid; gap: 12px; margin: 0 0 24px; padding: 22px 0 20px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(.movies-year-header__kicker,.shows-year-header__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movies-year-header__description,.shows-year-header__description) { margin: 0; color: #b9c2b9; font: 15px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movies-global-summary,.shows-global-summary) { display: flex; flex-wrap: wrap; gap: 20px; padding: 12px 0; border-top: 1px dotted #394448; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(.movies-global-summary__item,.shows-global-summary__item) { flex: 1 1 120px; display: grid; gap: 4px; padding: 0; border: 0; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(.movies-global-summary__label,.shows-global-summary__label) { color: #9da9a1; font: 8px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .06em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movies-global-summary__value,.shows-global-summary__value) { color: #e6f066; font: 700 22px/1 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movies-years-nav,.shows-years-nav) { display: flex; flex-wrap: wrap; gap: 6px; }
+body.design-fanzine-pessoal :is(.movies-years-nav__link,.shows-years-nav__link) { display: grid; gap: 2px; padding: 6px 9px; border: 1px solid #394448; border-radius: 1px; background: transparent; color: #e8e2d2; font: 10px ui-monospace,monospace; text-decoration: none; }
+body.design-fanzine-pessoal :is(.movies-years-nav__count,.shows-years-nav__count) { color: #9da9a1; font-size: 8px; }
+body.design-fanzine-pessoal :is(.movies-years-nav__link--active,.shows-years-nav__link--active) { border-color: #e6f066; background: #20292c; color: #e6f066; }
+body.design-fanzine-pessoal :is(.movies-year-jump__link,.shows-year-jump__link) { border-color: #42d8c1; color: #42d8c1; font: 9px ui-monospace,monospace; text-decoration: none; }
+@media(max-width:680px) { body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) { grid-template-columns: minmax(100px,32%) minmax(0,1fr); gap: 14px; } body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) { grid-template-columns: 1fr; gap: 11px; } body.design-fanzine-pessoal :is(.movie-gallery,.show-gallery) { grid-template-columns: repeat(2,minmax(0,1fr)); } }

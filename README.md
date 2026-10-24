@@ -47,3 +47,22 @@ This is the source code for [www.marcal.dev](https://www.marcal.dev), my persona
    npm run generate
    ```
 7. Serve the generated site from the `/dist` folder.
+
+## Designs do site
+
+A página `/design` apresenta dois layouts que marcaram o site: **Minimalista escuro**,
+o visual de fundo preto e links verdes, e **Fanzine pessoal**, o design atual.
+Cada um tem uma rota permanente (`/design/minimalista-escuro` e `/design/fanzine-pessoal`).
+Ao navegar entre páginas, a escolha fica registrada em `?design=minimalista-escuro` ou
+`?design=fanzine-pessoal`. As páginas mostram o conteúdo atual do blog.
+
+Os componentes e estilos ficam em `components/designs/<nome>/` e
+`assets/css/designs/<nome>.css`. Para criar um novo design, preserve os atuais,
+crie uma pasta e um estilo próprios e acrescente a escolha em
+`useVisualDesign`/`layouts/default.vue` e no middleware.
+
+O script `scripts/preserve-design.mjs` cria um `.tar.gz` com manifesto e SHA-256
+em `public/arquivo`, sem incluir a biblioteca de imagens. Ele não sobrescreve
+registros existentes. `design-minimalista-escuro-2026-10-24.tar.gz` preserva o layout
+Minimalista escuro; `design-fanzine-pessoal-2026.tar.gz` preserva o Fanzine pessoal.
+A navegação histórica usa o conteúdo atualizado do site.

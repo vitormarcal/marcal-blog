@@ -11,7 +11,6 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/bookmarks]]"
-image: img/Sans titre.jpg
 language: pt
 localized_post_paths: 
 has_localized_posts: false

@@ -139,12 +139,9 @@ const sourceLabel = (source: string) => {
   return source
 }
 
-const externalProviderLabel = (provider: string) => {
-  const normalized = provider.trim().toUpperCase()
-  if (normalized === 'IMDB') return 'IMDb'
-  if (normalized === 'TMDB') return 'TMDB'
-  return provider
-}
+const movieTerms = computed(() => (movie.value?.terms || []).filter((term) => term.active))
+const movieDirectors = computed(() => (movie.value?.people || []).filter((person) => person.department?.toLowerCase() === 'directing' || person.job?.toLowerCase() === 'director'))
+const movieCast = computed(() => (movie.value?.people || []).filter((person) => person.creditType === 'CAST').slice(0, 8))
 </script>
 
 <template>
@@ -157,6 +154,9 @@ const externalProviderLabel = (provider: string) => {
           <p v-if="originalTitleLabel" class="movie-page__original-title">
             {{ originalTitleLabel }}
           </p>
+          <div v-if="movie?.favorite || movie?.abandoned" class="movie-page__marks">
+            <span v-if="movie.favorite">Favorito</span><span v-if="movie.abandoned">Abandonado</span>
+          </div>
         </div>
 
         <div v-if="pending" class="movie-page__state" aria-busy="true">
@@ -199,6 +199,10 @@ const externalProviderLabel = (provider: string) => {
               <div v-if="sortedWatches[0]?.watchedAt">
                 <dt>Última sessão</dt>
                 <dd>{{ formatDateTime(sortedWatches[0].watchedAt) }}</dd>
+              </div>
+              <div v-if="movie.rating">
+                <dt>Minha nota</dt>
+                <dd class="movie-page__rating">{{ movie.rating.rating.toLocaleString('pt-BR') }} <span>★</span></dd>
               </div>
             </dl>
           </section>
@@ -244,25 +248,51 @@ const externalProviderLabel = (provider: string) => {
             <ul v-if="sortedWatches.length" class="movie-list">
               <li v-for="watchItem in sortedWatches" :key="watchItem.watchId" class="movie-list__item">
                 <strong>{{ formatDateTime(watchItem.watchedAt) }}</strong>
-                <span>Fonte: {{ sourceLabel(watchItem.source) }}</span>
+                <span>{{ sourceLabel(watchItem.source) }}</span>
               </li>
             </ul>
             <p v-else class="movie-page__empty">Sem histórico de sessões para este filme.</p>
           </section>
 
-          <section class="movie-page__section">
-            <h2>IDs externos</h2>
-            <ul v-if="movie.externalIds.length" class="movie-list">
-              <li
-                v-for="externalId in movie.externalIds"
-                :key="`${externalId.provider}-${externalId.externalId}`"
-                class="movie-list__item"
-              >
-                <strong>{{ externalProviderLabel(externalId.provider) }}</strong>
-                <span>{{ externalId.externalId }}</span>
-              </li>
-            </ul>
-            <p v-else class="movie-page__empty">Sem IDs externos cadastrados.</p>
+          <section v-if="movie.collection" class="movie-page__section movie-page__collection">
+            <h2>Na mesma coleção</h2>
+            <div class="movie-page__collection-head">
+              <img v-if="movie.collection.posterUrl" :src="assetUrl(movie.collection.posterUrl)" :alt="`Pôster da coleção ${movie.collection.name}`" loading="lazy" />
+              <div><p class="movie-page__kicker">Coleção</p><h3>{{ movie.collection.name }}</h3><p>{{ movie.collection.movies.length }} filmes catalogados</p></div>
+            </div>
+            <div class="movie-page__related">
+              <NuxtLink v-for="related in movie.collection.movies.filter((item) => item.slug && item.movieId !== movie.movieId)" :key="related.movieId" :to="`/filmes/detalhe/${related.slug}`">
+                <img v-if="related.coverUrl" :src="assetUrl(related.coverUrl)" :alt="`Pôster de ${related.title}`" loading="lazy" /><span>{{ related.title }}<small>{{ related.watched ? 'Já assisti' : 'Na fila' }}</small></span>
+              </NuxtLink>
+            </div>
+          </section>
+
+          <section v-if="movieDirectors.length || movieCast.length" class="movie-page__section">
+            <h2>Quem fez o filme</h2>
+            <p v-if="movieDirectors.length" class="movie-page__credits"><strong>Direção</strong> {{ movieDirectors.map((person) => person.name).join(' · ') }}</p>
+            <div v-if="movieCast.length" class="movie-page__people">
+              <article v-for="person in movieCast" :key="person.personId"><img v-if="person.profileUrl" :src="person.profileUrl" :alt="person.name" loading="lazy" /><span><strong>{{ person.name }}</strong><small v-if="person.characterName">{{ person.characterName }}</small></span></article>
+            </div>
+          </section>
+
+          <section v-if="movieTerms.length" class="movie-page__section">
+            <h2>Gêneros e temas</h2>
+            <div class="movie-page__terms"><span v-for="term in movieTerms" :key="term.id">{{ term.name }}</span></div>
+          </section>
+
+          <section v-if="movie.lists?.length" class="movie-page__section">
+            <h2>Em listas</h2>
+            <div class="movie-page__terms"><span v-for="list in movie.lists" :key="list.listId">{{ list.name }}</span></div>
+          </section>
+
+          <section v-if="movie.companies?.length" class="movie-page__section">
+            <h2>Produção</h2>
+            <div class="movie-page__companies"><span v-for="company in movie.companies" :key="company.companyId"><img v-if="company.logoUrl" :src="company.logoUrl" :alt="company.name" loading="lazy" /><strong>{{ company.name }}</strong></span></div>
+          </section>
+
+          <section v-if="movie.comments?.length" class="movie-page__section movie-page__comments">
+            <h2>Anotação</h2>
+            <blockquote v-for="comment in movie.comments" :key="comment.id"><p>{{ comment.body }}</p><footer>{{ formatDateTime(comment.commentedAt) }}</footer></blockquote>
           </section>
         </template>
       </article>

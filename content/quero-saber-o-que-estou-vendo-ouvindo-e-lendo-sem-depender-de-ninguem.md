@@ -15,7 +15,6 @@ related:
   - "[[tags/tecnologia]]"
   - "[[tags/programacao]]"
   - "[[tags/portugues]]"
-image: img/trabalhando-em-uma-especie-de-media-tracking.jpg
 language: pt
 ---
 Hoje em dia, existem várias ferramentas de _media tracking_, incluindo algumas _open source_, outras fechadas, com interfaces lindas e recursos completos. Eu poderia muito bem escolher uma delas e seguir em frente… mas venho sentindo vontade de criar minhas **próprias bases de mídia pessoal**, acessíveis de forma simples, via JSON, e servidas por uma API leve e unificada.

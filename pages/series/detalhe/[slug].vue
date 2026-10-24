@@ -154,13 +154,8 @@ const sourceLabel = (source: string) => {
   return source
 }
 
-const externalProviderLabel = (provider: string) => {
-  const normalized = provider.trim().toUpperCase()
-  if (normalized === 'IMDB') return 'IMDb'
-  if (normalized === 'TMDB') return 'TMDB'
-  if (normalized === 'TVDB') return 'TVDB'
-  return provider
-}
+const showTerms = computed(() => (show.value?.terms || []).filter((term) => term.active))
+const showCredits = computed(() => (show.value?.people || []).slice(0, 12))
 
 const progressPercent = (progress?: MediaPulseShowProgress | null) => {
   if (!progress?.episodesCount) return 0
@@ -222,6 +217,7 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
           <p v-if="originalTitleLabel" class="show-page__original-title">
             {{ originalTitleLabel }}
           </p>
+          <div v-if="show?.favorite || show?.abandoned" class="movie-page__marks"><span v-if="show?.favorite">Favorita</span><span v-if="show?.abandoned">Abandonada</span></div>
         </div>
 
         <div v-if="pending" class="show-page__state" aria-busy="true">
@@ -395,19 +391,27 @@ const episodeLabel = (watchItem: MediaPulseShowDetailsResponse['watches'][number
             <p v-else class="show-page__empty">Sem histórico de episódios para esta série.</p>
           </section>
 
-          <section class="show-page__section">
-            <h2>IDs externos</h2>
-            <ul v-if="show.externalIds.length" class="show-list">
-              <li
-                v-for="externalId in show.externalIds"
-                :key="`${externalId.provider}-${externalId.externalId}`"
-                class="show-list__item"
-              >
-                <strong>{{ externalProviderLabel(externalId.provider) }}</strong>
-                <span>{{ externalId.externalId }}</span>
-              </li>
-            </ul>
-            <p v-else class="show-page__empty">Sem IDs externos cadastrados.</p>
+          <section v-if="showCredits.length" class="show-page__section">
+            <h2>Quem faz a série</h2>
+            <div class="show-page__people">
+              <article v-for="person in showCredits" :key="person.personId"><img v-if="person.profileUrl" :src="person.profileUrl" :alt="person.name" loading="lazy" /><span><strong>{{ person.name }}</strong><small>{{ person.job || person.characterName || person.department || (person.creditType === 'CAST' ? 'Elenco' : 'Equipe') }}</small></span></article>
+            </div>
+          </section>
+
+          <section v-if="showTerms.length" class="show-page__section">
+            <h2>Gêneros e temas</h2>
+            <div class="show-page__terms"><span v-for="term in showTerms" :key="term.id">{{ term.name }}</span></div>
+          </section>
+
+          <section v-if="show.lists?.length" class="show-page__section">
+            <h2>Em listas</h2>
+            <div class="show-page__lists"><span v-for="list in show.lists" :key="list.listId">{{ list.name }}</span></div>
+          </section>
+
+          <section v-if="show.rating || show.comments?.length" class="show-page__section show-page__comments">
+            <h2>Notas pessoais</h2>
+            <p v-if="show.rating" class="show-page__rating">Minha nota <strong>{{ show.rating.rating.toLocaleString('pt-BR') }} ★</strong></p>
+            <blockquote v-for="comment in show.comments || []" :key="comment.id"><p>{{ comment.body }}</p><footer>{{ formatDateTime(comment.commentedAt) }}</footer></blockquote>
           </section>
         </template>
       </article>

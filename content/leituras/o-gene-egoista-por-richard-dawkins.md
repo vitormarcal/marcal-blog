@@ -10,7 +10,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: //leituras/img/o-gene-egoista-por-richard-dawkins.jpg
+image: /leituras/img/o-gene-egoista-por-richard-dawkins.jpg
 language: pt
 feedback:
   - gostei

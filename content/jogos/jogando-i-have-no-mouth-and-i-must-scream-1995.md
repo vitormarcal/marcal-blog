@@ -11,7 +11,6 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/jogando-i-have-no-mouth-and-i-must-scream.jpg
 has_localized_posts: false
 ---
 Em **I Have No Mouth, and I Must Scream**, a humanidade foi dominada e praticamente extinta pelo supercomputador AM (Allied Mastercomputer). Quase, porque ele “poupou” cinco pessoas, que por 109 anos foram torturadas e humilhadas sem qualquer trégua.
