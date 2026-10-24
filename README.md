@@ -61,8 +61,6 @@ Os componentes e estilos ficam em `components/designs/<nome>/` e
 crie uma pasta e um estilo próprios e acrescente a escolha em
 `useVisualDesign`/`layouts/default.vue` e no middleware.
 
-O script `scripts/preserve-design.mjs` cria um `.tar.gz` com manifesto e SHA-256
-em `public/arquivo`, sem incluir a biblioteca de imagens. Ele não sobrescreve
-registros existentes. `design-minimalista-escuro-2026-10-24.tar.gz` preserva o layout
-Minimalista escuro; `design-fanzine-pessoal-2026.tar.gz` preserva o Fanzine pessoal.
-A navegação histórica usa o conteúdo atualizado do site.
+Os layouts antigos continuam disponíveis em suas rotas e seus arquivos-fonte.
+O histórico do Git registra as alterações do código ao longo do tempo. A navegação
+histórica usa o conteúdo atualizado do site.
