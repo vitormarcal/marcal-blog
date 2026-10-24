@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import OriginalHome from '~/components/editions/original/OriginalHome.vue'
-import RevistaHome from '~/components/editions/revista2026/RevistaHome.vue'
+import Edition02Home from '~/components/editions/edition-02/Home.vue'
 const { isOriginal } = useVisualEdition()
 </script>
 
 <template>
   <OriginalHome v-if="isOriginal" />
-  <RevistaHome v-else />
+  <Edition02Home v-else />
 </template>

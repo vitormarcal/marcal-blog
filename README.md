@@ -50,16 +50,18 @@ This is the source code for [www.marcal.dev](https://www.marcal.dev), my persona
 
 ## Edições visuais e arquivo histórico
 
-A edição atual é **Revista pessoal (2026)**. `/arquivo` reúne as edições, com
-entradas permanentes em `/arquivo/original` e `/arquivo/revista-2026`.
+A edição atual é **02 — Caderno pessoal**. `/arquivo` reúne as edições, com
+entradas permanentes em `/arquivo/original` e `/arquivo/caderno-2026`.
 O parâmetro `?edicao=original` mantém o visual anterior durante a navegação;
-`?edicao=revista-2026` seleciona a revista. A seleção é parte da URL, sem cookie.
-As edições apresentam o conteúdo atual, não uma cópia histórica das publicações.
+`?edicao=edition-02` seleciona a edição atual. A seleção é parte da URL, sem
+cookie. As edições apresentam o conteúdo atual, não uma cópia histórica das publicações.
 
-Os componentes de cada edição ficam em `components/editions/`; os estilos da
-revista ficam em `assets/css/editions/revista2026.css`. Preserve esses arquivos
-quando criar uma nova edição. Mantenha os componentes compartilhados compatíveis
-ou copie-os para a pasta da edição antes de alterá-los de forma incompatível.
+Os componentes e estilos de cada edição ficam versionados por número em
+`components/editions/edition-NN/` e `assets/css/editions/edition-NN.css`.
+Preserve esses arquivos quando criar uma edição nova. Assim, a atual continua
+sendo `edition-02` e uma edição futura, como a de 2027, pode ser `edition-03`,
+sem atrelar o nome do componente ao ano. Mantenha os componentes compartilhados
+compatíveis ou copie-os para a pasta da edição antes de alterá-los de forma incompatível.
 
 Antes de substituir uma edição, registre seu código com:
 
@@ -76,5 +78,5 @@ uma rota permanente e um cartão em `/arquivo`. As edições antigas devem conti
 resolvendo para os seus componentes originais.
 
 O arquivo `original-2026-10-24.tar.gz` foi extraído do commit anterior à mudança;
-`revista-2026.tar.gz` registra a primeira edição da revista. Esses arquivos são
+`caderno-2026.tar.gz` registra o código da edição 02. Esses arquivos são
 registros de código; a navegação histórica usa o conteúdo atualizado do site.

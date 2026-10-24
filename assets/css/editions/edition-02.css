@@ -92,7 +92,7 @@ body.editorial .footer-name { font-size: 45px; line-height: 1; color: #a53624; f
 .edition-card a { margin-right: 24px; display: inline-block; }
 .edition-swatch { height: 100px; margin-bottom: 22px; display: flex; align-items: center; padding: 20px; font-size: 38px; font-weight: bold; }
 .edition-swatch.original { color: #8db500; background: #000; font-family: system-ui,sans-serif; }
-.edition-swatch.revista { color: #a53624; background: #f3eedf; border: 1px solid #b8b09b; font-family: Georgia,serif; }
+.edition-swatch.caderno { color: #a53624; background: #f3eedf; border: 1px solid #b8b09b; font-family: Georgia,serif; }
 .edition-swatch.caderno { height: 116px; display: block; padding: 28px 20px; color: #e6f066; background: #111619; border: 1px solid #42d8c1; font: 900 42px/.9 Impact,'Arial Narrow',sans-serif; letter-spacing: -.04em; text-shadow: 2px 2px #42d8c1; }
 .edition-swatch.caderno small { display: block; margin-top: 10px; color: #9da9a1; font: 9px ui-monospace,monospace; letter-spacing: .2em; text-transform: uppercase; text-shadow: none; }
 @media(min-width: 1100px) { .editorial-intro>p:last-child { position: absolute; bottom: 65px; right: 0; max-width: 270px; border-left: 1px solid #b8b09b; padding-left: 25px; font-size: 17px; } }
@@ -498,3 +498,70 @@ body.editorial .prose-expandable-image__caption { color: #9da9a1; }
 .pulp-post:not(:has(.pulp-post-image)) { grid-template-columns: minmax(0,1fr); }
 .pulp-post:not(:has(.pulp-post-image)) .pulp-read { grid-row: 4; }
 @media(max-width: 680px) { body.editorial .footer-name { white-space: nowrap; font-size: 26px; } }
+
+/* Artwork collection and reading pages. */
+.artworks-library,.artwork-detail { max-width: 1060px; margin: 28px auto 64px; }
+.artworks-library__intro,.artwork-detail__heading { padding: 20px 0 24px; border-bottom: 1px solid #394448; }
+.artworks-library__kicker { margin: 0 0 8px; color: #42d8c1; font: 10px ui-monospace,monospace; letter-spacing: .12em; text-transform: uppercase; }
+body.editorial .artworks-library__intro h1,.artwork-detail__heading h1 { margin: 0; color: #f0eadb; font: 500 clamp(38px,6vw,64px)/1.05 Georgia,serif; letter-spacing: -.035em; }
+.artworks-library__intro>p:last-child { margin-top: 12px; color: #b9c2b9; font: 16px/1.55 Georgia,serif; }
+.artworks-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin: 18px 0 25px; }
+.artworks-tools input,.artworks-tools select { min-height: 40px; border: 1px solid #394448; border-radius: 0; padding: 0 12px; background: #171e21; color: #e8e2d2; font: 12px Arial,sans-serif; }
+.artworks-tools input { flex: 1 1 220px; }
+.artworks-tools button,.artworks-state button,.artworks-pagination button { min-height: 40px; border: 1px solid #42d8c1; border-radius: 0; padding: 0 14px; background: transparent; color: #42d8c1; font: 10px ui-monospace,monospace; cursor: pointer; }
+.artworks-tools button:hover,.artworks-state button:hover,.artworks-pagination button:not(:disabled):hover { background: #42d8c1; color: #111619; }
+.artworks-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px 18px; margin: 0; padding: 0; list-style: none; }
+.artwork-card { min-width: 0; border: 1px solid #394448; background: #171e21; }
+.artwork-card__image { position: relative; display: grid; place-items: center; height: clamp(190px,25vw,300px); overflow: hidden; background: #20292c; }
+.artwork-card__image img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s; }
+.artwork-card__image:hover img { transform: scale(1.025); }
+.artwork-card__empty { color: #9da9a1; font: 10px ui-monospace,monospace; }
+.artwork-card__favorite { position: absolute; top: 9px; right: 9px; color: #e6f066; font-size: 18px; text-shadow: 0 1px 5px #111619; }
+.artwork-card__body { padding: 12px 13px 14px; }
+.artwork-card__type { margin: 0 0 6px; color: #42d8c1; font: 9px ui-monospace,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.editorial .artwork-card h2 { margin: 0; font: 700 19px/1.2 Georgia,serif; }
+body.editorial .artwork-card h2 a { color: #f0eadb; text-decoration: none; }
+body.editorial .artwork-card h2 a:hover { color: #e6f066; }
+.artwork-card__artist { margin: 6px 0 9px; color: #b9c2b9; font: 12px Arial,sans-serif; }
+.artwork-card__meta { display: flex; flex-wrap: wrap; gap: 5px; margin: 0; }
+.artwork-card__meta span { border: 1px solid #394448; padding: 4px 6px; color: #9da9a1; font: 9px ui-monospace,monospace; }
+.artworks-state { margin: 24px 0; border: 1px solid #394448; padding: 22px; color: #b9c2b9; background: #171e21; font: 13px/1.55 Arial,sans-serif; }
+.artworks-state p { margin: 0 0 12px; }
+.artworks-pagination { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 28px 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
+.artworks-pagination button:disabled { border-color: #394448; color: #65716d; cursor: default; }
+.artwork-detail__back { display: inline-block; margin-bottom: 16px; color: #42d8c1 !important; font: 10px ui-monospace,monospace; text-decoration: none; }
+.artwork-detail__heading { margin-bottom: 22px; }
+.artwork-detail__heading .artworks-library__kicker { margin-bottom: 9px; }
+.artwork-detail__artist { margin-top: 9px; color: #b9c2b9; font: 16px Georgia,serif; }
+.artwork-detail__hero { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(210px,.7fr); gap: 28px; align-items: start; }
+.artwork-detail__visual { min-width: 0; }
+.artwork-detail__visual .expandable-image__trigger { display: grid; place-items: center; width: 100%; height: min(65vh,620px); min-height: 300px; max-height: 70vh; overflow: hidden; border: 1px solid #394448; background: #171e21; }
+.artwork-detail__visual .expandable-image__thumb { width: 100%; height: 100%; object-fit: contain; background: #171e21; }
+.artwork-detail__no-image { display: grid; place-items: center; min-height: 300px; border: 1px solid #394448; color: #9da9a1; background: #171e21; }
+.artwork-detail__caption { margin-top: 7px; color: #9da9a1; font: 11px/1.4 Georgia,serif; }
+.artwork-detail__thumbnails { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; }
+.artwork-detail__thumbnails button { flex: 0 0 72px; height: 72px; overflow: hidden; border: 1px solid #394448; padding: 3px; background: #171e21; cursor: pointer; }
+.artwork-detail__thumbnails button.is-selected { border-color: #e6f066; }
+.artwork-detail__thumbnails img { width: 100%; height: 100%; object-fit: cover; }
+.artwork-detail__facts { border-top: 1px solid #394448; }
+.artwork-detail__facts dl { margin: 0; }
+.artwork-detail__facts dl>div { padding: 11px 0; border-bottom: 1px solid #394448; }
+.artwork-detail__facts dt { color: #42d8c1; font: 9px ui-monospace,monospace; letter-spacing: .1em; text-transform: uppercase; }
+.artwork-detail__facts dd { margin: 5px 0 0; color: #e8e2d2; font: 14px/1.45 Georgia,serif; }
+.artwork-detail__artist-link { display: inline-block; margin-top: 15px; font: 10px ui-monospace,monospace; }
+.artwork-detail__section { max-width: 780px; margin: 36px 0; padding-top: 14px; border-top: 1px solid #394448; color: #d4d1c4; font: 16px/1.7 Georgia,serif; }
+body.editorial .artwork-detail__section h2 { margin: 0 0 15px; color: #e6f066; font: 11px ui-monospace,monospace; letter-spacing: .12em; text-transform: uppercase; }
+.artwork-detail__section p { margin: 0 0 15px; }
+.artwork-detail__section a { color: #42d8c1; }
+.artwork-experience { padding: 17px 0; border-top: 1px dotted #394448; }
+.artwork-experience__meta { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-bottom: 10px; color: #9da9a1; font: 9px ui-monospace,monospace; text-transform: uppercase; }
+@media(max-width: 760px) {
+  .artworks-library,.artwork-detail { margin: 18px auto 42px; }
+  .artworks-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px 10px; }
+  .artwork-card__image { height: clamp(170px,54vw,260px); }
+  .artwork-card__body { padding: 10px; }
+  body.editorial .artwork-card h2 { font-size: 16px; }
+  .artwork-detail__hero { grid-template-columns: 1fr; gap: 20px; }
+  .artwork-detail__visual .expandable-image__trigger { height: min(60vh,480px); min-height: 240px; max-height: 60vh; }
+  .artworks-tools select { flex: 1 1 100%; }
+}

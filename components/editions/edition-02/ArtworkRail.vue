@@ -10,7 +10,7 @@ type ArtworkCard = {
 type ArtworkPage = { items: ArtworkCard[] }
 
 const route = useRoute()
-const { apiUrl, assetUrl, baseUrl } = useMediaPulseApi()
+const { apiUrl, assetUrl } = useMediaPulseApi()
 const { data } = await useAsyncData('media-pulse-artworks-sidebar', () =>
   $fetch<ArtworkPage>(apiUrl('/api/artworks?limit=24&sort=recent')).catch(() => ({ items: [] })),
   { server: false }
@@ -37,7 +37,7 @@ watch(() => route.path, (path, previousPath) => {
 }, { immediate: true })
 const artwork = computed(() => artworks.value[artworkIndex.value % artworks.value.length] || fallbacks[0])
 const imageAlt = computed(() => `${artwork.value.title}${artwork.value.artist?.name ? `, de ${artwork.value.artist.name}` : ''}`)
-const artworkLink = computed(() => artwork.value.id ? `${baseUrl}/artworks/${artwork.value.id}` : '/gustav-klimt-e-elfen-lied')
+const artworkLink = computed(() => artwork.value.id ? `/artes/${artwork.value.id}` : '/gustav-klimt-e-elfen-lied')
 const artworkSrc = computed(() => artwork.value.imageUrl?.startsWith('/img/') ? artwork.value.imageUrl : assetUrl(artwork.value.imageUrl))
 const artworkNote = computed(() => [artwork.value.artist?.name, artwork.value.year, artwork.value.type].filter(Boolean).join(' · '))
 const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.value.length) + 1).padStart(2, '0')} / ${String(artworks.value.length).padStart(2, '0')}`)
@@ -46,10 +46,10 @@ const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.
 <template>
   <section class="rail-muse" aria-label="Obras de arte do acervo">
     <div class="rail-muse-heading"><span>Do acervo de arte</span><span aria-hidden="true">✦</span></div>
-    <a class="muse-frame" :href="artworkLink" target="_blank" rel="noreferrer" :aria-label="`Ver ${artwork.title} no Media Pulse`">
+    <NuxtLink class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
       <img :src="artworkSrc" :alt="imageAlt" />
       <span class="muse-number">{{ artworkPosition }}</span>
-    </a>
+    </NuxtLink>
     <p class="muse-name">{{ artwork.title }}</p>
     <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
   </section>

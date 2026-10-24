@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import '~/assets/css/editions/revista2026.css'
-import ArtworkRail from '~/components/editions/revista2026/ArtworkRail.vue'
-import MediaPulseRail from '~/components/editions/revista2026/MediaPulseRail.vue'
+import '~/assets/css/editions/edition-02.css'
+import ArtworkRail from '~/components/editions/edition-02/ArtworkRail.vue'
+import MediaPulseRail from '~/components/editions/edition-02/MediaPulseRail.vue'
 const route = useRoute()
 const config = useAppConfig()
 const year = new Date().getFullYear()
@@ -10,7 +10,7 @@ watch(() => route.fullPath, () => { menuOpen.value = false })
 const navigation = [
   ['Publicações', '/publicacoes'], ['Leituras', `/leituras/${year}`],
   ['Músicas', '/musicas'], ['Filmes', `/filmes/${year}`],
-  ['Séries', `/series/${year}`], ['Sobre', '/sobre']
+  ['Séries', `/series/${year}`], ['Artes', '/artes'], ['Sobre', '/sobre']
 ]
 useHead(() => ({
   link: [
@@ -35,9 +35,10 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
         <NuxtLink to="/publicacoes"><span>01</span> Caderno</NuxtLink>
         <NuxtLink :to="`/leituras/${year}`"><span>02</span> Estante</NuxtLink>
         <NuxtLink :to="`/filmes/${year}`"><span>03</span> Cinema</NuxtLink>
-        <NuxtLink to="/musicas"><span>04</span> Escutas</NuxtLink>
-        <NuxtLink to="/series"><span>05</span> Episódios</NuxtLink>
-        <NuxtLink to="/gostos"><span>06</span> Pequenos gostos</NuxtLink>
+        <NuxtLink :to="`/series/${year}`"><span>04</span> Séries</NuxtLink>
+        <NuxtLink to="/artes"><span>05</span> Artes</NuxtLink>
+        <NuxtLink to="/musicas"><span>06</span> Escutas</NuxtLink>
+        <NuxtLink to="/gostos"><span>07</span> Pequenos gostos</NuxtLink>
       </nav>
       <section class="rail-findings">
         <span class="rail-label">Mais coisas</span>

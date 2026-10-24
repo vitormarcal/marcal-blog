@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/date-utils'
-const { data: posts } = await useAsyncData('revista-2026-home', () => queryContent()
+const { data: posts } = await useAsyncData('edition-02-home', () => queryContent()
   .where({ is_post: true, _partial: false }).sort({ created_at: -1 }).limit(8).without(['body']).find())
 const postImage = (post: any) => {
   if (!post.image || typeof post.image !== 'string') return undefined

@@ -13,7 +13,7 @@ useSeoMeta({ title: 'História do site — Marçal', description: 'As edições 
       <h2>02 — Caderno pessoal</h2>
       <p>Outubro de 2026 · Caderno escuro, arte e registros do que leio, vejo e ouço.</p>
       <NuxtLink to="/">Ver edição atual ↗</NuxtLink>
-      <a href="/arquivo/revista-2026.tar.gz" download>Baixar o código preservado ↓</a>
+      <a href="/arquivo/caderno-2026.tar.gz" download>Baixar o código preservado ↓</a>
     </article>
     <article class="edition-card">
       <div class="edition-swatch original" aria-hidden="true">Marçal</div>
