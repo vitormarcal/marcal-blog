@@ -339,7 +339,7 @@ body.design-fanzine-pessoal .post-section time { color: #795c4d; }
   .masthead p { max-width: 95px; flex-shrink: 0; font-size: 11px; }
 }
 
-/* Edição 03: gabinete de curiosidades, diário visual de cinema e cultura. */
+/* Fanzine: gabinete de curiosidades, diário visual de cinema e cultura. */
 body.design-fanzine-pessoal {
   --bg-color: #111619; --font-color: #e8e2d2; --link_color: #e6f066;
   --link_color_visited: #c3cb70; --blockquote-border-color: #42d8c1;
@@ -444,6 +444,15 @@ body.design-fanzine-pessoal .post-section hr { border-color: #394448; }
 body.design-fanzine-pessoal .post-section blockquote { color: #b9c2b9; border-color: #42d8c1; }
 body.design-fanzine-pessoal .post-section pre { color: #e8e2d2; background: #20292c; }
 body.design-fanzine-pessoal .post-navigation-link { border-color: #394448; }
+body.design-fanzine-pessoal .publications-list .post-item { margin: 0; padding: 22px 0; border-bottom: 1px solid #303a3c; }
+body.design-fanzine-pessoal .publications-list .post-item__link { display: grid; grid-template-columns: minmax(0,1fr); grid-template-areas: "date" "title" "description"; gap: 8px 24px; text-decoration: none; }
+body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) minmax(150px,30%); grid-template-areas: "date image" "title image" "description image"; }
+body.design-fanzine-pessoal .publications-list .post-item time { grid-area: date; color: #8e9b93; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+body.design-fanzine-pessoal .publications-list .post-item h4 { grid-area: title; margin: 0; color: #f0eadb; font: 700 clamp(22px,2.5vw,32px)/1.12 Georgia,'Times New Roman',serif; letter-spacing: -.025em; }
+body.design-fanzine-pessoal .publications-list .post-item p { grid-area: description; margin: 0; color: #b9c2b9; font: 14px/1.55 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .publications-list .post-item__image { grid-area: image; align-self: center; width: 100%; aspect-ratio: 1.55; border: 1px solid #394448; background: #20292c; padding: 5px; object-fit: cover; }
+body.design-fanzine-pessoal .publications-list .post-item__link:hover h4 { color: #e6f066; }
+@media(max-width: 560px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
 body.design-fanzine-pessoal :is(.year-movies__summary,.movies-item,.reads-item,.shows-item,.movies-hero,.movie-card,.movies-state,.shows-hero,.show-card,.reads-card,.movie-page__hero,.show-page__hero,.book-description,.movie-description,.show-description,.show-progress-card,.movies-summary__card,.movies-global-summary__item,.shows-global-summary__item,.year-reads__summary,.year-shows__summary,.year-movies__error) { background: #171e21; color: #e8e2d2; border-color: #394448; box-shadow: none; }
 body.design-fanzine-pessoal :is(.summary-kicker,.summary-subtitle,.summary-label,.section-head p,.movies-grid-section__head p,.movies-item__date,.movies-item__original-title,.shows-item__date,.shows-item__original-title,.reads-item__authors,.reads-item__date,.movie-page__kicker,.movie-meta dt,.show-page__kicker,.show-meta dt,.book-page__kicker,.book-meta dt) { color: #9da9a1; }
 body.design-fanzine-pessoal :is(.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.reads-item__cover--placeholder,.movie-page__state,.show-page__state,.book-page__state,.movies-range__button,.movies-years-nav__link,.shows-years-nav__link) { background: #20292c; color: #e8e2d2; border-color: #394448; }
@@ -565,3 +574,45 @@ body.design-fanzine-pessoal .artwork-detail__section h2 { margin: 0 0 15px; colo
   .artwork-detail__visual .expandable-image__trigger { height: min(60vh,480px); min-height: 240px; max-height: 60vh; }
   .artworks-tools select { flex: 1 1 100%; }
 }
+
+/* Shared reading, film, series and music components use this skin only in the Fanzine. */
+body.design-fanzine-pessoal :is(.year-reads,.year-movies,.year-shows,.movies-year-header) { font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.year-reads__summary,.year-movies__summary,.year-shows__summary,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #394448; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal .summary-card { border-radius: 2px; border: 1px solid #303a3c; background: #20292c; box-shadow: none; }
+body.design-fanzine-pessoal :is(.summary-kicker,.summary-label,.movies-year-header__kicker,.movies-global-summary__label) { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.year-reads__summary h2,.year-movies__summary h2,.year-shows__summary h2,.movies-year-header h1) { color: #f0eadb; font: 700 clamp(26px,3vw,38px)/1.1 Georgia,'Times New Roman',serif; letter-spacing: -.03em; }
+body.design-fanzine-pessoal :is(.summary-subtitle,.movies-year-header__description,.section-head p) { color: #9da9a1; font: 13px/1.55 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-value,.movies-global-summary__value) { color: #e6f066; font: 700 25px/1.1 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-nav a,.movies-years-nav__link,.movies-year-jump__link,.back-to-top) { color: #e6f066; border-color: #394448; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; text-decoration: none; }
+body.design-fanzine-pessoal :is(.summary-nav a:hover,.movies-years-nav__link:hover,.movies-year-jump__link:hover,.back-to-top:hover) { color: #42d8c1; border-color: #42d8c1; }
+body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head { padding: 0 0 10px 13px; border-left: 2px solid #42d8c1; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head h3 { color: #e6f066; font: 11px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .12em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #303a3c; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.reads-item__cover,.movies-item__cover,.shows-item__cover) { border-radius: 1px; background: #20292c; }
+body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { color: #f0eadb; font: 700 18px/1.25 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.reads-item__title-link,.movies-item__title-link,.shows-item__title-link) { color: #f0eadb; text-decoration-color: #42d8c165; }
+body.design-fanzine-pessoal :is(.reads-item__title-link:hover,.movies-item__title-link:hover,.shows-item__title-link:hover) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.reads-item__progress,.movies-item__original-title,.movies-item__date,.shows-item__original-title,.shows-item__date,.movies-year-jump__loading) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.reads-item__progress,.movies-item__meta-pill--highlight) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__details-link,.movies-item__details-link,.shows-item__details-link,.movies-years-nav__link,.movies-year-jump__link) { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; }
+body.design-fanzine-pessoal :is(.reads-item__details-link:hover,.movies-item__details-link:hover,.shows-item__details-link:hover) { border-color: #e6f066; color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__meta-pill,.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.show-pill) { border-radius: 2px; border-color: #394448; background: #20292c; color: #b9c2b9; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .movies-years-nav__link--active { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal .movies-year-header__description { color: #b9c2b9; }
+body.design-fanzine-pessoal .time-tunnel { --bg: #111619; --panel: #171e21; --panel-2: #20292c; --text: #e8e2d2; --muted: #9da9a1; --border: #394448; --accent: #42d8c1; background: transparent; color: #e8e2d2; font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .time-tunnel .bleed { width: auto; margin: 0; }
+body.design-fanzine-pessoal .time-tunnel .container { max-width: none; padding: 0; }
+body.design-fanzine-pessoal .time-tunnel h1 { color: #f0eadb; font: 700 clamp(28px,4vw,42px)/1.1 Georgia,'Times New Roman',serif; text-align: left; }
+body.design-fanzine-pessoal .time-tunnel :is(.section,.album-card,.kpi,.skeleton-card) { border: 1px solid #394448; border-radius: 2px; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal .time-tunnel .kpi { background: #20292c; }
+body.design-fanzine-pessoal .time-tunnel :is(.title,.shuffle-current strong,.source-title) { color: #f0eadb; font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal .time-tunnel :is(.subtitle,.micro,.section-subtitle,.by,.plays,.rank,.shuffle-current) { color: #9da9a1; }
+body.design-fanzine-pessoal .time-tunnel .period-buttons button { border-radius: 2px; border-color: #394448; background: #20292c; color: #e8e2d2; font-family: ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .time-tunnel .period-buttons button.active { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal .time-tunnel .shuffle-btn { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; font-family: ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal .time-tunnel .shuffle-btn:hover { color: #111619; background: #42d8c1; }
+body.design-fanzine-pessoal .time-tunnel .name { color: #f0eadb; }
+body.design-fanzine-pessoal .time-tunnel .list-row { border-color: #394448; }
+body.design-fanzine-pessoal .time-tunnel .cover { background: #20292c; }
+body.design-fanzine-pessoal .time-tunnel .skeleton-line { background: linear-gradient(90deg,#20292c,#303a3c,#20292c); }
+@media(max-width:600px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
