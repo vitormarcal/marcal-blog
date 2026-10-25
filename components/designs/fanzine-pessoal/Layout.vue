@@ -11,7 +11,7 @@ watch(() => route.fullPath, () => { menuOpen.value = false })
 const navigation = [
   ['Publicações', '/publicacoes'], ['Leituras', `/leituras/${year}`],
   ['Músicas', '/musicas'], ['Filmes', `/filmes/${year}`],
-  ['Séries', `/series/${year}`], ['Artes', '/artes'], ['Sobre', '/sobre']
+  ['Séries', `/series/${year}`], ['Jogos', '/jogos'], ['Artes', '/artes'], ['Sobre', '/sobre']
 ]
 useHead(() => ({
   link: [

@@ -10,6 +10,7 @@ const navigationLinks = [
   { label: 'Músicas', path: '/musicas', delay: 0.18 },
   { label: 'Filmes', path: `/filmes/${currentYear}`, delay: 0.23 },
   { label: 'Séries', path: `/series/${currentYear}`, delay: 0.28 },
+  { label: 'Jogos', path: '/jogos', delay: 0.30 },
   { label: 'Categorias', path: '/tags/mdc', delay: 0.33 },
   { label: 'Sobre', path: '/sobre', delay: 0.38 },
   { label: 'Aleatório', path: '/random', delay: 0.43 },

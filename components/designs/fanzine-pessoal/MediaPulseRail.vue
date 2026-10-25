@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { GamesLibraryResponse } from '~/types/media-pulse-games'
 type ApiPage<T> = { items: T[] }
 type BookRead = {
   book: { slug: string; title: string; coverUrl?: string | null }
@@ -11,18 +12,20 @@ type Album = { albumTitle: string; artistName: string; coverUrl?: string | null 
 const year = new Date().getFullYear()
 const { apiUrl, assetUrl } = useMediaPulseApi()
 const { data } = await useAsyncData('media-pulse-sidebar', async () => {
-  const [books, movies, shows, albums] = await Promise.all([
+  const [books, movies, shows, albums, games] = await Promise.all([
     $fetch<ApiPage<BookRead>>(apiUrl('/api/books/list?status=CURRENTLY_READING&limit=1')).catch(() => ({ items: [] })),
     $fetch<ApiPage<Movie>>(apiUrl('/api/movies/recent?limit=1')).catch(() => ({ items: [] })),
     $fetch<Show[]>(apiUrl('/api/shows/currently-watching?limit=1')).catch(() => []),
-    $fetch<ApiPage<Album>>(apiUrl('/api/music/recent-albums?limit=1')).catch(() => ({ items: [] }))
+    $fetch<ApiPage<Album>>(apiUrl('/api/music/recent-albums?limit=1')).catch(() => ({ items: [] })),
+    $fetch<GamesLibraryResponse>(apiUrl('/api/games/library?limit=1')).catch(() => ({ items: [] }))
   ])
 
   return {
     book: books.items[0],
     movie: movies.items[0],
     show: shows[0],
-    album: albums.items[0]
+    album: albums.items[0],
+    game: games.items[0]
   }
 }, { server: false })
 
@@ -48,6 +51,11 @@ const records = computed(() => {
     detail: data.value.album.artistName,
     image: data.value.album.coverUrl,
     href: '/musicas'
+  })
+  if (data.value?.game) items.push({
+    label: 'Jogo recente', title: data.value.game.title,
+    image: data.value.game.coverUrl,
+    href: data.value.game.slug ? `/jogos/detalhe/${data.value.game.slug}` : '/jogos'
   })
   return items
 })

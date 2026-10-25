@@ -117,14 +117,14 @@ body.design-fanzine-pessoal .summary-kicker { color: #655f50; }
 body.design-fanzine-pessoal .summary-subtitle { color: #655f50; }
 body.design-fanzine-pessoal .summary-nav a { border-bottom: 1px solid #c8bea7; }
 body.design-fanzine-pessoal .section-head p { color: #655f50; }
-body.design-fanzine-pessoal .movies-item { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-item__cover { border-radius: 2px; }
-body.design-fanzine-pessoal .movies-item__cover--placeholder { color: #655f50; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-item__original-title { color: #655f50; }
-body.design-fanzine-pessoal .movies-item__meta-pill { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
-body.design-fanzine-pessoal .movies-item__date { color: #655f50; }
-body.design-fanzine-pessoal .movies-item__details-link { border-radius: 2px; border: 1px solid #c8bea7; }
-body.design-fanzine-pessoal .movies-empty { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-item,.games-item) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-item__cover,.games-item__cover) { border-radius: 2px; }
+body.design-fanzine-pessoal :is(.movies-item__cover--placeholder,.games-item__cover--placeholder) { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-item__original-title,.games-item__original-title) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-item__meta-pill,.games-item__meta-pill) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-item__date,.games-item__date) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-item__details-link,.games-item__details-link) { border-radius: 2px; border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal :is(.movies-empty,.games-empty) { color: #655f50; }
 body.design-fanzine-pessoal .back-to-top { border-bottom: 1px solid #c8bea7; }
 body.design-fanzine-pessoal .skeleton-line { background: #e6dfce; border-radius: 2px; }
 body.design-fanzine-pessoal .year-movies__error { border-radius: 2px; }
@@ -161,25 +161,25 @@ body.design-fanzine-pessoal .reads-empty { color: #655f50; }
 body.design-fanzine-pessoal .back-to-top { border-bottom: 1px solid #c8bea7; }
 body.design-fanzine-pessoal .skeleton-line { border-radius: 2px; }
 body.design-fanzine-pessoal .year-reads__error { border-radius: 2px; }
-body.design-fanzine-pessoal .movies-hero { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
-body.design-fanzine-pessoal .movies-hero__kicker { color: #655f50; }
-body.design-fanzine-pessoal .movies-hero__subtitle { color: #655f50; }
-body.design-fanzine-pessoal .movies-range__button { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; border-radius: 2px; }
-body.design-fanzine-pessoal .movies-summary__card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-summary__card span { color: #655f50; }
-body.design-fanzine-pessoal .movies-grid-section__head p { color: #655f50; }
-body.design-fanzine-pessoal .movie-card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
-body.design-fanzine-pessoal .movie-card__poster { background: #e6dfce; }
-body.design-fanzine-pessoal .movie-card__placeholder { color: #655f50; }
-body.design-fanzine-pessoal .movie-card__original-title { color: #655f50; }
-body.design-fanzine-pessoal .movie-pill { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
-body.design-fanzine-pessoal .movie-pill--muted { border-color: #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-card__cta { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-card__cta--disabled { color: #655f50; border-color: #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-state { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
-body.design-fanzine-pessoal .movies-state__retry { border: 1px solid #c8bea7; border-radius: 2px; }
-body.design-fanzine-pessoal .movies-skeleton__card { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-skeleton__poster { border-radius: 2px; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-hero,.games-hero) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
+body.design-fanzine-pessoal :is(.movies-hero__kicker,.games-hero__kicker) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-hero__subtitle,.games-hero__subtitle) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-range__button,.games-range__button) { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; border-radius: 2px; }
+body.design-fanzine-pessoal :is(.movies-summary__card,.games-summary__card) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-summary__card,.games-summary__card) span { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-grid-section__head,.games-grid-section__head) p { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-card,.game-card) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; box-shadow: none; }
+body.design-fanzine-pessoal :is(.movie-card__poster,.game-card__poster) { background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-card__placeholder,.game-card__placeholder) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-card__original-title,.game-card__original-title) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-pill,.game-pill) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-pill--muted,.game-pill--muted) { border-color: #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-card__cta,.game-card__cta) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-card__cta--disabled,.game-card__cta--disabled) { color: #655f50; border-color: #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-state,.games-state) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-state__retry,.games-state__retry) { border: 1px solid #c8bea7; border-radius: 2px; }
+body.design-fanzine-pessoal :is(.movies-skeleton__card,.games-skeleton__card) { border-radius: 2px; border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-skeleton__poster,.games-skeleton__poster) { border-radius: 2px; background: #e6dfce; }
 body.design-fanzine-pessoal .skeleton-line { border-radius: 2px; background: #e6dfce; }
 body.design-fanzine-pessoal .post-navigation-link { border: 1px solid #c8bea7; }
 body.design-fanzine-pessoal .post-navigation-link span { color: #655f50; }
@@ -195,28 +195,28 @@ body.design-fanzine-pessoal .prose-expandable-image__caption { color: #655f50; }
 }
 
 /* Catalog details and year navigation. */
-body.design-fanzine-pessoal .movies-year-header__kicker { color: #655f50; }
-body.design-fanzine-pessoal .movies-year-header__description { color: #655f50; }
-body.design-fanzine-pessoal .movies-global-summary__item { border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movies-global-summary__label { color: #655f50; }
-body.design-fanzine-pessoal .movies-years-nav__link { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
-body.design-fanzine-pessoal .movies-years-nav__count { color: #655f50; }
-body.design-fanzine-pessoal .movies-years-nav__link--active .movies-years-nav__count { color: #655f50; }
-body.design-fanzine-pessoal .movies-year-jump__link { border-bottom: 1px solid #c8bea7; }
-body.design-fanzine-pessoal .movies-year-jump__loading { color: #655f50; }
-body.design-fanzine-pessoal .movie-page__hero { border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-page__kicker { color: #655f50; }
-body.design-fanzine-pessoal .movie-page__original-title { color: #655f50; }
-body.design-fanzine-pessoal .movie-page__state { border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-page__poster-placeholder { color: #655f50; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-meta dt { color: #655f50; }
-body.design-fanzine-pessoal .movie-page__empty { color: #655f50; }
-body.design-fanzine-pessoal .movie-description { border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-description p { color: #655f50; }
-body.design-fanzine-pessoal .movie-gallery__item { border: 1px solid #c8bea7; }
-body.design-fanzine-pessoal .movie-gallery__badge { color: #655f50; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-list__item { border: 1px solid #c8bea7; background: #e6dfce; }
-body.design-fanzine-pessoal .movie-list__item span { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-year-header__kicker,.games-year-header__kicker) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-year-header__description,.games-year-header__description) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-global-summary__item,.games-global-summary__item) { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movies-global-summary__label,.games-global-summary__label) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-years-nav__link,.games-years-nav__link) { border: 1px solid #c8bea7; background: #e6dfce; color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-years-nav__count,.games-years-nav__count) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-years-nav__link--active,.games-years-nav__link--active) :is(.movies-years-nav__count,.games-years-nav__count) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movies-year-jump__link,.games-year-jump__link) { border-bottom: 1px solid #c8bea7; }
+body.design-fanzine-pessoal :is(.movies-year-jump__loading,.games-year-jump__loading) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-page__hero,.game-page__hero) { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-page__kicker,.game-page__kicker) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-page__original-title,.game-page__original-title) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-page__state,.game-page__state) { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-page__poster-placeholder,.game-page__poster-placeholder) { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-meta,.game-meta) dt { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-page__empty,.game-page__empty) { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-description,.game-description) { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-description,.game-description) p { color: #655f50; }
+body.design-fanzine-pessoal :is(.movie-gallery__item,.game-gallery__item) { border: 1px solid #c8bea7; }
+body.design-fanzine-pessoal :is(.movie-gallery__badge,.game-gallery__badge) { color: #655f50; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-list__item,.game-list__item) { border: 1px solid #c8bea7; background: #e6dfce; }
+body.design-fanzine-pessoal :is(.movie-list__item,.game-list__item) span { color: #655f50; }
 body.design-fanzine-pessoal .shows-year-header__kicker { color: #655f50; }
 body.design-fanzine-pessoal .shows-year-header__description { color: #655f50; }
 body.design-fanzine-pessoal .shows-global-summary__item { border: 1px solid #c8bea7; background: #e6dfce; }
@@ -467,10 +467,10 @@ body.design-fanzine-pessoal .publications-list .post-item__read { grid-area: rea
 body.design-fanzine-pessoal .publications-list .post-item__read span { color: #42d8c1; }
 body.design-fanzine-pessoal .publications-list .post-item__link:hover h4 { color: #e6f066; }
 @media(max-width: 560px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
-body.design-fanzine-pessoal :is(.year-movies__summary,.movies-item,.reads-item,.shows-item,.movies-hero,.movie-card,.movies-state,.shows-hero,.show-card,.reads-card,.movie-page__hero,.show-page__hero,.book-description,.movie-description,.show-description,.show-progress-card,.movies-summary__card,.movies-global-summary__item,.shows-global-summary__item,.year-reads__summary,.year-shows__summary,.year-movies__error) { background: #171e21; color: #e8e2d2; border-color: #394448; box-shadow: none; }
-body.design-fanzine-pessoal :is(.summary-kicker,.summary-subtitle,.summary-label,.section-head p,.movies-grid-section__head p,.movies-item__date,.movies-item__original-title,.shows-item__date,.shows-item__original-title,.reads-item__authors,.reads-item__date,.movie-page__kicker,.movie-meta dt,.show-page__kicker,.show-meta dt,.book-page__kicker,.book-meta dt) { color: #9da9a1; }
-body.design-fanzine-pessoal :is(.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.reads-item__cover--placeholder,.movie-page__state,.show-page__state,.book-page__state,.movies-range__button,.movies-years-nav__link,.shows-years-nav__link) { background: #20292c; color: #e8e2d2; border-color: #394448; }
-body.design-fanzine-pessoal :is(.movies-item__cover,.movie-card__poster,.book-cover) { background-color: #20292c; }
+body.design-fanzine-pessoal :is(.year-movies__summary,:is(.movies-item,.games-item),.reads-item,.shows-item,:is(.movies-hero,.games-hero),:is(.movie-card,.game-card),:is(.movies-state,.games-state),.shows-hero,.show-card,.reads-card,:is(.movie-page__hero,.game-page__hero),.show-page__hero,.book-description,:is(.movie-description,.game-description),.show-description,.show-progress-card,:is(.movies-summary__card,.games-summary__card),:is(.movies-global-summary__item,.games-global-summary__item),.shows-global-summary__item,.year-reads__summary,.year-shows__summary,.year-movies__error) { background: #171e21; color: #e8e2d2; border-color: #394448; box-shadow: none; }
+body.design-fanzine-pessoal :is(.summary-kicker,.summary-subtitle,.summary-label,.section-head p,:is(.movies-grid-section__head,.games-grid-section__head) p,:is(.movies-item__date,.games-item__date),:is(.movies-item__original-title,.games-item__original-title),.shows-item__date,.shows-item__original-title,.reads-item__authors,.reads-item__date,:is(.movie-page__kicker,.game-page__kicker),:is(.movie-meta,.game-meta) dt,.show-page__kicker,.show-meta dt,.book-page__kicker,.book-meta dt) { color: #9da9a1; }
+body.design-fanzine-pessoal :is(:is(.movies-item__meta-pill,.games-item__meta-pill),.shows-item__meta-pill,:is(.movie-pill,.game-pill),.reads-item__cover--placeholder,:is(.movie-page__state,.game-page__state),.show-page__state,.book-page__state,:is(.movies-range__button,.games-range__button),:is(.movies-years-nav__link,.games-years-nav__link),.shows-years-nav__link) { background: #20292c; color: #e8e2d2; border-color: #394448; }
+body.design-fanzine-pessoal :is(:is(.movies-item__cover,.games-item__cover),:is(.movie-card__poster,.game-card__poster),.book-cover) { background-color: #20292c; }
 body.design-fanzine-pessoal .audio-card { background: #20292c; color: #e8e2d2; }
 body.design-fanzine-pessoal .prose-expandable-image__caption { color: #9da9a1; }
 @media(max-width: 1180px) { .magazine-site { grid-template-columns: 230px minmax(0,1fr); gap: 24px; margin: 20px auto; padding: 0 20px; } .cabinet-rail { padding-right: 14px; } }
@@ -592,29 +592,29 @@ body.design-fanzine-pessoal .artwork-detail__section h2 { margin: 0 0 15px; colo
 }
 
 /* Shared reading, film, series and music components use this skin only in the Fanzine. */
-body.design-fanzine-pessoal :is(.year-reads,.year-movies,.year-shows,.movies-year-header) { font-family: Georgia,'Times New Roman',serif; }
-body.design-fanzine-pessoal :is(.year-reads__summary,.year-movies__summary,.year-shows__summary,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #394448; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.year-reads,.year-movies,.year-shows,:is(.movies-year-header,.games-year-header)) { font-family: Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.year-reads__summary,.year-movies__summary,.year-shows__summary,:is(.movies-global-summary__item,.games-global-summary__item)) { border-radius: 2px; border: 1px solid #394448; background: #171e21; box-shadow: none; }
 body.design-fanzine-pessoal .summary-card { border-radius: 2px; border: 1px solid #303a3c; background: #20292c; box-shadow: none; }
-body.design-fanzine-pessoal :is(.summary-kicker,.summary-label,.movies-year-header__kicker,.movies-global-summary__label) { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.year-reads__summary h2,.year-movies__summary h2,.year-shows__summary h2,.movies-year-header h1) { color: #f0eadb; font: 700 clamp(26px,3vw,38px)/1.1 Georgia,'Times New Roman',serif; letter-spacing: -.03em; }
-body.design-fanzine-pessoal :is(.summary-subtitle,.movies-year-header__description,.section-head p) { color: #9da9a1; font: 13px/1.55 Georgia,'Times New Roman',serif; }
-body.design-fanzine-pessoal :is(.summary-value,.movies-global-summary__value) { color: #e6f066; font: 700 25px/1.1 Georgia,'Times New Roman',serif; }
-body.design-fanzine-pessoal :is(.summary-nav a,.movies-years-nav__link,.movies-year-jump__link,.back-to-top) { color: #e6f066; border-color: #394448; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; text-decoration: none; }
-body.design-fanzine-pessoal :is(.summary-nav a:hover,.movies-years-nav__link:hover,.movies-year-jump__link:hover,.back-to-top:hover) { color: #42d8c1; border-color: #42d8c1; }
+body.design-fanzine-pessoal :is(.summary-kicker,.summary-label,:is(.movies-year-header__kicker,.games-year-header__kicker),:is(.movies-global-summary__label,.games-global-summary__label)) { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.year-reads__summary h2,.year-movies__summary h2,.year-shows__summary h2,:is(.movies-year-header,.games-year-header) h1) { color: #f0eadb; font: 700 clamp(26px,3vw,38px)/1.1 Georgia,'Times New Roman',serif; letter-spacing: -.03em; }
+body.design-fanzine-pessoal :is(.summary-subtitle,:is(.movies-year-header__description,.games-year-header__description),.section-head p) { color: #9da9a1; font: 13px/1.55 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-value,:is(.movies-global-summary__value,.games-global-summary__value)) { color: #e6f066; font: 700 25px/1.1 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.summary-nav a,:is(.movies-years-nav__link,.games-years-nav__link),:is(.movies-year-jump__link,.games-year-jump__link),.back-to-top) { color: #e6f066; border-color: #394448; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; text-decoration: none; }
+body.design-fanzine-pessoal :is(.summary-nav a:hover,:is(.movies-years-nav__link,.games-years-nav__link):hover,:is(.movies-year-jump__link,.games-year-jump__link):hover,.back-to-top:hover) { color: #42d8c1; border-color: #42d8c1; }
 body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head { padding: 0 0 10px 13px; border-left: 2px solid #42d8c1; border-bottom: 1px dotted #394448; }
 body.design-fanzine-pessoal :is(.year-reads__section,.year-movies__section,.year-shows__section) .section-head h3 { color: #e6f066; font: 11px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .12em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item,.movies-global-summary__item) { border-radius: 2px; border: 1px solid #303a3c; background: #171e21; box-shadow: none; }
-body.design-fanzine-pessoal :is(.reads-item__cover,.movies-item__cover,.shows-item__cover) { border-radius: 1px; background: #20292c; }
-body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { color: #f0eadb; font: 700 18px/1.25 Georgia,'Times New Roman',serif; }
-body.design-fanzine-pessoal :is(.reads-item__title-link,.movies-item__title-link,.shows-item__title-link) { color: #f0eadb; text-decoration-color: #42d8c165; }
-body.design-fanzine-pessoal :is(.reads-item__title-link:hover,.movies-item__title-link:hover,.shows-item__title-link:hover) { color: #e6f066; }
-body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.reads-item__progress,.movies-item__original-title,.movies-item__date,.shows-item__original-title,.shows-item__date,.movies-year-jump__loading) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
-body.design-fanzine-pessoal :is(.reads-item__progress,.movies-item__meta-pill--highlight) { color: #e6f066; }
-body.design-fanzine-pessoal :is(.reads-item__details-link,.movies-item__details-link,.shows-item__details-link,.movies-years-nav__link,.movies-year-jump__link) { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; }
-body.design-fanzine-pessoal :is(.reads-item__details-link:hover,.movies-item__details-link:hover,.shows-item__details-link:hover) { border-color: #e6f066; color: #e6f066; }
-body.design-fanzine-pessoal :is(.reads-item__meta-pill,.movies-item__meta-pill,.shows-item__meta-pill,.movie-pill,.show-pill) { border-radius: 2px; border-color: #394448; background: #20292c; color: #b9c2b9; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; }
-body.design-fanzine-pessoal .movies-years-nav__link--active { color: #111619; background: #e6f066; border-color: #e6f066; }
-body.design-fanzine-pessoal .movies-year-header__description { color: #b9c2b9; }
+body.design-fanzine-pessoal :is(.reads-item,:is(.movies-item,.games-item),.shows-item,:is(.movies-global-summary__item,.games-global-summary__item)) { border-radius: 2px; border: 1px solid #303a3c; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.reads-item__cover,:is(.movies-item__cover,.games-item__cover),.shows-item__cover) { border-radius: 1px; background: #20292c; }
+body.design-fanzine-pessoal :is(.reads-item__title,:is(.movies-item__title,.games-item__title),.shows-item__title) { color: #f0eadb; font: 700 18px/1.25 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.reads-item__title-link,:is(.movies-item__title-link,.games-item__title-link),.shows-item__title-link) { color: #f0eadb; text-decoration-color: #42d8c165; }
+body.design-fanzine-pessoal :is(.reads-item__title-link:hover,:is(.movies-item__title-link,.games-item__title-link):hover,.shows-item__title-link:hover) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.reads-item__progress,:is(.movies-item__original-title,.games-item__original-title),:is(.movies-item__date,.games-item__date),.shows-item__original-title,.shows-item__date,:is(.movies-year-jump__loading,.games-year-jump__loading)) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.reads-item__progress,:is(.movies-item__meta-pill--highlight,.games-item__meta-pill--highlight)) { color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__details-link,:is(.movies-item__details-link,.games-item__details-link),.shows-item__details-link,:is(.movies-years-nav__link,.games-years-nav__link),:is(.movies-year-jump__link,.games-year-jump__link)) { border-radius: 2px; border-color: #42d8c1; color: #42d8c1; }
+body.design-fanzine-pessoal :is(.reads-item__details-link:hover,:is(.movies-item__details-link,.games-item__details-link):hover,.shows-item__details-link:hover) { border-color: #e6f066; color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__meta-pill,:is(.movies-item__meta-pill,.games-item__meta-pill),.shows-item__meta-pill,:is(.movie-pill,.game-pill),.show-pill) { border-radius: 2px; border-color: #394448; background: #20292c; color: #b9c2b9; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.movies-years-nav__link--active,.games-years-nav__link--active) { color: #111619; background: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal :is(.movies-year-header__description,.games-year-header__description) { color: #b9c2b9; }
 body.design-fanzine-pessoal .time-tunnel { --bg: #111619; --panel: #171e21; --panel-2: #20292c; --text: #e8e2d2; --muted: #9da9a1; --border: #394448; --accent: #42d8c1; background: transparent; color: #e8e2d2; font-family: Georgia,'Times New Roman',serif; }
 body.design-fanzine-pessoal .time-tunnel .bleed { width: auto; margin: 0; }
 body.design-fanzine-pessoal .time-tunnel .container { max-width: none; padding: 0; }
@@ -634,15 +634,15 @@ body.design-fanzine-pessoal .time-tunnel .skeleton-line { background: linear-gra
 @media(max-width:600px) { body.design-fanzine-pessoal .publications-list .post-item__link--with-image { grid-template-columns: minmax(0,1fr) 112px; gap: 7px 14px; } body.design-fanzine-pessoal .publications-list .post-item__image { aspect-ratio: 1; } }
 
 /* Annual reading and viewing logs as illustrated entries instead of compact form rows. */
-body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
-body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) { display: flex; min-width: 0; flex-direction: column; gap: 0; align-items: stretch; overflow: hidden; padding: 0; border: 1px solid #303a3c; border-radius: 2px; background: #171e21; box-shadow: none; }
-body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) > .expandable-image__trigger { display: block; width: 100%; height: auto; border-radius: 0; }
-body.design-fanzine-pessoal :is(.reads-item,.movies-item,.shows-item) > .expandable-image__trigger .expandable-image__thumb { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 0; object-fit: cover; background: #20292c; }
-body.design-fanzine-pessoal :is(.reads-item__cover,.movies-item__cover,.shows-item__cover) { display: grid; width: 100%; height: auto; min-height: 0; aspect-ratio: 2 / 3; place-items: center; border: 0; border-radius: 0; background: #20292c; color: #9da9a1; }
-body.design-fanzine-pessoal :is(.reads-item__content,.movies-item__content,.shows-item__content) { display: grid; align-content: start; gap: 7px; padding: 13px; }
-body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { color: #f0eadb; font: 700 clamp(17px,1.7vw,21px)/1.2 Georgia,'Times New Roman',serif; }
-body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,.movies-item__original-title,.movies-item__date,.shows-item__original-title,.shows-item__date) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
-body.design-fanzine-pessoal :is(.reads-item__meta-pill,.movies-item__meta-pill,.shows-item__meta-pill) { justify-self: start; }
+body.design-fanzine-pessoal :is(.reads-list,:is(.movies-list,.games-list),.shows-list) { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
+body.design-fanzine-pessoal :is(.reads-item,:is(.movies-item,.games-item),.shows-item) { display: flex; min-width: 0; flex-direction: column; gap: 0; align-items: stretch; overflow: hidden; padding: 0; border: 1px solid #303a3c; border-radius: 2px; background: #171e21; box-shadow: none; }
+body.design-fanzine-pessoal :is(.reads-item,:is(.movies-item,.games-item),.shows-item) > .expandable-image__trigger { display: block; width: 100%; height: auto; border-radius: 0; }
+body.design-fanzine-pessoal :is(.reads-item,:is(.movies-item,.games-item),.shows-item) > .expandable-image__trigger .expandable-image__thumb { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 0; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal :is(.reads-item__cover,:is(.movies-item__cover,.games-item__cover),.shows-item__cover) { display: grid; width: 100%; height: auto; min-height: 0; aspect-ratio: 2 / 3; place-items: center; border: 0; border-radius: 0; background: #20292c; color: #9da9a1; }
+body.design-fanzine-pessoal :is(.reads-item__content,:is(.movies-item__content,.games-item__content),.shows-item__content) { display: grid; align-content: start; gap: 7px; padding: 13px; }
+body.design-fanzine-pessoal :is(.reads-item__title,:is(.movies-item__title,.games-item__title),.shows-item__title) { color: #f0eadb; font: 700 clamp(17px,1.7vw,21px)/1.2 Georgia,'Times New Roman',serif; }
+body.design-fanzine-pessoal :is(.reads-item__authors,.reads-item__date,:is(.movies-item__original-title,.games-item__original-title),:is(.movies-item__date,.games-item__date),.shows-item__original-title,.shows-item__date) { color: #9da9a1; font: 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(.reads-item__meta-pill,:is(.movies-item__meta-pill,.games-item__meta-pill),.shows-item__meta-pill) { justify-self: start; }
 body.design-fanzine-pessoal .reads-item__status { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
 body.design-fanzine-pessoal .reads-item__edition { color: #b9c2b9; font: 10px/1.4 Georgia,serif; }
 body.design-fanzine-pessoal .reads-item__rating { color: #e6f066; font-size: 13px; letter-spacing: .08em; }
@@ -652,10 +652,10 @@ body.design-fanzine-pessoal .reads-item__progress-block>span { display: flex; ju
 body.design-fanzine-pessoal .reads-item__progress-block small { color: #e6f066; }
 body.design-fanzine-pessoal .reads-item__progress-track { height: 3px; background: #303a3c; }
 body.design-fanzine-pessoal .reads-item__progress-track i { display: block; height: 100%; background: #42d8c1; }
-body.design-fanzine-pessoal :is(.reads-item__details-link,.movies-item__details-link,.shows-item__details-link) { justify-self: start; margin-top: 4px; padding: 5px 0 2px; border: 0; border-bottom: 1px solid #42d8c1; border-radius: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; text-transform: uppercase; text-decoration: none; }
-body.design-fanzine-pessoal :is(.reads-item__details-link:hover,.movies-item__details-link:hover,.shows-item__details-link:hover) { color: #e6f066; border-color: #e6f066; }
-body.design-fanzine-pessoal :is(.reads-item__head,.movies-item__head,.shows-item__head) { display: grid; }
-body.design-fanzine-pessoal :is(.reads-item__meta,.movies-item__meta-row,.shows-item__meta-row) { display: flex; flex-wrap: wrap; gap: 5px; }
+body.design-fanzine-pessoal :is(.reads-item__details-link,:is(.movies-item__details-link,.games-item__details-link),.shows-item__details-link) { justify-self: start; margin-top: 4px; padding: 5px 0 2px; border: 0; border-bottom: 1px solid #42d8c1; border-radius: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; text-transform: uppercase; text-decoration: none; }
+body.design-fanzine-pessoal :is(.reads-item__details-link:hover,:is(.movies-item__details-link,.games-item__details-link):hover,.shows-item__details-link:hover) { color: #e6f066; border-color: #e6f066; }
+body.design-fanzine-pessoal :is(.reads-item__head,:is(.movies-item__head,.games-item__head),.shows-item__head) { display: grid; }
+body.design-fanzine-pessoal :is(.reads-item__meta,:is(.movies-item__meta-row,.games-item__meta-row),.shows-item__meta-row) { display: flex; flex-wrap: wrap; gap: 5px; }
 body.design-fanzine-pessoal .music-journal { max-width: 1060px; margin: 28px auto 64px; }
 .music-journal__header { padding: 20px 0 24px; border-bottom: 1px solid #394448; }
 .music-journal__kicker,.music-journal__eyebrow { margin: 0 0 9px; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
@@ -703,77 +703,77 @@ body.design-fanzine-pessoal .music-journal__header h1 { margin: 0; color: #f0ead
 .music-journal__rediscovery { display: grid; grid-template-columns: 82px minmax(0,1fr); gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px dotted #394448; }
 .music-journal__rediscovery img { width: 82px; aspect-ratio: 1; object-fit: cover; background: #20292c; }
 .music-journal__colophon { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 48px; padding: 12px 0; border-top: 1px solid #394448; color: #7f8b85; font: 9px ui-monospace,monospace; text-transform: uppercase; letter-spacing: .06em; }
-@media(max-width:900px) { body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:900px) { body.design-fanzine-pessoal :is(.reads-list,:is(.movies-list,.games-list),.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:680px) { body.design-fanzine-pessoal .music-journal { margin: 18px auto 42px; } .music-journal__lead { grid-template-columns: 112px minmax(0,1fr); gap: 13px; } .music-journal__lead-copy h2 { font-size: clamp(22px,6vw,32px); } .music-journal__artist { font-size: 14px; } .music-journal__lead-note { margin-top: 12px; font-size: 8px; } .music-journal__date { grid-column: 2; align-self: start; } .music-journal__album-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .music-journal__columns { grid-template-columns: 1fr; gap: 24px; } .music-journal__rediscovered { grid-template-columns: 1fr; } .music-journal__metrics { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; } }
-@media(max-width:480px) { body.design-fanzine-pessoal :is(.reads-list,.movies-list,.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; } body.design-fanzine-pessoal :is(.reads-item__content,.movies-item__content,.shows-item__content) { padding: 9px; } body.design-fanzine-pessoal :is(.reads-item__title,.movies-item__title,.shows-item__title) { font-size: 16px; } .music-journal__rank-row { grid-template-columns: 22px 38px minmax(0,1fr) auto; gap: 7px; } .music-journal__rank-row>img { width: 38px; height: 38px; } }
+@media(max-width:480px) { body.design-fanzine-pessoal :is(.reads-list,:is(.movies-list,.games-list),.shows-list) { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; } body.design-fanzine-pessoal :is(.reads-item__content,:is(.movies-item__content,.games-item__content),.shows-item__content) { padding: 9px; } body.design-fanzine-pessoal :is(.reads-item__title,:is(.movies-item__title,.games-item__title),.shows-item__title) { font-size: 16px; } .music-journal__rank-row { grid-template-columns: 22px 38px minmax(0,1fr) auto; gap: 7px; } .music-journal__rank-row>img { width: 38px; height: 38px; } }
 
 /* Single item records: image, context, and personal history read as a small article. */
-body.design-fanzine-pessoal .post-section.movie-page > *, body.design-fanzine-pessoal .post-section.show-page > *, body.design-fanzine-pessoal .post-section.book-page > * { grid-column: 1 / span 12; }
-body.design-fanzine-pessoal :is(.movie-page,.show-page,.book-page) { row-gap: 0; color: #e8e2d2; }
-body.design-fanzine-pessoal :is(.movie-page__hero,.show-page__hero,.book-page__header) { display: grid; gap: 8px; padding: 20px 0 22px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
-body.design-fanzine-pessoal :is(.movie-page__kicker,.show-page__kicker,.book-page__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movie-page__hero h1,.show-page__hero h1,.book-page__header h1) { margin: 0 !important; color: #f0eadb; font: 500 clamp(38px,6vw,64px)/1.04 Georgia,'Times New Roman',serif; letter-spacing: -.04em; }
-body.design-fanzine-pessoal :is(.movie-page__original-title,.show-page__original-title,.book-page__byline,.book-page__description) { margin: 0; color: #9da9a1; font: italic 15px/1.5 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) { display: grid; grid-template-columns: minmax(180px,27%) minmax(0,1fr); gap: 26px; align-items: start; padding: 26px 0; border-bottom: 1px solid #394448; }
-body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) .expandable-image__trigger { display: block; max-width: 100%; border: 1px solid #394448; border-radius: 1px; }
-body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) .expandable-image__thumb { display: block; max-width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 1px; object-fit: cover; background: #171e21; }
-body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; align-content: start; margin: 0; padding-top: 5px; }
-body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) dt { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) dd { margin: 5px 0 0; color: #f0eadb; font: 15px/1.4 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-page__section,.show-page__section,.book-page__section) { display: grid; gap: 12px; margin: 0; padding: 25px 0; border-bottom: 1px solid #394448; }
-body.design-fanzine-pessoal :is(.movie-page__section h2,.show-page__section h2,.book-page__section h2) { margin: 0 !important; color: #e6f066; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movie-description,.show-description,.book-description) { display: grid; gap: 12px; max-width: 78ch; padding: 0; border: 0; border-radius: 0; background: transparent; }
-body.design-fanzine-pessoal :is(.movie-description,.show-description,.book-description) p { margin: 0; color: #d4d1c4; font: 16px/1.75 Georgia,serif; }
+body.design-fanzine-pessoal .post-section:is(.movie-page,.game-page) > *, body.design-fanzine-pessoal .post-section.show-page > *, body.design-fanzine-pessoal .post-section.book-page > * { grid-column: 1 / span 12; }
+body.design-fanzine-pessoal :is(:is(.movie-page,.game-page),.show-page,.book-page) { row-gap: 0; color: #e8e2d2; }
+body.design-fanzine-pessoal :is(:is(.movie-page__hero,.game-page__hero),.show-page__hero,.book-page__header) { display: grid; gap: 8px; padding: 20px 0 22px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movie-page__kicker,.game-page__kicker),.show-page__kicker,.book-page__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movie-page__hero,.game-page__hero) h1,.show-page__hero h1,.book-page__header h1) { margin: 0 !important; color: #f0eadb; font: 500 clamp(38px,6vw,64px)/1.04 Georgia,'Times New Roman',serif; letter-spacing: -.04em; }
+body.design-fanzine-pessoal :is(:is(.movie-page__original-title,.game-page__original-title),.show-page__original-title,.book-page__byline,.book-page__description) { margin: 0; color: #9da9a1; font: italic 15px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movie-page__summary,.game-page__summary),.show-page__summary,.book-page__summary) { display: grid; grid-template-columns: minmax(180px,27%) minmax(0,1fr); gap: 26px; align-items: start; padding: 26px 0; border-bottom: 1px solid #394448; }
+body.design-fanzine-pessoal :is(:is(.movie-page__summary,.game-page__summary),.show-page__summary,.book-page__summary) .expandable-image__trigger { display: block; max-width: 100%; border: 1px solid #394448; border-radius: 1px; }
+body.design-fanzine-pessoal :is(:is(.movie-page__summary,.game-page__summary),.show-page__summary,.book-page__summary) .expandable-image__thumb { display: block; max-width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 1px; object-fit: cover; background: #171e21; }
+body.design-fanzine-pessoal :is(:is(.movie-meta,.game-meta),.show-meta,.book-meta) { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; align-content: start; margin: 0; padding-top: 5px; }
+body.design-fanzine-pessoal :is(:is(.movie-meta,.game-meta),.show-meta,.book-meta) dt { color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .1em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movie-meta,.game-meta),.show-meta,.book-meta) dd { margin: 5px 0 0; color: #f0eadb; font: 15px/1.4 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movie-page__section,.game-page__section),.show-page__section,.book-page__section) { display: grid; gap: 12px; margin: 0; padding: 25px 0; border-bottom: 1px solid #394448; }
+body.design-fanzine-pessoal :is(:is(.movie-page__section,.game-page__section) h2,.show-page__section h2,.book-page__section h2) { margin: 0 !important; color: #e6f066; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movie-description,.game-description),.show-description,.book-description) { display: grid; gap: 12px; max-width: 78ch; padding: 0; border: 0; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movie-description,.game-description),.show-description,.book-description) p { margin: 0; color: #d4d1c4; font: 16px/1.75 Georgia,serif; }
 body.design-fanzine-pessoal .book-review { max-width: 78ch; padding-left: 18px; border-left: 2px solid #42d8c1; }
 body.design-fanzine-pessoal .book-review p { margin: 0 0 14px; color: #e8e2d2; font: italic 17px/1.75 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-list,.show-list,.book-list) { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; }
-body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; padding: 10px 0; border: 0; border-bottom: 1px dotted #394448; border-radius: 0; background: transparent; }
-body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) strong { color: #f0eadb; font: 700 14px Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-list__item,.show-list__item,.book-list__item) span { color: #9da9a1; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; }
-body.design-fanzine-pessoal :is(.movie-gallery,.show-gallery) { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; }
-body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) { position: relative; overflow: hidden; aspect-ratio: 16 / 10; background: #20292c; }
-body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) .expandable-image__trigger { display: block; width: 100%; height: 100%; }
-body.design-fanzine-pessoal :is(.movie-gallery__item,.show-gallery__item) .expandable-image__thumb { display: block; width: 100%; height: 100%; object-fit: cover; }
-body.design-fanzine-pessoal :is(.movie-gallery__badge,.show-gallery__badge) { position: absolute; top: 6px; left: 6px; padding: 4px 6px; background: #111619dd; color: #e6f066; font: 8px ui-monospace,monospace; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movie-page__marks,.movie-page__terms,.show-page__terms,.show-page__lists) { display: flex; flex-wrap: wrap; gap: 6px; }
-body.design-fanzine-pessoal :is(.movie-page__marks,.movie-page__terms,.show-page__terms,.show-page__lists) span { padding: 5px 7px; border: 1px solid #394448; color: #b9c2b9; font: 9px ui-monospace,monospace; }
-body.design-fanzine-pessoal :is(.movie-page__rating,.book-page__rating,.show-page__rating) { color: #e6f066 !important; font: 700 22px Georgia,serif !important; }
-body.design-fanzine-pessoal :is(.movie-page__rating,.book-page__rating) span { color: #e6f066; }
-body.design-fanzine-pessoal .movie-page__collection-head { display: flex; gap: 14px; align-items: center; }
-body.design-fanzine-pessoal .movie-page__collection-head img { width: 74px; height: 74px; object-fit: cover; }
-body.design-fanzine-pessoal .movie-page__collection-head h3 { margin: 0; color: #f0eadb; font: 20px Georgia,serif; }
-body.design-fanzine-pessoal .movie-page__collection-head p:last-child { margin: 5px 0 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
-body.design-fanzine-pessoal .movie-page__related { display: grid; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); gap: 10px; }
-body.design-fanzine-pessoal .movie-page__related a { display: grid; gap: 7px; color: #e8e2d2; font: 11px/1.3 Georgia,serif; text-decoration: none; }
-body.design-fanzine-pessoal .movie-page__related img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #20292c; }
-body.design-fanzine-pessoal .movie-page__related small { display: block; margin-top: 4px; color: #9da9a1; font: 8px ui-monospace,monospace; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) { display: grid; grid-template-columns: repeat(auto-fit,minmax(145px,1fr)); gap: 8px; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) article { display: flex; gap: 9px; align-items: center; min-width: 0; padding: 7px 0; border-bottom: 1px dotted #394448; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) img { width: 42px; height: 52px; object-fit: cover; background: #20292c; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) span { display: grid; gap: 3px; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) strong { color: #e8e2d2; font: 12px/1.2 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-page__people,.show-page__people) small { color: #9da9a1; font: 8px ui-monospace,monospace; }
-body.design-fanzine-pessoal .movie-page__credits { color: #d4d1c4; font: 14px/1.5 Georgia,serif; }
-body.design-fanzine-pessoal .movie-page__credits strong { color: #42d8c1; font: 9px ui-monospace,monospace; text-transform: uppercase; }
-body.design-fanzine-pessoal .movie-page__companies { display: flex; flex-wrap: wrap; gap: 14px; }
-body.design-fanzine-pessoal .movie-page__companies span { display: grid; gap: 5px; justify-items: start; color: #b9c2b9; font: 10px Georgia,serif; }
-body.design-fanzine-pessoal .movie-page__companies img { max-width: 100px; max-height: 40px; object-fit: contain; }
-body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote { max-width: 75ch; margin: 0; padding: 12px 0 12px 18px; border: 0; border-left: 2px solid #42d8c1; color: #e8e2d2; background: transparent; }
-body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote p { margin: 0; font: italic 17px/1.7 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movie-page__comments,.show-page__comments,.book-page__comments) blockquote footer { margin-top: 7px; color: #9da9a1; font: 9px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(:is(.movie-list,.game-list),.show-list,.book-list) { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; }
+body.design-fanzine-pessoal :is(:is(.movie-list__item,.game-list__item),.show-list__item,.book-list__item) { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; padding: 10px 0; border: 0; border-bottom: 1px dotted #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movie-list__item,.game-list__item),.show-list__item,.book-list__item) strong { color: #f0eadb; font: 700 14px Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movie-list__item,.game-list__item),.show-list__item,.book-list__item) span { color: #9da9a1; font: 10px ui-monospace,SFMono-Regular,Consolas,monospace; }
+body.design-fanzine-pessoal :is(:is(.movie-gallery,.game-gallery),.show-gallery) { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; }
+body.design-fanzine-pessoal :is(:is(.movie-gallery__item,.game-gallery__item),.show-gallery__item) { position: relative; overflow: hidden; aspect-ratio: 16 / 10; background: #20292c; }
+body.design-fanzine-pessoal :is(:is(.movie-gallery__item,.game-gallery__item),.show-gallery__item) .expandable-image__trigger { display: block; width: 100%; height: 100%; }
+body.design-fanzine-pessoal :is(:is(.movie-gallery__item,.game-gallery__item),.show-gallery__item) .expandable-image__thumb { display: block; width: 100%; height: 100%; object-fit: cover; }
+body.design-fanzine-pessoal :is(:is(.movie-gallery__badge,.game-gallery__badge),.show-gallery__badge) { position: absolute; top: 6px; left: 6px; padding: 4px 6px; background: #111619dd; color: #e6f066; font: 8px ui-monospace,monospace; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movie-page__marks,.game-page__marks),:is(.movie-page__terms,.game-page__terms),.show-page__terms,.show-page__lists) { display: flex; flex-wrap: wrap; gap: 6px; }
+body.design-fanzine-pessoal :is(:is(.movie-page__marks,.game-page__marks),:is(.movie-page__terms,.game-page__terms),.show-page__terms,.show-page__lists) span { padding: 5px 7px; border: 1px solid #394448; color: #b9c2b9; font: 9px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(:is(.movie-page__rating,.game-page__rating),.book-page__rating,.show-page__rating) { color: #e6f066 !important; font: 700 22px Georgia,serif !important; }
+body.design-fanzine-pessoal :is(:is(.movie-page__rating,.game-page__rating),.book-page__rating) span { color: #e6f066; }
+body.design-fanzine-pessoal :is(.movie-page__collection-head,.game-page__collection-head) { display: flex; gap: 14px; align-items: center; }
+body.design-fanzine-pessoal :is(.movie-page__collection-head,.game-page__collection-head) img { width: 74px; height: 74px; object-fit: cover; }
+body.design-fanzine-pessoal :is(.movie-page__collection-head,.game-page__collection-head) h3 { margin: 0; color: #f0eadb; font: 20px Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__collection-head,.game-page__collection-head) p:last-child { margin: 5px 0 0; color: #9da9a1; font: 10px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(.movie-page__related,.game-page__related) { display: grid; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); gap: 10px; }
+body.design-fanzine-pessoal :is(.movie-page__related,.game-page__related) a { display: grid; gap: 7px; color: #e8e2d2; font: 11px/1.3 Georgia,serif; text-decoration: none; }
+body.design-fanzine-pessoal :is(.movie-page__related,.game-page__related) img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal :is(.movie-page__related,.game-page__related) small { display: block; margin-top: 4px; color: #9da9a1; font: 8px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) { display: grid; grid-template-columns: repeat(auto-fit,minmax(145px,1fr)); gap: 8px; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) article { display: flex; gap: 9px; align-items: center; min-width: 0; padding: 7px 0; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) img { width: 42px; height: 52px; object-fit: cover; background: #20292c; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) span { display: grid; gap: 3px; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) strong { color: #e8e2d2; font: 12px/1.2 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movie-page__people,.game-page__people),.show-page__people) small { color: #9da9a1; font: 8px ui-monospace,monospace; }
+body.design-fanzine-pessoal :is(.movie-page__credits,.game-page__credits) { color: #d4d1c4; font: 14px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__credits,.game-page__credits) strong { color: #42d8c1; font: 9px ui-monospace,monospace; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(.movie-page__companies,.game-page__companies) { display: flex; flex-wrap: wrap; gap: 14px; }
+body.design-fanzine-pessoal :is(.movie-page__companies,.game-page__companies) span { display: grid; gap: 5px; justify-items: start; color: #b9c2b9; font: 10px Georgia,serif; }
+body.design-fanzine-pessoal :is(.movie-page__companies,.game-page__companies) img { max-width: 100px; max-height: 40px; object-fit: contain; }
+body.design-fanzine-pessoal :is(:is(.movie-page__comments,.game-page__comments),.show-page__comments,.book-page__comments) blockquote { max-width: 75ch; margin: 0; padding: 12px 0 12px 18px; border: 0; border-left: 2px solid #42d8c1; color: #e8e2d2; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movie-page__comments,.game-page__comments),.show-page__comments,.book-page__comments) blockquote p { margin: 0; font: italic 17px/1.7 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movie-page__comments,.game-page__comments),.show-page__comments,.book-page__comments) blockquote footer { margin-top: 7px; color: #9da9a1; font: 9px ui-monospace,monospace; }
 body.design-fanzine-pessoal .show-progress-card { padding: 14px 0; border: 0; border-top: 1px solid #394448; border-radius: 0; background: transparent; }
 body.design-fanzine-pessoal .show-progress-card :is(strong,.show-progress-card__ratio) { color: #e6f066; }
 body.design-fanzine-pessoal .show-page__terms span { border-color: #394448; }
-body.design-fanzine-pessoal :is(.movies-year-header,.shows-year-header) { grid-column: 1 / span 12; display: grid; gap: 12px; margin: 0 0 24px; padding: 22px 0 20px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
-body.design-fanzine-pessoal :is(.movies-year-header__kicker,.shows-year-header__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movies-year-header__description,.shows-year-header__description) { margin: 0; color: #b9c2b9; font: 15px/1.5 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movies-global-summary,.shows-global-summary) { display: flex; flex-wrap: wrap; gap: 20px; padding: 12px 0; border-top: 1px dotted #394448; border-bottom: 1px dotted #394448; }
-body.design-fanzine-pessoal :is(.movies-global-summary__item,.shows-global-summary__item) { flex: 1 1 120px; display: grid; gap: 4px; padding: 0; border: 0; border-radius: 0; background: transparent; }
-body.design-fanzine-pessoal :is(.movies-global-summary__label,.shows-global-summary__label) { color: #9da9a1; font: 8px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .06em; text-transform: uppercase; }
-body.design-fanzine-pessoal :is(.movies-global-summary__value,.shows-global-summary__value) { color: #e6f066; font: 700 22px/1 Georgia,serif; }
-body.design-fanzine-pessoal :is(.movies-years-nav,.shows-years-nav) { display: flex; flex-wrap: wrap; gap: 6px; }
-body.design-fanzine-pessoal :is(.movies-years-nav__link,.shows-years-nav__link) { display: grid; gap: 2px; padding: 6px 9px; border: 1px solid #394448; border-radius: 1px; background: transparent; color: #e8e2d2; font: 10px ui-monospace,monospace; text-decoration: none; }
-body.design-fanzine-pessoal :is(.movies-years-nav__count,.shows-years-nav__count) { color: #9da9a1; font-size: 8px; }
-body.design-fanzine-pessoal :is(.movies-years-nav__link--active,.shows-years-nav__link--active) { border-color: #e6f066; background: #20292c; color: #e6f066; }
-body.design-fanzine-pessoal :is(.movies-year-jump__link,.shows-year-jump__link) { border-color: #42d8c1; color: #42d8c1; font: 9px ui-monospace,monospace; text-decoration: none; }
-@media(max-width:680px) { body.design-fanzine-pessoal :is(.movie-page__summary,.show-page__summary,.book-page__summary) { grid-template-columns: minmax(100px,32%) minmax(0,1fr); gap: 14px; } body.design-fanzine-pessoal :is(.movie-meta,.show-meta,.book-meta) { grid-template-columns: 1fr; gap: 11px; } body.design-fanzine-pessoal :is(.movie-gallery,.show-gallery) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+body.design-fanzine-pessoal :is(:is(.movies-year-header,.games-year-header),.shows-year-header) { grid-column: 1 / span 12; display: grid; gap: 12px; margin: 0 0 24px; padding: 22px 0 20px; border: 0; border-bottom: 1px solid #394448; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movies-year-header__kicker,.games-year-header__kicker),.shows-year-header__kicker) { margin: 0; color: #42d8c1; font: 9px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .13em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movies-year-header__description,.games-year-header__description),.shows-year-header__description) { margin: 0; color: #b9c2b9; font: 15px/1.5 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movies-global-summary,.games-global-summary),.shows-global-summary) { display: flex; flex-wrap: wrap; gap: 20px; padding: 12px 0; border-top: 1px dotted #394448; border-bottom: 1px dotted #394448; }
+body.design-fanzine-pessoal :is(:is(.movies-global-summary__item,.games-global-summary__item),.shows-global-summary__item) { flex: 1 1 120px; display: grid; gap: 4px; padding: 0; border: 0; border-radius: 0; background: transparent; }
+body.design-fanzine-pessoal :is(:is(.movies-global-summary__label,.games-global-summary__label),.shows-global-summary__label) { color: #9da9a1; font: 8px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .06em; text-transform: uppercase; }
+body.design-fanzine-pessoal :is(:is(.movies-global-summary__value,.games-global-summary__value),.shows-global-summary__value) { color: #e6f066; font: 700 22px/1 Georgia,serif; }
+body.design-fanzine-pessoal :is(:is(.movies-years-nav,.games-years-nav),.shows-years-nav) { display: flex; flex-wrap: wrap; gap: 6px; }
+body.design-fanzine-pessoal :is(:is(.movies-years-nav__link,.games-years-nav__link),.shows-years-nav__link) { display: grid; gap: 2px; padding: 6px 9px; border: 1px solid #394448; border-radius: 1px; background: transparent; color: #e8e2d2; font: 10px ui-monospace,monospace; text-decoration: none; }
+body.design-fanzine-pessoal :is(:is(.movies-years-nav__count,.games-years-nav__count),.shows-years-nav__count) { color: #9da9a1; font-size: 8px; }
+body.design-fanzine-pessoal :is(:is(.movies-years-nav__link--active,.games-years-nav__link--active),.shows-years-nav__link--active) { border-color: #e6f066; background: #20292c; color: #e6f066; }
+body.design-fanzine-pessoal :is(:is(.movies-year-jump__link,.games-year-jump__link),.shows-year-jump__link) { border-color: #42d8c1; color: #42d8c1; font: 9px ui-monospace,monospace; text-decoration: none; }
+@media(max-width:680px) { body.design-fanzine-pessoal :is(:is(.movie-page__summary,.game-page__summary),.show-page__summary,.book-page__summary) { grid-template-columns: minmax(100px,32%) minmax(0,1fr); gap: 14px; } body.design-fanzine-pessoal :is(:is(.movie-meta,.game-meta),.show-meta,.book-meta) { grid-template-columns: 1fr; gap: 11px; } body.design-fanzine-pessoal :is(:is(.movie-gallery,.game-gallery),.show-gallery) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
