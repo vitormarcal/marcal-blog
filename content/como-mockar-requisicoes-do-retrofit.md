@@ -24,7 +24,7 @@ Em termos simples, um mock é nada mais do que um objeto falso que imita o compo
 
 A diferença crucial no contexto de mocks em programação é que o "atacante" (ou seja, o objeto cliente) nunca percebe que o ninja-alvo foi substituído pelo pedaço de madeira (o mock). Ficou claro?
 
-![](https://www.marcal.dev/content/images/2023/12/Kawarimi_no_Jutsu.webp)
+![Técnica de substituição em uma página do mangá Naruto](https://visu.marcal.dev/shared-images/UnFJ-Zr6JzDt9mMQuJkcOHiNTU6KGVv9c9kkXrytNbI)
 
 __O__ atacante acha estar atingindo o adversário mas na verdade está atacando outro objeto qualquer / Photo by Naruto
 
