@@ -3,7 +3,7 @@
     "slug": "gostos",
     "title": "Goûts",
     "subtitle": "Les choses que j'aime (et que je n'aime pas)",
-    "cover": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+    "cover": "https://visu.marcal.dev/shared-images/oBMfxF9b6rXJ8yFmke-mXfTGyR9h_Kbpsg2cJ_5W8DU",
     "layout": "slide-layout",
     "theme": {
       "ringStart": "#8db500",
@@ -13,62 +13,62 @@
     },
     "slides": [
       {
-        "image": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+        "image": "https://visu.marcal.dev/shared-images/oBMfxF9b6rXJ8yFmke-mXfTGyR9h_Kbpsg2cJ_5W8DU",
         "strong": "Salut! Je suis Vitor",
         "text": "et voici les choses que j'aime (et que je n'aime pas)."
       },
       {
-        "image": "/img/gostos-e-desgostos/img-vin.jpg",
+        "image": "https://visu.marcal.dev/shared-images/G74pdwrCRqxaAbKPDam7kH02EqzOWagQDdxE00gp-ko",
         "strong": "J'aime",
         "text": "le vin 🍷."
       },
       {
-        "image": "/img/gostos-e-desgostos/img-biere.jpg",
+        "image": "https://visu.marcal.dev/shared-images/S5xV7H1hzRoePVRDdMbLwapzMzdlVpsCCc9MamnGoUo",
         "strong": "Je n'aime pas",
         "text": "la bière. 🍺"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-lecture.jpg",
+        "image": "https://visu.marcal.dev/shared-images/odZspcisUgccOUzVyXToNMnQlUUKfPjaqmEYloRupHM",
         "strong": "J'aime",
         "text": "la lecture, les livres et les bandes dessinées 📚."
       },
       {
-        "image": "/img/gostos-e-desgostos/img-chocolat.jpg",
+        "image": "https://visu.marcal.dev/shared-images/pAB3Q0Sx7o-KdFtdneSuvPBklLwNAv-e3BvrU4RnIzE",
         "strong": "J'aime",
         "text": "les gâteaux au chocolat et les bonbons 🍫🎂🤤."
       },
       {
-        "image": "/img/gostos-e-desgostos/img-cigarettes.jpg",
+        "image": "https://visu.marcal.dev/shared-images/x7lfm-gf-SHw-DKr1NLluiolP2-sK1ChLB5N3_CKkxc",
         "strong": "Je n'aime pas",
         "text": "les cigarettes ni leur odeur. 🚬 🤢"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-echecs.jpg",
+        "image": "https://visu.marcal.dev/shared-images/cgXDBjtfSHtvPUJpvb2uiS3DQSngL-Qas9GkK9FDNNc",
         "strong": "J'aime",
         "text": "le jeu d'échecs. J'aime pratiquer les échecs ♟️♔."
       },
       {
-        "image": "/img/gostos-e-desgostos/img-ordinateurs.jpg",
+        "image": "https://visu.marcal.dev/shared-images/4rshtcqm2Q4Q1Bid15J2imZ2yjoUHDXEGxAToIwSArM",
         "strong": "J'aime",
         "text": "jouer avec des ordinateurs. 💻"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-bruit.jpg",
+        "image": "https://visu.marcal.dev/shared-images/IMGbFFhc5shKc2LJlN-F6sfXj0FKmluj7bJZOn7bMK4",
         "strong": "Je n'aime pas",
         "text": "le bruit, les voitures et les gens bruyants. 🔊 🙉️"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-region-boisee.jpg",
+        "image": "https://visu.marcal.dev/shared-images/WNGlZSBjQ7e8GAAHKlxIDSvLGK0Q6LOcKhy3O1GKTDQ",
         "strong": "J'aime",
         "text": "visiter les régions de l'intérieur. J'aime visiter les régions boisées. 🌳"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-ma-petite-fille.jpg",
+        "image": "https://visu.marcal.dev/shared-images/Im5kJS3o5TyWVIf-EfKWvKpUZHyKgOfTR1X56gosluo",
         "strong": "J'aime",
         "text": "ma petite fille.👧"
       },
       {
-        "image": "/img/gostos-e-desgostos/img-ipe-jaune.jpg",
+        "image": "https://visu.marcal.dev/shared-images/oBMfxF9b6rXJ8yFmke-mXfTGyR9h_Kbpsg2cJ_5W8DU",
         "strong": "C'est tout,",
         "text": "à bientôt !"
       }
