@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/borboleta-assassina-vol-1.jpeg
+image: https://visu.marcal.dev/shared-images/P5jzFdRe7SGi0SwPyEdZ7Rf81O3JELgwpL_2J8vrxgs
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - graphic novel
 ---
 
-![borboleta-assassina-vol-1](img/borboleta-assassina-vol-1.jpeg)
+![borboleta-assassina-vol-1](https://visu.marcal.dev/shared-images/P5jzFdRe7SGi0SwPyEdZ7Rf81O3JELgwpL_2J8vrxgs)
 
 > Yoshiwara, o famoso bairro da luz vermelha no Japão, é o lar de Kochou, cortesã de luxo que brilha por onde passa... mas, nas sombras, assume a identidade de Ochou, uma shinobi (ou ninja) cuja missão é caçar antigos companheiros renegados...
 

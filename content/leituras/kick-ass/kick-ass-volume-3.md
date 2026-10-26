@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/kick-ass/kick-ass-volume-3.jpg
+image: https://visu.marcal.dev/shared-images/isc7CNvQwnAcc-SGQdkxdq4pC9jq6ZQH2KnuBXRd0zA
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - graphic novel
 dominant_color: "#556863"
 ---
-![kick-ass](/leituras/kick-ass/kick-ass-volume-3.jpg)
+![kick-ass](https://visu.marcal.dev/shared-images/isc7CNvQwnAcc-SGQdkxdq4pC9jq6ZQH2KnuBXRd0zA)
 
 Esse é o final da história, o momento em que algo como “A Liga da Justiça” se forma, mas as coisas não saem nada bem. ~Spoilers~: o carinha e até o cachorro da capa têm um fim brutal! A situação também desanda para o pai de Dave, um homem bom que não merecia o que aconteceu. Tudo isso culmina numa batalha caótica entre heróis e vilões no meio da rua.
 

@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
+image: https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM
 language: pt
 feedback:
   - gostei
@@ -35,7 +35,7 @@ reading_status:
 genre:
   - ficção europeia
 ---
-![os-miseraveis-finalmente-terminei](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png)
+![os-miseraveis-finalmente-terminei](https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM)
 
 Foram três meses e, nesse meio-tempo, precisei pausar a leitura várias vezes, alternar com algo mais leve, um besteirol qualquer, para então voltar com tudo. É uma leitura difícil, principalmente pelo estilo de Victor Hugo. 
 

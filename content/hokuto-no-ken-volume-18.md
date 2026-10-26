@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-18.jpg
+image: https://visu.marcal.dev/shared-images/Sf-_Fe37JH2etKBJWBHWd4vBpGtihB7_ua1GwvCdhA4
 language: pt
 feedback:
   - neutro
@@ -41,7 +41,7 @@ genre:
 ---
 
 
-![hokuto-no-ken-volume-18](img/hokuto-no-ken/hokuto-no-ken-volume-18.jpg)
+![hokuto-no-ken-volume-18](https://visu.marcal.dev/shared-images/Sf-_Fe37JH2etKBJWBHWd4vBpGtihB7_ua1GwvCdhA4)
 
 Então, finalmente terminei! Eu estava enrolando nesse último volume porque a história não estava interessante para mim. Vilões desnecessários, que claramente não levavam a lugar algum, me deram preguiça nesses últimos volumes. Foi interessante ver a origem de Ken, mas esse último volume não trouxe nada de muito original. Sinto que a primeira metade do volume simplesmente não precisava existir. O final de Ken foi satisfatório, mas, mesmo assim, essa história deveria ter terminado uns 10 volumes atrás.
 

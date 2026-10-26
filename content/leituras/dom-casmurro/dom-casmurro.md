@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/dom-casmurro/dom-casmurro.jpg
+image: https://visu.marcal.dev/shared-images/hXLoThHbCguVS8V4N0nfNoqk2HHPJmFH8RXe5AUWAdM
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - literatura brasileira
 dominant_color: "#ff6131"
 ---
-![dom-casmurro](/leituras/dom-casmurro/dom-casmurro.jpg)
+![dom-casmurro](https://visu.marcal.dev/shared-images/hXLoThHbCguVS8V4N0nfNoqk2HHPJmFH8RXe5AUWAdM)
 
 Seria essa a obra mais famosa de Machado de Assis? Mais que _Memórias Póstumas_? Talvez. Afinal, mesmo quem nunca leu _Dom Casmurro_ conhece algo sobre a polêmica: Capitu traiu ou não Bentinho? Esse era o meu caso até agora. Finalmente li e, confesso, fiquei decepcionado com todo mundo que sempre falou sobre isso, e com todas as discussões que vi de relance na internet, no Twitter, na TV.
 

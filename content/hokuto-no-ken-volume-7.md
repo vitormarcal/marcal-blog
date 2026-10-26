@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-7.jpg
+image: https://visu.marcal.dev/shared-images/c3gsz9Nonz29yJUT9C2wG7FXoqBd0Bl9qsC-P_1QPcc
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-7](img/hokuto-no-ken/hokuto-no-ken-volume-7.jpg)
+![hokuto-no-ken-volume-7](https://visu.marcal.dev/shared-images/c3gsz9Nonz29yJUT9C2wG7FXoqBd0Bl9qsC-P_1QPcc)
 
 > O homem mais forte do Estilo Nanto Sei-ken que controla tudo com uma administração despótica, Souther. Aquele que reverteu essa tirania foi Shu, a Estrela da Benevolência. Kenshiro resolve lutar ao seu lado e de seu grupo de Resistência, mas não consegue derrotar Souther, pois o Hokuto Shin-ken não funciona contra ele!
 

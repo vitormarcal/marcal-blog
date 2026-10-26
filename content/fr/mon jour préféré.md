@@ -22,12 +22,12 @@ D’habitude, je me réveille à 6 heures. Ce jour-là, je me réveille tard, ve
 
 Parfois, je prends le petit-déjeuner à la maison. C’est quelque chose de spécial, préparé par ma femme.
 
-![des pancakes préparés par ma femme](/img/mon-jour-prefere/mon-jour-prefere-pancakes-a-la-maison.jpg)
+![des pancakes préparés par ma femme](https://visu.marcal.dev/shared-images/wc_5sumSbcs9X2kwpJKF72r1gFgfJihlugjRGKbFd9E)
 *Des pancakes préparés par ma femme.*
 
 Parfois, nous allons à la boulangerie.  
 
-![des pancakes préparés par ma femme](/img/mon-jour-prefere/mon-jour-prefere-eclair-au-chocolat.jpg)
+![des pancakes préparés par ma femme](https://visu.marcal.dev/shared-images/JuPcpxJfRBinIZ14DwoM_NvS5k7W1YqhIGRtGFI8B14)
 *Éclair au chocolat de la boulangerie Sovar et Assar.* 
 
 Je n’aime pas sortir le jour de mon anniversaire. Je préfère rester à la maison avec ma famille, lire des livres, regarder quelque chose, jouer aux jeux vidéo et penser à ma vie.

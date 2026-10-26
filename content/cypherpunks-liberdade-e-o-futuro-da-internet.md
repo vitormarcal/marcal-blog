@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg
+image: https://visu.marcal.dev/shared-images/vvuB28kR5AIqCuhRYiBH7mwQ71St0ke-TU0uHCL_IGs
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - política e ativismo
 ---
 
-![cypherpunks-liberdade-e-o-futuro-da](img/cypherpunks-liberdade-e-o-futuro-da-internet.jpg)
+![cypherpunks-liberdade-e-o-futuro-da](https://visu.marcal.dev/shared-images/vvuB28kR5AIqCuhRYiBH7mwQ71St0ke-TU0uHCL_IGs)
 
 
 > A obra é resultado de reflexões de Assange e de um grupo vanguardista de pensadores rebeldes e ativistas que atuam nas linhas de frente da batalha em defesa do ciberespaço (Jacob Appelbaum, Andy Müller-Maguhn e Jérémie Zimmermann). A questão fundamental que o livro apresenta é: a comunicação eletrônica vai nos emancipar ou nos escravizar?Apesar de a internet ter possibilitado verdadeiras revoluções no mundo todo, Assange prevê uma futura onda de repressão na esfera on-line, a ponto de considerar a internet uma possível ameaça à civilização humana.

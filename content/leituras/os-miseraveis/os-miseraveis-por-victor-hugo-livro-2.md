@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
+image: https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM
 language: pt
 book_author:
   - Victor Hugo
@@ -30,7 +30,7 @@ dominant_color: "#301f16"
 localized_post_paths: 
 has_localized_posts: false
 ---
-![os-miseraveis-por-victor-hugo-livro-2](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png)
+![os-miseraveis-por-victor-hugo-livro-2](https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM)
 
 Estou lendo Os Miseráveis, é um livro longo, organizado em vários livros: uma verdadeira Bíblia! Não espero escrever algo para cada livro ma somente quando eu achar que faça sentido. 
 
@@ -55,7 +55,7 @@ Em certo ponto, Victor Hugo dedica um capítulo inteiro para descrever um náufr
 
 Para mim, essa cena é o tema central de todo o segundo livro: a máquina implacável da lei, representada ali pela disciplina do navio, que não para para salvar o infrator. Em contraste, surge a necessidade de um gesto extraordinário: a misericórdia, para resgatar uma alma em desespero.
 
-![Le Radeau de la Méduse  de Théodore Géricault, retrata sobreviventes reais do naufrágio da fragata Méduse, abandonados em uma jangada. Tem como tema o sofrimento humano, abandono pelo Estado, esperança quase extinta.](/img/le-radeau-de-la-meduse.png)
+![Le Radeau de la Méduse  de Théodore Géricault, retrata sobreviventes reais do naufrágio da fragata Méduse, abandonados em uma jangada. Tem como tema o sofrimento humano, abandono pelo Estado, esperança quase extinta.](https://visu.marcal.dev/shared-images/B6UajlrFRuJ6mMUmqWjxo3m7KTpQcCvzfziOzfGPioo)
 _Le Radeau de la Méduse_  de Théodore Géricault, retrata sobreviventes reais do naufrágio da fragata Méduse, abandonados em uma jangada. Tem como tema o sofrimento humano, abandono pelo Estado, esperança quase extinta.
 
 Num ato de revolta e rancor, Valjean rouba os talheres de prata do bispo  que, como vimos no livro anterior, eram o único luxo que o bispo ainda se permitia. Algum tempo depois, Valjean é capturado pela polícia que o leva de volta.  E então...

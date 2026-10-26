@@ -9,14 +9,14 @@ tags:
   - paginas-fixas
 related:
   - "[[tags/paginas-fixas]]"
-image: img/slash.jpg
+image: https://visu.marcal.dev/shared-images/-qy36qZnFjxy6eSfnPdDomxd7T9pkNbYkRPf8B7mlnA
 language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
 ----
 
-![slash](img/slash.jpg)
+![slash](https://visu.marcal.dev/shared-images/-qy36qZnFjxy6eSfnPdDomxd7T9pkNbYkRPf8B7mlnA)
 
 Essa é uma página _slash_ (em português, _barra_), não é sobre o músico `Slash`. Sinto muito! 😁 [Páginas slash](https://slashpages.net/) são páginas de nível raiz focadas em um tópico específico, como `/sobre` e `/contato`.
 

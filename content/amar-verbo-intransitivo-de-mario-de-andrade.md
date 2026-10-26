@@ -13,7 +13,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[tags/amor]]"
   - "[[tags/portugues]]"
-image: img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg
+image: https://visu.marcal.dev/shared-images/nNMD2P1rlgDFhzzOXPiNj0UFluc4bos2eBwiSzL-Jcg
 language: pt
 feedback:
   - gostei
@@ -36,7 +36,7 @@ genre:
   - romance
   - literatura brasileira
 ---
-![Imagem mostrando parte do livro Amar, Verbo Intransitivo aberto.  A maior parte da imagem mostra uma página à esquerda e com destaque de uma frase marcada a lápis: "É coisa que se ensine o amor?".](img/amar-verbo-intransitivo-de-mario-de-andrade.jpeg)
+![Imagem mostrando parte do livro Amar, Verbo Intransitivo aberto.  A maior parte da imagem mostra uma página à esquerda e com destaque de uma frase marcada a lápis: "É coisa que se ensine o amor?".](https://visu.marcal.dev/shared-images/nNMD2P1rlgDFhzzOXPiNj0UFluc4bos2eBwiSzL-Jcg)
 
 ## "É coisa que se ensine o amor?"
 

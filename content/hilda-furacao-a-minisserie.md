@@ -11,11 +11,11 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
-image: img/hilda-furacao-a-minisserie.jpg
+image: https://visu.marcal.dev/shared-images/Evfx51FieQc3v4gu8KAfLos6e7-sWEfMrBk-iUu94Mg
 language: pt
 ---
 
-![  Hilda Furacão, a woman in a checkered outfit stands outdoors next to a man, Malthus, in a dark shirt, who is looking down. ](img/hilda-furacao-a-minisserie.jpg)
+![  Hilda Furacão, a woman in a checkered outfit stands outdoors next to a man, Malthus, in a dark shirt, who is looking down. ](https://visu.marcal.dev/shared-images/Evfx51FieQc3v4gu8KAfLos6e7-sWEfMrBk-iUu94Mg)
 
 Quem diria! Fazia muitos anos que eu não assistia nada na TV aberta, mas, por algum motivo, senti vontade de ver _Hilda Furacão_, uma minissérie exibida na Globo lá em 1998. Acabei de terminar todos os 32 capítulos.
 

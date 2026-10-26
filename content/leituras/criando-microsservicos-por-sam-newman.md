@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /img/criando-microsservicos-por-sam-newman.jpg
+image: https://visu.marcal.dev/shared-images/LW080mFOAsCsWLXoGQjue5LCU7ZWs--mZouN0SK1ecc
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - tecnologia e sociedade
 dominant_color: "#da8d49"
 ---
-![criando-microsservicos-por-sam-newman](/img/criando-microsservicos-por-sam-newman.jpg)
+![criando-microsservicos-por-sam-newman](https://visu.marcal.dev/shared-images/LW080mFOAsCsWLXoGQjue5LCU7ZWs--mZouN0SK1ecc)
 
 Gostei. É um apanhado geral de como deveria funcionar uma arquitetura de microsserviços.
 

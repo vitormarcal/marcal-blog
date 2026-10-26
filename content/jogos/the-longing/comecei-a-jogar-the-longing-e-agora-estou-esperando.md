@@ -13,10 +13,10 @@ related:
   - "[[tags/notas-pessoais]]"
 language: pt
 has_localized_posts: false
-image: /jogos/the-longing/jogo-the-longing.png
+image: https://visu.marcal.dev/shared-images/RWJCqwNaMn0LwqNKT2LjbarER680Rt1aaNEtdQlCNqs
 ---
 
-![Cena de The Longing. O personagem está sentado em uma sala que parece um buraco ou um fundo de uma caverna iluminada apenas por uma lareira, com um fogo fraco. O personagem está sentado em uma poltrona vermelha, que está sob um tapete também vermelho. Ele está entretido lendo Moby Dick.](/jogos/the-longing/jogo-the-longing.png)
+![Cena de The Longing. O personagem está sentado em uma sala que parece um buraco ou um fundo de uma caverna iluminada apenas por uma lareira, com um fogo fraco. O personagem está sentado em uma poltrona vermelha, que está sob um tapete também vermelho. Ele está entretido lendo Moby Dick.](https://visu.marcal.dev/shared-images/RWJCqwNaMn0LwqNKT2LjbarER680Rt1aaNEtdQlCNqs)
 
 Comecei a jogar _The Longing_, um jogo feito para quem não tem pressa.  
 Na introdução, o Rei (talvez uma entidade divina) revela que está perdendo suas forças e decide dormir por 400 dias para recuperá-las. A sua missão é simples: esperar.
@@ -35,16 +35,16 @@ Finalmente terminei! É um jogo para testar a paciência mesmo, e bem interessan
 
 Lá fora, na superfície, encontrei um túmulo, será que de nosso amiguinho?
 
-![jogo-the-longing-1](/jogos/the-longing/jogo-the-longing-1.png)
+![jogo-the-longing-1](https://visu.marcal.dev/shared-images/PaSOyCvw4iwBp1voApedBhbGiD-HkXJTO6NnMW_ZHIw)
 
 Pelo que pesquisei, existem três finais e aparentemente eu consegui o bom. Ele entrou numa casa, ganhou até um banho!
 
-![jogo-the-longing-1](/jogos/the-longing/jogo-the-longing-2.png)
+![jogo-the-longing-1](https://visu.marcal.dev/shared-images/0hPWxFEqY_xmjDS5B84K51Yu6rxfMuUbe_gOqjb6GtM)
 
 Parece que ele era preto de sujo! O Reino das cavernas parecia uma mina de carvão abandonada, afinal!
 
 E no final das contas, ele ganhou uma família! Que bom para nosso amiguinho!
 
-![jogo-the-longing-1](/jogos/the-longing/jogo-the-longing-3.png)
+![jogo-the-longing-1](https://visu.marcal.dev/shared-images/W8ROez5baV7JDHLsiAuqkpmwRLaEEQ48ucHwtt5nFkM)
 
 

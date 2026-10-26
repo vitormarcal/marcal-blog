@@ -9,7 +9,7 @@ tags:
   - tecnologia
   - programacao
   - portugues
-image: img/certification.png
+image: https://visu.marcal.dev/shared-images/UbexZVyCOC0iHWd8FDFqwVKzi8FAnlp_2dWYjmly3ys
 related:
   - "[[tags/tecnologia]]"
   - "[[tags/programacao]]"
@@ -17,7 +17,7 @@ related:
 language: pt
 ---
 
-![O caminho para certificação Java 8](img/certification.png)
+![O caminho para certificação Java 8](https://visu.marcal.dev/shared-images/UbexZVyCOC0iHWd8FDFqwVKzi8FAnlp_2dWYjmly3ys)
 
 ## Sumário
 

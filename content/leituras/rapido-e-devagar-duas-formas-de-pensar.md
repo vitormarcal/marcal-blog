@@ -9,7 +9,7 @@ tags:
   - livros
   - portugues
 related: 
-image: img/rapido-e-devagar-duas-formas-de-pensar.png
+image: https://visu.marcal.dev/shared-images/3J-IQ47H_oEvtWO3k3mZXqXEgX3jbzcznjzCoJHLrm8
 language: pt
 feedback:
   - não gostei

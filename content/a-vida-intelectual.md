@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[a-navalha-de-ockham-o-principio-filosofico-que-libertou-a-ciencia-e-ajudou-a-explicar-o-universo]]"
   - "[[tags/portugues]]"
-image: img/a-vida-intelectual.jpg
+image: https://visu.marcal.dev/shared-images/8gZoWjsROFjqiUQm56xvqiVKaovGfJFLk3R3vzFqItE
 language: pt
 feedback:
   - não gostei
@@ -36,7 +36,7 @@ genre:
 publication_year: 2023
 ---
 
-![a-vida-intelectual](img/a-vida-intelectual.jpg)
+![a-vida-intelectual](https://visu.marcal.dev/shared-images/8gZoWjsROFjqiUQm56xvqiVKaovGfJFLk3R3vzFqItE)
 
 A Vida Intelectual foi uma leitura bastante recomendada em vários lugares  como Twitter, páginas na Internet, vídeos do Youtube. No entanto, minha experiência com a leitura foi decepcionante.
 

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-3.jpg
+image: https://visu.marcal.dev/shared-images/47IoRgACPuLpSrUHrwdaAv5-fYhmiCEnCUhC5b3xuNM
 language: pt
 feedback:
   - gostei
@@ -38,13 +38,13 @@ genre:
   - graphic novel
 dominant_color: "#050304"
 ---
-![o-espetacular-homem-aranha-edicao-definitiva-vol-3](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-3.jpg)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-3](https://visu.marcal.dev/shared-images/47IoRgACPuLpSrUHrwdaAv5-fYhmiCEnCUhC5b3xuNM)
 
 É verdade, esses vilões genéricos, pelo menos com os olhos dos anos 2000 são bem esquecíveis mas tenho que dizer, é muito bom ler sobre os altos e baixos da vida pessoal do aranha! 
 
 Finalmente aparece Mary Jane, que sempre era apenas mencionada desde os primeiros cápitulos.
 
-![o-espetacular-homem-aranha-edicao-definitiva-vol-3-1](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-3-1.jpg)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-3-1](https://visu.marcal.dev/shared-images/p7ZV8I10MRqcg_cBhtMejNVWlU0HyN9NVWmrIs34agA)
 
 > Reconhece, gatão... você tirou a sorte grande.
 

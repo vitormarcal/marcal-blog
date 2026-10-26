@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/necron/necron-volume-3-monstros-mecanicos.jpg
+image: https://visu.marcal.dev/shared-images/uhqo_-LpeTUBhvgX2LT8uEnSKxWCiKcUpVn1qgU2bzE
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - erótico
 ---
 
-![necron-volume-3-monstros-mecanicos](img/necron/necron-volume-3-monstros-mecanicos.jpg)
+![necron-volume-3-monstros-mecanicos](https://visu.marcal.dev/shared-images/uhqo_-LpeTUBhvgX2LT8uEnSKxWCiKcUpVn1qgU2bzE)
 
 > Após deixar o navio, a doutora Frieda Boher e Necron chegam à uma pequena ilha. Eles então descobrem que essa ilha não é tão isolada quanto pensavam e terão que enfrentar a ameaça dos "Monstros Mecânicos".
 

@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/blade-a-lamina-do-imortal/img/blade-vol-3.jpg
+image: https://visu.marcal.dev/shared-images/vxXuPS_T8jiJL_g4u1aFUecvN2Sy3YDF4qeAhgFv_vo
 language: pt
 feedback:
   - gostei
@@ -37,12 +37,12 @@ genre:
   - graphic novel
 dominant_color: "#a24b40"
 ---
-![blade-vol-3](/leituras/blade-a-lamina-do-imortal/img/blade-vol-3.jpg)
+![blade-vol-3](https://visu.marcal.dev/shared-images/vxXuPS_T8jiJL_g4u1aFUecvN2Sy3YDF4qeAhgFv_vo)
 
 **Volume 3**: Uma aliança surge entre Manji e Rin e um certo grupo. As coisas não esquentaram bem nesse volume. Seguirei acompanhando.
 
 ---
 
-![blade-vol-4](/leituras/blade-a-lamina-do-imortal/img/blade-vol-4.jpg)
+![blade-vol-4](https://visu.marcal.dev/shared-images/DfY7AXRrxnJCkN94uAmXffgoyy0jI19404NJtUM4UQA)
 
 **Volume 4**: Continua interessante mas confesso que em alguns momentos dá uma certa preguiça. De qualquer forma, histórias de samurais são bem intrigantes e esse volume tem cenas de extrema violência bem desenhandas.

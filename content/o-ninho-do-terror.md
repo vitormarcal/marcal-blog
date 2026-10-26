@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
-image: img/o-ninho-do-terror.png
+image: https://visu.marcal.dev/shared-images/ux0WSmm591YLNPy6-XEkAv-dj_dQzySWto91VENh2cg
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - horror
 dominant_color:
 ---
-![o-ninho-do-terror](img/o-ninho-do-terror.png)
+![o-ninho-do-terror](https://visu.marcal.dev/shared-images/ux0WSmm591YLNPy6-XEkAv-dj_dQzySWto91VENh2cg)
 
 O que parecia ser apenas um depósito de lixo comum na pacífica ilha de Yarkie revelou-se o ambiente perfeito para a proliferação de uma ameaça inesperada. O calor, a umidade e a abundância de alimento transformaram o local em um verdadeiro berçário. Quando uma alteração no controle de venenos desencadeia uma mutação imprevisível, nascem criaturas aterrorizantes: baratas gigantes e famintas. Agora, elas estão prontas para deixar seu ninho – e a caça por carne humana começou!
 

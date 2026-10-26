@@ -12,7 +12,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /img/necron/necron-volume-5-a-nobreza-depravada.png
+image: https://visu.marcal.dev/shared-images/6GY6czqYFfWOsIxA6yHcUrLaweaJN_QxfIYVnkiuAKk
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 dominant_color:
 ---
 
-![necron-volume-5-a-nobreza-depravada](img/necron/necron-volume-5-a-nobreza-depravada.png)
+![necron-volume-5-a-nobreza-depravada](https://visu.marcal.dev/shared-images/6GY6czqYFfWOsIxA6yHcUrLaweaJN_QxfIYVnkiuAKk)
 
 > Após deixarem a ilha, no final de **_"As Mulheres Aranhas"_**, a Dra. Frieda Boher e Necron encontram um estranho culto formado por mulheres da alta sociedade. Entre as facetas dessa sociedade secreta está a tortura sexual de homens e o canibalismo. Tudo isso em: A Nobreza Depravada.
 

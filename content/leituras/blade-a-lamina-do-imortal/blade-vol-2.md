@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/blade-a-lamina-do-imortal/img/blade-vol-2.jpg
+image: https://visu.marcal.dev/shared-images/jzk9Eljhcv8bxtbOU_dl7AzzJK2Z_Gj0qrWrw-9uk3g
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - graphic novel
 dominant_color: "#c499a2"
 ---
-![blade-vol-2](/leituras/blade-a-lamina-do-imortal/img/blade-vol-2.jpg)
+![blade-vol-2](https://visu.marcal.dev/shared-images/jzk9Eljhcv8bxtbOU_dl7AzzJK2Z_Gj0qrWrw-9uk3g)
 
 Manji e Rin - a garota que o samurai passa a acompanhar em sua busca por vingança pelo assassinato de seus pais enfrentam cada vez mais adversários. 
 

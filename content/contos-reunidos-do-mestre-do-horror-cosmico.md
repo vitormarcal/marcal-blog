@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/contos-reunidos-do-mestre-do-horror-cosmico.jpg
+image: https://visu.marcal.dev/shared-images/x9LV-ooEXqATDlAsF7A1wYb1YNh33whmiyD2goJccL8
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - horror cósmico
 ---
 
-![Contos Reunidos do Mestre do Horror Cósmico](img/contos-reunidos-do-mestre-do-horror-cosmico.jpg)
+![Contos Reunidos do Mestre do Horror Cósmico](https://visu.marcal.dev/shared-images/x9LV-ooEXqATDlAsF7A1wYb1YNh33whmiyD2goJccL8)
 
 Quase três meses se passaram,e essa foi uma longa e lenta leitura!
 

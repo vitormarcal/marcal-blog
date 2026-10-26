@@ -13,7 +13,7 @@ related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/musica]]"
   - "[[tags/portugues]]"
-image: img/www.moptopmusic.com_.png
+image: https://visu.marcal.dev/shared-images/EYZtJdHcopsRv2uwqK4F4Iy5VUgbY5VBEyBnHbkdsgQ
 language: pt
 localized_post_paths: 
 has_localized_posts: false
@@ -36,11 +36,11 @@ Caramba, que surpresa! Por essa eu não esperava. Redes sociais ativas, clipezin
 
 👉 https://www.moptopmusic.com/main.html 
 
-![entrada dp novo site de divulgação do moptop - 2025](img/www.moptopmusic.com_.png)
+![entrada dp novo site de divulgação do moptop - 2025](https://visu.marcal.dev/shared-images/EYZtJdHcopsRv2uwqK4F4Iy5VUgbY5VBEyBnHbkdsgQ)
 
 Uma mosca com seu zum-zum-zum de vez em quando aparece na tela. Se você coloca o mouse sobre ela, ela foge... A tela, como um monitor de tubo antigo, de vez em quando dá umas piscadas. O conteúdo? Um terminal:
 
-![página principal do novo site moptop](img/www.moptopmusic.com_main.html.png)
+![página principal do novo site moptop](https://visu.marcal.dev/shared-images/LiR6oNE3Stp4bQuhMAQrjcF9tro0Uvl5rCirgNcAT74)
 
 Aceita até alguns comandos que explicam, brevemente, algumas coisas importantes. Reproduzo aqui:
 - **WHO**: WE ARE MOPTOP, A BAND FROM BRAZIL. WE ARE BACK FROM A 15 YEAR HIATUS
@@ -48,7 +48,7 @@ Aceita até alguns comandos que explicam, brevemente, algumas coisas importantes
 - **OLD SITE**: E aqui leva ao antigo site da banda, que é uma **obra de arte**! Você tem que conferir:
 👉  https://www.moptopmusic.com/old.html
 
-![site antigo do moptop](img/www.moptopmusic.com_old.html.png)
+![site antigo do moptop](https://visu.marcal.dev/shared-images/tCWoWRkr5vv55XWUowJBR2hXXHn9V5ivZPRs8kUEYT4)
 
 É, meus amigos... Vocês não sabem o quão animado eu fiquei ao saber dessa volta. Sabemos que o rock, no Brasil, anda há algum tempo desprestigiado. Como a música da banda diz: "O Rock Acabou"...
 

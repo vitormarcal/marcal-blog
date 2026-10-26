@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg
+image: https://visu.marcal.dev/shared-images/xi8bJqQYEx8aY5yhe00Ev2fmzHi2rSo-54qdLfygwrQ
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
 ---
 
 
-![dragon-ball-vol-31-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-31-edicao-definitiva.jpg)
+![dragon-ball-vol-31-edicao-definitiva](https://visu.marcal.dev/shared-images/xi8bJqQYEx8aY5yhe00Ev2fmzHi2rSo-54qdLfygwrQ)
 
 Que volume de tirar o fôlego!
 

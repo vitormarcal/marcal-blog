@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/o-cranio-vivo-de-magnus.png
+image: https://visu.marcal.dev/shared-images/ODh0Y2qxs2QoDGBt0otKdondB7tn5IFq5zQLuaYSUos
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - suspense
 ---
 
-![o-cranio-vivo-de-magnus](img/o-cranio-vivo-de-magnus.png)
+![o-cranio-vivo-de-magnus](https://visu.marcal.dev/shared-images/ODh0Y2qxs2QoDGBt0otKdondB7tn5IFq5zQLuaYSUos)
 
 >Na floresta, o rei dos Gépidas, Cunimundo, salva a jovem Ersília das garras de um urso, mas faz dela sua amante. A avó de Ersília, uma verdadeira bruxa, mestra das artes mágicas, querendo vingança, influencia o rei Alboíno, inimigo de Cunimundo, para atacá-lo. Alboíno, por sua vez, quer para si Rosamunda, filha do rei inimigo, por isso pretende conquistar o reino dos Gépidas.
   Ao vencer a batalha, Alboíno toma posse de Rosamunda, finge libertar Cunimundo, mas manda matá-lo. Depois disso, transforma seu crânio em um copo no qual obriga Rosamunda a beber.

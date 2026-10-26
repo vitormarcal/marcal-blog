@@ -12,7 +12,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/deadworld/deadworld-volume-1.png
+image: https://visu.marcal.dev/shared-images/ZyDlaI76lohdUiihX_1PqK9pBFlr0b83GIShWeWH8J4
 language: pt
 feedback:
   - não gostei
@@ -39,7 +39,7 @@ genre:
 dominant_color: "#861e1a"
 ---
 
-![hq-heros-americains](/leituras/deadworld/deadworld-volume-1.png)
+![hq-heros-americains](https://visu.marcal.dev/shared-images/ZyDlaI76lohdUiihX_1PqK9pBFlr0b83GIShWeWH8J4)
 
 > Em Deadworld Volume 1, a luta pela sobrevivência assume um tom desesperador quando um grupo de adolescentes se vê preso em um mundo onde os mortos não apenas ressuscitaram, mas agora possuem uma mente coletiva assustadora. Conhecidos como "GEEKS", esses zumbis inteligentes são liderados por King Zombie, uma entidade impiedosa com um desejo insaciável de domínio. Enquanto nossos jovens heróis enfrentam desafios mortais, a humanidade ao redor já se despedaça, tornando a jornada uma corrida não apenas contra os mortos, mas contra a essência do que resta de humanidade. Vince Locke nos leva por caminhos sombrios com sua arte visceral, enquanto Stuart Kerr tece uma narrativa que explora o medo, a esperança e a desesperança.
 

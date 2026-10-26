@@ -11,7 +11,7 @@ updated_at: ""
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/novas-comedias-da-vida-privada/novas-comedias-da-vida-privada.jpg
+image: https://visu.marcal.dev/shared-images/J9E_939TmVNzjAqxf5f3GGGBHIS2VcgSxk4GCSJ8VO8
 language: pt
 feedback:
   - gostei
@@ -36,7 +36,7 @@ genre:
 dominant_color: "#a67353"
 ---
 
-![Novas Comédias da Vida Privada: 123 Crônicas Escolhidas](/leituras/novas-comedias-da-vida-privada/novas-comedias-da-vida-privada.jpg)
+![Novas Comédias da Vida Privada: 123 Crônicas Escolhidas](https://visu.marcal.dev/shared-images/J9E_939TmVNzjAqxf5f3GGGBHIS2VcgSxk4GCSJ8VO8)
 
 > 'Novas Comédias da Vida Privada' apresenta 123 histórias contadas por Luis Fernando Verissimo. A maioria é inédita em livro. O sucesso lítero-televiso de 'Comédias da Vida Privada' tem continuidade com este novo livro repleto de casos, contos crônicas, reflexões e críticas bem-humoradas de tipos e situações cotidianas.
 

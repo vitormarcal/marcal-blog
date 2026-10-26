@@ -11,10 +11,10 @@ tags:
 related:
   - "[[tags/programacao]]"
   - "[[tags/portugues]]"
-image: img/kawarimi_no_jutsu.png
+image: https://visu.marcal.dev/shared-images/vr8kR0X36HQkL1hez6XShW0BeZaa1TnrQeDNO5t8leM
 language: pt
 ---
-![Como mockar requisições do retrofit](img/kawarimi_no_jutsu.png)
+![Como mockar requisições do retrofit](https://visu.marcal.dev/shared-images/vr8kR0X36HQkL1hez6XShW0BeZaa1TnrQeDNO5t8leM)
 
 __Kawarimi no Jutsu__ - Técnica de substituição / Photo by Naruto
 

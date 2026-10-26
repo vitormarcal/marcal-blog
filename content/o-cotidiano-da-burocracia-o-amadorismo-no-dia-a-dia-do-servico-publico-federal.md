@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: img/o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal.png
+image: https://visu.marcal.dev/shared-images/NoDw2tUTgyM8VaxKJEmW2HM9jO0zcPO6wh_EtCiccqs
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - serviço público
 ---
 
-![o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal](img/o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal.png)
+![o-cotidiano-da-burocracia-o-amadorismo-no-dia-a-dia-do-servico-publico-federal](https://visu.marcal.dev/shared-images/NoDw2tUTgyM8VaxKJEmW2HM9jO0zcPO6wh_EtCiccqs)
 
 > Um profissional conhece seu trabalho, especializa-se nele, possui os instrumentos necessários e executa as tarefas de forma previsível e cautelosa. A burocracia pública federal, no entanto, está em constante reformulação, repleta de novos projetos, vale-se de procedimentos obscuros e instáveis, é generalista e apressada. Com uma organização resultante de sucessivas e inacabadas reformas, trabalha sem gestão de pessoas ou de materiais. Não há aumento de responsabilidade, complexidade das tarefas ou hierarquia ao longo dos anos de serviço: os chefes são nomeados sem qualquer critério formal, não têm mandato e são removidos sem aviso prévio. Projetos novos são iniciados usando os mesmos recursos dos antigos, que são, simplesmente, esquecidos. Até mesmo repartições inteiras são criadas e extintas ao sabor das circunstâncias. O burocrata, na verdade, nunca sabe o que fará na semana seguinte. Poderá passar os dias carimbando papéis ou reunindo-se com embaixadores, ou mesmo ficar sem qualquer tarefa específica. O resultado é um ambiente de trabalho marcadamente amador, no qual as atividades se dão de forma exploratória e incipiente.
 

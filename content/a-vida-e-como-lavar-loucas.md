@@ -11,11 +11,11 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/a-vida-e-como-lavar-loucas.jpg
+image: https://visu.marcal.dev/shared-images/DoGuvxF7OG9Kn3NdsP5TIjywR2Pr-ngaPSL_dWDSeJQ
 language: pt
 ---
 
-![a-vida-e-como-lavar-loucas](img/a-vida-e-como-lavar-loucas.jpg)
+![a-vida-e-como-lavar-loucas](https://visu.marcal.dev/shared-images/DoGuvxF7OG9Kn3NdsP5TIjywR2Pr-ngaPSL_dWDSeJQ)
 
 A vida é como lavar louças.
 

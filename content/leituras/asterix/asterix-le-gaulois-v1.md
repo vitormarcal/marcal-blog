@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/asterix/img/asterix-le-gaulois-v1.jpg
+image: https://visu.marcal.dev/shared-images/VpT0ud_EdEZGH8zNKbLn9X7Kfg9AQ-sJ2-Vrrk6zpf4
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   -  bande dessinée
 dominant_color: "#64ae23"
 ---
-![asterix-le-gaulois-v1](/leituras/asterix/img/asterix-le-gaulois-v1.jpg)
+![asterix-le-gaulois-v1](https://visu.marcal.dev/shared-images/VpT0ud_EdEZGH8zNKbLn9X7Kfg9AQ-sJ2-Vrrk6zpf4)
 
 Nossa, que nostalgia! Foi a primeira vez que li _Astérix_ na vida, mas a todo momento senti saudades da infância, dos domingos à tarde assistindo filmes com meu pai. Lembro-me de ver junto com ele o filme do _Astérix_ com Gérard Depardieu. Aliás, apesar de os filmes não adaptarem exatamente o primeiro volume de _Astérix_ (o _Le Gaulois_, sobre o qual escrevo aqui), o filme aproveita algumas situações da BD.
 

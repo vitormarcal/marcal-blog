@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /leituras/kick-ass/kick-ass-volume-2.jpg
+image: https://visu.marcal.dev/shared-images/BLcOJj_Hsmxne6lNdj9F7A3Vi2FOn1kT7TxGVRSUleY
 language: pt
 feedback:
   - gostei
@@ -38,6 +38,6 @@ genre:
   - graphic novel
 dominant_color: "#5b1337"
 ---
-![kick-ass](/leituras/kick-ass/kick-ass-volume-2.jpg)
+![kick-ass](https://visu.marcal.dev/shared-images/BLcOJj_Hsmxne6lNdj9F7A3Vi2FOn1kT7TxGVRSUleY)
 
 A história continua agora com a pequena Mindy tendo que lidar com algo pior do que os bandidos que ela enfretava: os adolescentes de sua escola! Não é surpresa, ela é uma especialista em armas, lutas e assasínio mas todos esses anos de treinamento nessas habilidades lhe custou a habilidade de conviver com outros jovens da mesma idade. Nesse volume, Mindy tenta ter uma vida normal, enquanto treina nosso Kick-Ass! Vale a leitura!

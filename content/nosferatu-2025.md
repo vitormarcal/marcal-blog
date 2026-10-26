@@ -9,7 +9,7 @@ tags:
   - video
 related:
   - "[[tags/video]]"
-image: img/movies/2025/nosferatu-2025-a.png
+image: https://visu.marcal.dev/shared-images/o9tA3DgSFPGAjE2XWSi8yuYHJf-DCq1zRDglSdG5-aI
 language: pt
 localized_post_paths: 
 has_localized_posts: false
@@ -34,10 +34,10 @@ Adoro tudo sobre vampiros, especialmente aqueles que remetem à mitologia raiz. 
 
 Devo admitir que, em alguns momentos, a escuridão me incomodou um pouco, mas entendo completamente que essa é a proposta do filme. Acredito que essa técnica foi usada para criar uma atmosfera de _pura maldade_, onde a luz e a esperança não existem. 
 
-![nosferatu-2025](img/movies/2025/nosferatu-2025-a.png)
+![nosferatu-2025](https://visu.marcal.dev/shared-images/o9tA3DgSFPGAjE2XWSi8yuYHJf-DCq1zRDglSdG5-aI)
 
 Apesar da constante escuridão, o filme trouxe ótimos momentos de luz que contrastam de forma marcante com a ambientação sombria. 
 
 Willem Dafoe, mais uma vez, entregou uma atuação insana. Ele é simplesmente "o cara", sem dúvidas!
 
-![nosferatu-2025](img/movies/2025/nosferatu-2025-b.png)
+![nosferatu-2025](https://visu.marcal.dev/shared-images/yVd5oDlqS7fU_p08U95om3wwy8N5QGBAw7thjcyTy6E)

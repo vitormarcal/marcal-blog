@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: img/manual-de-psicologia-cognitiva.png
+image: https://visu.marcal.dev/shared-images/5Mwkk7iueEwYlvbiJaZk39YZJx9QEM17Ubu1gS12_cQ
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - pscológico
 dominant_color: "#132240"
 ---
-![manual-de-psicologia-cognitiva](img/manual-de-psicologia-cognitiva.png)
+![manual-de-psicologia-cognitiva](https://visu.marcal.dev/shared-images/5Mwkk7iueEwYlvbiJaZk39YZJx9QEM17Ubu1gS12_cQ)
 
 > Manual de psicologia cognitiva, principal livro da área, chega a sua 7ª edição totalmente atualizado, trazendo uma cobertura ampla de todos os ramos da disciplina. Considerando a cognição humana em contexto, este livro tem por objetivo auxiliar os estudantes a desenvolverem uma compreensão profunda dos fundamentos de psicologia cognitiva.
 

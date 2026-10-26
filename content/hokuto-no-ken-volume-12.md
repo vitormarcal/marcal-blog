@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-12.jpg
+image: https://visu.marcal.dev/shared-images/MLg58Hmj9qEoxsWB2H9PFhAOwuqK07AdIaCHRTpX8QA
 language: pt
 feedback:
   - neutro
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-12](img/hokuto-no-ken/hokuto-no-ken-volume-12.jpg)
+![hokuto-no-ken-volume-12](https://visu.marcal.dev/shared-images/MLg58Hmj9qEoxsWB2H9PFhAOwuqK07AdIaCHRTpX8QA)
 
 > Bat e Lin, liderando a Armada de Hokuto, avançam para cima do exército da Capital Imperial enquanto Kenshiro precisa enfrentar Falco, o Dourado, sucessor do estilo Gento Ko-ken.Hokuto Shin-ken e Gento Ko-ken…Ambos são guerreiros que carregam a estrela protetora do Imperador Celestial, e no momento em que colidirem, o Céu se partirá em dois!“Vou derrubá-lo, pelo meu amigo! Não tenho outra escolha!!”
 

@@ -11,11 +11,11 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/um-momento-entre-os-ipes.jpg
+image: https://visu.marcal.dev/shared-images/_TmqaOiwWp6Q-2wivOttrD1rEteGOPsm9Al0_nznFw8
 language: pt
 ---
 
-![Vista da floração de  Ipês em Brasília](img/um-momento-entre-os-ipes.jpg)
+![Vista da floração de  Ipês em Brasília](https://visu.marcal.dev/shared-images/_TmqaOiwWp6Q-2wivOttrD1rEteGOPsm9Al0_nznFw8)
 Fotografia tirada próximo aos prédios do INSS, AGU e Caixa, em Brasília.
 
 Como é linda a época de floração dos ipês! Dentre todas as espécies, o **`ipê-amarelo`** é, para mim, o mais bonito!

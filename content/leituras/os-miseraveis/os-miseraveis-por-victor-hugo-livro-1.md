@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png
+image: https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM
 language: pt
 book_author:
   - Victor Hugo
@@ -30,7 +30,7 @@ dominant_color: "#301f16"
 localized_post_paths: 
 has_localized_posts: false
 ---
-![os-miseraveis-por-victor-hugo-livro-1](/leituras/os-miseraveis/os-miseraveis-por-victor-hugo.png)
+![os-miseraveis-por-victor-hugo-livro-1](https://visu.marcal.dev/shared-images/aFJJ8Fl_Y0iFZMcPPDMQi6JNJPhJeYOMlMNOa63MpZM)
 
 Terminei o primeiro livro, que, em resumo, é a biografia do Bispo Myriel, ou como é chamado, Monsenhor Bienvenu. Já dá para notar, desde os primeiros capítulos, que Hugo não vai economizar palavras. Ele descreve o ambiente, os personagens, e vai dispor do tempo que for necessário para comunicar o que deseja. Portanto, o primeiro volume se ocupa em descrever todo um contexto ao redor do Bispo, que provavelmente terá importância ao longo do romance.
 

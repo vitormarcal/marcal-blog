@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/NewPOP_Mushishi01-3.jpg
+image: https://visu.marcal.dev/shared-images/5FEnuOJ_V9oGfQaLr0tjW_7HXbThqB7UGzacJjmHma4
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - sobrenatural
 ---
 
-![Mushishi](img/NewPOP_Mushishi01-3.jpg)
+![Mushishi](https://visu.marcal.dev/shared-images/5FEnuOJ_V9oGfQaLr0tjW_7HXbThqB7UGzacJjmHma4)
 
 Acompanhamos Ginko, um Mushishi, um especialista em mushis, organismos que estão no limiar entre os seres vivos e os seres espirituais. Esse foi o primeiro de cinco volumes que ainda serão lançados pela editora NewPop.
 

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/neon-genesis-evangelion-collectors-edition-vol-04.jpg
+image: https://visu.marcal.dev/shared-images/lvz2CgjtgJE-sVgYMs_GGCvxVwKYxKXCURDqnB9Wm78
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - pscológico
 ---
 
-![neon-genesis-evangelion-collectors-edition-vol-04](img/neon-genesis-evangelion-collectors-edition-vol-04.jpg)
+![neon-genesis-evangelion-collectors-edition-vol-04](https://visu.marcal.dev/shared-images/lvz2CgjtgJE-sVgYMs_GGCvxVwKYxKXCURDqnB9Wm78)
 
 > Depois do acidente que ocorreu durante a batalha contra o último Anjo, Shinji está decidido a nunca mais pilotar um Eva e confronta seu pai. Porém, enquanto Asuka e Rei enfrentam um novo e poderoso inimigo, o garoto fica sabendo mais a fundo sobre o que foi o Segundo Impacto. Já nos bastidores, uma batalha de poder se desenrola ao mesmo tempo que a origem na NERV é revelada.
 

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /img/neon-genesis-evangelion-collectors-edition-vol-07.jpg
+image: https://visu.marcal.dev/shared-images/pAgZaTmYAlKZGz-N3b4D_3IrYd-dIQYL0x4EoczX-p8
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - pscológico
 dominant_color: "#a396a4"
 ---
-![neon-genesis-evangelion-collectors-edition-vol-07](/img/neon-genesis-evangelion-collectors-edition-vol-07.jpg)
+![neon-genesis-evangelion-collectors-edition-vol-07](https://visu.marcal.dev/shared-images/pAgZaTmYAlKZGz-N3b4D_3IrYd-dIQYL0x4EoczX-p8)
 
 > É chega a hora da batalha final contra os Anjos. E também é chegada hora de Shinji superar seus traumas e medos e mostrar o seu verdadeiro valor. Enquanto uma luta épica se desenrola, nos bastidores os chefões da SEELE seguem no encalço de Gendo Ikari, o pai de Shinji e aquele que usou sua posição dentro da NERV para alcançar seus objetivos pessoais. Adão, EVA, Anjos e seres humanos eclodem em um final emocionante onde muitas perguntas são respondidas ao mesmo tempo que surgem novas
 

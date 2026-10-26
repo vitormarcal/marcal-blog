@@ -12,7 +12,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /img/necron/necron-volume-6-massacre-no-trem-noturno.png
+image: https://visu.marcal.dev/shared-images/-mJyWFgw0Hka2DP6GiV8nsojy3a16Xj3b0CVeNaI_mA
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 dominant_color:
 ---
 
-![necron-volume-6-massacre-no-trem-noturno](img/necron/necron-volume-6-massacre-no-trem-noturno.png)
+![necron-volume-6-massacre-no-trem-noturno](https://visu.marcal.dev/shared-images/-mJyWFgw0Hka2DP6GiV8nsojy3a16Xj3b0CVeNaI_mA)
 
 > Depois do estranho jantar com **_"A Nobreza Depravada"_**, Necron e Frieda transformam sua fuga em um verdadeiro rastro de sangue, após ingressarem em um trem para cruzar a Europa. Tudo isso em: Massacre no Trem Noturno.
 

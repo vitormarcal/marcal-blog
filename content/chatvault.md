@@ -15,7 +15,7 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/privacidade]]"
   - "[[tags/programacao]]"
-image: img/chatvault/chatvault-blur-enabled.png
+image: https://visu.marcal.dev/shared-images/uqZYlCLla2ejcyJdRwn3rhWThIfyu8X_XIWzqfxgTvk
 language: pt
 localized_post_paths:
   - "[[en/chatvault]]"
@@ -25,7 +25,7 @@ has_localized_posts: true
 
 ## Chatvault
 
-![Print de tela da Interface do chatvault exibe um efeito de desfoque (blur) aplicado sobre o texto das mensagens. À esquerda, há uma área com a lista de chats, onde cada chat é acompanhado pela imagem de perfil correspondente. No centro, o chat aberto exibe o conteúdo das mensagens de forma visível. À direita, é possível ver a galeria de imagens do chat, mostrando as miniaturas das imagens disponíveis na galeria.](img/chatvault/chatvault-blur-enabled.png)
+![Print de tela da Interface do chatvault exibe um efeito de desfoque (blur) aplicado sobre o texto das mensagens. À esquerda, há uma área com a lista de chats, onde cada chat é acompanhado pela imagem de perfil correspondente. No centro, o chat aberto exibe o conteúdo das mensagens de forma visível. À direita, é possível ver a galeria de imagens do chat, mostrando as miniaturas das imagens disponíveis na galeria.](https://visu.marcal.dev/shared-images/uqZYlCLla2ejcyJdRwn3rhWThIfyu8X_XIWzqfxgTvk)
 
 
 Há pelo menos dois anos, eu vinha com uma ideia na cabeça: encontrar uma solução independente para registrar e acessar minhas conversas do WhatsApp. Sempre odiei a forma como o backup funciona — dependendo de circunstâncias como a troca de celular, acabei perdendo muitas mensagens preciosas. Além disso, não gosto de depender do Google para armazenar esses dados, tanto por ideologia quanto por querer explorar alternativas.

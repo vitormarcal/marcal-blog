@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/o-processo-de-franz-kafka.jpg
+image: https://visu.marcal.dev/shared-images/psscVXu3dNflV7OCuGZ-VYVguJGp_4RE5fln9PRZ03U
 language: pt
 feedback:
   - não gostei
@@ -35,7 +35,7 @@ genre:
   - pscológico
 ---
 
-![o-processo-de-franz-kafka](img/o-processo-de-franz-kafka.jpg)
+![o-processo-de-franz-kafka](https://visu.marcal.dev/shared-images/psscVXu3dNflV7OCuGZ-VYVguJGp_4RE5fln9PRZ03U)
 
 > Na sua luta para descobrir por que o acusam, por quem é acusado e que lei ampara a acusação, K. defronta permanentemente com a impossibilidade de escolher um caminho que lhe pareça sensato ou lógico, pois o processo de que é vítima segue leis próprias: as leis do arbítrio.
 

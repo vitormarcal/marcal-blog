@@ -10,7 +10,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg
+image: https://visu.marcal.dev/shared-images/390wuV0VuOQ9pVElA-Xoff1MIXQIuidGfnZRC2oMPGA
 language: pt
 feedback:
   - gostei
@@ -33,7 +33,7 @@ genre:
   - ciência
 ---
 
-![A Grande História da Evolução, por Richard Dawkins](img/a-grande-historia-da-evolucao-por-richard-dawkins.jpg)
+![A Grande História da Evolução, por Richard Dawkins](https://visu.marcal.dev/shared-images/390wuV0VuOQ9pVElA-Xoff1MIXQIuidGfnZRC2oMPGA)
 
 Como sempre, Richard Dawkins escreve de uma maneira bem fluida, e, portanto, este é um ótimo livro de divulgação científica. Há ouro aqui.
 

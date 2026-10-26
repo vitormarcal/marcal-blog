@@ -11,10 +11,10 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/protegendo-plantinhas-de-fezes-de-animais.jpg
+image: https://visu.marcal.dev/shared-images/SEdXvaFyoohf-ebJzbupfjia6MR-8z6uYRTq1KqHUx4
 language: pt
 ---
 
-![Protegendo plantinhas de fezes de animais com espetinhos de churrasco](img/protegendo-plantinhas-de-fezes-de-animais.jpg)
+![Protegendo plantinhas de fezes de animais com espetinhos de churrasco](https://visu.marcal.dev/shared-images/SEdXvaFyoohf-ebJzbupfjia6MR-8z6uYRTq1KqHUx4)
 
 Todo dia dois gatos 😸 faziam cocô 💩😄 onde meu pai planta umas plantinhas. Essa foi a solução dele. Sim, são espetinhos de churrasco.

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hq-heros-americains.jpg
+image: https://visu.marcal.dev/shared-images/3s7BpdaCeePfMgLvMJMENoUQ95LdqXxNdJHhTO1vNUM
 language: pt
 feedback:
   - neutro
@@ -38,7 +38,7 @@ genre:
   - graphic novel
 ---
 
-![hq-heros-americains](img/hq-heros-americains.jpg)
+![hq-heros-americains](https://visu.marcal.dev/shared-images/3s7BpdaCeePfMgLvMJMENoUQ95LdqXxNdJHhTO1vNUM)
 
 >Coraline tem um namorado: O DJ. Só que ele não sabe disso. O DJ costuma tocar pelos subúrbios élficos do bairro que ele e Coraline moram.Nesse mundo, os elfos foram seduzidos pela modernidade e perderam suas raízes ancestrais. Se tornaram materialistas e consumistas, perdendo o seu contato com a natureza. As florestas do mundo viraram grandes favelas élficas e os elfos se adaptaram a cultura e a tecnologia humana.
 

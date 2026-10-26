@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/livros]]"
   - "[[leituras-de-2024]]"
-image: img/abecedario-de-personagens-do-folclore-brasileiro.jpg
+image: https://visu.marcal.dev/shared-images/H6Da5_mWVqGtULNKhYhx_8RxdZcwe5o9NuWKRh_SoTc
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - mitologia
 ---
 
-![abecedario-de-personagens-do-folclore-brasileiro](img/abecedario-de-personagens-do-folclore-brasileiro.jpg)
+![abecedario-de-personagens-do-folclore-brasileiro](https://visu.marcal.dev/shared-images/H6Da5_mWVqGtULNKhYhx_8RxdZcwe5o9NuWKRh_SoTc)
 
 > Este livro reúne 141 personagens significativas e recorrentes do nosso folclore, com um recorte que busca contemplar a diversidade de origens – indígena, africana, europeia e oriental – como elemento constituinte da cultura brasileira. São humanos, bichos e seres fantásticos, que convivem e se misturam nas histórias populares. Cada personagem é apresentada em forma de verbete ilustrado, que descreve suas características físicas e psicológicas, sua origem e as narrativas em que aparece. O texto ainda faz a relação cultural e literária com outras fontes da bibliografia. As ilustrações ressaltam os traços físicos e de caráter ou mostram determinada situação da aventura folclórica do ser mítico.
 

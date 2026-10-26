@@ -15,7 +15,7 @@ related:
   - "[[suspiria-coracao-em-chamas]]"
   - "[[suspiria-do-reino-das-trevas]]"
   - "[[tags/portugues]]"
-image: img/suspiria-herege.jpg
+image: https://visu.marcal.dev/shared-images/FjXK4iet9Tg28ZVS0S9CA65gB6pmzIXRMSIJECWYzWA
 language: pt
 feedback:
   - gostei
@@ -44,7 +44,7 @@ genre:
   - erótico
 ---
 
-![suspiria-do-reino-das-trevas](img/suspiria-herege.jpg)
+![suspiria-do-reino-das-trevas](https://visu.marcal.dev/shared-images/FjXK4iet9Tg28ZVS0S9CA65gB6pmzIXRMSIJECWYzWA)
 
 > Suspiria, a manifestação onipresente do medo e desespero, vagueia pela Terra desde o alvorecer dos tempos, punindo almas inertes diante do próprio destino. Nesta edição, somos levados ao coração sombrio do universo Suspiriano, onde o legado de H.P. Lovecraft se entrelaça em uma dança macabra de desespero e redenção. Com a Santa Morte e as irmãs de Suspiria ao lado, exploramos a história não contada do exílio de Lúcifer, uma jornada que ressoará através da eternidade. Cada traço de Luca Laca e Andrea Bulgarelli aprofunda a narrativa, criando uma tapeçaria visual sombria e envolvente.
 

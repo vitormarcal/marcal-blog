@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-11.jpg
+image: https://visu.marcal.dev/shared-images/ZsSaYr9DzON-a4VXZ6Gd6aS9Q84YfCeBfbWU_yKi7sc
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-11](img/hokuto-no-ken/hokuto-no-ken-volume-11.jpg)
+![hokuto-no-ken-volume-11](https://visu.marcal.dev/shared-images/ZsSaYr9DzON-a4VXZ6Gd6aS9Q84YfCeBfbWU_yKi7sc)
 
 > Depois de inúmeras batalhas mortais com amigos e rivais, a paz finalmente voltou, e Kenshiro pôde passar os últimos momentos de Yuria ao seu lado.Porém, o mundo voltou a ficar conturbado...Será que os olhos de Kenshiro, que perderam tudo uma vez, conseguirão recuperar a luz da esperança novamente?A história secreta do salvador do século é finalmente revelada!“Vamos andar juntos, abraçando o destino do sucessor do Hokuto Shin‑ken!”
 

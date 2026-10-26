@@ -13,11 +13,11 @@ related:
   - "[[guia-bitcoin]]"
   - "[[meu-segundo-homelab-montado]]"
   - "[[tags/portugues]]"
-image: img/bitcoin-node.jpg
+image: https://visu.marcal.dev/shared-images/xAEHoHZi0hIhldMKYT-kFO9ocp7V8DoGhwOejWApAOg
 language: pt
 ---
 
-![Como configurar um node bitcoin](img/bitcoin-node.jpg)
+![Como configurar um node bitcoin](https://visu.marcal.dev/shared-images/xAEHoHZi0hIhldMKYT-kFO9ocp7V8DoGhwOejWApAOg)
 
 ## Sumário
 

@@ -10,7 +10,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/img/o-gene-egoista-por-richard-dawkins.jpg
+image: https://visu.marcal.dev/shared-images/BowXhjCkyTJM4acZ3q-DYsdwl3Vosj5AajKv9pOvRt4
 language: pt
 feedback:
   - gostei
@@ -35,7 +35,7 @@ genre:
 dominant_color: "#106443"
 ---
 
-![O gene egoísta](/leituras/img/o-gene-egoista-por-richard-dawkins.jpg)
+![O gene egoísta](https://visu.marcal.dev/shared-images/BowXhjCkyTJM4acZ3q-DYsdwl3Vosj5AajKv9pOvRt4)
 
 Li O Gene Egoísta pela primeira vez em 2013, quando ainda estava na graduação. Naquela época, eu consumia mais divulgação científica do que textos da minha própria área (computação e programação), e talvez por isso Dawkins tenha me marcado tanto. Ele combina clareza, rigor e imaginação científica de um jeito raro.
 

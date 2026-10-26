@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/blade-a-lamina-do-imortal/img/blade-vol-1.jpg
+image: https://visu.marcal.dev/shared-images/82_tbtWFobC-7OysStSp-wwAse4YJ6xt9gH-QZXibvU
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - graphic novel
 dominant_color: "#8a8068"
 ---
-![blade-vol-1](/leituras/blade-a-lamina-do-imortal/img/blade-vol-1.jpg)
+![blade-vol-1](https://visu.marcal.dev/shared-images/82_tbtWFobC-7OysStSp-wwAse4YJ6xt9gH-QZXibvU)
 
 Esse eu já li mas já havia um tempo que eu queria uma releitura.
 

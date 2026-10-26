@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-29-edicao-definitiva.jpg
+image: https://visu.marcal.dev/shared-images/s4vGwhmRETHnK5vyYGj0awhSA2nsiMywz8A0eG7pu30
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - shonen
 ---
 
-![Dragon Ball Vol 29  - Edição Definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-29-edicao-definitiva.jpg)
+![Dragon Ball Vol 29  - Edição Definitiva](https://visu.marcal.dev/shared-images/s4vGwhmRETHnK5vyYGj0awhSA2nsiMywz8A0eG7pu30)
 
 Dragon Ball Vol 29 - Edição DefinitivaDragon Ball Vol 29 - Edição Definitiva / Photo by Acervo Pessoal
 

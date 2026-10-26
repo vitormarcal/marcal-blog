@@ -14,11 +14,11 @@ related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/amor]]"
   - "[[tags/portugues]]"
-image: img/nao-se-mate-carlos.jpg
+image: https://visu.marcal.dev/shared-images/C7yuMlTiG-nt_YcYuUQDB-6_1fbq8y5BdylLZlG_2HM
 language: pt
 ---
 
-![Não se mate, de Carlos Drummond de Andrade](img/nao-se-mate-carlos.jpg)
+![Não se mate, de Carlos Drummond de Andrade](https://visu.marcal.dev/shared-images/C7yuMlTiG-nt_YcYuUQDB-6_1fbq8y5BdylLZlG_2HM)
 
 Às vezes acontece de ler algo e a interpretação que você tira é totalmente diferente de quando você o reler algum tempo
 depois. Isso é o esperado, visto que nossa vivência está sempre nos moldando, nossa história são calos que marcam e

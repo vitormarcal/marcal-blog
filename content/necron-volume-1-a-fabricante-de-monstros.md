@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/necron/necron-volume-1-a-fabricante-de-monstros.jpg
+image: https://visu.marcal.dev/shared-images/zf77ELz7V7C7UapPkFqGvBrjJsN8MiW0geh2FXh7NU0
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - horror
 ---
 
-![necron-volume-1-a-fabricante-de-monstros](img/necron/necron-volume-1-a-fabricante-de-monstros.jpg)
+![necron-volume-1-a-fabricante-de-monstros](https://visu.marcal.dev/shared-images/zf77ELz7V7C7UapPkFqGvBrjJsN8MiW0geh2FXh7NU0)
 
 >Necron é uma paródia sexy de Frankenstein e apresenta as aventuras da Dra. Frieda Boher, uma ninfomaníaca necrófila, e de sua criatura, Necron, um humanóide forte, bem dotado e canibal, criado com partes de cadáveres para satisfazer os desejos de Frieda.
 

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/cantinho-xxx.jpg
+image: https://visu.marcal.dev/shared-images/jLdnL1bBnv7iJTy_iQCmi60sRteKEY4zWYj3GRejCOg
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - humor
 ---
 
-![cantinho-xxx](img/cantinho-xxx.jpg)
+![cantinho-xxx](https://visu.marcal.dev/shared-images/jLdnL1bBnv7iJTy_iQCmi60sRteKEY4zWYj3GRejCOg)
 >Era início dos anos 2000 e Caio Oliveira já tinha contas para pagar. Além disso, ele queria entrar para o mercado editorial de quadrinhos no Brasil, de qualquer maneira.
 
 Já faz um tempo que acompanho Caio Oliveira, do "Cantinho do Caio", nas redes sociais. Sempre que sai alguma coisa dele no Catarse, tento apoiar.

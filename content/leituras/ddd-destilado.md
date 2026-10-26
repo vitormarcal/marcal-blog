@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
   - "[[tags/programacao]]"
-image: /img/ddd-destilado.jpg
+image: https://visu.marcal.dev/shared-images/a8NNisgOZUbwyEHdTcXbUYUjmSrr49Y5mjzCecpsmbU
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 dominant_color: "#2c9540"
 ---
 
-![Domain-Driven Design Destilado](/img/ddd-destilado.jpg)
+![Domain-Driven Design Destilado](https://visu.marcal.dev/shared-images/a8NNisgOZUbwyEHdTcXbUYUjmSrr49Y5mjzCecpsmbU)
 
 
 Esse é um resumo, um trabalho bem sucinto. Como o título diz, é um trabalho _destilado_, para quem não tem pressa e é muito bom!

@@ -15,7 +15,7 @@ related:
   - "[[suspiria-coracao-em-chamas]]"
   - "[[suspiria-herege]]"
   - "[[tags/portugues]]"
-image: img/suspiria-do-reino-das-trevas.jpg
+image: https://visu.marcal.dev/shared-images/8LC4818xwdHgMLWmvy9nQq_BPL1HqFQcwUGPCmjpEZE
 language: pt
 feedback:
   - gostei
@@ -45,7 +45,7 @@ genre:
   - erótico
 ---
 
-![suspiria-do-reino-das-trevas](img/suspiria-do-reino-das-trevas.jpg)
+![suspiria-do-reino-das-trevas](https://visu.marcal.dev/shared-images/8LC4818xwdHgMLWmvy9nQq_BPL1HqFQcwUGPCmjpEZE)
 
 > Suspiria é a personificação onipresente do medo e do desespero. Ela perambula pela Terra desde o início dos tempos, caçando e punindo almas que não conseguem se livrar do próprio destino por pura indolência. Suspiria está sempre na companhia da sua mãe Santa Morte e das suas três irmãs: Nenia Candelaria, Sudaria e Grimoria. Elas são as Deusas das Trevas, as consoladoras da paz eterna. Uma fúria infernal ungida do Reino das Trevas, região situada nas profundezas do planeta, uma força cosmológica universal suspensa no tempo eterno por onde essa tétrade infernal se move entre os séculos de história da humanidade. Um verdadeiro asilo do universo. Suspiria: Do Reino das Trevas (Capa Dura)
 

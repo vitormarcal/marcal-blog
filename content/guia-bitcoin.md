@@ -12,11 +12,11 @@ tags:
 related:
   - "[[tags/bitcoin]]"
   - "[[tags/portugues]]"
-image: img/guia-bitcoin.jpg
+image: https://visu.marcal.dev/shared-images/6kwQ74LO61HNhl4avmue-2bMRLbmtU8AoMRymdmrPg8
 language: pt
 ---
 
-![guia-bitcoin](img/guia-bitcoin.jpg)
+![guia-bitcoin](https://visu.marcal.dev/shared-images/6kwQ74LO61HNhl4avmue-2bMRLbmtU8AoMRymdmrPg8)
 
 Esse é um guia de conceitos básicos sobre o bitcoin. Estou adicionando mais informações à medida que vou aprendendo mais. Por mais que as informações aqui possam ser úteis e que eu tenha tentado transmiti-las da forma mais correta possível, essas informações foram reunidas na medida em que eu mesmo fui pesquisando e aprendendo um pouco mais sobre o assunto. Portanto, ainda assim podem ter algumas informações não muito precisas. Caso ocorra, agradeço a gentileza de me informar que corrijo o mais breve possível! Não confie, verifique! ⚠️ **Atualizado em 15 de Fevereiro de 2024**.
 
@@ -65,7 +65,7 @@ A chave pública, ou chave pública mestra (**Master Public Key**), atua como o 
 
 Para solucionar potenciais problemas de segurança e privacidade, é comum hoje em dia gerar um endereço público (outra chave pública) derivado matematicamente da chave pública mestre. Dessa forma, ao enviar uma moeda, é recomendável que o destinatário crie um endereço público derivado da sua chave pública mestre. Em seguida, ele compartilhará esse endereço público com o remetente, que o utilizará para enviar as moedas. Isso resulta em sua chave pública e privada tornando-se informações pessoais, e o que você compartilhará é o endereço público derivado da sua chave pública mestre.
 
-![Relações entre as chaves BTC](img/relacoees-entre-as-chaves-BTC.png)
+![Relações entre as chaves BTC](https://visu.marcal.dev/shared-images/y8O5hEL_qcy_1v536z1gQ97qgFgRNxpifmOhl4wZgkE)
 
 Observe que ao informar sua chave pública mestra, todas as suas transações nos endereços públicos relacionados a ela serão conhecidas. Isso é prejudicial para a privacidade, por isso, utilize chaves públicas geradas a partir da chave pública mestra. Por fim, nunca divulgue sua chave privada, pois uma vez informada, sua conta estará comprometida e outra pessoa poderá sacar suas moedas.
 

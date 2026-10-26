@@ -15,7 +15,7 @@ related:
   - "[[tags/privacidade]]"
   - "[[tags/programacao]]"
   - "[[tags/english]]"
-image: img/chatvault/chatvault-blur-enabled.png
+image: https://visu.marcal.dev/shared-images/uqZYlCLla2ejcyJdRwn3rhWThIfyu8X_XIWzqfxgTvk
 language: en
 localized_post_paths:
   - "[[chatvault]]"
@@ -23,7 +23,7 @@ has_localized_posts: true
 ---
 ----
 
-![Screenshot of the ChatVault interface shows a blur effect applied over the message text. On the left, there is a section with a list of chats, each accompanied by its corresponding profile picture. In the center, the open chat displays the message content clearly. On the right, the chat’s image gallery is visible, showing thumbnails of the available images in the gallery.](/img/chatvault/chatvault-blur-enabled.png)
+![Screenshot of the ChatVault interface shows a blur effect applied over the message text. On the left, there is a section with a list of chats, each accompanied by its corresponding profile picture. In the center, the open chat displays the message content clearly. On the right, the chat’s image gallery is visible, showing thumbnails of the available images in the gallery.](https://visu.marcal.dev/shared-images/uqZYlCLla2ejcyJdRwn3rhWThIfyu8X_XIWzqfxgTvk)
 
 
 For at least two years, I had an idea in mind: to find an independent solution for recording and accessing my WhatsApp conversations. I've always hated how the backup system works—dependent on circumstances like changing phones, I ended up losing many precious messages. On top of that, I don't like relying on Google to store these data, both for ideological reasons and because I wanted to explore alternatives.

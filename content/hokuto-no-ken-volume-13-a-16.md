@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-13-a-16.jpg
+image: https://visu.marcal.dev/shared-images/YxNm8f6pX-BCLHEIS41u5AyqyAw85q52jHYbKW0YK6U
 language: pt
 feedback:
   - gostei
@@ -41,6 +41,6 @@ genre:
 ---
 
 
-![hokuto-no-ken-volume-13-a-16](img/hokuto-no-ken/hokuto-no-ken-volume-13-a-16.jpg)
+![hokuto-no-ken-volume-13-a-16](https://visu.marcal.dev/shared-images/YxNm8f6pX-BCLHEIS41u5AyqyAw85q52jHYbKW0YK6U)
 
 Os volumes 13 ao 16 revelam muito sobre a origem do Hokuto Shin Ken, do nosso protagonista Kenshiro e até de fantasmas do passado, como Toke e Raoh. É incrível como o autor consegue introduzir novos personagens, cada vez mais poderosos que os anteriores, sem tornar a narrativa cansativa ou repetitiva. O último volume foi repleto de ação e teve um final emocionante, com o confronto contra o antagonista, Kaioh (SPOILER -> SPOILER -> irmão de Raoh). Agora, rumo ao que acredito ser o último arco! Só faltam mais dois volumes!

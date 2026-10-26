@@ -13,7 +13,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg
+image: https://visu.marcal.dev/shared-images/5g2ZVCVq7QiNme5j-DK2faUR4baJo9omP8Md1QesygI
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pscológico
 ---
 
-![monstro-do-pantano-vol-1-edicao-absoluta](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta.jpg)
+![monstro-do-pantano-vol-1-edicao-absoluta](https://visu.marcal.dev/shared-images/5g2ZVCVq7QiNme5j-DK2faUR4baJo9omP8Md1QesygI)
 
 > De 1983 a 1987, um jovem escritor da Inglaterra juntou-se a um trio de desenhistas dos Estados Unidos para revitalizar uma lenda dos quadrinhos. Quatro anos depois, quando concluíram o trabalho, o MONSTRO DO PÂNTANO de Alan Moore, Stephen R. Bissette, John Totleben e Rick Veitch era universalmente reconhecido como um dos títulos que redefiniu os quadrinhos adultos e trouxe toda uma nova abordagem repleta de complexidade se tornando uma grande influência até os dias de hoje. Este primeiro volume inclui THE SAGA OF THE SWAMP THING 20 a 34 e SWAMP THING ANNUAL 2, trazendo um monumental novo posfácio de Stephen Bissette, acompanhado de um rico e histórico compilado de ilustrações e imagens de produção da equipe criativa! Edição de colecionador, com caixa para acondicionar esta que é uma das obras-primas das HQs!
 
@@ -52,11 +52,11 @@ Essa publicação mostra todo o horror sentido por Abby e, naquela época, eu n�
 
 Lembro de pensar, no início da história, se essa era uma história sobre T.O.C. (Transtorno Obsessivo Compulsivo), que naquela época eu já sabia mais ou menos o que era. A imagem ficou na minha memória durante anos e agora pude reler, em uma publicação de maior qualidade que transmite melhor o horror da cena. Confira abaixo.
 
-![Quadros de horror onde Abby tenta se purificar de toda impureza](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta-1.jpg)
+![Quadros de horror onde Abby tenta se purificar de toda impureza](https://visu.marcal.dev/shared-images/_5bjE4ACQE3C2PKVITrOQH3k8m4c7Q-1Ymk-hxg3dzk)
 
 Por todo o volume, há histórias que estão nesse clima de horror, sobrenatural.
 
-![monstro-do-pantano-vol-1-edicao-absoluta](img/monstro-do-pantano-edicao-absoluta/monstro-do-pantano-vol-1-edicao-absoluta-2.jpg)
+![monstro-do-pantano-vol-1-edicao-absoluta](https://visu.marcal.dev/shared-images/GPc4jWb5sGfUnLc7vHWBuBxLlNEU3YAmCEYU85V3rxk)
 
 E como é roteiro de Alan Moore, o cara consegue recontar e redefinir a história do Monstro do Pântano de uma forma genial.
 

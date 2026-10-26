@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/necron/necron-volume-2-o-navio-dos-leprosos.jpg
+image: https://visu.marcal.dev/shared-images/tQl0EmpKILbhl9yZG-VlK9Z7Jcc7KSXx19PCSyzJuZE
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - erótico
 ---
 
-![necron-volume-2-o-navio-dos-leprosos](img/necron/necron-volume-2-o-navio-dos-leprosos.jpg)
+![necron-volume-2-o-navio-dos-leprosos](https://visu.marcal.dev/shared-images/tQl0EmpKILbhl9yZG-VlK9Z7Jcc7KSXx19PCSyzJuZE)
 
 > Após o incidente em seu laboratório, a Dra. Frieda Boher é salva por sua criação, Necron. Os dois então resolvem deixar o país e embarcam numa jornada cheia de sangue, cadáveres e depravações.
 

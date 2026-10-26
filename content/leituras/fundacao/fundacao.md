@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/fundacao/img/fundacao.png
+image: https://visu.marcal.dev/shared-images/WiDYFdTJhIxIEHJ3egT7RwPX1O2Kf8x48Fj7KJwAEeo
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - ficção-científica
 dominant_color: "#717695"
 ---
-![fundacao](/leituras/fundacao/img/fundacao.png)
+![fundacao](https://visu.marcal.dev/shared-images/WiDYFdTJhIxIEHJ3egT7RwPX1O2Kf8x48Fj7KJwAEeo)
 
 Em _Fundação_, apesar da aparente pujança, o Império Galáctico está desmoronando. Já não há inovação nem descobertas... O problema é que sua queda trará 30 mil anos de idade das trevas para toda a galáxia. É nesse pano de fundo que conhecemos Hari Seldon e seu plano de reduzir esse período para aproximadamente mil anos, prevendo e influenciando acontecimentos que ocorreriam muito depois de sua morte, graças à psico-história.
 

@@ -12,7 +12,7 @@ related:
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: /leituras/o-alienista/o-alienista.jpg
+image: https://visu.marcal.dev/shared-images/0f8DcQ7hz9r4v1AsobQgonslMShMNe5m-cdQaWROecI
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - literatura brasileira
 dominant_color: "#ff953f"
 ---
-![o-alienista](/leituras/o-alienista/o-alienista.jpg)
+![o-alienista](https://visu.marcal.dev/shared-images/0f8DcQ7hz9r4v1AsobQgonslMShMNe5m-cdQaWROecI)
 
 Simão Bacamarte, médico da pequena cidade de Itaguaí, passa a se interessar pela psiquiatria e decide estudar a loucura. Para isso, cria um sanatório chamado Casa Verde. No início, interna apenas os que todos consideram loucos. Com o tempo, porém, seus critérios se ampliam tanto que qualquer pessoa pode ser diagnosticada. Logo, até gente vista como perfeitamente normal começa a ser levada para a Casa Verde, e o medo toma conta da cidade. Muitos evitam conversar com o médico para não correr o risco de serem internados.
 

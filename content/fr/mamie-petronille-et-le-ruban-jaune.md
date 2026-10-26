@@ -8,7 +8,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/francais]]"
-image: img/mamie-petronille-et-le-ruban-jaune.jpg
+image: https://visu.marcal.dev/shared-images/FTcPtNq8C4_Jmd3IatbiIDhxbXLvxEonGhiPcVED2NA
 created_at: 2024-08-30T10:00:00
 updated_at: 
 is_post: true
@@ -39,7 +39,7 @@ genre:
 ---
 ----
 
-![mamie-petronille-et-le-ruban-jaune](/img/mamie-petronille-et-le-ruban-jaune.jpg)
+![mamie-petronille-et-le-ruban-jaune](https://visu.marcal.dev/shared-images/FTcPtNq8C4_Jmd3IatbiIDhxbXLvxEonGhiPcVED2NA)
 ----
 
 J'ai commencé à étudier la langue française et c'est le premier petit livre que j'ai lu ! Ci-dessous se trouve le texte, afin que je puisse le réviser facilement quand j'en aurai besoin.

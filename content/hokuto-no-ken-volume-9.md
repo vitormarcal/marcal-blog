@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-9.jpg
+image: https://visu.marcal.dev/shared-images/DVrZTAETCcOdQLkTwEv9KwJcMclFQ7TXwwSwB69iW8c
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-9](img/hokuto-no-ken/hokuto-no-ken-volume-9.jpg)
+![hokuto-no-ken-volume-9](https://visu.marcal.dev/shared-images/DVrZTAETCcOdQLkTwEv9KwJcMclFQ7TXwwSwB69iW8c)
 
 > Raoh tenta derrotar Toki para aumentar seu reinado sob este mundo caótico. Para detê-lo, as Cinco Estrelas de Auriga, guardiãs do último General dos Seis Punhos Sagrados do Sul, despertam e começam a agir. Porém, apenas uma delas é capaz de enfrentar Raoh de igual para igual, e ela se chama Juza das Nuvens! “Eu sou uma nuvem! Me moverei apenas quando quiser!”
 

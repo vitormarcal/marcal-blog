@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg
+image: https://visu.marcal.dev/shared-images/2FHvzybCVoCNKt1XWffiInYl23p55DSWUSPQ0kJxSuw
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-5](img/hokuto-no-ken/hokuto-no-ken-volume-5.jpg)
+![hokuto-no-ken-volume-5](https://visu.marcal.dev/shared-images/2FHvzybCVoCNKt1XWffiInYl23p55DSWUSPQ0kJxSuw)
 
 > Kenshiro se dirige até a prisão lendária Cassandra para salvar seu irmão Toki. Diante de Kenshiro, ergue-se Uighur, o impiedoso dono da prisão lendária.
 

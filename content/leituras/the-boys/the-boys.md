@@ -13,7 +13,7 @@ related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
-image: /leituras/the-boys/the-boys-1.jpg
+image: https://visu.marcal.dev/shared-images/jKrImuvv5aJ2Zm06HiyDyQAlZ1BlDICC_xgXA6DnEes
 language: pt
 feedback:
   - gostei
@@ -36,7 +36,7 @@ genre:
 dominant_color: "#050204"
 ---
 
-![hq-the-boys](/leituras/the-boys/the-boys-1.jpg)
+![hq-the-boys](https://visu.marcal.dev/shared-images/jKrImuvv5aJ2Zm06HiyDyQAlZ1BlDICC_xgXA6DnEes)
 
 Finalmente terminei os 72 capítulos da série regular de The Boys. Nem lembro quando comecei, talvez há uns dois anos atrás.
 
@@ -50,10 +50,10 @@ A série teve seus bons e maus momentos mas no geral considero bem satisfatório
 
 Acho que no final das contas eu gosto mais do que foi contado nas HQs do que na série, o que não quer dizer que a série seja ruim, é uma adaptação e adaptou bem. Recomendo ambas as mídias!
 
-![hq-the-boys](/leituras/the-boys/the-boys-the-complete-gallery-1.jpg)
+![hq-the-boys](https://visu.marcal.dev/shared-images/YBmJJhxWLl2wUY7T1zUnOhSd9jeb5TDNdQVChS-m4hY)
 
-![hq-the-boys](/leituras/the-boys/the-boys-the-complete-gallery-2.jpg)
+![hq-the-boys](https://visu.marcal.dev/shared-images/HZVSn6a4NeSRl_nfbjlsCArFHR1yGKQGiJ973fRjZ-4)
 
-![hq-the-boys](/leituras/the-boys/the-boys-the-complete-gallery-3.jpg)
+![hq-the-boys](https://visu.marcal.dev/shared-images/hNP8gIXOUIJAjAzPqmg8khX-PIKye8BwUt-yA96lAjU)
 
-![hq-the-boys](/leituras/the-boys/the-boys-the-complete-gallery-4.jpg)
+![hq-the-boys](https://visu.marcal.dev/shared-images/nUi_l4TNSXu-QRTNwvLJjuKw0wmGC-4OHLCoHYiJMGk)

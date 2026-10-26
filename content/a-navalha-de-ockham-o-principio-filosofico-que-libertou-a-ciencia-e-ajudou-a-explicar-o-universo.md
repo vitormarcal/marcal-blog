@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/a-navalha-de-ockham.jpg
+image: https://visu.marcal.dev/shared-images/JKTq8KmJWibCMvlRMNgmZxJqPgCio4uvNGtxntxOtI8
 language: pt
 feedback:
   - gostei
@@ -35,7 +35,7 @@ genre:
   - ciência
 ---
 
-![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](img/a-navalha-de-ockham.jpg)
+![A navalha de Ockham: O princípio filosófico que libertou a ciência e ajudou a explicar o universo](https://visu.marcal.dev/shared-images/JKTq8KmJWibCMvlRMNgmZxJqPgCio4uvNGtxntxOtI8)
 
 A navalha de Occam mostra como a simplicidade teve e tem um papel muito importante no desenvolvimento da Ciência. Quando complicamos demais uma explicação ou uma solução, devemos retirar e cortar o desnecessário até chegarmos a uma ideia simples.
 

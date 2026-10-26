@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg
+image: https://visu.marcal.dev/shared-images/QfezWxagsusMElwFT1ASK9TLKv6i5eF_5HIy-Kw-xcE
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - shonen
 ---
 
-![dragon-ball-vol-33-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-33-edicao-definitiva.jpg)
+![dragon-ball-vol-33-edicao-definitiva](https://visu.marcal.dev/shared-images/QfezWxagsusMElwFT1ASK9TLKv6i5eF_5HIy-Kw-xcE)
 
 Estamos chegando à reta final; este é o penúltimo volume de _Dragon Ball_.
 

@@ -12,11 +12,11 @@ tags:
 related:
   - "[[homelab-synology-ds420j]]"
   - "[[tags/portugues]]"
-image: img/meu-segundo-homelab-montado.jpg
+image: https://visu.marcal.dev/shared-images/6mQOwopcJS-zu0apB0snLQWlcT0IWLE3hjUHRxTr6ag
 language: pt
 ---
 
-![meu-segundo-homelab-montado](img/meu-segundo-homelab-montado.jpg)
+![meu-segundo-homelab-montado](https://visu.marcal.dev/shared-images/6mQOwopcJS-zu0apB0snLQWlcT0IWLE3hjUHRxTr6ag)
 
 Descrevo as especificações do meu segundo servidor. Ao contrário do [meu primeiro, o Synology DS420j](https://www.marcal.dev/homelab-synology-ds420j/), que é um sistema fechado pronto para uso e sem possibilidade de upgrade, decidi montar um por conta própria para ter mais flexibilidade no futuro. Desde Julho de 2023, o servidor está rodando estável com as seguintes configurações:
 

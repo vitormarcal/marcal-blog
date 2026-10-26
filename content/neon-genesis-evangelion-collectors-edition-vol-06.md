@@ -12,7 +12,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: img/neon-genesis-evangelion-collectors-edition-vol-06.jpg
+image: https://visu.marcal.dev/shared-images/JgWWabHuQcO3p42QkBAM46NwmgwmAZEvNJ8TZwK-8oY
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - graphic novel
   - pscológico
 ---
-![neon-genesis-evangelion-collectors-edition-vol-06](img/neon-genesis-evangelion-collectors-edition-vol-06.jpg)
+![neon-genesis-evangelion-collectors-edition-vol-06](https://visu.marcal.dev/shared-images/JgWWabHuQcO3p42QkBAM46NwmgwmAZEvNJ8TZwK-8oY)
 
 > Preso às dúvidas e à solidão, após perder mais uma vez pessoas que lhe são queridas, Shinji se vê passando por uma profunda crise. Enquanto isso, a Seele decide agir para combater Gendo Ikari. A NERV está sob ataque e verdades perturbadoras estão prestes a vir à tona.
 

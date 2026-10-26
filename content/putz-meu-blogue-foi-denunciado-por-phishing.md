@@ -11,14 +11,14 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/putz-meu-blogue-foi-denunciado-por-phishing.png
+image: https://visu.marcal.dev/shared-images/xlL9sGquTkakhcrFPQUFHux8K7EZRdhK5lEeXDsoF2E
 language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
 Qual não foi a minha surpresa ao tentar acessá-lo hoje e me deparar com um alerta vermelho! Não apenas o endereço do meu blog, mas todos os meus domínios em _marcal.dev_ estão com esse aviso.
 
-![putz-meu-blogue-foi-denunciado-por-phishing](img/putz-meu-blogue-foi-denunciado-por-phishing.png)
+![putz-meu-blogue-foi-denunciado-por-phishing](https://visu.marcal.dev/shared-images/xlL9sGquTkakhcrFPQUFHux8K7EZRdhK5lEeXDsoF2E)
 
 Por exemplo, meu projeto ainda em desenvolvimento, [https://books.marcal.dev](https://books.marcal.dev), que eu nem sequer divulguei na internet — além de mencioná-lo aqui no blog —, também está marcado com esse alerta.
 

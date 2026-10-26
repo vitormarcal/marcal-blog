@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/o-diabo-dos-numeros.jpg
+image: https://visu.marcal.dev/shared-images/_lXyq0CfGqhrDca_SqOceavP9SLsR15vtZNvtctiPow
 language: pt
 localized_post_paths: 
 has_localized_posts: false
@@ -39,7 +39,7 @@ genre:
   - ficção-matemática
 ---
 
-![o-diabo-dos-numeros](img/o-diabo-dos-numeros.jpg)
+![o-diabo-dos-numeros](https://visu.marcal.dev/shared-images/_lXyq0CfGqhrDca_SqOceavP9SLsR15vtZNvtctiPow)
 
 >Sabe de uma coisa ? A maioria dos matemáticos de verdade nem sabe fazer contas . E, além do mais , eles nem têm tempo para isso . Para fazer contas existem as calculadoras.
 

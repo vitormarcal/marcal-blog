@@ -13,7 +13,7 @@ related:
   - "[[tags/musica]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: /escutas/as-quatro-estacoes-de-vivaldi-regencia-de-jordi-savall.jpg
+image: https://visu.marcal.dev/shared-images/m4wdjD21ntms9tYTsQJ-4j3aNzPKASollnNLROStYD0
 language: pt
 localized_post_paths:
 has_localized_posts: false
@@ -24,7 +24,7 @@ A primeira coisa foi escolher uma interpretação. Confesso que nunca tinha para
 
 Como leigo, não vejo problema em haver interpretações diferentes. A versão de **Nigel Kennedy** (1989), por exemplo, é descrita como super intensa, quase rock - e em algum momento ainda quero conferir. Mas acabei optando pela versão de **Jordi Savall** (_Antonio Vivaldi - Le Quattro Stagioni & Concerti d’Il cimento dell’armonia e dell’inventione - Le Concert des Nations, 2024_). Savall é um dos maiores especialistas em música antiga e barroca do mundo. Além de reger, recria a atmosfera histórica com instrumentos de época, afinação original etc. O _Concert des Nations_ segue essa linha. Entendo profundamente o que isso significa? De forma alguma 😂, mas pareceu uma boa escolha.
 
-![as-quatro-estacoes-de-vivaldi-regencia-de-jordi-savall](/escutas/as-quatro-estacoes-de-vivaldi-regencia-de-jordi-savall.jpg)
+![as-quatro-estacoes-de-vivaldi-regencia-de-jordi-savall](https://visu.marcal.dev/shared-images/m4wdjD21ntms9tYTsQJ-4j3aNzPKASollnNLROStYD0)
 
 O álbum, de 2024, traz os sonetos narrados, exatamente como Vivaldi concebeu. Foi uma surpresa maravilhosa: a primeira vez que ouvi a obra narrada, nem sabia que era assim originalmente! Além de _As Quatro Estações_ (_Le Quattro Stagioni_ : ah, a beleza da língua italiana…), o álbum inclui outros concertos de Vivaldi, como _La Tempesta di mare_ e _Il Proteo_.
 

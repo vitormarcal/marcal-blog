@@ -12,7 +12,7 @@ tags:
 related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
-image: leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-2.png
+image: https://visu.marcal.dev/shared-images/7ni3u576mZQmIa-UkqpFvK_Eqvl45VSH8uYoodloGmU
 language: pt
 feedback:
   - gostei
@@ -41,7 +41,7 @@ genre:
 dominant_color: "#100604"
 ---
 
-![battle-royale-omnibus-volume-1](/leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-2.png)
+![battle-royale-omnibus-volume-1](https://visu.marcal.dev/shared-images/7ni3u576mZQmIa-UkqpFvK_Eqvl45VSH8uYoodloGmU)
 
 > Na continuação dessa saga brutal e envolvente, o jogo se intensifica. Kawada diz que sabe como fugir dali, e promete levar Shuuya e Noriko com ele. Mas será que Shuuya conseguirá se manter fiel ao seu princípio de não sujar as mãos de sangue? Enquanto isso, acompanhado de seu atrapalhado parceiro Yutaka, Shinji pretende usar as táticas de guerrilha que aprendeu com seu tio para sabotar os organizadores do Programa. E o delinquente Kazuo é perseguido por um de seus antigos capangas, o letal e glamouroso Sho Tsukioka!
 

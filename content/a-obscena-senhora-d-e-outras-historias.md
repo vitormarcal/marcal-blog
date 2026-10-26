@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /img/a-obscena-senhora-d-e-outras-historias.webp
+image: https://visu.marcal.dev/shared-images/9qFbZ87WMa-HyLRipeX7LTi9FtpnjVgpyE_WtRg0Eyo
 language: pt
 feedback:
   - não gostei
@@ -36,7 +36,7 @@ genre:
   - literatura brasileira
   - pscológico
 ---
-![a-obscena-senhora-d-e-outras-historias.webp](img/a-obscena-senhora-d-e-outras-historias.webp)
+![a-obscena-senhora-d-e-outras-historias.webp](https://visu.marcal.dev/shared-images/9qFbZ87WMa-HyLRipeX7LTi9FtpnjVgpyE_WtRg0Eyo)
 
 >Prosa escolhida de Hilda Hilst, uma das maiores escritoras de língua portuguesa, e que é também um ícone de liberdade e transgressão.Uma obra provocadora e profundamente crua, muitas vezes tomada como imoral, que rompeu cânones literários e expandiu horizontes.
 

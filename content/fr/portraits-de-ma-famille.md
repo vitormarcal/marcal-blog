@@ -11,14 +11,14 @@ tags:
 related:
   - "[[tags/francais]]"
   - "[[tags/notas-pessoais]]"
-image: /img/portraits-de-ma-famille/portraits-de-ma-famille-1.jpg
+image: https://visu.marcal.dev/shared-images/2upcNRNIP4HFs9OEiwpQ8iY1QxVbujXhynKPR8M3BXg
 language: pt
 localized_post_paths: 
 has_localized_posts: false
 ---
 **Je suis avec ma fille.**
 
-![portrait-avec-me-famille](/img/portraits-de-ma-famille/portraits-de-ma-famille-1.jpg)
+![portrait-avec-me-famille](https://visu.marcal.dev/shared-images/2upcNRNIP4HFs9OEiwpQ8iY1QxVbujXhynKPR8M3BXg)
 
 Elle s'appelle Laura. Elle a 4 ans. Elle est mince et petite. Elle a la peau blanche et les cheveux blonds, un peu raides et un peu ondulés. Ses yeux sont grands et noirs. Elle porte un élastique jaune et de grandes lunettes. Elle porte une robe verte avec un col jaune et un tablier rouge. Elle porte des chaussettes blanches et des chaussures noires. 
 
@@ -28,7 +28,7 @@ Moi, je m'appelle Vítor. Je suis jeune. J'ai 32 ans. Je suis blanc et mince. Je
 
 **Sur cette photo, voici ma mère, ma fille et mon épouse.**
 
-![portrait-avec-me-famille](/img/portraits-de-ma-famille/portraits-de-ma-famille-2.jpg)
+![portrait-avec-me-famille](https://visu.marcal.dev/shared-images/atUrX1W6WVKB1s3LyHJ9DRWdNCGC4hGX5sbWUvHa2EY)
 
 Ma mère est à gauche. Elle s'appelle Vera. Elle est âgée. Elle a 53 ans. Elle est grosse et petite. Elle est brune et a les cheveux noirs et frisés. Elle porte une blouse crème et un short rose. Elle porte des sandales beige doré. Elle fait du jardinage. Elle sourit tout le temps.
 

@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/um-convite-a-matematica-daniel-cordeiro.jpg
+image: https://visu.marcal.dev/shared-images/Z9sio2tujXXzYJuSx5R_TLdi7FS5-UBeIazy1BNA9zo
 language: pt
 localized_post_paths: 
 has_localized_posts: false
@@ -39,7 +39,7 @@ genre:
   - educação
 ---
 
-![um-convite-a-matematica-daniel-cordeiro](img/um-convite-a-matematica-daniel-cordeiro.jpg)
+![um-convite-a-matematica-daniel-cordeiro](https://visu.marcal.dev/shared-images/Z9sio2tujXXzYJuSx5R_TLdi7FS5-UBeIazy1BNA9zo)
 
 > Como se estruturam a lógica, os teoremas e as conjecturas matemáticas? As bases desse admirável universo são explicadas nesta obra. O autor apresenta os fundamentos básicos da lógica matemática e explica como as ideias nesse campo do conhecimento funcionam. O livro permite aos alunos do último ano do ensino médio e aos que ingressaram no primeiro ano das universidades terem um contato mais sólido com o formalismo e a abstração necessários para tornar inteligível algumas das primeiras disciplinas da matemática.
 > O raciocínio lógico dedutivo é fundamental para os estudantes de matemática. Na busca de desenvolvê-lo, num curto intervalo de tempo, o autor coloca os leitores em contato com as notações mais utilizadas, sentenças, a definição e demonstração de teoremas, modelos axiomáticos e convenções matemáticas, conjecturas e problemas famosos, o princípio de indução, os números de Fermat, primos gêmeos, resumo e tabela-resumo das técnicas de demonstração, além de muitas curiosidades.

@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/livros]]"
   - "[[leituras-de-2025]]"
-image: img/memorias-postumas-de-bras-cubas.png
+image: https://visu.marcal.dev/shared-images/RfSwcKzekSA8mb8ym775nFjZe0hMZVX_wqehjRX2oJU
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - literatura brasileira
 dominant_color: "#ff8137"
 ---
-![memorias-postumas-de-bras-cubas](img/memorias-postumas-de-bras-cubas.png)
+![memorias-postumas-de-bras-cubas](https://visu.marcal.dev/shared-images/RfSwcKzekSA8mb8ym775nFjZe0hMZVX_wqehjRX2oJU)
 
 > Em 1881, Machado de Assis lançou aquele que seria um divisor de águas não só em sua obra, mas na literatura brasileira: Memórias póstumas de Brás Cubas . Ao mesmo tempo em que marca a fase mais madura do autor, o livro é considerado a transição do romantismo para o realismo. Num primeiro momento, a prosa fragmentária e livre de Memórias póstumas , misturando elegância e abuso, refinamento e humor negro, causou estranheza, inclusive entre a crítica. Com o tempo, no entanto, o defunto autor que dedica sua obra ao verme que primeiro roeu as frias carnes de seu cadáver tornou-se um dos personagens mais populares da nossa literatura. Sua história, uma celebração do nada que foi sua vida, foi transformada em filmes, peças e HQs, e teve incontáveis edições no Brasil e no mundo, conquistando admiradores que vão de Susan Sontag a Woody Allen.
 

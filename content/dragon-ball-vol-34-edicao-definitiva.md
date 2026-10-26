@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-34-edicao-definitiva.jpg
+image: https://visu.marcal.dev/shared-images/L2r3Gci685oTt8g5oVigE25xm7cQHD7PnJs_2Q5foyk
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - shonen
 ---
 
-![dragon-ball-vol-34-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-34-edicao-definitiva.jpg)
+![dragon-ball-vol-34-edicao-definitiva](https://visu.marcal.dev/shared-images/L2r3Gci685oTt8g5oVigE25xm7cQHD7PnJs_2Q5foyk)
 
 Depois de 4 anos acompanhando essa obra-prima, finalmente chegou ao fim! Não foi fácil, principalmente com o preço de capa aumentando tanto. Para ter uma ideia, o primeiro volume eu comprei em maio de 2020 por R$ 45,10, enquanto o último saiu por R$ 76,02. Culpa de várias coisas, como a inflação, o aumento no preço do papel e, claro, estamos falando da Panini, né? Eles têm o costume de ir encarecendo os volumes mesmo. Mas deixando o choro de lado, foi uma ótima viagem, e foi muito bom ter acompanhado essa história.
 
@@ -50,4 +50,4 @@ Li que muitos, na época, acharam o desfecho prematuro e foram pegos de surpresa
 
 Eu já havia lido o mangá via scan há muitos e muitos anos, e acompanhá-lo agora de forma seriada foi uma ótima experiência. Agora vou procurar mais material do Akira, como _Dr. Slump_, que nunca li. É isso! Muito obrigada, Akira Toriyama!
 
-![dragon-ball-vol-34-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-34-edicao-definitiva-2.jpg)
+![dragon-ball-vol-34-edicao-definitiva](https://visu.marcal.dev/shared-images/rQw5rFHH2KKCFoxjQ1ZHjARb8n_OzaHDxauHur59FV0)

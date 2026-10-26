@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/luz-vermelha-mini-em-4-cap-sarah-h-cho.png
+image: https://visu.marcal.dev/shared-images/hsafkkXia1j3TsgKUCwVFqhE3HovupEzvcEU6sc6mAk
 language: pt
 updated_at: 
 feedback:
@@ -40,7 +40,7 @@ genre:
   - graphic novel
 ---
 
-![Luz Vermelha - minissérie em 4 cápitulos, por Sarah H. Cho](img/luz-vermelha-mini-em-4-cap-sarah-h-cho.png)
+![Luz Vermelha - minissérie em 4 cápitulos, por Sarah H. Cho](https://visu.marcal.dev/shared-images/hsafkkXia1j3TsgKUCwVFqhE3HovupEzvcEU6sc6mAk)
 
 > Lacy é uma IA. profissional do sexo em um futurista Distrito da Luz Vermelha. E Lacy sabe exatamente o que seus clientes desejam – melhor do que eles próprios. Alojada num bordel de alta tecnologia sob o olhar atento do misterioso Mestre, Lacy tem pouco na sua vida fabricada além do trabalho. Tudo isso muda quando ela faz amizade com Natalie, uma criança órfã que fica sob seus cuidados.
 

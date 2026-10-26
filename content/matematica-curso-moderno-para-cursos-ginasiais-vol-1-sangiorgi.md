@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png
+image: https://visu.marcal.dev/shared-images/MtYg65FxwRUNT6LMhvRQn_i3WLy_DuXjGbsE25g91nE
 language: pt
 feedback:
   - gostei
@@ -37,7 +37,7 @@ genre:
   - educação
 ---
 
-![Matemática Curso Moderno para cursos ginasiais Volume 1, de Osvaldo Sangiorgi](img/matematica-curso-moderno-para-cursos-ginasiais-vol-1-sangiorgi.png)
+![Matemática Curso Moderno para cursos ginasiais Volume 1, de Osvaldo Sangiorgi](https://visu.marcal.dev/shared-images/MtYg65FxwRUNT6LMhvRQn_i3WLy_DuXjGbsE25g91nE)
 
 > O livro é o primeiro volume de uma coleção didática para o ginásio. Recebeu o prêmio Jabuti - 1963 em Ciências Exatas outorgado pela Câmara Brasileira do Livro.
 

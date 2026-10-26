@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-2.png
+image: https://visu.marcal.dev/shared-images/OqxVifb7-Jdhwmqc8z5qqXnXZw0Mc-_pUvXz2XOe8Y8
 language: pt
 feedback:
   - gostei
@@ -39,6 +39,6 @@ genre:
   - graphic novel
 dominant_color: "#050304"
 ---
-![o-espetacular-homem-aranha-edicao-definitiva-vol-2](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-2.png)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-2](https://visu.marcal.dev/shared-images/OqxVifb7-Jdhwmqc8z5qqXnXZw0Mc-_pUvXz2XOe8Y8)
 
 Honestamente, boas histórias mas não tanto memoráveis quanto no volume 1.

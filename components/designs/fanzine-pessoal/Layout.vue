@@ -49,10 +49,10 @@ useSeoMeta({ ogUrl: () => config.site.baseUrl + route.path })
         <NuxtLink to="/tags/mdc">Índice de assuntos <b>↗</b></NuxtLink>
       </section>
       <NuxtLink to="/slashes" class="rail-slashes">
-        <img src="/img/slash.jpg" alt="Slash tocando guitarra" />
+        <img src="https://visu.marcal.dev/shared-images/-qy36qZnFjxy6eSfnPdDomxd7T9pkNbYkRPf8B7mlnA" alt="Slash tocando guitarra" />
         <span><strong>Slashes</strong><small>Páginas independentes do site&nbsp; ↗</small></span>
       </NuxtLink>
-      <NuxtLink to="/gustav-klimt-e-elfen-lied" class="rail-gif" aria-label="Ler Gustav Klimt e Elfen Lied"><img src="/img/gustav-klimt-e-elfen-lied/elfen-lied-1.gif" alt="Golden Tears, pintura de Anne Marie Zilberman associada à abertura de Elfen Lied" /><span>Golden Tears · Elfen Lied&nbsp; ↗</span></NuxtLink>
+      <NuxtLink to="/gustav-klimt-e-elfen-lied" class="rail-gif" aria-label="Ler Gustav Klimt e Elfen Lied"><img src="https://visu.marcal.dev/shared-images/JCJhkQSSGcJ7995d6yHPhKUDBTGsunTSjwy4YyO51qI" alt="Golden Tears, pintura de Anne Marie Zilberman associada à abertura de Elfen Lied" /><span>Golden Tears · Elfen Lied&nbsp; ↗</span></NuxtLink>
       <div class="rail-bottom"><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre</NuxtLink><span>© {{ year }}</span></div>
     </aside>
     <footer class="magazine-footer"><div><NuxtLink class="footer-name" to="/">Marçal.</NuxtLink></div><div class="footer-links"><NuxtLink to="/design">Design do site</NuxtLink><a href="/rss.xml">RSS</a><NuxtLink to="/sobre">Sobre o autor</NuxtLink><span>Distrito Federal, Brasil · © 2019–{{ year }}</span></div></footer>

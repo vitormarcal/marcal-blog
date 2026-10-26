@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/oshi-no-ko-1-1.jpg
+image: https://visu.marcal.dev/shared-images/WlmQMWOtIxRlYSak4OwH3K18p7xIk_amuhFrH2_oCqE
 language: pt
 feedback:
   - neutro
@@ -38,7 +38,7 @@ genre:
   - pscológico
 ---
 
-![Oshi no Ko - Minha Estrela Preferida Vol. 01](img/oshi-no-ko-1-1.jpg)
+![Oshi no Ko - Minha Estrela Preferida Vol. 01](https://visu.marcal.dev/shared-images/WlmQMWOtIxRlYSak4OwH3K18p7xIk_amuhFrH2_oCqE)
 
 > “Nesta indústria, a mentira é uma arma.”Goro é um obstetra trabalhando em uma cidade do interior e sem qualquer ligação com a indústria do entretenimento. Por outro lado, Ai Hoshino, sua idol favorita, começava a subir no estrelato. Mas, por um acaso do destino, a vida de ambos será mudada radicalmente...?
 

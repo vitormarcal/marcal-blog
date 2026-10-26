@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /img/novelas-completas-tolstoi-editora-todavia.png
+image: https://visu.marcal.dev/shared-images/67y6B7uu0n3qyNab3Y63pJvBjLDXYtd86EDbVs4fV9g
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ dominant_color: "#b63725"
 localized_post_paths: 
 has_localized_posts: false
 ---
-![Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui](/img/novelas-completas-tolstoi-editora-todavia.png)
+![Novelas completas: Felicidade conjugal, A morte de Ivan Ilitch, Sonata a Kreutzer, Padre Siérgui](https://visu.marcal.dev/shared-images/67y6B7uu0n3qyNab3Y63pJvBjLDXYtd86EDbVs4fV9g)
 
 Meu primeiro experimento com o imortal Liev **Tolstói**. Acertei em cheio na escolha! Esse livro reúne quatro novelas curtas e fáceis de serem lidas: _Felicidade Conjugal_, _A Morte de Ivan Ilitch_, _Sonata a Kreutzer_ e _Padre Siérgui_.
 

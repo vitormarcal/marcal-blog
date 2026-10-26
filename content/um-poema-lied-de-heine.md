@@ -11,11 +11,11 @@ tags:
 related:
   - "[[tags/poesia]]"
   - "[[tags/portugues]]"
-image: img/um-poema-lied-de-heine.jpg
+image: https://visu.marcal.dev/shared-images/KU3d_ktfFyI_NlJOc6Mjle4tZ4XnnBIlAIKwea2ajQ0
 language: pt
 ---
 
-![ A fotografia foi tirada por mim em frente a praia da macumba e a Pedra do Pontal. Vê-se em primeiro plano galhos secos de uma ávore com pouquíssimas folhas, no canto oposto, parte da Pedra do Pontal, ao fundo um céu azul e vermelho característico de quando o sol se põe, que toca o mar. ](img/um-poema-lied-de-heine.jpg)
+![ A fotografia foi tirada por mim em frente a praia da macumba e a Pedra do Pontal. Vê-se em primeiro plano galhos secos de uma ávore com pouquíssimas folhas, no canto oposto, parte da Pedra do Pontal, ao fundo um céu azul e vermelho característico de quando o sol se põe, que toca o mar. ](https://visu.marcal.dev/shared-images/KU3d_ktfFyI_NlJOc6Mjle4tZ4XnnBIlAIKwea2ajQ0)
 
 ```
 Vem, linda peixeirinha,

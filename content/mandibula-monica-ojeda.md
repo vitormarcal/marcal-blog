@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/capa-do-livro-mandibula.jpg
+image: https://visu.marcal.dev/shared-images/_eTK0y0BV0DzjBwDi33R-koAP3Zgg6Q3feKlQg6X4u4
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - pscológico
 ---
 
-![Mandíbula - Mónica Ojeda](img/capa-do-livro-mandibula.jpg)
+![Mandíbula - Mónica Ojeda](https://visu.marcal.dev/shared-images/_eTK0y0BV0DzjBwDi33R-koAP3Zgg6Q3feKlQg6X4u4)
 
 Foi certamente uma leitura que me causou estranheza em diversos momentos, muito pela forma como Mónica constrói sua narrativa. Ela não segue um padrão entre os capítulos, mudando a forma de diálogo, sua intensidade e até mesmo o tempo-espaço. Muitas vezes, as mudanças não se limitam à transição dos capítulos, mas ocorrem também entre as linhas e parágrafos do mesmo capítulo.
 
@@ -47,7 +47,7 @@ Causa estranheza, mas provou ser uma forma bastante acertada de prender a atenç
 
 Um grupo de jovens meninas forma uma espécie de clube secreto em um prédio abandonado. Esse local acaba se tornando um lugar para as meninas extravasarem e liberarem todo o sentimento reprimido por sua criação (tanto na família quanto na escola). Isso me lembrou um pouco do mangá "Aku no Hana - As Flores do Mal" de Shūzō Oshimi; os temas das obras conversam um pouco. Jovens reprimidos com imagens comportadas experimentam a liberdade transgredindo, quebrando regras, sentindo-se vivos à medida que quebram e usam da violência, mostrando seus lados mais animalescos, explorando seus corpos e mentes.
 
-![Aku no Hana - As Flores do Mal de Shūzō Oshimi](img/aku-no-hana-as-flores-do-mal.png)
+![Aku no Hana - As Flores do Mal de Shūzō Oshimi](https://visu.marcal.dev/shared-images/lUtWqIeYJ2RN92kw8hlfaOoa9VkNkEMsAgOZ6bYGxXo)
 
 
 

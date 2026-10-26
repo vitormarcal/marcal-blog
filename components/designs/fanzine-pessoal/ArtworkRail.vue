@@ -17,11 +17,11 @@ const { data } = await useAsyncData('media-pulse-artworks-sidebar', () =>
 )
 
 const fallbacks: ArtworkCard[] = [
-  { id: 0, title: 'Judith I', artist: { name: 'Gustav Klimt' }, year: 1901, imageUrl: '/img/gustav-klimt-e-elfen-lied/judith-i-gustav-klimt.jpg' },
-  { id: 0, title: 'Adele Bloch-Bauer I', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: '/img/gustav-klimt-e-elfen-lied/adele-bloch-bauer-gustav-klimt.jpg' },
-  { id: 0, title: 'Danaë', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: '/img/gustav-klimt-e-elfen-lied/danae-gustav-klimt.jpg' },
-  { id: 0, title: 'Serpentes d’água II', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: '/img/gustav-klimt-e-elfen-lied/water-snakes-ii-gustav-klimt.jpg' },
-  { id: 0, title: 'Retrato de Mada', artist: { name: 'Gustav Klimt' }, year: 1916, imageUrl: '/img/gustav-klimt-e-elfen-lied/retrato-de-mada-klimt.jpg' }
+  { id: 0, title: 'Judith I', artist: { name: 'Gustav Klimt' }, year: 1901, imageUrl: 'https://visu.marcal.dev/shared-images/RjYaeJi2F4ImgalM18ity_vjF64iTDMfVvfSh-dWxoU' },
+  { id: 0, title: 'Adele Bloch-Bauer I', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: 'https://visu.marcal.dev/shared-images/qTbWWmLJ9fJJBZhbPw9YuGcMtk-cNU79oQn8fifWe7Q' },
+  { id: 0, title: 'Danaë', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: 'https://visu.marcal.dev/shared-images/VRD6_RbdhlZOw5nzUi8WEJ6U3GG2awZgurE8W4XHQ54' },
+  { id: 0, title: 'Serpentes d’água II', artist: { name: 'Gustav Klimt' }, year: 1907, imageUrl: 'https://visu.marcal.dev/shared-images/w1k0KRbkm0Wr_Oq5hHIbjiCnBLPHcJ7kYeUd3E-W-T8' },
+  { id: 0, title: 'Retrato de Mada', artist: { name: 'Gustav Klimt' }, year: 1916, imageUrl: 'https://visu.marcal.dev/shared-images/HDrAr_-xt5gsh0LyfkSv5Q8nRSYqFik5OqxUutP9wf0' }
 ]
 const artworks = computed(() => {
   const withImages = (data.value?.items || []).filter((artwork) => artwork.imageUrl)

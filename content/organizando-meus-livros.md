@@ -36,10 +36,10 @@ Falando em gerenciamento, já tenho um esquema interessante para organizar todas
 
 Logo abaixo, um gostinho de como é a tela inicial do Kavita. Você pode organizar em bibliotecas. Repare que a minha tem "Gibi", "Mangá", "Livro" e "Revistas", cada um com conteúdo sobre esse tema.
 
-![Tela inicial do Kavita com conteúdo da minha coleção de quadrinhos](img/organizando-meus-livros/organizando-meus-livros-1.png)
+![Tela inicial do Kavita com conteúdo da minha coleção de quadrinhos](https://visu.marcal.dev/shared-images/4Q_9CDwJi51YdwcsWVcdNs-DDOZiwoNHVmDppPWNzSE)
 
 Em seguida, a tela do meu Calibre-Web. Via de regra, eu utilizo ele apenas para os livros. Quadrinhos, mangás, etc., eu deixo no Kavita, que também mostra os mesmos livros que aparecem no Calibre-Web.
 
-![Tela inicial do Calibre-Web com conteúdo da minha coleção de livros](img/organizando-meus-livros/organizando-meus-livros-2.png)
+![Tela inicial do Calibre-Web com conteúdo da minha coleção de livros](https://visu.marcal.dev/shared-images/sFGwDgx8KWxjgGjXQnq-WkwCTZybWZbpESZQmMSD-Dg)
 
 Minha ideia, aos poucos, é que, à medida que vou me desfazendo dos livros físicos, obtenho o equivalente digital e assim poderei relê-los sempre que quiser.

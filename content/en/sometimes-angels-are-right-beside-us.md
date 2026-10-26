@@ -13,12 +13,12 @@ related:
   - "[[tags/amor]]"
   - "[[tags/notas-pessoais]]"
   - "[[tags/english]]"
-image: /img/sometimes-angels-are-right-beside-us.jpg
+image: https://visu.marcal.dev/shared-images/pw4Kje0ypYdiZda_uZzXRij_lTPS71mOmuMkl1oaugA
 language: en
 ---
 ----
 
-![Sometimes, Angels Are Right Beside Us](/img/sometimes-angels-are-right-beside-us.jpg)
+![Sometimes, Angels Are Right Beside Us](https://visu.marcal.dev/shared-images/pw4Kje0ypYdiZda_uZzXRij_lTPS71mOmuMkl1oaugA)
 
 `Into My Arms - Nick Cave:`
 

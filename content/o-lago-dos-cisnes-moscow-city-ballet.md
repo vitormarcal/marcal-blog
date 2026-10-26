@@ -12,10 +12,10 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
 language: pt
-image: img/o-lago-dos-cisnes-moscow-city-ballet/o-lago-dos-cisnes-01.jpg
+image: https://visu.marcal.dev/shared-images/e-aa--jdMh02eUsd-qVmdmNQectfzUH5EBMAsx7fmqU
 ---
 
-![moscow-city-ballet-apresenta-o-lago-dos-cisnes](img/o-lago-dos-cisnes-moscow-city-ballet/o-lago-dos-cisnes-01.jpg)
+![moscow-city-ballet-apresenta-o-lago-dos-cisnes](https://visu.marcal.dev/shared-images/e-aa--jdMh02eUsd-qVmdmNQectfzUH5EBMAsx7fmqU)
 
 Ontem, dia 16 de maio, fui ver **O Lago dos Cisnes**, apresentado pelo **Moscow City Ballet**, no Auditório Master do Centro de Convenções Ulysses Guimarães, em Brasília.
 

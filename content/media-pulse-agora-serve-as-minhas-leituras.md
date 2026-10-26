@@ -11,7 +11,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/media-pulse-agora-serve-as-minhas-leituras.png
+image: https://visu.marcal.dev/shared-images/vbf-7tX1Nk9t-E2cSSWf57bsgprO9H7YhmtnMs3BdNE
 language: pt
 localized_post_paths:
 has_localized_posts: false
@@ -23,4 +23,4 @@ Ainda falta duas coisas para essa página ficar completa, no entanto: os links p
 
 Ahh, outra coisa que falta: tentar migrar as leituras dos anos anteriores para esse esquema. Vai dar trabalho, mas vai ficar bem legal.
 
-![leituras-de-2026-agora-e-uma-lista-dinamica](img/media-pulse-agora-serve-as-minhas-leituras.png)
+![leituras-de-2026-agora-e-uma-lista-dinamica](https://visu.marcal.dev/shared-images/vbf-7tX1Nk9t-E2cSSWf57bsgprO9H7YhmtnMs3BdNE)

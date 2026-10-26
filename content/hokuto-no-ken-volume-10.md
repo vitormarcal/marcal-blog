@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-10.jpg
+image: https://visu.marcal.dev/shared-images/VEfNCswBueUL9dEbS18cBDykumaIoTLFXtm9Wfe-PEA
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-10](img/hokuto-no-ken/hokuto-no-ken-volume-10.jpg)
+![hokuto-no-ken-volume-10](https://visu.marcal.dev/shared-images/VEfNCswBueUL9dEbS18cBDykumaIoTLFXtm9Wfe-PEA)
 
 > Dois sucessores de uma arte marcial lendária - Kenshiro e Raoh.A batalha entre os dois homens que dominaram a Técnica Máxima - A Reencarnação do Nada - é a verdadeira batalha mortal!Quando o punho cheio de sentimentos de Raoh, choca-se com o punho inquebrantável de Kenshiro...Enfim, o mundo volta a ter luz.“Não deixo arrependimentos nesta vida”
 

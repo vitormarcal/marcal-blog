@@ -11,7 +11,7 @@ tags:
 related:
   - "[[tags/francais]]"
   - "[[tags/notas-pessoais]]"
-image: img/portrait-avec-mes-amis.jpg
+image: https://visu.marcal.dev/shared-images/M_uJokiR1JS0G6JB_-BIg5yxXhXE9pQNXUbVeDb3YWU
 language: fr
 localized_post_paths: 
 has_localized_posts: false
@@ -20,7 +20,7 @@ has_localized_posts: false
 
 Sur cette photo, je suis avec deux grands amis.
 
-![portrait-avec-mes-amis](/img/portrait-avec-mes-amis.jpg)
+![portrait-avec-mes-amis](https://visu.marcal.dev/shared-images/M_uJokiR1JS0G6JB_-BIg5yxXhXE9pQNXUbVeDb3YWU)
 
 Au centre, il y a Ildenio. Il a 33 ans, il est blanc, mince et mesure 1,74 m. Il a les cheveux courts et noirs, et une barbe de quelques jours. Il porte une chemise blanche à rayures bleues, un short vert avec des détails vert foncé et des sandales. Il est timide et parle peu. Il adore jouer aux jeux vidéo.
 

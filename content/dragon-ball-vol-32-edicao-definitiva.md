@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg
+image: https://visu.marcal.dev/shared-images/Z2RUb6XDxzbKQ1J6R_p_WRZLZg9xmE-WwdKV6sdtQm4
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - shonen
 ---
 
-![dragon-ball-vol-32-edicao-definitiva](img/dragon-ball-edicao-definitiva/dragon-ball-vol-32-edicao-definitiva.jpg)
+![dragon-ball-vol-32-edicao-definitiva](https://visu.marcal.dev/shared-images/Z2RUb6XDxzbKQ1J6R_p_WRZLZg9xmE-WwdKV6sdtQm4)
 
 Muitas coisas acontecendo em paralelo nesse volume: Goten e Trunks treinando a fusão, Goku mostrando pela primeira vez a rara transformação Super Saiajin 3, o arco de Gohan em busca de seu poder oculto e,finalmente, o mais interessante, os desdobramentos do contato de Majin Boo e Satan! 
 

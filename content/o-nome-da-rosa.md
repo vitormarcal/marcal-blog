@@ -13,7 +13,7 @@ related:
   - "[[leituras-de-2024]]"
   - "[[tags/tecnologia]]"
   - "[[tags/bookmarks]]"
-image: img/o-nome-da-rosa.jpg
+image: https://visu.marcal.dev/shared-images/Ingh4NLkMgoLkTgfElgmugKJl-HyWPD8EvAwDRWd-Bg
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 ---
 
 
-![o-nome-da-rosa](img/o-nome-da-rosa.jpg)
+![o-nome-da-rosa](https://visu.marcal.dev/shared-images/Ingh4NLkMgoLkTgfElgmugKJl-HyWPD8EvAwDRWd-Bg)
 
 > Neste mosteiro, paira a suspeita de heresia, e para a investigação é enviado o frei Guilherme de Baskerville. Porém, a delicada missão é interrompida por sete excêntricos assassinatos. A morte, em circunstâncias insólitas, de sete monges em sete dias e sete noites conduz uma narrativa violenta, que encanta pelo humor e pela crueldade, pela malícia e pela sedição erótica.
 

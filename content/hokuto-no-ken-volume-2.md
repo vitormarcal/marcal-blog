@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-2.jpg
+image: https://visu.marcal.dev/shared-images/hi-SOzwwUnIBROTfq5eclisc0R2HdRwfS1cF9OF-Now
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-2](img/hokuto-no-ken/hokuto-no-ken-volume-2.jpg)
+![hokuto-no-ken-volume-2](https://visu.marcal.dev/shared-images/hi-SOzwwUnIBROTfq5eclisc0R2HdRwfS1cF9OF-Now)
 
 > Para salvar a pequena Lin, Kenshiro invade sozinho e destrói a cidade de Godland. Porém, o justiceiro errante mal terá tempo de descansar, pois Jakal, um inimigo ainda mais cruel, ataca a comunidade de Batt! Jakal é um homem sanguinário e muito estratégico, e marca Kenshiro como seu próximo alvo!
 

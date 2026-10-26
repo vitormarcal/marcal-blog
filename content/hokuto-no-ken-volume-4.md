@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-4.jpg
+image: https://visu.marcal.dev/shared-images/tDr95t9kkLqQAJuXyRXqgelWAEidb4XShAshIAiuRHc
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-4](img/hokuto-no-ken/hokuto-no-ken-volume-4.jpg)
+![hokuto-no-ken-volume-4](https://visu.marcal.dev/shared-images/tDr95t9kkLqQAJuXyRXqgelWAEidb4XShAshIAiuRHc)
 
 > O homem que fez as sete feridas no peito de Kenshiro e tentou fazê-lo desistir de seu próprio nome… ele é nada mais, nada menos do que o irmão mais velho do nosso herói e usuário do Hokuto Shin-ken, Jagi! Jagi nutre um rancor imenso por seu irmão mais novo ter sido escolhido como sucessor do Hokuto Shin-ken. A raiva de Kenshiro contra a paranóia de Jagi! Quem vencerá?!
 

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: /leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-1.jpg
+image: https://visu.marcal.dev/shared-images/meid-aheZFYH-GF5ejXDzp-PSK1nwGOawScyCnN-vWA
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pscológico
 ---
 
-![battle-royale-omnibus-volume-1](/leituras/battle-royale-omnibus/img/battle-royale-omnibus-volume-1.jpg)
+![battle-royale-omnibus-volume-1](https://visu.marcal.dev/shared-images/meid-aheZFYH-GF5ejXDzp-PSK1nwGOawScyCnN-vWA)
 
 Clássico. Comparado a ele, `Jogos Vorazes` é história para adolescente. Na verdade, esse best-seller praticamente deu origem ao gênero `battle royale` nos filmes, jogos, mangás e animes.
 

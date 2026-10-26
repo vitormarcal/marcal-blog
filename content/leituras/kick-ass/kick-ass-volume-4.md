@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras/kick-ass/kick-ass-volume-4.jpg
+image: https://visu.marcal.dev/shared-images/NknKDaIkF4UMHU1moHCLa-tZ64kTPfckzZ14g3LisWM
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - graphic novel
 dominant_color: "#3b106c"
 ---
-![kick-ass](/leituras/kick-ass/kick-ass-volume-4.jpg)
+![kick-ass](https://visu.marcal.dev/shared-images/NknKDaIkF4UMHU1moHCLa-tZ64kTPfckzZ14g3LisWM)
 
 Esse sim é o verdadeiro final da história!  
 Hit-Girl vai parar na penitenciária, mas no melhor estilo _“Eu não estou presa com vocês, vocês é que estão presos comigo”_ do Rorschach, ela rapidamente toma o controle da prisão. A gente sabe que é só questão de tempo até ela sair de lá.

@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1.jpg
+image: https://visu.marcal.dev/shared-images/JnXvyu-9Q_UlSy0o__vSyC4zH8rD2559DVPOq7fYL1I
 language: pt
 feedback:
   - gostei
@@ -39,14 +39,14 @@ genre:
   - graphic novel
 dominant_color: "#050304"
 ---
-![o-espetacular-homem-aranha-edicao-definitiva-vol-1](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1.jpg)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-1](https://visu.marcal.dev/shared-images/JnXvyu-9Q_UlSy0o__vSyC4zH8rD2559DVPOq7fYL1I)
 
 > Cobre Amazing Fantasy 15, The Amazing Spider-Man 1-19, Amazing Spider-Man Annual 1, Strange Tales Annual 2, Fantastic Four Annual 1
 
 **Honestamente?** Achei que não fosse gostar. Pensei que seria datado demais. E, de fato, o trabalho envelheceu, traz aquele tom ingênuo típico da época, diálogos explicativos, soluções fáceis… Mas, puxa vida, não é que é bom mesmo?
 
 
-![o-espetacular-homem-aranha-edicao-definitiva-vol-1](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1-2.jpg)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-1](https://visu.marcal.dev/shared-images/Ulh-feokgIGjlmbLsJLQ_xQ3DMatZWN83w4L9bWInC0)
 
 Consigo entender por que o _Espantoso Homem-Aranha_ fez tanto sucesso. Ele era só um adolescente comum. Nem bonito, nem feio, só mediano. Não dá pra dizer que sofria bullying exatamente (pelo menos não achei), mas o que o distanciava dos colegas era o fato de ser um rato de biblioteca. Um cara estudioso, fora da curva... mas só nisso.
 
@@ -56,7 +56,7 @@ Este volume segue a cronologia desde sua primeira aparição. Foi bacana ver com
 
 Outro ponto alto é entender o ódio de J. Jonah Jameson, editor do Clarim Diário, ao Homem-Aranha. Jameson diz que o Aranha é tudo o que ele nunca vai ser  e cada ação do herói o lembra disso. É muito bom ver a credibilidade do Aranha ruir perante a cidade, ser tachado de covarde... Jameson chega a estampar um sorriso no rosto por umas duas edições  até que perde o sorriso quando o Aranha volta à ativa. (Ele havia se afastado porque Tia May estava doente, e ele tinha medo de que algo lhe acontecesse e deixasse a tia desamparada.)
 
-![o-espetacular-homem-aranha-edicao-definitiva-vol-1](/leituras/o-espetacular-homem-aranha-edicao-definitiva/o-espetacular-homem-aranha-edicao-definitiva-vol-1-1.jpg)
+![o-espetacular-homem-aranha-edicao-definitiva-vol-1](https://visu.marcal.dev/shared-images/t0gwCEKVcC22d6kGlQBz9l14Ua1PPBQzROEJOs53NSg)
 
 Neste volume também temos a estreia de vários dos principais vilões da galeria do Aranha: Duende Verde, Dr. Octopus, Homem-Areia, entre outros. E também a formação do Quarteto Sinistro, a união de vilões com um só objetivo: derrotar o Espetacular.
 

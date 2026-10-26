@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
-image: /leituras/kick-ass/kick-ass-volume-1.jpg
+image: https://visu.marcal.dev/shared-images/tqSUm0IO_Xd3f94KM9wMd7Qlwkw9a9fdCZnEvw23Cuc
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - graphic novel
 dominant_color: "#d59b48"
 ---
-![kick-ass](/leituras/kick-ass/kick-ass-volume-1.jpg)
+![kick-ass](https://visu.marcal.dev/shared-images/tqSUm0IO_Xd3f94KM9wMd7Qlwkw9a9fdCZnEvw23Cuc)
 
 Uma história de heróis fora do convencional. Assim como The Boys, não é uma obra genial. É algo para ler vegentado, puro entretenimento: palavrões, pancadaria e é isso aí. 
 

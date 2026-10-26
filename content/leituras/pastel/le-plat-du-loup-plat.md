@@ -13,7 +13,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
   - "[[tags/francais]]"
-image: /leituras/pastel/le-plat-du-loup-plat.jpg
+image: https://visu.marcal.dev/shared-images/TYjf0I3HlZX55yrgUmHCAV8sF87DtNdECBDljfAVF48
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - infantil
 dominant_color: "#f9afbc"
 ---
-![le-plat-du-loup-plat](/leituras/pastel/le-plat-du-loup-plat.jpg)
+![le-plat-du-loup-plat](https://visu.marcal.dev/shared-images/TYjf0I3HlZX55yrgUmHCAV8sF87DtNdECBDljfAVF48)
 
 > Il était une fois, un loup. " Un loup ? mais quel loup ? " me direz-vous. Les loups ont depuis longtemps disparu de nos bois. D'ailleurs c'est simple, il n'y a plus que dans les livres qu'on en voit. Ca tombe bien, en voici un dans ce livre, mais à passer de page en page... ce loup est devenu tout plat ! Il a grand besoin d'un bon repas. Justement, voici trois petits cochons...
 

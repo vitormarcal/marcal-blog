@@ -12,7 +12,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/livros]]"
   - "[[tags/portugues]]"
-image: /leituras//img/engenharia-de-plataforma-um-guia.jpg
+image: https://visu.marcal.dev/shared-images/GsxAkQhVsJcToWdZwvFPwpnON_MO9lCtA7XXEp7kz_8
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 dominant_color: "#5f7531"
 ---
 
-![engenharia-de-plataforma-um-guia](/leituras/img/engenharia-de-plataforma-um-guia.jpg)
+![engenharia-de-plataforma-um-guia](https://visu.marcal.dev/shared-images/GsxAkQhVsJcToWdZwvFPwpnON_MO9lCtA7XXEp7kz_8)
 
 Esse é um livro que vou manter como referência. Demorei um pouco para concluir a leitura e não absorvi tudo, porque há muita coisa relevante aqui. Ele cobre desde a construção até a administração de uma plataforma. Traz conhecimento valioso não só para desenvolvedores, mas também para gerentes, chegando até a abordar contratação de profissionais. O nível de detalhes e os conselhos apresentados são excelentes.
 

@@ -12,16 +12,16 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
 language: pt
-image: img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.jpeg
+image: https://visu.marcal.dev/shared-images/u-4yDixfP8d0nOD1lRY-sKutOPW4JQ11yTVfYJQyU5A
 ---
 
-![ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes](img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-01.jpeg)
+![ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes](https://visu.marcal.dev/shared-images/u-4yDixfP8d0nOD1lRY-sKutOPW4JQ11yTVfYJQyU5A)
 
 Na última sexta, dia 28, tive o prazer de ver **O Quebra-Nozes**, apresentado pelo Ballet Clássico de São Petersburgo. Foi realmente incrível! Consegui um lugar privilegiado, bem em frente e ao centro do palco, na segunda fileira. Valeu cada centavo.
 
 A coreografia é fiel à tradição russa, lembrando muitas outras apresentações que podemos ver no YouTube. O cenário, apesar de simples, não prejudicou a imersão. Como sabemos, _O Quebra-Nozes_ é um clássico natalino de Tchaikovsky, que acompanha a festa de Natal de Clara até o Reino dos Doces. A apresentação ainda contou com a presença de Alexander Volchkov, convidado de prestígio internacional.
 
-![ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes](img/ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes/o-quebra-nozes-02.jpeg)
+![ballet-classico-de-sao-petersburgo-apresenta-o-quebra-nozes](https://visu.marcal.dev/shared-images/JwD-KwFApwVejfnpjhY7rdVB4fGAyWuKGHxDl7fgklw)
 
 Já faz um tempo que tive uma sacada para eventos ao vivo. Não gravo, não tiro fotos, não filmo. Percebi que não há sentido em perder parte do show para registrar algo que não ficará tão bom em uma câmera limitada, numa posição não tão favorável. Então, sempre depois da apresentação, vou às mídias sociais oficiais do evento e pego as recordações, essas sim feitas por profissionais. Bem melhor. Abaixo seguem os registros publicados no Instagram do OhArtes.
 

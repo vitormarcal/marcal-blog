@@ -12,7 +12,7 @@ related:
   - "[[tags/portugues]]"
   - "[[leituras-de-2025]]"
   - "[[tags/programacao]]"
-image: /img/craftsmanship-limpo.jpg
+image: https://visu.marcal.dev/shared-images/Kxgvkkr_fTaVFN9_ns6tFFGM9Z7dMJQaW85LyzqkqYo
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
 dominant_color: "#213558"
 ---
 
-![Craftsmanship Limpo - Disciplinas, Padrões e Ética](/img/craftsmanship-limpo.jpg)
+![Craftsmanship Limpo - Disciplinas, Padrões e Ética](https://visu.marcal.dev/shared-images/Kxgvkkr_fTaVFN9_ns6tFFGM9Z7dMJQaW85LyzqkqYo)
 
 Um bom livro. Tem a proposta de apresentar os princípios que definem a profissão de desenvolvimento de software. Em certo ponto, ele se torna mais um livro sobre TDD do que sobre outros temas, mas ainda assim traz provocações valiosas.
 

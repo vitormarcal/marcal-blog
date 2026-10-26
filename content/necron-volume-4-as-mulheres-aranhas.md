@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/necron/necron-volume-4-as-mulheres-aranhas.jpg
+image: https://visu.marcal.dev/shared-images/Chl4qQxY_bsas3VAl6xD4isEdLJEA07PD1Qz4139630
 language: pt
 feedback:
   - gostei
@@ -39,7 +39,7 @@ genre:
   - erótico
 ---
 
-![necron-volume-4-as-mulheres-aranhas](img/necron/necron-volume-4-as-mulheres-aranhas.jpg)
+![necron-volume-4-as-mulheres-aranhas](https://visu.marcal.dev/shared-images/Chl4qQxY_bsas3VAl6xD4isEdLJEA07PD1Qz4139630)
 
 > Necron, criação do artista italiano Roberto Raviola (1939 – 1996) – conhecido pelo pseudônimo Magnus (autor de Kriminal, Satanik, Alan Ford, dentre outros), é um dos quadrinhos mais divertidos e politicamente incorretos deste autor. A obra é uma mistura de terror, erotismo e humor. Após derrotar os “Monstros Mecânicos“, a Dra. Frieda Boher e Necron tomam conta da ilha. Eles não imaginavam que a misteriosa ilha também estava na mira de outros invasores e agora terão que defender o território com um dos métodos mais bizarros já imaginado: As Mulheres Aranhas.
 

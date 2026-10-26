@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/o-mito-de-sisifo-de-albert-camus.jpg
+image: https://visu.marcal.dev/shared-images/3wl1caIsTHPqXylflMTpW0NeuIogLeSbGPhkV4nOfC4
 language: pt
 feedback:
   - gostei
@@ -36,7 +36,7 @@ genre:
   - filosofia
 ---
 
-![o-mito-de-sisifo-de-albert-camus](img/o-mito-de-sisifo-de-albert-camus.jpg)
+![o-mito-de-sisifo-de-albert-camus](https://visu.marcal.dev/shared-images/3wl1caIsTHPqXylflMTpW0NeuIogLeSbGPhkV4nOfC4)
 
 > Albert Camus, um dos escritores e intelectuais mais influentes do século XX, publicou O mito de Sísifo em 1942. Este ensaio sobre o absurdo tornou-se uma importante contribuição filosófico-existencial e exerceu profunda influência sobre toda uma geração. Camus destaca o mundo imerso em irracionalidades e lembra Sísifo, condenado pelos deuses a empurrar incessantemente uma pedra até o alto da montanha, de onde ela tornava a cair, caracterizando seu trabalho como inútil e sem esperança.
 

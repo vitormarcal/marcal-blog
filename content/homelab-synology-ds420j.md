@@ -12,11 +12,11 @@ tags:
 related:
   - "[[meu-segundo-homelab-montado]]"
   - "[[tags/portugues]]"
-image: img/home-lab-synology.jpeg
+image: https://visu.marcal.dev/shared-images/ofuLz6QJdsIiCPQUHIzUiU8glPWOR8a1ZFYJGRDObJU
 language: pt
 ---
 
-![Home lab - Synology DS420j](img/home-lab-synology.jpeg)
+![Home lab - Synology DS420j](https://visu.marcal.dev/shared-images/ofuLz6QJdsIiCPQUHIzUiU8glPWOR8a1ZFYJGRDObJU)
 
 Synology DS420J by Acervo Pessoal
 

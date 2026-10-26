@@ -12,13 +12,13 @@ related:
   - "[[tags/amor]]"
   - "[[tags/video]]"
   - "[[tags/portugues]]"
-image: img/feliz-natal.jpg
+image: https://visu.marcal.dev/shared-images/xyF1yuulUyDWqJkcS-usAjUMC4703Nvod-CkIGKA-14
 language: pt
 updated_at: 2024-12-24T15:28:00
 ---
 
 
-![Feliz Natal](img/feliz-natal.jpg)
+![Feliz Natal](https://visu.marcal.dev/shared-images/xyF1yuulUyDWqJkcS-usAjUMC4703Nvod-CkIGKA-14)
 
 Todo ano eu volto nesse vídeo e toda vez ele me pega bem. Pessoalmente, é o melhor vídeo sobre o que é o natal de todos!
 

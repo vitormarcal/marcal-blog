@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-6.jpg
+image: https://visu.marcal.dev/shared-images/Bbf4VJgHdYr9IvhBm3UQm03rKHHbzgC8x-7Snn_d1SA
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-6](img/hokuto-no-ken/hokuto-no-ken-volume-6.jpg)
+![hokuto-no-ken-volume-6](https://visu.marcal.dev/shared-images/Bbf4VJgHdYr9IvhBm3UQm03rKHHbzgC8x-7Snn_d1SA)
 
 > Kenshiro e Raoh finalmente se encontram! A batalha entre os dois é mortal, e ambos estão empatados, sem sinal de quem sairá vitorioso! Enquanto isso, Rei, que foi atingido no ponto vital secreto de Raoh e só tem três dias de vida, resolve gastar seus últimos dias para enfrentar Yuda, o homem que capturou e torturou sua amada Mamiya e também traiu os Seis Punhos Sagrados da Estrelas do Norte. "Yuda, você irá pagar sangue com sangue!"
 

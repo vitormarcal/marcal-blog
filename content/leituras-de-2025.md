@@ -12,11 +12,11 @@ related:
   - "[[tags/portugues]]"
   - "[[tags/notas-pessoais]]"
   - "[[leituras-de-2024]]"
-image: img/leituras-do-ano/biblioteca-medieval.webp
+image: https://visu.marcal.dev/shared-images/exB9L7La2v3cwijD7tNBUoKhx1C4R-mH057j6jJl72A
 language: pt
 ---
 
-![Leituras de 2025 - Uma biblioteca medieval cheia até a borda com livros antigos. As estantes estão transbordando com tomos velhos e desgastados, alguns empilhados de maneira desorganizada](img/leituras-do-ano/biblioteca-medieval.webp)
+![Leituras de 2025 - Uma biblioteca medieval cheia até a borda com livros antigos. As estantes estão transbordando com tomos velhos e desgastados, alguns empilhados de maneira desorganizada](https://visu.marcal.dev/shared-images/exB9L7La2v3cwijD7tNBUoKhx1C4R-mH057j6jJl72A)
 
 Assim como no [ano passado](leituras-de-2024), em 2025 também registrarei em uma publicação fixa o andamento das minhas leituras. Portanto, trouxe os livros desejados do ano passado que não consegui ler naquela época e inicio aqui minha nova jornada.
 

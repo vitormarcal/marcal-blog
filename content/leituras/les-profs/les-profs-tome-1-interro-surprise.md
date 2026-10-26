@@ -14,7 +14,7 @@ related:
   - "[[leituras-de-2025]]"
   - "[[tags/portugues]]"
   - "[[tags/francais]]"
-image: /leituras/les-profs/les-profs-tome-1-interro-surprise.jpg
+image: https://visu.marcal.dev/shared-images/CJ54VbTt28SF6CVaVheI8i2FVj74swaKufW-uh-zI8c
 language: pt
 feedback:
   - gostei
@@ -42,7 +42,7 @@ genre:
   - graphic novel
 dominant_color: "#409e8b"
 ---
-![les-profs-tome-1-interro-surprise](/leituras/les-profs/les-profs-tome-1-interro-surprise.jpg)
+![les-profs-tome-1-interro-surprise](https://visu.marcal.dev/shared-images/CJ54VbTt28SF6CVaVheI8i2FVj74swaKufW-uh-zI8c)
 > Suivez le prof d’histoire débutant, le prof de gym sur-vitaminé, la prof de français sexy, le prof de philo blasé et la prof d’anglais peau de vache dans leur croisade contre l’ignorance et le poil dans la main ! Plus forts que Zorro, plus courageux qu’Indiana Jones et bien moins payés que James Bond, ils pénètrent dans la jungle étouffante des lycées pour affronter les tribus d’élèves hostiles. Puis, épuisés, ils se réfugient dans leur oasis : la salle des profs ! Là, entre la machine à café en panne et les 150 copies à corriger pour demain, ils refont le monde de l’éducation et des plans pour les vacances.
 
 **Les Profs** é uma banda desenhada (BD) francesa de humor, cujo título significa literalmente _“Os Professores”_. Cada história ocupa uma ou duas páginas e é independente das demais, sempre satirizando a vida escolar e mostrando o cotidiano de um colégio sob o ponto de vista dos professores.

@@ -11,11 +11,11 @@ tags:
 related:
   - "[[dez-argumentos-para-voce-deletar-agora-suas-redes-sociais]]"
   - "[[tags/portugues]]"
-image: img/privacidade-importa.jpg
+image: https://visu.marcal.dev/shared-images/5yxQQFXPYuiyvbKBx0lg0FqjjHIZ6vCis4QSMLxK_jE
 language: pt
 ---
 
-![Privacidade importa](img/privacidade-importa.jpg)
+![Privacidade importa](https://visu.marcal.dev/shared-images/5yxQQFXPYuiyvbKBx0lg0FqjjHIZ6vCis4QSMLxK_jE)
 
 Photo by [Tobias Tullius](https://unsplash.com/@tobiastu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 

@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/aprenda-ingles-num-piscar-de-olhos.jpg
+image: https://visu.marcal.dev/shared-images/DET4uGeFhjnX88ZWHqzJwUq88hw0PRPBtQ7Tvkb1B9g
 language: pt
 feedback:
   - gostei
@@ -34,7 +34,7 @@ genre:
   - educação
   - autoajuda
 ---
-![Aprenda Inglês num piscar de olhos](img/aprenda-ingles-num-piscar-de-olhos.jpg)
+![Aprenda Inglês num piscar de olhos](https://visu.marcal.dev/shared-images/DET4uGeFhjnX88ZWHqzJwUq88hw0PRPBtQ7Tvkb1B9g)
 
 Outro dia, enquanto passeava na livraria, esse livro chamou minha atenção. Sem saber nada sobre ele, decidi comprá-lo
 por 15 reais, acreditando que seria um bom investimento. Surpreendentemente, o livro estava mais barato na livraria do

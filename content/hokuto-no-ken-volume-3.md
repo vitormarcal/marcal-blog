@@ -12,7 +12,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/hokuto-no-ken/hokuto-no-ken-volume-3.jpg
+image: https://visu.marcal.dev/shared-images/useo9uTH1OzIZUdWA2GZhgLqFJ-FmihspsQOMcZzmdU
 language: pt
 feedback:
   - gostei
@@ -40,7 +40,7 @@ genre:
   - pós-apocalíptico
 ---
 
-![hokuto-no-ken-volume-3](img/hokuto-no-ken/hokuto-no-ken-volume-3.jpg)
+![hokuto-no-ken-volume-3](https://visu.marcal.dev/shared-images/useo9uTH1OzIZUdWA2GZhgLqFJ-FmihspsQOMcZzmdU)
 
 > Kenshiro conhece Rei, usuário do estilo Nanto Suicho-ken, e que está em busca de sua irmã, Airi. Os dois são contratados para salvar a comunidade de Mamiya do Clã das Garras. Porém, em retaliação, eles raptaram Airi e a usam de refém. Kenshiro e Rei se dirigem à base do Clã das Garras para salvá-la, e então, os dois mestres de seus respectivos estilos se unem para formar a equipe mais poderosa de todas!
 

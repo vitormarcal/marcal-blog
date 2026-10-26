@@ -11,7 +11,7 @@ tags:
 related:
   - "[[tags/notas-pessoais]]"
   - "[[tags/portugues]]"
-image: img/memorias-postumas-de-bras-cubas.png
+image: https://visu.marcal.dev/shared-images/RfSwcKzekSA8mb8ym775nFjZe0hMZVX_wqehjRX2oJU
 language: pt
 localized_post_paths: 
 has_localized_posts: false

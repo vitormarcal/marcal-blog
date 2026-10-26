@@ -11,7 +11,7 @@ tags:
 related:
   - "[[leituras-de-2024]]"
   - "[[tags/portugues]]"
-image: img/planeta_dos_macacos.jpg
+image: https://visu.marcal.dev/shared-images/TEhufSmYqc8IIJ1PzMe49z6fNag63DSFDmwWoYeZgMk
 language: pt
 feedback:
   - gostei
@@ -38,7 +38,7 @@ genre:
   - distopia
 ---
 
-![O Planeta dos Macacos](img/planeta_dos_macacos.jpg)
+![O Planeta dos Macacos](https://visu.marcal.dev/shared-images/TEhufSmYqc8IIJ1PzMe49z6fNag63DSFDmwWoYeZgMk)
 
 Esse eu já havia lido em minha adolescência e mesmo agora, depois de adulto, posso dizer: um clássico da ficção científica!
 
