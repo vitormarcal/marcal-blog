@@ -9,7 +9,7 @@ tags:
   - video
 related:
   - "[[tags/video]]"
-image: /filmes/eyes-wide-shut-1999/eyes-wide-shut-mask-ritual.jpg
+image: https://visu.marcal.dev/shared-images/16gJbmZsd_t7umdDXOaOd4SG4qATy6_ofXoJ_pKl0uM
 language: pt
 localized_post_paths:
 has_localized_posts: false
@@ -26,11 +26,11 @@ quote: Fidelio.
 director:
   - Stanley Kubrick
 ---
-![eyes-wide-shut-1999](/filmes/eyes-wide-shut-1999/eyes-wide-shut-mask-ritual.jpg)
+![eyes-wide-shut-1999](https://visu.marcal.dev/shared-images/16gJbmZsd_t7umdDXOaOd4SG4qATy6_ofXoJ_pKl0uM)
 
 *“Fidelio.”*
 
-![eyes-wide-shut-1999](/filmes/eyes-wide-shut-1999/eyes-wide-shut-mask-on-bed.jpg)
+![eyes-wide-shut-1999](https://visu.marcal.dev/shared-images/X_1tYClQbJhNufcKwKjxWeDkJX8kFEZtoI-3RYz45Ec)
 
 *“There is something very important that we need to do as soon as possible.”*  
 *“What’s that?”*  
