@@ -28,9 +28,28 @@ const artworks = computed(() => {
   return withImages.length ? withImages : fallbacks
 })
 const artworkIndex = ref(0)
+const isPaused = ref(false)
+let rotationTimer: ReturnType<typeof setInterval> | undefined
+
+function nextArtwork() {
+  const count = artworks.value.length
+  if (count < 2) return
+  const current = artworkIndex.value % count
+  // Pick any other artwork, without repeating the current one.
+  const offset = 1 + Math.floor(Math.random() * (count - 1))
+  artworkIndex.value = (current + offset) % count
+}
+
+onMounted(() => {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+  rotationTimer = setInterval(() => {
+    if (!isPaused.value && !document.hidden && !reducedMotion.matches) nextArtwork()
+  }, 7000)
+})
+onBeforeUnmount(() => clearInterval(rotationTimer))
 watch(() => route.path, (path, previousPath) => {
   if (previousPath) {
-    artworkIndex.value = (artworkIndex.value + 1) % artworks.value.length
+    nextArtwork()
     return
   }
   artworkIndex.value = [...(path || '/')].reduce((value, char) => value + char.charCodeAt(0), 0) % artworks.value.length
@@ -44,13 +63,36 @@ const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.
 </script>
 
 <template>
-  <section class="rail-muse" aria-label="Obras de arte do acervo">
+  <section class="rail-muse" aria-label="Obras de arte do acervo"
+    @mouseenter="isPaused = true" @mouseleave="isPaused = false"
+    @focusin="isPaused = true" @focusout="isPaused = false">
     <div class="rail-muse-heading"><span>Do acervo de arte</span><span aria-hidden="true">✦</span></div>
-    <NuxtLink class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
-      <img :src="artworkSrc" :alt="imageAlt" />
-      <span class="muse-number">{{ artworkPosition }}</span>
-    </NuxtLink>
-    <p class="muse-name">{{ artwork.title }}</p>
-    <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
+    <Transition name="muse-fade" mode="out-in">
+      <div :key="`${artwork.id}-${artwork.imageUrl}`">
+        <NuxtLink class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
+          <img :src="artworkSrc" :alt="imageAlt" />
+          <span class="muse-number">{{ artworkPosition }}</span>
+        </NuxtLink>
+        <p class="muse-name">{{ artwork.title }}</p>
+        <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
+      </div>
+    </Transition>
   </section>
 </template>
+
+<style scoped>
+.muse-fade-enter-active,
+.muse-fade-leave-active {
+  transition: opacity .45s ease;
+}
+.muse-fade-enter-from,
+.muse-fade-leave-to {
+  opacity: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .muse-fade-enter-active,
+  .muse-fade-leave-active {
+    transition: none;
+  }
+}
+</style>
