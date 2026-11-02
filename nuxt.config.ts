@@ -54,6 +54,14 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/resets.css'],
 
+  // Applied by Nitro when running the Nuxt server. Static deployments must
+  // configure equivalent headers in their hosting provider.
+  routeRules: {
+      '/img/**': { headers: { 'cache-control': 'public, max-age=604800' } },
+      '/favicon.ico': { headers: { 'cache-control': 'public, max-age=604800' } },
+      '/favicon-fanzine.svg': { headers: { 'cache-control': 'public, max-age=604800' } },
+  },
+
   nitro: {
       prerender: {
           crawlLinks: true,

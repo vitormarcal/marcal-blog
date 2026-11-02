@@ -29,11 +29,13 @@ const artworks = computed(() => {
 })
 const artworkIndex = ref(0)
 const isPaused = ref(false)
+const isLoading = ref(false)
+const imageReady = ref(false)
 let rotationTimer: ReturnType<typeof setInterval> | undefined
 
 function nextArtwork() {
   const count = artworks.value.length
-  if (count < 2) return
+  if (count < 2 || isLoading.value) return
   const current = artworkIndex.value % count
   // Pick any other artwork, without repeating the current one.
   const offset = 1 + Math.floor(Math.random() * (count - 1))
@@ -41,6 +43,25 @@ function nextArtwork() {
 }
 
 onMounted(() => {
+  watch(selectedArtwork, async (candidate, _previous, onCleanup) => {
+    let cancelled = false
+    onCleanup(() => { cancelled = true })
+    isLoading.value = true
+    const image = new Image()
+    image.src = resolveArtworkSrc(candidate)
+    try {
+      // decode() waits for both download and decoding before the fade starts.
+      await image.decode()
+      if (cancelled) return
+      artwork.value = candidate
+      displayedIndex.value = artworkIndex.value
+      imageReady.value = true
+    } catch {
+      // Keep the current artwork visible if the next image cannot be loaded.
+    } finally {
+      if (!cancelled) isLoading.value = false
+    }
+  }, { immediate: true })
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
   rotationTimer = setInterval(() => {
     if (!isPaused.value && !document.hidden && !reducedMotion.matches) nextArtwork()
@@ -54,12 +75,15 @@ watch(() => route.path, (path, previousPath) => {
   }
   artworkIndex.value = [...(path || '/')].reduce((value, char) => value + char.charCodeAt(0), 0) % artworks.value.length
 }, { immediate: true })
-const artwork = computed(() => artworks.value[artworkIndex.value % artworks.value.length] || fallbacks[0])
+const selectedArtwork = computed(() => artworks.value[artworkIndex.value % artworks.value.length] || fallbacks[0])
+const artwork = shallowRef(selectedArtwork.value)
+const displayedIndex = ref(artworkIndex.value)
+const resolveArtworkSrc = (item: ArtworkCard) => item.imageUrl?.startsWith('/img/') ? item.imageUrl : assetUrl(item.imageUrl)
 const imageAlt = computed(() => `${artwork.value.title}${artwork.value.artist?.name ? `, de ${artwork.value.artist.name}` : ''}`)
 const artworkLink = computed(() => artwork.value.id ? `/artes/${artwork.value.id}` : '/gustav-klimt-e-elfen-lied')
-const artworkSrc = computed(() => artwork.value.imageUrl?.startsWith('/img/') ? artwork.value.imageUrl : assetUrl(artwork.value.imageUrl))
+const artworkSrc = computed(() => resolveArtworkSrc(artwork.value))
 const artworkNote = computed(() => [artwork.value.artist?.name, artwork.value.year, artwork.value.type].filter(Boolean).join(' · '))
-const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.value.length) + 1).padStart(2, '0')} / ${String(artworks.value.length).padStart(2, '0')}`)
+const artworkPosition = computed(() => `${String((displayedIndex.value % artworks.value.length) + 1).padStart(2, '0')} / ${String(artworks.value.length).padStart(2, '0')}`)
 </script>
 
 <template>
@@ -68,7 +92,7 @@ const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.
     @focusin="isPaused = true" @focusout="isPaused = false">
     <div class="rail-muse-heading"><span>Do acervo de arte</span><span aria-hidden="true">✦</span></div>
     <Transition name="muse-fade" mode="out-in">
-      <div :key="`${artwork.id}-${artwork.imageUrl}`">
+      <div v-if="imageReady" :key="`${artwork.id}-${artwork.imageUrl}`">
         <NuxtLink class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
           <img :src="artworkSrc" :alt="imageAlt" />
           <span class="muse-number">{{ artworkPosition }}</span>
@@ -76,6 +100,7 @@ const artworkPosition = computed(() => `${String((artworkIndex.value % artworks.
         <p class="muse-name">{{ artwork.title }}</p>
         <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
       </div>
+      <div v-else key="loading" class="muse-frame" aria-label="Carregando obra de arte" aria-busy="true" />
     </Transition>
   </section>
 </template>
