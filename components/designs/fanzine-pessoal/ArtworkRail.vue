@@ -29,6 +29,7 @@ const artworks = computed(() => {
 })
 const artworkIndex = ref(0)
 const isPaused = ref(false)
+const manuallyPaused = ref(false)
 const isLoading = ref(false)
 const imageReady = ref(false)
 let rotationTimer: ReturnType<typeof setInterval> | undefined
@@ -37,9 +38,14 @@ function nextArtwork() {
   const count = artworks.value.length
   if (count < 2 || isLoading.value) return
   const current = artworkIndex.value % count
-  // Pick any other artwork, without repeating the current one.
-  const offset = 1 + Math.floor(Math.random() * (count - 1))
-  artworkIndex.value = (current + offset) % count
+  artworkIndex.value = (current + 1) % count
+}
+
+function moveArtwork(direction: number) {
+  manuallyPaused.value = true
+  const count = artworks.value.length
+  if (count < 2 || isLoading.value) return
+  artworkIndex.value = (displayedIndex.value + direction + count) % count
 }
 
 onMounted(() => {
@@ -64,7 +70,7 @@ onMounted(() => {
   }, { immediate: true })
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
   rotationTimer = setInterval(() => {
-    if (!isPaused.value && !document.hidden && !reducedMotion.matches) nextArtwork()
+    if (!isPaused.value && !manuallyPaused.value && !document.hidden && !reducedMotion.matches) nextArtwork()
   }, 7000)
 })
 onBeforeUnmount(() => clearInterval(rotationTimer))
@@ -91,21 +97,92 @@ const artworkPosition = computed(() => `${String((displayedIndex.value % artwork
     @mouseenter="isPaused = true" @mouseleave="isPaused = false"
     @focusin="isPaused = true" @focusout="isPaused = false">
     <div class="rail-muse-heading"><span>Do acervo de arte</span><span aria-hidden="true">✦</span></div>
-    <Transition name="muse-fade" mode="out-in">
-      <div v-if="imageReady" :key="`${artwork.id}-${artwork.imageUrl}`">
-        <NuxtLink class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
+    <div class="muse-presentation">
+      <Transition name="muse-fade" mode="out-in">
+        <NuxtLink v-if="imageReady" :key="`${artwork.id}-${artwork.imageUrl}`"
+          class="muse-frame" :to="artworkLink" :aria-label="`Ver ${artwork.title} no acervo`">
           <img :src="artworkSrc" :alt="imageAlt" />
-          <span class="muse-number">{{ artworkPosition }}</span>
         </NuxtLink>
-        <p class="muse-name">{{ artwork.title }}</p>
-        <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
+        <div v-else key="loading" class="muse-frame" aria-label="Carregando obra de arte" aria-busy="true" />
+      </Transition>
+      <div v-if="imageReady" class="muse-navigation" role="group" aria-label="Navegação das obras">
+        <button v-if="artworks.length > 1" type="button" :disabled="isLoading"
+          aria-label="Obra anterior" title="Obra anterior" @click="moveArtwork(-1)">‹</button>
+        <span class="muse-position" aria-live="polite" aria-atomic="true">{{ artworkPosition }}</span>
+        <button v-if="artworks.length > 1" type="button" :disabled="isLoading"
+          aria-label="Próxima obra" title="Próxima obra" @click="moveArtwork(1)">›</button>
       </div>
-      <div v-else key="loading" class="muse-frame" aria-label="Carregando obra de arte" aria-busy="true" />
-    </Transition>
+    </div>
+    <template v-if="imageReady">
+      <p class="muse-name">{{ artwork.title }}</p>
+      <p v-if="artworkNote" class="muse-note">{{ artworkNote }}</p>
+    </template>
   </section>
 </template>
 
 <style scoped>
+.muse-presentation {
+  position: relative;
+}
+.muse-navigation {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  display: flex;
+  align-items: center;
+  color: #111619;
+  background: #e6f066;
+}
+.muse-position {
+  padding: 4px 6px;
+  font: 10px ui-monospace, monospace;
+  white-space: nowrap;
+}
+.muse-navigation button {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  min-height: 22px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: 16px/1 Georgia, serif;
+  cursor: pointer;
+}
+.muse-navigation button:hover:not(:disabled) {
+  background: rgb(17 22 25 / 12%);
+}
+.muse-navigation button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -3px;
+}
+.muse-navigation button:disabled {
+  opacity: .35;
+  cursor: wait;
+}
+@media (hover: hover) and (pointer: fine) {
+  .muse-navigation button {
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .muse-presentation:hover .muse-navigation button,
+  .muse-presentation:focus-within .muse-navigation button {
+    width: 24px;
+    opacity: 1;
+  }
+  .muse-presentation:hover .muse-navigation button:disabled,
+  .muse-presentation:focus-within .muse-navigation button:disabled {
+    opacity: .35;
+  }
+}
+@media (pointer: coarse), (hover: none) {
+  .muse-navigation button {
+    width: 32px;
+    min-height: 32px;
+  }
+}
 .muse-fade-enter-active,
 .muse-fade-leave-active {
   transition: opacity .45s ease;

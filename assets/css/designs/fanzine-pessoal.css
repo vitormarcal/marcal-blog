@@ -365,8 +365,8 @@ body.design-fanzine-pessoal .rail-home span { position: absolute; right: -5px; t
 .rail-muse-heading { display: flex; justify-content: space-between; color: #b8c2bb; margin-bottom: 10px; }
 .rail-muse-heading span:last-child { color: #e6f066; }
 .muse-frame { position: relative; display: block; overflow: hidden; height: 218px; border: 1px solid #53605e; background: #27271f; }
-.muse-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: #20292c; filter: saturate(.9) contrast(1.04); transition: transform .5s, filter .5s; }
-.muse-frame:hover img { transform: scale(1.025); filter: saturate(1.05) contrast(1.04); }
+.muse-frame img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; background: #20292c; filter: saturate(.9) contrast(1.04); transition: filter .5s; }
+.muse-frame:hover img { filter: saturate(1.05) contrast(1.04); }
 .muse-number { position: absolute; bottom: 7px; right: 7px; padding: 4px 6px; color: #111619; background: #e6f066; font: 10px ui-monospace,monospace; }
 body.design-fanzine-pessoal .muse-name { color: #f0eadb; font: 700 17px/1.2 Georgia,serif; margin: 10px 0 2px; }
 .muse-note { color: #9da9a1; font: 11px/1.4 ui-monospace,monospace; }
